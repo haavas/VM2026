@@ -14,29 +14,29 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
+    "objectID": "posts/Regelendring/index.html",
+    "href": "posts/Regelendring/index.html",
     "title": "Ny poengfordeling for målscore-spørsmålet",
     "section": "",
     "text": "I forrige konkurranse hadde vi et spørsmål om hvor mange mål som ville bli scoret i mesterskapet, og vinneren fikk 30 poeng — alt eller ingenting. Det ga en litt brutal opplevelse: bommet du med ett mål var du like langt fra premien som han som bommet med femti.\nTil neste konkurranse fordeler vi poengene basert på hvor nær du var fasiten. De som treffer godt får mye, de som bommer stygt får lite, men alle får noe."
   },
   {
-    "objectID": "posts/post-with-code/index.html#fem-måter-å-gjøre-det-på",
-    "href": "posts/post-with-code/index.html#fem-måter-å-gjøre-det-på",
+    "objectID": "posts/Regelendring/index.html#fem-måter-å-gjøre-det-på",
+    "href": "posts/Regelendring/index.html#fem-måter-å-gjøre-det-på",
     "title": "Ny poengfordeling for målscore-spørsmålet",
     "section": "Fem måter å gjøre det på",
     "text": "Fem måter å gjøre det på\nJeg har vurdert fem ulike metoder. Alle har samme tak (30 poeng for perfekt gjett, bortsett fra “Proporsjonal pott” som fordeler en pott på 100 poeng totalt).\n\n\n\n\n\n\n\n\n\nLineær med tak har en hard kant — bommer du 14 unna får du 2 poeng, bommer du 16 unna får du null. Enkel å forklare, men litt urettferdig på grensen.\nEksponentiell faller jevnt og glatt. Selv den som bommer mye får et lite plaster på såret. Én parameter (λ) styrer hvor strengt det skal gå.\nNormalfordeling er strammere rundt fasiten. Du må være ganske nær for å få mange poeng — bra hvis vi vil belønne presisjon ekstra hardt.\nRangbasert avhenger ikke av hvor godt alle gjettet, bare rekkefølgen. Selv om alle bommer med 50 mål, får noen 30 poeng. Trygt, men gir mindre belønning for faktisk presisjon.\nProporsjonal pott fordeler en fast pott (100 poeng) basert på relativ nærhet. Skalerer annerledes, men prinsippet er det samme."
   },
   {
-    "objectID": "posts/post-with-code/index.html#hva-valget-betyr-i-praksis",
-    "href": "posts/post-with-code/index.html#hva-valget-betyr-i-praksis",
+    "objectID": "posts/Regelendring/index.html#hva-valget-betyr-i-praksis",
+    "href": "posts/Regelendring/index.html#hva-valget-betyr-i-praksis",
     "title": "Ny poengfordeling for målscore-spørsmålet",
     "section": "Hva valget betyr i praksis",
     "text": "Hva valget betyr i praksis\nLa oss se hvordan syv hypotetiske deltakere ville fått betalt under hver metode, gitt fasit = 117:\n\n\n\n\n\nDeltaker\nGjett\nAvvik\nLineær\nEksponentiell\nNormal\nRang\nPott\n\n\n\n\nHalvard\n117\n0\n30\n30.0\n30.0\n30.0\n52.2\n\n\nFelix\n119\n2\n26\n20.1\n27.7\n25.7\n17.4\n\n\nNina\n113\n4\n22\n13.5\n21.8\n21.4\n10.4\n\n\nDagfinn\n122\n5\n20\n11.0\n18.2\n17.1\n8.7\n\n\nØyvind\n108\n9\n12\n5.0\n5.9\n12.9\n5.2\n\n\nPhilipp\n130\n13\n4\n2.2\n1.0\n8.6\n3.7\n\n\nJon\n95\n22\n0\n0.4\n0.0\n4.3\n2.3\n\n\n\n\n\nHalvard treffer blink og får full pott uansett metode. Det interessante skjer i midten: Felix og Nina, som bommer med 2–4 mål, får over 20 poeng under eksponentiell og normal, men under lineær er forskjellen mellom dem og Dagfinn (5 mål unna) mer dramatisk. Jon, som bommer med 22, får null under lineær, men fortsatt en liten uttelling under eksponentiell og rangbasert."
   },
   {
-    "objectID": "posts/post-with-code/index.html#min-anbefaling",
-    "href": "posts/post-with-code/index.html#min-anbefaling",
+    "objectID": "posts/Regelendring/index.html#min-anbefaling",
+    "href": "posts/Regelendring/index.html#min-anbefaling",
     "title": "Ny poengfordeling for målscore-spørsmålet",
     "section": "Min anbefaling",
     "text": "Min anbefaling\nVi går for eksponentiell decay med λ = 5. Tre grunner:\n\nIngen hard cutoff. Selv den som bommer mye får noe — ingen sitter med null hele turneringen.\nÉn parameter å kalibrere. Lavere λ = strengere, høyere λ = mildere. Lett å justere før neste konkurranse.\nLett å forklare. Poengene halveres for hver ~3.5 mål du bommer (siden λ · ln 2 ≈ 3.5).\n\nFormelen blir altså:\n\\[\n\\text{Poeng} = 30 \\cdot \\exp\\left(-\\frac{|\\text{gjett} - \\text{fasit}|}{5}\\right)\n\\]\nEller i R, hvis noen vil regne på sitt eget gjett:\n\npoeng &lt;- 30 * exp(-abs(gjett - fasit) / 5)\n\nKlar for neste mesterskap."
