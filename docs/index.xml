@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>World Cup Competition 2026</title>
+<link>https://haavas.github.io/VM2026/</link>
+<atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
+<description>Political Science World Cup Prediction Competition</description>
+<generator>quarto-1.9.36</generator>
+<lastBuildDate>Sat, 25 Apr 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Ny poengfordeling for målscore-spørsmålet</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/Regelendring/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I forrige konkurranse hadde vi et spørsmål om hvor mange mål som ville bli scoret i mesterskapet, og vinneren fikk 30 poeng — alt eller ingenting. Det ga en litt brutal opplevelse: bommet du med ett mål var du like langt fra premien som han som bommet med femti.</p>
+<p>Til neste konkurranse fordeler vi poengene basert på <em>hvor nær</em> du var fasiten. De som treffer godt får mye, de som bommer stygt får lite, men alle får noe.</p>
+<section id="fem-måter-å-gjøre-det-på" class="level2">
+<h2 class="anchored" data-anchor-id="fem-måter-å-gjøre-det-på">Fem måter å gjøre det på</h2>
+<p>Jeg har vurdert fem ulike metoder. Alle har samme tak (30 poeng for perfekt gjett, bortsett fra “Proporsjonal pott” som fordeler en pott på 100 poeng totalt).</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/Regelendring/index_files/figure-html/kurver-1.png" class="img-fluid figure-img" width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Lineær med tak</strong> har en hard kant — bommer du 14 unna får du 2 poeng, bommer du 16 unna får du null. Enkel å forklare, men litt urettferdig på grensen.</p>
+<p><strong>Eksponentiell</strong> faller jevnt og glatt. Selv den som bommer mye får et lite plaster på såret. Én parameter (λ) styrer hvor strengt det skal gå.</p>
+<p><strong>Normalfordeling</strong> er strammere rundt fasiten. Du må være ganske nær for å få mange poeng — bra hvis vi vil belønne presisjon ekstra hardt.</p>
+<p><strong>Rangbasert</strong> avhenger ikke av hvor godt alle gjettet, bare rekkefølgen. Selv om alle bommer med 50 mål, får noen 30 poeng. Trygt, men gir mindre belønning for faktisk presisjon.</p>
+<p><strong>Proporsjonal pott</strong> fordeler en fast pott (100 poeng) basert på relativ nærhet. Skalerer annerledes, men prinsippet er det samme.</p>
+</section>
+<section id="hva-valget-betyr-i-praksis" class="level2">
+<h2 class="anchored" data-anchor-id="hva-valget-betyr-i-praksis">Hva valget betyr i praksis</h2>
+<p>La oss se hvordan syv hypotetiske deltakere ville fått betalt under hver metode, gitt fasit = 117:</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Deltaker</th>
+<th style="text-align: right;">Gjett</th>
+<th style="text-align: right;">Avvik</th>
+<th style="text-align: right;">Lineær</th>
+<th style="text-align: right;">Eksponentiell</th>
+<th style="text-align: right;">Normal</th>
+<th style="text-align: right;">Rang</th>
+<th style="text-align: right;">Pott</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Halvard</td>
+<td style="text-align: right;">117</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">30.0</td>
+<td style="text-align: right;">30.0</td>
+<td style="text-align: right;">30.0</td>
+<td style="text-align: right;">52.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Felix</td>
+<td style="text-align: right;">119</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">20.1</td>
+<td style="text-align: right;">27.7</td>
+<td style="text-align: right;">25.7</td>
+<td style="text-align: right;">17.4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nina</td>
+<td style="text-align: right;">113</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">13.5</td>
+<td style="text-align: right;">21.8</td>
+<td style="text-align: right;">21.4</td>
+<td style="text-align: right;">10.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Dagfinn</td>
+<td style="text-align: right;">122</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">11.0</td>
+<td style="text-align: right;">18.2</td>
+<td style="text-align: right;">17.1</td>
+<td style="text-align: right;">8.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Øyvind</td>
+<td style="text-align: right;">108</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">5.0</td>
+<td style="text-align: right;">5.9</td>
+<td style="text-align: right;">12.9</td>
+<td style="text-align: right;">5.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Philipp</td>
+<td style="text-align: right;">130</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2.2</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">8.6</td>
+<td style="text-align: right;">3.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jon</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.4</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">4.3</td>
+<td style="text-align: right;">2.3</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Halvard treffer blink og får full pott uansett metode. Det interessante skjer i midten: Felix og Nina, som bommer med 2–4 mål, får over 20 poeng under eksponentiell og normal, men under lineær er forskjellen mellom dem og Dagfinn (5 mål unna) mer dramatisk. Jon, som bommer med 22, får null under lineær, men fortsatt en liten uttelling under eksponentiell og rangbasert.</p>
+</section>
+<section id="min-anbefaling" class="level2">
+<h2 class="anchored" data-anchor-id="min-anbefaling">Min anbefaling</h2>
+<p>Vi går for <strong>eksponentiell decay</strong> med λ = 5. Tre grunner:</p>
+<ol type="1">
+<li><em>Ingen hard cutoff.</em> Selv den som bommer mye får noe — ingen sitter med null hele turneringen.</li>
+<li><em>Én parameter å kalibrere.</em> Lavere λ = strengere, høyere λ = mildere. Lett å justere før neste konkurranse.</li>
+<li><em>Lett å forklare.</em> Poengene halveres for hver ~3.5 mål du bommer (siden λ · ln 2 ≈ 3.5).</li>
+</ol>
+<p>Formelen blir altså:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Ctext%7BPoeng%7D%20=%2030%20%5Ccdot%20%5Cexp%5Cleft(-%5Cfrac%7B%7C%5Ctext%7Bgjett%7D%20-%20%5Ctext%7Bfasit%7D%7C%7D%7B5%7D%5Cright)%0A"></p>
+<p>Eller i R, hvis noen vil regne på sitt eget gjett:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">poeng <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">30</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">exp</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">abs</span>(gjett <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> fasit) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>)</span></code></pre></div></div>
+</div>
+<p>Klar for neste mesterskap.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>rules</category>
+  <category>update</category>
+  <guid>https://haavas.github.io/VM2026/posts/Regelendring/</guid>
+  <pubDate>Sat, 25 Apr 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://haavas.github.io/VM2026/posts/Regelendring/thumbnail.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Vinner demokratier på fotballbanen?</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/demokrati-og-vm/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Fotball er enkel sport: det handler om å score mål. Men bak hvert mål ligger tiår med investering, talentutvikling og organisering. Er det noen sammenheng mellom landets politiske system og hvor mange mål laget scorer i VM? Det er spørsmålet vi ser på her — ikke fordi vi forventer et dramatisk svar, men fordi veien til svaret tvinger oss til å ta stilling til noen interessante metodiske valg.</p>
+<section id="data-og-design" class="level2">
+<h2 class="anchored" data-anchor-id="data-og-design">Data og design</h2>
+<p>Vi bruker kampdata fra åtte VM-sluttspill, fra USA 1994 til Qatar 2022 — totalt 626 kamper og 1252 lags-observasjoner i analysen. Målscoren er registrert etter 90 (eventuelt 120) minutter; straffekonkurranser er ekskludert.</p>
+<p>Tre kovariater knyttes til hvert lag, hentet fra tre separate kilder:</p>
+<ul>
+<li><strong>FIFA-ranglistepoengsummen</strong> like før turneringen starter (fra Kaggle-datasett med historiske ranglister)</li>
+<li><strong>Befolkningsstørrelse</strong> (log-transformert, fra Verdensbanken via <code>WDI</code>)</li>
+<li><strong>V-Dem Liberal Democracy Index</strong> — et komposittmål for liberalt demokrati som strekker seg fra 0 (minst demokratisk) til 1 (mest demokratisk), fra Varieties of Democracy-prosjektet</li>
+</ul>
+<p>I tillegg kontrollerer vi for om laget spilte <em>hjemme som vertsnasjon</em> og om kampen var en <em>sluttspillkamp</em> (fremfor gruppespillskamp).</p>
+<p>Utfallet modelleres som en tellevariabel (antall mål scored av ett lag i én kamp), noe som gjør Poisson-regresjon til et naturlig valg.</p>
+</section>
+<section id="hvorfor-tilfeldig-effekt" class="level2">
+<h2 class="anchored" data-anchor-id="hvorfor-tilfeldig-effekt">Hvorfor tilfeldig effekt?</h2>
+<p>Her er problemet vi må løse: de to halvdelene av én og samme kamp er ikke uavhengige observasjoner.</p>
+<p>Tenk på en kamp mellom to offensive lag på en dag med dårlig forsvar, dårlig vær, eller en dommer som liker å la spillet gå. Begge lag ender opp med mange mål — ikke fordi de isolert sett er bedre enn modellen tilsier, men fordi <em>akkurat denne kampen</em> var målrik. Et lavmålskamp har den motsatte dynamikken: begge lag scorer lite, fordi det er noe ved denne spesifikke konteksten som hemmer mål.</p>
+<p>Resultatet er en positiv korrelasjon mellom de to lagenes målscorer innenfor en kamp. Ignorerer vi dette, underestimerer vi usikkerheten i estimatene — vi tror vi vet mer enn vi gjør.</p>
+<p>Løsningen er en <em>tilfeldig effekt</em> (random intercept) per kamp:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Clog(%5Cmu_%7Bij%7D)%20=%20%5Cbeta_0%20+%20%5Cmathbf%7Bx%7D_%7Bij%7D%5E%5Ctop%20%5Cboldsymbol%7B%5Cbeta%7D%20+%20u_j,%20%5Cqquad%20u_j%20%5Csim%20%5Cmathcal%7BN%7D(0,%5C,%20%5Csigma%5E2)%0A"></p>
+<p>Her er <img src="https://latex.codecogs.com/png.latex?%5Cmu_%7Bij%7D"> det forventede antall mål for lag <img src="https://latex.codecogs.com/png.latex?i"> i kamp <img src="https://latex.codecogs.com/png.latex?j">, <img src="https://latex.codecogs.com/png.latex?%5Cmathbf%7Bx%7D_%7Bij%7D"> er kovariater for det laget, og <img src="https://latex.codecogs.com/png.latex?u_j"> er en kampspesifikk “mål-vennlighet” som er lik for begge lag i samme kamp. Positive verdier av <img src="https://latex.codecogs.com/png.latex?u_j"> betyr at kampen hadde noe som fremmet mål utover det modellen kan forklare med lagkvalitet; negative verdier betyr det motsatte. Vi estimerer aldri <img src="https://latex.codecogs.com/png.latex?u_j"> direkte — vi integrerer dem bort og lar <img src="https://latex.codecogs.com/png.latex?%5Csigma%5E2"> fortelle oss hvor mye kampspesifikk variasjon det er.</p>
+<p>Dette er en enklere variant av et bivariate Poisson-design (der man modellerer de to lagenes mål som korrelerte tilvekster), men fanger det vesentligste: at kamp-konteksten skaper avhengighet mellom observasjonene.</p>
+</section>
+<section id="modellresultater" class="level2">
+<h2 class="anchored" data-anchor-id="modellresultater">Modellresultater</h2>
+<p>Vi estimerer to modellvarianter. Den <em>begrensede modellen</em> bruker differansen mellom laget og motstanderen for hver kovariat (dvs. <img src="https://latex.codecogs.com/png.latex?%5Ctext%7BFIFA%7D_%7Blag%7D%20-%20%5Ctext%7BFIFA%7D_%7Bmotstander%7D">), noe som tvinger frem en symmetriantagelse: en enhet FIFA-poeng opp hos ditt lag gir nøyaktig samme effekt som én enhet ned hos motstanderen. Den <em>fulle modellen</em> lar de to sidene ha egne koeffisienter.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-koeffisienter" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-koeffisienter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://haavas.github.io/VM2026/posts/demokrati-og-vm/index_files/figure-html/fig-koeffisienter-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-koeffisienter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Eksponentierte koeffisienter fra Poisson mixed model (fulle modellen). Verdier over 1 øker forventet antall mål, verdier under 1 reduserer det. Horisontale linjer viser 95 % konfidensintervall.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div id="tbl-koeffisienter" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-koeffisienter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Poisson mixed model — eksponentierte koeffisienter (rate ratios) med 95 % KI
+</figcaption>
+<div aria-describedby="tbl-koeffisienter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="cell caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 14%">
+<col style="width: 20%">
+<col style="width: 19%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Variabel</th>
+<th style="text-align: right;">Rate ratio</th>
+<th style="text-align: right;">95 % KI (nedre)</th>
+<th style="text-align: right;">95 % KI (øvre)</th>
+<th style="text-align: right;">p-verdi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">FIFA (eget lag)</td>
+<td style="text-align: right;">1.001</td>
+<td style="text-align: right;">1.000</td>
+<td style="text-align: right;">1.001</td>
+<td style="text-align: right;">&lt; 0.001</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FIFA (motstander)</td>
+<td style="text-align: right;">0.999</td>
+<td style="text-align: right;">0.999</td>
+<td style="text-align: right;">1.000</td>
+<td style="text-align: right;">&lt; 0.001</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">log befolkning (eget lag)</td>
+<td style="text-align: right;">1.082</td>
+<td style="text-align: right;">1.038</td>
+<td style="text-align: right;">1.128</td>
+<td style="text-align: right;">&lt; 0.001</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">log befolkning (motstander)</td>
+<td style="text-align: right;">0.947</td>
+<td style="text-align: right;">0.910</td>
+<td style="text-align: right;">0.986</td>
+<td style="text-align: right;">0.008</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">V-Dem LDI (eget lag)</td>
+<td style="text-align: right;">1.601</td>
+<td style="text-align: right;">1.266</td>
+<td style="text-align: right;">2.026</td>
+<td style="text-align: right;">&lt; 0.001</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">V-Dem LDI (motstander)</td>
+<td style="text-align: right;">0.595</td>
+<td style="text-align: right;">0.487</td>
+<td style="text-align: right;">0.727</td>
+<td style="text-align: right;">&lt; 0.001</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Vertsnasjon</td>
+<td style="text-align: right;">1.102</td>
+<td style="text-align: right;">0.819</td>
+<td style="text-align: right;">1.482</td>
+<td style="text-align: right;">0.522</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sluttspillkamp</td>
+<td style="text-align: right;">1.047</td>
+<td style="text-align: right;">0.931</td>
+<td style="text-align: right;">1.178</td>
+<td style="text-align: right;">0.445</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p>Som ventet er <strong>FIFA-ranglistepoengsummen</strong> den klart sterkeste prediktoren. Et lag med høy FIFA-poengsum scorer mer — og møter de et lag med høy FIFA-sum er effekten motsatt. Alt dette er fornuftig: FIFA-ranglisten er designet for å oppsummere akkurat den informasjonen.</p>
+<p><strong>Sluttspillkamper</strong> produserer litt færre mål. Det er også som forventet: lag spiller mer defensivt når et tap er terminalt.</p>
+<p><strong>Vertsnasjon-fordelen</strong> er positiv, men usikker.</p>
+</section>
+<section id="demokrativariabelen-i-fokus" class="level2">
+<h2 class="anchored" data-anchor-id="demokrativariabelen-i-fokus">Demokrativariabelen i fokus</h2>
+<p>Nå til det vi egentlig ville vite: betyr det noe om laget kommer fra et demokrati?</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-demokrati" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-demokrati-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://haavas.github.io/VM2026/posts/demokrati-og-vm/index_files/figure-html/fig-demokrati-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-demokrati-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Forventet antall mål som funksjon av V-Dem Liberal Democracy Index for eget lag, med motstanderen holdt på medianen. Grå bånd er 95 % prediksjonsintervall for den faste delen av modellen.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>I Poisson-modellen er koeffisientene på log-skalaen. Den eksponentierte koeffisienten er en <em>rate ratio</em>: den forteller hvor mange ganger forventet antall mål endres når prediktoren øker med én enhet.</p>
+<p>For V-Dem LDI betyr dette: én enhets økning i demokratiindeksen (fra 0 til 1, dvs. fra det minst til det mest demokratiske) multipliserer forventet målscoring med den eksponentierte koeffisienten. Siden V-Dem går fra 0 til 1, er dette en fullstendig gjennomgang av skalaen — fra Qatar til Norge.</p>
+<p>Rate ratio for V-Dem LDI (eget lag) er <strong>1.601</strong> (95 % KI: 1.266–2.026, p = &lt; 0.001).</p>
+<p>Hva betyr dette i praksis? Sammenlign to lag med identisk FIFA-rangering og befolkningsstørrelse, men der det ene laget er et fullt demokrati (V-Dem ≈ 0.85, som Norge eller Sverige) og det andre er et autoritært regime (V-Dem ≈ 0.15, som Saudi-Arabia eller Kina). Ifølge modellen scorer det demokratiske laget omtrent 60&nbsp;% flere mål enn det autoritære — alt annet likt.</p>
+<p>Men “alt annet likt” er det viktige forbeholdet. FIFA-ranglisten fanger allerede mye av den informasjonen som er relevant for kampkvalitet: treningsfasiliteter, forbundskvalitet, spillerbase. Demokrativariabelen spiller en rolle <em>utover</em> det FIFA-ranglisten allerede fanger, men det er et smalere spørsmål enn “er demokratier bedre til fotball?”</p>
+<section id="hva-kan-forklare-effekten" class="level3">
+<h3 class="anchored" data-anchor-id="hva-kan-forklare-effekten">Hva kan forklare effekten?</h3>
+<p>Det er minst tre mekanismer som kan gi en sammenheng mellom demokrati og VM-mål:</p>
+<ol type="1">
+<li><strong>Talentdistribusjon</strong>: I mer åpne samfunn er det lettere for barn fra alle bakgrunner å bli oppdaget og utviklet. Autoritære regimer kanaliserer ressurser sentralt, men mister bredden.</li>
+<li><strong>Institusjonell autonomi</strong>: Demokratiske fotballforbund opererer gjerne med mer institusjonell uavhengighet fra politisk press. Trenervalgene gjøres av sportsfolk, ikke politikere.</li>
+<li><strong>Spuriøs samvariasjon</strong>: Demokrati korrelerer med BNP, humankapital og stabilt styresett — faktorer som alle kan påvirke fotballkvalitet, men som vi ikke fullt ut kontrollerer for.</li>
+</ol>
+<p>Modellen kan ikke skille mellom disse forklaringene. Det vi kan si er at effekten, <em>gitt FIFA-poengsum og befolkningsstørrelse</em>, er statistisk signifikant.</p>
+</section>
+</section>
+<section id="begrensninger" class="level2">
+<h2 class="anchored" data-anchor-id="begrensninger">Begrensninger</h2>
+<p>Et par åpenbare forbehold:</p>
+<p><strong>Seleksjonsskjevhet</strong>: Bare lag som kvalifiserer seg til VM inngår. Svake diktaturer (og svake demokratier) er sjeldnere representert. Vi ser på regimet blant de beste lagene i verden, ikke blant alle lag.</p>
+<p><strong>FIFA-ranglisten absorberer mye</strong>: Ranglisten er oppdatert like før turneringen og reflekterer allerede lagets form og organisering. Demokrativariabelen konkurrerer om variasjon med en meget presis prediktor.</p>
+<p><strong>Effekter over tid</strong>: V-Dem-indeksen varierer ikke bare på tvers av land, men også over tid. Saudi-Arabia i 1994 og Saudi-Arabia i 2022 er ulike. Modellen behandler alle år likt.</p>
+</section>
+<section id="oppsummering" class="level2">
+<h2 class="anchored" data-anchor-id="oppsummering">Oppsummering</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Modell</strong></td>
+<td>Poisson mixed model med kampspesifikk random intercept</td>
+</tr>
+<tr class="even">
+<td><strong>Sample</strong></td>
+<td>VM 1994–2022, 626 kamper, 1252 observasjoner</td>
+</tr>
+<tr class="odd">
+<td><strong>Sterkeste prediktor</strong></td>
+<td>FIFA-rangliste (som forventet)</td>
+</tr>
+<tr class="even">
+<td><strong>Demokratieffekt</strong></td>
+<td>Rate ratio 1.601 (V-Dem LDI, eget lag)</td>
+</tr>
+<tr class="odd">
+<td><strong>Random intercept</strong></td>
+<td>Fanger kampspesifikk mål-vennlighet; håndterer korrelasjon innen kamp</td>
+</tr>
+</tbody>
+</table>
+<p>Den tilfeldig effekten er ikke bare statistisk støy — den er et substansielt grep for å anerkjenne at to halvdeler av en kamp ikke er uavhengige. Og demokrativariabelen? Den sier noe interessant, men neppe noe avgjørende, om hva som gjør et VM-lag godt. Til VM 2026 vil det uansett være FIFA-poengsummen som teller mest.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>analyse</category>
+  <category>metode</category>
+  <category>demokrati</category>
+  <guid>https://haavas.github.io/VM2026/posts/demokrati-og-vm/</guid>
+  <pubDate>Sat, 25 Apr 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Welcome To My Blog</title>
+  <dc:creator>Tristan O&#39;Malley</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is the first post in a Quarto blog. Welcome!</p>
+<p><img src="https://haavas.github.io/VM2026/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://haavas.github.io/VM2026/posts/welcome/</guid>
+  <pubDate>Tue, 21 Apr 2026 22:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

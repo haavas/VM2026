@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/demokrati-og-vm/index.html",
+    "href": "posts/demokrati-og-vm/index.html",
+    "title": "Vinner demokratier på fotballbanen?",
+    "section": "",
+    "text": "Fotball er enkel sport: det handler om å score mål. Men bak hvert mål ligger tiår med investering, talentutvikling og organisering. Er det noen sammenheng mellom landets politiske system og hvor mange mål laget scorer i VM? Det er spørsmålet vi ser på her — ikke fordi vi forventer et dramatisk svar, men fordi veien til svaret tvinger oss til å ta stilling til noen interessante metodiske valg."
+  },
+  {
+    "objectID": "posts/demokrati-og-vm/index.html#data-og-design",
+    "href": "posts/demokrati-og-vm/index.html#data-og-design",
+    "title": "Vinner demokratier på fotballbanen?",
+    "section": "Data og design",
+    "text": "Data og design\nVi bruker kampdata fra åtte VM-sluttspill, fra USA 1994 til Qatar 2022 — totalt 626 kamper og 1252 lags-observasjoner i analysen. Målscoren er registrert etter 90 (eventuelt 120) minutter; straffekonkurranser er ekskludert.\nTre kovariater knyttes til hvert lag, hentet fra tre separate kilder:\n\nFIFA-ranglistepoengsummen like før turneringen starter (fra Kaggle-datasett med historiske ranglister)\nBefolkningsstørrelse (log-transformert, fra Verdensbanken via WDI)\nV-Dem Liberal Democracy Index — et komposittmål for liberalt demokrati som strekker seg fra 0 (minst demokratisk) til 1 (mest demokratisk), fra Varieties of Democracy-prosjektet\n\nI tillegg kontrollerer vi for om laget spilte hjemme som vertsnasjon og om kampen var en sluttspillkamp (fremfor gruppespillskamp).\nUtfallet modelleres som en tellevariabel (antall mål scored av ett lag i én kamp), noe som gjør Poisson-regresjon til et naturlig valg."
+  },
+  {
+    "objectID": "posts/demokrati-og-vm/index.html#hvorfor-tilfeldig-effekt",
+    "href": "posts/demokrati-og-vm/index.html#hvorfor-tilfeldig-effekt",
+    "title": "Vinner demokratier på fotballbanen?",
+    "section": "Hvorfor tilfeldig effekt?",
+    "text": "Hvorfor tilfeldig effekt?\nHer er problemet vi må løse: de to halvdelene av én og samme kamp er ikke uavhengige observasjoner.\nTenk på en kamp mellom to offensive lag på en dag med dårlig forsvar, dårlig vær, eller en dommer som liker å la spillet gå. Begge lag ender opp med mange mål — ikke fordi de isolert sett er bedre enn modellen tilsier, men fordi akkurat denne kampen var målrik. Et lavmålskamp har den motsatte dynamikken: begge lag scorer lite, fordi det er noe ved denne spesifikke konteksten som hemmer mål.\nResultatet er en positiv korrelasjon mellom de to lagenes målscorer innenfor en kamp. Ignorerer vi dette, underestimerer vi usikkerheten i estimatene — vi tror vi vet mer enn vi gjør.\nLøsningen er en tilfeldig effekt (random intercept) per kamp:\n\\[\n\\log(\\mu_{ij}) = \\beta_0 + \\mathbf{x}_{ij}^\\top \\boldsymbol{\\beta} + u_j, \\qquad u_j \\sim \\mathcal{N}(0,\\, \\sigma^2)\n\\]\nHer er \\(\\mu_{ij}\\) det forventede antall mål for lag \\(i\\) i kamp \\(j\\), \\(\\mathbf{x}_{ij}\\) er kovariater for det laget, og \\(u_j\\) er en kampspesifikk “mål-vennlighet” som er lik for begge lag i samme kamp. Positive verdier av \\(u_j\\) betyr at kampen hadde noe som fremmet mål utover det modellen kan forklare med lagkvalitet; negative verdier betyr det motsatte. Vi estimerer aldri \\(u_j\\) direkte — vi integrerer dem bort og lar \\(\\sigma^2\\) fortelle oss hvor mye kampspesifikk variasjon det er.\nDette er en enklere variant av et bivariate Poisson-design (der man modellerer de to lagenes mål som korrelerte tilvekster), men fanger det vesentligste: at kamp-konteksten skaper avhengighet mellom observasjonene."
+  },
+  {
+    "objectID": "posts/demokrati-og-vm/index.html#modellresultater",
+    "href": "posts/demokrati-og-vm/index.html#modellresultater",
+    "title": "Vinner demokratier på fotballbanen?",
+    "section": "Modellresultater",
+    "text": "Modellresultater\nVi estimerer to modellvarianter. Den begrensede modellen bruker differansen mellom laget og motstanderen for hver kovariat (dvs. \\(\\text{FIFA}_{lag} - \\text{FIFA}_{motstander}\\)), noe som tvinger frem en symmetriantagelse: en enhet FIFA-poeng opp hos ditt lag gir nøyaktig samme effekt som én enhet ned hos motstanderen. Den fulle modellen lar de to sidene ha egne koeffisienter.\n\n\n\n\n\n\n\n\nFigure 1: Eksponentierte koeffisienter fra Poisson mixed model (fulle modellen). Verdier over 1 øker forventet antall mål, verdier under 1 reduserer det. Horisontale linjer viser 95 % konfidensintervall.\n\n\n\n\n\n\n\n\n\nTable 1: Poisson mixed model — eksponentierte koeffisienter (rate ratios) med 95 % KI\n\n\n\n\n\n\n\n\n\n\n\n\n\nVariabel\nRate ratio\n95 % KI (nedre)\n95 % KI (øvre)\np-verdi\n\n\n\n\nFIFA (eget lag)\n1.001\n1.000\n1.001\n&lt; 0.001\n\n\nFIFA (motstander)\n0.999\n0.999\n1.000\n&lt; 0.001\n\n\nlog befolkning (eget lag)\n1.082\n1.038\n1.128\n&lt; 0.001\n\n\nlog befolkning (motstander)\n0.947\n0.910\n0.986\n0.008\n\n\nV-Dem LDI (eget lag)\n1.601\n1.266\n2.026\n&lt; 0.001\n\n\nV-Dem LDI (motstander)\n0.595\n0.487\n0.727\n&lt; 0.001\n\n\nVertsnasjon\n1.102\n0.819\n1.482\n0.522\n\n\nSluttspillkamp\n1.047\n0.931\n1.178\n0.445\n\n\n\n\n\n\n\n\nSom ventet er FIFA-ranglistepoengsummen den klart sterkeste prediktoren. Et lag med høy FIFA-poengsum scorer mer — og møter de et lag med høy FIFA-sum er effekten motsatt. Alt dette er fornuftig: FIFA-ranglisten er designet for å oppsummere akkurat den informasjonen.\nSluttspillkamper produserer litt færre mål. Det er også som forventet: lag spiller mer defensivt når et tap er terminalt.\nVertsnasjon-fordelen er positiv, men usikker."
+  },
+  {
+    "objectID": "posts/demokrati-og-vm/index.html#demokrativariabelen-i-fokus",
+    "href": "posts/demokrati-og-vm/index.html#demokrativariabelen-i-fokus",
+    "title": "Vinner demokratier på fotballbanen?",
+    "section": "Demokrativariabelen i fokus",
+    "text": "Demokrativariabelen i fokus\nNå til det vi egentlig ville vite: betyr det noe om laget kommer fra et demokrati?\n\n\n\n\n\n\n\n\nFigure 2: Forventet antall mål som funksjon av V-Dem Liberal Democracy Index for eget lag, med motstanderen holdt på medianen. Grå bånd er 95 % prediksjonsintervall for den faste delen av modellen.\n\n\n\n\n\nI Poisson-modellen er koeffisientene på log-skalaen. Den eksponentierte koeffisienten er en rate ratio: den forteller hvor mange ganger forventet antall mål endres når prediktoren øker med én enhet.\nFor V-Dem LDI betyr dette: én enhets økning i demokratiindeksen (fra 0 til 1, dvs. fra det minst til det mest demokratiske) multipliserer forventet målscoring med den eksponentierte koeffisienten. Siden V-Dem går fra 0 til 1, er dette en fullstendig gjennomgang av skalaen — fra Qatar til Norge.\nRate ratio for V-Dem LDI (eget lag) er 1.601 (95 % KI: 1.266–2.026, p = &lt; 0.001).\nHva betyr dette i praksis? Sammenlign to lag med identisk FIFA-rangering og befolkningsstørrelse, men der det ene laget er et fullt demokrati (V-Dem ≈ 0.85, som Norge eller Sverige) og det andre er et autoritært regime (V-Dem ≈ 0.15, som Saudi-Arabia eller Kina). Ifølge modellen scorer det demokratiske laget omtrent 60 % flere mål enn det autoritære — alt annet likt.\nMen “alt annet likt” er det viktige forbeholdet. FIFA-ranglisten fanger allerede mye av den informasjonen som er relevant for kampkvalitet: treningsfasiliteter, forbundskvalitet, spillerbase. Demokrativariabelen spiller en rolle utover det FIFA-ranglisten allerede fanger, men det er et smalere spørsmål enn “er demokratier bedre til fotball?”\n\nHva kan forklare effekten?\nDet er minst tre mekanismer som kan gi en sammenheng mellom demokrati og VM-mål:\n\nTalentdistribusjon: I mer åpne samfunn er det lettere for barn fra alle bakgrunner å bli oppdaget og utviklet. Autoritære regimer kanaliserer ressurser sentralt, men mister bredden.\nInstitusjonell autonomi: Demokratiske fotballforbund opererer gjerne med mer institusjonell uavhengighet fra politisk press. Trenervalgene gjøres av sportsfolk, ikke politikere.\nSpuriøs samvariasjon: Demokrati korrelerer med BNP, humankapital og stabilt styresett — faktorer som alle kan påvirke fotballkvalitet, men som vi ikke fullt ut kontrollerer for.\n\nModellen kan ikke skille mellom disse forklaringene. Det vi kan si er at effekten, gitt FIFA-poengsum og befolkningsstørrelse, er statistisk signifikant."
+  },
+  {
+    "objectID": "posts/demokrati-og-vm/index.html#begrensninger",
+    "href": "posts/demokrati-og-vm/index.html#begrensninger",
+    "title": "Vinner demokratier på fotballbanen?",
+    "section": "Begrensninger",
+    "text": "Begrensninger\nEt par åpenbare forbehold:\nSeleksjonsskjevhet: Bare lag som kvalifiserer seg til VM inngår. Svake diktaturer (og svake demokratier) er sjeldnere representert. Vi ser på regimet blant de beste lagene i verden, ikke blant alle lag.\nFIFA-ranglisten absorberer mye: Ranglisten er oppdatert like før turneringen og reflekterer allerede lagets form og organisering. Demokrativariabelen konkurrerer om variasjon med en meget presis prediktor.\nEffekter over tid: V-Dem-indeksen varierer ikke bare på tvers av land, men også over tid. Saudi-Arabia i 1994 og Saudi-Arabia i 2022 er ulike. Modellen behandler alle år likt."
+  },
+  {
+    "objectID": "posts/demokrati-og-vm/index.html#oppsummering",
+    "href": "posts/demokrati-og-vm/index.html#oppsummering",
+    "title": "Vinner demokratier på fotballbanen?",
+    "section": "Oppsummering",
+    "text": "Oppsummering\n\n\n\n\n\n\n\nModell\nPoisson mixed model med kampspesifikk random intercept\n\n\nSample\nVM 1994–2022, 626 kamper, 1252 observasjoner\n\n\nSterkeste prediktor\nFIFA-rangliste (som forventet)\n\n\nDemokratieffekt\nRate ratio 1.601 (V-Dem LDI, eget lag)\n\n\nRandom intercept\nFanger kampspesifikk mål-vennlighet; håndterer korrelasjon innen kamp\n\n\n\nDen tilfeldig effekten er ikke bare statistisk støy — den er et substansielt grep for å anerkjenne at to halvdeler av en kamp ikke er uavhengige. Og demokrativariabelen? Den sier noe interessant, men neppe noe avgjørende, om hva som gjør et VM-lag godt. Til VM 2026 vil det uansett være FIFA-poengsummen som teller mest."
+  },
+  {
+    "objectID": "posts/Regelendring/index.html",
+    "href": "posts/Regelendring/index.html",
+    "title": "Ny poengfordeling for målscore-spørsmålet",
+    "section": "",
+    "text": "I forrige konkurranse hadde vi et spørsmål om hvor mange mål som ville bli scoret i mesterskapet, og vinneren fikk 30 poeng — alt eller ingenting. Det ga en litt brutal opplevelse: bommet du med ett mål var du like langt fra premien som han som bommet med femti.\nTil neste konkurranse fordeler vi poengene basert på hvor nær du var fasiten. De som treffer godt får mye, de som bommer stygt får lite, men alle får noe."
+  },
+  {
+    "objectID": "posts/Regelendring/index.html#fem-måter-å-gjøre-det-på",
+    "href": "posts/Regelendring/index.html#fem-måter-å-gjøre-det-på",
+    "title": "Ny poengfordeling for målscore-spørsmålet",
+    "section": "Fem måter å gjøre det på",
+    "text": "Fem måter å gjøre det på\nJeg har vurdert fem ulike metoder. Alle har samme tak (30 poeng for perfekt gjett, bortsett fra “Proporsjonal pott” som fordeler en pott på 100 poeng totalt).\n\n\n\n\n\n\n\n\n\nLineær med tak har en hard kant — bommer du 14 unna får du 2 poeng, bommer du 16 unna får du null. Enkel å forklare, men litt urettferdig på grensen.\nEksponentiell faller jevnt og glatt. Selv den som bommer mye får et lite plaster på såret. Én parameter (λ) styrer hvor strengt det skal gå.\nNormalfordeling er strammere rundt fasiten. Du må være ganske nær for å få mange poeng — bra hvis vi vil belønne presisjon ekstra hardt.\nRangbasert avhenger ikke av hvor godt alle gjettet, bare rekkefølgen. Selv om alle bommer med 50 mål, får noen 30 poeng. Trygt, men gir mindre belønning for faktisk presisjon.\nProporsjonal pott fordeler en fast pott (100 poeng) basert på relativ nærhet. Skalerer annerledes, men prinsippet er det samme."
+  },
+  {
+    "objectID": "posts/Regelendring/index.html#hva-valget-betyr-i-praksis",
+    "href": "posts/Regelendring/index.html#hva-valget-betyr-i-praksis",
+    "title": "Ny poengfordeling for målscore-spørsmålet",
+    "section": "Hva valget betyr i praksis",
+    "text": "Hva valget betyr i praksis\nLa oss se hvordan syv hypotetiske deltakere ville fått betalt under hver metode, gitt fasit = 117:\n\n\n\n\n\nDeltaker\nGjett\nAvvik\nLineær\nEksponentiell\nNormal\nRang\nPott\n\n\n\n\nHalvard\n117\n0\n30\n30.0\n30.0\n30.0\n52.2\n\n\nFelix\n119\n2\n26\n20.1\n27.7\n25.7\n17.4\n\n\nNina\n113\n4\n22\n13.5\n21.8\n21.4\n10.4\n\n\nDagfinn\n122\n5\n20\n11.0\n18.2\n17.1\n8.7\n\n\nØyvind\n108\n9\n12\n5.0\n5.9\n12.9\n5.2\n\n\nPhilipp\n130\n13\n4\n2.2\n1.0\n8.6\n3.7\n\n\nJon\n95\n22\n0\n0.4\n0.0\n4.3\n2.3\n\n\n\n\n\nHalvard treffer blink og får full pott uansett metode. Det interessante skjer i midten: Felix og Nina, som bommer med 2–4 mål, får over 20 poeng under eksponentiell og normal, men under lineær er forskjellen mellom dem og Dagfinn (5 mål unna) mer dramatisk. Jon, som bommer med 22, får null under lineær, men fortsatt en liten uttelling under eksponentiell og rangbasert."
+  },
+  {
+    "objectID": "posts/Regelendring/index.html#min-anbefaling",
+    "href": "posts/Regelendring/index.html#min-anbefaling",
+    "title": "Ny poengfordeling for målscore-spørsmålet",
+    "section": "Min anbefaling",
+    "text": "Min anbefaling\nVi går for eksponentiell decay med λ = 5. Tre grunner:\n\nIngen hard cutoff. Selv den som bommer mye får noe — ingen sitter med null hele turneringen.\nÉn parameter å kalibrere. Lavere λ = strengere, høyere λ = mildere. Lett å justere før neste konkurranse.\nLett å forklare. Poengene halveres for hver ~3.5 mål du bommer (siden λ · ln 2 ≈ 3.5).\n\nFormelen blir altså:\n\\[\n\\text{Poeng} = 30 \\cdot \\exp\\left(-\\frac{|\\text{gjett} - \\text{fasit}|}{5}\\right)\n\\]\nEller i R, hvis noen vil regne på sitt eget gjett:\n\npoeng &lt;- 30 * exp(-abs(gjett - fasit) / 5)\n\nKlar for neste mesterskap."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "VM2026",
+    "section": "",
+    "text": "Noe her?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNy poengfordeling for målscore-spørsmålet\n\n\n\n\n\n\nrules\n\nupdate\n\n\n\n\n\n\n\n\n\nApr 26, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nVinner demokratier på fotballbanen?\n\n\nEn statistisk analyse av mål og regime i VM 1994–2022\n\n\n\nanalyse\n\nmetode\n\ndemokrati\n\n\n\n\n\n\n\n\n\nApr 26, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 22, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  }
+]
