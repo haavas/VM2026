@@ -245,7 +245,7 @@ Nøkkelforskjellen: $u_j$ er *delt mellom de to lagene i samme kamp*. Det betyr 
 ```{r}
 #| label: sigma-utregning
 
-re_var   <- as.data.frame(VarCorr(mod_full))$vcov[1]
+re_var   <- VarCorr(mod_full)$cond$match_id[1, 1]
 re_sd    <- sqrt(re_var)
 mult_1sd <- round(exp(re_sd), 2)
 ```
