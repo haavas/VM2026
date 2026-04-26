@@ -10,10 +10,10 @@
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Fri, 24 Apr 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 25 Apr 2026 22:00:00 GMT</lastBuildDate>
 <item>
-  <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
+  <title>Ny poengfordeling for målscore-spørsmålet</title>
+  <dc:creator>Håvard Strand</dc:creator>
   <link>https://haavas.github.io/VM2026/posts/post-with-code/</link>
   <description><![CDATA[ 
 
@@ -21,17 +21,164 @@
 
 
 
-<p>This is a post with executable code.</p>
+<p>I forrige konkurranse hadde vi et spørsmål om hvor mange mål som ville bli scoret i mesterskapet, og vinneren fikk 30 poeng — alt eller ingenting. Det ga en litt brutal opplevelse: bommet du med ett mål var du like langt fra premien som han som bommet med femti.</p>
+<p>Til neste konkurranse fordeler vi poengene basert på <em>hvor nær</em> du var fasiten. De som treffer godt får mye, de som bommer stygt får lite, men alle får noe.</p>
+<section id="fem-måter-å-gjøre-det-på" class="level2">
+<h2 class="anchored" data-anchor-id="fem-måter-å-gjøre-det-på">Fem måter å gjøre det på</h2>
+<p>Jeg har vurdert fem ulike metoder. Alle har samme tak (30 poeng for perfekt gjett, bortsett fra “Proporsjonal pott” som fordeler en pott på 100 poeng totalt).</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/post-with-code/index_files/figure-html/kurver-1.png" class="img-fluid figure-img" width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Lineær med tak</strong> har en hard kant — bommer du 14 unna får du 2 poeng, bommer du 16 unna får du null. Enkel å forklare, men litt urettferdig på grensen.</p>
+<p><strong>Eksponentiell</strong> faller jevnt og glatt. Selv den som bommer mye får et lite plaster på såret. Én parameter (λ) styrer hvor strengt det skal gå.</p>
+<p><strong>Normalfordeling</strong> er strammere rundt fasiten. Du må være ganske nær for å få mange poeng — bra hvis vi vil belønne presisjon ekstra hardt.</p>
+<p><strong>Rangbasert</strong> avhenger ikke av hvor godt alle gjettet, bare rekkefølgen. Selv om alle bommer med 50 mål, får noen 30 poeng. Trygt, men gir mindre belønning for faktisk presisjon.</p>
+<p><strong>Proporsjonal pott</strong> fordeler en fast pott (100 poeng) basert på relativ nærhet. Skalerer annerledes, men prinsippet er det samme.</p>
+</section>
+<section id="hva-valget-betyr-i-praksis" class="level2">
+<h2 class="anchored" data-anchor-id="hva-valget-betyr-i-praksis">Hva valget betyr i praksis</h2>
+<p>La oss se hvordan syv hypotetiske deltakere ville fått betalt under hver metode, gitt fasit = 117:</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Deltaker</th>
+<th style="text-align: right;">Gjett</th>
+<th style="text-align: right;">Avvik</th>
+<th style="text-align: right;">Lineær</th>
+<th style="text-align: right;">Eksponentiell</th>
+<th style="text-align: right;">Normal</th>
+<th style="text-align: right;">Rang</th>
+<th style="text-align: right;">Pott</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Halvard</td>
+<td style="text-align: right;">117</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">30.0</td>
+<td style="text-align: right;">30.0</td>
+<td style="text-align: right;">30.0</td>
+<td style="text-align: right;">52.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Felix</td>
+<td style="text-align: right;">119</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">20.1</td>
+<td style="text-align: right;">27.7</td>
+<td style="text-align: right;">25.7</td>
+<td style="text-align: right;">17.4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nina</td>
+<td style="text-align: right;">113</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">13.5</td>
+<td style="text-align: right;">21.8</td>
+<td style="text-align: right;">21.4</td>
+<td style="text-align: right;">10.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Dagfinn</td>
+<td style="text-align: right;">122</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">11.0</td>
+<td style="text-align: right;">18.2</td>
+<td style="text-align: right;">17.1</td>
+<td style="text-align: right;">8.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Øyvind</td>
+<td style="text-align: right;">108</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">5.0</td>
+<td style="text-align: right;">5.9</td>
+<td style="text-align: right;">12.9</td>
+<td style="text-align: right;">5.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Philipp</td>
+<td style="text-align: right;">130</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2.2</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">8.6</td>
+<td style="text-align: right;">3.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jon</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.4</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">4.3</td>
+<td style="text-align: right;">2.3</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Halvard treffer blink og får full pott uansett metode. Det interessante skjer i midten: Felix og Nina, som bommer med 2–4 mål, får over 20 poeng under eksponentiell og normal, men under lineær er forskjellen mellom dem og Dagfinn (5 mål unna) mer dramatisk. Jon, som bommer med 22, får null under lineær, men fortsatt en liten uttelling under eksponentiell og rangbasert.</p>
+</section>
+<section id="min-anbefaling" class="level2">
+<h2 class="anchored" data-anchor-id="min-anbefaling">Min anbefaling</h2>
+<p>Vi går for <strong>eksponentiell decay</strong> med λ = 5. Tre grunner:</p>
+<ol type="1">
+<li><em>Ingen hard cutoff.</em> Selv den som bommer mye får noe — ingen sitter med null hele turneringen.</li>
+<li><em>Én parameter å kalibrere.</em> Lavere λ = strengere, høyere λ = mildere. Lett å justere før neste konkurranse.</li>
+<li><em>Lett å forklare.</em> Poengene halveres for hver ~3.5 mål du bommer (siden λ · ln 2 ≈ 3.5).</li>
+</ol>
+<p>Formelen blir altså:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Ctext%7BPoeng%7D%20=%2030%20%5Ccdot%20%5Cexp%5Cleft(-%5Cfrac%7B%7C%5Ctext%7Bgjett%7D%20-%20%5Ctext%7Bfasit%7D%7C%7D%7B5%7D%5Cright)%0A"></p>
+<p>Eller i R, hvis noen vil regne på sitt eget gjett:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">poeng <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">30</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">exp</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">abs</span>(gjett <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> fasit) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>)</span></code></pre></div></div>
+</div>
+<p>Klar for neste mesterskap.</p>
 
 
+</section>
 
  ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
+  <category>rules</category>
+  <category>update</category>
   <guid>https://haavas.github.io/VM2026/posts/post-with-code/</guid>
-  <pubDate>Fri, 24 Apr 2026 22:00:00 GMT</pubDate>
-  <media:content url="https://haavas.github.io/VM2026/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+  <pubDate>Sat, 25 Apr 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://haavas.github.io/VM2026/posts/post-with-code/thumbnail.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>Welcome To My Blog</title>

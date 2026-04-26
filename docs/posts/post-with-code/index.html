@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Harlow Malloc">
-<meta name="dcterms.date" content="2026-04-25">
+<meta name="author" content="Håvard Strand">
+<meta name="dcterms.date" content="2026-04-26">
 
-<title>Post With Code – World Cup Competition 2026</title>
+<title>Ny poengfordeling for målscore-spørsmålet – World Cup Competition 2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -24,6 +24,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -73,6 +108,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -119,11 +183,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Post With Code</h1>
+      <h1 class="title">Ny poengfordeling for målscore-spørsmålet</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">news</div>
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
+                <div class="quarto-category">rules</div>
+                <div class="quarto-category">update</div>
               </div>
                   </div>
   </div>
@@ -134,14 +197,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Harlow Malloc </p>
+               <p>Håvard Strand </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">April 25, 2026</p>
+        <p class="date">April 26, 2026</p>
       </div>
     </div>
     
@@ -160,9 +223,141 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is a post with executable code.</p>
+<p>I forrige konkurranse hadde vi et spørsmål om hvor mange mål som ville bli scoret i mesterskapet, og vinneren fikk 30 poeng — alt eller ingenting. Det ga en litt brutal opplevelse: bommet du med ett mål var du like langt fra premien som han som bommet med femti.</p>
+<p>Til neste konkurranse fordeler vi poengene basert på <em>hvor nær</em> du var fasiten. De som treffer godt får mye, de som bommer stygt får lite, men alle får noe.</p>
+<section id="fem-måter-å-gjøre-det-på" class="level2">
+<h2 class="anchored" data-anchor-id="fem-måter-å-gjøre-det-på">Fem måter å gjøre det på</h2>
+<p>Jeg har vurdert fem ulike metoder. Alle har samme tak (30 poeng for perfekt gjett, bortsett fra “Proporsjonal pott” som fordeler en pott på 100 poeng totalt).</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/kurver-1.png" class="img-fluid figure-img" width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Lineær med tak</strong> har en hard kant — bommer du 14 unna får du 2 poeng, bommer du 16 unna får du null. Enkel å forklare, men litt urettferdig på grensen.</p>
+<p><strong>Eksponentiell</strong> faller jevnt og glatt. Selv den som bommer mye får et lite plaster på såret. Én parameter (λ) styrer hvor strengt det skal gå.</p>
+<p><strong>Normalfordeling</strong> er strammere rundt fasiten. Du må være ganske nær for å få mange poeng — bra hvis vi vil belønne presisjon ekstra hardt.</p>
+<p><strong>Rangbasert</strong> avhenger ikke av hvor godt alle gjettet, bare rekkefølgen. Selv om alle bommer med 50 mål, får noen 30 poeng. Trygt, men gir mindre belønning for faktisk presisjon.</p>
+<p><strong>Proporsjonal pott</strong> fordeler en fast pott (100 poeng) basert på relativ nærhet. Skalerer annerledes, men prinsippet er det samme.</p>
+</section>
+<section id="hva-valget-betyr-i-praksis" class="level2">
+<h2 class="anchored" data-anchor-id="hva-valget-betyr-i-praksis">Hva valget betyr i praksis</h2>
+<p>La oss se hvordan syv hypotetiske deltakere ville fått betalt under hver metode, gitt fasit = 117:</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Deltaker</th>
+<th style="text-align: right;">Gjett</th>
+<th style="text-align: right;">Avvik</th>
+<th style="text-align: right;">Lineær</th>
+<th style="text-align: right;">Eksponentiell</th>
+<th style="text-align: right;">Normal</th>
+<th style="text-align: right;">Rang</th>
+<th style="text-align: right;">Pott</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Halvard</td>
+<td style="text-align: right;">117</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">30.0</td>
+<td style="text-align: right;">30.0</td>
+<td style="text-align: right;">30.0</td>
+<td style="text-align: right;">52.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Felix</td>
+<td style="text-align: right;">119</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">20.1</td>
+<td style="text-align: right;">27.7</td>
+<td style="text-align: right;">25.7</td>
+<td style="text-align: right;">17.4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nina</td>
+<td style="text-align: right;">113</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">13.5</td>
+<td style="text-align: right;">21.8</td>
+<td style="text-align: right;">21.4</td>
+<td style="text-align: right;">10.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Dagfinn</td>
+<td style="text-align: right;">122</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">11.0</td>
+<td style="text-align: right;">18.2</td>
+<td style="text-align: right;">17.1</td>
+<td style="text-align: right;">8.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Øyvind</td>
+<td style="text-align: right;">108</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">5.0</td>
+<td style="text-align: right;">5.9</td>
+<td style="text-align: right;">12.9</td>
+<td style="text-align: right;">5.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Philipp</td>
+<td style="text-align: right;">130</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2.2</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">8.6</td>
+<td style="text-align: right;">3.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Jon</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.4</td>
+<td style="text-align: right;">0.0</td>
+<td style="text-align: right;">4.3</td>
+<td style="text-align: right;">2.3</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Halvard treffer blink og får full pott uansett metode. Det interessante skjer i midten: Felix og Nina, som bommer med 2–4 mål, får over 20 poeng under eksponentiell og normal, men under lineær er forskjellen mellom dem og Dagfinn (5 mål unna) mer dramatisk. Jon, som bommer med 22, får null under lineær, men fortsatt en liten uttelling under eksponentiell og rangbasert.</p>
+</section>
+<section id="min-anbefaling" class="level2">
+<h2 class="anchored" data-anchor-id="min-anbefaling">Min anbefaling</h2>
+<p>Vi går for <strong>eksponentiell decay</strong> med λ = 5. Tre grunner:</p>
+<ol type="1">
+<li><em>Ingen hard cutoff.</em> Selv den som bommer mye får noe — ingen sitter med null hele turneringen.</li>
+<li><em>Én parameter å kalibrere.</em> Lavere λ = strengere, høyere λ = mildere. Lett å justere før neste konkurranse.</li>
+<li><em>Lett å forklare.</em> Poengene halveres for hver ~3.5 mål du bommer (siden λ · ln 2 ≈ 3.5).</li>
+</ol>
+<p>Formelen blir altså:</p>
+<p><span class="math display">\[
+\text{Poeng} = 30 \cdot \exp\left(-\frac{|\text{gjett} - \text{fasit}|}{5}\right)
+\]</span></p>
+<p>Eller i R, hvis noen vil regne på sitt eget gjett:</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>poeng <span class="ot">&lt;-</span> <span class="dv">30</span> <span class="sc">*</span> <span class="fu">exp</span>(<span class="sc">-</span><span class="fu">abs</span>(gjett <span class="sc">-</span> fasit) <span class="sc">/</span> <span class="dv">5</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Klar for neste mesterskap.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
