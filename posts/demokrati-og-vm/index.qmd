@@ -167,6 +167,12 @@ mod_diff <- glmmTMB(
   goals ~ fifa_d + logpop_d + vdem_d + is_host + knockout + (1 | match_id),
   family = poisson, data = long
 )
+
+mod_naive <- glmmTMB(
+  goals ~ fifa_team + fifa_opp + logpop_team + logpop_opp +
+    vdem_team + vdem_opp + is_host + knockout,
+  family = poisson, data = long
+)
 ```
 
 Fotball er enkel sport: det handler om å score mål. Men bak hvert mål ligger tiår med investering, talentutvikling og organisering. Er det noen sammenheng mellom landets politiske system og hvor mange mål laget scorer i VM? Det er spørsmålet vi ser på her — ikke fordi vi forventer et dramatisk svar, men fordi veien til svaret tvinger oss til å ta stilling til noen interessante metodiske valg.
@@ -185,23 +191,150 @@ I tillegg kontrollerer vi for om laget spilte *hjemme som vertsnasjon* og om kam
 
 Utfallet modelleres som en tellevariabel (antall mål scored av ett lag i én kamp), noe som gjør Poisson-regresjon til et naturlig valg.
 
-## Hvorfor tilfeldig effekt?
+## Hva gjør tilfeldig effekt — og hva skjer uten den?
 
-Her er problemet vi må løse: de to halvdelene av én og samme kamp er ikke uavhengige observasjoner.
+### Problemet: avhengige observasjoner
 
-Tenk på en kamp mellom to offensive lag på en dag med dårlig forsvar, dårlig vær, eller en dommer som liker å la spillet gå. Begge lag ender opp med mange mål — ikke fordi de isolert sett er bedre enn modellen tilsier, men fordi *akkurat denne kampen* var målrik. Et lavmålskamp har den motsatte dynamikken: begge lag scorer lite, fordi det er noe ved denne spesifikke konteksten som hemmer mål.
+Standard Poisson-regresjon antar at hver observasjon er trukket uavhengig. For oss betyr det at antall mål Brazil scorer, er uavhengig av antall mål som scores mot dem i den samme kampen. Det er åpenbart feil.
 
-Resultatet er en positiv korrelasjon mellom de to lagenes målscorer innenfor en kamp. Ignorerer vi dette, underestimerer vi usikkerheten i estimatene — vi tror vi vet mer enn vi gjør.
+```{r}
+#| label: fig-korrelasjon
+#| fig-cap: "Hjemmelagets og bortelagets målscorer i de samme kampene. Den positive sammenhengen viser at høymålskamper er høymålskamper for begge lag — ikke bare for det ene."
+#| fig-width: 6
+#| fig-height: 4.5
 
-Løsningen er en *tilfeldig effekt* (random intercept) per kamp:
+within_corr <- round(cor(matches$home_goals, matches$away_goals), 2)
+
+ggplot(matches, aes(home_goals, away_goals)) +
+  geom_jitter(alpha = 0.35, width = 0.18, height = 0.18,
+              colour = "#378ADD", size = 1.8) +
+  geom_smooth(method = "lm", se = TRUE, colour = "#1D1D1D", linewidth = 0.8) +
+  labs(
+    x = "Hjemmelagets mål",
+    y = "Bortelagets mål",
+    title = "Mål i VM-kamper er positivt korrelerte innen kamp",
+    subtitle = paste0("Pearson r = ", within_corr,
+                      "  |  VM 1994–2022, n = ", nrow(matches), " kamper")
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(panel.grid.minor = element_blank())
+```
+
+Korrelasjonen er `r within_corr`. Det er ikke stor, men den er konsistent og ikke tilfeldig: det er noe *ved selve kampen* — dommeren, banen, det taktiske opplegget til begge lag, et åpent tempo — som enten fremmer eller hemmer mål for *begge* lag simultant.
+
+Kamp-til-kamp-variasjonen skyldes faktorer som ingen av kovariatene våre fanger. Når vi later som om de to halvdelene av kampen er uavhengige, forteller vi modellen at vi har mer informasjon enn vi egentlig har.
+
+### Modellene side om side
+
+To modeller, bare én linje forskjell:
 
 $$
-\log(\mu_{ij}) = \beta_0 + \mathbf{x}_{ij}^\top \boldsymbol{\beta} + u_j, \qquad u_j \sim \mathcal{N}(0,\, \sigma^2)
+\underbrace{\log(\mu_{ij}) = \beta_0 + \mathbf{x}_{ij}^\top \boldsymbol{\beta}}_{\text{uten tilfeldig effekt}}
+\qquad\qquad
+\underbrace{\log(\mu_{ij}) = \beta_0 + \mathbf{x}_{ij}^\top \boldsymbol{\beta} + u_j}_{\text{med tilfeldig effekt}}
 $$
 
-Her er $\mu_{ij}$ det forventede antall mål for lag $i$ i kamp $j$, $\mathbf{x}_{ij}$ er kovariater for det laget, og $u_j$ er en kampspesifikk "mål-vennlighet" som er lik for begge lag i samme kamp. Positive verdier av $u_j$ betyr at kampen hadde noe som fremmet mål utover det modellen kan forklare med lagkvalitet; negative verdier betyr det motsatte. Vi estimerer aldri $u_j$ direkte — vi integrerer dem bort og lar $\sigma^2$ fortelle oss hvor mye kampspesifikk variasjon det er.
+der $u_j \sim \mathcal{N}(0,\,\sigma^2)$.
 
-Dette er en enklere variant av et bivariate Poisson-design (der man modellerer de to lagenes mål som korrelerte tilvekster), men fanger det vesentligste: at kamp-konteksten skaper avhengighet mellom observasjonene.
+$u_j$ er en kampspesifikk "mål-vennlighet" — ett tall per kamp, lik for begge lagene i kamp $j$. Det er ikke en parameter vi estimerer for å tolke direkte: vi integrerer den bort matematisk og lar $\sigma^2$ oppsummere *hvor mye* kampspesifikk variasjon som eksisterer.
+
+Nøkkelforskjellen: $u_j$ er *delt mellom de to lagene i samme kamp*. Det betyr at de to observasjonene i en kamp er *betinget uavhengige* gitt $u_j$, men *marginalt korrelerte*. Modellen vet at begge halvdelene av kampen bærer fingeravtrykket av den samme kampen.
+
+### Hva $\sigma^2$ forteller oss
+
+```{r}
+#| label: sigma-utregning
+
+re_var   <- as.data.frame(VarCorr(mod_full))$vcov[1]
+re_sd    <- sqrt(re_var)
+mult_1sd <- round(exp(re_sd), 2)
+```
+
+Den estimerte standardavviket for de kampspesifikke interceptene er $\hat\sigma =$ `r round(re_sd, 2)`. Hva betyr det konkret?
+
+En kamp som ligger *ett standardavvik over* gjennomsnittet i "mål-vennlighet" ($u_j = \hat\sigma$) produserer `r mult_1sd` ganger så mange mål som en gjennomsnittskamp, alt annet likt. Det tilsvarer at begge lag scorer omtrent `r mult_1sd`× det modellen ellers ville forutsagt basert på lagkvalitet alene. Kamper ett standardavvik *under* gjennomsnittet produserer tilsvarende $1/`r mult_1sd` \approx `r round(1/mult_1sd, 2)`$ × av det forventede.
+
+### Konsekvenser for inferens: hva skjer uten?
+
+Når modellen uten tilfeldig effekt ser `r nrow(long)` observasjoner, behandler den dem som `r nrow(long)` uavhengige datapunkter. Men halvparten av dem er paret innen kamper. Effektiv informasjon er et sted mellom `r nrow(matches)` (perfekt korrelasjon) og `r nrow(long)` (ingen korrelasjon).
+
+Konsekvensen er at modellen uten tilfeldig effekt *underestimerer standardfeilene* — konfidensintervallene blir for smale og p-verdiene for lave. Vi tror vi vet mer enn vi gjør.
+
+Figuren under sammenligner konfidensintervallene fra de to modellene:
+
+```{r}
+#| label: fig-se-sammenligning
+#| fig-cap: "Konfidensintervaller (95 %) for de faste effektene: modell med random intercept (lilla) mot modell uten (grå). Estimatene er nesten identiske, men modellen uten tilfeldig effekt gir systematisk smalere intervaller."
+#| fig-width: 7.5
+#| fig-height: 4.5
+
+term_labels <- c(
+  fifa_team   = "FIFA (eget lag)",   fifa_opp    = "FIFA (motstander)",
+  logpop_team = "log bef. (eget)",   logpop_opp  = "log bef. (motstander)",
+  vdem_team   = "V-Dem (eget lag)",  vdem_opp    = "V-Dem (motstander)",
+  is_host     = "Vertsnasjon",       knockout    = "Sluttspillkamp"
+)
+
+tidy_naive_comp <- tidy(mod_naive, effects = "fixed", conf.int = TRUE,
+                        exponentiate = TRUE) |>
+  filter(term != "(Intercept)") |>
+  mutate(modell = "Uten random intercept", term = recode(term, !!!term_labels))
+
+tidy_full_comp <- tidy(mod_full, effects = "fixed", conf.int = TRUE,
+                       exponentiate = TRUE) |>
+  filter(term != "(Intercept)") |>
+  mutate(modell = "Med random intercept", term = recode(term, !!!term_labels))
+
+bind_rows(tidy_naive_comp, tidy_full_comp) |>
+  mutate(modell = factor(modell, levels = c("Uten random intercept",
+                                            "Med random intercept")),
+         ki_bredde = conf.high - conf.low) |>
+  ggplot(aes(x = estimate, y = reorder(term, estimate),
+             colour = modell, shape = modell)) +
+  geom_vline(xintercept = 1, linetype = "dashed", colour = "grey60") +
+  geom_errorbarh(aes(xmin = conf.low, xmax = conf.high),
+                 height = 0, linewidth = 0.8,
+                 position = position_dodgev(height = 0.45)) +
+  geom_point(size = 2.8,
+             position = position_dodgev(height = 0.45)) +
+  scale_colour_manual(values = c("Uten random intercept" = "grey55",
+                                 "Med random intercept"  = "#534AB7")) +
+  scale_shape_manual(values  = c("Uten random intercept" = 1,
+                                 "Med random intercept"  = 19)) +
+  scale_x_log10() +
+  labs(x = "Rate ratio (log-skala)", y = NULL, colour = NULL, shape = NULL,
+       title = "Smalere KI uten random intercept — men feilaktig smale",
+       subtitle = "Punktestimatene er tilnærmet like; usikkerheten er undervurdert uten RE") +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "bottom",
+        panel.grid.minor = element_blank(),
+        panel.grid.major.y = element_blank())
+```
+
+```{r}
+#| label: ki-bredde-beregning
+
+ki_sammenligning <- bind_rows(tidy_naive_comp, tidy_full_comp) |>
+  mutate(ki_bredde = conf.high - conf.low) |>
+  group_by(modell) |>
+  summarise(median_bredde = median(ki_bredde)) |>
+  tidyr::pivot_wider(names_from = modell, values_from = median_bredde)
+
+bredde_ratio <- round(
+  ki_sammenligning[["Med random intercept"]] /
+  ki_sammenligning[["Uten random intercept"]], 2
+)
+```
+
+Medianen for KI-bredden er `r bredde_ratio`× bredere i modellen med tilfeldig effekt enn uten. Punktestimatene er nesten identiske — det er ikke *hva* modellen tror effektene er som endrer seg, men *hvor sikker* den er.
+
+Det er det klassiske resultatet ved klyngede data: å ignorere klyngestrukturen gir ikke nødvendigvis skjeve estimater, men det gir for mye tillit til dem.
+
+### En kort merknad om tolkning
+
+Tilfeldig-effekt-modellen gir oss koeffisienter som beskriver hva som skjer *innenfor en gitt kamp* — betinget på $u_j$. Spørsmålet besvart er: "Gitt at vi allerede vet kampens mål-vennlighet, hva er effekten av FIFA-poengsum?"
+
+En modell uten tilfeldig effekt gir *marginale* koeffisienter: effekten gjennomsnittlig over alle kamper, uten å kontrollere for kampspesifikk variasjon. For de fleste formål er den betingede tolkningen den rette — vi vil vite hva som skiller lag fra hverandre, ikke hva som skiller kamper.
 
 ## Modellresultater
 
@@ -260,6 +393,82 @@ Som ventet er **FIFA-ranglistepoengsummen** den klart sterkeste prediktoren. Et 
 **Sluttspillkamper** produserer litt færre mål. Det er også som forventet: lag spiller mer defensivt når et tap er terminalt.
 
 **Vertsnasjon-fordelen** er positiv, men usikker.
+
+### FIFA-ranglistens effekt i detalj
+
+Figuren under viser hvordan forventet antall mål endrer seg når FIFA-poengsummen varierer for *eget lag* (blå linje) og for *motstanderen* (rød linje), mens den andre siden holdes konstant på medianen.
+
+```{r}
+#| label: fig-fifa
+#| fig-cap: "Forventet antall mål som funksjon av FIFA-poengsum, separat for eget lag og motstander. Den andre sidens FIFA-poengsum er holdt konstant på medianen. Bånd viser 95 % KI."
+#| fig-width: 7
+#| fig-height: 4.5
+
+fifa_seq <- seq(
+  quantile(long$fifa_team, 0.02, na.rm = TRUE),
+  quantile(long$fifa_team, 0.98, na.rm = TRUE),
+  length.out = 120
+)
+
+med <- long |>
+  summarise(across(c(fifa_team, fifa_opp, logpop_team, logpop_opp,
+                     vdem_team, vdem_opp), median, na.rm = TRUE))
+
+pred_curve <- function(nd) {
+  p <- predict(mod_full, newdata = nd, type = "link",
+               se.fit = TRUE, allow.new.levels = TRUE)
+  nd |> mutate(fit   = exp(p$fit),
+               lower = exp(p$fit - 1.96 * p$se.fit),
+               upper = exp(p$fit + 1.96 * p$se.fit))
+}
+
+own_nd <- tibble(
+  fifa_team = fifa_seq,   fifa_opp    = med$fifa_opp,
+  logpop_team = med$logpop_team, logpop_opp = med$logpop_opp,
+  vdem_team = med$vdem_team,     vdem_opp   = med$vdem_opp,
+  is_host = 0L, knockout = 0L,   match_id   = NA_integer_
+)
+
+opp_nd <- tibble(
+  fifa_team = med$fifa_team,   fifa_opp    = fifa_seq,
+  logpop_team = med$logpop_team, logpop_opp = med$logpop_opp,
+  vdem_team = med$vdem_team,     vdem_opp   = med$vdem_opp,
+  is_host = 0L, knockout = 0L,   match_id   = NA_integer_
+)
+
+bind_rows(
+  pred_curve(own_nd) |> mutate(side = "Eget lag",    fifa = fifa_seq),
+  pred_curve(opp_nd) |> mutate(side = "Motstander",  fifa = fifa_seq)
+) |>
+  ggplot(aes(fifa, fit, colour = side, fill = side)) +
+  geom_ribbon(aes(ymin = lower, ymax = upper), alpha = 0.12, colour = NA) +
+  geom_line(linewidth = 1) +
+  scale_colour_manual(values = c("Eget lag" = "#534AB7", "Motstander" = "#D85A30")) +
+  scale_fill_manual(  values = c("Eget lag" = "#534AB7", "Motstander" = "#D85A30")) +
+  labs(
+    x = "FIFA-poengsum", y = "Forventet antall mål",
+    colour = NULL, fill = NULL,
+    title = "FIFA-ranglistens effekt på forventet målscoring",
+    subtitle = "Den andre sidens poengsum holdt på medianen"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "bottom", panel.grid.minor = element_blank())
+```
+
+```{r}
+#| label: fifa-tall
+
+fifa_own_rr <- tidy(mod_full, effects = "fixed", conf.int = TRUE,
+                    exponentiate = TRUE) |>
+  filter(term == "fifa_team") |>
+  pull(estimate)
+
+fifa_100 <- round((fifa_own_rr^100 - 1) * 100, 1)
+```
+
+Merk at koeffisienten opererer på enkeltpoeng i FIFA-ranglisten. Én enkelt poeng gjør svært lite — det interessante er hva som skjer over *hundre* poeng, som er et realistisk sprang mellom to lag i samme VM. Et hundre poengs fordel tilsvarer omtrent `r fifa_100`&nbsp;% flere forventede mål, holdt alt annet konstant.
+
+De to linjene er omtrent speilbilder av hverandre. Det er en forutsetning modellen *ikke* tvinger frem: vi lar eget lag og motstanderens FIFA-koeffisient være frie. At de er tilnærmet symmetriske er et empirisk resultat og støtter antagelsen i den begrensede differansemodellen.
 
 ## Demokrativariabelen i fokus
 
