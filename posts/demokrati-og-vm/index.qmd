@@ -285,18 +285,23 @@ tidy_full_comp <- tidy(mod_full, effects = "fixed", conf.int = TRUE,
   filter(term != "(Intercept)") |>
   mutate(modell = "Med random intercept", term = recode(term, !!!term_labels))
 
+term_order <- tidy_full_comp |>
+  arrange(estimate) |>
+  pull(term)
+
 bind_rows(tidy_naive_comp, tidy_full_comp) |>
-  mutate(modell = factor(modell, levels = c("Uten random intercept",
-                                            "Med random intercept")),
-         ki_bredde = conf.high - conf.low) |>
-  ggplot(aes(x = estimate, y = reorder(term, estimate),
-             colour = modell, shape = modell)) +
+  mutate(
+    modell  = factor(modell, levels = c("Uten random intercept",
+                                        "Med random intercept")),
+    base_y  = match(term, term_order),
+    y_pos   = base_y + ifelse(modell == "Med random intercept", 0.18, -0.18)
+  ) |>
+  ggplot(aes(x = estimate, y = y_pos, colour = modell, shape = modell)) +
   geom_vline(xintercept = 1, linetype = "dashed", colour = "grey60") +
   geom_errorbarh(aes(xmin = conf.low, xmax = conf.high),
-                 height = 0, linewidth = 0.8,
-                 position = position_dodgev(height = 0.45)) +
-  geom_point(size = 2.8,
-             position = position_dodgev(height = 0.45)) +
+                 height = 0, linewidth = 0.8) +
+  geom_point(size = 2.8) +
+  scale_y_continuous(breaks = seq_along(term_order), labels = term_order) +
   scale_colour_manual(values = c("Uten random intercept" = "grey55",
                                  "Med random intercept"  = "#534AB7")) +
   scale_shape_manual(values  = c("Uten random intercept" = 1,

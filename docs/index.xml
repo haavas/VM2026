@@ -203,15 +203,68 @@ font-style: inherit;">5</span>)</span></code></pre></div></div>
 <p>I tillegg kontrollerer vi for om laget spilte <em>hjemme som vertsnasjon</em> og om kampen var en <em>sluttspillkamp</em> (fremfor gruppespillskamp).</p>
 <p>Utfallet modelleres som en tellevariabel (antall mål scored av ett lag i én kamp), noe som gjør Poisson-regresjon til et naturlig valg.</p>
 </section>
-<section id="hvorfor-tilfeldig-effekt" class="level2">
-<h2 class="anchored" data-anchor-id="hvorfor-tilfeldig-effekt">Hvorfor tilfeldig effekt?</h2>
-<p>Her er problemet vi må løse: de to halvdelene av én og samme kamp er ikke uavhengige observasjoner.</p>
-<p>Tenk på en kamp mellom to offensive lag på en dag med dårlig forsvar, dårlig vær, eller en dommer som liker å la spillet gå. Begge lag ender opp med mange mål — ikke fordi de isolert sett er bedre enn modellen tilsier, men fordi <em>akkurat denne kampen</em> var målrik. Et lavmålskamp har den motsatte dynamikken: begge lag scorer lite, fordi det er noe ved denne spesifikke konteksten som hemmer mål.</p>
-<p>Resultatet er en positiv korrelasjon mellom de to lagenes målscorer innenfor en kamp. Ignorerer vi dette, underestimerer vi usikkerheten i estimatene — vi tror vi vet mer enn vi gjør.</p>
-<p>Løsningen er en <em>tilfeldig effekt</em> (random intercept) per kamp:</p>
-<p><img src="https://latex.codecogs.com/png.latex?%0A%5Clog(%5Cmu_%7Bij%7D)%20=%20%5Cbeta_0%20+%20%5Cmathbf%7Bx%7D_%7Bij%7D%5E%5Ctop%20%5Cboldsymbol%7B%5Cbeta%7D%20+%20u_j,%20%5Cqquad%20u_j%20%5Csim%20%5Cmathcal%7BN%7D(0,%5C,%20%5Csigma%5E2)%0A"></p>
-<p>Her er <img src="https://latex.codecogs.com/png.latex?%5Cmu_%7Bij%7D"> det forventede antall mål for lag <img src="https://latex.codecogs.com/png.latex?i"> i kamp <img src="https://latex.codecogs.com/png.latex?j">, <img src="https://latex.codecogs.com/png.latex?%5Cmathbf%7Bx%7D_%7Bij%7D"> er kovariater for det laget, og <img src="https://latex.codecogs.com/png.latex?u_j"> er en kampspesifikk “mål-vennlighet” som er lik for begge lag i samme kamp. Positive verdier av <img src="https://latex.codecogs.com/png.latex?u_j"> betyr at kampen hadde noe som fremmet mål utover det modellen kan forklare med lagkvalitet; negative verdier betyr det motsatte. Vi estimerer aldri <img src="https://latex.codecogs.com/png.latex?u_j"> direkte — vi integrerer dem bort og lar <img src="https://latex.codecogs.com/png.latex?%5Csigma%5E2"> fortelle oss hvor mye kampspesifikk variasjon det er.</p>
-<p>Dette er en enklere variant av et bivariate Poisson-design (der man modellerer de to lagenes mål som korrelerte tilvekster), men fanger det vesentligste: at kamp-konteksten skaper avhengighet mellom observasjonene.</p>
+<section id="hva-gjør-tilfeldig-effekt-og-hva-skjer-uten-den" class="level2">
+<h2 class="anchored" data-anchor-id="hva-gjør-tilfeldig-effekt-og-hva-skjer-uten-den">Hva gjør tilfeldig effekt — og hva skjer uten den?</h2>
+<section id="problemet-avhengige-observasjoner" class="level3">
+<h3 class="anchored" data-anchor-id="problemet-avhengige-observasjoner">Problemet: avhengige observasjoner</h3>
+<p>Standard Poisson-regresjon antar at hver observasjon er trukket uavhengig. For oss betyr det at antall mål Brazil scorer, er uavhengig av antall mål som scores mot dem i den samme kampen. Det er åpenbart feil.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-korrelasjon" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-korrelasjon-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://haavas.github.io/VM2026/posts/demokrati-og-vm/index_files/figure-html/fig-korrelasjon-1.png" class="img-fluid figure-img" width="576">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-korrelasjon-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Hjemmelagets og bortelagets målscorer i de samme kampene. Den positive sammenhengen viser at høymålskamper er høymålskamper for begge lag — ikke bare for det ene.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Korrelasjonen er -0.13. Det er ikke stor, men den er konsistent og ikke tilfeldig: det er noe <em>ved selve kampen</em> — dommeren, banen, det taktiske opplegget til begge lag, et åpent tempo — som enten fremmer eller hemmer mål for <em>begge</em> lag simultant.</p>
+<p>Kamp-til-kamp-variasjonen skyldes faktorer som ingen av kovariatene våre fanger. Når vi later som om de to halvdelene av kampen er uavhengige, forteller vi modellen at vi har mer informasjon enn vi egentlig har.</p>
+</section>
+<section id="modellene-side-om-side" class="level3">
+<h3 class="anchored" data-anchor-id="modellene-side-om-side">Modellene side om side</h3>
+<p>To modeller, bare én linje forskjell:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Cunderbrace%7B%5Clog(%5Cmu_%7Bij%7D)%20=%20%5Cbeta_0%20+%20%5Cmathbf%7Bx%7D_%7Bij%7D%5E%5Ctop%20%5Cboldsymbol%7B%5Cbeta%7D%7D_%7B%5Ctext%7Buten%20tilfeldig%20effekt%7D%7D%0A%5Cqquad%5Cqquad%0A%5Cunderbrace%7B%5Clog(%5Cmu_%7Bij%7D)%20=%20%5Cbeta_0%20+%20%5Cmathbf%7Bx%7D_%7Bij%7D%5E%5Ctop%20%5Cboldsymbol%7B%5Cbeta%7D%20+%20u_j%7D_%7B%5Ctext%7Bmed%20tilfeldig%20effekt%7D%7D%0A"></p>
+<p>der <img src="https://latex.codecogs.com/png.latex?u_j%20%5Csim%20%5Cmathcal%7BN%7D(0,%5C,%5Csigma%5E2)">.</p>
+<p><img src="https://latex.codecogs.com/png.latex?u_j"> er en kampspesifikk “mål-vennlighet” — ett tall per kamp, lik for begge lagene i kamp <img src="https://latex.codecogs.com/png.latex?j">. Det er ikke en parameter vi estimerer for å tolke direkte: vi integrerer den bort matematisk og lar <img src="https://latex.codecogs.com/png.latex?%5Csigma%5E2"> oppsummere <em>hvor mye</em> kampspesifikk variasjon som eksisterer.</p>
+<p>Nøkkelforskjellen: <img src="https://latex.codecogs.com/png.latex?u_j"> er <em>delt mellom de to lagene i samme kamp</em>. Det betyr at de to observasjonene i en kamp er <em>betinget uavhengige</em> gitt <img src="https://latex.codecogs.com/png.latex?u_j">, men <em>marginalt korrelerte</em>. Modellen vet at begge halvdelene av kampen bærer fingeravtrykket av den samme kampen.</p>
+</section>
+<section id="hva-sigma2-forteller-oss" class="level3">
+<h3 class="anchored" data-anchor-id="hva-sigma2-forteller-oss">Hva <img src="https://latex.codecogs.com/png.latex?%5Csigma%5E2"> forteller oss</h3>
+<p>Den estimerte standardavviket for de kampspesifikke interceptene er <img src="https://latex.codecogs.com/png.latex?%5Chat%5Csigma%20="> 0.12. Hva betyr det konkret?</p>
+<p>En kamp som ligger <em>ett standardavvik over</em> gjennomsnittet i “mål-vennlighet” (<img src="https://latex.codecogs.com/png.latex?u_j%20=%20%5Chat%5Csigma">) produserer 1.13 ganger så mange mål som en gjennomsnittskamp, alt annet likt. Det tilsvarer at begge lag scorer omtrent 1.13× det modellen ellers ville forutsagt basert på lagkvalitet alene. Kamper ett standardavvik <em>under</em> gjennomsnittet produserer tilsvarende <img src="https://latex.codecogs.com/png.latex?1/1.13%20%5Capprox%200.88"> × av det forventede.</p>
+</section>
+<section id="konsekvenser-for-inferens-hva-skjer-uten" class="level3">
+<h3 class="anchored" data-anchor-id="konsekvenser-for-inferens-hva-skjer-uten">Konsekvenser for inferens: hva skjer uten?</h3>
+<p>Når modellen uten tilfeldig effekt ser 1252 observasjoner, behandler den dem som 1252 uavhengige datapunkter. Men halvparten av dem er paret innen kamper. Effektiv informasjon er et sted mellom 626 (perfekt korrelasjon) og 1252 (ingen korrelasjon).</p>
+<p>Konsekvensen er at modellen uten tilfeldig effekt <em>underestimerer standardfeilene</em> — konfidensintervallene blir for smale og p-verdiene for lave. Vi tror vi vet mer enn vi gjør.</p>
+<p>Figuren under sammenligner konfidensintervallene fra de to modellene:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-se-sammenligning" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-se-sammenligning-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://haavas.github.io/VM2026/posts/demokrati-og-vm/index_files/figure-html/fig-se-sammenligning-1.png" class="img-fluid figure-img" width="720">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-se-sammenligning-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Konfidensintervaller (95 %) for de faste effektene: modell med random intercept (lilla) mot modell uten (grå). Estimatene er nesten identiske, men modellen uten tilfeldig effekt gir systematisk smalere intervaller.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Medianen for KI-bredden er 1.01× bredere i modellen med tilfeldig effekt enn uten. Punktestimatene er nesten identiske — det er ikke <em>hva</em> modellen tror effektene er som endrer seg, men <em>hvor sikker</em> den er.</p>
+<p>Det er det klassiske resultatet ved klyngede data: å ignorere klyngestrukturen gir ikke nødvendigvis skjeve estimater, men det gir for mye tillit til dem.</p>
+</section>
+<section id="en-kort-merknad-om-tolkning" class="level3">
+<h3 class="anchored" data-anchor-id="en-kort-merknad-om-tolkning">En kort merknad om tolkning</h3>
+<p>Tilfeldig-effekt-modellen gir oss koeffisienter som beskriver hva som skjer <em>innenfor en gitt kamp</em> — betinget på <img src="https://latex.codecogs.com/png.latex?u_j">. Spørsmålet besvart er: “Gitt at vi allerede vet kampens mål-vennlighet, hva er effekten av FIFA-poengsum?”</p>
+<p>En modell uten tilfeldig effekt gir <em>marginale</em> koeffisienter: effekten gjennomsnittlig over alle kamper, uten å kontrollere for kampspesifikk variasjon. For de fleste formål er den betingede tolkningen den rette — vi vil vite hva som skiller lag fra hverandre, ikke hva som skiller kamper.</p>
+</section>
 </section>
 <section id="modellresultater" class="level2">
 <h2 class="anchored" data-anchor-id="modellresultater">Modellresultater</h2>
@@ -224,7 +277,7 @@ font-style: inherit;">5</span>)</span></code></pre></div></div>
 <img src="https://haavas.github.io/VM2026/posts/demokrati-og-vm/index_files/figure-html/fig-koeffisienter-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-koeffisienter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Eksponentierte koeffisienter fra Poisson mixed model (fulle modellen). Verdier over 1 øker forventet antall mål, verdier under 1 reduserer det. Horisontale linjer viser 95 % konfidensintervall.
+Figure&nbsp;3: Eksponentierte koeffisienter fra Poisson mixed model (fulle modellen). Verdier over 1 øker forventet antall mål, verdier under 1 reduserer det. Horisontale linjer viser 95 % konfidensintervall.
 </figcaption>
 </figure>
 </div>
@@ -322,6 +375,26 @@ Table&nbsp;1: Poisson mixed model — eksponentierte koeffisienter (rate ratios)
 <p>Som ventet er <strong>FIFA-ranglistepoengsummen</strong> den klart sterkeste prediktoren. Et lag med høy FIFA-poengsum scorer mer — og møter de et lag med høy FIFA-sum er effekten motsatt. Alt dette er fornuftig: FIFA-ranglisten er designet for å oppsummere akkurat den informasjonen.</p>
 <p><strong>Sluttspillkamper</strong> produserer litt færre mål. Det er også som forventet: lag spiller mer defensivt når et tap er terminalt.</p>
 <p><strong>Vertsnasjon-fordelen</strong> er positiv, men usikker.</p>
+<section id="fifa-ranglistens-effekt-i-detalj" class="level3">
+<h3 class="anchored" data-anchor-id="fifa-ranglistens-effekt-i-detalj">FIFA-ranglistens effekt i detalj</h3>
+<p>Figuren under viser hvordan forventet antall mål endrer seg når FIFA-poengsummen varierer for <em>eget lag</em> (blå linje) og for <em>motstanderen</em> (rød linje), mens den andre siden holdes konstant på medianen.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-fifa" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-fifa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://haavas.github.io/VM2026/posts/demokrati-og-vm/index_files/figure-html/fig-fifa-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fifa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Forventet antall mål som funksjon av FIFA-poengsum, separat for eget lag og motstander. Den andre sidens FIFA-poengsum er holdt konstant på medianen. Bånd viser 95 % KI.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Merk at koeffisienten opererer på enkeltpoeng i FIFA-ranglisten. Én enkelt poeng gjør svært lite — det interessante er hva som skjer over <em>hundre</em> poeng, som er et realistisk sprang mellom to lag i samme VM. Et hundre poengs fordel tilsvarer omtrent 6.2&nbsp;% flere forventede mål, holdt alt annet konstant.</p>
+<p>De to linjene er omtrent speilbilder av hverandre. Det er en forutsetning modellen <em>ikke</em> tvinger frem: vi lar eget lag og motstanderens FIFA-koeffisient være frie. At de er tilnærmet symmetriske er et empirisk resultat og støtter antagelsen i den begrensede differansemodellen.</p>
+</section>
 </section>
 <section id="demokrativariabelen-i-fokus" class="level2">
 <h2 class="anchored" data-anchor-id="demokrativariabelen-i-fokus">Demokrativariabelen i fokus</h2>
@@ -334,7 +407,7 @@ Table&nbsp;1: Poisson mixed model — eksponentierte koeffisienter (rate ratios)
 <img src="https://haavas.github.io/VM2026/posts/demokrati-og-vm/index_files/figure-html/fig-demokrati-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-demokrati-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: Forventet antall mål som funksjon av V-Dem Liberal Democracy Index for eget lag, med motstanderen holdt på medianen. Grå bånd er 95 % prediksjonsintervall for den faste delen av modellen.
+Figure&nbsp;5: Forventet antall mål som funksjon av V-Dem Liberal Democracy Index for eget lag, med motstanderen holdt på medianen. Grå bånd er 95 % prediksjonsintervall for den faste delen av modellen.
 </figcaption>
 </figure>
 </div>
