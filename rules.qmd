@@ -11,7 +11,7 @@ STV’s Euro Cup competition consists of two parts:
 
 -   14 questions related to various more or less observable topics that are found at <URL>
 
--   An Excel form, in which the outcome of each game has to be forecasted, estimates, guessed, place-your-verb-here. Click here to download the [Excel from.](files/world_cup_2024.xlsx)
+-   An Excel form, in which the outcome of each game has to be forecasted, estimates, guessed, place-your-verb-here. Click here to download the [Excel from.](files/world_cup_2026.xlsx)
 
 The excel form consists of **48** games in the group stage and **32** games in the knockout stage. The schedule for the 48 group stage games is set and those games are specified on the left side of the form.
 
