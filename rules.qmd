@@ -13,7 +13,7 @@ STV’s Euro Cup competition consists of two parts:
 
 -   An Excel form, in which the outcome of each game has to be forecasted, estimates, guessed, place-your-verb-here. Click here to download the [Excel from.](files/world_cup_2026.xlsx)
 
-The excel form consists of **48** games in the group stage and **32** games in the knockout stage. The schedule for the 48 group stage games is set and those games are specified on the left side of the form.
+The excel form consists of **72** games in the group stage and **32** games in the knockout stage. The schedule for the 48 group stage games is set and those games are specified on the left side of the form.
 
 The first game is between Mexico and South Africa. There are two cells between the two countries, and we fill in what we believe is the final score. In the illustration below the score is predicted to be a victory for Mexico
 
@@ -39,7 +39,7 @@ The form is now ready to be submitted.
 
 -   Points are awarded for each and every correct answer to the **16** questions. In addition, we calculate the total number of goals scored in the form for a **15**th question “How many goals will there be in total? (Penalty shoot-outs excluded)”. Each of these questions yield **30** points, for a total of **510** for the questions section
 
--   Points are *earned* for guessing the correct outcome of each of the games in the group stage. There are 48 games in the group stage Each correct answer is worth **25** points, for a total of **1200** points
+-   Points are *earned* for guessing the correct outcome of each of the games in the group stage. There are 48 games in the group stage Each correct answer is worth **25** points, for a total of **1800** points
 
 -   Points are *deducted* for any deviance between the predicted and observed scores. As usual in the Social Sciences, we square the deviance. If the first game is predicted a 2-0 Turkey victory over Italy but ends in a 4-1 Turkish victory, then 25 points are awarded for the correct outcome, before (4-2)^2^=2^2^=4 and (1-0)^2^=1^2^=1 points are deducted for slightly missing the correct result. In the end, 25 - 4 - 1 = 20 points are awarded.
 
@@ -50,10 +50,10 @@ The form is now ready to be submitted.
 | Source                | Max points per item | N. of items | Total maximum points |
 |-----------------------|---------------------|-------------|----------------------|
 | Qualitative questions | 30                  | 17          | 510                  |
-| Group stages          | 25                  | 48          | 1200                 |
+| Group stages          | 25                  | 72          | 1800                 |
 | Knockout stages       | 60                  | 32          | 1920                 |
 | Winner                | 200                 | 1           | 200                  |
 | silver                | 100                 | 1           | 100                  |
 | btonze                | 70                  | 1           | 70                   |
 
-The theoretical top score is therefore **4000** points.
+The theoretical top score is therefore **4600** points.
