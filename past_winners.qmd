@@ -1,0 +1,18 @@
+---
+title: "Past winners"
+image: profile.jpg
+rules:
+  template: jolla
+---
+
+This is the sixth time the competition is held. The previous winners are:
+
+2014: Åse Gornitzka
+
+2016: Sigurd Lindstad
+
+2018: Ida Weseth Bjøru
+
+2021: Øyvind Colbjørnsen
+
+2024: Felix Haass

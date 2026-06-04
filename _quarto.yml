@@ -9,6 +9,8 @@ website:
   navbar:
     right:
       - about.qmd
+      - rules.qmd
+      - past_winners.qmd
       - icon: github
         href: https://github.com/
       - icon: bluesky

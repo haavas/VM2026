@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://haavas.github.io/VM2026/rules.html</loc>
+    <lastmod>2026-06-04T15:48:52.223Z</lastmod>
+  </url>
+  <url>
+    <loc>https://haavas.github.io/VM2026/past_winners.html</loc>
+    <lastmod>2026-06-04T15:13:14.993Z</lastmod>
+  </url>
+  <url>
+    <loc>https://haavas.github.io/VM2026/CLAUDE.html</loc>
+    <lastmod>2026-06-04T14:34:53.346Z</lastmod>
+  </url>
+  <url>
     <loc>https://haavas.github.io/VM2026/about.html</loc>
-    <lastmod>2026-04-25T17:55:06.364Z</lastmod>
-  </url>
-  <url>
-    <loc>https://haavas.github.io/VM2026/posts/demokrati-og-vm/index.html</loc>
-    <lastmod>2026-04-26T20:50:36.163Z</lastmod>
-  </url>
-  <url>
-    <loc>https://haavas.github.io/VM2026/posts/Regelendring/index.html</loc>
-    <lastmod>2026-04-26T00:12:17.923Z</lastmod>
-  </url>
-  <url>
-    <loc>https://haavas.github.io/VM2026/posts/welcome/index.html</loc>
-    <lastmod>2026-04-25T17:55:06.366Z</lastmod>
+    <lastmod>2026-06-04T14:34:53.383Z</lastmod>
   </url>
   <url>
     <loc>https://haavas.github.io/VM2026/index.html</loc>
-    <lastmod>2026-04-26T00:04:32.305Z</lastmod>
+    <lastmod>2026-06-04T14:34:53.410Z</lastmod>
+  </url>
+  <url>
+    <loc>https://haavas.github.io/VM2026/posts/welcome/index.html</loc>
+    <lastmod>2026-06-04T15:17:38.478Z</lastmod>
   </url>
 </urlset>
