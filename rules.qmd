@@ -13,7 +13,7 @@ STV’s Euro Cup competition consists of two parts:
 
 -   An Excel form, in which the outcome of each game has to be forecasted, estimates, guessed, place-your-verb-here. Click here to download the [Excel from.](files/world_cup_2026.xlsx)
 
-The excel form consists of **72** games in the group stage and **32** games in the knockout stage. The schedule for the 48 group stage games is set and those games are specified on the left side of the form.
+The excel form consists of **72** games in the group stage and **32** games in the knockout stage. The schedule for the 72 group stage games is set and those games are specified on the left side of the form.
 
 The first game is between Mexico and South Africa. There are two cells between the two countries, and we fill in what we believe is the final score. In the illustration below the score is predicted to be a victory for Mexico
 
@@ -53,7 +53,7 @@ The form is now ready to be submitted.
 | Group stages          | 25                  | 72          | 1800                 |
 | Knockout stages       | 60                  | 32          | 1920                 |
 | Winner                | 200                 | 1           | 200                  |
-| silver                | 100                 | 1           | 100                  |
-| btonze                | 70                  | 1           | 70                   |
+| Silver                | 100                 | 1           | 100                  |
+| Bronze                | 70                  | 1           | 70                   |
 
 The theoretical top score is therefore **4600** points.

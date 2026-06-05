@@ -1,6 +1,6 @@
 ---
-title: "About"
-image: profile.jpg
+title: "About the competition"
+image: images/ESH.jpg
 about:
   template: jolla
   links:
@@ -16,4 +16,6 @@ about:
 
 ---
 
-About this blog
+The ISV tipster competition is open for everyone at the department. We guess/estimate/predict/postulate the outcome of all games in the World Cup and points are awarded (or deducted) according to a set of rules. The purpose of this blog is to document the rules and provide updates about the standing as we progress through the tournament. 
+
+The organizing committee consists of Øyvind Colbjørnsen, Dagfinn Hagen & Håvard Strand.

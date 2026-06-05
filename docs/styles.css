@@ -1,1 +1,8 @@
 /* css styles */
+
+.quarto-title-banner .title {
+  background-color: white;
+  color: black;
+  display: inline;
+  padding: 0.1em 0.4em;
+}
