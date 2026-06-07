@@ -1,6 +1,6 @@
 ---
 title: "Announcing the ISV 2026 World Cup Competition"
-author: "Håvard Strand"
+author: "Dagfinn Hagen"
 date: "2026-06-04"
 categories: [news]
 ---
