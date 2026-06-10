@@ -1,0 +1,191 @@
+player_a;player_b;score_ab;score_ba;avg_raw;normalised
+Maiken world_cup_2026;Tone Vevatne - World Cup Competition 2026;2418;2418;2418.0;0.8514
+Maiken world_cup_2026;World_cup_2026_JonasSchmid;2377;2377;2377.0;0.837
+Sandven_World_cup_2026;World_cup_2026_JonasSchmid;2307;2307;2307.0;0.8123
+World_cup_2026_Daniel_Naurin;world_cup_2026_hs;2289;2289;2289.0;0.806
+Gates_World_cup_2026;Maiken world_cup_2026;2245;2245;2245.0;0.7905
+Maiken world_cup_2026;world_cup_2026_hs;2245;2245;2245.0;0.7905
+Maiken world_cup_2026;World_cup_2026_Daniel_Naurin;2233;2233;2233.0;0.7863
+Maiken world_cup_2026;World_cup_2026_Dagfinn;2198;2198;2198.0;0.7739
+Tone Vevatne - World Cup Competition 2026;World_cup_2026_JonasSchmid;2183;2183;2183.0;0.7687
+World_cup_2026_JonasSchmid;World_cup_2026_stiansen;2183;2183;2183.0;0.7687
+Tone Vevatne - World Cup Competition 2026;World_cup_2026_lutscher;2182;2182;2182.0;0.7683
+Tone Vevatne - World Cup Competition 2026;World_cup_2026_Daniel_Naurin;2176;2176;2176.0;0.7662
+Maiken world_cup_2026;Sandven_World_cup_2026;2164;2164;2164.0;0.762
+Tone Vevatne - World Cup Competition 2026;world_cup_2026_hs;2156;2156;2156.0;0.7592
+Maiken world_cup_2026;World_cup_2026_Vilde Hernes;2154;2154;2154.0;0.7585
+Gates_World_cup_2026;Tone Vevatne - World Cup Competition 2026;2148;2148;2148.0;0.7563
+Maiken world_cup_2026;World_cup_2026_lutscher;2141;2141;2141.0;0.7539
+Jan_Erling_World_cup_2026;world_cup_2026_hs;2130;2130;2130.0;0.75
+Tone Vevatne - World Cup Competition 2026;World_cup_2026_Dagfinn;2126;2126;2126.0;0.7486
+Kopi av World_cup_2026-Elin Arntzen;World_cup_2026_JonasSchmid;2110;2110;2110.0;0.743
+Kopi av World_cup_2026-Elin Arntzen;Sandven_World_cup_2026;2100;2100;2100.0;0.7394
+Copy of World_cup_2026.TomC;Maiken world_cup_2026;2069;2069;2069.0;0.7357
+Jan_Erling_World_cup_2026;World_cup_2026_Daniel_Naurin;2084;2084;2084.0;0.7338
+Sandven_World_cup_2026;world_cup_2026_hs;2067;2067;2067.0;0.7278
+Kopi av World_cup_2026-Elin Arntzen;World_cup_2026_stiansen;2053;2053;2053.0;0.7229
+Sandven_World_cup_2026;World_cup_2026_Daniel_Naurin;2036;2036;2036.0;0.7169
+Gates_World_cup_2026;World_cup_2026_lutscher;2035;2035;2035.0;0.7165
+World_cup_2026_JonasSchmid;world_cup_2026_hs;2032;2032;2032.0;0.7155
+Sandven_World_cup_2026;World_cup_2026_stiansen;2009;2009;2009.0;0.7074
+Kopi av World_cup_2026_jh;World_cup_2026_JonasSchmid;2007;2007;2007.0;0.7067
+World_cup_2026_Daniel_Naurin;World_cup_2026_JonasSchmid;2007;2007;2007.0;0.7067
+Gates_World_cup_2026;World_cup_2026_JonasSchmid;2005;2005;2005.0;0.706
+Gates_World_cup_2026;World_cup_2026_Dagfinn;1995;1995;1995.0;0.7025
+Copy of World_cup_2026.TomC;World_cup_2026_Vilde Hernes;1973;1973;1973.0;0.7015
+Sandven_World_cup_2026;World_cup_2026_Bjørn_Fjærli;1991;1991;1991.0;0.7011
+World_cup_2026_Daniel_Naurin;World_cup_2026_lutscher;1989;1989;1989.0;0.7004
+Gates_World_cup_2026;World_cup_2026_Daniel_Naurin;1982;1982;1982.0;0.6979
+World_cup_2026_Dagfinn;world_cup_2026_hs;1981;1981;1981.0;0.6975
+Maiken world_cup_2026;World_cup_2026_ØB;1977;1977;1977.0;0.6961
+Tone Vevatne - World Cup Competition 2026;World_cup_2026_stiansen;1970;1970;1970.0;0.6937
+Tone Vevatne - World Cup Competition 2026;World_cup_2026_Vilde Hernes;1967;1967;1967.0;0.6926
+Jan_Erling_World_cup_2026;Maiken world_cup_2026;1960;1960;1960.0;0.6901
+Gates_World_cup_2026;world_cup_2026_hs;1957;1957;1957.0;0.6891
+Sandven_World_cup_2026;Tone Vevatne - World Cup Competition 2026;1956;1956;1956.0;0.6887
+World_cup_2026_JonasSchmid;World_cup_2026_lutscher;1948;1948;1948.0;0.6859
+Maiken world_cup_2026;World_cup_2026_stiansen;1947;1947;1947.0;0.6856
+Gates_World_cup_2026;World_cup_2026_ØB;1935;1935;1935.0;0.6813
+World_cup_2026_lutscher;world_cup_2026_hs;1933;1933;1933.0;0.6806
+Kopi av World_cup_2026_jh;Sandven_World_cup_2026;1926;1926;1926.0;0.6782
+Copy of World_cup_2026.TomC;Tone Vevatne - World Cup Competition 2026;1896;1896;1896.0;0.6742
+Gates_World_cup_2026;Sandven_World_cup_2026;1904;1904;1904.0;0.6704
+Kopi av World_cup_2026_jh;Tone Vevatne - World Cup Competition 2026;1898;1898;1898.0;0.6683
+Jan_Erling_World_cup_2026;Tone Vevatne - World Cup Competition 2026;1895;1895;1895.0;0.6673
+Kopi av World_cup_2026_jh;Maiken world_cup_2026;1888;1888;1888.0;0.6648
+World_cup_2026_Dagfinn;World_cup_2026_JonasSchmid;1886;1886;1886.0;0.6641
+Kopi av World_cup_2026_jh;World_cup_2026_stiansen;1873;1873;1873.0;0.6595
+Kopi av World_cup_2026-Elin Arntzen;Maiken world_cup_2026;1869;1869;1869.0;0.6581
+Gates_World_cup_2026;World_cup_2026_stiansen;1867;1867;1867.0;0.6574
+World_cup_2026_Bjørn_Fjærli;World_cup_2026_JonasSchmid;1866;1866;1866.0;0.657
+Gates_World_cup_2026;Jan_Erling_World_cup_2026;1864;1864;1864.0;0.6563
+World_cup_2026_JonasSchmid;World_cup_2026_Vilde Hernes;1857;1857;1857.0;0.6539
+Kopi av World_cup_2026-Elin Arntzen;Tone Vevatne - World Cup Competition 2026;1852;1852;1852.0;0.6521
+World_cup_2026_Dagfinn;World_cup_2026_Daniel_Naurin;1849;1849;1849.0;0.6511
+World_cup_2026_Dagfinn;World_cup_2026_lutscher;1846;1846;1846.0;0.65
+Copy of World_cup_2026.TomC;World_cup_2026_lutscher;1825;1825;1825.0;0.6489
+World_cup_2026_Vilde Hernes;world_cup_2026_hs;1842;1842;1842.0;0.6486
+World_cup_2026_Daniel_Naurin;World_cup_2026_Vilde Hernes;1840;1840;1840.0;0.6479
+Sandven_World_cup_2026;World_cup_2026_Vilde Hernes;1839;1839;1839.0;0.6475
+Copy of World_cup_2026.TomC;Gates_World_cup_2026;1819;1819;1819.0;0.6468
+World_cup_2026_Bjørn_Fjærli;world_cup_2026_hs;1835;1835;1835.0;0.6461
+World_cup_2026_lutscher;World_cup_2026_stiansen;1834;1834;1834.0;0.6458
+World_cup_2026_CL;World_cup_2026_JonasSchmid;1824;1824;1824.0;0.6423
+World_cup_2026_Daniel_Naurin;World_cup_2026_stiansen;1823;1823;1823.0;0.6419
+Gates_World_cup_2026;World_cup_2026_Vilde Hernes;1817;1817;1817.0;0.6398
+World_cup_2026_Dagfinn;World_cup_2026_Vilde Hernes;1815;1815;1815.0;0.6391
+World_cup_2026_Daniel_Naurin;World_cup_2026_ØB;1815;1815;1815.0;0.6391
+Copy of World_cup_2026.TomC;Jan_Erling_World_cup_2026;1795;1795;1795.0;0.6383
+Copy of World_cup_2026.TomC;World_cup_2026_ØB;1786;1786;1786.0;0.6351
+World_cup_2026_ØB;world_cup_2026_hs;1802;1802;1802.0;0.6345
+Gates_World_cup_2026;Kopi av World_cup_2026-Elin Arntzen;1798;1798;1798.0;0.6331
+Jan_Erling_World_cup_2026;World_cup_2026_lutscher;1797;1797;1797.0;0.6327
+Maiken world_cup_2026;World_cup_2026_Jana Blahak;1783;1783;1783.0;0.6278
+Jan_Erling_World_cup_2026;Sandven_World_cup_2026;1777;1777;1777.0;0.6257
+Jan_Erling_World_cup_2026;World_cup_2026_JonasSchmid;1775;1775;1775.0;0.625
+Gates_World_cup_2026;Kopi av World_cup_2026_jh;1774;1774;1774.0;0.6246
+World_cup_2026_JonasSchmid;World_cup_2026_ØB;1772;1772;1772.0;0.6239
+Copy of World_cup_2026.TomC;World_cup_2026_Daniel_Naurin;1749;1749;1749.0;0.6219
+Sandven_World_cup_2026;World_cup_2026_ØB;1766;1766;1766.0;0.6218
+Kopi av World_cup_2026-Elin Arntzen;Kopi av World_cup_2026_jh;1765;1765;1765.0;0.6215
+Copy of World_cup_2026.TomC;World_cup_2026_JonasSchmid;1747;1747;1747.0;0.6212
+Tone Vevatne - World Cup Competition 2026;World_cup_2026_ØB;1764;1764;1764.0;0.6211
+World_cup_2026_Dagfinn;World_cup_2026_stiansen;1763;1763;1763.0;0.6208
+Sandven_World_cup_2026;World_cup_2026_lutscher;1739;1739;1739.0;0.6123
+Copy of World_cup_2026.TomC;Sandven_World_cup_2026;1719;1719;1719.0;0.6112
+Sandven_World_cup_2026;World_cup_2026_CL;1734;1734;1734.0;0.6106
+Copy of World_cup_2026.TomC;World_cup_2026_Dagfinn;1716;1716;1716.0;0.6102
+World_cup_2026_Bjørn_Fjærli;World_cup_2026_Daniel_Naurin;1730;1730;1730.0;0.6092
+Jan_Erling_World_cup_2026;World_cup_2026_Vilde Hernes;1724;1724;1724.0;0.607
+World_cup_2026_Vilde Hernes;World_cup_2026_lutscher;1724;1724;1724.0;0.607
+World_cup_2026_lutscher;World_cup_2026_ØB;1715;1715;1715.0;0.6039
+Kopi av World_cup_2026-Elin Arntzen;World_cup_2026_Daniel_Naurin;1714;1714;1714.0;0.6035
+World_cup_2026_Bjørn_Fjærli;World_cup_2026_CL;1708;1708;1708.0;0.6014
+Maiken world_cup_2026;World_cup_2026_CL;1698;1698;1698.0;0.5979
+Kopi av World_cup_2026-Elin Arntzen;World_cup_2026_CL;1695;1695;1695.0;0.5968
+Kopi av World_cup_2026-Elin Arntzen;World_cup_2026_Dagfinn;1694;1694;1694.0;0.5965
+Maiken world_cup_2026;World_cup_2026_Bjørn_Fjærli;1681;1681;1681.0;0.5919
+Kopi av World_cup_2026_jh;World_cup_2026_Daniel_Naurin;1678;1678;1678.0;0.5908
+Jan_Erling_World_cup_2026;World_cup_2026_Dagfinn;1675;1675;1675.0;0.5898
+World_cup_2026_stiansen;World_cup_2026_ØB;1672;1672;1672.0;0.5887
+Kopi av World_cup_2026-Elin Arntzen;world_cup_2026_hs;1670;1670;1670.0;0.588
+Copy of World_cup_2026.TomC;world_cup_2026_hs;1652;1652;1652.0;0.5874
+World_cup_2026_Dagfinn;World_cup_2026_ØB;1667;1667;1667.0;0.587
+Sandven_World_cup_2026;World_cup_2026_Dagfinn;1662;1662;1662.0;0.5852
+World_cup_2026_stiansen;world_cup_2026_hs;1650;1650;1650.0;0.581
+World_cup_2026_CL;World_cup_2026_stiansen;1649;1649;1649.0;0.5806
+Copy of World_cup_2026.TomC;World_cup_2026_Jana Blahak;1631;1631;1631.0;0.5799
+Tone Vevatne - World Cup Competition 2026;World_cup_2026_CL;1643;1643;1643.0;0.5785
+World_cup_2026_Jana Blahak;world_cup_2026_hs;1639;1639;1639.0;0.5771
+Kopi av World_cup_2026-Elin Arntzen;World_cup_2026_Vilde Hernes;1635;1635;1635.0;0.5757
+World_cup_2026_Jana Blahak;World_cup_2026_Vilde Hernes;1632;1632;1632.0;0.5746
+Kopi av World_cup_2026-Elin Arntzen;World_cup_2026_lutscher;1631;1631;1631.0;0.5743
+Jan_Erling_World_cup_2026;Kopi av World_cup_2026_jh;1626;1626;1626.0;0.5725
+World_cup_2026_Daniel_Naurin;World_cup_2026_Jana Blahak;1626;1626;1626.0;0.5725
+Kopi av World_cup_2026_jh;World_cup_2026_Vilde Hernes;1624;1624;1624.0;0.5718
+World_cup_2026_Bjørn_Fjærli;World_cup_2026_stiansen;1623;1623;1623.0;0.5715
+World_cup_2026_CL;World_cup_2026_Daniel_Naurin;1609;1609;1609.0;0.5665
+Copy of World_cup_2026.TomC;Kopi av World_cup_2026-Elin Arntzen;1588;1588;1588.0;0.5646
+Gates_World_cup_2026;World_cup_2026_CL;1599;1599;1599.0;0.563
+Kopi av World_cup_2026_jh;world_cup_2026_hs;1597;1597;1597.0;0.5623
+Kopi av World_cup_2026_jh;World_cup_2026_Dagfinn;1596;1596;1596.0;0.562
+Copy of World_cup_2026.TomC;Kopi av World_cup_2026_jh;1580;1580;1580.0;0.5618
+Jan_Erling_World_cup_2026;World_cup_2026_Bjørn_Fjærli;1579;1579;1579.0;0.556
+Kopi av World_cup_2026-Elin Arntzen;World_cup_2026_Bjørn_Fjærli;1577;1577;1577.0;0.5553
+World_cup_2026_Vilde Hernes;World_cup_2026_ØB;1573;1573;1573.0;0.5539
+Jan_Erling_World_cup_2026;World_cup_2026_ØB;1570;1570;1570.0;0.5528
+Tone Vevatne - World Cup Competition 2026;World_cup_2026_Jana Blahak;1557;1557;1557.0;0.5482
+Copy of World_cup_2026.TomC;World_cup_2026_stiansen;1537;1537;1537.0;0.5465
+World_cup_2026_CL;World_cup_2026_Dagfinn;1548;1548;1548.0;0.5451
+Kopi av World_cup_2026_jh;World_cup_2026_lutscher;1545;1545;1545.0;0.544
+Tone Vevatne - World Cup Competition 2026;World_cup_2026_Bjørn_Fjærli;1537;1537;1537.0;0.5412
+Jan_Erling_World_cup_2026;World_cup_2026_Jana Blahak;1536;1536;1536.0;0.5408
+World_cup_2026_Martin_S;World_cup_2026_stiansen;1536;1536;1536.0;0.5408
+World_cup_2026_CL;world_cup_2026_hs;1533;1533;1533.0;0.5398
+Jan_Erling_World_cup_2026;Kopi av World_cup_2026-Elin Arntzen;1514;1514;1514.0;0.5331
+Jan_Erling_World_cup_2026;World_cup_2026_stiansen;1513;1513;1513.0;0.5327
+World_cup_2026_Dagfinn;World_cup_2026_Jana Blahak;1509;1509;1509.0;0.5313
+World_cup_2026_Vilde Hernes;World_cup_2026_stiansen;1507;1507;1507.0;0.5306
+Kopi av World_cup_2026-Elin Arntzen;World_cup_2026_ØB;1500;1500;1500.0;0.5282
+World_cup_2026_Bjørn_Fjærli;World_cup_2026_Vilde Hernes;1494;1494;1494.0;0.5261
+Kopi av World_cup_2026_jh;World_cup_2026_Bjørn_Fjærli;1492;1492;1492.0;0.5254
+World_cup_2026_Bjørn_Fjærli;World_cup_2026_Jana Blahak;1489;1489;1489.0;0.5243
+World_cup_2026_CL;World_cup_2026_lutscher;1487;1487;1487.0;0.5236
+World_cup_2026_Jana Blahak;World_cup_2026_lutscher;1478;1478;1478.0;0.5204
+World_cup_2026_CL;World_cup_2026_ØB;1471;1471;1471.0;0.518
+Gates_World_cup_2026;World_cup_2026_Bjørn_Fjærli;1464;1464;1464.0;0.5155
+Kopi av World_cup_2026_jh;World_cup_2026_ØB;1463;1463;1463.0;0.5151
+Copy of World_cup_2026.TomC;World_cup_2026_CL;1441;1441;1441.0;0.5124
+World_cup_2026_Bjørn_Fjærli;World_cup_2026_lutscher;1453;1453;1453.0;0.5116
+World_cup_2026_CL;World_cup_2026_Martin_S;1445;1445;1445.0;0.5088
+World_cup_2026_JonasSchmid;World_cup_2026_Martin_S;1444;1444;1444.0;0.5085
+World_cup_2026_Bjørn_Fjærli;World_cup_2026_Dagfinn;1443;1443;1443.0;0.5081
+Sandven_World_cup_2026;World_cup_2026_Jana Blahak;1435;1435;1435.0;0.5053
+Sandven_World_cup_2026;World_cup_2026_Martin_S;1419;1419;1419.0;0.4996
+World_cup_2026_Jana Blahak;World_cup_2026_JonasSchmid;1417;1417;1417.0;0.4989
+Kopi av World_cup_2026-Elin Arntzen;World_cup_2026_Martin_S;1413;1413;1413.0;0.4975
+World_cup_2026_Bjørn_Fjærli;World_cup_2026_ØB;1412;1412;1412.0;0.4972
+Gates_World_cup_2026;World_cup_2026_Jana Blahak;1411;1411;1411.0;0.4968
+Copy of World_cup_2026.TomC;World_cup_2026_Martin_S;1395;1395;1395.0;0.496
+Maiken world_cup_2026;World_cup_2026_Martin_S;1371;1371;1371.0;0.4827
+World_cup_2026_Jana Blahak;World_cup_2026_ØB;1364;1364;1364.0;0.4803
+World_cup_2026_Martin_S;World_cup_2026_Vilde Hernes;1364;1364;1364.0;0.4803
+World_cup_2026_Dagfinn;World_cup_2026_Martin_S;1353;1353;1353.0;0.4764
+Jan_Erling_World_cup_2026;World_cup_2026_CL;1342;1342;1342.0;0.4725
+Kopi av World_cup_2026_jh;World_cup_2026_CL;1326;1326;1326.0;0.4669
+World_cup_2026_CL;World_cup_2026_Vilde Hernes;1316;1316;1316.0;0.4634
+Copy of World_cup_2026.TomC;World_cup_2026_Bjørn_Fjærli;1275;1275;1275.0;0.4534
+Kopi av World_cup_2026-Elin Arntzen;World_cup_2026_Jana Blahak;1286;1286;1286.0;0.4528
+World_cup_2026_Martin_S;world_cup_2026_hs;1271;1271;1271.0;0.4475
+World_cup_2026_Martin_S;World_cup_2026_lutscher;1270;1270;1270.0;0.4472
+World_cup_2026_Martin_S;World_cup_2026_ØB;1267;1267;1267.0;0.4461
+Tone Vevatne - World Cup Competition 2026;World_cup_2026_Martin_S;1258;1258;1258.0;0.443
+World_cup_2026_CL;World_cup_2026_Jana Blahak;1254;1254;1254.0;0.4415
+World_cup_2026_Bjørn_Fjærli;World_cup_2026_Martin_S;1252;1252;1252.0;0.4408
+World_cup_2026_Jana Blahak;World_cup_2026_stiansen;1231;1231;1231.0;0.4335
+Gates_World_cup_2026;World_cup_2026_Martin_S;1208;1208;1208.0;0.4254
+Kopi av World_cup_2026_jh;World_cup_2026_Jana Blahak;1200;1200;1200.0;0.4225
+World_cup_2026_Daniel_Naurin;World_cup_2026_Martin_S;1188;1188;1188.0;0.4183
+Jan_Erling_World_cup_2026;World_cup_2026_Martin_S;1134;1134;1134.0;0.3993
+World_cup_2026_Jana Blahak;World_cup_2026_Martin_S;1081;1081;1081.0;0.3806
+Kopi av World_cup_2026_jh;World_cup_2026_Martin_S;992;992;992.0;0.3493

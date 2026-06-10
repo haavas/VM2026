@@ -1,0 +1,624 @@
+{
+  "source": "world_cup_2026.xlsx",
+  "groups": {
+    "Group A": [
+      "Mexico",
+      "Korea Republic",
+      "Czech Republic",
+      "South Africa"
+    ],
+    "Group B": [
+      "Switzerland",
+      "Canada",
+      "Qatar",
+      "Bosnia and Herzegovina"
+    ],
+    "Group C": [
+      "Brazil",
+      "Morocco",
+      "Scotland",
+      "Haiti"
+    ],
+    "Group D": [
+      "United States",
+      "Turkey",
+      "Australia",
+      "Paraguay"
+    ],
+    "Group E": [
+      "Germany",
+      "Ecuador",
+      "Ivory Coast",
+      "Curaçao"
+    ],
+    "Group F": [
+      "Netherlands",
+      "Japan",
+      "Sweden",
+      "Tunisia"
+    ],
+    "Group G": [
+      "Belgium",
+      "Iran",
+      "Egypt",
+      "New Zealand"
+    ],
+    "Group H": [
+      "Spain",
+      "Uruguay",
+      "Saudi Arabia",
+      "Cape Verde"
+    ],
+    "Group I": [
+      "France",
+      "Senegal",
+      "Norway",
+      "Iraq"
+    ],
+    "Group J": [
+      "Argentina",
+      "Austria",
+      "Algeria",
+      "Jordan"
+    ],
+    "Group K": [
+      "Portugal",
+      "Colombia",
+      "DR Congo",
+      "Uzbekistan"
+    ],
+    "Group L": [
+      "England",
+      "Croatia",
+      "Panama",
+      "Ghana"
+    ]
+  },
+  "group_stage": [
+    {
+      "match_id": 1,
+      "date": "Jun 11, 2026",
+      "home": "Mexico",
+      "away": "South Africa",
+      "group": "Group A"
+    },
+    {
+      "match_id": 2,
+      "date": "Jun 12, 2026",
+      "home": "Korea Republic",
+      "away": "Czech Republic",
+      "group": "Group A"
+    },
+    {
+      "match_id": 3,
+      "date": "Jun 12, 2026",
+      "home": "Canada",
+      "away": "Bosnia and Herzegovina",
+      "group": "Group B"
+    },
+    {
+      "match_id": 4,
+      "date": "Jun 13, 2026",
+      "home": "United States",
+      "away": "Paraguay",
+      "group": "Group D"
+    },
+    {
+      "match_id": 5,
+      "date": "Jun 14, 2026",
+      "home": "Haiti",
+      "away": "Scotland",
+      "group": "Group C"
+    },
+    {
+      "match_id": 6,
+      "date": "Jun 14, 2026",
+      "home": "Australia",
+      "away": "Turkey",
+      "group": "Group D"
+    },
+    {
+      "match_id": 7,
+      "date": "Jun 13, 2026",
+      "home": "Brazil",
+      "away": "Morocco",
+      "group": "Group C"
+    },
+    {
+      "match_id": 8,
+      "date": "Jun 13, 2026",
+      "home": "Qatar",
+      "away": "Switzerland",
+      "group": "Group B"
+    },
+    {
+      "match_id": 9,
+      "date": "Jun 14, 2026",
+      "home": "Ivory Coast",
+      "away": "Ecuador",
+      "group": "Group E"
+    },
+    {
+      "match_id": 10,
+      "date": "Jun 14, 2026",
+      "home": "Germany",
+      "away": "Curaçao",
+      "group": "Group E"
+    },
+    {
+      "match_id": 11,
+      "date": "Jun 14, 2026",
+      "home": "Netherlands",
+      "away": "Japan",
+      "group": "Group F"
+    },
+    {
+      "match_id": 12,
+      "date": "Jun 15, 2026",
+      "home": "Sweden",
+      "away": "Tunisia",
+      "group": "Group F"
+    },
+    {
+      "match_id": 13,
+      "date": "Jun 15, 2026",
+      "home": "Saudi Arabia",
+      "away": "Uruguay",
+      "group": "Group H"
+    },
+    {
+      "match_id": 14,
+      "date": "Jun 15, 2026",
+      "home": "Spain",
+      "away": "Cape Verde",
+      "group": "Group H"
+    },
+    {
+      "match_id": 15,
+      "date": "Jun 16, 2026",
+      "home": "Iran",
+      "away": "New Zealand",
+      "group": "Group G"
+    },
+    {
+      "match_id": 16,
+      "date": "Jun 15, 2026",
+      "home": "Belgium",
+      "away": "Egypt",
+      "group": "Group G"
+    },
+    {
+      "match_id": 17,
+      "date": "Jun 16, 2026",
+      "home": "France",
+      "away": "Senegal",
+      "group": "Group I"
+    },
+    {
+      "match_id": 18,
+      "date": "Jun 16, 2026",
+      "home": "Iraq",
+      "away": "Norway",
+      "group": "Group I"
+    },
+    {
+      "match_id": 19,
+      "date": "Jun 17, 2026",
+      "home": "Argentina",
+      "away": "Algeria",
+      "group": "Group J"
+    },
+    {
+      "match_id": 20,
+      "date": "Jun 17, 2026",
+      "home": "Austria",
+      "away": "Jordan",
+      "group": "Group J"
+    },
+    {
+      "match_id": 21,
+      "date": "Jun 17, 2026",
+      "home": "Ghana",
+      "away": "Panama",
+      "group": "Group L"
+    },
+    {
+      "match_id": 22,
+      "date": "Jun 17, 2026",
+      "home": "England",
+      "away": "Croatia",
+      "group": "Group L"
+    },
+    {
+      "match_id": 23,
+      "date": "Jun 17, 2026",
+      "home": "Portugal",
+      "away": "DR Congo",
+      "group": "Group K"
+    },
+    {
+      "match_id": 24,
+      "date": "Jun 18, 2026",
+      "home": "Uzbekistan",
+      "away": "Colombia",
+      "group": "Group K"
+    },
+    {
+      "match_id": 25,
+      "date": "Jun 18, 2026",
+      "home": "Czech Republic",
+      "away": "South Africa",
+      "group": "Group A"
+    },
+    {
+      "match_id": 26,
+      "date": "Jun 18, 2026",
+      "home": "Switzerland",
+      "away": "Bosnia and Herzegovina",
+      "group": "Group B"
+    },
+    {
+      "match_id": 27,
+      "date": "Jun 18, 2026",
+      "home": "Canada",
+      "away": "Qatar",
+      "group": "Group B"
+    },
+    {
+      "match_id": 28,
+      "date": "Jun 19, 2026",
+      "home": "Mexico",
+      "away": "Korea Republic",
+      "group": "Group A"
+    },
+    {
+      "match_id": 29,
+      "date": "Jun 20, 2026",
+      "home": "Brazil",
+      "away": "Haiti",
+      "group": "Group C"
+    },
+    {
+      "match_id": 30,
+      "date": "Jun 19, 2026",
+      "home": "Scotland",
+      "away": "Morocco",
+      "group": "Group C"
+    },
+    {
+      "match_id": 31,
+      "date": "Jun 20, 2026",
+      "home": "United States",
+      "away": "Australia",
+      "group": "Group D"
+    },
+    {
+      "match_id": 32,
+      "date": "Jun 19, 2026",
+      "home": "Turkey",
+      "away": "Paraguay",
+      "group": "Group D"
+    },
+    {
+      "match_id": 33,
+      "date": "Jun 20, 2026",
+      "home": "Germany",
+      "away": "Ivory Coast",
+      "group": "Group E"
+    },
+    {
+      "match_id": 34,
+      "date": "Jun 21, 2026",
+      "home": "Ecuador",
+      "away": "Curaçao",
+      "group": "Group E"
+    },
+    {
+      "match_id": 35,
+      "date": "Jun 20, 2026",
+      "home": "Netherlands",
+      "away": "Sweden",
+      "group": "Group F"
+    },
+    {
+      "match_id": 36,
+      "date": "Jun 21, 2026",
+      "home": "Tunisia",
+      "away": "Japan",
+      "group": "Group F"
+    },
+    {
+      "match_id": 37,
+      "date": "Jun 21, 2026",
+      "home": "Uruguay",
+      "away": "Cape Verde",
+      "group": "Group H"
+    },
+    {
+      "match_id": 38,
+      "date": "Jun 21, 2026",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "group": "Group H"
+    },
+    {
+      "match_id": 39,
+      "date": "Jun 21, 2026",
+      "home": "Belgium",
+      "away": "Iran",
+      "group": "Group G"
+    },
+    {
+      "match_id": 40,
+      "date": "Jun 22, 2026",
+      "home": "New Zealand",
+      "away": "Egypt",
+      "group": "Group G"
+    },
+    {
+      "match_id": 41,
+      "date": "Jun 23, 2026",
+      "home": "Norway",
+      "away": "Senegal",
+      "group": "Group I"
+    },
+    {
+      "match_id": 42,
+      "date": "Jun 22, 2026",
+      "home": "France",
+      "away": "Iraq",
+      "group": "Group I"
+    },
+    {
+      "match_id": 43,
+      "date": "Jun 22, 2026",
+      "home": "Argentina",
+      "away": "Austria",
+      "group": "Group J"
+    },
+    {
+      "match_id": 44,
+      "date": "Jun 23, 2026",
+      "home": "Jordan",
+      "away": "Algeria",
+      "group": "Group J"
+    },
+    {
+      "match_id": 45,
+      "date": "Jun 23, 2026",
+      "home": "England",
+      "away": "Ghana",
+      "group": "Group L"
+    },
+    {
+      "match_id": 46,
+      "date": "Jun 23, 2026",
+      "home": "Panama",
+      "away": "Croatia",
+      "group": "Group L"
+    },
+    {
+      "match_id": 47,
+      "date": "Jun 23, 2026",
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "group": "Group K"
+    },
+    {
+      "match_id": 48,
+      "date": "Jun 24, 2026",
+      "home": "Colombia",
+      "away": "DR Congo",
+      "group": "Group K"
+    },
+    {
+      "match_id": 49,
+      "date": "Jun 24, 2026",
+      "home": "Scotland",
+      "away": "Brazil",
+      "group": "Group C"
+    },
+    {
+      "match_id": 50,
+      "date": "Jun 24, 2026",
+      "home": "Morocco",
+      "away": "Haiti",
+      "group": "Group C"
+    },
+    {
+      "match_id": 51,
+      "date": "Jun 24, 2026",
+      "home": "Switzerland",
+      "away": "Canada",
+      "group": "Group B"
+    },
+    {
+      "match_id": 52,
+      "date": "Jun 24, 2026",
+      "home": "Bosnia and Herzegovina",
+      "away": "Qatar",
+      "group": "Group B"
+    },
+    {
+      "match_id": 53,
+      "date": "Jun 25, 2026",
+      "home": "Czech Republic",
+      "away": "Mexico",
+      "group": "Group A"
+    },
+    {
+      "match_id": 54,
+      "date": "Jun 25, 2026",
+      "home": "South Africa",
+      "away": "Korea Republic",
+      "group": "Group A"
+    },
+    {
+      "match_id": 55,
+      "date": "Jun 25, 2026",
+      "home": "Curaçao",
+      "away": "Ivory Coast",
+      "group": "Group E"
+    },
+    {
+      "match_id": 56,
+      "date": "Jun 25, 2026",
+      "home": "Ecuador",
+      "away": "Germany",
+      "group": "Group E"
+    },
+    {
+      "match_id": 57,
+      "date": "Jun 25, 2026",
+      "home": "Japan",
+      "away": "Sweden",
+      "group": "Group F"
+    },
+    {
+      "match_id": 58,
+      "date": "Jun 25, 2026",
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "group": "Group F"
+    },
+    {
+      "match_id": 59,
+      "date": "Jun 26, 2026",
+      "home": "Turkey",
+      "away": "United States",
+      "group": "Group D"
+    },
+    {
+      "match_id": 60,
+      "date": "Jun 26, 2026",
+      "home": "Paraguay",
+      "away": "Australia",
+      "group": "Group D"
+    },
+    {
+      "match_id": 61,
+      "date": "Jun 26, 2026",
+      "home": "Norway",
+      "away": "France",
+      "group": "Group I"
+    },
+    {
+      "match_id": 62,
+      "date": "Jun 26, 2026",
+      "home": "Senegal",
+      "away": "Iraq",
+      "group": "Group I"
+    },
+    {
+      "match_id": 63,
+      "date": "Jun 27, 2026",
+      "home": "Egypt",
+      "away": "Iran",
+      "group": "Group G"
+    },
+    {
+      "match_id": 64,
+      "date": "Jun 27, 2026",
+      "home": "New Zealand",
+      "away": "Belgium",
+      "group": "Group G"
+    },
+    {
+      "match_id": 65,
+      "date": "Jun 27, 2026",
+      "home": "Cape Verde",
+      "away": "Saudi Arabia",
+      "group": "Group H"
+    },
+    {
+      "match_id": 66,
+      "date": "Jun 27, 2026",
+      "home": "Uruguay",
+      "away": "Spain",
+      "group": "Group H"
+    },
+    {
+      "match_id": 67,
+      "date": "Jun 27, 2026",
+      "home": "Panama",
+      "away": "England",
+      "group": "Group L"
+    },
+    {
+      "match_id": 68,
+      "date": "Jun 27, 2026",
+      "home": "Croatia",
+      "away": "Ghana",
+      "group": "Group L"
+    },
+    {
+      "match_id": 69,
+      "date": "Jun 28, 2026",
+      "home": "Algeria",
+      "away": "Austria",
+      "group": "Group J"
+    },
+    {
+      "match_id": 70,
+      "date": "Jun 28, 2026",
+      "home": "Jordan",
+      "away": "Argentina",
+      "group": "Group J"
+    },
+    {
+      "match_id": 71,
+      "date": "Jun 27, 2026",
+      "home": "Colombia",
+      "away": "Portugal",
+      "group": "Group K"
+    },
+    {
+      "match_id": 72,
+      "date": "Jun 27, 2026",
+      "home": "DR Congo",
+      "away": "Uzbekistan",
+      "group": "Group K"
+    }
+  ],
+  "knockout_slots": {
+    "r32_right": [
+      "Czech Republic",
+      "Qatar",
+      "Scotland",
+      "Australia",
+      "Ivory Coast",
+      "Sweden",
+      "Egypt",
+      "Saudi Arabia",
+      "Norway",
+      "Algeria",
+      "DR Congo",
+      "Panama"
+    ],
+    "r32_left": [
+      "Austria",
+      "Jordan",
+      "DR Congo",
+      "Uzbekistan",
+      "Colombia",
+      "Panama",
+      "0",
+      "0"
+    ],
+    "qf": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "sf_left": [
+      "0",
+      "0"
+    ],
+    "sf_right": [
+      null,
+      null
+    ],
+    "champion": null
+  }
+}

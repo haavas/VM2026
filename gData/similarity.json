@@ -1,0 +1,4010 @@
+{
+  "players": [
+    "Copy of World_cup_2026.TomC",
+    "Gates_World_cup_2026",
+    "Jan_Erling_World_cup_2026",
+    "Kopi av World_cup_2026-Elin Arntzen",
+    "Kopi av World_cup_2026_jh",
+    "Maiken world_cup_2026",
+    "Sandven_World_cup_2026",
+    "Tone Vevatne - World Cup Competition 2026",
+    "World_cup_2026_Bjørn_Fjærli",
+    "World_cup_2026_CL",
+    "World_cup_2026_Dagfinn",
+    "World_cup_2026_Daniel_Naurin",
+    "World_cup_2026_Jana Blahak",
+    "World_cup_2026_JonasSchmid",
+    "World_cup_2026_Martin_S",
+    "World_cup_2026_Vilde Hernes",
+    "World_cup_2026_lutscher",
+    "World_cup_2026_stiansen",
+    "World_cup_2026_ØB",
+    "world_cup_2026_hs"
+  ],
+  "self_scores": {
+    "Copy of World_cup_2026.TomC": 2785,
+    "Gates_World_cup_2026": 2840,
+    "Jan_Erling_World_cup_2026": 2840,
+    "Kopi av World_cup_2026-Elin Arntzen": 2840,
+    "Kopi av World_cup_2026_jh": 2840,
+    "Maiken world_cup_2026": 2840,
+    "Sandven_World_cup_2026": 2840,
+    "Tone Vevatne - World Cup Competition 2026": 2840,
+    "World_cup_2026_Bjørn_Fjærli": 2840,
+    "World_cup_2026_CL": 2840,
+    "World_cup_2026_Dagfinn": 2840,
+    "World_cup_2026_Daniel_Naurin": 2840,
+    "World_cup_2026_Jana Blahak": 2840,
+    "World_cup_2026_JonasSchmid": 2840,
+    "World_cup_2026_Martin_S": 2840,
+    "World_cup_2026_Vilde Hernes": 2840,
+    "World_cup_2026_lutscher": 2840,
+    "World_cup_2026_stiansen": 2840,
+    "World_cup_2026_ØB": 2840,
+    "world_cup_2026_hs": 2840
+  },
+  "matrix": {
+    "Copy of World_cup_2026.TomC": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 2785,
+        "score_ba": 2785,
+        "avg_raw": 2785.0,
+        "normalised": 1.0
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 1819,
+        "score_ba": 1819,
+        "avg_raw": 1819.0,
+        "normalised": 0.6468
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1795,
+        "score_ba": 1795,
+        "avg_raw": 1795.0,
+        "normalised": 0.6383
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1588,
+        "score_ba": 1588,
+        "avg_raw": 1588.0,
+        "normalised": 0.5646
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1580,
+        "score_ba": 1580,
+        "avg_raw": 1580.0,
+        "normalised": 0.5618
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 2069,
+        "score_ba": 2069,
+        "avg_raw": 2069.0,
+        "normalised": 0.7357
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 1719,
+        "score_ba": 1719,
+        "avg_raw": 1719.0,
+        "normalised": 0.6112
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 1896,
+        "score_ba": 1896,
+        "avg_raw": 1896.0,
+        "normalised": 0.6742
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1275,
+        "score_ba": 1275,
+        "avg_raw": 1275.0,
+        "normalised": 0.4534
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1441,
+        "score_ba": 1441,
+        "avg_raw": 1441.0,
+        "normalised": 0.5124
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1716,
+        "score_ba": 1716,
+        "avg_raw": 1716.0,
+        "normalised": 0.6102
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 1749,
+        "score_ba": 1749,
+        "avg_raw": 1749.0,
+        "normalised": 0.6219
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1631,
+        "score_ba": 1631,
+        "avg_raw": 1631.0,
+        "normalised": 0.5799
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 1747,
+        "score_ba": 1747,
+        "avg_raw": 1747.0,
+        "normalised": 0.6212
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1395,
+        "score_ba": 1395,
+        "avg_raw": 1395.0,
+        "normalised": 0.496
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1973,
+        "score_ba": 1973,
+        "avg_raw": 1973.0,
+        "normalised": 0.7015
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1825,
+        "score_ba": 1825,
+        "avg_raw": 1825.0,
+        "normalised": 0.6489
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1537,
+        "score_ba": 1537,
+        "avg_raw": 1537.0,
+        "normalised": 0.5465
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1786,
+        "score_ba": 1786,
+        "avg_raw": 1786.0,
+        "normalised": 0.6351
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 1652,
+        "score_ba": 1652,
+        "avg_raw": 1652.0,
+        "normalised": 0.5874
+      }
+    },
+    "Gates_World_cup_2026": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1819,
+        "score_ba": 1819,
+        "avg_raw": 1819.0,
+        "normalised": 0.6468
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1864,
+        "score_ba": 1864,
+        "avg_raw": 1864.0,
+        "normalised": 0.6563
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1798,
+        "score_ba": 1798,
+        "avg_raw": 1798.0,
+        "normalised": 0.6331
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1774,
+        "score_ba": 1774,
+        "avg_raw": 1774.0,
+        "normalised": 0.6246
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 2245,
+        "score_ba": 2245,
+        "avg_raw": 2245.0,
+        "normalised": 0.7905
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 1904,
+        "score_ba": 1904,
+        "avg_raw": 1904.0,
+        "normalised": 0.6704
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 2148,
+        "score_ba": 2148,
+        "avg_raw": 2148.0,
+        "normalised": 0.7563
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1464,
+        "score_ba": 1464,
+        "avg_raw": 1464.0,
+        "normalised": 0.5155
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1599,
+        "score_ba": 1599,
+        "avg_raw": 1599.0,
+        "normalised": 0.563
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1995,
+        "score_ba": 1995,
+        "avg_raw": 1995.0,
+        "normalised": 0.7025
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 1982,
+        "score_ba": 1982,
+        "avg_raw": 1982.0,
+        "normalised": 0.6979
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1411,
+        "score_ba": 1411,
+        "avg_raw": 1411.0,
+        "normalised": 0.4968
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 2005,
+        "score_ba": 2005,
+        "avg_raw": 2005.0,
+        "normalised": 0.706
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1208,
+        "score_ba": 1208,
+        "avg_raw": 1208.0,
+        "normalised": 0.4254
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1817,
+        "score_ba": 1817,
+        "avg_raw": 1817.0,
+        "normalised": 0.6398
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 2035,
+        "score_ba": 2035,
+        "avg_raw": 2035.0,
+        "normalised": 0.7165
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1867,
+        "score_ba": 1867,
+        "avg_raw": 1867.0,
+        "normalised": 0.6574
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1935,
+        "score_ba": 1935,
+        "avg_raw": 1935.0,
+        "normalised": 0.6813
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 1957,
+        "score_ba": 1957,
+        "avg_raw": 1957.0,
+        "normalised": 0.6891
+      }
+    },
+    "Jan_Erling_World_cup_2026": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1795,
+        "score_ba": 1795,
+        "avg_raw": 1795.0,
+        "normalised": 0.6383
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 1864,
+        "score_ba": 1864,
+        "avg_raw": 1864.0,
+        "normalised": 0.6563
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1514,
+        "score_ba": 1514,
+        "avg_raw": 1514.0,
+        "normalised": 0.5331
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1626,
+        "score_ba": 1626,
+        "avg_raw": 1626.0,
+        "normalised": 0.5725
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 1960,
+        "score_ba": 1960,
+        "avg_raw": 1960.0,
+        "normalised": 0.6901
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 1777,
+        "score_ba": 1777,
+        "avg_raw": 1777.0,
+        "normalised": 0.6257
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 1895,
+        "score_ba": 1895,
+        "avg_raw": 1895.0,
+        "normalised": 0.6673
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1579,
+        "score_ba": 1579,
+        "avg_raw": 1579.0,
+        "normalised": 0.556
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1342,
+        "score_ba": 1342,
+        "avg_raw": 1342.0,
+        "normalised": 0.4725
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1675,
+        "score_ba": 1675,
+        "avg_raw": 1675.0,
+        "normalised": 0.5898
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 2084,
+        "score_ba": 2084,
+        "avg_raw": 2084.0,
+        "normalised": 0.7338
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1536,
+        "score_ba": 1536,
+        "avg_raw": 1536.0,
+        "normalised": 0.5408
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 1775,
+        "score_ba": 1775,
+        "avg_raw": 1775.0,
+        "normalised": 0.625
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1134,
+        "score_ba": 1134,
+        "avg_raw": 1134.0,
+        "normalised": 0.3993
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1724,
+        "score_ba": 1724,
+        "avg_raw": 1724.0,
+        "normalised": 0.607
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1797,
+        "score_ba": 1797,
+        "avg_raw": 1797.0,
+        "normalised": 0.6327
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1513,
+        "score_ba": 1513,
+        "avg_raw": 1513.0,
+        "normalised": 0.5327
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1570,
+        "score_ba": 1570,
+        "avg_raw": 1570.0,
+        "normalised": 0.5528
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 2130,
+        "score_ba": 2130,
+        "avg_raw": 2130.0,
+        "normalised": 0.75
+      }
+    },
+    "Kopi av World_cup_2026-Elin Arntzen": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1588,
+        "score_ba": 1588,
+        "avg_raw": 1588.0,
+        "normalised": 0.5646
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 1798,
+        "score_ba": 1798,
+        "avg_raw": 1798.0,
+        "normalised": 0.6331
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1514,
+        "score_ba": 1514,
+        "avg_raw": 1514.0,
+        "normalised": 0.5331
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1765,
+        "score_ba": 1765,
+        "avg_raw": 1765.0,
+        "normalised": 0.6215
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 1869,
+        "score_ba": 1869,
+        "avg_raw": 1869.0,
+        "normalised": 0.6581
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 2100,
+        "score_ba": 2100,
+        "avg_raw": 2100.0,
+        "normalised": 0.7394
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 1852,
+        "score_ba": 1852,
+        "avg_raw": 1852.0,
+        "normalised": 0.6521
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1577,
+        "score_ba": 1577,
+        "avg_raw": 1577.0,
+        "normalised": 0.5553
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1695,
+        "score_ba": 1695,
+        "avg_raw": 1695.0,
+        "normalised": 0.5968
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1694,
+        "score_ba": 1694,
+        "avg_raw": 1694.0,
+        "normalised": 0.5965
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 1714,
+        "score_ba": 1714,
+        "avg_raw": 1714.0,
+        "normalised": 0.6035
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1286,
+        "score_ba": 1286,
+        "avg_raw": 1286.0,
+        "normalised": 0.4528
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 2110,
+        "score_ba": 2110,
+        "avg_raw": 2110.0,
+        "normalised": 0.743
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1413,
+        "score_ba": 1413,
+        "avg_raw": 1413.0,
+        "normalised": 0.4975
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1635,
+        "score_ba": 1635,
+        "avg_raw": 1635.0,
+        "normalised": 0.5757
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1631,
+        "score_ba": 1631,
+        "avg_raw": 1631.0,
+        "normalised": 0.5743
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 2053,
+        "score_ba": 2053,
+        "avg_raw": 2053.0,
+        "normalised": 0.7229
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1500,
+        "score_ba": 1500,
+        "avg_raw": 1500.0,
+        "normalised": 0.5282
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 1670,
+        "score_ba": 1670,
+        "avg_raw": 1670.0,
+        "normalised": 0.588
+      }
+    },
+    "Kopi av World_cup_2026_jh": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1580,
+        "score_ba": 1580,
+        "avg_raw": 1580.0,
+        "normalised": 0.5618
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 1774,
+        "score_ba": 1774,
+        "avg_raw": 1774.0,
+        "normalised": 0.6246
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1626,
+        "score_ba": 1626,
+        "avg_raw": 1626.0,
+        "normalised": 0.5725
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1765,
+        "score_ba": 1765,
+        "avg_raw": 1765.0,
+        "normalised": 0.6215
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 1888,
+        "score_ba": 1888,
+        "avg_raw": 1888.0,
+        "normalised": 0.6648
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 1926,
+        "score_ba": 1926,
+        "avg_raw": 1926.0,
+        "normalised": 0.6782
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 1898,
+        "score_ba": 1898,
+        "avg_raw": 1898.0,
+        "normalised": 0.6683
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1492,
+        "score_ba": 1492,
+        "avg_raw": 1492.0,
+        "normalised": 0.5254
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1326,
+        "score_ba": 1326,
+        "avg_raw": 1326.0,
+        "normalised": 0.4669
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1596,
+        "score_ba": 1596,
+        "avg_raw": 1596.0,
+        "normalised": 0.562
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 1678,
+        "score_ba": 1678,
+        "avg_raw": 1678.0,
+        "normalised": 0.5908
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1200,
+        "score_ba": 1200,
+        "avg_raw": 1200.0,
+        "normalised": 0.4225
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 2007,
+        "score_ba": 2007,
+        "avg_raw": 2007.0,
+        "normalised": 0.7067
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 992,
+        "score_ba": 992,
+        "avg_raw": 992.0,
+        "normalised": 0.3493
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1624,
+        "score_ba": 1624,
+        "avg_raw": 1624.0,
+        "normalised": 0.5718
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1545,
+        "score_ba": 1545,
+        "avg_raw": 1545.0,
+        "normalised": 0.544
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1873,
+        "score_ba": 1873,
+        "avg_raw": 1873.0,
+        "normalised": 0.6595
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1463,
+        "score_ba": 1463,
+        "avg_raw": 1463.0,
+        "normalised": 0.5151
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 1597,
+        "score_ba": 1597,
+        "avg_raw": 1597.0,
+        "normalised": 0.5623
+      }
+    },
+    "Maiken world_cup_2026": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 2069,
+        "score_ba": 2069,
+        "avg_raw": 2069.0,
+        "normalised": 0.7357
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 2245,
+        "score_ba": 2245,
+        "avg_raw": 2245.0,
+        "normalised": 0.7905
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1960,
+        "score_ba": 1960,
+        "avg_raw": 1960.0,
+        "normalised": 0.6901
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1869,
+        "score_ba": 1869,
+        "avg_raw": 1869.0,
+        "normalised": 0.6581
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1888,
+        "score_ba": 1888,
+        "avg_raw": 1888.0,
+        "normalised": 0.6648
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 2164,
+        "score_ba": 2164,
+        "avg_raw": 2164.0,
+        "normalised": 0.762
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 2418,
+        "score_ba": 2418,
+        "avg_raw": 2418.0,
+        "normalised": 0.8514
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1681,
+        "score_ba": 1681,
+        "avg_raw": 1681.0,
+        "normalised": 0.5919
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1698,
+        "score_ba": 1698,
+        "avg_raw": 1698.0,
+        "normalised": 0.5979
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 2198,
+        "score_ba": 2198,
+        "avg_raw": 2198.0,
+        "normalised": 0.7739
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 2233,
+        "score_ba": 2233,
+        "avg_raw": 2233.0,
+        "normalised": 0.7863
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1783,
+        "score_ba": 1783,
+        "avg_raw": 1783.0,
+        "normalised": 0.6278
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 2377,
+        "score_ba": 2377,
+        "avg_raw": 2377.0,
+        "normalised": 0.837
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1371,
+        "score_ba": 1371,
+        "avg_raw": 1371.0,
+        "normalised": 0.4827
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 2154,
+        "score_ba": 2154,
+        "avg_raw": 2154.0,
+        "normalised": 0.7585
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 2141,
+        "score_ba": 2141,
+        "avg_raw": 2141.0,
+        "normalised": 0.7539
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1947,
+        "score_ba": 1947,
+        "avg_raw": 1947.0,
+        "normalised": 0.6856
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1977,
+        "score_ba": 1977,
+        "avg_raw": 1977.0,
+        "normalised": 0.6961
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 2245,
+        "score_ba": 2245,
+        "avg_raw": 2245.0,
+        "normalised": 0.7905
+      }
+    },
+    "Sandven_World_cup_2026": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1719,
+        "score_ba": 1719,
+        "avg_raw": 1719.0,
+        "normalised": 0.6112
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 1904,
+        "score_ba": 1904,
+        "avg_raw": 1904.0,
+        "normalised": 0.6704
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1777,
+        "score_ba": 1777,
+        "avg_raw": 1777.0,
+        "normalised": 0.6257
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 2100,
+        "score_ba": 2100,
+        "avg_raw": 2100.0,
+        "normalised": 0.7394
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1926,
+        "score_ba": 1926,
+        "avg_raw": 1926.0,
+        "normalised": 0.6782
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 2164,
+        "score_ba": 2164,
+        "avg_raw": 2164.0,
+        "normalised": 0.762
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 1956,
+        "score_ba": 1956,
+        "avg_raw": 1956.0,
+        "normalised": 0.6887
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1991,
+        "score_ba": 1991,
+        "avg_raw": 1991.0,
+        "normalised": 0.7011
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1734,
+        "score_ba": 1734,
+        "avg_raw": 1734.0,
+        "normalised": 0.6106
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1662,
+        "score_ba": 1662,
+        "avg_raw": 1662.0,
+        "normalised": 0.5852
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 2036,
+        "score_ba": 2036,
+        "avg_raw": 2036.0,
+        "normalised": 0.7169
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1435,
+        "score_ba": 1435,
+        "avg_raw": 1435.0,
+        "normalised": 0.5053
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 2307,
+        "score_ba": 2307,
+        "avg_raw": 2307.0,
+        "normalised": 0.8123
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1419,
+        "score_ba": 1419,
+        "avg_raw": 1419.0,
+        "normalised": 0.4996
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1839,
+        "score_ba": 1839,
+        "avg_raw": 1839.0,
+        "normalised": 0.6475
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1739,
+        "score_ba": 1739,
+        "avg_raw": 1739.0,
+        "normalised": 0.6123
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 2009,
+        "score_ba": 2009,
+        "avg_raw": 2009.0,
+        "normalised": 0.7074
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1766,
+        "score_ba": 1766,
+        "avg_raw": 1766.0,
+        "normalised": 0.6218
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 2067,
+        "score_ba": 2067,
+        "avg_raw": 2067.0,
+        "normalised": 0.7278
+      }
+    },
+    "Tone Vevatne - World Cup Competition 2026": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1896,
+        "score_ba": 1896,
+        "avg_raw": 1896.0,
+        "normalised": 0.6742
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 2148,
+        "score_ba": 2148,
+        "avg_raw": 2148.0,
+        "normalised": 0.7563
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1895,
+        "score_ba": 1895,
+        "avg_raw": 1895.0,
+        "normalised": 0.6673
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1852,
+        "score_ba": 1852,
+        "avg_raw": 1852.0,
+        "normalised": 0.6521
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1898,
+        "score_ba": 1898,
+        "avg_raw": 1898.0,
+        "normalised": 0.6683
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 2418,
+        "score_ba": 2418,
+        "avg_raw": 2418.0,
+        "normalised": 0.8514
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 1956,
+        "score_ba": 1956,
+        "avg_raw": 1956.0,
+        "normalised": 0.6887
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1537,
+        "score_ba": 1537,
+        "avg_raw": 1537.0,
+        "normalised": 0.5412
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1643,
+        "score_ba": 1643,
+        "avg_raw": 1643.0,
+        "normalised": 0.5785
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 2126,
+        "score_ba": 2126,
+        "avg_raw": 2126.0,
+        "normalised": 0.7486
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 2176,
+        "score_ba": 2176,
+        "avg_raw": 2176.0,
+        "normalised": 0.7662
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1557,
+        "score_ba": 1557,
+        "avg_raw": 1557.0,
+        "normalised": 0.5482
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 2183,
+        "score_ba": 2183,
+        "avg_raw": 2183.0,
+        "normalised": 0.7687
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1258,
+        "score_ba": 1258,
+        "avg_raw": 1258.0,
+        "normalised": 0.443
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1967,
+        "score_ba": 1967,
+        "avg_raw": 1967.0,
+        "normalised": 0.6926
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 2182,
+        "score_ba": 2182,
+        "avg_raw": 2182.0,
+        "normalised": 0.7683
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1970,
+        "score_ba": 1970,
+        "avg_raw": 1970.0,
+        "normalised": 0.6937
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1764,
+        "score_ba": 1764,
+        "avg_raw": 1764.0,
+        "normalised": 0.6211
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 2156,
+        "score_ba": 2156,
+        "avg_raw": 2156.0,
+        "normalised": 0.7592
+      }
+    },
+    "World_cup_2026_Bjørn_Fjærli": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1275,
+        "score_ba": 1275,
+        "avg_raw": 1275.0,
+        "normalised": 0.4534
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 1464,
+        "score_ba": 1464,
+        "avg_raw": 1464.0,
+        "normalised": 0.5155
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1579,
+        "score_ba": 1579,
+        "avg_raw": 1579.0,
+        "normalised": 0.556
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1577,
+        "score_ba": 1577,
+        "avg_raw": 1577.0,
+        "normalised": 0.5553
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1492,
+        "score_ba": 1492,
+        "avg_raw": 1492.0,
+        "normalised": 0.5254
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 1681,
+        "score_ba": 1681,
+        "avg_raw": 1681.0,
+        "normalised": 0.5919
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 1991,
+        "score_ba": 1991,
+        "avg_raw": 1991.0,
+        "normalised": 0.7011
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 1537,
+        "score_ba": 1537,
+        "avg_raw": 1537.0,
+        "normalised": 0.5412
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1708,
+        "score_ba": 1708,
+        "avg_raw": 1708.0,
+        "normalised": 0.6014
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1443,
+        "score_ba": 1443,
+        "avg_raw": 1443.0,
+        "normalised": 0.5081
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 1730,
+        "score_ba": 1730,
+        "avg_raw": 1730.0,
+        "normalised": 0.6092
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1489,
+        "score_ba": 1489,
+        "avg_raw": 1489.0,
+        "normalised": 0.5243
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 1866,
+        "score_ba": 1866,
+        "avg_raw": 1866.0,
+        "normalised": 0.657
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1252,
+        "score_ba": 1252,
+        "avg_raw": 1252.0,
+        "normalised": 0.4408
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1494,
+        "score_ba": 1494,
+        "avg_raw": 1494.0,
+        "normalised": 0.5261
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1453,
+        "score_ba": 1453,
+        "avg_raw": 1453.0,
+        "normalised": 0.5116
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1623,
+        "score_ba": 1623,
+        "avg_raw": 1623.0,
+        "normalised": 0.5715
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1412,
+        "score_ba": 1412,
+        "avg_raw": 1412.0,
+        "normalised": 0.4972
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 1835,
+        "score_ba": 1835,
+        "avg_raw": 1835.0,
+        "normalised": 0.6461
+      }
+    },
+    "World_cup_2026_CL": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1441,
+        "score_ba": 1441,
+        "avg_raw": 1441.0,
+        "normalised": 0.5124
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 1599,
+        "score_ba": 1599,
+        "avg_raw": 1599.0,
+        "normalised": 0.563
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1342,
+        "score_ba": 1342,
+        "avg_raw": 1342.0,
+        "normalised": 0.4725
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1695,
+        "score_ba": 1695,
+        "avg_raw": 1695.0,
+        "normalised": 0.5968
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1326,
+        "score_ba": 1326,
+        "avg_raw": 1326.0,
+        "normalised": 0.4669
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 1698,
+        "score_ba": 1698,
+        "avg_raw": 1698.0,
+        "normalised": 0.5979
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 1734,
+        "score_ba": 1734,
+        "avg_raw": 1734.0,
+        "normalised": 0.6106
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 1643,
+        "score_ba": 1643,
+        "avg_raw": 1643.0,
+        "normalised": 0.5785
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1708,
+        "score_ba": 1708,
+        "avg_raw": 1708.0,
+        "normalised": 0.6014
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1548,
+        "score_ba": 1548,
+        "avg_raw": 1548.0,
+        "normalised": 0.5451
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 1609,
+        "score_ba": 1609,
+        "avg_raw": 1609.0,
+        "normalised": 0.5665
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1254,
+        "score_ba": 1254,
+        "avg_raw": 1254.0,
+        "normalised": 0.4415
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 1824,
+        "score_ba": 1824,
+        "avg_raw": 1824.0,
+        "normalised": 0.6423
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1445,
+        "score_ba": 1445,
+        "avg_raw": 1445.0,
+        "normalised": 0.5088
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1316,
+        "score_ba": 1316,
+        "avg_raw": 1316.0,
+        "normalised": 0.4634
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1487,
+        "score_ba": 1487,
+        "avg_raw": 1487.0,
+        "normalised": 0.5236
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1649,
+        "score_ba": 1649,
+        "avg_raw": 1649.0,
+        "normalised": 0.5806
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1471,
+        "score_ba": 1471,
+        "avg_raw": 1471.0,
+        "normalised": 0.518
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 1533,
+        "score_ba": 1533,
+        "avg_raw": 1533.0,
+        "normalised": 0.5398
+      }
+    },
+    "World_cup_2026_Dagfinn": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1716,
+        "score_ba": 1716,
+        "avg_raw": 1716.0,
+        "normalised": 0.6102
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 1995,
+        "score_ba": 1995,
+        "avg_raw": 1995.0,
+        "normalised": 0.7025
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1675,
+        "score_ba": 1675,
+        "avg_raw": 1675.0,
+        "normalised": 0.5898
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1694,
+        "score_ba": 1694,
+        "avg_raw": 1694.0,
+        "normalised": 0.5965
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1596,
+        "score_ba": 1596,
+        "avg_raw": 1596.0,
+        "normalised": 0.562
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 2198,
+        "score_ba": 2198,
+        "avg_raw": 2198.0,
+        "normalised": 0.7739
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 1662,
+        "score_ba": 1662,
+        "avg_raw": 1662.0,
+        "normalised": 0.5852
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 2126,
+        "score_ba": 2126,
+        "avg_raw": 2126.0,
+        "normalised": 0.7486
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1443,
+        "score_ba": 1443,
+        "avg_raw": 1443.0,
+        "normalised": 0.5081
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1548,
+        "score_ba": 1548,
+        "avg_raw": 1548.0,
+        "normalised": 0.5451
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 1849,
+        "score_ba": 1849,
+        "avg_raw": 1849.0,
+        "normalised": 0.6511
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1509,
+        "score_ba": 1509,
+        "avg_raw": 1509.0,
+        "normalised": 0.5313
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 1886,
+        "score_ba": 1886,
+        "avg_raw": 1886.0,
+        "normalised": 0.6641
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1353,
+        "score_ba": 1353,
+        "avg_raw": 1353.0,
+        "normalised": 0.4764
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1815,
+        "score_ba": 1815,
+        "avg_raw": 1815.0,
+        "normalised": 0.6391
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1846,
+        "score_ba": 1846,
+        "avg_raw": 1846.0,
+        "normalised": 0.65
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1763,
+        "score_ba": 1763,
+        "avg_raw": 1763.0,
+        "normalised": 0.6208
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1667,
+        "score_ba": 1667,
+        "avg_raw": 1667.0,
+        "normalised": 0.587
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 1981,
+        "score_ba": 1981,
+        "avg_raw": 1981.0,
+        "normalised": 0.6975
+      }
+    },
+    "World_cup_2026_Daniel_Naurin": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1749,
+        "score_ba": 1749,
+        "avg_raw": 1749.0,
+        "normalised": 0.6219
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 1982,
+        "score_ba": 1982,
+        "avg_raw": 1982.0,
+        "normalised": 0.6979
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 2084,
+        "score_ba": 2084,
+        "avg_raw": 2084.0,
+        "normalised": 0.7338
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1714,
+        "score_ba": 1714,
+        "avg_raw": 1714.0,
+        "normalised": 0.6035
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1678,
+        "score_ba": 1678,
+        "avg_raw": 1678.0,
+        "normalised": 0.5908
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 2233,
+        "score_ba": 2233,
+        "avg_raw": 2233.0,
+        "normalised": 0.7863
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 2036,
+        "score_ba": 2036,
+        "avg_raw": 2036.0,
+        "normalised": 0.7169
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 2176,
+        "score_ba": 2176,
+        "avg_raw": 2176.0,
+        "normalised": 0.7662
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1730,
+        "score_ba": 1730,
+        "avg_raw": 1730.0,
+        "normalised": 0.6092
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1609,
+        "score_ba": 1609,
+        "avg_raw": 1609.0,
+        "normalised": 0.5665
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1849,
+        "score_ba": 1849,
+        "avg_raw": 1849.0,
+        "normalised": 0.6511
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1626,
+        "score_ba": 1626,
+        "avg_raw": 1626.0,
+        "normalised": 0.5725
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 2007,
+        "score_ba": 2007,
+        "avg_raw": 2007.0,
+        "normalised": 0.7067
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1188,
+        "score_ba": 1188,
+        "avg_raw": 1188.0,
+        "normalised": 0.4183
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1840,
+        "score_ba": 1840,
+        "avg_raw": 1840.0,
+        "normalised": 0.6479
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1989,
+        "score_ba": 1989,
+        "avg_raw": 1989.0,
+        "normalised": 0.7004
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1823,
+        "score_ba": 1823,
+        "avg_raw": 1823.0,
+        "normalised": 0.6419
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1815,
+        "score_ba": 1815,
+        "avg_raw": 1815.0,
+        "normalised": 0.6391
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 2289,
+        "score_ba": 2289,
+        "avg_raw": 2289.0,
+        "normalised": 0.806
+      }
+    },
+    "World_cup_2026_Jana Blahak": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1631,
+        "score_ba": 1631,
+        "avg_raw": 1631.0,
+        "normalised": 0.5799
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 1411,
+        "score_ba": 1411,
+        "avg_raw": 1411.0,
+        "normalised": 0.4968
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1536,
+        "score_ba": 1536,
+        "avg_raw": 1536.0,
+        "normalised": 0.5408
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1286,
+        "score_ba": 1286,
+        "avg_raw": 1286.0,
+        "normalised": 0.4528
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1200,
+        "score_ba": 1200,
+        "avg_raw": 1200.0,
+        "normalised": 0.4225
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 1783,
+        "score_ba": 1783,
+        "avg_raw": 1783.0,
+        "normalised": 0.6278
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 1435,
+        "score_ba": 1435,
+        "avg_raw": 1435.0,
+        "normalised": 0.5053
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 1557,
+        "score_ba": 1557,
+        "avg_raw": 1557.0,
+        "normalised": 0.5482
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1489,
+        "score_ba": 1489,
+        "avg_raw": 1489.0,
+        "normalised": 0.5243
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1254,
+        "score_ba": 1254,
+        "avg_raw": 1254.0,
+        "normalised": 0.4415
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1509,
+        "score_ba": 1509,
+        "avg_raw": 1509.0,
+        "normalised": 0.5313
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 1626,
+        "score_ba": 1626,
+        "avg_raw": 1626.0,
+        "normalised": 0.5725
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 1417,
+        "score_ba": 1417,
+        "avg_raw": 1417.0,
+        "normalised": 0.4989
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1081,
+        "score_ba": 1081,
+        "avg_raw": 1081.0,
+        "normalised": 0.3806
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1632,
+        "score_ba": 1632,
+        "avg_raw": 1632.0,
+        "normalised": 0.5746
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1478,
+        "score_ba": 1478,
+        "avg_raw": 1478.0,
+        "normalised": 0.5204
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1231,
+        "score_ba": 1231,
+        "avg_raw": 1231.0,
+        "normalised": 0.4335
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1364,
+        "score_ba": 1364,
+        "avg_raw": 1364.0,
+        "normalised": 0.4803
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 1639,
+        "score_ba": 1639,
+        "avg_raw": 1639.0,
+        "normalised": 0.5771
+      }
+    },
+    "World_cup_2026_JonasSchmid": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1747,
+        "score_ba": 1747,
+        "avg_raw": 1747.0,
+        "normalised": 0.6212
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 2005,
+        "score_ba": 2005,
+        "avg_raw": 2005.0,
+        "normalised": 0.706
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1775,
+        "score_ba": 1775,
+        "avg_raw": 1775.0,
+        "normalised": 0.625
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 2110,
+        "score_ba": 2110,
+        "avg_raw": 2110.0,
+        "normalised": 0.743
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 2007,
+        "score_ba": 2007,
+        "avg_raw": 2007.0,
+        "normalised": 0.7067
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 2377,
+        "score_ba": 2377,
+        "avg_raw": 2377.0,
+        "normalised": 0.837
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 2307,
+        "score_ba": 2307,
+        "avg_raw": 2307.0,
+        "normalised": 0.8123
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 2183,
+        "score_ba": 2183,
+        "avg_raw": 2183.0,
+        "normalised": 0.7687
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1866,
+        "score_ba": 1866,
+        "avg_raw": 1866.0,
+        "normalised": 0.657
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1824,
+        "score_ba": 1824,
+        "avg_raw": 1824.0,
+        "normalised": 0.6423
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1886,
+        "score_ba": 1886,
+        "avg_raw": 1886.0,
+        "normalised": 0.6641
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 2007,
+        "score_ba": 2007,
+        "avg_raw": 2007.0,
+        "normalised": 0.7067
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1417,
+        "score_ba": 1417,
+        "avg_raw": 1417.0,
+        "normalised": 0.4989
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1444,
+        "score_ba": 1444,
+        "avg_raw": 1444.0,
+        "normalised": 0.5085
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1857,
+        "score_ba": 1857,
+        "avg_raw": 1857.0,
+        "normalised": 0.6539
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1948,
+        "score_ba": 1948,
+        "avg_raw": 1948.0,
+        "normalised": 0.6859
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 2183,
+        "score_ba": 2183,
+        "avg_raw": 2183.0,
+        "normalised": 0.7687
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1772,
+        "score_ba": 1772,
+        "avg_raw": 1772.0,
+        "normalised": 0.6239
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 2032,
+        "score_ba": 2032,
+        "avg_raw": 2032.0,
+        "normalised": 0.7155
+      }
+    },
+    "World_cup_2026_Martin_S": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1395,
+        "score_ba": 1395,
+        "avg_raw": 1395.0,
+        "normalised": 0.496
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 1208,
+        "score_ba": 1208,
+        "avg_raw": 1208.0,
+        "normalised": 0.4254
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1134,
+        "score_ba": 1134,
+        "avg_raw": 1134.0,
+        "normalised": 0.3993
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1413,
+        "score_ba": 1413,
+        "avg_raw": 1413.0,
+        "normalised": 0.4975
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 992,
+        "score_ba": 992,
+        "avg_raw": 992.0,
+        "normalised": 0.3493
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 1371,
+        "score_ba": 1371,
+        "avg_raw": 1371.0,
+        "normalised": 0.4827
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 1419,
+        "score_ba": 1419,
+        "avg_raw": 1419.0,
+        "normalised": 0.4996
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 1258,
+        "score_ba": 1258,
+        "avg_raw": 1258.0,
+        "normalised": 0.443
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1252,
+        "score_ba": 1252,
+        "avg_raw": 1252.0,
+        "normalised": 0.4408
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1445,
+        "score_ba": 1445,
+        "avg_raw": 1445.0,
+        "normalised": 0.5088
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1353,
+        "score_ba": 1353,
+        "avg_raw": 1353.0,
+        "normalised": 0.4764
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 1188,
+        "score_ba": 1188,
+        "avg_raw": 1188.0,
+        "normalised": 0.4183
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1081,
+        "score_ba": 1081,
+        "avg_raw": 1081.0,
+        "normalised": 0.3806
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 1444,
+        "score_ba": 1444,
+        "avg_raw": 1444.0,
+        "normalised": 0.5085
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1364,
+        "score_ba": 1364,
+        "avg_raw": 1364.0,
+        "normalised": 0.4803
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1270,
+        "score_ba": 1270,
+        "avg_raw": 1270.0,
+        "normalised": 0.4472
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1536,
+        "score_ba": 1536,
+        "avg_raw": 1536.0,
+        "normalised": 0.5408
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1267,
+        "score_ba": 1267,
+        "avg_raw": 1267.0,
+        "normalised": 0.4461
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 1271,
+        "score_ba": 1271,
+        "avg_raw": 1271.0,
+        "normalised": 0.4475
+      }
+    },
+    "World_cup_2026_Vilde Hernes": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1973,
+        "score_ba": 1973,
+        "avg_raw": 1973.0,
+        "normalised": 0.7015
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 1817,
+        "score_ba": 1817,
+        "avg_raw": 1817.0,
+        "normalised": 0.6398
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1724,
+        "score_ba": 1724,
+        "avg_raw": 1724.0,
+        "normalised": 0.607
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1635,
+        "score_ba": 1635,
+        "avg_raw": 1635.0,
+        "normalised": 0.5757
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1624,
+        "score_ba": 1624,
+        "avg_raw": 1624.0,
+        "normalised": 0.5718
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 2154,
+        "score_ba": 2154,
+        "avg_raw": 2154.0,
+        "normalised": 0.7585
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 1839,
+        "score_ba": 1839,
+        "avg_raw": 1839.0,
+        "normalised": 0.6475
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 1967,
+        "score_ba": 1967,
+        "avg_raw": 1967.0,
+        "normalised": 0.6926
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1494,
+        "score_ba": 1494,
+        "avg_raw": 1494.0,
+        "normalised": 0.5261
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1316,
+        "score_ba": 1316,
+        "avg_raw": 1316.0,
+        "normalised": 0.4634
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1815,
+        "score_ba": 1815,
+        "avg_raw": 1815.0,
+        "normalised": 0.6391
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 1840,
+        "score_ba": 1840,
+        "avg_raw": 1840.0,
+        "normalised": 0.6479
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1632,
+        "score_ba": 1632,
+        "avg_raw": 1632.0,
+        "normalised": 0.5746
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 1857,
+        "score_ba": 1857,
+        "avg_raw": 1857.0,
+        "normalised": 0.6539
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1364,
+        "score_ba": 1364,
+        "avg_raw": 1364.0,
+        "normalised": 0.4803
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1724,
+        "score_ba": 1724,
+        "avg_raw": 1724.0,
+        "normalised": 0.607
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1507,
+        "score_ba": 1507,
+        "avg_raw": 1507.0,
+        "normalised": 0.5306
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1573,
+        "score_ba": 1573,
+        "avg_raw": 1573.0,
+        "normalised": 0.5539
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 1842,
+        "score_ba": 1842,
+        "avg_raw": 1842.0,
+        "normalised": 0.6486
+      }
+    },
+    "World_cup_2026_lutscher": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1825,
+        "score_ba": 1825,
+        "avg_raw": 1825.0,
+        "normalised": 0.6489
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 2035,
+        "score_ba": 2035,
+        "avg_raw": 2035.0,
+        "normalised": 0.7165
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1797,
+        "score_ba": 1797,
+        "avg_raw": 1797.0,
+        "normalised": 0.6327
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1631,
+        "score_ba": 1631,
+        "avg_raw": 1631.0,
+        "normalised": 0.5743
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1545,
+        "score_ba": 1545,
+        "avg_raw": 1545.0,
+        "normalised": 0.544
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 2141,
+        "score_ba": 2141,
+        "avg_raw": 2141.0,
+        "normalised": 0.7539
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 1739,
+        "score_ba": 1739,
+        "avg_raw": 1739.0,
+        "normalised": 0.6123
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 2182,
+        "score_ba": 2182,
+        "avg_raw": 2182.0,
+        "normalised": 0.7683
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1453,
+        "score_ba": 1453,
+        "avg_raw": 1453.0,
+        "normalised": 0.5116
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1487,
+        "score_ba": 1487,
+        "avg_raw": 1487.0,
+        "normalised": 0.5236
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1846,
+        "score_ba": 1846,
+        "avg_raw": 1846.0,
+        "normalised": 0.65
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 1989,
+        "score_ba": 1989,
+        "avg_raw": 1989.0,
+        "normalised": 0.7004
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1478,
+        "score_ba": 1478,
+        "avg_raw": 1478.0,
+        "normalised": 0.5204
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 1948,
+        "score_ba": 1948,
+        "avg_raw": 1948.0,
+        "normalised": 0.6859
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1270,
+        "score_ba": 1270,
+        "avg_raw": 1270.0,
+        "normalised": 0.4472
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1724,
+        "score_ba": 1724,
+        "avg_raw": 1724.0,
+        "normalised": 0.607
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1834,
+        "score_ba": 1834,
+        "avg_raw": 1834.0,
+        "normalised": 0.6458
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1715,
+        "score_ba": 1715,
+        "avg_raw": 1715.0,
+        "normalised": 0.6039
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 1933,
+        "score_ba": 1933,
+        "avg_raw": 1933.0,
+        "normalised": 0.6806
+      }
+    },
+    "World_cup_2026_stiansen": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1537,
+        "score_ba": 1537,
+        "avg_raw": 1537.0,
+        "normalised": 0.5465
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 1867,
+        "score_ba": 1867,
+        "avg_raw": 1867.0,
+        "normalised": 0.6574
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1513,
+        "score_ba": 1513,
+        "avg_raw": 1513.0,
+        "normalised": 0.5327
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 2053,
+        "score_ba": 2053,
+        "avg_raw": 2053.0,
+        "normalised": 0.7229
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1873,
+        "score_ba": 1873,
+        "avg_raw": 1873.0,
+        "normalised": 0.6595
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 1947,
+        "score_ba": 1947,
+        "avg_raw": 1947.0,
+        "normalised": 0.6856
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 2009,
+        "score_ba": 2009,
+        "avg_raw": 2009.0,
+        "normalised": 0.7074
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 1970,
+        "score_ba": 1970,
+        "avg_raw": 1970.0,
+        "normalised": 0.6937
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1623,
+        "score_ba": 1623,
+        "avg_raw": 1623.0,
+        "normalised": 0.5715
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1649,
+        "score_ba": 1649,
+        "avg_raw": 1649.0,
+        "normalised": 0.5806
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1763,
+        "score_ba": 1763,
+        "avg_raw": 1763.0,
+        "normalised": 0.6208
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 1823,
+        "score_ba": 1823,
+        "avg_raw": 1823.0,
+        "normalised": 0.6419
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1231,
+        "score_ba": 1231,
+        "avg_raw": 1231.0,
+        "normalised": 0.4335
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 2183,
+        "score_ba": 2183,
+        "avg_raw": 2183.0,
+        "normalised": 0.7687
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1536,
+        "score_ba": 1536,
+        "avg_raw": 1536.0,
+        "normalised": 0.5408
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1507,
+        "score_ba": 1507,
+        "avg_raw": 1507.0,
+        "normalised": 0.5306
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1834,
+        "score_ba": 1834,
+        "avg_raw": 1834.0,
+        "normalised": 0.6458
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1672,
+        "score_ba": 1672,
+        "avg_raw": 1672.0,
+        "normalised": 0.5887
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 1650,
+        "score_ba": 1650,
+        "avg_raw": 1650.0,
+        "normalised": 0.581
+      }
+    },
+    "World_cup_2026_ØB": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1786,
+        "score_ba": 1786,
+        "avg_raw": 1786.0,
+        "normalised": 0.6351
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 1935,
+        "score_ba": 1935,
+        "avg_raw": 1935.0,
+        "normalised": 0.6813
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 1570,
+        "score_ba": 1570,
+        "avg_raw": 1570.0,
+        "normalised": 0.5528
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1500,
+        "score_ba": 1500,
+        "avg_raw": 1500.0,
+        "normalised": 0.5282
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1463,
+        "score_ba": 1463,
+        "avg_raw": 1463.0,
+        "normalised": 0.5151
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 1977,
+        "score_ba": 1977,
+        "avg_raw": 1977.0,
+        "normalised": 0.6961
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 1766,
+        "score_ba": 1766,
+        "avg_raw": 1766.0,
+        "normalised": 0.6218
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 1764,
+        "score_ba": 1764,
+        "avg_raw": 1764.0,
+        "normalised": 0.6211
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1412,
+        "score_ba": 1412,
+        "avg_raw": 1412.0,
+        "normalised": 0.4972
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1471,
+        "score_ba": 1471,
+        "avg_raw": 1471.0,
+        "normalised": 0.518
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1667,
+        "score_ba": 1667,
+        "avg_raw": 1667.0,
+        "normalised": 0.587
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 1815,
+        "score_ba": 1815,
+        "avg_raw": 1815.0,
+        "normalised": 0.6391
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1364,
+        "score_ba": 1364,
+        "avg_raw": 1364.0,
+        "normalised": 0.4803
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 1772,
+        "score_ba": 1772,
+        "avg_raw": 1772.0,
+        "normalised": 0.6239
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1267,
+        "score_ba": 1267,
+        "avg_raw": 1267.0,
+        "normalised": 0.4461
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1573,
+        "score_ba": 1573,
+        "avg_raw": 1573.0,
+        "normalised": 0.5539
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1715,
+        "score_ba": 1715,
+        "avg_raw": 1715.0,
+        "normalised": 0.6039
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1672,
+        "score_ba": 1672,
+        "avg_raw": 1672.0,
+        "normalised": 0.5887
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 1802,
+        "score_ba": 1802,
+        "avg_raw": 1802.0,
+        "normalised": 0.6345
+      }
+    },
+    "world_cup_2026_hs": {
+      "Copy of World_cup_2026.TomC": {
+        "score_ab": 1652,
+        "score_ba": 1652,
+        "avg_raw": 1652.0,
+        "normalised": 0.5874
+      },
+      "Gates_World_cup_2026": {
+        "score_ab": 1957,
+        "score_ba": 1957,
+        "avg_raw": 1957.0,
+        "normalised": 0.6891
+      },
+      "Jan_Erling_World_cup_2026": {
+        "score_ab": 2130,
+        "score_ba": 2130,
+        "avg_raw": 2130.0,
+        "normalised": 0.75
+      },
+      "Kopi av World_cup_2026-Elin Arntzen": {
+        "score_ab": 1670,
+        "score_ba": 1670,
+        "avg_raw": 1670.0,
+        "normalised": 0.588
+      },
+      "Kopi av World_cup_2026_jh": {
+        "score_ab": 1597,
+        "score_ba": 1597,
+        "avg_raw": 1597.0,
+        "normalised": 0.5623
+      },
+      "Maiken world_cup_2026": {
+        "score_ab": 2245,
+        "score_ba": 2245,
+        "avg_raw": 2245.0,
+        "normalised": 0.7905
+      },
+      "Sandven_World_cup_2026": {
+        "score_ab": 2067,
+        "score_ba": 2067,
+        "avg_raw": 2067.0,
+        "normalised": 0.7278
+      },
+      "Tone Vevatne - World Cup Competition 2026": {
+        "score_ab": 2156,
+        "score_ba": 2156,
+        "avg_raw": 2156.0,
+        "normalised": 0.7592
+      },
+      "World_cup_2026_Bjørn_Fjærli": {
+        "score_ab": 1835,
+        "score_ba": 1835,
+        "avg_raw": 1835.0,
+        "normalised": 0.6461
+      },
+      "World_cup_2026_CL": {
+        "score_ab": 1533,
+        "score_ba": 1533,
+        "avg_raw": 1533.0,
+        "normalised": 0.5398
+      },
+      "World_cup_2026_Dagfinn": {
+        "score_ab": 1981,
+        "score_ba": 1981,
+        "avg_raw": 1981.0,
+        "normalised": 0.6975
+      },
+      "World_cup_2026_Daniel_Naurin": {
+        "score_ab": 2289,
+        "score_ba": 2289,
+        "avg_raw": 2289.0,
+        "normalised": 0.806
+      },
+      "World_cup_2026_Jana Blahak": {
+        "score_ab": 1639,
+        "score_ba": 1639,
+        "avg_raw": 1639.0,
+        "normalised": 0.5771
+      },
+      "World_cup_2026_JonasSchmid": {
+        "score_ab": 2032,
+        "score_ba": 2032,
+        "avg_raw": 2032.0,
+        "normalised": 0.7155
+      },
+      "World_cup_2026_Martin_S": {
+        "score_ab": 1271,
+        "score_ba": 1271,
+        "avg_raw": 1271.0,
+        "normalised": 0.4475
+      },
+      "World_cup_2026_Vilde Hernes": {
+        "score_ab": 1842,
+        "score_ba": 1842,
+        "avg_raw": 1842.0,
+        "normalised": 0.6486
+      },
+      "World_cup_2026_lutscher": {
+        "score_ab": 1933,
+        "score_ba": 1933,
+        "avg_raw": 1933.0,
+        "normalised": 0.6806
+      },
+      "World_cup_2026_stiansen": {
+        "score_ab": 1650,
+        "score_ba": 1650,
+        "avg_raw": 1650.0,
+        "normalised": 0.581
+      },
+      "World_cup_2026_ØB": {
+        "score_ab": 1802,
+        "score_ba": 1802,
+        "avg_raw": 1802.0,
+        "normalised": 0.6345
+      },
+      "world_cup_2026_hs": {
+        "score_ab": 2840,
+        "score_ba": 2840,
+        "avg_raw": 2840.0,
+        "normalised": 1.0
+      }
+    }
+  },
+  "pairs": [
+    {
+      "player_a": "Maiken world_cup_2026",
+      "player_b": "Tone Vevatne - World Cup Competition 2026",
+      "score_ab": 2418,
+      "score_ba": 2418,
+      "avg_raw": 2418.0,
+      "normalised": 0.8514
+    },
+    {
+      "player_a": "Maiken world_cup_2026",
+      "player_b": "World_cup_2026_JonasSchmid",
+      "score_ab": 2377,
+      "score_ba": 2377,
+      "avg_raw": 2377.0,
+      "normalised": 0.837
+    },
+    {
+      "player_a": "Sandven_World_cup_2026",
+      "player_b": "World_cup_2026_JonasSchmid",
+      "score_ab": 2307,
+      "score_ba": 2307,
+      "avg_raw": 2307.0,
+      "normalised": 0.8123
+    },
+    {
+      "player_a": "World_cup_2026_Daniel_Naurin",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 2289,
+      "score_ba": 2289,
+      "avg_raw": 2289.0,
+      "normalised": 0.806
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "Maiken world_cup_2026",
+      "score_ab": 2245,
+      "score_ba": 2245,
+      "avg_raw": 2245.0,
+      "normalised": 0.7905
+    },
+    {
+      "player_a": "Maiken world_cup_2026",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 2245,
+      "score_ba": 2245,
+      "avg_raw": 2245.0,
+      "normalised": 0.7905
+    },
+    {
+      "player_a": "Maiken world_cup_2026",
+      "player_b": "World_cup_2026_Daniel_Naurin",
+      "score_ab": 2233,
+      "score_ba": 2233,
+      "avg_raw": 2233.0,
+      "normalised": 0.7863
+    },
+    {
+      "player_a": "Maiken world_cup_2026",
+      "player_b": "World_cup_2026_Dagfinn",
+      "score_ab": 2198,
+      "score_ba": 2198,
+      "avg_raw": 2198.0,
+      "normalised": 0.7739
+    },
+    {
+      "player_a": "Tone Vevatne - World Cup Competition 2026",
+      "player_b": "World_cup_2026_JonasSchmid",
+      "score_ab": 2183,
+      "score_ba": 2183,
+      "avg_raw": 2183.0,
+      "normalised": 0.7687
+    },
+    {
+      "player_a": "World_cup_2026_JonasSchmid",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 2183,
+      "score_ba": 2183,
+      "avg_raw": 2183.0,
+      "normalised": 0.7687
+    },
+    {
+      "player_a": "Tone Vevatne - World Cup Competition 2026",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 2182,
+      "score_ba": 2182,
+      "avg_raw": 2182.0,
+      "normalised": 0.7683
+    },
+    {
+      "player_a": "Tone Vevatne - World Cup Competition 2026",
+      "player_b": "World_cup_2026_Daniel_Naurin",
+      "score_ab": 2176,
+      "score_ba": 2176,
+      "avg_raw": 2176.0,
+      "normalised": 0.7662
+    },
+    {
+      "player_a": "Maiken world_cup_2026",
+      "player_b": "Sandven_World_cup_2026",
+      "score_ab": 2164,
+      "score_ba": 2164,
+      "avg_raw": 2164.0,
+      "normalised": 0.762
+    },
+    {
+      "player_a": "Tone Vevatne - World Cup Competition 2026",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 2156,
+      "score_ba": 2156,
+      "avg_raw": 2156.0,
+      "normalised": 0.7592
+    },
+    {
+      "player_a": "Maiken world_cup_2026",
+      "player_b": "World_cup_2026_Vilde Hernes",
+      "score_ab": 2154,
+      "score_ba": 2154,
+      "avg_raw": 2154.0,
+      "normalised": 0.7585
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "Tone Vevatne - World Cup Competition 2026",
+      "score_ab": 2148,
+      "score_ba": 2148,
+      "avg_raw": 2148.0,
+      "normalised": 0.7563
+    },
+    {
+      "player_a": "Maiken world_cup_2026",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 2141,
+      "score_ba": 2141,
+      "avg_raw": 2141.0,
+      "normalised": 0.7539
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 2130,
+      "score_ba": 2130,
+      "avg_raw": 2130.0,
+      "normalised": 0.75
+    },
+    {
+      "player_a": "Tone Vevatne - World Cup Competition 2026",
+      "player_b": "World_cup_2026_Dagfinn",
+      "score_ab": 2126,
+      "score_ba": 2126,
+      "avg_raw": 2126.0,
+      "normalised": 0.7486
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "World_cup_2026_JonasSchmid",
+      "score_ab": 2110,
+      "score_ba": 2110,
+      "avg_raw": 2110.0,
+      "normalised": 0.743
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "Sandven_World_cup_2026",
+      "score_ab": 2100,
+      "score_ba": 2100,
+      "avg_raw": 2100.0,
+      "normalised": 0.7394
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "Maiken world_cup_2026",
+      "score_ab": 2069,
+      "score_ba": 2069,
+      "avg_raw": 2069.0,
+      "normalised": 0.7357
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "World_cup_2026_Daniel_Naurin",
+      "score_ab": 2084,
+      "score_ba": 2084,
+      "avg_raw": 2084.0,
+      "normalised": 0.7338
+    },
+    {
+      "player_a": "Sandven_World_cup_2026",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 2067,
+      "score_ba": 2067,
+      "avg_raw": 2067.0,
+      "normalised": 0.7278
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 2053,
+      "score_ba": 2053,
+      "avg_raw": 2053.0,
+      "normalised": 0.7229
+    },
+    {
+      "player_a": "Sandven_World_cup_2026",
+      "player_b": "World_cup_2026_Daniel_Naurin",
+      "score_ab": 2036,
+      "score_ba": 2036,
+      "avg_raw": 2036.0,
+      "normalised": 0.7169
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 2035,
+      "score_ba": 2035,
+      "avg_raw": 2035.0,
+      "normalised": 0.7165
+    },
+    {
+      "player_a": "World_cup_2026_JonasSchmid",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 2032,
+      "score_ba": 2032,
+      "avg_raw": 2032.0,
+      "normalised": 0.7155
+    },
+    {
+      "player_a": "Sandven_World_cup_2026",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 2009,
+      "score_ba": 2009,
+      "avg_raw": 2009.0,
+      "normalised": 0.7074
+    },
+    {
+      "player_a": "Kopi av World_cup_2026_jh",
+      "player_b": "World_cup_2026_JonasSchmid",
+      "score_ab": 2007,
+      "score_ba": 2007,
+      "avg_raw": 2007.0,
+      "normalised": 0.7067
+    },
+    {
+      "player_a": "World_cup_2026_Daniel_Naurin",
+      "player_b": "World_cup_2026_JonasSchmid",
+      "score_ab": 2007,
+      "score_ba": 2007,
+      "avg_raw": 2007.0,
+      "normalised": 0.7067
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "World_cup_2026_JonasSchmid",
+      "score_ab": 2005,
+      "score_ba": 2005,
+      "avg_raw": 2005.0,
+      "normalised": 0.706
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "World_cup_2026_Dagfinn",
+      "score_ab": 1995,
+      "score_ba": 1995,
+      "avg_raw": 1995.0,
+      "normalised": 0.7025
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "World_cup_2026_Vilde Hernes",
+      "score_ab": 1973,
+      "score_ba": 1973,
+      "avg_raw": 1973.0,
+      "normalised": 0.7015
+    },
+    {
+      "player_a": "Sandven_World_cup_2026",
+      "player_b": "World_cup_2026_Bjørn_Fjærli",
+      "score_ab": 1991,
+      "score_ba": 1991,
+      "avg_raw": 1991.0,
+      "normalised": 0.7011
+    },
+    {
+      "player_a": "World_cup_2026_Daniel_Naurin",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 1989,
+      "score_ba": 1989,
+      "avg_raw": 1989.0,
+      "normalised": 0.7004
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "World_cup_2026_Daniel_Naurin",
+      "score_ab": 1982,
+      "score_ba": 1982,
+      "avg_raw": 1982.0,
+      "normalised": 0.6979
+    },
+    {
+      "player_a": "World_cup_2026_Dagfinn",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 1981,
+      "score_ba": 1981,
+      "avg_raw": 1981.0,
+      "normalised": 0.6975
+    },
+    {
+      "player_a": "Maiken world_cup_2026",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1977,
+      "score_ba": 1977,
+      "avg_raw": 1977.0,
+      "normalised": 0.6961
+    },
+    {
+      "player_a": "Tone Vevatne - World Cup Competition 2026",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 1970,
+      "score_ba": 1970,
+      "avg_raw": 1970.0,
+      "normalised": 0.6937
+    },
+    {
+      "player_a": "Tone Vevatne - World Cup Competition 2026",
+      "player_b": "World_cup_2026_Vilde Hernes",
+      "score_ab": 1967,
+      "score_ba": 1967,
+      "avg_raw": 1967.0,
+      "normalised": 0.6926
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "Maiken world_cup_2026",
+      "score_ab": 1960,
+      "score_ba": 1960,
+      "avg_raw": 1960.0,
+      "normalised": 0.6901
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 1957,
+      "score_ba": 1957,
+      "avg_raw": 1957.0,
+      "normalised": 0.6891
+    },
+    {
+      "player_a": "Sandven_World_cup_2026",
+      "player_b": "Tone Vevatne - World Cup Competition 2026",
+      "score_ab": 1956,
+      "score_ba": 1956,
+      "avg_raw": 1956.0,
+      "normalised": 0.6887
+    },
+    {
+      "player_a": "World_cup_2026_JonasSchmid",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 1948,
+      "score_ba": 1948,
+      "avg_raw": 1948.0,
+      "normalised": 0.6859
+    },
+    {
+      "player_a": "Maiken world_cup_2026",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 1947,
+      "score_ba": 1947,
+      "avg_raw": 1947.0,
+      "normalised": 0.6856
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1935,
+      "score_ba": 1935,
+      "avg_raw": 1935.0,
+      "normalised": 0.6813
+    },
+    {
+      "player_a": "World_cup_2026_lutscher",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 1933,
+      "score_ba": 1933,
+      "avg_raw": 1933.0,
+      "normalised": 0.6806
+    },
+    {
+      "player_a": "Kopi av World_cup_2026_jh",
+      "player_b": "Sandven_World_cup_2026",
+      "score_ab": 1926,
+      "score_ba": 1926,
+      "avg_raw": 1926.0,
+      "normalised": 0.6782
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "Tone Vevatne - World Cup Competition 2026",
+      "score_ab": 1896,
+      "score_ba": 1896,
+      "avg_raw": 1896.0,
+      "normalised": 0.6742
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "Sandven_World_cup_2026",
+      "score_ab": 1904,
+      "score_ba": 1904,
+      "avg_raw": 1904.0,
+      "normalised": 0.6704
+    },
+    {
+      "player_a": "Kopi av World_cup_2026_jh",
+      "player_b": "Tone Vevatne - World Cup Competition 2026",
+      "score_ab": 1898,
+      "score_ba": 1898,
+      "avg_raw": 1898.0,
+      "normalised": 0.6683
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "Tone Vevatne - World Cup Competition 2026",
+      "score_ab": 1895,
+      "score_ba": 1895,
+      "avg_raw": 1895.0,
+      "normalised": 0.6673
+    },
+    {
+      "player_a": "Kopi av World_cup_2026_jh",
+      "player_b": "Maiken world_cup_2026",
+      "score_ab": 1888,
+      "score_ba": 1888,
+      "avg_raw": 1888.0,
+      "normalised": 0.6648
+    },
+    {
+      "player_a": "World_cup_2026_Dagfinn",
+      "player_b": "World_cup_2026_JonasSchmid",
+      "score_ab": 1886,
+      "score_ba": 1886,
+      "avg_raw": 1886.0,
+      "normalised": 0.6641
+    },
+    {
+      "player_a": "Kopi av World_cup_2026_jh",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 1873,
+      "score_ba": 1873,
+      "avg_raw": 1873.0,
+      "normalised": 0.6595
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "Maiken world_cup_2026",
+      "score_ab": 1869,
+      "score_ba": 1869,
+      "avg_raw": 1869.0,
+      "normalised": 0.6581
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 1867,
+      "score_ba": 1867,
+      "avg_raw": 1867.0,
+      "normalised": 0.6574
+    },
+    {
+      "player_a": "World_cup_2026_Bjørn_Fjærli",
+      "player_b": "World_cup_2026_JonasSchmid",
+      "score_ab": 1866,
+      "score_ba": 1866,
+      "avg_raw": 1866.0,
+      "normalised": 0.657
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "Jan_Erling_World_cup_2026",
+      "score_ab": 1864,
+      "score_ba": 1864,
+      "avg_raw": 1864.0,
+      "normalised": 0.6563
+    },
+    {
+      "player_a": "World_cup_2026_JonasSchmid",
+      "player_b": "World_cup_2026_Vilde Hernes",
+      "score_ab": 1857,
+      "score_ba": 1857,
+      "avg_raw": 1857.0,
+      "normalised": 0.6539
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "Tone Vevatne - World Cup Competition 2026",
+      "score_ab": 1852,
+      "score_ba": 1852,
+      "avg_raw": 1852.0,
+      "normalised": 0.6521
+    },
+    {
+      "player_a": "World_cup_2026_Dagfinn",
+      "player_b": "World_cup_2026_Daniel_Naurin",
+      "score_ab": 1849,
+      "score_ba": 1849,
+      "avg_raw": 1849.0,
+      "normalised": 0.6511
+    },
+    {
+      "player_a": "World_cup_2026_Dagfinn",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 1846,
+      "score_ba": 1846,
+      "avg_raw": 1846.0,
+      "normalised": 0.65
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 1825,
+      "score_ba": 1825,
+      "avg_raw": 1825.0,
+      "normalised": 0.6489
+    },
+    {
+      "player_a": "World_cup_2026_Vilde Hernes",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 1842,
+      "score_ba": 1842,
+      "avg_raw": 1842.0,
+      "normalised": 0.6486
+    },
+    {
+      "player_a": "World_cup_2026_Daniel_Naurin",
+      "player_b": "World_cup_2026_Vilde Hernes",
+      "score_ab": 1840,
+      "score_ba": 1840,
+      "avg_raw": 1840.0,
+      "normalised": 0.6479
+    },
+    {
+      "player_a": "Sandven_World_cup_2026",
+      "player_b": "World_cup_2026_Vilde Hernes",
+      "score_ab": 1839,
+      "score_ba": 1839,
+      "avg_raw": 1839.0,
+      "normalised": 0.6475
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "Gates_World_cup_2026",
+      "score_ab": 1819,
+      "score_ba": 1819,
+      "avg_raw": 1819.0,
+      "normalised": 0.6468
+    },
+    {
+      "player_a": "World_cup_2026_Bjørn_Fjærli",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 1835,
+      "score_ba": 1835,
+      "avg_raw": 1835.0,
+      "normalised": 0.6461
+    },
+    {
+      "player_a": "World_cup_2026_lutscher",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 1834,
+      "score_ba": 1834,
+      "avg_raw": 1834.0,
+      "normalised": 0.6458
+    },
+    {
+      "player_a": "World_cup_2026_CL",
+      "player_b": "World_cup_2026_JonasSchmid",
+      "score_ab": 1824,
+      "score_ba": 1824,
+      "avg_raw": 1824.0,
+      "normalised": 0.6423
+    },
+    {
+      "player_a": "World_cup_2026_Daniel_Naurin",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 1823,
+      "score_ba": 1823,
+      "avg_raw": 1823.0,
+      "normalised": 0.6419
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "World_cup_2026_Vilde Hernes",
+      "score_ab": 1817,
+      "score_ba": 1817,
+      "avg_raw": 1817.0,
+      "normalised": 0.6398
+    },
+    {
+      "player_a": "World_cup_2026_Dagfinn",
+      "player_b": "World_cup_2026_Vilde Hernes",
+      "score_ab": 1815,
+      "score_ba": 1815,
+      "avg_raw": 1815.0,
+      "normalised": 0.6391
+    },
+    {
+      "player_a": "World_cup_2026_Daniel_Naurin",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1815,
+      "score_ba": 1815,
+      "avg_raw": 1815.0,
+      "normalised": 0.6391
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "Jan_Erling_World_cup_2026",
+      "score_ab": 1795,
+      "score_ba": 1795,
+      "avg_raw": 1795.0,
+      "normalised": 0.6383
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1786,
+      "score_ba": 1786,
+      "avg_raw": 1786.0,
+      "normalised": 0.6351
+    },
+    {
+      "player_a": "World_cup_2026_ØB",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 1802,
+      "score_ba": 1802,
+      "avg_raw": 1802.0,
+      "normalised": 0.6345
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "Kopi av World_cup_2026-Elin Arntzen",
+      "score_ab": 1798,
+      "score_ba": 1798,
+      "avg_raw": 1798.0,
+      "normalised": 0.6331
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 1797,
+      "score_ba": 1797,
+      "avg_raw": 1797.0,
+      "normalised": 0.6327
+    },
+    {
+      "player_a": "Maiken world_cup_2026",
+      "player_b": "World_cup_2026_Jana Blahak",
+      "score_ab": 1783,
+      "score_ba": 1783,
+      "avg_raw": 1783.0,
+      "normalised": 0.6278
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "Sandven_World_cup_2026",
+      "score_ab": 1777,
+      "score_ba": 1777,
+      "avg_raw": 1777.0,
+      "normalised": 0.6257
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "World_cup_2026_JonasSchmid",
+      "score_ab": 1775,
+      "score_ba": 1775,
+      "avg_raw": 1775.0,
+      "normalised": 0.625
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "Kopi av World_cup_2026_jh",
+      "score_ab": 1774,
+      "score_ba": 1774,
+      "avg_raw": 1774.0,
+      "normalised": 0.6246
+    },
+    {
+      "player_a": "World_cup_2026_JonasSchmid",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1772,
+      "score_ba": 1772,
+      "avg_raw": 1772.0,
+      "normalised": 0.6239
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "World_cup_2026_Daniel_Naurin",
+      "score_ab": 1749,
+      "score_ba": 1749,
+      "avg_raw": 1749.0,
+      "normalised": 0.6219
+    },
+    {
+      "player_a": "Sandven_World_cup_2026",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1766,
+      "score_ba": 1766,
+      "avg_raw": 1766.0,
+      "normalised": 0.6218
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "Kopi av World_cup_2026_jh",
+      "score_ab": 1765,
+      "score_ba": 1765,
+      "avg_raw": 1765.0,
+      "normalised": 0.6215
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "World_cup_2026_JonasSchmid",
+      "score_ab": 1747,
+      "score_ba": 1747,
+      "avg_raw": 1747.0,
+      "normalised": 0.6212
+    },
+    {
+      "player_a": "Tone Vevatne - World Cup Competition 2026",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1764,
+      "score_ba": 1764,
+      "avg_raw": 1764.0,
+      "normalised": 0.6211
+    },
+    {
+      "player_a": "World_cup_2026_Dagfinn",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 1763,
+      "score_ba": 1763,
+      "avg_raw": 1763.0,
+      "normalised": 0.6208
+    },
+    {
+      "player_a": "Sandven_World_cup_2026",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 1739,
+      "score_ba": 1739,
+      "avg_raw": 1739.0,
+      "normalised": 0.6123
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "Sandven_World_cup_2026",
+      "score_ab": 1719,
+      "score_ba": 1719,
+      "avg_raw": 1719.0,
+      "normalised": 0.6112
+    },
+    {
+      "player_a": "Sandven_World_cup_2026",
+      "player_b": "World_cup_2026_CL",
+      "score_ab": 1734,
+      "score_ba": 1734,
+      "avg_raw": 1734.0,
+      "normalised": 0.6106
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "World_cup_2026_Dagfinn",
+      "score_ab": 1716,
+      "score_ba": 1716,
+      "avg_raw": 1716.0,
+      "normalised": 0.6102
+    },
+    {
+      "player_a": "World_cup_2026_Bjørn_Fjærli",
+      "player_b": "World_cup_2026_Daniel_Naurin",
+      "score_ab": 1730,
+      "score_ba": 1730,
+      "avg_raw": 1730.0,
+      "normalised": 0.6092
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "World_cup_2026_Vilde Hernes",
+      "score_ab": 1724,
+      "score_ba": 1724,
+      "avg_raw": 1724.0,
+      "normalised": 0.607
+    },
+    {
+      "player_a": "World_cup_2026_Vilde Hernes",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 1724,
+      "score_ba": 1724,
+      "avg_raw": 1724.0,
+      "normalised": 0.607
+    },
+    {
+      "player_a": "World_cup_2026_lutscher",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1715,
+      "score_ba": 1715,
+      "avg_raw": 1715.0,
+      "normalised": 0.6039
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "World_cup_2026_Daniel_Naurin",
+      "score_ab": 1714,
+      "score_ba": 1714,
+      "avg_raw": 1714.0,
+      "normalised": 0.6035
+    },
+    {
+      "player_a": "World_cup_2026_Bjørn_Fjærli",
+      "player_b": "World_cup_2026_CL",
+      "score_ab": 1708,
+      "score_ba": 1708,
+      "avg_raw": 1708.0,
+      "normalised": 0.6014
+    },
+    {
+      "player_a": "Maiken world_cup_2026",
+      "player_b": "World_cup_2026_CL",
+      "score_ab": 1698,
+      "score_ba": 1698,
+      "avg_raw": 1698.0,
+      "normalised": 0.5979
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "World_cup_2026_CL",
+      "score_ab": 1695,
+      "score_ba": 1695,
+      "avg_raw": 1695.0,
+      "normalised": 0.5968
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "World_cup_2026_Dagfinn",
+      "score_ab": 1694,
+      "score_ba": 1694,
+      "avg_raw": 1694.0,
+      "normalised": 0.5965
+    },
+    {
+      "player_a": "Maiken world_cup_2026",
+      "player_b": "World_cup_2026_Bjørn_Fjærli",
+      "score_ab": 1681,
+      "score_ba": 1681,
+      "avg_raw": 1681.0,
+      "normalised": 0.5919
+    },
+    {
+      "player_a": "Kopi av World_cup_2026_jh",
+      "player_b": "World_cup_2026_Daniel_Naurin",
+      "score_ab": 1678,
+      "score_ba": 1678,
+      "avg_raw": 1678.0,
+      "normalised": 0.5908
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "World_cup_2026_Dagfinn",
+      "score_ab": 1675,
+      "score_ba": 1675,
+      "avg_raw": 1675.0,
+      "normalised": 0.5898
+    },
+    {
+      "player_a": "World_cup_2026_stiansen",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1672,
+      "score_ba": 1672,
+      "avg_raw": 1672.0,
+      "normalised": 0.5887
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 1670,
+      "score_ba": 1670,
+      "avg_raw": 1670.0,
+      "normalised": 0.588
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 1652,
+      "score_ba": 1652,
+      "avg_raw": 1652.0,
+      "normalised": 0.5874
+    },
+    {
+      "player_a": "World_cup_2026_Dagfinn",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1667,
+      "score_ba": 1667,
+      "avg_raw": 1667.0,
+      "normalised": 0.587
+    },
+    {
+      "player_a": "Sandven_World_cup_2026",
+      "player_b": "World_cup_2026_Dagfinn",
+      "score_ab": 1662,
+      "score_ba": 1662,
+      "avg_raw": 1662.0,
+      "normalised": 0.5852
+    },
+    {
+      "player_a": "World_cup_2026_stiansen",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 1650,
+      "score_ba": 1650,
+      "avg_raw": 1650.0,
+      "normalised": 0.581
+    },
+    {
+      "player_a": "World_cup_2026_CL",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 1649,
+      "score_ba": 1649,
+      "avg_raw": 1649.0,
+      "normalised": 0.5806
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "World_cup_2026_Jana Blahak",
+      "score_ab": 1631,
+      "score_ba": 1631,
+      "avg_raw": 1631.0,
+      "normalised": 0.5799
+    },
+    {
+      "player_a": "Tone Vevatne - World Cup Competition 2026",
+      "player_b": "World_cup_2026_CL",
+      "score_ab": 1643,
+      "score_ba": 1643,
+      "avg_raw": 1643.0,
+      "normalised": 0.5785
+    },
+    {
+      "player_a": "World_cup_2026_Jana Blahak",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 1639,
+      "score_ba": 1639,
+      "avg_raw": 1639.0,
+      "normalised": 0.5771
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "World_cup_2026_Vilde Hernes",
+      "score_ab": 1635,
+      "score_ba": 1635,
+      "avg_raw": 1635.0,
+      "normalised": 0.5757
+    },
+    {
+      "player_a": "World_cup_2026_Jana Blahak",
+      "player_b": "World_cup_2026_Vilde Hernes",
+      "score_ab": 1632,
+      "score_ba": 1632,
+      "avg_raw": 1632.0,
+      "normalised": 0.5746
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 1631,
+      "score_ba": 1631,
+      "avg_raw": 1631.0,
+      "normalised": 0.5743
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "Kopi av World_cup_2026_jh",
+      "score_ab": 1626,
+      "score_ba": 1626,
+      "avg_raw": 1626.0,
+      "normalised": 0.5725
+    },
+    {
+      "player_a": "World_cup_2026_Daniel_Naurin",
+      "player_b": "World_cup_2026_Jana Blahak",
+      "score_ab": 1626,
+      "score_ba": 1626,
+      "avg_raw": 1626.0,
+      "normalised": 0.5725
+    },
+    {
+      "player_a": "Kopi av World_cup_2026_jh",
+      "player_b": "World_cup_2026_Vilde Hernes",
+      "score_ab": 1624,
+      "score_ba": 1624,
+      "avg_raw": 1624.0,
+      "normalised": 0.5718
+    },
+    {
+      "player_a": "World_cup_2026_Bjørn_Fjærli",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 1623,
+      "score_ba": 1623,
+      "avg_raw": 1623.0,
+      "normalised": 0.5715
+    },
+    {
+      "player_a": "World_cup_2026_CL",
+      "player_b": "World_cup_2026_Daniel_Naurin",
+      "score_ab": 1609,
+      "score_ba": 1609,
+      "avg_raw": 1609.0,
+      "normalised": 0.5665
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "Kopi av World_cup_2026-Elin Arntzen",
+      "score_ab": 1588,
+      "score_ba": 1588,
+      "avg_raw": 1588.0,
+      "normalised": 0.5646
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "World_cup_2026_CL",
+      "score_ab": 1599,
+      "score_ba": 1599,
+      "avg_raw": 1599.0,
+      "normalised": 0.563
+    },
+    {
+      "player_a": "Kopi av World_cup_2026_jh",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 1597,
+      "score_ba": 1597,
+      "avg_raw": 1597.0,
+      "normalised": 0.5623
+    },
+    {
+      "player_a": "Kopi av World_cup_2026_jh",
+      "player_b": "World_cup_2026_Dagfinn",
+      "score_ab": 1596,
+      "score_ba": 1596,
+      "avg_raw": 1596.0,
+      "normalised": 0.562
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "Kopi av World_cup_2026_jh",
+      "score_ab": 1580,
+      "score_ba": 1580,
+      "avg_raw": 1580.0,
+      "normalised": 0.5618
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "World_cup_2026_Bjørn_Fjærli",
+      "score_ab": 1579,
+      "score_ba": 1579,
+      "avg_raw": 1579.0,
+      "normalised": 0.556
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "World_cup_2026_Bjørn_Fjærli",
+      "score_ab": 1577,
+      "score_ba": 1577,
+      "avg_raw": 1577.0,
+      "normalised": 0.5553
+    },
+    {
+      "player_a": "World_cup_2026_Vilde Hernes",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1573,
+      "score_ba": 1573,
+      "avg_raw": 1573.0,
+      "normalised": 0.5539
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1570,
+      "score_ba": 1570,
+      "avg_raw": 1570.0,
+      "normalised": 0.5528
+    },
+    {
+      "player_a": "Tone Vevatne - World Cup Competition 2026",
+      "player_b": "World_cup_2026_Jana Blahak",
+      "score_ab": 1557,
+      "score_ba": 1557,
+      "avg_raw": 1557.0,
+      "normalised": 0.5482
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 1537,
+      "score_ba": 1537,
+      "avg_raw": 1537.0,
+      "normalised": 0.5465
+    },
+    {
+      "player_a": "World_cup_2026_CL",
+      "player_b": "World_cup_2026_Dagfinn",
+      "score_ab": 1548,
+      "score_ba": 1548,
+      "avg_raw": 1548.0,
+      "normalised": 0.5451
+    },
+    {
+      "player_a": "Kopi av World_cup_2026_jh",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 1545,
+      "score_ba": 1545,
+      "avg_raw": 1545.0,
+      "normalised": 0.544
+    },
+    {
+      "player_a": "Tone Vevatne - World Cup Competition 2026",
+      "player_b": "World_cup_2026_Bjørn_Fjærli",
+      "score_ab": 1537,
+      "score_ba": 1537,
+      "avg_raw": 1537.0,
+      "normalised": 0.5412
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "World_cup_2026_Jana Blahak",
+      "score_ab": 1536,
+      "score_ba": 1536,
+      "avg_raw": 1536.0,
+      "normalised": 0.5408
+    },
+    {
+      "player_a": "World_cup_2026_Martin_S",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 1536,
+      "score_ba": 1536,
+      "avg_raw": 1536.0,
+      "normalised": 0.5408
+    },
+    {
+      "player_a": "World_cup_2026_CL",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 1533,
+      "score_ba": 1533,
+      "avg_raw": 1533.0,
+      "normalised": 0.5398
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "Kopi av World_cup_2026-Elin Arntzen",
+      "score_ab": 1514,
+      "score_ba": 1514,
+      "avg_raw": 1514.0,
+      "normalised": 0.5331
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 1513,
+      "score_ba": 1513,
+      "avg_raw": 1513.0,
+      "normalised": 0.5327
+    },
+    {
+      "player_a": "World_cup_2026_Dagfinn",
+      "player_b": "World_cup_2026_Jana Blahak",
+      "score_ab": 1509,
+      "score_ba": 1509,
+      "avg_raw": 1509.0,
+      "normalised": 0.5313
+    },
+    {
+      "player_a": "World_cup_2026_Vilde Hernes",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 1507,
+      "score_ba": 1507,
+      "avg_raw": 1507.0,
+      "normalised": 0.5306
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1500,
+      "score_ba": 1500,
+      "avg_raw": 1500.0,
+      "normalised": 0.5282
+    },
+    {
+      "player_a": "World_cup_2026_Bjørn_Fjærli",
+      "player_b": "World_cup_2026_Vilde Hernes",
+      "score_ab": 1494,
+      "score_ba": 1494,
+      "avg_raw": 1494.0,
+      "normalised": 0.5261
+    },
+    {
+      "player_a": "Kopi av World_cup_2026_jh",
+      "player_b": "World_cup_2026_Bjørn_Fjærli",
+      "score_ab": 1492,
+      "score_ba": 1492,
+      "avg_raw": 1492.0,
+      "normalised": 0.5254
+    },
+    {
+      "player_a": "World_cup_2026_Bjørn_Fjærli",
+      "player_b": "World_cup_2026_Jana Blahak",
+      "score_ab": 1489,
+      "score_ba": 1489,
+      "avg_raw": 1489.0,
+      "normalised": 0.5243
+    },
+    {
+      "player_a": "World_cup_2026_CL",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 1487,
+      "score_ba": 1487,
+      "avg_raw": 1487.0,
+      "normalised": 0.5236
+    },
+    {
+      "player_a": "World_cup_2026_Jana Blahak",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 1478,
+      "score_ba": 1478,
+      "avg_raw": 1478.0,
+      "normalised": 0.5204
+    },
+    {
+      "player_a": "World_cup_2026_CL",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1471,
+      "score_ba": 1471,
+      "avg_raw": 1471.0,
+      "normalised": 0.518
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "World_cup_2026_Bjørn_Fjærli",
+      "score_ab": 1464,
+      "score_ba": 1464,
+      "avg_raw": 1464.0,
+      "normalised": 0.5155
+    },
+    {
+      "player_a": "Kopi av World_cup_2026_jh",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1463,
+      "score_ba": 1463,
+      "avg_raw": 1463.0,
+      "normalised": 0.5151
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "World_cup_2026_CL",
+      "score_ab": 1441,
+      "score_ba": 1441,
+      "avg_raw": 1441.0,
+      "normalised": 0.5124
+    },
+    {
+      "player_a": "World_cup_2026_Bjørn_Fjærli",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 1453,
+      "score_ba": 1453,
+      "avg_raw": 1453.0,
+      "normalised": 0.5116
+    },
+    {
+      "player_a": "World_cup_2026_CL",
+      "player_b": "World_cup_2026_Martin_S",
+      "score_ab": 1445,
+      "score_ba": 1445,
+      "avg_raw": 1445.0,
+      "normalised": 0.5088
+    },
+    {
+      "player_a": "World_cup_2026_JonasSchmid",
+      "player_b": "World_cup_2026_Martin_S",
+      "score_ab": 1444,
+      "score_ba": 1444,
+      "avg_raw": 1444.0,
+      "normalised": 0.5085
+    },
+    {
+      "player_a": "World_cup_2026_Bjørn_Fjærli",
+      "player_b": "World_cup_2026_Dagfinn",
+      "score_ab": 1443,
+      "score_ba": 1443,
+      "avg_raw": 1443.0,
+      "normalised": 0.5081
+    },
+    {
+      "player_a": "Sandven_World_cup_2026",
+      "player_b": "World_cup_2026_Jana Blahak",
+      "score_ab": 1435,
+      "score_ba": 1435,
+      "avg_raw": 1435.0,
+      "normalised": 0.5053
+    },
+    {
+      "player_a": "Sandven_World_cup_2026",
+      "player_b": "World_cup_2026_Martin_S",
+      "score_ab": 1419,
+      "score_ba": 1419,
+      "avg_raw": 1419.0,
+      "normalised": 0.4996
+    },
+    {
+      "player_a": "World_cup_2026_Jana Blahak",
+      "player_b": "World_cup_2026_JonasSchmid",
+      "score_ab": 1417,
+      "score_ba": 1417,
+      "avg_raw": 1417.0,
+      "normalised": 0.4989
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "World_cup_2026_Martin_S",
+      "score_ab": 1413,
+      "score_ba": 1413,
+      "avg_raw": 1413.0,
+      "normalised": 0.4975
+    },
+    {
+      "player_a": "World_cup_2026_Bjørn_Fjærli",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1412,
+      "score_ba": 1412,
+      "avg_raw": 1412.0,
+      "normalised": 0.4972
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "World_cup_2026_Jana Blahak",
+      "score_ab": 1411,
+      "score_ba": 1411,
+      "avg_raw": 1411.0,
+      "normalised": 0.4968
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "World_cup_2026_Martin_S",
+      "score_ab": 1395,
+      "score_ba": 1395,
+      "avg_raw": 1395.0,
+      "normalised": 0.496
+    },
+    {
+      "player_a": "Maiken world_cup_2026",
+      "player_b": "World_cup_2026_Martin_S",
+      "score_ab": 1371,
+      "score_ba": 1371,
+      "avg_raw": 1371.0,
+      "normalised": 0.4827
+    },
+    {
+      "player_a": "World_cup_2026_Jana Blahak",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1364,
+      "score_ba": 1364,
+      "avg_raw": 1364.0,
+      "normalised": 0.4803
+    },
+    {
+      "player_a": "World_cup_2026_Martin_S",
+      "player_b": "World_cup_2026_Vilde Hernes",
+      "score_ab": 1364,
+      "score_ba": 1364,
+      "avg_raw": 1364.0,
+      "normalised": 0.4803
+    },
+    {
+      "player_a": "World_cup_2026_Dagfinn",
+      "player_b": "World_cup_2026_Martin_S",
+      "score_ab": 1353,
+      "score_ba": 1353,
+      "avg_raw": 1353.0,
+      "normalised": 0.4764
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "World_cup_2026_CL",
+      "score_ab": 1342,
+      "score_ba": 1342,
+      "avg_raw": 1342.0,
+      "normalised": 0.4725
+    },
+    {
+      "player_a": "Kopi av World_cup_2026_jh",
+      "player_b": "World_cup_2026_CL",
+      "score_ab": 1326,
+      "score_ba": 1326,
+      "avg_raw": 1326.0,
+      "normalised": 0.4669
+    },
+    {
+      "player_a": "World_cup_2026_CL",
+      "player_b": "World_cup_2026_Vilde Hernes",
+      "score_ab": 1316,
+      "score_ba": 1316,
+      "avg_raw": 1316.0,
+      "normalised": 0.4634
+    },
+    {
+      "player_a": "Copy of World_cup_2026.TomC",
+      "player_b": "World_cup_2026_Bjørn_Fjærli",
+      "score_ab": 1275,
+      "score_ba": 1275,
+      "avg_raw": 1275.0,
+      "normalised": 0.4534
+    },
+    {
+      "player_a": "Kopi av World_cup_2026-Elin Arntzen",
+      "player_b": "World_cup_2026_Jana Blahak",
+      "score_ab": 1286,
+      "score_ba": 1286,
+      "avg_raw": 1286.0,
+      "normalised": 0.4528
+    },
+    {
+      "player_a": "World_cup_2026_Martin_S",
+      "player_b": "world_cup_2026_hs",
+      "score_ab": 1271,
+      "score_ba": 1271,
+      "avg_raw": 1271.0,
+      "normalised": 0.4475
+    },
+    {
+      "player_a": "World_cup_2026_Martin_S",
+      "player_b": "World_cup_2026_lutscher",
+      "score_ab": 1270,
+      "score_ba": 1270,
+      "avg_raw": 1270.0,
+      "normalised": 0.4472
+    },
+    {
+      "player_a": "World_cup_2026_Martin_S",
+      "player_b": "World_cup_2026_ØB",
+      "score_ab": 1267,
+      "score_ba": 1267,
+      "avg_raw": 1267.0,
+      "normalised": 0.4461
+    },
+    {
+      "player_a": "Tone Vevatne - World Cup Competition 2026",
+      "player_b": "World_cup_2026_Martin_S",
+      "score_ab": 1258,
+      "score_ba": 1258,
+      "avg_raw": 1258.0,
+      "normalised": 0.443
+    },
+    {
+      "player_a": "World_cup_2026_CL",
+      "player_b": "World_cup_2026_Jana Blahak",
+      "score_ab": 1254,
+      "score_ba": 1254,
+      "avg_raw": 1254.0,
+      "normalised": 0.4415
+    },
+    {
+      "player_a": "World_cup_2026_Bjørn_Fjærli",
+      "player_b": "World_cup_2026_Martin_S",
+      "score_ab": 1252,
+      "score_ba": 1252,
+      "avg_raw": 1252.0,
+      "normalised": 0.4408
+    },
+    {
+      "player_a": "World_cup_2026_Jana Blahak",
+      "player_b": "World_cup_2026_stiansen",
+      "score_ab": 1231,
+      "score_ba": 1231,
+      "avg_raw": 1231.0,
+      "normalised": 0.4335
+    },
+    {
+      "player_a": "Gates_World_cup_2026",
+      "player_b": "World_cup_2026_Martin_S",
+      "score_ab": 1208,
+      "score_ba": 1208,
+      "avg_raw": 1208.0,
+      "normalised": 0.4254
+    },
+    {
+      "player_a": "Kopi av World_cup_2026_jh",
+      "player_b": "World_cup_2026_Jana Blahak",
+      "score_ab": 1200,
+      "score_ba": 1200,
+      "avg_raw": 1200.0,
+      "normalised": 0.4225
+    },
+    {
+      "player_a": "World_cup_2026_Daniel_Naurin",
+      "player_b": "World_cup_2026_Martin_S",
+      "score_ab": 1188,
+      "score_ba": 1188,
+      "avg_raw": 1188.0,
+      "normalised": 0.4183
+    },
+    {
+      "player_a": "Jan_Erling_World_cup_2026",
+      "player_b": "World_cup_2026_Martin_S",
+      "score_ab": 1134,
+      "score_ba": 1134,
+      "avg_raw": 1134.0,
+      "normalised": 0.3993
+    },
+    {
+      "player_a": "World_cup_2026_Jana Blahak",
+      "player_b": "World_cup_2026_Martin_S",
+      "score_ab": 1081,
+      "score_ba": 1081,
+      "avg_raw": 1081.0,
+      "normalised": 0.3806
+    },
+    {
+      "player_a": "Kopi av World_cup_2026_jh",
+      "player_b": "World_cup_2026_Martin_S",
+      "score_ab": 992,
+      "score_ba": 992,
+      "avg_raw": 992.0,
+      "normalised": 0.3493
+    }
+  ]
+}
