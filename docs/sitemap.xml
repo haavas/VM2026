@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://haavas.github.io/VM2026/past_winners.html</loc>
-    <lastmod>2026-06-04T20:20:53.503Z</lastmod>
+    <loc>https://haavas.github.io/VM2026/rules.html</loc>
+    <lastmod>2026-06-08T07:23:40.205Z</lastmod>
+  </url>
+  <url>
+    <loc>https://haavas.github.io/VM2026/posts/2026-06-11-and-we-are-off/index.html</loc>
+    <lastmod>2026-06-11T22:04:06.039Z</lastmod>
   </url>
   <url>
     <loc>https://haavas.github.io/VM2026/index.html</loc>
-    <lastmod>2026-06-05T15:23:31.370Z</lastmod>
-  </url>
-  <url>
-    <loc>https://haavas.github.io/VM2026/posts/welcome/index.html</loc>
-    <lastmod>2026-06-07T12:59:25.778Z</lastmod>
-  </url>
-  <url>
-    <loc>https://haavas.github.io/VM2026/rules.html</loc>
-    <lastmod>2026-06-05T15:23:31.371Z</lastmod>
+    <lastmod>2026-06-08T07:23:40.194Z</lastmod>
   </url>
   <url>
     <loc>https://haavas.github.io/VM2026/about.html</loc>
-    <lastmod>2026-06-05T15:23:31.350Z</lastmod>
+    <lastmod>2026-06-08T07:23:40.106Z</lastmod>
+  </url>
+  <url>
+    <loc>https://haavas.github.io/VM2026/past_winners.html</loc>
+    <lastmod>2026-06-08T07:23:40.202Z</lastmod>
+  </url>
+  <url>
+    <loc>https://haavas.github.io/VM2026/posts/welcome/index.html</loc>
+    <lastmod>2026-06-08T07:23:40.204Z</lastmod>
   </url>
 </urlset>

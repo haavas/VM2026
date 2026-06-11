@@ -1,8 +1,9 @@
 # similarity_network_top3.R
 # -------------------------
-# Variant of similarity_network.R where each player keeps only their
-# three most similar partners.  Nodes are coloured by predicted world
-# champion; all nodes are the same size.
+# Network graph of pairwise prediction similarity.
+# Each player's three most similar partners are shown.
+# Node colour = predicted world champion.
+# Node label   = abbreviation from gData/deltagere.json.
 
 library(tidyverse)
 library(jsonlite)
@@ -15,20 +16,40 @@ project_root <- function() here::here()
 # ---------------------------------------------------------------------------
 # Load data
 # ---------------------------------------------------------------------------
-sim_path   <- file.path(project_root(), "gData", "similarity.json")
-preds_path <- file.path(project_root(), "gData", "predictions.json")
+sim_path       <- file.path(project_root(), "gData", "similarity.json")
+preds_path     <- file.path(project_root(), "gData", "predictions.json")
+deltagere_path <- file.path(project_root(), "gData", "deltagere.json")
 
-sim   <- fromJSON(sim_path,   simplifyVector = FALSE)
-preds <- fromJSON(preds_path, simplifyVector = FALSE)
+sim       <- fromJSON(sim_path,       simplifyVector = FALSE)
+preds     <- fromJSON(preds_path,     simplifyVector = FALSE)
+deltagere <- fromJSON(deltagere_path, simplifyVector = TRUE)   # array → data frame
 
-# Node table: one row per player, with their predicted world champion
-nodes <- imap_dfr(preds$players, function(p, name) {
+# Build lookup: file stem → abbr
+# deltagere$file may include extension; strip it to match predictions.json keys
+deltagere <- deltagere %>%
+  mutate(stem = tools::file_path_sans_ext(file))
+
+label_map <- setNames(deltagere$abbr, deltagere$stem)
+
+# Diagnostic: show any player keys not found in deltagere
+player_keys <- names(preds$players)
+missing <- player_keys[!player_keys %in% names(label_map)]
+if (length(missing) > 0) message("No abbr found for: ", paste(missing, collapse = ", "))
+
+# ---------------------------------------------------------------------------
+# Node table: player key → abbr + predicted champion
+# ---------------------------------------------------------------------------
+nodes <- imap_dfr(preds$players, function(p, player_key) {
   tibble(
-    player    = name,
-    champion  = p$world_champion %||% "Unknown"
+    player   = player_key,
+    abbr     = if (!is.na(label_map[player_key])) label_map[[player_key]] else player_key,
+    champion = p$world_champion %||% "Unknown"
   )
 })
 
+# ---------------------------------------------------------------------------
+# Edge table
+# ---------------------------------------------------------------------------
 pairs_df <- imap_dfr(sim$pairs, function(pair, i) {
   tibble(
     player_a   = pair$player_a,
@@ -69,14 +90,14 @@ edges <- pairs_df %>%
 # ---------------------------------------------------------------------------
 g <- graph_from_data_frame(
   d        = edges %>% select(player_a, player_b, normalised, abs_sim),
-  vertices = nodes %>% select(player, champion),
+  vertices = nodes %>% select(player, abbr, champion),
   directed = FALSE
 )
 
-E(g)$weight <- pmax(E(g)$normalised, 0.01)
-
-# Set champion as a vertex attribute so create_layout carries it through
 V(g)$champion <- nodes$champion[match(V(g)$name, nodes$player)]
+V(g)$abbr     <- nodes$abbr[match(V(g)$name,     nodes$player)]
+
+E(g)$weight <- pmax(E(g)$normalised, 0.01)
 
 set.seed(42)
 layout <- create_layout(g, layout = "fr")
@@ -97,22 +118,16 @@ edge_labels <- edges %>%
 # Colour palette — one colour per unique predicted champion
 # ---------------------------------------------------------------------------
 champions  <- sort(unique(nodes$champion))
-n_champs   <- length(champions)
-champ_cols <- setNames(
-  scales::hue_pal()(n_champs),
-  champions
-)
+champ_cols <- setNames(scales::hue_pal()(length(champions)), champions)
 
 # ---------------------------------------------------------------------------
 # Plot
 # ---------------------------------------------------------------------------
-pal_edge <- "#555555"
-
 p <- ggraph(layout) +
 
   geom_edge_link(
     aes(edge_width = abs_sim, edge_alpha = abs_sim),
-    colour = pal_edge
+    colour = "#555555"
   ) +
 
   geom_text(
@@ -129,20 +144,14 @@ p <- ggraph(layout) +
     alpha = 0.9
   ) +
 
-  geom_node_label(
-    aes(label = name),
-    repel         = TRUE,
-    size          = 4,
-    fontface      = "bold",
-    label.padding = unit(0.2, "lines"),
-    label.size    = 0.3,
-    fill          = "white"
+  geom_node_text(
+    aes(label = abbr),
+    repel    = TRUE,
+    size     = 3.5,
+    fontface = "bold"
   ) +
 
-  scale_colour_manual(
-    name   = "Predicted winner",
-    values = champ_cols
-  ) +
+  scale_colour_manual(name = "Predicted winner", values = champ_cols) +
   scale_edge_width(range = c(0.4, 4), guide = "none") +
   scale_edge_alpha(range = c(0.3, 1), guide = "none") +
 
@@ -163,8 +172,13 @@ p <- ggraph(layout) +
 # ---------------------------------------------------------------------------
 # Save
 # ---------------------------------------------------------------------------
+
+Sys.setlocale()
+
 out_path <- file.path(project_root(), "gData", "similarity_network_top3.png")
-ggsave(out_path, p, width = 8, height = 6, dpi = 150)
+ggsave(out_path, p, width = 10, height = 7, dpi = 300)
 message("Wrote → ", out_path)
 
+Sys.setlocale()
 p
+
