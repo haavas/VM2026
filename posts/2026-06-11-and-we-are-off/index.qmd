@@ -4,6 +4,9 @@ author: ""
 description: ""
 date: "2026-06-11"
 categories: [Update]
+format:
+  html:
+    embed-resources: true
 ---
 
 # Saturday 15th June 2024, Hungary vs Switzerland
@@ -21,7 +24,15 @@ knitr::opts_chunk$set(out.width = "100%")
 
 Mexico won the first game against South Africa. The game will be remembered for the three red cards.
 
-```{r graph, echo = FALSE, warning=FALSE,  fig.height=10, fig.width=10}
+The majority had Mexico as a favorite. 9 of us had the correct score. 
+
+```{r} 
+#| label: graph
+#| echo: false
+#| warning: false
+#| fig-height: 10
+#| fig-width: 10
+
 
 library(tidyverse)
 
@@ -66,9 +77,9 @@ hbar <- df |>
 lag_label <- if (lag == 1) "last game" else paste0("last ", lag, " games")
 
 # ── Plot ──────────────────────────────────────────────────────────────────────
-ggplot(hbar, aes(x = full_name, y = cumulative, fill = diff)) +
+p <- ggplot(hbar, aes(x = full_name, y = cumulative, fill = diff)) +
   geom_col() +
-  scale_y_continuous(limits = c(0, max(hbar$cumulative) * 1.12)) +
+  scale_y_continuous(limits = c(min(min(hbar$cumulative), 0), max(hbar$cumulative) * 1.12)) +
   coord_flip() +
   scale_fill_gradient2(low = "red", high = "blue", mid = "grey85", midpoint = 0,
                        name = paste0("Pts (", lag_label, ")")) +
@@ -86,6 +97,13 @@ ggplot(hbar, aes(x = full_name, y = cumulative, fill = diff)) +
     axis.title = element_text(size = 14, face = "bold"),
     plot.title = element_text(face = "bold", size = 16)
   )
+ggsave(here::here("posts", "2026-06-11-and-we-are-off", "standings.png"),
+       width = 10, height = 10, dpi = 150)
 
 
 ```
+```{r show, echo=FALSE}
+knitr::include_graphics("standings.png")
+```
+
+The format will be very similar to previous years. The color scale tells us what has changed since last game. Deep blue is good. Red is bad. 
