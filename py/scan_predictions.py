@@ -2,85 +2,79 @@
 """
 scan_predictions.py
 -------------------
-Reads all player prediction xlsx-files from xlsx/ and writes a single
-predictions.json to gData/.
+Reads all player prediction xlsx-files from xlsx/ and writes
+gData/predictions.json.
 
-Departure point is wc2026.json (written by extract_wc2026.py), which
-provides the authoritative fixture list.  The script no longer infers
-match metadata from the xlsx cells; it looks up home/away team names
-from the JSON and only reads the score/knockout cells from the player files.
+Group stage scores are read from cols F/G (0-indexed 5/6), rows 7-78.
+
+Knockout predictions are read directly from the dedicated bracket columns,
+where each match occupies two consecutive rows (home team, away team):
+
+  BL (col 64) — Round of 32   : rows 10-11, 14-15, ..., 70-71  (16 matches)
+  BS (col 71) — Round of 16   : rows 12-13, 20-21, ..., 44-45  ( 8 matches)  [5 shown here, read all non-null]
+  BZ (col 78) — Quarter-finals: rows 16-17, 32-33, 48-49       ( up to 4 matches)
+  CG (col 85) — Semi-finals   : rows 23-24                      ( 1 match shown; read all)
+  CN (col 92) — Final & Bronze: rows 37-38 (final), 48-49 (bronze)
 
 Usage
 -----
-python py/scan_predictions.py                        # uses project defaults
-python py/scan_predictions.py myxlsx/ out.json       # explicit paths
+python py/scan_predictions.py                   # project defaults
+python py/scan_predictions.py xlsx/ out.json    # explicit paths
 """
 
 import json
 import sys
 from pathlib import Path
 
+import openpyxl
+from openpyxl.utils import column_index_from_string
 import pandas as pd
 from pyprojroot.criterion import has_dir
 from pyprojroot.root import find_root
 
+
 # ---------------------------------------------------------------------------
-# Project root — walk up from this script's location to find .git
+# Project root
 # ---------------------------------------------------------------------------
 def project_root() -> Path:
     return find_root(has_dir(".git"), start=Path(__file__).resolve().parent)
 
 
 # ---------------------------------------------------------------------------
-# Cell coordinates for knockout predictions (0-indexed row, col)
+# Column indices (1-based, as openpyxl uses)
 # ---------------------------------------------------------------------------
-
-# Round of 32 – right-side bracket: 12 slots, col 30, rows 79-90
-R32_RIGHT_ROWS = list(range(79, 91))   # → 12 team predictions
-R32_RIGHT_COL  = 30
-
-# Round of 32 – left-side bracket: 8 slots, col 19, rows 83-90
-R32_LEFT_ROWS  = list(range(83, 91))   # → 8 team predictions
-R32_LEFT_COL   = 19
-
-# Quarter-finals: 4 slots, col 19, rows 94-97
-QF_ROWS = list(range(94, 98))
-QF_COL  = 19
-
-# Semi-finals: 2 matches, col 19 (left) and col 28 (right), rows 101-102
-SF_ROWS    = [101, 102]
-SF_COL_L   = 19
-SF_COL_R   = 28
-
-# Champion: col 19, row 110
-CHAMP_ROW = 110
-CHAMP_COL = 19
+# Each round: team col, then FT score, ET score, PEN score in the next 3 cols
+ROUNDS = {
+    "r32":    ("BL", "BM", "BN", "BO", list(range(10, 72, 4))),
+    "r16":    ("BS", "BT", "BU", "BV", list(range(12, 48, 8))),
+    "qf":     ("BZ", "CA", "CB", "CC", list(range(16, 56, 16))),
+    "sf":     ("CG", "CH", "CI", "CJ", [23, 39]),
+    "final":  ("CN", "CO", "CP", "CQ", [37]),
+    "bronze": ("CN", "CO", "CP", "CQ", [48]),
+}
+ROUNDS_CI = {
+    k: tuple(column_index_from_string(c) if isinstance(c, str) else c for c in v)
+    for k, v in ROUNDS.items()
+}
 
 
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
-
-def _cell(df: pd.DataFrame, row: int, col: int):
-    """Return a scalar cell value, or None if out-of-range / NaN / zero."""
-    try:
-        v = df.iloc[row, col]
-    except IndexError:
-        return None
-    if pd.isna(v):
+def _val(ws, row, col):
+    """Return cell value, or None if empty/zero."""
+    v = ws.cell(row=row, column=col).value
+    if v is None:
         return None
     if isinstance(v, (int, float)) and v == 0:
+        return None
+    if isinstance(v, str) and v.strip() in ('', '0'):
         return None
     return str(v).strip() if isinstance(v, str) else v
 
 
-def _score(df: pd.DataFrame, row: int, col: int):
-    """Return an integer goal count, or None."""
-    try:
-        v = df.iloc[row, col]
-    except IndexError:
-        return None
-    if pd.isna(v):
+def _int(v):
+    if v is None:
         return None
     try:
         return int(float(v))
@@ -88,41 +82,64 @@ def _score(df: pd.DataFrame, row: int, col: int):
         return None
 
 
+def _score(ws, row, col):
+    """Read a goal count — allows 0, returns None only for truly empty cells."""
+    v = ws.cell(row=row, column=col).value
+    if v is None:
+        return None
+    try:
+        return int(float(v))
+    except (ValueError, TypeError):
+        return None
+
+
+def _read_matches(ws, col_team, col_ft, col_et, col_pen, first_rows):
+    """Read knockout matches: teams + FT/ET/PEN scores."""
+    matches = []
+    for r in first_rows:
+        home = _val(ws, r,     col_team)
+        away = _val(ws, r + 1, col_team)
+        if not home and not away:
+            continue
+        ft_h = _score(ws, r,     col_ft)
+        ft_a = _score(ws, r + 1, col_ft)
+        et_h = _score(ws, r,     col_et)
+        et_a = _score(ws, r + 1, col_et)
+        pn_h = _score(ws, r,     col_pen)
+        pn_a = _score(ws, r + 1, col_pen)
+        matches.append({
+            "home": home, "away": away,
+            "ft": [ft_h, ft_a],
+            "et": [et_h, et_a] if et_h is not None else None,
+            "pen": [pn_h, pn_a] if pn_h is not None else None,
+        })
+    return matches
+
+
 # ---------------------------------------------------------------------------
 # Read a single player xlsx
 # ---------------------------------------------------------------------------
-
 def read_player_file(path: Path, match_index: dict) -> dict:
-    """
-    Parameters
-    ----------
-    path        : path to the player's xlsx file
-    match_index : {match_id: {"home": str, "away": str}} from wc2026.json
-
-    Returns
-    -------
-    dict with keys: group_stage, knockout, world_champion, warnings
-    """
-    df = pd.read_excel(path, sheet_name="2026 World Cup", header=None)
-
+    # Use openpyxl with data_only=True to get formula-evaluated values
+    wb = openpyxl.load_workbook(path, data_only=True)
+    ws = wb['2026 World Cup']
     warnings = []
 
-    # --- Group stage (matches 1-72, sheet rows 6-77) ---
+    # --- Group stage: rows 7-78, cols F(6)/G(7) for scores ---
     group_stage = []
-    for sheet_row in range(6, 78):
-        raw_id = _cell(df, sheet_row, 0)
+    for row in range(7, 79):
+        raw_id = _val(ws, row, 1)   # col A = match id
         if raw_id is None:
             continue
-        try:
-            match_id = int(float(raw_id))
-        except (ValueError, TypeError):
+        match_id = _int(raw_id)
+        if match_id is None:
             continue
 
-        home_goals = _score(df, sheet_row, 5)
-        away_goals = _score(df, sheet_row, 6)
+        home_goals = _score(ws, row, 6)   # col F
+        away_goals = _score(ws, row, 7)   # col G
 
         if home_goals is None or away_goals is None:
-            warnings.append(f"M{match_id}: missing score (row {sheet_row})")
+            warnings.append(f"M{match_id}: missing score (row {row})")
 
         fixture = match_index.get(match_id, {})
         group_stage.append({
@@ -133,59 +150,49 @@ def read_player_file(path: Path, match_index: dict) -> dict:
             "away_goals": away_goals,
         })
 
-    # --- Knockout predictions ---
-
-    # R32 – 12 teams from right-side bracket
-    r32_right = []
-    for row in R32_RIGHT_ROWS:
-        team = _cell(df, row, R32_RIGHT_COL)
-        if isinstance(team, str):
-            r32_right.append(team)
-        else:
-            r32_right.append(None)
-            warnings.append(f"R32-right slot row {row}: empty")
-
-    # R32 – 8 teams from left-side bracket
-    r32_left = []
-    for row in R32_LEFT_ROWS:
-        team = _cell(df, row, R32_LEFT_COL)
-        if isinstance(team, str):
-            r32_left.append(team)
-        else:
-            r32_left.append(None)
-            warnings.append(f"R32-left slot row {row}: empty")
-
-    # QF – 4 winners
-    qf = []
-    for row in QF_ROWS:
-        team = _cell(df, row, QF_COL)
-        if isinstance(team, str):
-            qf.append(team)
-        else:
-            qf.append(None)
-            warnings.append(f"QF slot row {row}: empty")
-
-    # SF – 4 participants, 2 winners (col28)
-    sf_left  = [_cell(df, r, SF_COL_L) for r in SF_ROWS]
-    sf_right = [_cell(df, r, SF_COL_R) for r in SF_ROWS]
-
-    # Champion
-    champion = _cell(df, CHAMP_ROW, CHAMP_COL)
-    if champion is None:
-        warnings.append("Champion cell is empty")
+    # --- Knockout ---
+    def _rm(key):
+        ct, ft, et, pn, rows = ROUNDS_CI[key]
+        return _read_matches(ws, ct, ft, et, pn, rows)
 
     knockout = {
-        "r32_right":  r32_right,   # 12 teams advancing through right side
-        "r32_left":   r32_left,    # 8 teams advancing through left side
-        "quarterfinals": qf,       # 4 QF winners
-        "semifinal_left":  sf_left,   # 2 SF participants (col 19 side)
-        "semifinal_right": sf_right,  # 2 SF winners (col 28 side)
+        "r32":    _rm("r32"),
+        "r16":    _rm("r16"),
+        "qf":     _rm("qf"),
+        "sf":     _rm("sf"),
+        "final":  _rm("final")[0] if _rm("final") else {},
+        "bronze": _rm("bronze")[0] if _rm("bronze") else {},
     }
+
+    # Derive champion from the final result
+    f = knockout.get("final", {})
+    ft = f.get("ft", [None, None])
+    et = f.get("et") or [None, None]
+    pn = f.get("pen") or [None, None]
+
+    if ft[0] is not None and ft[1] is not None:
+        if ft[0] > ft[1]:
+            champion = f["home"]
+        elif ft[1] > ft[0]:
+            champion = f["away"]
+        elif et[0] is not None and et[1] is not None:
+            if et[0] > et[1]:
+                champion = f["home"]
+            elif et[1] > et[0]:
+                champion = f["away"]
+            elif pn[0] is not None and pn[1] is not None:
+                champion = f["home"] if pn[0] > pn[1] else f["away"]
+            else:
+                champion = None
+        else:
+            champion = None
+    else:
+        champion = None
 
     return {
         "group_stage":    group_stage,
         "knockout":       knockout,
-        "world_champion": str(champion) if champion else None,
+        "world_champion": champion,
         "warnings":       warnings,
     }
 
@@ -193,7 +200,6 @@ def read_player_file(path: Path, match_index: dict) -> dict:
 # ---------------------------------------------------------------------------
 # Main scan
 # ---------------------------------------------------------------------------
-
 def scan(xlsx_dir: str = None, output_path: str = None,
          fixture_json: str = None) -> None:
     root = project_root()
@@ -211,10 +217,8 @@ def scan(xlsx_dir: str = None, output_path: str = None,
     with open(fixture_json, encoding="utf-8") as fh:
         wc_data = json.load(fh)
 
-    # Build match_index: {match_id: {home, away}}
-    match_index = {}
-    for m in wc_data.get("group_stage", []):
-        match_index[m["match_id"]] = {"home": m["home"], "away": m["away"]}
+    match_index = {m["match_id"]: {"home": m["home"], "away": m["away"]}
+                   for m in wc_data.get("group_stage", [])}
 
     xlsx_files = sorted(xlsx_dir.glob("*.xlsx"))
     if not xlsx_files:
@@ -231,7 +235,7 @@ def scan(xlsx_dir: str = None, output_path: str = None,
             if n_warn:
                 print(f"{n_warn} warning(s)")
                 for w in data["warnings"]:
-                    print(f"    ⚠ {w}")
+                    print(f"    ⚠  {w}")
             else:
                 print("OK")
             players[player_name] = data
@@ -241,8 +245,8 @@ def scan(xlsx_dir: str = None, output_path: str = None,
     output = {
         "meta": {
             "fixture_source": str(fixture_json),
-            "n_players": len(players),
-            "players": sorted(players.keys()),
+            "n_players":      len(players),
+            "players":        sorted(players.keys()),
         },
         "players": players,
     }
@@ -257,7 +261,6 @@ def scan(xlsx_dir: str = None, output_path: str = None,
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
-
 if __name__ == "__main__":
     xlsx_arg    = sys.argv[1] if len(sys.argv) > 1 else None
     output_arg  = sys.argv[2] if len(sys.argv) > 2 else None
