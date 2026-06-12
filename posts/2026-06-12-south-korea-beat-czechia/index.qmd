@@ -1,23 +1,41 @@
 ---
-title: "And we are off!"
-author: ""
+title: "South Korea beat Czechia"
+author: "Håvard Strand"
 description: ""
-date: "2026-06-11"
+date: "2026-06-12"
 categories: [Update]
-format:
-  html:
-    embed-resources: true
 ---
 
-# Thursday 1th June 2026, Mexico vs South Africa
+
+# South Korea vs Czechia
 
 ```{r init, echo=FALSE, message=FALSE , warning=FALSE}
+
 library(tidyverse)
-library(ggplot2)
+library(igraph)
+library(readxl)
+library(knitr)
+
+knitr::opts_chunk$set(out.width = "100%")
+
+```
+
+Czechia scored first, but the country with the highest per capita beer consumption got overrun in the second half. 
+
+```{r} 
+#| label: graph
+#| echo: false
+#| warning: false
+#| fig-height: 10
+#| fig-width: 10
+
+
+library(tidyverse)
+
+invisible(capture.output(Sys.setlocale()))
 
 # ── Parameter ─────────────────────────────────────────────────────────────────
-this_match <- 1   # which game this post covers — never changes on re-render
-lag        <- 1   # number of games back for the colour fill
+lag <- 1   # number of games back for the colour fill; change as needed
 
 # ── Load data ─────────────────────────────────────────────────────────────────
 df <- read_delim(here::here("gData", "standings.csv"), delim = ";",
@@ -25,12 +43,13 @@ df <- read_delim(here::here("gData", "standings.csv"), delim = ";",
                  show_col_types = FALSE) |>
   mutate(full_name = if_else(is.na(full_name) | full_name == "", player, full_name))
 
+last_match_no  <- max(df$match)
+last_stage     <- df |> filter(match == last_match_no) |> pull(stage) |> first()
 played_matches <- sort(unique(df$match))
 
-# ── Lag scores ────────────────────────────────────────────────────────────────
-lag_match_idx <- match(this_match, played_matches) - lag
-lag_match <- if (!is.na(lag_match_idx) && lag_match_idx >= 1) {
-  played_matches[lag_match_idx]
+# Score lag games ago (or 0 if fewer games have been played)
+lag_match <- if (length(played_matches) > lag) {
+  played_matches[length(played_matches) - lag]
 } else {
   NA_integer_
 }
@@ -43,7 +62,7 @@ lag_scores <- if (!is.na(lag_match)) {
 
 # ── Current standings ─────────────────────────────────────────────────────────
 hbar <- df |>
-  filter(match == this_match) |>
+  filter(match == last_match_no) |>
   left_join(lag_scores, by = "player") |>
   mutate(
     lag_score = replace_na(lag_score, 0L),
@@ -51,8 +70,7 @@ hbar <- df |>
     full_name = fct_reorder(full_name, cumulative)
   )
 
-last_stage <- hbar |> pull(stage) |> first()
-lag_label  <- if (lag == 1) "last game" else paste0("last ", lag, " games")
+lag_label <- if (lag == 1) "last game" else paste0("last ", lag, " games")
 
 # ── Plot ──────────────────────────────────────────────────────────────────────
 p <- ggplot(hbar, aes(x = full_name, y = cumulative, fill = diff)) +
@@ -66,7 +84,7 @@ p <- ggplot(hbar, aes(x = full_name, y = cumulative, fill = diff)) +
   xlab(" ") +
   labs(
     title    = "2026 World Cup — Current Standings",
-    subtitle = paste0("After M", this_match, " — ", last_stage,
+    subtitle = paste0("After M", last_match_no, " — ", last_stage,
                       "  |  colour = points from ", lag_label)
   ) +
   theme_minimal() +
@@ -75,13 +93,17 @@ p <- ggplot(hbar, aes(x = full_name, y = cumulative, fill = diff)) +
     axis.title = element_text(size = 14, face = "bold"),
     plot.title = element_text(face = "bold", size = 16)
   )
-
-ggsave(here::here("posts", "2026-06-11-and-we-are-off", "standings.png"),
+ggsave("standings.png",
        width = 10, height = 10, dpi = 150)
+
+
 ```
+
+Øyvind, Elin and Hallvard have 50 points -- perfect score so far. 6 more contenders have correct result, but some deviance when it comes to the score.
+
+But, it is still early.
+
 ```{r show, echo=FALSE}
 knitr::include_graphics("standings.png")
 ```
-
-The format will be very similar to previous years. The color scale tells us what has changed since last game. Deep blue is good. Red is bad. 
 

@@ -1,0 +1,15 @@
+{
+  "hash": "113e33d5dd244886a2bebf22c4b706f5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"South Korea beat Czechia\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-12\"\ncategories: [Update]\n---\n\n\n\n\n\n# South Korea vs Czechia\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\nCzechia scored first, but the country with the highest per capita beer consumption got overrun in the second half. \n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\nØyvind, Elin and Hallvard have 50 points -- perfect score so far. 6 more contenders have correct result, but some deviance when it comes to the score.\n\nBut, it is still early.\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png){width=100%}\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
