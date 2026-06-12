@@ -480,14 +480,16 @@ def score_champion(predicted: str | None, actual: str | None) -> int:
 def score(fasit_path: str = None,
           predictions_path: str = None,
           output_json: str = None,
-          output_csv: str = None) -> None:
+          output_csv: str = None,
+          output_fasit_json: str = None) -> None:
 
     root = project_root()
 
-    fasit_path       = Path(fasit_path)       if fasit_path       else root / "fasit" / "world_cup_2026_fasit.xlsx"
-    predictions_path = Path(predictions_path) if predictions_path else root / "gData" / "predictions.json"
-    output_json      = Path(output_json)      if output_json      else root / "gData" / "scores.json"
-    output_csv       = Path(output_csv)       if output_csv       else root / "gData" / "scores.csv"
+    fasit_path        = Path(fasit_path)        if fasit_path        else root / "fasit" / "world_cup_2026_fasit.xlsx"
+    predictions_path  = Path(predictions_path)  if predictions_path  else root / "gData" / "predictions.json"
+    output_json       = Path(output_json)       if output_json       else root / "gData" / "scores.json"
+    output_csv        = Path(output_csv)        if output_csv        else root / "gData" / "scores.csv"
+    output_fasit_json = Path(output_fasit_json) if output_fasit_json else root / "gData" / "fasit.json"
 
     if not fasit_path.exists():
         raise FileNotFoundError(
@@ -585,8 +587,13 @@ def score(fasit_path: str = None,
                 s["third_place"]    or "",
             ])
 
+    # --- fasit JSON ---
+    with open(output_fasit_json, "w", encoding="utf-8") as f:
+        json.dump(fasit, f, ensure_ascii=False, indent=2)
+
     print(f"\nWrote → {output_json}")
     print(f"Wrote → {output_csv}")
+    print(f"Wrote → {output_fasit_json}")
     print(f"\nMax possible score: {MAX_POINTS} pts")
 
 

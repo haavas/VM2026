@@ -1,0 +1,17 @@
+{
+  "hash": "8d7fff06d59d77509c96a37ba32d899a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"US preponderance (updated version)\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-13 15:35:47\"\ncategories: [Update]\n---\n\n\n# US beats Paraguay 4-1. \n\nThat the 15th ranked team in the world can outplay the 45th ranked team is perhaps not a surprise. But for some of us it was. Particularly the margin. \n\n\n::: {.cell}\n\n:::\n\n\nLinda is alone in the top, with Elin and Hallvard right behind. A strong group of contenders are right behind.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n\n\nNone of us had 4-1 down as the result. Elin and Hallvard had 3-1 as their result, and were rewarded handsomely. This is the dot right below the marker in the plot. Christian had 3-2, which was almost as good. 6 of us had 1-0, resulting in 15 points rather than the full 25. \n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/scatter_points-1.png){width=672}\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

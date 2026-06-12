@@ -1,0 +1,36 @@
+{
+  "group_stage": [
+    {
+      "match": 1,
+      "home": "Mexico",
+      "away": "South Africa",
+      "home_goals": 2,
+      "away_goals": 0
+    },
+    {
+      "match": 2,
+      "home": "Korea Republic",
+      "away": "Czech Republic",
+      "home_goals": 2,
+      "away_goals": 1
+    },
+    {
+      "match": 3,
+      "home": "Canada",
+      "away": "Bosnia and Herzegovina",
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "match": 4,
+      "home": "United States",
+      "away": "Paraguay",
+      "home_goals": 4,
+      "away_goals": 1
+    }
+  ],
+  "knockout": [],
+  "world_champion": null,
+  "runner_up": null,
+  "third_place": null
+}
