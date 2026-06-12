@@ -1,0 +1,15 @@
+{
+  "hash": "297e0da3f5f6f5f149586452d37d602f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Canada vs. Bosnia-Herzegovina: The first draw\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-13\"\ncategories: [Update]\n---\n\n# Canada vs. Bosnia-Herzegovina - One point each\n\nBoth teams got a point, but who should be the happier with that result? Probably Linda and Jan Erling, who are ahead.\n\n\n::: {.cell}\n\n:::\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n\n\nThe format will be very similar to previous years. The color scale tells us what has changed since last game. Deep blue is good. Red is bad. \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
