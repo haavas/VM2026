@@ -87,6 +87,7 @@ def build_standings(scores_path: str = None,
         for r in s["group_stage"]["running"]:
             events.append({
                 "match":      r["match"],
+                "play_order": r.get("play_order", r["match"]),
                 "stage":      "Group Stage",
                 "cumulative": r["cumulative"],
                 "match_pts":  r.get("match_pts", 0),
@@ -95,20 +96,24 @@ def build_standings(scores_path: str = None,
         for r in s["knockout"]["running"]:
             events.append({
                 "match":      r.get("match") or r.get("match_id"),
+                "play_order": r.get("play_order", r.get("match") or r.get("match_id")),
                 "stage":      r.get("stage", "Knockout"),
                 "cumulative": gs_total + r["cumulative"],
                 "match_pts":  r.get("match_pts", 0),
             })
 
-        timelines[player] = sorted(events, key=lambda e: e["match"] or 0)
+        timelines[player] = sorted(events, key=lambda e: e["play_order"] or 0)
 
-    # ── Collect all match numbers in order ───────────────────────────────────
-    all_matches = sorted({
-        e["match"]
-        for events in timelines.values()
-        for e in events
-        if e["match"] is not None
-    })
+    # ── Collect all match numbers in play order ──────────────────────────────
+    # Use play_order for sequencing so out-of-number-order games (e.g. M8
+    # played before M5) are processed and lagged correctly.
+    seen = {}
+    for events in timelines.values():
+        for e in events:
+            mn = e["match"]
+            if mn is not None and mn not in seen:
+                seen[mn] = e["play_order"] or mn
+    all_matches = [mn for mn, _ in sorted(seen.items(), key=lambda x: x[1])]
 
     if not all_matches:
         print("No matches found in scores.json — nothing to write.")
@@ -131,8 +136,9 @@ def build_standings(scores_path: str = None,
 
     for mn in all_matches:
         # Update current scores for players who have an event this match
-        match_stage = "Unknown"
-        match_pts_this = {p: 0 for p in player_list}
+        match_stage      = "Unknown"
+        match_pts_this   = {p: 0 for p in player_list}
+        play_order_at_mn = mn
 
         for p in player_list:
             e = by_match[p].get(mn)
@@ -140,6 +146,7 @@ def build_standings(scores_path: str = None,
                 current[p]        = e["cumulative"]
                 match_pts_this[p] = e["match_pts"]
                 match_stage       = e["stage"]
+                play_order_at_mn  = e.get("play_order", mn)
 
         # Rank players — higher score = better rank; ties share the lower rank number
         sorted_players = sorted(player_list, key=lambda p: -current[p])
@@ -156,6 +163,7 @@ def build_standings(scores_path: str = None,
             rk = rank_at[p]
             rows.append({
                 "match":       mn,
+                "play_order":  play_order_at_mn,
                 "stage":       match_stage,
                 "player":      p,
                 "full_name":   name_lookup.get(p, p),
@@ -172,7 +180,7 @@ def build_standings(scores_path: str = None,
     output_csv.parent.mkdir(parents=True, exist_ok=True)
     with open(output_csv, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=[
-            "match", "stage", "player", "full_name", "cumulative",
+            "match", "play_order", "stage", "player", "full_name", "cumulative",
             "match_pts", "rank", "rank_prev", "rank_change",
         ], delimiter=";")
         writer.writeheader()

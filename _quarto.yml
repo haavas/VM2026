@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  favicon: favicon.ico
   description: "Political Science World Cup Prediction Competition"
   site-url: https://haavas.github.io/VM2026/ # you must change this appropriately for RSS feeds to work properly
   title: "World Cup Competition 2026"

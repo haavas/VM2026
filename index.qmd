@@ -10,6 +10,7 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: images/folk.webp
+freeze: false
 ---
 
 

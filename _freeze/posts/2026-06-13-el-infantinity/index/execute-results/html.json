@@ -1,0 +1,15 @@
+{
+  "hash": "adb7c72cb07460166d798a9632062b42",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"El Infantinity\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-13 23:21:47\"\ncategories: [Update]\n---\n\n# Switzerland vs Qatar\n\nA game between Infantino's original home country and his adopted home country. The man is widely assumed to be \"influentialable\", but who will he support today? Or, who will support him? The offside after 15 minutes was interesting, but in the end the game was a draw. \n\nSo, what does that with our competiton?\n\n\n::: {.cell}\n\n:::\n\n\nScoll down to the bottom, and admire Marina's reenactment of dr. Stockman's stance. \"The strongest man in the world is he who stands most alone\". Linda remain in front of the race, as very little changed after this game.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
