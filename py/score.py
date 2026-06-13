@@ -117,7 +117,10 @@ def read_fasit(xlsx_path: Path) -> dict:
     df = pd.read_excel(xlsx_path, sheet_name="2026 World Cup", header=None)
 
     # Group stage (matches 1-72)
+    # play_order reflects the row position in the sheet, i.e. the order scores
+    # were physically entered — used downstream for chronological lag lookups.
     group_stage = []
+    play_order_counter = 0
     for idx in range(6, df.shape[0]):
         raw = _safe(df.iloc[idx, 0])
         if not isinstance(raw, int) or not (1 <= raw <= 72):
@@ -126,8 +129,10 @@ def read_fasit(xlsx_path: Path) -> dict:
         ag = _goals(df.iloc[idx, 6])
         if hg is None or ag is None:
             continue
+        play_order_counter += 1
         group_stage.append({
             "match":      raw,
+            "play_order": play_order_counter,
             "home":       str(df.iloc[idx, 4]) if pd.notna(df.iloc[idx, 4]) else None,
             "away":       str(df.iloc[idx, 7]) if pd.notna(df.iloc[idx, 7]) else None,
             "home_goals": hg,
@@ -243,14 +248,14 @@ def score_group_stage(player_matches: list, result_matches: list) -> dict:
     running         = []
     cumulative      = 0
 
-    for mn in sorted(results):
+    for mn in sorted(results, key=lambda m: results[m].get("play_order", m)):
         r = results[mn]
         p = predictions.get(mn)
 
         r_h, r_a = _hg(r), _ag(r)
 
         if p is None or _hg(p) is None or _ag(p) is None:
-            running.append({"match": mn, "cumulative": cumulative})
+            running.append({"match": mn, "play_order": r.get("play_order", mn), "cumulative": cumulative})
             continue
 
         p_h, p_a = _hg(p), _ag(p)
@@ -266,6 +271,7 @@ def score_group_stage(player_matches: list, result_matches: list) -> dict:
 
         running.append({
             "match":       mn,
+            "play_order":  r.get("play_order", mn),
             "pred":        f"{p_h}-{p_a}",
             "actual":      f"{r_h}-{r_a}",
             "outcome_pts": outcome_pts,
