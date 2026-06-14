@@ -117,10 +117,11 @@ def read_fasit(xlsx_path: Path) -> dict:
     df = pd.read_excel(xlsx_path, sheet_name="2026 World Cup", header=None)
 
     # Group stage (matches 1-72)
-    # play_order reflects the row position in the sheet, i.e. the order scores
-    # were physically entered — used downstream for chronological lag lookups.
-    group_stage = []
-    play_order_counter = 0
+    # play_order reflects chronological kickoff time (date in column C,
+    # time in column D), not the match number or row position. This lets
+    # standings/lag logic compare e.g. match 7 to match 8 correctly when
+    # match 8 kicks off earlier than match 7.
+    group_stage_raw = []
     for idx in range(6, df.shape[0]):
         raw = _safe(df.iloc[idx, 0])
         if not isinstance(raw, int) or not (1 <= raw <= 72):
@@ -129,15 +130,33 @@ def read_fasit(xlsx_path: Path) -> dict:
         ag = _goals(df.iloc[idx, 6])
         if hg is None or ag is None:
             continue
-        play_order_counter += 1
-        group_stage.append({
+
+        date_val = df.iloc[idx, 2]   # e.g. "Jun 11, 2026"
+        time_val = df.iloc[idx, 3]   # datetime.time, e.g. 19:00:00
+
+        try:
+            kickoff = pd.to_datetime(str(date_val)) + pd.to_timedelta(str(time_val))
+        except (ValueError, TypeError):
+            kickoff = None
+
+        group_stage_raw.append({
             "match":      raw,
-            "play_order": play_order_counter,
+            "kickoff":    kickoff,
             "home":       str(df.iloc[idx, 4]) if pd.notna(df.iloc[idx, 4]) else None,
             "away":       str(df.iloc[idx, 7]) if pd.notna(df.iloc[idx, 7]) else None,
             "home_goals": hg,
             "away_goals": ag,
         })
+
+    # Assign play_order by sorting on kickoff time. Matches with no parseable
+    # kickoff (shouldn't normally happen) sort last, in match-number order.
+    group_stage_raw.sort(key=lambda m: (m["kickoff"] is None, m["kickoff"], m["match"]))
+    group_stage = []
+    for play_order, m in enumerate(group_stage_raw, start=1):
+        m = dict(m)
+        m["play_order"] = play_order
+        del m["kickoff"]
+        group_stage.append(m)
 
     # Knockout (matches 73-104)
     knockout = []
@@ -160,6 +179,15 @@ def read_fasit(xlsx_path: Path) -> dict:
                 "team1_goals": g1,
                 "team2_goals": g2,
             })
+
+    # Knockout matches don't have populated date/time columns in this
+    # template, but their match numbers are already chronological (Round of
+    # 32 → Final), so play_order continues sequentially from the group stage.
+    knockout.sort(key=lambda m: m["match"])
+    next_play_order = len(group_stage) + 1
+    for m in knockout:
+        m["play_order"] = next_play_order
+        next_play_order += 1
 
     # Final result (M104)
     world_champion = runner_up = third_place = None
@@ -392,7 +420,7 @@ def score_knockout(player_ko, result_ko) -> dict:
         stage = r.get("stage", "")
 
         if p is None:
-            running.append({"match": mn, "stage": stage, "cumulative": cumulative})
+            running.append({"match": mn, "play_order": r.get("play_order", mn), "stage": stage, "cumulative": cumulative})
             continue
 
         r_t1, r_t2 = r.get("team1"), r.get("team2")
@@ -423,6 +451,7 @@ def score_knockout(player_ko, result_ko) -> dict:
         }
         running.append({
             "match":      mn,
+            "play_order": r.get("play_order", mn),
             "stage":      stage,
             "match_pts":  match_pts,
             "cumulative": cumulative,

@@ -1,0 +1,24 @@
+---
+title: "Netherlands vs Japan"
+author: "Håvard Strand"
+description: ""
+date: "2026-06-15 00:55:00"
+categories: [Update]
+---
+
+# Netherlands vs Japan
+
+Japan deserved a point against the Dutch. 
+
+```{r standings, echo=FALSE, message=FALSE, warning=FALSE}
+source(here::here("R", "plot_standings.R"))
+this_match <- 11
+lag        <- 1
+plot_standings(this_match, lag)
+```
+
+Øyvind and Christian has some space in the lead, with Karin, Hallvard, Linda and Jan Erling in pursuit.
+```{r show, echo=FALSE}
+knitr::include_graphics("standings.png")
+```
+Jan Erling and Christian got the exact right result. Well done!

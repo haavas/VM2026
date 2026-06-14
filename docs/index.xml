@@ -10,7 +10,82 @@
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sat, 13 Jun 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 14 Jun 2026 22:55:00 GMT</lastBuildDate>
+<item>
+  <title>Netherlands vs Japan</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-15-netherlands-vs-japan/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="netherlands-vs-japan" class="level1">
+<h1>Netherlands vs Japan</h1>
+<p>Japan deserved a point against the Dutch.</p>
+<p>Øyvind and Christian has some space in the lead, with Karin, Hallvard, Linda and Jan Erling in pursuit.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-15-netherlands-vs-japan/standings.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Jan Erling and Christian got the exact right result. Well done!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-15-netherlands-vs-japan/</guid>
+  <pubDate>Sun, 14 Jun 2026 22:55:00 GMT</pubDate>
+</item>
+<item>
+  <title>Goliath beats David</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-14-goliath-beats-david/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="germany-beats-curacao." class="level1">
+<h1>Germany beats Curacao.</h1>
+<p>Samuel 17:49. He reached into his bag and took out a stone, which he slung at Goliath. It hit him on the forehead, and Goliath looked back and said: “Nice try”. Except Curacao didn’t score at 17:49, it was 20:45.</p>
+<p>Øyvind is still in the lead, but Karin and Christian is right behind. Øyvind actually lost one point, despite having a German victory. His 2-0 estimate yielded 25 points for correct outcome and 26 points deduction for dramatically wrong score. This round’s rockets are Dagfinn (6-0) and Bjørn &amp; Jacob (5-1).</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-14-goliath-beats-david/standings.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Everyone believed in Germany, but the score differentiated a lot. Only four of us saw Curacao score.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-14-goliath-beats-david/index_files/figure-html/scatter_points-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-14-goliath-beats-david/</guid>
+  <pubDate>Sun, 14 Jun 2026 19:18:00 GMT</pubDate>
+</item>
 <item>
   <title>An administrative mistake</title>
   <dc:creator>Håvard Strand</dc:creator>

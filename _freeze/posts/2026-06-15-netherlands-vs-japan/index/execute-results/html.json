@@ -1,0 +1,15 @@
+{
+  "hash": "f234802df7fae14c4ea7143dfe22beb3",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Netherlands vs Japan\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-15 00:55:00\"\ncategories: [Update]\n---\n\n# Netherlands vs Japan\n\nJapan deserved a point against the Dutch. \n\n\n::: {.cell}\n\n:::\n\n\nØyvind and Christian has some space in the lead, with Karin, Hallvard, Linda and Jan Erling in pursuit.\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n\nJan Erling and Christian got the exact right result. Well done!",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

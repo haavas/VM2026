@@ -2,67 +2,83 @@
   "group_stage": [
     {
       "match": 1,
-      "play_order": 1,
       "home": "Mexico",
       "away": "South Africa",
       "home_goals": 2,
-      "away_goals": 0
+      "away_goals": 0,
+      "play_order": 1
     },
     {
       "match": 2,
-      "play_order": 2,
       "home": "Korea Republic",
       "away": "Czech Republic",
       "home_goals": 2,
-      "away_goals": 1
+      "away_goals": 1,
+      "play_order": 2
     },
     {
       "match": 3,
-      "play_order": 3,
       "home": "Canada",
       "away": "Bosnia and Herzegovina",
       "home_goals": 1,
-      "away_goals": 1
+      "away_goals": 1,
+      "play_order": 3
     },
     {
       "match": 4,
-      "play_order": 4,
       "home": "United States",
       "away": "Paraguay",
       "home_goals": 4,
-      "away_goals": 1
+      "away_goals": 1,
+      "play_order": 4
     },
     {
       "match": 5,
-      "play_order": 5,
       "home": "Haiti",
       "away": "Scotland",
       "home_goals": 0,
-      "away_goals": 1
+      "away_goals": 1,
+      "play_order": 7
     },
     {
       "match": 6,
-      "play_order": 6,
       "home": "Australia",
       "away": "Turkey",
       "home_goals": 2,
-      "away_goals": 0
+      "away_goals": 0,
+      "play_order": 8
     },
     {
       "match": 7,
-      "play_order": 7,
       "home": "Brazil",
       "away": "Morocco",
       "home_goals": 1,
-      "away_goals": 1
+      "away_goals": 1,
+      "play_order": 6
     },
     {
       "match": 8,
-      "play_order": 8,
       "home": "Qatar",
       "away": "Switzerland",
       "home_goals": 1,
-      "away_goals": 1
+      "away_goals": 1,
+      "play_order": 5
+    },
+    {
+      "match": 10,
+      "home": "Germany",
+      "away": "Curaçao",
+      "home_goals": 7,
+      "away_goals": 1,
+      "play_order": 9
+    },
+    {
+      "match": 11,
+      "home": "Netherlands",
+      "away": "Japan",
+      "home_goals": 2,
+      "away_goals": 2,
+      "play_order": 10
     }
   ],
   "knockout": [],

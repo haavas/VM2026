@@ -1,0 +1,17 @@
+{
+  "hash": "f23df061c31e362e0f87b812c3a2829d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Goliath beats David\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-14 21:18:00\"\ncategories: [Update]\n---\n\n# Germany beats Curacao.\n\nSamuel 17:49. He reached into his bag and took out a stone, which he slung at Goliath. It hit him on the forehead, and Goliath looked back and said: \"Nice try\". Except Curacao didn't score at 17:49, it was 20:45.\n\n\n::: {.cell}\n\n:::\n\n\nØyvind is still in the lead, but Karin and Christian is right behind. Øyvind actually lost one point, despite having a German victory. His 2-0 estimate yielded 25 points for correct outcome and 26 points deduction for dramatically wrong score. This round's rockets are Dagfinn (6-0) and Bjørn & Jacob (5-1). \n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n\nEveryone believed in Germany, but the score differentiated a lot. Only four of us saw Curacao score.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/scatter_points-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

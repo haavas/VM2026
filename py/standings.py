@@ -134,11 +134,10 @@ def build_standings(scores_path: str = None,
     by_match = {p: {e["match"]: e for e in events}
                 for p, events in timelines.items()}
 
-    for mn in all_matches:
+    for play_seq, mn in enumerate(all_matches, start=1):
         # Update current scores for players who have an event this match
         match_stage      = "Unknown"
         match_pts_this   = {p: 0 for p in player_list}
-        play_order_at_mn = mn
 
         for p in player_list:
             e = by_match[p].get(mn)
@@ -146,7 +145,6 @@ def build_standings(scores_path: str = None,
                 current[p]        = e["cumulative"]
                 match_pts_this[p] = e["match_pts"]
                 match_stage       = e["stage"]
-                play_order_at_mn  = e.get("play_order", mn)
 
         # Rank players — higher score = better rank; ties share the lower rank number
         sorted_players = sorted(player_list, key=lambda p: -current[p])
@@ -163,7 +161,7 @@ def build_standings(scores_path: str = None,
             rk = rank_at[p]
             rows.append({
                 "match":       mn,
-                "play_order":  play_order_at_mn,
+                "play_order":  play_seq,
                 "stage":       match_stage,
                 "player":      p,
                 "full_name":   name_lookup.get(p, p),
@@ -193,11 +191,13 @@ def build_standings(scores_path: str = None,
     print(f"Wrote → {output_csv}")
 
     # ── Print current standings ───────────────────────────────────────────────
-    last_match = max(all_matches)
-    last_rows  = [r for r in rows if r["match"] == last_match]
+    last_play_order = len(all_matches)
+    last_rows  = [r for r in rows if r["play_order"] == last_play_order]
     last_rows.sort(key=lambda r: r["rank"])
+    last_match = last_rows[0]["match"]
 
-    print(f"\nCurrent standings after M{last_match} ({last_rows[0]['stage']}):")
+    print(f"\nCurrent standings after M{last_match} "
+          f"(game {last_play_order} played, {last_rows[0]['stage']}):")
     print(f"  {'Rank':>4}  {'Name':<30} {'Score':>6}  {'Change':>7}")
     print(f"  {'─'*4}  {'─'*30} {'─'*6}  {'─'*7}")
     for r in last_rows:
