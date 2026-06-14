@@ -1,0 +1,7 @@
+---
+title: "An administrative mistake"
+author: ""
+description: ""
+date: "2026-06-14"
+categories: []
+---

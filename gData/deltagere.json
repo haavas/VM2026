@@ -171,7 +171,12 @@
   },
   {
     "file": "World_cup_2026_ØB.xlsx",
-    "full_name": "Øyvind Bratberg",
+    "full_name": "Øivind Bratberg",
     "abbr": "ØB"
+  },
+  {
+    "file": "world_cup_2026_oyvind.xlsx",
+    "full_name": "Øyvind Colbjørnsen",
+    "abbr": "ØC"
   }
 ]
