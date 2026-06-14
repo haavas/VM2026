@@ -33,8 +33,16 @@
       "away_goals": 1
     },
     {
-      "match": 8,
+      "match": 7,
       "play_order": 5,
+      "home": "Brazil",
+      "away": "Morocco",
+      "home_goals": 1,
+      "away_goals": 1
+    },
+    {
+      "match": 8,
+      "play_order": 6,
       "home": "Qatar",
       "away": "Switzerland",
       "home_goals": 1,

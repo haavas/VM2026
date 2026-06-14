@@ -1,0 +1,17 @@
+{
+  "hash": "85c3e8f84d1da4895accc8f9dbca34e6",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Brazil vs. Morocco\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-14 00:00:00\"\ncategories: [Update]\n---\n\n# Brazil vs. Morocco\n\nThe first half was amazing, and the best half so far in this cup. The second half was not so good. \n\n\n\n::: {.cell}\n\n:::\n\n\nÅse is in the lead, followed by Christian, Linda, Jon, Ida and Karin. Elin, Hallvard and Øyvind have been distanced somewhat, and joined by a gang of four. But much can still happen\n\nThe colors are a bit off here. My system finds it hard to cope with game 7 being played after game 8. It is a bit late to mend that now.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n\n\nNo less than five players had the correct result from this game, while Karin had 2-2. Jostein and Elin had Morocco as winners, and that could have happened as Allison almost gave away a goal in injury time.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/scatter_points-1.png){width=672}\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
