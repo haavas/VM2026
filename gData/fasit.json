@@ -65,6 +65,14 @@
       "play_order": 5
     },
     {
+      "match": 9,
+      "home": "Ivory Coast",
+      "away": "Ecuador",
+      "home_goals": 1,
+      "away_goals": 0,
+      "play_order": 11
+    },
+    {
       "match": 10,
       "home": "Germany",
       "away": "Curaçao",
@@ -79,6 +87,14 @@
       "home_goals": 2,
       "away_goals": 2,
       "play_order": 10
+    },
+    {
+      "match": 12,
+      "home": "Sweden",
+      "away": "Tunisia",
+      "home_goals": 5,
+      "away_goals": 1,
+      "play_order": 12
     }
   ],
   "knockout": [],

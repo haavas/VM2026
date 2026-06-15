@@ -1,0 +1,17 @@
+{
+  "hash": "00e5a3222dc06c1952250d02022bd569",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"An eventful night\"\nauthor: \"Håvard\"\ndescription: \"\"\ndate: \"2026-06-15 08:40:00\"\ncategories: [Update]\n---\n\n# Yellow\n\n## Ivory Coast vs. Ecuador\n\nAccording to reports, this was the best game so far, where dark horse candidate Ecuador failed to live up to the hype. Ecuador on their side had abandoned their yellow jersey for the away blue. Many of us had bought into the hype. Only Christian, Gabriel, Jana and Karin saw Ivory Coast winning this game.\n\n## Sweden vs. Tunisia\n\nSweden did play in yellow and completely hammered Tunisia. The 5-1 score will be important, because none of us saw this happening. Christian was closest with 3-1, while Jacob had bravely predicted a 0-8 score for Tunisia.\n\n\n::: {.cell}\n\n:::\n\n\nChristian is now ahead by 56 points! Øyvind, Karin and Hallvard form a trio in pursuit, and Gabriel is catching up fast.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n\nThe resent results underscore the importance of not undersestimating the big wins. \n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/scatter_points-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
