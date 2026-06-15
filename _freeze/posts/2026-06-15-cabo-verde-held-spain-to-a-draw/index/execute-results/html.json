@@ -1,0 +1,15 @@
+{
+  "hash": "1d33fe1d6aa8a99cd90b63b908d3a86d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Cabo Verde held Spain to a draw\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-15 20:54:00\"\ncategories: [Update]\n---\n\n# A bomb indeed!\n\nThis result came as proper surprise. From the betting market's point of view, this game was even more predetermined than the Germany game. We all had Spain as the winner, ranging from 6-0 (Martin, Jostein & Dagfinn) to 2-0 (Jon, Linda and Marina). \n\n\n::: {.cell}\n\n:::\n\n\nChristian is now ahead by 40 points! Øyvind, Karin and Hallvard remain a trio in pursuit. This is probably the collectively low point of the entire ISV tipster competition history. \n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

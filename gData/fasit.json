@@ -95,6 +95,14 @@
       "home_goals": 5,
       "away_goals": 1,
       "play_order": 12
+    },
+    {
+      "match": 14,
+      "home": "Spain",
+      "away": "Cape Verde",
+      "home_goals": 0,
+      "away_goals": 0,
+      "play_order": 13
     }
   ],
   "knockout": [],
