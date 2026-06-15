@@ -1,6 +1,6 @@
 ---
 title: "And we are off!"
-author: ""
+author: "Håvard Strand"
 description: ""
 date: "2026-06-11"
 categories: [Update]
