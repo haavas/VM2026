@@ -9,8 +9,40 @@
 <link>https://haavas.github.io/VM2026/</link>
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
-<generator>quarto-1.6.42</generator>
-<lastBuildDate>Tue, 16 Jun 2026 10:30:00 GMT</lastBuildDate>
+<generator>quarto-1.9.36</generator>
+<lastBuildDate>Tue, 16 Jun 2026 23:01:00 GMT</lastBuildDate>
+<item>
+  <title>France show strength</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-17-france-show-strength/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="france-vs-senegal" class="level1">
+<h1>France vs Senegal</h1>
+<p>Senegal is a very good team, but France won 3-1.</p>
+<p>Almost all of had a French victory, but the numbers varied somewhat. That means the standings are pretty much as they were.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-17-france-show-strength/standings.png" class="img-fluid figure-img" width="750"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Updates</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-17-france-show-strength/</guid>
+  <pubDate>Tue, 16 Jun 2026 23:01:00 GMT</pubDate>
+</item>
 <item>
   <title>Unrighteous Accuracy</title>
   <dc:creator>Martin Søyland^[The author has shamelessly used Claude Opus 4.8 to produce the code and come up with the literature for this project]</dc:creator>
@@ -219,7 +251,7 @@ Figure&nbsp;1
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-brannagan2015" class="csl-entry">
 Brannagan, Paul Michael, and Richard Giulianotti. 2015. <span>“Soft Power and Soft Disempowerment: Qatar, Global Sport and Football’s 2022 World Cup Finals.”</span> <em>Leisure Studies</em> 34 (6): 703–19.
 </div>
@@ -227,16 +259,16 @@ Brannagan, Paul Michael, and Richard Giulianotti. 2015. <span>“Soft Power and 
 Grix, Jonathan, and Donna Lee. 2013. <span>“Soft Power, Sports Mega-Events and Emerging States: The Lure of the Politics of Attraction.”</span> <em>Global Society</em> 27 (4): 521–36.
 </div>
 <div id="ref-morgenthau1948" class="csl-entry">
-Morgenthau, Hans J. 1948. <em>Politics Among Nations: The Struggle for Power and Peace</em>. New York: Alfred A. Knopf.
+Morgenthau, Hans J. 1948. <em>Politics Among Nations: The Struggle for Power and Peace</em>. Alfred A. Knopf.
 </div>
 <div id="ref-tetlock2005" class="csl-entry">
-Tetlock, Philip E. 2005. <em>Expert Political Judgment: How Good Is It? How Can We Know?</em> Princeton, NJ: Princeton University Press.
+Tetlock, Philip E. 2005. <em>Expert Political Judgment: How Good Is It? How Can We Know?</em> Princeton University Press.
 </div>
 <div id="ref-thucydides1972" class="csl-entry">
-Thucydides. 1972. <em>History of the Peloponnesian War</em>. Translated by Rex Warner. London: Penguin.
+Thucydides. 1972. <em>History of the Peloponnesian War</em>. Translated by Rex Warner. Penguin.
 </div>
 <div id="ref-weber1946" class="csl-entry">
-Weber, Max. 1946. <span>“Politics as a Vocation.”</span> In <em>From Max Weber: Essays in Sociology</em>, edited by H. H. Gerth and C. Wright Mills, 77–128. New York: Oxford University Press.
+Weber, Max. 1946. <span>“Politics as a Vocation.”</span> In <em>From Max Weber: Essays in Sociology</em>, edited by H. H. Gerth and C. Wright Mills. Oxford University Press.
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
@@ -690,28 +722,6 @@ Weber, Max. 1946. <span>“Politics as a Vocation.”</span> In <em>From Max Web
   <pubDate>Fri, 12 Jun 2026 22:35:47 GMT</pubDate>
 </item>
 <item>
-  <title>Meet your opponents</title>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>We are 35 participants in this competition. The table below lists all names and abbreviations, and these might be used occasionally throughout the competition.</p>
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/podium_table.png" class="img-fluid"></p>
-<p>We mainly fancy France and Spain to win the tournament. Some of us Brazil and England, and then Øivind and Jan Erling have Argentina as their winner, while Jana goes with Mexico, Jon predict German glory, and Marina favors Portugal.</p>
-<p>The network graph shows similarity between us. The numbers indicate how many percent of the total 4600 points a given player gets if the node on the other end happens to be 100% correct. If Jon’s predictions were to become reality, Martin would not even get 2000 points. Maiken and Jonas are joint hubs in this network. That has traditionally not been a bad place to be.</p>
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/similarity_network_top3.png" class="img-fluid"></p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/</guid>
-  <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-</item>
-<item>
   <title>South Korea beat Czechia</title>
   <dc:creator>Håvard Strand</dc:creator>
   <link>https://haavas.github.io/VM2026/posts/2026-06-12-south-korea-beat-czechia/</link>
@@ -742,6 +752,28 @@ Weber, Max. 1946. <span>“Politics as a Vocation.”</span> In <em>From Max Web
  ]]></description>
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-12-south-korea-beat-czechia/</guid>
+  <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Meet your opponents</title>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We are 35 participants in this competition. The table below lists all names and abbreviations, and these might be used occasionally throughout the competition.</p>
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/podium_table.png" class="img-fluid"></p>
+<p>We mainly fancy France and Spain to win the tournament. Some of us Brazil and England, and then Øivind and Jan Erling have Argentina as their winner, while Jana goes with Mexico, Jon predict German glory, and Marina favors Portugal.</p>
+<p>The network graph shows similarity between us. The numbers indicate how many percent of the total 4600 points a given player gets if the node on the other end happens to be 100% correct. If Jon’s predictions were to become reality, Martin would not even get 2000 points. Maiken and Jonas are joint hubs in this network. That has traditionally not been a bad place to be.</p>
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/similarity_network_top3.png" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/</guid>
   <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
 </item>
 <item>

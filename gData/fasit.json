@@ -127,6 +127,14 @@
       "home_goals": 1,
       "away_goals": 1,
       "play_order": 14
+    },
+    {
+      "match": 17,
+      "home": "France",
+      "away": "Senegal",
+      "home_goals": 3,
+      "away_goals": 1,
+      "play_order": 17
     }
   ],
   "knockout": [],

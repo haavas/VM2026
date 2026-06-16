@@ -1,0 +1,25 @@
+---
+title: "France show strength"
+author: "Håvard Strand"
+description: ""
+date: "2026-06-17 01:01:00"
+categories: [Updates]
+---
+
+# France vs Senegal
+
+Senegal is a very good team, but France won 3-1. 
+
+Almost all of had a French victory, but the numbers varied somewhat. That means the standings are pretty much as they were.
+
+```{r standings, echo=FALSE, message=FALSE, warning=FALSE}
+source(here::here("R", "plot_standings.R"))
+this_match <- 17
+lag        <- 1
+plot_standings(this_match, lag)
+```
+
+
+```{r show, echo=FALSE}
+knitr::include_graphics("standings.png")
+```
