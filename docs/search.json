@@ -1,17 +1,185 @@
 [
   {
-    "objectID": "past_winners.html",
-    "href": "past_winners.html",
-    "title": "Past winners",
+    "objectID": "rules.html",
+    "href": "rules.html",
+    "title": "Rules of the competition",
     "section": "",
-    "text": "This is the sixth time the competition is held. The previous winners are:\n2014: Åse Gornitzka\n2016: Sigurd Lindstad\n2018: Ida Weseth Bjøru\n2021: Øyvind Colbjørnsen\n2024: Felix Haass"
+    "text": "STV’s Euro Cup competition consists of two parts:\n\n14 questions related to various more or less observable topics that are found at \nAn Excel form, in which the outcome of each game has to be forecasted, estimates, guessed, place-your-verb-here. Click here to download the Excel from.\n\nThe excel form consists of 72 games in the group stage and 32 games in the knockout stage. The schedule for the 72 group stage games is set and those games are specified on the left side of the form.\nThe first game is between Mexico and South Africa. There are two cells between the two countries, and we fill in what we believe is the final score. In the illustration below the score is predicted to be a victory for Mexico\n\nWe then repeat this for each game until the final game between the Czech Republic and Turkey.\nWhen the score for all group stage games are filled in, the magic of Excel will automatically fill in the games in the Round of 32. We then move on to put in the scores in these games as well, which in turn will populate the Round of 16.\n\nIn the example above, Ivory Coast play Brazil on 29 June. There are a total of six boxes to be filled out, arranged in a 3x2 configuration. The first pais is the full time score. If this score is even, the game goes to extra time, which means that the second pair must be filled in to produce a winner. If the predictions remain even, the final pair is where the result from the penalty shootout is placed. The result here can’t be even, and hence it will produce a winner.\nThe first and second pair will count towards the total sum of goals in the tournament, which will yield points for the best among us. The penalty shootout will not count towards this tally.\nWe repeat this for quarter-finals, semi-finals and, finally, the final final. When the form i successfully completed, the predicted Champion 2024 will pop up in the bottom right corner.\n\nThe form is now ready to be submitted.\n\n\n\nPoints are awarded for each and every correct answer to the 16 questions. In addition, we calculate the total number of goals scored in the form for a 15th question “How many goals will there be in total? (Penalty shoot-outs excluded)”. Each of these questions yield 30 points, for a total of 510 for the questions section\nPoints are earned for guessing the correct outcome of each of the games in the group stage. There are 48 games in the group stage Each correct answer is worth 25 points, for a total of 1800 points\nPoints are deducted for any deviance between the predicted and observed scores. As usual in the Social Sciences, we square the deviance. If the first game is predicted a 2-0 Turkey victory over Italy but ends in a 4-1 Turkish victory, then 25 points are awarded for the correct outcome, before (4-2)2=22=4 and (1-0)2=12=1 points are deducted for slightly missing the correct result. In the end, 25 - 4 - 1 = 20 points are awarded.\nPoints are earned in the the knockout round for guessing the correct teams in each of the knockout stages. 25 points are awarded for each correct team, and a bonus 5 points if the team appears on the correct spot in the playoff schedule. Correctly guessing both teams in a knockout game will thus give (25 + 5) * 2 = 60 points. With 32 knockout games, the total points available is 1920.\nFinally, 200 points are awarded for correctly guessing the winner of the 2026 World cup.\n\n\n\n\n\n\n\n\n\n\nSource\nMax points per item\nN. of items\nTotal maximum points\n\n\n\n\nQualitative questions\n30\n17\n510\n\n\nGroup stages\n25\n72\n1800\n\n\nKnockout stages\n60\n32\n1920\n\n\nWinner\n200\n1\n200\n\n\nSilver\n100\n1\n100\n\n\nBronze\n70\n1\n70\n\n\n\nThe theoretical top score is therefore 4600 points."
+  },
+  {
+    "objectID": "rules.html#points",
+    "href": "rules.html#points",
+    "title": "Rules of the competition",
+    "section": "",
+    "text": "Points are awarded for each and every correct answer to the 16 questions. In addition, we calculate the total number of goals scored in the form for a 15th question “How many goals will there be in total? (Penalty shoot-outs excluded)”. Each of these questions yield 30 points, for a total of 510 for the questions section\nPoints are earned for guessing the correct outcome of each of the games in the group stage. There are 48 games in the group stage Each correct answer is worth 25 points, for a total of 1800 points\nPoints are deducted for any deviance between the predicted and observed scores. As usual in the Social Sciences, we square the deviance. If the first game is predicted a 2-0 Turkey victory over Italy but ends in a 4-1 Turkish victory, then 25 points are awarded for the correct outcome, before (4-2)2=22=4 and (1-0)2=12=1 points are deducted for slightly missing the correct result. In the end, 25 - 4 - 1 = 20 points are awarded.\nPoints are earned in the the knockout round for guessing the correct teams in each of the knockout stages. 25 points are awarded for each correct team, and a bonus 5 points if the team appears on the correct spot in the playoff schedule. Correctly guessing both teams in a knockout game will thus give (25 + 5) * 2 = 60 points. With 32 knockout games, the total points available is 1920.\nFinally, 200 points are awarded for correctly guessing the winner of the 2026 World cup.\n\n\n\n\n\n\n\n\n\n\nSource\nMax points per item\nN. of items\nTotal maximum points\n\n\n\n\nQualitative questions\n30\n17\n510\n\n\nGroup stages\n25\n72\n1800\n\n\nKnockout stages\n60\n32\n1920\n\n\nWinner\n200\n1\n200\n\n\nSilver\n100\n1\n100\n\n\nBronze\n70\n1\n70\n\n\n\nThe theoretical top score is therefore 4600 points."
+  },
+  {
+    "objectID": "posts/2026-06-16-new-zealand-got-a-point/index.html",
+    "href": "posts/2026-06-16-new-zealand-got-a-point/index.html",
+    "title": "New Zealand got a point",
+    "section": "",
+    "text": "Saudi Arabia drew against Uruguay\nThe Saudi league has been ridiculed, but they held Uruguay to a draw, albeit with some difficulty. Uruguay was the better team in the second half, and should have won. Åse had the exact right result, and Jostein the right outcome.\n\n\nNew Zealand got a point\nNew Zealand held Iran to a draw and is thus a very likely candidate as the best of the three lowest ranked teams in the competition. The outcome was not as surprising as the ranking should have suggested (and AI-models predicted). 14 of us had a draw, this was the modal outcome.\nJostein again were among the 14, and is now in 2nd place, 48 points behind Christian. Hallvard is two points behind Jostein, while Øyvind C and Karin lost ground over these two games.\n\n\n\n\n\n\n\n\n\nMany lost points today, but the 2-2 score means that noone lost a lot."
+  },
+  {
+    "objectID": "posts/2026-06-15-ethical-predictions/index.html",
+    "href": "posts/2026-06-15-ethical-predictions/index.html",
+    "title": "Unrighteous Accuracy",
+    "section": "",
+    "text": "There are whispers in the hallways at the department that being good at predicting scores in the World Cup competition is a sign of deep football knowledge, intelligence, and wisdom. That might be the case, but in this post, I will outline a less explored issue in sports gambling: the relationship between morals and precision in sports predictions. By applying a theory of unrighteous accuracy to the ISV World Cup 2026 competition, I will show how scoring quantitative prediction points might be impressive on the surface, but there is a deeply concerning patterns about attitudes at the Department of Political Science. Operationalized though a set of normatively wanted features, I show that a uniquely developed index of RIGHTEOUSNESS is negatively and significantly correlated with higher scores in the world cup competition. This has large ramifications for any literature."
+  },
+  {
+    "objectID": "posts/2026-06-15-ethical-predictions/index.html#a-theory-of-unrighteous-accuracy",
+    "href": "posts/2026-06-15-ethical-predictions/index.html#a-theory-of-unrighteous-accuracy",
+    "title": "Unrighteous Accuracy",
+    "section": "A theory of unrighteous accuracy",
+    "text": "A theory of unrighteous accuracy\nWhy should scoring points make us less righteous? The relationship is not paradoxical but methodological. A competition rewarding accuracy, and accurate forecasting, as Tetlock (2005) demonstrates, requires the systematic suppression of wishful and moralized cognition: the tipsters who score do so precisely because they decline to let their values shape their brackets. This is realism in the classical sense (Morgenthau 1948). Like the statesman, the forecaster predicts the distribution of power rather than the deserving. The strong do what they can while the weak suffer what they must (Thucydides 1972). Moreover, the fact that power and righteousness should diverge in football is no accident: authoritarian regimes increasingly purchase sporting prominence as soft power (Brannagan and Giulianotti 2015; Grix and Lee 2013), so to back the likely winner is, more often than not, to back the unrighteous. Consequently, last place is not incompetence but conviction. An ethic of conviction in Weber’s (1946) sense, which accepts the worldly cost of refusing to forecast against one’s principles. I thus hypothesize that\n\n\\(H_1\\): Righteous predictions cause lower World Cup 2026 ISV competition scores"
+  },
+  {
+    "objectID": "posts/2026-06-15-ethical-predictions/index.html#data-and-variables",
+    "href": "posts/2026-06-15-ethical-predictions/index.html#data-and-variables",
+    "title": "Unrighteous Accuracy",
+    "section": "Data and variables",
+    "text": "Data and variables\nI use the original data from the official competition github repository,4, data from the Varieties of Democracy project,5, and manual coding.6 The index of righteousness consist of four components:\n\nv2x_polyarchy: Electoral Democracy Index (used as the democracy dimension)\nv2x_clphy: Physical Violence Index, i.e. freedom from political killing and torture (used as the human rights dimension)\nv2x_corr: Political Corruption Index, entered inverted as 1 − v2x_corr (used as the cleanness dimension)\nManual adjustments, detailed in the appendix"
+  },
+  {
+    "objectID": "posts/2026-06-15-ethical-predictions/index.html#analysis",
+    "href": "posts/2026-06-15-ethical-predictions/index.html#analysis",
+    "title": "Unrighteous Accuracy",
+    "section": "Analysis",
+    "text": "Analysis\nAs shown in Figure 1, there is a significant7 negative relationship between scoring well in the competition and having righteous predictions.\n\n\n\n\n\n\n\n\nFigure 1"
+  },
+  {
+    "objectID": "posts/2026-06-15-ethical-predictions/index.html#discussion",
+    "href": "posts/2026-06-15-ethical-predictions/index.html#discussion",
+    "title": "Unrighteous Accuracy",
+    "section": "Discussion",
+    "text": "Discussion\nWe can now return to the whispers in the hallways. Skill at predicting World Cup scores is not so much a sign of wisdom as incomplete reporting of the moral price at which accuracy is bought. Across the 36 contestants at the Department of Political Science, righteousness and competitive success move significantly in opposite directions: the leaderboard is best understood as an inverted moral hierarchy, not a ranking of expertise. The implications for any literature are large, and the remedy is simple. Where the quantitative competition rewards the prediction of suffering, the RIGHTEOUSNESS index rewards the refusal to engage in it. But, I will concede this post was born out of shame and embarrassment over my own predictions, and I might have tweaked a bit with the data, but the point still stands. In this competition, as in politics, virtue and victory are not merely uncorrelated, but opposed. I therefore remain, gladly, in last place."
+  },
+  {
+    "objectID": "posts/2026-06-15-ethical-predictions/index.html#appendix",
+    "href": "posts/2026-06-15-ethical-predictions/index.html#appendix",
+    "title": "Unrighteous Accuracy",
+    "section": "Appendix",
+    "text": "Appendix\n\nOriginal index construction\n\n\n\n\n\n\n\n\n\nRule\nApplies to\nWeight / adjustment\nNotes\n\n\n\n\nDemocracy\nevery nation\nv2x_polyarchy\nV-Dem electoral democracy index (0–1), 2025\n\n\nHuman rights\nevery nation\nv2x_clphy\nV-Dem physical-violence index (freedom from torture/killing)\n\n\nCleanness\nevery nation\n1 − v2x_corr\ninverted V-Dem political-corruption index\n\n\nCountry righteousness\nevery nation\nmean of the three above\nthe honest base score, kept as righteousness_vdem\n\n\nBracket weight — Round of 32\neach team a contestant advances\n×1\ndeepest round reached sets the weight\n\n\nBracket weight — Round of 16\n”\n×2\n\n\n\nBracket weight — Quarter-final\n”\n×3\n\n\n\nBracket weight — Semi-final\n”\n×4\n\n\n\nBracket weight — Final\n”\n×5\nboth finalists\n\n\nBracket weight — World champion\n”\n×6\nchampion override\n\n\nContestant righteousness\neach contestant\nweight-weighted mean of their teams’ righteousness\nthe base before taxes (righteousness_bracket)"
+  },
+  {
+    "objectID": "posts/2026-06-15-ethical-predictions/index.html#manual-corrections-made-to-the-index",
+    "href": "posts/2026-06-15-ethical-predictions/index.html#manual-corrections-made-to-the-index",
+    "title": "Unrighteous Accuracy",
+    "section": "Manual corrections made to the index",
+    "text": "Manual corrections made to the index\n\n\n\n\n\n\n\n\n\nRule\nApplies to\nWeight / adjustment\nNotes\n\n\n\n\n🇸🇪 Rivalry penalty\nSweden (country)\n−0.68\ndrops Sweden from 1st to 43rd of 46\n\n\n🇳🇴 Norway bonus\nNorway (country)\n+0.05\ngratuitous\n\n\nTimesheet levy (overskudd_paa_timeregnskapet)\nØyvind Stiansen\n−0.10\npersonal\n\n\nTheorist tax\nSandven, Bratberg, Kuyper\n−0.05 each\ndefined as ½ the timesheet levy\n\n\nSwede surtax\nDaniel Naurin, Gabriel Lönn\n−0.15 each\nSweden’s disgrace, amplified for nationals\n\n\nTaking-it-too-seriously tax\nevery contestant\n−0.004814 per survey-minute, capped at −0.15\nrate tuned by uniroot() to p = 0.050\n\n\nAbstention tax\nanyone with no qualitative submission (Colbjørnsen)\n−0.15\n= the seriousness cap; punishes non-participation"
+  },
+  {
+    "objectID": "posts/2026-06-15-ethical-predictions/index.html#footnotes",
+    "href": "posts/2026-06-15-ethical-predictions/index.html#footnotes",
+    "title": "Unrighteous Accuracy",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThe author has shamelessly used Claude Opus 4.8 to produce the code and come up with the literature for this project↩︎\nThe author has shamelessly used Claude Opus 4.8 to produce the code and come up with the literature for this project↩︎\nThe author has shamelessly used Claude Opus 4.8 to produce the code and come up with the literature for this project↩︎\nhttps://github.com/haavas/VM2026↩︎\nhttps://github.com/vdeminstitute/vdemdata↩︎\nSee appendix.↩︎\nI used uniroot() on the time used to complete the qualitative study to ensure the correlation is significant at the \\(0.050\\) level.↩︎"
+  },
+  {
+    "objectID": "posts/2026-06-15-belgium-vs-egypt/index.html",
+    "href": "posts/2026-06-15-belgium-vs-egypt/index.html",
+    "title": "Belgium vs Egypt",
+    "section": "",
+    "text": "Belgium vs Egypt\nA relatively even game resulted in an absolutely even score. After the red card bonanza in the first game, we have seen very few of those. Can we make it below 7 red cards in the tournament?\nChristian remain ahead by 40 points! Øyvind, Karin and Hallvard remain a trio in pursuit. Øyvind Stiansen and Jostein Askim are closing in. Scott, Dagfinn and Martin also got points from this round.\n\n\n\n\n\n\n\n\n\nBelgium were our favorites. Three of us believed in Egypt, while five got the correct result."
+  },
+  {
+    "objectID": "posts/2026-06-14-goliath-beats-david/index.html",
+    "href": "posts/2026-06-14-goliath-beats-david/index.html",
+    "title": "Goliath beats David",
+    "section": "",
+    "text": "Germany beats Curacao.\nSamuel 17:49. He reached into his bag and took out a stone, which he slung at Goliath. It hit him on the forehead, and Goliath looked back and said: “Nice try”. Except Curacao didn’t score at 17:49, it was 20:45.\nØyvind is still in the lead, but Karin and Christian is right behind. Øyvind actually lost one point, despite having a German victory. His 2-0 estimate yielded 25 points for correct outcome and 26 points deduction for dramatically wrong score. This round’s rockets are Dagfinn (6-0) and Bjørn & Jacob (5-1).\n\n\n\n\n\n\n\n\n\nEveryone believed in Germany, but the score differentiated a lot. Only four of us saw Curacao score."
+  },
+  {
+    "objectID": "posts/2026-06-14-an-administrative-mistake/index.html",
+    "href": "posts/2026-06-14-an-administrative-mistake/index.html",
+    "title": "An administrative mistake",
+    "section": "",
+    "text": "A fairly significant administrative issue\nThe first point of the agenda is that I have made a horrible mistake. Øyvind Colbjørnsen’s contribution was regrettably omitted. This error has now been corrected, with important implications for our competition. Because not only did Øyvind C correctly guess 1-1 as the result in the Brasil - Morocco game, he has also made more correct predictions than any other participant. Which places him at the very top of the competition.\n\n\nHaiti vs Scotland\nHaiti came close to replicating Qatar’s feat, but in the end Scotland won 1-0. Which is potentially important for our competiton in several ways.\nScotland is unlikely to get points from either Morocco or Brasil, and therefore likely to end up in 3rd with a negative goal difference. This might jeopardize their chances for getting to the knockout stage.\nHaiti’s result means that they are most likely to end up with 0 points, and should either Curacao or New Zealand get a point, this will be decisive for the qualitiative question regarding these teams.\n\n\nAustralia vs Turkey\nAustalia beat Turkey 2-0 this morning, and thereby more or less securing their progress into the next round. Turkey is not completely without hope, but they might have to beat Paraguay with quite a margin to secure progress.\nI haven’t had a chance to fix the coloring issue, so today’s update covers points in all four games played yesterday American time. Øyvind Colbjørnsen enters the standings at the very top, with Karin, Ida, Bjørn and Marina begin significant achievers."
+  },
+  {
+    "objectID": "posts/2026-06-13-el-infantinity/index.html",
+    "href": "posts/2026-06-13-el-infantinity/index.html",
+    "title": "El Infantinity",
+    "section": "",
+    "text": "Switzerland vs Qatar\nA game between Infantino’s original home country and his adopted home country. The man is widely assumed to be “influentialable”, but who will he support today? Or, who will support him? The offside after 15 minutes was interesting, but in the end the game was a draw.\nSo, what does that with our competiton?\nScoll down to the bottom, and admire Marina’s reenactment of dr. Stockman’s stance. “The strongest man in the world is he who stands most alone”. Linda remain in front of the race, as very little changed after this game."
+  },
+  {
+    "objectID": "posts/2026-06-12-south-korea-beat-czechia/index.html",
+    "href": "posts/2026-06-12-south-korea-beat-czechia/index.html",
+    "title": "South Korea beat Czechia",
+    "section": "",
+    "text": "South Korea vs Czechia\nCzechia scored first, but the country with the highest per capita beer consumption got overrun in the second half.\nØyvind, Elin and Hallvard have 50 points – perfect score so far. 6 more contenders have correct result, but some deviance when it comes to the score.\nBut, it is still early."
+  },
+  {
+    "objectID": "posts/2026-06-11-and-we-are-off/index.html",
+    "href": "posts/2026-06-11-and-we-are-off/index.html",
+    "title": "And we are off!",
+    "section": "",
+    "text": "Thursday 1th June 2026, Mexico vs South Africa\n\n\n\n\n\n\n\n\n\nThe format will be very similar to previous years. The color scale tells us what has changed since last game. Deep blue is good. Red is bad."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "World Cup 2026",
     "section": "",
-    "text": "New Zealand got a point\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 16, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nBelgium vs Egypt\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nCabo Verde held Spain to a draw\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nAn eventful night\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\nHåvard\n\n\n\n\n\n\n\n\n\n\n\n\nNetherlands vs Japan\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nGoliath beats David\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 14, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nAn administrative mistake\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 14, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nBrazil vs. Morocco\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 14, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nEl Infantinity\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 13, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nUS preponderance (updated version)\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 13, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nCanada vs. Bosnia-Herzegovina: The first draw\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 13, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nSouth Korea beat Czechia\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 12, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nMeet your opponents\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nAnd we are off!\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 11, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nAnnouncing the ISV 2026 World Cup Competition\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 4, 2026\n\n\nDagfinn Hagen\n\n\n\n\n\nNo matching items"
+    "text": "Unrighteous Accuracy\n\n\n\n\n\n\nGuest post\n\n\n\n\n\n\n\n\n\nJun 16, 2026\n\n\nMartin Søyland\n\n\n\n\n\n\n\n\n\n\n\n\nNew Zealand got a point\n\n\n\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 16, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nBelgium vs Egypt\n\n\n\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nCabo Verde held Spain to a draw\n\n\n\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nAn eventful night\n\n\n\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\nHåvard\n\n\n\n\n\n\n\n\n\n\n\n\nNetherlands vs Japan\n\n\n\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nGoliath beats David\n\n\n\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 14, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nAn administrative mistake\n\n\n\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 14, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nBrazil vs. Morocco\n\n\n\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 14, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nEl Infantinity\n\n\n\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 13, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nUS preponderance (updated version)\n\n\n\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 13, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nCanada vs. Bosnia-Herzegovina: The first draw\n\n\n\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 13, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nMeet your opponents\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 12, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSouth Korea beat Czechia\n\n\n\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 12, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nAnd we are off!\n\n\n\n\n\n\nUpdate\n\n\n\n\n\n\n\n\n\nJun 11, 2026\n\n\nHåvard Strand\n\n\n\n\n\n\n\n\n\n\n\n\nAnnouncing the ISV 2026 World Cup Competition\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJun 4, 2026\n\n\nDagfinn Hagen\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About the competition",
+    "section": "",
+    "text": "The ISV tipster competition is open for everyone at the department. We guess/estimate/predict/postulate the outcome of all games in the World Cup and points are awarded (or deducted) according to a set of rules. The purpose of this blog is to document the rules and provide updates about the standing as we progress through the tournament.\nThe organizing committee consists of Øyvind Colbjørnsen, Dagfinn Hagen & Håvard Strand."
+  },
+  {
+    "objectID": "CLAUDE.html",
+    "href": "CLAUDE.html",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.\n\n\nA Quarto website for a Political Science World Cup 2026 prediction competition, published to GitHub Pages at https://haavas.github.io/VM2026/. The site lists competition rules/posts and is backed by an R analysis pipeline.\n\n\n\n# Render the full site (output goes to docs/)\nquarto render\n\n# Preview locally with live reload\nquarto preview\n\n# Render a single file\nquarto render posts/Regelendring/index.qmd\nThe site output directory is docs/ (configured in _quarto.yml), which is what GitHub Pages serves.\n\n\n\nThe main analysis is in R/worldcup_analysis.R. It requires:\n\nCRAN packages: dplyr, tidyr, readr, WDI, countrycode, glmmTMB, DHARMa\nGitHub packages: vdeminstitute/vdemdata, JaseZiv/worldfootballR\nA local file fifa_pretournament.csv (not tracked) with columns year, iso3, fifa\nExternal data: Data/fifa_ranking-2024-06-20.csv (FIFA rankings snapshot)\n\nThe script models World Cup goals (1994–2022) using Poisson/negative-binomial mixed models with FIFA rating, population, and V-Dem democracy index as covariates. It uses a match-level random intercept as a poor man’s bivariate Poisson to handle within-match correlation.\n\n\n\n\nindex.qmd — homepage listing (auto-lists everything in posts/)\nposts/ — one subdirectory per post, each with its own index.qmd\nposts/_metadata.yml — applies freeze: true to all posts (computational output is frozen; re-rendered only explicitly)\nabout.qmd — about page\n\nPosts are in Norwegian. New posts go in posts/&lt;slug&gt;/index.qmd.\n\n\n\nBecause freeze: true is set in posts/_metadata.yml, Quarto will not re-execute R code in posts unless you explicitly run quarto render --execute-daemon-restart or delete .quarto/_freeze/. This means R code in posts is frozen after first render — edit the .qmd source and re-render the specific file to refresh output."
+  },
+  {
+    "objectID": "CLAUDE.html#what-this-project-is",
+    "href": "CLAUDE.html#what-this-project-is",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "A Quarto website for a Political Science World Cup 2026 prediction competition, published to GitHub Pages at https://haavas.github.io/VM2026/. The site lists competition rules/posts and is backed by an R analysis pipeline."
+  },
+  {
+    "objectID": "CLAUDE.html#build-and-render",
+    "href": "CLAUDE.html#build-and-render",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "# Render the full site (output goes to docs/)\nquarto render\n\n# Preview locally with live reload\nquarto preview\n\n# Render a single file\nquarto render posts/Regelendring/index.qmd\nThe site output directory is docs/ (configured in _quarto.yml), which is what GitHub Pages serves."
+  },
+  {
+    "objectID": "CLAUDE.html#r-analysis",
+    "href": "CLAUDE.html#r-analysis",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "The main analysis is in R/worldcup_analysis.R. It requires:\n\nCRAN packages: dplyr, tidyr, readr, WDI, countrycode, glmmTMB, DHARMa\nGitHub packages: vdeminstitute/vdemdata, JaseZiv/worldfootballR\nA local file fifa_pretournament.csv (not tracked) with columns year, iso3, fifa\nExternal data: Data/fifa_ranking-2024-06-20.csv (FIFA rankings snapshot)\n\nThe script models World Cup goals (1994–2022) using Poisson/negative-binomial mixed models with FIFA rating, population, and V-Dem democracy index as covariates. It uses a match-level random intercept as a poor man’s bivariate Poisson to handle within-match correlation."
+  },
+  {
+    "objectID": "CLAUDE.html#content-structure",
+    "href": "CLAUDE.html#content-structure",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "index.qmd — homepage listing (auto-lists everything in posts/)\nposts/ — one subdirectory per post, each with its own index.qmd\nposts/_metadata.yml — applies freeze: true to all posts (computational output is frozen; re-rendered only explicitly)\nabout.qmd — about page\n\nPosts are in Norwegian. New posts go in posts/&lt;slug&gt;/index.qmd."
+  },
+  {
+    "objectID": "CLAUDE.html#freeze-behaviour",
+    "href": "CLAUDE.html#freeze-behaviour",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Because freeze: true is set in posts/_metadata.yml, Quarto will not re-execute R code in posts unless you explicitly run quarto render --execute-daemon-restart or delete .quarto/_freeze/. This means R code in posts is frozen after first render — edit the .qmd source and re-render the specific file to refresh output."
+  },
+  {
+    "objectID": "past_winners.html",
+    "href": "past_winners.html",
+    "title": "Past winners",
+    "section": "",
+    "text": "This is the sixth time the competition is held. The previous winners are:\n2014: Åse Gornitzka\n2016: Sigurd Lindstad\n2018: Ida Weseth Bjøru\n2021: Øyvind Colbjørnsen\n2024: Felix Haass"
   },
   {
     "objectID": "posts/2026-06-12-meet-your-opponents/index.html",
@@ -21,11 +189,25 @@
     "text": "We are 35 participants in this competition. The table below lists all names and abbreviations, and these might be used occasionally throughout the competition.\n\nWe mainly fancy France and Spain to win the tournament. Some of us Brazil and England, and then Øivind and Jan Erling have Argentina as their winner, while Jana goes with Mexico, Jon predict German glory, and Marina favors Portugal.\nThe network graph shows similarity between us. The numbers indicate how many percent of the total 4600 points a given player gets if the node on the other end happens to be 100% correct. If Jon’s predictions were to become reality, Martin would not even get 2000 points. Maiken and Jonas are joint hubs in this network. That has traditionally not been a bad place to be."
   },
   {
-    "objectID": "posts/2026-06-15-netherlands-vs-japan/index.html",
-    "href": "posts/2026-06-15-netherlands-vs-japan/index.html",
-    "title": "Netherlands vs Japan",
+    "objectID": "posts/2026-06-13-canada-vs-bosnia-herzegovina-the-first-draw/index.html",
+    "href": "posts/2026-06-13-canada-vs-bosnia-herzegovina-the-first-draw/index.html",
+    "title": "Canada vs. Bosnia-Herzegovina: The first draw",
     "section": "",
-    "text": "Netherlands vs Japan\nJapan deserved a point against the Dutch.\nØyvind and Christian has some space in the lead, with Karin, Hallvard, Linda and Jan Erling in pursuit.\n\n\n\n\n\n\n\n\n\nJan Erling and Christian got the exact right result. Well done!"
+    "text": "Canada vs. Bosnia-Herzegovina - One point each\nBoth teams got a point, but who should be the happier with that result? Probably Linda and Jan Erling, who are ahead."
+  },
+  {
+    "objectID": "posts/2026-06-13-us-preponderance/index.html",
+    "href": "posts/2026-06-13-us-preponderance/index.html",
+    "title": "US preponderance (updated version)",
+    "section": "",
+    "text": "US beats Paraguay 4-1.\nThat the 15th ranked team in the world can outplay the 45th ranked team is perhaps not a surprise. But for some of us it was. Particularly the margin.\nLinda is alone in the top, with Elin and Hallvard right behind. A strong group of contenders are right behind.\n\n\n\n\n\n\n\n\n\nNone of us had 4-1 down as the result. Elin and Hallvard had 3-1 as their result, and were rewarded handsomely. This is the dot right below the marker in the plot. Christian had 3-2, which was almost as good. 6 of us had 1-0, resulting in 15 points rather than the full 25."
+  },
+  {
+    "objectID": "posts/2026-06-14-brazil-vs-morocco/index.html",
+    "href": "posts/2026-06-14-brazil-vs-morocco/index.html",
+    "title": "Brazil vs. Morocco",
+    "section": "",
+    "text": "Brazil vs. Morocco\nThe first half was amazing, and the best half so far in this cup. The second half was not so good.\nÅse is in the lead, followed by Christian, Linda, Jon, Ida and Karin. Elin, Hallvard and Øyvind have been distanced somewhat, and joined by a gang of four. But much can still happen\nThe colors are a bit off here. My system finds it hard to cope with game 7 being played after game 8. It is a bit late to mend that now.\n\n\n\n\n\n\n\n\n\nNo less than five players had the correct result from this game, while Karin had 2-2. Jostein and Elin had Morocco as winners, and that could have happened as Allison almost gave away a goal in injury time."
   },
   {
     "objectID": "posts/2026-06-15-an-eventful-night/index.html",
@@ -49,83 +231,6 @@
     "text": "Sweden did play in yellow and completely hammered Tunisia. The 5-1 score will be important, because none of us saw this happening. Christian was closest with 3-1, while Jacob had bravely predicted a 0-8 score for Tunisia.\nChristian is now ahead by 56 points! Øyvind, Karin and Hallvard form a trio in pursuit, and Gabriel is catching up fast.\n\n\n\n\n\n\n\n\n\nThe resent results underscore the importance of not undersestimating the big wins."
   },
   {
-    "objectID": "posts/2026-06-14-an-administrative-mistake/index.html",
-    "href": "posts/2026-06-14-an-administrative-mistake/index.html",
-    "title": "An administrative mistake",
-    "section": "",
-    "text": "A fairly significant administrative issue\nThe first point of the agenda is that I have made a horrible mistake. Øyvind Colbjørnsen’s contribution was regrettably omitted. This error has now been corrected, with important implications for our competition. Because not only did Øyvind C correctly guess 1-1 as the result in the Brasil - Morocco game, he has also made more correct predictions than any other participant. Which places him at the very top of the competition.\n\n\nHaiti vs Scotland\nHaiti came close to replicating Qatar’s feat, but in the end Scotland won 1-0. Which is potentially important for our competiton in several ways.\nScotland is unlikely to get points from either Morocco or Brasil, and therefore likely to end up in 3rd with a negative goal difference. This might jeopardize their chances for getting to the knockout stage.\nHaiti’s result means that they are most likely to end up with 0 points, and should either Curacao or New Zealand get a point, this will be decisive for the qualitiative question regarding these teams.\n\n\nAustralia vs Turkey\nAustalia beat Turkey 2-0 this morning, and thereby more or less securing their progress into the next round. Turkey is not completely without hope, but they might have to beat Paraguay with quite a margin to secure progress.\nI haven’t had a chance to fix the coloring issue, so today’s update covers points in all four games played yesterday American time. Øyvind Colbjørnsen enters the standings at the very top, with Karin, Ida, Bjørn and Marina begin significant achievers."
-  },
-  {
-    "objectID": "posts/2026-06-13-el-infantinity/index.html",
-    "href": "posts/2026-06-13-el-infantinity/index.html",
-    "title": "El Infantinity",
-    "section": "",
-    "text": "Switzerland vs Qatar\nA game between Infantino’s original home country and his adopted home country. The man is widely assumed to be “influentialable”, but who will he support today? Or, who will support him? The offside after 15 minutes was interesting, but in the end the game was a draw.\nSo, what does that with our competiton?\nScoll down to the bottom, and admire Marina’s reenactment of dr. Stockman’s stance. “The strongest man in the world is he who stands most alone”. Linda remain in front of the race, as very little changed after this game."
-  },
-  {
-    "objectID": "posts/2026-06-11-and-we-are-off/index.html",
-    "href": "posts/2026-06-11-and-we-are-off/index.html",
-    "title": "And we are off!",
-    "section": "",
-    "text": "Thursday 1th June 2026, Mexico vs South Africa\n\n\n\n\n\n\n\n\n\nThe format will be very similar to previous years. The color scale tells us what has changed since last game. Deep blue is good. Red is bad."
-  },
-  {
-    "objectID": "posts/2026-06-12-south-korea-beat-czechia/index.html",
-    "href": "posts/2026-06-12-south-korea-beat-czechia/index.html",
-    "title": "South Korea beat Czechia",
-    "section": "",
-    "text": "South Korea vs Czechia\nCzechia scored first, but the country with the highest per capita beer consumption got overrun in the second half.\nØyvind, Elin and Hallvard have 50 points – perfect score so far. 6 more contenders have correct result, but some deviance when it comes to the score.\nBut, it is still early."
-  },
-  {
-    "objectID": "posts/2026-06-13-canada-vs-bosnia-herzegovina-the-first-draw/index.html",
-    "href": "posts/2026-06-13-canada-vs-bosnia-herzegovina-the-first-draw/index.html",
-    "title": "Canada vs. Bosnia-Herzegovina: The first draw",
-    "section": "",
-    "text": "Canada vs. Bosnia-Herzegovina - One point each\nBoth teams got a point, but who should be the happier with that result? Probably Linda and Jan Erling, who are ahead."
-  },
-  {
-    "objectID": "posts/2026-06-15-belgium-vs-egypt/index.html",
-    "href": "posts/2026-06-15-belgium-vs-egypt/index.html",
-    "title": "Belgium vs Egypt",
-    "section": "",
-    "text": "Belgium vs Egypt\nA relatively even game resulted in an absolutely even score. After the red card bonanza in the first game, we have seen very few of those. Can we make it below 7 red cards in the tournament?\nChristian remain ahead by 40 points! Øyvind, Karin and Hallvard remain a trio in pursuit. Øyvind Stiansen and Jostein Askim are closing in. Scott, Dagfinn and Martin also got points from this round.\n\n\n\n\n\n\n\n\n\nBelgium were our favorites. Three of us believed in Egypt, while five got the correct result."
-  },
-  {
-    "objectID": "posts/2026-06-14-goliath-beats-david/index.html",
-    "href": "posts/2026-06-14-goliath-beats-david/index.html",
-    "title": "Goliath beats David",
-    "section": "",
-    "text": "Germany beats Curacao.\nSamuel 17:49. He reached into his bag and took out a stone, which he slung at Goliath. It hit him on the forehead, and Goliath looked back and said: “Nice try”. Except Curacao didn’t score at 17:49, it was 20:45.\nØyvind is still in the lead, but Karin and Christian is right behind. Øyvind actually lost one point, despite having a German victory. His 2-0 estimate yielded 25 points for correct outcome and 26 points deduction for dramatically wrong score. This round’s rockets are Dagfinn (6-0) and Bjørn & Jacob (5-1).\n\n\n\n\n\n\n\n\n\nEveryone believed in Germany, but the score differentiated a lot. Only four of us saw Curacao score."
-  },
-  {
-    "objectID": "posts/2026-06-16-new-zealand-got-a-point/index.html",
-    "href": "posts/2026-06-16-new-zealand-got-a-point/index.html",
-    "title": "New Zealand got a point",
-    "section": "",
-    "text": "Saudi Arabia drew against Uruguay\nThe Saudi league has been ridiculed, but they held Uruguay to a draw, albeit with some difficulty. Uruguay was the better team in the second half, and should have won. Åse had the exact right result, and Jostein the right outcome.\n\n\nNew Zealand got a point\nNew Zealand held Iran to a draw and is thus a very likely candidate as the best of the three lowest ranked teams in the competition. The outcome was not as surprising as the ranking should have suggested (and AI-models predicted). 14 of us had a draw, this was the modal outcome.\nJostein again were among the 14, and is now in 2nd place, 48 points behind Christian. Hallvard is two points behind Jostein, while Øyvind C and Karin lost ground over these two games.\n\n\n\n\n\n\n\n\n\nMany lost points today, but the 2-2 score means that noone lost a lot."
-  },
-  {
-    "objectID": "posts/2026-06-13-us-preponderance/index.html",
-    "href": "posts/2026-06-13-us-preponderance/index.html",
-    "title": "US preponderance (updated version)",
-    "section": "",
-    "text": "US beats Paraguay 4-1.\nThat the 15th ranked team in the world can outplay the 45th ranked team is perhaps not a surprise. But for some of us it was. Particularly the margin.\nLinda is alone in the top, with Elin and Hallvard right behind. A strong group of contenders are right behind.\n\n\n\n\n\n\n\n\n\nNone of us had 4-1 down as the result. Elin and Hallvard had 3-1 as their result, and were rewarded handsomely. This is the dot right below the marker in the plot. Christian had 3-2, which was almost as good. 6 of us had 1-0, resulting in 15 points rather than the full 25."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Announcing the ISV 2026 World Cup Competition",
-    "section": "",
-    "text": "Dear all good colleagues\nAaaahhh, finally! Days are brighter and the nights are endless. Smiles everywhere. The waiting period is over! The time has arrived! Some even claim it’s better than May 17 –better than Christmas - the climax of the year and the highlight of our lives – it’s the gentlemen’s World Cup in Football! We would like everyone at Department of Political Science to enjoy the feast, and therefore, all of you are invited to attend the traditional ISV tipster competition for the World Cup 2026!\nAccording to the Departments traditions, the competition is divided in both quantitative and qualitative forms. In addition, we encourage all participants to take part in participatory observations, preferably with social interaction as fieldwork method."
-  },
-  {
-    "objectID": "posts/2026-06-14-brazil-vs-morocco/index.html",
-    "href": "posts/2026-06-14-brazil-vs-morocco/index.html",
-    "title": "Brazil vs. Morocco",
-    "section": "",
-    "text": "Brazil vs. Morocco\nThe first half was amazing, and the best half so far in this cup. The second half was not so good.\nÅse is in the lead, followed by Christian, Linda, Jon, Ida and Karin. Elin, Hallvard and Øyvind have been distanced somewhat, and joined by a gang of four. But much can still happen\nThe colors are a bit off here. My system finds it hard to cope with game 7 being played after game 8. It is a bit late to mend that now.\n\n\n\n\n\n\n\n\n\nNo less than five players had the correct result from this game, while Karin had 2-2. Jostein and Elin had Morocco as winners, and that could have happened as Allison almost gave away a goal in injury time."
-  },
-  {
     "objectID": "posts/2026-06-15-cabo-verde-held-spain-to-a-draw/index.html",
     "href": "posts/2026-06-15-cabo-verde-held-spain-to-a-draw/index.html",
     "title": "Cabo Verde held Spain to a draw",
@@ -133,24 +238,17 @@
     "text": "A bomb indeed!\nThis result came as proper surprise. From the betting market’s point of view, this game was even more predetermined than the Germany game. We all had Spain as the winner, ranging from 6-0 (Martin, Jostein & Dagfinn) to 2-0 (Jon, Linda and Marina).\nChristian is now ahead by 40 points! Øyvind, Karin and Hallvard remain a trio in pursuit. This is probably the collectively low point of the entire ISV tipster competition history."
   },
   {
-    "objectID": "rules.html",
-    "href": "rules.html",
-    "title": "Rules of the competition",
+    "objectID": "posts/2026-06-15-netherlands-vs-japan/index.html",
+    "href": "posts/2026-06-15-netherlands-vs-japan/index.html",
+    "title": "Netherlands vs Japan",
     "section": "",
-    "text": "STV’s Euro Cup competition consists of two parts:\n\n14 questions related to various more or less observable topics that are found at \nAn Excel form, in which the outcome of each game has to be forecasted, estimates, guessed, place-your-verb-here. Click here to download the Excel from.\n\nThe excel form consists of 72 games in the group stage and 32 games in the knockout stage. The schedule for the 72 group stage games is set and those games are specified on the left side of the form.\nThe first game is between Mexico and South Africa. There are two cells between the two countries, and we fill in what we believe is the final score. In the illustration below the score is predicted to be a victory for Mexico\n\nWe then repeat this for each game until the final game between the Czech Republic and Turkey.\nWhen the score for all group stage games are filled in, the magic of Excel will automatically fill in the games in the Round of 32. We then move on to put in the scores in these games as well, which in turn will populate the Round of 16.\n\nIn the example above, Ivory Coast play Brazil on 29 June. There are a total of six boxes to be filled out, arranged in a 3x2 configuration. The first pais is the full time score. If this score is even, the game goes to extra time, which means that the second pair must be filled in to produce a winner. If the predictions remain even, the final pair is where the result from the penalty shootout is placed. The result here can’t be even, and hence it will produce a winner.\nThe first and second pair will count towards the total sum of goals in the tournament, which will yield points for the best among us. The penalty shootout will not count towards this tally.\nWe repeat this for quarter-finals, semi-finals and, finally, the final final. When the form i successfully completed, the predicted Champion 2024 will pop up in the bottom right corner.\n\nThe form is now ready to be submitted.\n\n\n\nPoints are awarded for each and every correct answer to the 16 questions. In addition, we calculate the total number of goals scored in the form for a 15th question “How many goals will there be in total? (Penalty shoot-outs excluded)”. Each of these questions yield 30 points, for a total of 510 for the questions section\nPoints are earned for guessing the correct outcome of each of the games in the group stage. There are 48 games in the group stage Each correct answer is worth 25 points, for a total of 1800 points\nPoints are deducted for any deviance between the predicted and observed scores. As usual in the Social Sciences, we square the deviance. If the first game is predicted a 2-0 Turkey victory over Italy but ends in a 4-1 Turkish victory, then 25 points are awarded for the correct outcome, before (4-2)2=22=4 and (1-0)2=12=1 points are deducted for slightly missing the correct result. In the end, 25 - 4 - 1 = 20 points are awarded.\nPoints are earned in the the knockout round for guessing the correct teams in each of the knockout stages. 25 points are awarded for each correct team, and a bonus 5 points if the team appears on the correct spot in the playoff schedule. Correctly guessing both teams in a knockout game will thus give (25 + 5) * 2 = 60 points. With 32 knockout games, the total points available is 1920.\nFinally, 200 points are awarded for correctly guessing the winner of the 2026 World cup.\n\n\n\n\n\n\n\n\n\n\nSource\nMax points per item\nN. of items\nTotal maximum points\n\n\n\n\nQualitative questions\n30\n17\n510\n\n\nGroup stages\n25\n72\n1800\n\n\nKnockout stages\n60\n32\n1920\n\n\nWinner\n200\n1\n200\n\n\nSilver\n100\n1\n100\n\n\nBronze\n70\n1\n70\n\n\n\nThe theoretical top score is therefore 4600 points."
+    "text": "Netherlands vs Japan\nJapan deserved a point against the Dutch.\nØyvind and Christian has some space in the lead, with Karin, Hallvard, Linda and Jan Erling in pursuit.\n\n\n\n\n\n\n\n\n\nJan Erling and Christian got the exact right result. Well done!"
   },
   {
-    "objectID": "rules.html#points",
-    "href": "rules.html#points",
-    "title": "Rules of the competition",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Announcing the ISV 2026 World Cup Competition",
     "section": "",
-    "text": "Points are awarded for each and every correct answer to the 16 questions. In addition, we calculate the total number of goals scored in the form for a 15th question “How many goals will there be in total? (Penalty shoot-outs excluded)”. Each of these questions yield 30 points, for a total of 510 for the questions section\nPoints are earned for guessing the correct outcome of each of the games in the group stage. There are 48 games in the group stage Each correct answer is worth 25 points, for a total of 1800 points\nPoints are deducted for any deviance between the predicted and observed scores. As usual in the Social Sciences, we square the deviance. If the first game is predicted a 2-0 Turkey victory over Italy but ends in a 4-1 Turkish victory, then 25 points are awarded for the correct outcome, before (4-2)2=22=4 and (1-0)2=12=1 points are deducted for slightly missing the correct result. In the end, 25 - 4 - 1 = 20 points are awarded.\nPoints are earned in the the knockout round for guessing the correct teams in each of the knockout stages. 25 points are awarded for each correct team, and a bonus 5 points if the team appears on the correct spot in the playoff schedule. Correctly guessing both teams in a knockout game will thus give (25 + 5) * 2 = 60 points. With 32 knockout games, the total points available is 1920.\nFinally, 200 points are awarded for correctly guessing the winner of the 2026 World cup.\n\n\n\n\n\n\n\n\n\n\nSource\nMax points per item\nN. of items\nTotal maximum points\n\n\n\n\nQualitative questions\n30\n17\n510\n\n\nGroup stages\n25\n72\n1800\n\n\nKnockout stages\n60\n32\n1920\n\n\nWinner\n200\n1\n200\n\n\nSilver\n100\n1\n100\n\n\nBronze\n70\n1\n70\n\n\n\nThe theoretical top score is therefore 4600 points."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About the competition",
-    "section": "",
-    "text": "The ISV tipster competition is open for everyone at the department. We guess/estimate/predict/postulate the outcome of all games in the World Cup and points are awarded (or deducted) according to a set of rules. The purpose of this blog is to document the rules and provide updates about the standing as we progress through the tournament.\nThe organizing committee consists of Øyvind Colbjørnsen, Dagfinn Hagen & Håvard Strand."
+    "text": "Dear all good colleagues\nAaaahhh, finally! Days are brighter and the nights are endless. Smiles everywhere. The waiting period is over! The time has arrived! Some even claim it’s better than May 17 –better than Christmas - the climax of the year and the highlight of our lives – it’s the gentlemen’s World Cup in Football! We would like everyone at Department of Political Science to enjoy the feast, and therefore, all of you are invited to attend the traditional ISV tipster competition for the World Cup 2026!\nAccording to the Departments traditions, the competition is divided in both quantitative and qualitative forms. In addition, we encourage all participants to take part in participatory observations, preferably with social interaction as fieldwork method."
   }
 ]

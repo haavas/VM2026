@@ -9,8 +9,251 @@
 <link>https://haavas.github.io/VM2026/</link>
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
-<generator>quarto-1.9.36</generator>
-<lastBuildDate>Tue, 16 Jun 2026 07:10:00 GMT</lastBuildDate>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Tue, 16 Jun 2026 10:30:00 GMT</lastBuildDate>
+<item>
+  <title>Unrighteous Accuracy</title>
+  <dc:creator>Martin Søyland^[The author has shamelessly used Claude Opus 4.8 to produce the code and come up with the literature for this project]</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-15-ethical-predictions/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>There are whispers in the hallways at the department that being good at predicting scores in the World Cup competition is a sign of deep football knowledge, intelligence, and wisdom. That might be the case, but in this post, I will outline a less explored issue in sports gambling: the relationship between morals and precision in sports predictions. By applying a theory of <em>unrighteous accuracy</em> to the ISV World Cup 2026 competition, I will show how scoring quantitative prediction points might be impressive on the surface, but there is a deeply concerning patterns about attitudes at the <em>Department of Political Science</em>. Operationalized though a set of normatively wanted features, I show that a uniquely developed index of <em>RIGHTEOUSNESS</em> is negatively and significantly correlated with higher scores in the world cup competition. This has large ramifications for any literature.</p>
+<section id="a-theory-of-unrighteous-accuracy" class="level2">
+<h2 class="anchored" data-anchor-id="a-theory-of-unrighteous-accuracy">A theory of unrighteous accuracy</h2>
+<p>Why should scoring points make us less righteous? The relationship is not paradoxical but methodological. A competition rewarding <em>accuracy</em>, and accurate forecasting, as <span class="citation" data-cites="tetlock2005">Tetlock (2005)</span> demonstrates, requires the systematic suppression of wishful and moralized cognition: the tipsters who score do so precisely because they decline to let their values shape their brackets. This is realism in the classical sense <span class="citation" data-cites="morgenthau1948">(Morgenthau 1948)</span>. Like the statesman, the forecaster predicts the distribution of power rather than the deserving. The strong do what they can while the weak suffer what they must <span class="citation" data-cites="thucydides1972">(Thucydides 1972)</span>. Moreover, the fact that power and righteousness should diverge in football is no accident: authoritarian regimes increasingly purchase sporting prominence as soft power <span class="citation" data-cites="brannagan2015 grix2013">(Brannagan and Giulianotti 2015; Grix and Lee 2013)</span>, so to back the likely winner is, more often than not, to back the unrighteous. Consequently, last place is not incompetence but conviction. An <em>ethic of conviction</em> in Weber’s <span class="citation" data-cites="weber1946">(1946)</span> sense, which accepts the worldly cost of refusing to forecast against one’s principles. I thus hypothesize that</p>
+<blockquote class="blockquote">
+<p><img src="https://latex.codecogs.com/png.latex?H_1">: Righteous predictions cause lower World Cup 2026 ISV competition scores</p>
+</blockquote>
+</section>
+<section id="data-and-variables" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-variables">Data and variables</h2>
+<p>I use the original data from the official competition github repository,<sup>4</sup>, data from the Varieties of Democracy project,<sup>5</sup>, and manual coding.<sup>6</sup> The index of <em>righteousness</em> consist of four components:</p>
+<ol type="1">
+<li><em>v2x_polyarchy</em>: Electoral Democracy Index (used as the democracy dimension)</li>
+<li><em>v2x_clphy</em>: Physical Violence Index, i.e.&nbsp;freedom from political killing and torture (used as the human rights dimension)</li>
+<li><em>v2x_corr</em>: Political Corruption Index, entered inverted as 1 − v2x_corr (used as the cleanness dimension)</li>
+<li>Manual adjustments, detailed in the appendix</li>
+</ol>
+</section>
+<section id="analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
+<p>As shown in Figure&nbsp;1, there is a significant<sup>7</sup> negative relationship between scoring well in the competition and having righteous predictions.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-scatter" class="quarto-float quarto-figure quarto-figure-center anchored" width="675">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-scatter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://haavas.github.io/VM2026/posts/2026-06-15-ethical-predictions/points_vs_righteousness.png" id="fig-scatter" class="img-fluid figure-img" width="675">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-scatter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<p>We can now return to the whispers in the hallways. Skill at predicting World Cup scores is not so much a sign of wisdom as incomplete reporting of the moral price at which accuracy is bought. Across the 36 contestants at the <em>Department of Political Science</em>, righteousness and competitive success move significantly in opposite directions: the leaderboard is best understood as an inverted moral hierarchy, not a ranking of expertise. The implications for any literature are large, and the remedy is simple. Where the quantitative competition rewards the prediction of suffering, the <em>RIGHTEOUSNESS</em> index rewards the refusal to engage in it. But, I will concede this post was born out of shame and embarrassment over my own predictions, and I might have tweaked a bit with the data, but the point still stands. In this competition, as in politics, virtue and victory are not merely uncorrelated, but opposed. I therefore remain, gladly, in last place.</p>
+</section>
+<section id="appendix" class="level2">
+<h2 class="anchored" data-anchor-id="appendix">Appendix</h2>
+<section id="original-index-construction" class="level3">
+<h3 class="anchored" data-anchor-id="original-index-construction">Original index construction</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Rule</th>
+<th>Applies to</th>
+<th>Weight / adjustment</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Democracy</strong></td>
+<td>every nation</td>
+<td><code>v2x_polyarchy</code></td>
+<td>V-Dem electoral democracy index (0–1), 2025</td>
+</tr>
+<tr class="even">
+<td><strong>Human rights</strong></td>
+<td>every nation</td>
+<td><code>v2x_clphy</code></td>
+<td>V-Dem physical-violence index (freedom from torture/killing)</td>
+</tr>
+<tr class="odd">
+<td><strong>Cleanness</strong></td>
+<td>every nation</td>
+<td><code>1 − v2x_corr</code></td>
+<td>inverted V-Dem political-corruption index</td>
+</tr>
+<tr class="even">
+<td><strong>Country righteousness</strong></td>
+<td>every nation</td>
+<td>mean of the three above</td>
+<td>the honest base score, kept as <code>righteousness_vdem</code></td>
+</tr>
+<tr class="odd">
+<td>Bracket weight — Round of 32</td>
+<td>each team a contestant advances</td>
+<td>×1</td>
+<td>deepest round reached sets the weight</td>
+</tr>
+<tr class="even">
+<td>Bracket weight — Round of 16</td>
+<td>”</td>
+<td>×2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Bracket weight — Quarter-final</td>
+<td>”</td>
+<td>×3</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Bracket weight — Semi-final</td>
+<td>”</td>
+<td>×4</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Bracket weight — Final</td>
+<td>”</td>
+<td>×5</td>
+<td>both finalists</td>
+</tr>
+<tr class="even">
+<td>Bracket weight — World champion</td>
+<td>”</td>
+<td>×6</td>
+<td>champion override</td>
+</tr>
+<tr class="odd">
+<td><strong>Contestant righteousness</strong></td>
+<td>each contestant</td>
+<td>weight-weighted mean of their teams’ righteousness</td>
+<td>the base before taxes (<code>righteousness_bracket</code>)</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="manual-corrections-made-to-the-index" class="level2">
+<h2 class="anchored" data-anchor-id="manual-corrections-made-to-the-index">Manual corrections made to the index</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Rule</th>
+<th>Applies to</th>
+<th>Weight / adjustment</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>🇸🇪 Rivalry penalty</td>
+<td>Sweden (country)</td>
+<td><strong>−0.68</strong></td>
+<td>drops Sweden from 1st to 43rd of 46</td>
+</tr>
+<tr class="even">
+<td>🇳🇴 Norway bonus</td>
+<td>Norway (country)</td>
+<td><strong>+0.05</strong></td>
+<td>gratuitous</td>
+</tr>
+<tr class="odd">
+<td>Timesheet levy (<code>overskudd_paa_timeregnskapet</code>)</td>
+<td>Øyvind Stiansen</td>
+<td><strong>−0.10</strong></td>
+<td>personal</td>
+</tr>
+<tr class="even">
+<td>Theorist tax</td>
+<td>Sandven, Bratberg, Kuyper</td>
+<td><strong>−0.05</strong> each</td>
+<td>defined as ½ the timesheet levy</td>
+</tr>
+<tr class="odd">
+<td>Swede surtax</td>
+<td>Daniel Naurin, Gabriel Lönn</td>
+<td><strong>−0.15</strong> each</td>
+<td>Sweden’s disgrace, amplified for nationals</td>
+</tr>
+<tr class="even">
+<td>Taking-it-too-seriously tax</td>
+<td>every contestant</td>
+<td><strong>−0.004814 per survey-minute</strong>, capped at −0.15</td>
+<td>rate tuned by <code>uniroot()</code> to p = 0.050</td>
+</tr>
+<tr class="odd">
+<td>Abstention tax</td>
+<td>anyone with no qualitative submission (Colbjørnsen)</td>
+<td><strong>−0.15</strong></td>
+<td>= the seriousness cap; punishes non-participation</td>
+</tr>
+</tbody>
+</table>
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="ref-brannagan2015" class="csl-entry">
+Brannagan, Paul Michael, and Richard Giulianotti. 2015. <span>“Soft Power and Soft Disempowerment: Qatar, Global Sport and Football’s 2022 World Cup Finals.”</span> <em>Leisure Studies</em> 34 (6): 703–19.
+</div>
+<div id="ref-grix2013" class="csl-entry">
+Grix, Jonathan, and Donna Lee. 2013. <span>“Soft Power, Sports Mega-Events and Emerging States: The Lure of the Politics of Attraction.”</span> <em>Global Society</em> 27 (4): 521–36.
+</div>
+<div id="ref-morgenthau1948" class="csl-entry">
+Morgenthau, Hans J. 1948. <em>Politics Among Nations: The Struggle for Power and Peace</em>. New York: Alfred A. Knopf.
+</div>
+<div id="ref-tetlock2005" class="csl-entry">
+Tetlock, Philip E. 2005. <em>Expert Political Judgment: How Good Is It? How Can We Know?</em> Princeton, NJ: Princeton University Press.
+</div>
+<div id="ref-thucydides1972" class="csl-entry">
+Thucydides. 1972. <em>History of the Peloponnesian War</em>. Translated by Rex Warner. London: Penguin.
+</div>
+<div id="ref-weber1946" class="csl-entry">
+Weber, Max. 1946. <span>“Politics as a Vocation.”</span> In <em>From Max Weber: Essays in Sociology</em>, edited by H. H. Gerth and C. Wright Mills, 77–128. New York: Oxford University Press.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>The author has shamelessly used Claude Opus 4.8 to produce the code and come up with the literature for this project↩︎</p></li>
+<li id="fn2"><p>The author has shamelessly used Claude Opus 4.8 to produce the code and come up with the literature for this project↩︎</p></li>
+<li id="fn3"><p>The author has shamelessly used Claude Opus 4.8 to produce the code and come up with the literature for this project↩︎</p></li>
+<li id="fn4"><p>https://github.com/haavas/VM2026↩︎</p></li>
+<li id="fn5"><p>https://github.com/vdeminstitute/vdemdata↩︎</p></li>
+<li id="fn6"><p>See appendix.↩︎</p></li>
+<li id="fn7"><p>I used <code>uniroot()</code> on the time used to complete the qualitative study to ensure the correlation is significant at the <img src="https://latex.codecogs.com/png.latex?0.050"> level.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>Guest post</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-15-ethical-predictions/</guid>
+  <pubDate>Tue, 16 Jun 2026 10:30:00 GMT</pubDate>
+</item>
 <item>
   <title>New Zealand got a point</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -447,6 +690,28 @@
   <pubDate>Fri, 12 Jun 2026 22:35:47 GMT</pubDate>
 </item>
 <item>
+  <title>Meet your opponents</title>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We are 35 participants in this competition. The table below lists all names and abbreviations, and these might be used occasionally throughout the competition.</p>
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/podium_table.png" class="img-fluid"></p>
+<p>We mainly fancy France and Spain to win the tournament. Some of us Brazil and England, and then Øivind and Jan Erling have Argentina as their winner, while Jana goes with Mexico, Jon predict German glory, and Marina favors Portugal.</p>
+<p>The network graph shows similarity between us. The numbers indicate how many percent of the total 4600 points a given player gets if the node on the other end happens to be 100% correct. If Jon’s predictions were to become reality, Martin would not even get 2000 points. Maiken and Jonas are joint hubs in this network. That has traditionally not been a bad place to be.</p>
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/similarity_network_top3.png" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/</guid>
+  <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
   <title>South Korea beat Czechia</title>
   <dc:creator>Håvard Strand</dc:creator>
   <link>https://haavas.github.io/VM2026/posts/2026-06-12-south-korea-beat-czechia/</link>
@@ -477,28 +742,6 @@
  ]]></description>
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-12-south-korea-beat-czechia/</guid>
-  <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Meet your opponents</title>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>We are 35 participants in this competition. The table below lists all names and abbreviations, and these might be used occasionally throughout the competition.</p>
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/podium_table.png" class="img-fluid"></p>
-<p>We mainly fancy France and Spain to win the tournament. Some of us Brazil and England, and then Øivind and Jan Erling have Argentina as their winner, while Jana goes with Mexico, Jon predict German glory, and Marina favors Portugal.</p>
-<p>The network graph shows similarity between us. The numbers indicate how many percent of the total 4600 points a given player gets if the node on the other end happens to be 100% correct. If Jon’s predictions were to become reality, Martin would not even get 2000 points. Maiken and Jonas are joint hubs in this network. That has traditionally not been a bad place to be.</p>
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/similarity_network_top3.png" class="img-fluid"></p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/</guid>
   <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
 </item>
 <item>

@@ -1,7 +1,7 @@
 ---
 title: "Unrighteous Accuracy"
 author: "Martin Søyland^[The author has shamelessly used Claude Opus 4.8 to produce the code and come up with the literature for this project]"
-date: "2026-06-15 19:30:00"
+date: "2026-06-16 12:30:00"
 categories: [Guest post]
 bibliography: references.bib
 ---
