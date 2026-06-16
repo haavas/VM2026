@@ -1,0 +1,17 @@
+{
+  "hash": "c64ded900eb828f16372ce80e2bf8e4e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"New Zealand got a point\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-16\"\ncategories: [Update]\n---\n\n# Saudi Arabia drew against Uruguay\n\nThe Saudi league has been ridiculed, but they held Uruguay to a draw, albeit with some difficulty. Uruguay was the better team in the second half, and should have won. Åse had the exact right result, and Jostein the right outcome. \n\n# New Zealand got a point\n\nNew Zealand held Iran to a draw and is thus a very likely candidate as the best of the three lowest ranked teams in the competition. The outcome was not as surprising as the ranking should have suggested (and AI-models predicted). 14 of us had a draw, this was the modal outcome. \n\nJostein again were among the 14, and is now in 2nd place, 48 points behind Christian. Hallvard is two points behind Jostein, while Øyvind C and Karin lost ground over these two games.\n\n\n::: {.cell}\n\n:::\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png){width=750}\n:::\n:::\n\nEveryone believed in Germany, but the score differentiated a lot. Only four of us saw Curacao score.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/scatter_points-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
