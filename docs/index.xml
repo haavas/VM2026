@@ -9,8 +9,54 @@
 <link>https://haavas.github.io/VM2026/</link>
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
-<generator>quarto-1.9.37</generator>
-<lastBuildDate>Mon, 15 Jun 2026 21:30:00 GMT</lastBuildDate>
+<generator>quarto-1.9.36</generator>
+<lastBuildDate>Tue, 16 Jun 2026 07:10:00 GMT</lastBuildDate>
+<item>
+  <title>New Zealand got a point</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-16-new-zealand-got-a-point/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="saudi-arabia-drew-against-uruguay" class="level1">
+<h1>Saudi Arabia drew against Uruguay</h1>
+<p>The Saudi league has been ridiculed, but they held Uruguay to a draw, albeit with some difficulty. Uruguay was the better team in the second half, and should have won. Åse had the exact right result, and Jostein the right outcome.</p>
+</section>
+<section id="new-zealand-got-a-point" class="level1">
+<h1>New Zealand got a point</h1>
+<p>New Zealand held Iran to a draw and is thus a very likely candidate as the best of the three lowest ranked teams in the competition. The outcome was not as surprising as the ranking should have suggested (and AI-models predicted). 14 of us had a draw, this was the modal outcome.</p>
+<p>Jostein again were among the 14, and is now in 2nd place, 48 points behind Christian. Hallvard is two points behind Jostein, while Øyvind C and Karin lost ground over these two games.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-16-new-zealand-got-a-point/standings.png" class="img-fluid figure-img" width="750"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Everyone believed in Germany, but the score differentiated a lot. Only four of us saw Curacao score.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-16-new-zealand-got-a-point/index_files/figure-html/scatter_points-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-16-new-zealand-got-a-point/</guid>
+  <pubDate>Tue, 16 Jun 2026 07:10:00 GMT</pubDate>
+</item>
 <item>
   <title>Belgium vs Egypt</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -401,28 +447,6 @@
   <pubDate>Fri, 12 Jun 2026 22:35:47 GMT</pubDate>
 </item>
 <item>
-  <title>Meet your opponents</title>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>We are 35 participants in this competition. The table below lists all names and abbreviations, and these might be used occasionally throughout the competition.</p>
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/podium_table.png" class="img-fluid"></p>
-<p>We mainly fancy France and Spain to win the tournament. Some of us Brazil and England, and then Øivind and Jan Erling have Argentina as their winner, while Jana goes with Mexico, Jon predict German glory, and Marina favors Portugal.</p>
-<p>The network graph shows similarity between us. The numbers indicate how many percent of the total 4600 points a given player gets if the node on the other end happens to be 100% correct. If Jon’s predictions were to become reality, Martin would not even get 2000 points. Maiken and Jonas are joint hubs in this network. That has traditionally not been a bad place to be.</p>
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/similarity_network_top3.png" class="img-fluid"></p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/</guid>
-  <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-</item>
-<item>
   <title>South Korea beat Czechia</title>
   <dc:creator>Håvard Strand</dc:creator>
   <link>https://haavas.github.io/VM2026/posts/2026-06-12-south-korea-beat-czechia/</link>
@@ -453,6 +477,28 @@
  ]]></description>
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-12-south-korea-beat-czechia/</guid>
+  <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Meet your opponents</title>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We are 35 participants in this competition. The table below lists all names and abbreviations, and these might be used occasionally throughout the competition.</p>
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/podium_table.png" class="img-fluid"></p>
+<p>We mainly fancy France and Spain to win the tournament. Some of us Brazil and England, and then Øivind and Jan Erling have Argentina as their winner, while Jana goes with Mexico, Jon predict German glory, and Marina favors Portugal.</p>
+<p>The network graph shows similarity between us. The numbers indicate how many percent of the total 4600 points a given player gets if the node on the other end happens to be 100% correct. If Jon’s predictions were to become reality, Martin would not even get 2000 points. Maiken and Jonas are joint hubs in this network. That has traditionally not been a bad place to be.</p>
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/similarity_network_top3.png" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/</guid>
   <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
 </item>
 <item>
