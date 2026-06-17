@@ -135,6 +135,14 @@
       "home_goals": 3,
       "away_goals": 1,
       "play_order": 17
+    },
+    {
+      "match": 18,
+      "home": "Iraq",
+      "away": "Norway",
+      "home_goals": 1,
+      "away_goals": 3,
+      "play_order": 18
     }
   ],
   "knockout": [],

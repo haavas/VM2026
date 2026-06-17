@@ -1,0 +1,15 @@
+{
+  "hash": "2815fea2f9b208d0fcedfb2b03b993e3",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Norway beat Iraq\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-17 02:02:00\"\ncategories: [Update]\n---\n\n# Norway won 4-1\n\nNorway didn't play all that well, and Iraq were impressive. But life isn't fair,\n\nChristian got the result exactly right, as did Bjærn. The gap is now 51 points. \n\n\n::: {.cell}\n\n:::\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png){width=750}\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
