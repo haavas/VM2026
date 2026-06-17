@@ -1,8 +1,8 @@
 {
-  "hash": "9aa38f225983adfe5ad988ebfa7d6500",
+  "hash": "7a5670304ba064d7dcdb1129cf113437",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"France show strength\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-17 01:01:00\"\ncategories: [Updates]\n---\n\n# France vs Senegal\n\nSenegal is a very good team, but France won 3-1. \n\nAlmost all of had a French victory, but the numbers varied somewhat. That means the standings are pretty much as they were.\n\n\n::: {.cell}\n\n:::\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png){width=750}\n:::\n:::\n",
+    "markdown": "---\ntitle: \"France show strength\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-17 01:01:00\"\ncategories: [Update]\n---\n\n# France vs Senegal\n\nSenegal is a very good team, but France won 3-1. \n\nAlmost all of had a French victory, but the numbers varied somewhat. That means the standings are pretty much as they were.\n\n\n::: {.cell}\n\n:::\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

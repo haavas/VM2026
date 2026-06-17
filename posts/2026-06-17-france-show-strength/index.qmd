@@ -3,7 +3,7 @@ title: "France show strength"
 author: "Håvard Strand"
 description: ""
 date: "2026-06-17 01:01:00"
-categories: [Updates]
+categories: [Update]
 ---
 
 # France vs Senegal

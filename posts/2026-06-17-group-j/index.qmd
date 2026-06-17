@@ -35,7 +35,7 @@ plot_match(19, save = TRUE)
 
 Austria vs Jordan is a bit like Switzerland vs Qatar, except that Austria did the job. As almost all of us thought. Martin and Jonathan got the exact right result.
 
-```{r scatter_points, echo=FALSE, message=FALSE , warning=FALSE}
+```{r scatter_points2, echo=FALSE, message=FALSE , warning=FALSE}
 source("../../R/group_stage_scatter.R")
 plot_match(20, save = TRUE) 
 ```

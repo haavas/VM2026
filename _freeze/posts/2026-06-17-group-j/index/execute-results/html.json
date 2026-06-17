@@ -1,0 +1,17 @@
+{
+  "hash": "650454e433d9d028c51cc92ae1435d5d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Group J\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-17 08:39:00\"\ncategories: [Update]\n---\n\n# Group J is a normal group\n\nNo surprising results here. So, we are finally all on positive scores!\n\n\n::: {.cell}\n\n:::\n\n\nChristian's lead is up to 59 points, with Hallvard and Jostein in pursuit. There are fewer clusters, which means that the actual score can affect standings significantly.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n\n\n## Argentina vs. Algerie\n\nMessi with a hat trick. If he continues like this, he could be up there with Maradonna. Time will tell. Almost everyone Argentina winning, and Scott, Hallvard, Christian, Daniel N, Daniel G, Javier, Marina, Vilde and Øivind got the correct result. 3-0 means that nobody lost a lot of points. \n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/scatter_points-1.png){width=672}\n:::\n:::\n\n## Austria - Jordan \n\nAustria vs Jordan is a bit like Switzerland vs Qatar, except that Austria did the job. As almost all of us thought. Martin and Jonathan got the exact right result.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/scatter_points2-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
