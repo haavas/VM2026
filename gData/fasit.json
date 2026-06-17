@@ -159,6 +159,22 @@
       "home_goals": 3,
       "away_goals": 1,
       "play_order": 20
+    },
+    {
+      "match": 22,
+      "home": "England",
+      "away": "Croatia",
+      "home_goals": 4,
+      "away_goals": 2,
+      "play_order": 22
+    },
+    {
+      "match": 23,
+      "home": "Portugal",
+      "away": "DR Congo",
+      "home_goals": 1,
+      "away_goals": 1,
+      "play_order": 21
     }
   ],
   "knockout": [],

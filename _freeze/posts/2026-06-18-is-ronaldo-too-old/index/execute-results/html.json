@@ -1,0 +1,15 @@
+{
+  "hash": "8f483ca362cdca733ff13adc8e7e9ad7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Is Ronaldo too old?\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-18 00:14:00\"\ncategories: [Update]\n---\n\n# Portugal did not win and England did not draw\n\nWe all thougth Portugal would win, which they did not. So the point collection from the first game today was limited. \n\nThe second game was more interesting. Christian remain in the lead, but his 1-0 prediction did not contribute that many points, which means that the lead is now 46 points to Hallvard. Jostein bravely predicted a 1-1 draw, which means that he loses terrain in the top. Øyvind C is back in the race, and Jonathan did also well today.\n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
