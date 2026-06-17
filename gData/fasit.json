@@ -141,8 +141,24 @@
       "home": "Iraq",
       "away": "Norway",
       "home_goals": 1,
-      "away_goals": 3,
+      "away_goals": 4,
       "play_order": 18
+    },
+    {
+      "match": 19,
+      "home": "Argentina",
+      "away": "Algeria",
+      "home_goals": 3,
+      "away_goals": 0,
+      "play_order": 19
+    },
+    {
+      "match": 20,
+      "home": "Austria",
+      "away": "Jordan",
+      "home_goals": 3,
+      "away_goals": 1,
+      "play_order": 20
     }
   ],
   "knockout": [],
