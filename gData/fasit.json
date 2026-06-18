@@ -161,6 +161,14 @@
       "play_order": 20
     },
     {
+      "match": 21,
+      "home": "Ghana",
+      "away": "Panama",
+      "home_goals": 1,
+      "away_goals": 0,
+      "play_order": 23
+    },
+    {
       "match": 22,
       "home": "England",
       "away": "Croatia",
@@ -175,6 +183,14 @@
       "home_goals": 1,
       "away_goals": 1,
       "play_order": 21
+    },
+    {
+      "match": 24,
+      "home": "Uzbekistan",
+      "away": "Colombia",
+      "home_goals": 1,
+      "away_goals": 3,
+      "play_order": 24
     }
   ],
   "knockout": [],

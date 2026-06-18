@@ -1,0 +1,15 @@
+{
+  "hash": "981bf2c60886efdf569d3d6a3b9e6335",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"All opening games are played\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-18 08:38:00\"\ncategories: [Update]\n---\n\n# The first round of the group stage is done\n\nNo surprises last night. Daniel got 50 points from a perfect prediction of both games, while Anna and Vilde got the 3-1 victory for Colombia. No less than seven other persons had a 1-0 victory for Ghana (Tom, Jonas, Karin, Marina, Øyvind S, Øyvind C and Øivind).\n\nNot a lot changes in our competiton, but Hallvard lost ground. Christian's lead is now 64 points.\n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
