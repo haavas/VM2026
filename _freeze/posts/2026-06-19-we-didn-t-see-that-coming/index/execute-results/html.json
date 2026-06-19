@@ -1,0 +1,17 @@
+{
+  "hash": "b24529a9ffb861fa92f776db661437a5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"We didn't see that coming\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-19 09:08:00\"\ncategories: [Update]\n---\n\n\n\n\n# Four more games and a runaway leader\n\nMexico has qualified for the round of 32, as the first host nation since Russia in 2018.\n\nYesterday was transformative. Four games are included in this update and Christian has built a massive gap, 96 points ahead og Øyvind C. The fact that the 2nd place rotates every update underscores the collective problem the rest of us has. While Christian keep on stockpiling results, the rest of us are inconsistent. Right now, Øyvind C. and Åse, two previous winners, are closest.\n\nFive of us had all four games correctly predicted: Stine, Anna, Jan Erling and myself, in addition to Christian.\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png){width=750}\n:::\n:::\n\n\n\n\nThe key to success was the Canada - Qatar game. The 6-0 results means that a 1-0 prediction yields 0 points, while a 3-0 prediction produces 16 points. Bjørn, Kristoffer, Gabriel, and Christian had 3 goals for Canada, and are rewarded accordingly. Predicting 0-0 in this game gives -36 points. \n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/scatter_points-1.png){width=672}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

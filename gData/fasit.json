@@ -191,6 +191,38 @@
       "home_goals": 1,
       "away_goals": 3,
       "play_order": 24
+    },
+    {
+      "match": 25,
+      "home": "Czech Republic",
+      "away": "South Africa",
+      "home_goals": 1,
+      "away_goals": 1,
+      "play_order": 25
+    },
+    {
+      "match": 26,
+      "home": "Switzerland",
+      "away": "Bosnia and Herzegovina",
+      "home_goals": 4,
+      "away_goals": 1,
+      "play_order": 26
+    },
+    {
+      "match": 27,
+      "home": "Canada",
+      "away": "Qatar",
+      "home_goals": 6,
+      "away_goals": 0,
+      "play_order": 27
+    },
+    {
+      "match": 28,
+      "home": "Mexico",
+      "away": "Korea Republic",
+      "home_goals": 1,
+      "away_goals": 0,
+      "play_order": 28
     }
   ],
   "knockout": [],
