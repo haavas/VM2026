@@ -223,6 +223,14 @@
       "home_goals": 1,
       "away_goals": 0,
       "play_order": 28
+    },
+    {
+      "match": 31,
+      "home": "United States",
+      "away": "Australia",
+      "home_goals": 2,
+      "away_goals": 0,
+      "play_order": 29
     }
   ],
   "knockout": [],

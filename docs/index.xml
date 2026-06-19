@@ -9,8 +9,42 @@
 <link>https://haavas.github.io/VM2026/</link>
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
-<generator>quarto-1.6.42</generator>
-<lastBuildDate>Fri, 19 Jun 2026 07:08:00 GMT</lastBuildDate>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Fri, 19 Jun 2026 21:15:00 GMT</lastBuildDate>
+<item>
+  <title>USA goes to the knockout rounds</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-19-usa-goes-to-the-knockout-rounds/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="us-beat-australia" class="level1">
+<h1>US beat Australia</h1>
+<p>The host nation is through to the round of 32. This is the first time a host nation has progressed since yesterday.</p>
+<p>Many of us had the correct outcome: Jostein, Jan Erling, Kristoffer, Tone, Dagfinn, Daniel, Phillip and Stine. Another thing they have in common is that they are not Christian.</p>
+<p>You might ask what is wrong with the colors? Where is the deep, blue color of success? The problem here is that the scale is symmetric. The deep red color must match the deep blue. Usually not a problem, but Jacob bravely put down a 0-8 victory for Australia, netting a neat -8^2 - 2^2 = -68 points.</p>
+<p>Øyvind is now 68 points behind Christian. Bjørn is third, his top ranking so far.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-19-usa-goes-to-the-knockout-rounds/standings.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-19-usa-goes-to-the-knockout-rounds/</guid>
+  <pubDate>Fri, 19 Jun 2026 21:15:00 GMT</pubDate>
+</item>
 <item>
   <title>We didn’t see that coming</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -448,7 +482,7 @@ Figure&nbsp;1
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-brannagan2015" class="csl-entry">
 Brannagan, Paul Michael, and Richard Giulianotti. 2015. <span>“Soft Power and Soft Disempowerment: Qatar, Global Sport and Football’s 2022 World Cup Finals.”</span> <em>Leisure Studies</em> 34 (6): 703–19.
 </div>
@@ -456,16 +490,16 @@ Brannagan, Paul Michael, and Richard Giulianotti. 2015. <span>“Soft Power and 
 Grix, Jonathan, and Donna Lee. 2013. <span>“Soft Power, Sports Mega-Events and Emerging States: The Lure of the Politics of Attraction.”</span> <em>Global Society</em> 27 (4): 521–36.
 </div>
 <div id="ref-morgenthau1948" class="csl-entry">
-Morgenthau, Hans J. 1948. <em>Politics Among Nations: The Struggle for Power and Peace</em>. New York: Alfred A. Knopf.
+Morgenthau, Hans J. 1948. <em>Politics Among Nations: The Struggle for Power and Peace</em>. Alfred A. Knopf.
 </div>
 <div id="ref-tetlock2005" class="csl-entry">
-Tetlock, Philip E. 2005. <em>Expert Political Judgment: How Good Is It? How Can We Know?</em> Princeton, NJ: Princeton University Press.
+Tetlock, Philip E. 2005. <em>Expert Political Judgment: How Good Is It? How Can We Know?</em> Princeton University Press.
 </div>
 <div id="ref-thucydides1972" class="csl-entry">
-Thucydides. 1972. <em>History of the Peloponnesian War</em>. Translated by Rex Warner. London: Penguin.
+Thucydides. 1972. <em>History of the Peloponnesian War</em>. Translated by Rex Warner. Penguin.
 </div>
 <div id="ref-weber1946" class="csl-entry">
-Weber, Max. 1946. <span>“Politics as a Vocation.”</span> In <em>From Max Weber: Essays in Sociology</em>, edited by H. H. Gerth and C. Wright Mills, 77–128. New York: Oxford University Press.
+Weber, Max. 1946. <span>“Politics as a Vocation.”</span> In <em>From Max Weber: Essays in Sociology</em>, edited by H. H. Gerth and C. Wright Mills. Oxford University Press.
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
@@ -938,39 +972,6 @@ Weber, Max. 1946. <span>“Politics as a Vocation.”</span> In <em>From Max Web
  ]]></description>
   <category>news</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-12-meet-your-opponents/</guid>
-  <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>South Korea beat Czechia</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-12-south-korea-beat-czechia/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="south-korea-vs-czechia" class="level1">
-<h1>South Korea vs Czechia</h1>
-<p>Czechia scored first, but the country with the highest per capita beer consumption got overrun in the second half.</p>
-<p>Øyvind, Elin and Hallvard have 50 points – perfect score so far. 6 more contenders have correct result, but some deviance when it comes to the score.</p>
-<p>But, it is still early.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-12-south-korea-beat-czechia/standings.png" class="img-fluid figure-img" style="width:100.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-12-south-korea-beat-czechia/</guid>
   <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
 </item>
 </channel>

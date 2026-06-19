@@ -1,0 +1,15 @@
+{
+  "hash": "59b3245edaf07ea79c2b6e82b380a983",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"USA goes to the knockout rounds\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-19 23:15:00\"\ncategories: [Update]\n---\n\n# US beat Australia\n\nThe host nation is through to the round of 32. This is the first time a host nation has progressed since yesterday. \n\nMany of us had the correct outcome: Jostein, Jan Erling, Kristoffer, Tone, Dagfinn, Daniel, Phillip and Stine. Another thing they have in common is that they are not Christian.\n\n\n::: {.cell}\n\n:::\n\n\nYou might ask what is wrong with the colors? Where is the deep, blue color of success? The problem here is that the scale is symmetric. The deep red color must match the deep blue. Usually not a problem, but Jacob bravely put down a 0-8 victory for Australia, netting a neat -8^2 - 2^2 = -68 points. \n\nØyvind is now 68 points behind Christian. Bjørn is third, his top ranking so far.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
