@@ -10,7 +10,48 @@
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sat, 20 Jun 2026 19:18:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 20 Jun 2026 22:21:00 GMT</lastBuildDate>
+<item>
+  <title>Germany is top of group E</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-21-germany-is-top-of-group-e/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="what-a-game" class="level1">
+<h1>What a game!</h1>
+<p>Ivory Coast outplayed Germany at times, but in the end Deniz Undav’s two goals proved decisive. But the game was a proper world cup classic, and if Norway ends up in second spot in our group, we play the second best team from this group. Against whom we will lose. It is much better to go through as the 3rd team and meet for instance the winner of group B, which is either Canada or Switzerland.</p>
+<p>Tom, Ida, Elin, Hallvard, Christian, Håvard, Jana, Javier and Miroslav had the correct outcome, and most others were fairly close. Øyvind C and Bjørn were not among these others, so Christian’s lead is now 98 points.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-21-germany-is-top-of-group-e/standings.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-21-germany-is-top-of-group-e/index_files/figure-html/scatter_points-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-21-germany-is-top-of-group-e/</guid>
+  <pubDate>Sat, 20 Jun 2026 22:21:00 GMT</pubDate>
+</item>
 <item>
   <title>The Dutch hammer Sweden</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -953,48 +994,6 @@ Weber, Max. 1946. <span>“Politics as a Vocation.”</span> In <em>From Max Web
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-13-el-infantinity/</guid>
   <pubDate>Sat, 13 Jun 2026 21:21:47 GMT</pubDate>
-</item>
-<item>
-  <title>US preponderance (updated version)</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-13-us-preponderance/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="us-beats-paraguay-4-1." class="level1">
-<h1>US beats Paraguay 4-1.</h1>
-<p>That the 15th ranked team in the world can outplay the 45th ranked team is perhaps not a surprise. But for some of us it was. Particularly the margin.</p>
-<p>Linda is alone in the top, with Elin and Hallvard right behind. A strong group of contenders are right behind.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-13-us-preponderance/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>None of us had 4-1 down as the result. Elin and Hallvard had 3-1 as their result, and were rewarded handsomely. This is the dot right below the marker in the plot. Christian had 3-2, which was almost as good. 6 of us had 1-0, resulting in 15 points rather than the full 25.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-13-us-preponderance/index_files/figure-html/scatter_points-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-13-us-preponderance/</guid>
-  <pubDate>Sat, 13 Jun 2026 13:35:47 GMT</pubDate>
 </item>
 </channel>
 </rss>

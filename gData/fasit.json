@@ -257,6 +257,14 @@
       "play_order": 29
     },
     {
+      "match": 33,
+      "home": "Germany",
+      "away": "Ivory Coast",
+      "home_goals": 2,
+      "away_goals": 1,
+      "play_order": 34
+    },
+    {
       "match": 35,
       "home": "Netherlands",
       "away": "Sweden",

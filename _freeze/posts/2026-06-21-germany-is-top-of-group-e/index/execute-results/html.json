@@ -1,0 +1,17 @@
+{
+  "hash": "faa16f0c4c49c60118d2e333c253c3da",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Germany is top of group E\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-21 00:21:00\"\ncategories: [Update]\n---\n\n# What a game!\n\nIvory Coast outplayed Germany at times, but in the end Deniz Undav's two goals proved decisive. But the game was a proper world cup classic, and if Norway ends up in second spot in our group, we play the second best team from this group. Against whom we will lose. It is much better to go through as the 3rd team and meet for instance the winner of group B, which is either Canada or Switzerland.\n\nTom, Ida, Elin, Hallvard, Christian, Håvard, Jana, Javier and Miroslav had the correct outcome, and most others were fairly close. Øyvind C and Bjørn were not among these others, so Christian's lead is now 98 points.\n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/scatter_points-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
