@@ -1007,39 +1007,183 @@ match;play_order;stage;player;full_name;cumulative;match_pts;rank;rank_prev;rank
 28;28;Group Stage;World_cup_2026_ØB;Øivind Bratberg;130;-2;32;31;-1
 28;28;Group Stage;world_cup_2026_hs;Håvard Strand;225;23;19;21;2
 28;28;Group Stage;world_cup_2026_oyvind;Øyvind Colbjørnsen;321;23;2;2;0
-31;29;Group Stage;Copy of World_cup_2026.TomC;Tom Christensen;207;-2;25;22;-3
-31;29;Group Stage;Copy of World_cup_2026_Jacob;Jacob Nyrup;36;-68;36;33;-3
-31;29;Group Stage;Copy of World_cup_2026_Jostein;Jostein Askim;269;25;14;14;0
-31;29;Group Stage;Gates_World_cup_2026;Scott Gates;279;24;10;11;1
-31;29;Group Stage;IWB_World_cup_2026;Ida Weseth Bjøru;225;24;22;24;2
-31;29;Group Stage;Jan_Erling_World_cup_2026;Jan Erling Klausen;250;25;19;19;0
-31;29;Group Stage;Kolltveit-World_cup_2026;Kristoffer Kolltveit;225;25;22;25;3
-31;29;Group Stage;Kopi av World_cup_2026-Elin Arntzen;Elin Arntzen;260;24;17;16;-1
-31;29;Group Stage;Kopi av World_cup_2026_jh;Jon Hovi;198;24;28;29;1
-31;29;Group Stage;Maiken world_cup_2026;Maiken Røed;292;24;7;7;0
-31;29;Group Stage;Sandven_World_cup_2026;Hallvard Hodne Sandven;298;24;5;6;1
-31;29;Group Stage;Tone Vevatne - World Cup Competition 2026;Tone Vevatne;261;25;16;16;0
-31;29;Group Stage;World_cup_2026 (Kuyper);Jonathan Kuyper;203;-5;26;23;-3
-31;29;Group Stage;World_cup_2026.gulli;Linda Gulli;199;24;27;28;1
-31;29;Group Stage;World_cup_2026_Bjørn_F;Bjørn Fjærli;320;24;3;4;1
-31;29;Group Stage;World_cup_2026_CL;Christian Lehne;413;-4;1;1;0
-31;29;Group Stage;World_cup_2026_Dagfinn;Dagfinn Hagen;180;25;31;31;0
-31;29;Group Stage;World_cup_2026_Daniel_Naurin;Daniel Naurin;290;25;8;9;1
-31;29;Group Stage;World_cup_2026_Jana Blahak;Jana Blahak;219;24;24;26;2
-31;29;Group Stage;World_cup_2026_JonasSchmid;Jonas Schmid;242;24;21;21;0
-31;29;Group Stage;World_cup_2026_Karin;Karin Dokken;187;-4;29;27;-2
-31;29;Group Stage;World_cup_2026_MIRO;Miroslav Nemcok;276;24;11;12;1
-31;29;Group Stage;World_cup_2026_Martin_S;Martin Søyland;54;-8;35;36;1
-31;29;Group Stage;World_cup_2026_Povitkina;Marina Povitkina;99;-5;34;33;-1
-31;29;Group Stage;World_cup_2026_StineHesstvedt_1106;Stine Hesstvedt;263;25;15;15;0
-31;29;Group Stage;World_cup_2026_Vilde Hernes;Vilde Hernes;122;24;33;35;2
-31;29;Group Stage;World_cup_2026_aase;Åse Gornitzka;314;-2;4;3;-1
-31;29;Group Stage;World_cup_2026_anna;Anna Helgøy;251;23;18;18;0
-31;29;Group Stage;World_cup_2026_gabriel;Gabriel Lönn;275;-2;12;5;-7
-31;29;Group Stage;World_cup_2026_goldstein;Daniel Goldstein;282;24;9;10;1
-31;29;Group Stage;World_cup_2026_javier;Javier Padilla;182;24;30;30;0
-31;29;Group Stage;World_cup_2026_lutscher;Phillip Lutscher;293;25;6;7;1
-31;29;Group Stage;World_cup_2026_stiansen;Øyvind Stiansen;272;24;13;13;0
-31;29;Group Stage;World_cup_2026_ØB;Øivind Bratberg;154;24;32;32;0
-31;29;Group Stage;world_cup_2026_hs;Håvard Strand;249;24;20;19;-1
-31;29;Group Stage;world_cup_2026_oyvind;Øyvind Colbjørnsen;345;24;2;2;0
+32;29;Group Stage;Copy of World_cup_2026.TomC;Tom Christensen;204;-5;24;22;-2
+32;29;Group Stage;Copy of World_cup_2026_Jacob;Jacob Nyrup;100;-4;33;33;0
+32;29;Group Stage;Copy of World_cup_2026_Jostein;Jostein Askim;240;-4;14;14;0
+32;29;Group Stage;Gates_World_cup_2026;Scott Gates;250;-5;12;11;-1
+32;29;Group Stage;IWB_World_cup_2026;Ida Weseth Bjøru;226;25;18;24;6
+32;29;Group Stage;Jan_Erling_World_cup_2026;Jan Erling Klausen;223;-2;19;19;0
+32;29;Group Stage;Kolltveit-World_cup_2026;Kristoffer Kolltveit;195;-5;26;25;-1
+32;29;Group Stage;Kopi av World_cup_2026-Elin Arntzen;Elin Arntzen;231;-5;17;16;-1
+32;29;Group Stage;Kopi av World_cup_2026_jh;Jon Hovi;173;-1;28;29;1
+32;29;Group Stage;Maiken world_cup_2026;Maiken Røed;264;-4;8;7;-1
+32;29;Group Stage;Sandven_World_cup_2026;Hallvard Hodne Sandven;269;-5;7;6;-1
+32;29;Group Stage;Tone Vevatne - World Cup Competition 2026;Tone Vevatne;235;-1;15;16;1
+32;29;Group Stage;World_cup_2026 (Kuyper);Jonathan Kuyper;204;-4;24;23;-1
+32;29;Group Stage;World_cup_2026.gulli;Linda Gulli;173;-2;28;28;0
+32;29;Group Stage;World_cup_2026_Bjørn_F;Bjørn Fjærli;292;-4;4;4;0
+32;29;Group Stage;World_cup_2026_CL;Christian Lehne;408;-9;1;1;0
+32;29;Group Stage;World_cup_2026_Dagfinn;Dagfinn Hagen;153;-2;31;31;0
+32;29;Group Stage;World_cup_2026_Daniel_Naurin;Daniel Naurin;260;-5;9;9;0
+32;29;Group Stage;World_cup_2026_Jana Blahak;Jana Blahak;216;21;22;26;4
+32;29;Group Stage;World_cup_2026_JonasSchmid;Jonas Schmid;216;-2;22;21;-1
+32;29;Group Stage;World_cup_2026_Karin;Karin Dokken;189;-2;27;27;0
+32;29;Group Stage;World_cup_2026_MIRO;Miroslav Nemcok;251;-1;11;12;1
+32;29;Group Stage;World_cup_2026_Martin_S;Martin Søyland;58;-4;36;36;0
+32;29;Group Stage;World_cup_2026_Povitkina;Marina Povitkina;100;-4;33;33;0
+32;29;Group Stage;World_cup_2026_StineHesstvedt_1106;Stine Hesstvedt;233;-5;16;15;-1
+32;29;Group Stage;World_cup_2026_Vilde Hernes;Vilde Hernes;93;-5;35;35;0
+32;29;Group Stage;World_cup_2026_aase;Åse Gornitzka;311;-5;3;3;0
+32;29;Group Stage;World_cup_2026_anna;Anna Helgøy;223;-5;19;18;-1
+32;29;Group Stage;World_cup_2026_gabriel;Gabriel Lönn;273;-4;6;5;-1
+32;29;Group Stage;World_cup_2026_goldstein;Daniel Goldstein;253;-5;10;10;0
+32;29;Group Stage;World_cup_2026_javier;Javier Padilla;157;-1;30;30;0
+32;29;Group Stage;World_cup_2026_lutscher;Phillip Lutscher;291;23;5;7;2
+32;29;Group Stage;World_cup_2026_stiansen;Øyvind Stiansen;247;-1;13;13;0
+32;29;Group Stage;World_cup_2026_ØB;Øivind Bratberg;125;-5;32;32;0
+32;29;Group Stage;world_cup_2026_hs;Håvard Strand;221;-4;21;19;-2
+32;29;Group Stage;world_cup_2026_oyvind;Øyvind Colbjørnsen;317;-4;2;2;0
+30;30;Group Stage;Copy of World_cup_2026.TomC;Tom Christensen;203;-1;25;24;-1
+30;30;Group Stage;Copy of World_cup_2026_Jacob;Jacob Nyrup;117;17;33;33;0
+30;30;Group Stage;Copy of World_cup_2026_Jostein;Jostein Askim;260;20;12;14;2
+30;30;Group Stage;Gates_World_cup_2026;Scott Gates;273;23;10;12;2
+30;30;Group Stage;IWB_World_cup_2026;Ida Weseth Bjøru;251;25;16;18;2
+30;30;Group Stage;Jan_Erling_World_cup_2026;Jan Erling Klausen;246;23;19;19;0
+30;30;Group Stage;Kolltveit-World_cup_2026;Kristoffer Kolltveit;194;-1;29;26;-3
+30;30;Group Stage;Kopi av World_cup_2026-Elin Arntzen;Elin Arntzen;255;24;14;17;3
+30;30;Group Stage;Kopi av World_cup_2026_jh;Jon Hovi;198;25;27;28;1
+30;30;Group Stage;Maiken world_cup_2026;Maiken Røed;287;23;8;8;0
+30;30;Group Stage;Sandven_World_cup_2026;Hallvard Hodne Sandven;293;24;6;7;1
+30;30;Group Stage;Tone Vevatne - World Cup Competition 2026;Tone Vevatne;234;-1;23;15;-8
+30;30;Group Stage;World_cup_2026 (Kuyper);Jonathan Kuyper;203;-1;25;24;-1
+30;30;Group Stage;World_cup_2026.gulli;Linda Gulli;198;25;27;28;1
+30;30;Group Stage;World_cup_2026_Bjørn_F;Bjørn Fjærli;316;24;4;4;0
+30;30;Group Stage;World_cup_2026_CL;Christian Lehne;431;23;1;1;0
+30;30;Group Stage;World_cup_2026_Dagfinn;Dagfinn Hagen;177;24;31;31;0
+30;30;Group Stage;World_cup_2026_Daniel_Naurin;Daniel Naurin;280;20;9;9;0
+30;30;Group Stage;World_cup_2026_Jana Blahak;Jana Blahak;241;25;21;22;1
+30;30;Group Stage;World_cup_2026_JonasSchmid;Jonas Schmid;240;24;22;22;0
+30;30;Group Stage;World_cup_2026_Karin;Karin Dokken;212;23;24;27;3
+30;30;Group Stage;World_cup_2026_MIRO;Miroslav Nemcok;250;-1;17;11;-6
+30;30;Group Stage;World_cup_2026_Martin_S;Martin Søyland;53;-5;36;36;0
+30;30;Group Stage;World_cup_2026_Povitkina;Marina Povitkina;90;-10;35;33;-2
+30;30;Group Stage;World_cup_2026_StineHesstvedt_1106;Stine Hesstvedt;257;24;13;16;3
+30;30;Group Stage;World_cup_2026_Vilde Hernes;Vilde Hernes;116;23;34;35;1
+30;30;Group Stage;World_cup_2026_aase;Åse Gornitzka;335;24;3;3;0
+30;30;Group Stage;World_cup_2026_anna;Anna Helgøy;247;24;18;19;1
+30;30;Group Stage;World_cup_2026_gabriel;Gabriel Lönn;296;23;5;6;1
+30;30;Group Stage;World_cup_2026_goldstein;Daniel Goldstein;252;-1;15;10;-5
+30;30;Group Stage;World_cup_2026_javier;Javier Padilla;180;23;30;30;0
+30;30;Group Stage;World_cup_2026_lutscher;Phillip Lutscher;290;-1;7;5;-2
+30;30;Group Stage;World_cup_2026_stiansen;Øyvind Stiansen;271;24;11;13;2
+30;30;Group Stage;World_cup_2026_ØB;Øivind Bratberg;124;-1;32;32;0
+30;30;Group Stage;world_cup_2026_hs;Håvard Strand;244;23;20;21;1
+30;30;Group Stage;world_cup_2026_oyvind;Øyvind Colbjørnsen;338;21;2;2;0
+29;31;Group Stage;Copy of World_cup_2026.TomC;Tom Christensen;228;25;25;25;0
+29;31;Group Stage;Copy of World_cup_2026_Jacob;Jacob Nyrup;141;24;33;33;0
+29;31;Group Stage;Copy of World_cup_2026_Jostein;Jostein Askim;284;24;12;12;0
+29;31;Group Stage;Gates_World_cup_2026;Scott Gates;296;23;10;10;0
+29;31;Group Stage;IWB_World_cup_2026;Ida Weseth Bjøru;276;25;15;16;1
+29;31;Group Stage;Jan_Erling_World_cup_2026;Jan Erling Klausen;270;24;19;19;0
+29;31;Group Stage;Kolltveit-World_cup_2026;Kristoffer Kolltveit;218;24;29;29;0
+29;31;Group Stage;Kopi av World_cup_2026-Elin Arntzen;Elin Arntzen;280;25;14;14;0
+29;31;Group Stage;Kopi av World_cup_2026_jh;Jon Hovi;222;24;27;27;0
+29;31;Group Stage;Maiken world_cup_2026;Maiken Røed;311;24;8;8;0
+29;31;Group Stage;Sandven_World_cup_2026;Hallvard Hodne Sandven;314;21;6;6;0
+29;31;Group Stage;Tone Vevatne - World Cup Competition 2026;Tone Vevatne;258;24;23;23;0
+29;31;Group Stage;World_cup_2026 (Kuyper);Jonathan Kuyper;228;25;25;25;0
+29;31;Group Stage;World_cup_2026.gulli;Linda Gulli;222;24;27;27;0
+29;31;Group Stage;World_cup_2026_Bjørn_F;Bjørn Fjærli;339;23;4;4;0
+29;31;Group Stage;World_cup_2026_CL;Christian Lehne;456;25;1;1;0
+29;31;Group Stage;World_cup_2026_Dagfinn;Dagfinn Hagen;198;21;31;31;0
+29;31;Group Stage;World_cup_2026_Daniel_Naurin;Daniel Naurin;305;25;9;9;0
+29;31;Group Stage;World_cup_2026_Jana Blahak;Jana Blahak;265;24;20;21;1
+29;31;Group Stage;World_cup_2026_JonasSchmid;Jonas Schmid;264;24;22;22;0
+29;31;Group Stage;World_cup_2026_Karin;Karin Dokken;237;25;24;24;0
+29;31;Group Stage;World_cup_2026_MIRO;Miroslav Nemcok;275;25;16;17;1
+29;31;Group Stage;World_cup_2026_Martin_S;Martin Søyland;78;25;36;36;0
+29;31;Group Stage;World_cup_2026_Povitkina;Marina Povitkina;114;24;35;35;0
+29;31;Group Stage;World_cup_2026_StineHesstvedt_1106;Stine Hesstvedt;282;25;13;13;0
+29;31;Group Stage;World_cup_2026_Vilde Hernes;Vilde Hernes;137;21;34;34;0
+29;31;Group Stage;World_cup_2026_aase;Åse Gornitzka;359;24;3;3;0
+29;31;Group Stage;World_cup_2026_anna;Anna Helgøy;271;24;18;18;0
+29;31;Group Stage;World_cup_2026_gabriel;Gabriel Lönn;321;25;5;5;0
+29;31;Group Stage;World_cup_2026_goldstein;Daniel Goldstein;273;21;17;15;-2
+29;31;Group Stage;World_cup_2026_javier;Javier Padilla;205;25;30;30;0
+29;31;Group Stage;World_cup_2026_lutscher;Phillip Lutscher;314;24;6;7;1
+29;31;Group Stage;World_cup_2026_stiansen;Øyvind Stiansen;296;25;10;11;1
+29;31;Group Stage;World_cup_2026_ØB;Øivind Bratberg;149;25;32;32;0
+29;31;Group Stage;world_cup_2026_hs;Håvard Strand;265;21;20;20;0
+29;31;Group Stage;world_cup_2026_oyvind;Øyvind Colbjørnsen;362;24;2;2;0
+31;32;Group Stage;Copy of World_cup_2026.TomC;Tom Christensen;226;-2;29;25;-4
+31;32;Group Stage;Copy of World_cup_2026_Jacob;Jacob Nyrup;73;-68;35;33;-2
+31;32;Group Stage;Copy of World_cup_2026_Jostein;Jostein Askim;309;25;12;12;0
+31;32;Group Stage;Gates_World_cup_2026;Scott Gates;320;24;9;10;1
+31;32;Group Stage;IWB_World_cup_2026;Ida Weseth Bjøru;300;24;15;15;0
+31;32;Group Stage;Jan_Erling_World_cup_2026;Jan Erling Klausen;295;25;18;19;1
+31;32;Group Stage;Kolltveit-World_cup_2026;Kristoffer Kolltveit;243;25;26;29;3
+31;32;Group Stage;Kopi av World_cup_2026-Elin Arntzen;Elin Arntzen;304;24;14;14;0
+31;32;Group Stage;Kopi av World_cup_2026_jh;Jon Hovi;246;24;24;27;3
+31;32;Group Stage;Maiken world_cup_2026;Maiken Røed;335;24;7;8;1
+31;32;Group Stage;Sandven_World_cup_2026;Hallvard Hodne Sandven;338;24;6;6;0
+31;32;Group Stage;Tone Vevatne - World Cup Competition 2026;Tone Vevatne;283;25;23;23;0
+31;32;Group Stage;World_cup_2026 (Kuyper);Jonathan Kuyper;223;-5;30;25;-5
+31;32;Group Stage;World_cup_2026.gulli;Linda Gulli;246;24;24;27;3
+31;32;Group Stage;World_cup_2026_Bjørn_F;Bjørn Fjærli;363;24;3;4;1
+31;32;Group Stage;World_cup_2026_CL;Christian Lehne;452;-4;1;1;0
+31;32;Group Stage;World_cup_2026_Dagfinn;Dagfinn Hagen;223;25;30;31;1
+31;32;Group Stage;World_cup_2026_Daniel_Naurin;Daniel Naurin;330;25;8;9;1
+31;32;Group Stage;World_cup_2026_Jana Blahak;Jana Blahak;289;24;20;20;0
+31;32;Group Stage;World_cup_2026_JonasSchmid;Jonas Schmid;288;24;22;22;0
+31;32;Group Stage;World_cup_2026_Karin;Karin Dokken;233;-4;27;24;-3
+31;32;Group Stage;World_cup_2026_MIRO;Miroslav Nemcok;299;24;16;16;0
+31;32;Group Stage;World_cup_2026_Martin_S;Martin Søyland;70;-8;36;36;0
+31;32;Group Stage;World_cup_2026_Povitkina;Marina Povitkina;109;-5;34;35;1
+31;32;Group Stage;World_cup_2026_StineHesstvedt_1106;Stine Hesstvedt;307;25;13;13;0
+31;32;Group Stage;World_cup_2026_Vilde Hernes;Vilde Hernes;161;24;33;34;1
+31;32;Group Stage;World_cup_2026_aase;Åse Gornitzka;357;-2;4;3;-1
+31;32;Group Stage;World_cup_2026_anna;Anna Helgøy;294;23;19;18;-1
+31;32;Group Stage;World_cup_2026_gabriel;Gabriel Lönn;319;-2;11;5;-6
+31;32;Group Stage;World_cup_2026_goldstein;Daniel Goldstein;297;24;17;17;0
+31;32;Group Stage;World_cup_2026_javier;Javier Padilla;229;24;28;30;2
+31;32;Group Stage;World_cup_2026_lutscher;Phillip Lutscher;339;25;5;6;1
+31;32;Group Stage;World_cup_2026_stiansen;Øyvind Stiansen;320;24;9;10;1
+31;32;Group Stage;World_cup_2026_ØB;Øivind Bratberg;173;24;32;32;0
+31;32;Group Stage;world_cup_2026_hs;Håvard Strand;289;24;20;20;0
+31;32;Group Stage;world_cup_2026_oyvind;Øyvind Colbjørnsen;386;24;2;2;0
+35;33;Group Stage;Copy of World_cup_2026.TomC;Tom Christensen;242;16;30;29;-1
+35;33;Group Stage;Copy of World_cup_2026_Jacob;Jacob Nyrup;88;15;36;35;-1
+35;33;Group Stage;Copy of World_cup_2026_Jostein;Jostein Askim;324;15;14;12;-2
+35;33;Group Stage;Gates_World_cup_2026;Scott Gates;336;16;10;9;-1
+35;33;Group Stage;IWB_World_cup_2026;Ida Weseth Bjøru;315;15;15;15;0
+35;33;Group Stage;Jan_Erling_World_cup_2026;Jan Erling Klausen;311;16;17;18;1
+35;33;Group Stage;Kolltveit-World_cup_2026;Kristoffer Kolltveit;267;24;24;26;2
+35;33;Group Stage;Kopi av World_cup_2026-Elin Arntzen;Elin Arntzen;328;24;12;14;2
+35;33;Group Stage;Kopi av World_cup_2026_jh;Jon Hovi;261;15;26;24;-2
+35;33;Group Stage;Maiken world_cup_2026;Maiken Røed;351;16;7;7;0
+35;33;Group Stage;Sandven_World_cup_2026;Hallvard Hodne Sandven;353;15;6;6;0
+35;33;Group Stage;Tone Vevatne - World Cup Competition 2026;Tone Vevatne;299;16;21;23;2
+35;33;Group Stage;World_cup_2026 (Kuyper);Jonathan Kuyper;207;-16;31;30;-1
+35;33;Group Stage;World_cup_2026.gulli;Linda Gulli;262;16;25;24;-1
+35;33;Group Stage;World_cup_2026_Bjørn_F;Bjørn Fjærli;388;25;3;3;0
+35;33;Group Stage;World_cup_2026_CL;Christian Lehne;473;21;1;1;0
+35;33;Group Stage;World_cup_2026_Dagfinn;Dagfinn Hagen;243;20;29;30;1
+35;33;Group Stage;World_cup_2026_Daniel_Naurin;Daniel Naurin;351;21;7;8;1
+35;33;Group Stage;World_cup_2026_Jana Blahak;Jana Blahak;309;20;18;20;2
+35;33;Group Stage;World_cup_2026_JonasSchmid;Jonas Schmid;296;8;22;22;0
+35;33;Group Stage;World_cup_2026_Karin;Karin Dokken;249;16;27;27;0
+35;33;Group Stage;World_cup_2026_MIRO;Miroslav Nemcok;314;15;16;16;0
+35;33;Group Stage;World_cup_2026_Martin_S;Martin Søyland;95;25;35;36;1
+35;33;Group Stage;World_cup_2026_Povitkina;Marina Povitkina;125;16;34;34;0
+35;33;Group Stage;World_cup_2026_StineHesstvedt_1106;Stine Hesstvedt;327;20;13;13;0
+35;33;Group Stage;World_cup_2026_Vilde Hernes;Vilde Hernes;182;21;33;33;0
+35;33;Group Stage;World_cup_2026_aase;Åse Gornitzka;378;21;4;4;0
+35;33;Group Stage;World_cup_2026_anna;Anna Helgøy;302;8;20;19;-1
+35;33;Group Stage;World_cup_2026_gabriel;Gabriel Lönn;340;21;9;11;2
+35;33;Group Stage;World_cup_2026_goldstein;Daniel Goldstein;281;-16;23;17;-6
+35;33;Group Stage;World_cup_2026_javier;Javier Padilla;245;16;28;28;0
+35;33;Group Stage;World_cup_2026_lutscher;Phillip Lutscher;354;15;5;5;0
+35;33;Group Stage;World_cup_2026_stiansen;Øyvind Stiansen;335;15;11;9;-2
+35;33;Group Stage;World_cup_2026_ØB;Øivind Bratberg;188;15;32;32;0
+35;33;Group Stage;world_cup_2026_hs;Håvard Strand;305;16;19;20;1
+35;33;Group Stage;world_cup_2026_oyvind;Øyvind Colbjørnsen;401;15;2;2;0

@@ -54,7 +54,8 @@ def load_name_lookup(root: Path) -> dict:
 
 
 def build_standings(scores_path: str = None,
-                    output_csv:  str = None) -> None:
+                    output_csv:  str = None,
+                    include_qs:  bool = True) -> None:
 
     root = project_root()
     scores_path = Path(scores_path) if scores_path else root / "gData" / "scores.json"
@@ -81,6 +82,7 @@ def build_standings(scores_path: str = None,
 
     for player, s in players.items():
         gs_total = s["group_stage"]["points"]
+        qs_total = s.get("questions", {}).get("points", 0) if include_qs else 0
 
         events = []
 
@@ -89,7 +91,7 @@ def build_standings(scores_path: str = None,
                 "match":      r["match"],
                 "play_order": r.get("play_order", r["match"]),
                 "stage":      "Group Stage",
-                "cumulative": r["cumulative"],
+                "cumulative": qs_total + r["cumulative"],
                 "match_pts":  r.get("match_pts", 0),
             })
 
@@ -98,7 +100,7 @@ def build_standings(scores_path: str = None,
                 "match":      r.get("match") or r.get("match_id"),
                 "play_order": r.get("play_order", r.get("match") or r.get("match_id")),
                 "stage":      r.get("stage", "Knockout"),
-                "cumulative": gs_total + r["cumulative"],
+                "cumulative": qs_total + gs_total + r["cumulative"],
                 "match_pts":  r.get("match_pts", 0),
             })
 
@@ -207,6 +209,8 @@ def build_standings(scores_path: str = None,
 
 
 if __name__ == "__main__":
-    scores_arg = sys.argv[1] if len(sys.argv) > 1 else None
-    output_arg = sys.argv[2] if len(sys.argv) > 2 else None
-    build_standings(scores_arg, output_arg)
+    args       = [a for a in sys.argv[1:] if not a.startswith("--")]
+    include_qs = "--no-qs" not in sys.argv
+    scores_arg = args[0] if len(args) > 0 else None
+    output_arg = args[1] if len(args) > 1 else None
+    build_standings(scores_arg, output_arg, include_qs=include_qs)

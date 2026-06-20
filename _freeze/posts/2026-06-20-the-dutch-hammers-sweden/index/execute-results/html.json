@@ -1,0 +1,17 @@
+{
+  "hash": "7ee616ddecc699b2a74bea81f798b602",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"The Dutch hammer Sweden\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-20 21:18:00\"\ncategories: [Update]\n---\n\n# Swedish delight turns sour\n\nSweden were, statistically speaking, almost certain of a place in the round of 32, but the Netherlands canceled out their goal difference, and the future looks uncertain again. However, the Swedish attackers were at times brilliant and they can still beat Japan. \n\nChristian increased the gap to Øyvind C, currently at 72 points, but Bjørn comes racing from behind. Bjørn and Martin are today's rockets. Both had the correct 5-1 prediction. Jacob's 8-0 prediction was not too off today, while Kristoffer and Elin were close and got 24 points each. \n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/scatter_points-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

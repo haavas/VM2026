@@ -1,20 +1,101 @@
 {
   "players": {
     "Copy of World_cup_2026.TomC": {
-      "total": 207,
+      "total": 272,
       "max_possible": 4600,
-      "pct_of_max": 4.5,
+      "pct_of_max": 5.9,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Harry Kane",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Bruno Fernandes",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 8.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 6.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Julian Ryerson",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "Haiti",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 207,
-        "correct_outcome": 14,
-        "home_sq_err": 120,
-        "away_sq_err": 23,
-        "matches_played": 29,
+        "points": 242,
+        "correct_outcome": 16,
+        "home_sq_err": 134,
+        "away_sq_err": 24,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -325,15 +406,59 @@
             "cumulative": 209
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-2",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 204
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 203
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "3-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 228
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "1-1",
             "actual": "2-0",
             "outcome_pts": 0,
             "home_sq_err": 1,
             "away_sq_err": 1,
             "match_pts": -2,
-            "cumulative": 207
+            "cumulative": 226
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": 16,
+            "cumulative": 242
           }
         ]
       },
@@ -355,20 +480,101 @@
       "third_place": null
     },
     "Copy of World_cup_2026_Jacob": {
-      "total": 36,
+      "total": 118,
       "max_possible": 4600,
-      "pct_of_max": 0.8,
+      "pct_of_max": 2.6,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Harry Kane",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 10.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 6.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 6,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 36,
-        "correct_outcome": 13,
-        "home_sq_err": 126,
-        "away_sq_err": 163,
-        "matches_played": 29,
+        "points": 88,
+        "correct_outcome": 16,
+        "home_sq_err": 144,
+        "away_sq_err": 168,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -679,15 +885,59 @@
             "cumulative": 104
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 100
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "2-3",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 4,
+            "match_pts": 17,
+            "cumulative": 117
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "4-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 141
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "0-8",
             "actual": "2-0",
             "outcome_pts": 0,
             "home_sq_err": 4,
             "away_sq_err": 64,
             "match_pts": -68,
-            "cumulative": 36
+            "cumulative": 73
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "8-0",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": 15,
+            "cumulative": 88
           }
         ]
       },
@@ -709,20 +959,101 @@
       "third_place": null
     },
     "Copy of World_cup_2026_Jostein": {
-      "total": 269,
+      "total": 354,
       "max_possible": 4600,
-      "pct_of_max": 5.8,
+      "pct_of_max": 7.7,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Harry Kane",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Bruno Fernandes",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 14.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 10.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 1,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Julian Ryerson",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Equal. They will go out in the same round",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 269,
-        "correct_outcome": 17,
-        "home_sq_err": 115,
-        "away_sq_err": 41,
-        "matches_played": 29,
+        "points": 324,
+        "correct_outcome": 20,
+        "home_sq_err": 130,
+        "away_sq_err": 46,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -1033,15 +1364,59 @@
             "cumulative": 244
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 240
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-3",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 4,
+            "match_pts": 20,
+            "cumulative": 260
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "4-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 284
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-0",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 0,
             "match_pts": 25,
-            "cumulative": 269
+            "cumulative": 309
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-0",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": 15,
+            "cumulative": 324
           }
         ]
       },
@@ -1063,20 +1438,101 @@
       "third_place": null
     },
     "Gates_World_cup_2026": {
-      "total": 279,
+      "total": 366,
       "max_possible": 4600,
-      "pct_of_max": 6.1,
+      "pct_of_max": 8.0,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Elliot Anderson",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 11.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 7.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 5,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "Curacao",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 279,
-        "correct_outcome": 17,
-        "home_sq_err": 115,
-        "away_sq_err": 31,
-        "matches_played": 29,
+        "points": 336,
+        "correct_outcome": 20,
+        "home_sq_err": 130,
+        "away_sq_err": 34,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -1387,15 +1843,59 @@
             "cumulative": 255
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-2",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 250
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 273
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "4-1",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 296
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-1",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 1,
             "match_pts": 24,
-            "cumulative": 279
+            "cumulative": 320
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": 16,
+            "cumulative": 336
           }
         ]
       },
@@ -1417,20 +1917,101 @@
       "third_place": null
     },
     "IWB_World_cup_2026": {
-      "total": 225,
+      "total": 345,
       "max_possible": 4600,
-      "pct_of_max": 4.9,
+      "pct_of_max": 7.5,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Erling Braut Haaland",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Michael Olise",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 3.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 3.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 7,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 225,
-        "correct_outcome": 15,
-        "home_sq_err": 124,
-        "away_sq_err": 26,
-        "matches_played": 29,
+        "points": 315,
+        "correct_outcome": 19,
+        "home_sq_err": 133,
+        "away_sq_err": 27,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -1741,15 +2322,59 @@
             "cumulative": 201
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "0-1",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 226
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "0-1",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 251
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "3-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 276
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "1-0",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 1,
             "away_sq_err": 0,
             "match_pts": 24,
-            "cumulative": 225
+            "cumulative": 300
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-0",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": 15,
+            "cumulative": 315
           }
         ]
       },
@@ -1771,20 +2396,101 @@
       "third_place": null
     },
     "Jan_Erling_World_cup_2026": {
-      "total": 250,
+      "total": 341,
       "max_possible": 4600,
-      "pct_of_max": 5.4,
+      "pct_of_max": 7.4,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Michael Olise",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 16.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 10.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 6,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 250,
-        "correct_outcome": 16,
-        "home_sq_err": 108,
-        "away_sq_err": 42,
-        "matches_played": 29,
+        "points": 311,
+        "correct_outcome": 19,
+        "home_sq_err": 120,
+        "away_sq_err": 44,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -2095,15 +2801,59 @@
             "cumulative": 225
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "1-0",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": -2,
+            "cumulative": 223
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 246
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "2-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 270
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-0",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 0,
             "match_pts": 25,
-            "cumulative": 250
+            "cumulative": 295
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": 16,
+            "cumulative": 311
           }
         ]
       },
@@ -2125,20 +2875,101 @@
       "third_place": null
     },
     "Kolltveit-World_cup_2026": {
-      "total": 225,
+      "total": 297,
       "max_possible": 4600,
-      "pct_of_max": 4.9,
+      "pct_of_max": 6.5,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Harry Kane",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Désiré Doué",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 3.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 2.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 6,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Antonio Nusa",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 225,
-        "correct_outcome": 14,
-        "home_sq_err": 84,
-        "away_sq_err": 41,
-        "matches_played": 29,
+        "points": 267,
+        "correct_outcome": 16,
+        "home_sq_err": 90,
+        "away_sq_err": 43,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -2449,15 +3280,59 @@
             "cumulative": 200
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-2",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 195
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "0-0",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 0,
+            "away_sq_err": 1,
+            "match_pts": -1,
+            "cumulative": 194
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "4-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 218
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-0",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 0,
             "match_pts": 25,
-            "cumulative": 225
+            "cumulative": 243
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "4-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 267
           }
         ]
       },
@@ -2479,20 +3354,101 @@
       "third_place": null
     },
     "Kopi av World_cup_2026-Elin Arntzen": {
-      "total": 260,
+      "total": 358,
       "max_possible": 4600,
-      "pct_of_max": 5.7,
+      "pct_of_max": 7.8,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Lamine Yamal",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 9.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 6.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 260,
-        "correct_outcome": 15,
-        "home_sq_err": 92,
-        "away_sq_err": 23,
-        "matches_played": 29,
+        "points": 328,
+        "correct_outcome": 18,
+        "home_sq_err": 97,
+        "away_sq_err": 25,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -2803,15 +3759,59 @@
             "cumulative": 236
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-2",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 231
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "0-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 1,
+            "match_pts": 24,
+            "cumulative": 255
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "3-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 280
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-1",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 1,
             "match_pts": 24,
-            "cumulative": 260
+            "cumulative": 304
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "4-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 328
           }
         ]
       },
@@ -2833,20 +3833,101 @@
       "third_place": null
     },
     "Kopi av World_cup_2026_jh": {
-      "total": 198,
+      "total": 291,
       "max_possible": 4600,
-      "pct_of_max": 4.3,
+      "pct_of_max": 6.3,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Erling Braut Haaland",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Oscar Bobb",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 8.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 6.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 5,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Oscar Bobb",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "Haiti",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 198,
-        "correct_outcome": 14,
-        "home_sq_err": 119,
-        "away_sq_err": 33,
-        "matches_played": 29,
+        "points": 261,
+        "correct_outcome": 17,
+        "home_sq_err": 130,
+        "away_sq_err": 34,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -3157,15 +4238,59 @@
             "cumulative": 174
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "1-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 173
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "0-1",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 198
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "2-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 222
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "1-0",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 1,
             "away_sq_err": 0,
             "match_pts": 24,
-            "cumulative": 198
+            "cumulative": 246
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-0",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": 15,
+            "cumulative": 261
           }
         ]
       },
@@ -3187,20 +4312,101 @@
       "third_place": null
     },
     "Maiken world_cup_2026": {
-      "total": 292,
+      "total": 381,
       "max_possible": 4600,
-      "pct_of_max": 6.3,
+      "pct_of_max": 8.3,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Bruno Fernandes",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 7.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 4.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 292,
-        "correct_outcome": 16,
-        "home_sq_err": 85,
-        "away_sq_err": 23,
-        "matches_played": 29,
+        "points": 351,
+        "correct_outcome": 19,
+        "home_sq_err": 100,
+        "away_sq_err": 24,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -3511,15 +4717,59 @@
             "cumulative": 268
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 264
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 287
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "4-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 311
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-1",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 1,
             "match_pts": 24,
-            "cumulative": 292
+            "cumulative": 335
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": 16,
+            "cumulative": 351
           }
         ]
       },
@@ -3541,20 +4791,101 @@
       "third_place": null
     },
     "Sandven_World_cup_2026": {
-      "total": 298,
+      "total": 383,
       "max_possible": 4600,
-      "pct_of_max": 6.5,
+      "pct_of_max": 8.3,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Harry Kane",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Lamine Yamal",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 10.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 4.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Julian Ryerson",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 298,
-        "correct_outcome": 17,
-        "home_sq_err": 101,
-        "away_sq_err": 26,
-        "matches_played": 29,
+        "points": 353,
+        "correct_outcome": 20,
+        "home_sq_err": 118,
+        "away_sq_err": 29,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -3865,15 +5196,59 @@
             "cumulative": 274
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-0",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 269
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "0-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 1,
+            "match_pts": 24,
+            "cumulative": 293
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "5-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 314
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-1",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 1,
             "match_pts": 24,
-            "cumulative": 298
+            "cumulative": 338
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-0",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": 15,
+            "cumulative": 353
           }
         ]
       },
@@ -3895,20 +5270,101 @@
       "third_place": null
     },
     "Tone Vevatne - World Cup Competition 2026": {
-      "total": 261,
+      "total": 329,
       "max_possible": 4600,
-      "pct_of_max": 5.7,
+      "pct_of_max": 7.2,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Bruno Fernandes",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 11.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 5.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "Haiti",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 261,
-        "correct_outcome": 15,
-        "home_sq_err": 83,
+        "points": 299,
+        "correct_outcome": 17,
+        "home_sq_err": 95,
         "away_sq_err": 31,
-        "matches_played": 29,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -4219,15 +5675,59 @@
             "cumulative": 236
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "1-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 235
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 234
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "4-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 258
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-0",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 0,
             "match_pts": 25,
-            "cumulative": 261
+            "cumulative": 283
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": 16,
+            "cumulative": 299
           }
         ]
       },
@@ -4249,20 +5749,101 @@
       "third_place": null
     },
     "World_cup_2026 (Kuyper)": {
-      "total": 203,
+      "total": 237,
       "max_possible": 4600,
-      "pct_of_max": 4.4,
+      "pct_of_max": 5.2,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Erling Braut Haaland",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 8.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 6.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 203,
-        "correct_outcome": 14,
-        "home_sq_err": 122,
+        "points": 207,
+        "correct_outcome": 15,
+        "home_sq_err": 143,
         "away_sq_err": 25,
-        "matches_played": 29,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -4573,15 +6154,59 @@
             "cumulative": 208
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 204
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 203
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "3-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 228
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "0-1",
             "actual": "2-0",
             "outcome_pts": 0,
             "home_sq_err": 4,
             "away_sq_err": 1,
             "match_pts": -5,
-            "cumulative": 203
+            "cumulative": 223
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "1-1",
+            "actual": "5-1",
+            "outcome_pts": 0,
+            "home_sq_err": 16,
+            "away_sq_err": 0,
+            "match_pts": -16,
+            "cumulative": 207
           }
         ]
       },
@@ -4603,20 +6228,101 @@
       "third_place": null
     },
     "World_cup_2026.gulli": {
-      "total": 199,
+      "total": 292,
       "max_possible": 4600,
-      "pct_of_max": 4.3,
+      "pct_of_max": 6.3,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Lamine Yamal",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Harry Kane",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 9.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 6.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 3,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Fredrik Aursnes",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": null,
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 199,
-        "correct_outcome": 14,
-        "home_sq_err": 118,
-        "away_sq_err": 33,
-        "matches_played": 29,
+        "points": 262,
+        "correct_outcome": 17,
+        "home_sq_err": 129,
+        "away_sq_err": 34,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -4927,15 +6633,59 @@
             "cumulative": 175
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "1-0",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": -2,
+            "cumulative": 173
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "0-1",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 198
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "2-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 222
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "1-0",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 1,
             "away_sq_err": 0,
             "match_pts": 24,
-            "cumulative": 199
+            "cumulative": 246
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": 16,
+            "cumulative": 262
           }
         ]
       },
@@ -4957,20 +6707,101 @@
       "third_place": null
     },
     "World_cup_2026_aase": {
-      "total": 314,
+      "total": 408,
       "max_possible": 4600,
-      "pct_of_max": 6.8,
+      "pct_of_max": 8.9,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Erling Braut Haaland",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Michael Olise",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 12.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 9.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 8,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Julian Ryerson",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 314,
-        "correct_outcome": 17,
-        "home_sq_err": 92,
-        "away_sq_err": 19,
-        "matches_played": 29,
+        "points": 378,
+        "correct_outcome": 20,
+        "home_sq_err": 100,
+        "away_sq_err": 22,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -5281,15 +7112,59 @@
             "cumulative": 316
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-0",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 311
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "0-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 1,
+            "match_pts": 24,
+            "cumulative": 335
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "3-1",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 1,
+            "match_pts": 24,
+            "cumulative": 359
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "1-1",
             "actual": "2-0",
             "outcome_pts": 0,
             "home_sq_err": 1,
             "away_sq_err": 1,
             "match_pts": -2,
-            "cumulative": 314
+            "cumulative": 357
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "3-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 378
           }
         ]
       },
@@ -5311,20 +7186,101 @@
       "third_place": null
     },
     "World_cup_2026_anna": {
-      "total": 251,
+      "total": 332,
       "max_possible": 4600,
-      "pct_of_max": 5.5,
+      "pct_of_max": 7.2,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Harry Kane",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Michael Olise",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": null,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": null,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Oscar Bobb",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Equal. They will go out in the same round",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 251,
-        "correct_outcome": 15,
-        "home_sq_err": 87,
-        "away_sq_err": 37,
-        "matches_played": 29,
+        "points": 302,
+        "correct_outcome": 18,
+        "home_sq_err": 108,
+        "away_sq_err": 40,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -5635,15 +7591,59 @@
             "cumulative": 228
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-0",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 223
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "0-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 1,
+            "match_pts": 24,
+            "cumulative": 247
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "2-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 271
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "3-1",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 1,
             "away_sq_err": 1,
             "match_pts": 23,
-            "cumulative": 251
+            "cumulative": 294
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "1-0",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 16,
+            "away_sq_err": 1,
+            "match_pts": 8,
+            "cumulative": 302
           }
         ]
       },
@@ -5665,20 +7665,101 @@
       "third_place": null
     },
     "World_cup_2026_Bjørn_F": {
-      "total": 320,
+      "total": 418,
       "max_possible": 4600,
-      "pct_of_max": 7.0,
+      "pct_of_max": 9.1,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Erling Braut Haaland",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Ousmane Dembélé",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 10.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 5.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 7,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 320,
-        "correct_outcome": 17,
-        "home_sq_err": 78,
-        "away_sq_err": 27,
-        "matches_played": 29,
+        "points": 388,
+        "correct_outcome": 20,
+        "home_sq_err": 83,
+        "away_sq_err": 29,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -5989,15 +8070,59 @@
             "cumulative": 296
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 292
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "0-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 1,
+            "match_pts": 24,
+            "cumulative": 316
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "4-1",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 339
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "1-0",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 1,
             "away_sq_err": 0,
             "match_pts": 24,
-            "cumulative": 320
+            "cumulative": 363
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "5-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 388
           }
         ]
       },
@@ -6019,20 +8144,101 @@
       "third_place": null
     },
     "World_cup_2026_CL": {
-      "total": 413,
+      "total": 503,
       "max_possible": 4600,
-      "pct_of_max": 9.0,
+      "pct_of_max": 10.9,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Bruno Fernandes",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 7.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 5.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Julian Ryerson",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 413,
-        "correct_outcome": 21,
-        "home_sq_err": 81,
-        "away_sq_err": 31,
-        "matches_played": 29,
+        "points": 473,
+        "correct_outcome": 24,
+        "home_sq_err": 95,
+        "away_sq_err": 32,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -6343,15 +8549,59 @@
             "cumulative": 417
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "3-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 408
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 431
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "3-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 456
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-2",
             "actual": "2-0",
             "outcome_pts": 0,
             "home_sq_err": 0,
             "away_sq_err": 4,
             "match_pts": -4,
-            "cumulative": 413
+            "cumulative": 452
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "3-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 473
           }
         ]
       },
@@ -6373,20 +8623,101 @@
       "third_place": null
     },
     "World_cup_2026_Dagfinn": {
-      "total": 180,
+      "total": 273,
       "max_possible": 4600,
-      "pct_of_max": 3.9,
+      "pct_of_max": 5.9,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Bruno Fernandes",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 10.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 6.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Julian Ryerson",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 180,
-        "correct_outcome": 14,
-        "home_sq_err": 134,
-        "away_sq_err": 36,
-        "matches_played": 29,
+        "points": 243,
+        "correct_outcome": 17,
+        "home_sq_err": 143,
+        "away_sq_err": 39,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -6697,15 +9028,59 @@
             "cumulative": 155
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "1-0",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": -2,
+            "cumulative": 153
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "0-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 1,
+            "match_pts": 24,
+            "cumulative": 177
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "5-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 198
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-0",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 0,
             "match_pts": 25,
-            "cumulative": 180
+            "cumulative": 223
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "3-2",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": 20,
+            "cumulative": 243
           }
         ]
       },
@@ -6727,20 +9102,101 @@
       "third_place": null
     },
     "World_cup_2026_Daniel_Naurin": {
-      "total": 290,
+      "total": 381,
       "max_possible": 4600,
-      "pct_of_max": 6.3,
+      "pct_of_max": 8.3,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Bruno Fernandes",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 11.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 7.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Equal. They will go out in the same round",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "Curacao",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 290,
-        "correct_outcome": 16,
-        "home_sq_err": 75,
-        "away_sq_err": 35,
-        "matches_played": 29,
+        "points": 351,
+        "correct_outcome": 19,
+        "home_sq_err": 84,
+        "away_sq_err": 40,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -7051,15 +9507,59 @@
             "cumulative": 265
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-0",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 260
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-3",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 4,
+            "match_pts": 20,
+            "cumulative": 280
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "3-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 305
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-0",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 0,
             "match_pts": 25,
-            "cumulative": 290
+            "cumulative": 330
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "3-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 351
           }
         ]
       },
@@ -7081,20 +9581,101 @@
       "third_place": null
     },
     "World_cup_2026_gabriel": {
-      "total": 275,
+      "total": 370,
       "max_possible": 4600,
-      "pct_of_max": 6.0,
+      "pct_of_max": 8.0,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Lamine Yamal",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Lionel Messi",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 7.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 4.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 275,
-        "correct_outcome": 15,
-        "home_sq_err": 72,
-        "away_sq_err": 28,
-        "matches_played": 29,
+        "points": 340,
+        "correct_outcome": 18,
+        "home_sq_err": 81,
+        "away_sq_err": 29,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -7405,15 +9986,59 @@
             "cumulative": 277
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 273
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 296
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "3-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 321
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "1-1",
             "actual": "2-0",
             "outcome_pts": 0,
             "home_sq_err": 1,
             "away_sq_err": 1,
             "match_pts": -2,
-            "cumulative": 275
+            "cumulative": 319
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "3-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 340
           }
         ]
       },
@@ -7435,20 +10060,101 @@
       "third_place": null
     },
     "World_cup_2026_goldstein": {
-      "total": 282,
+      "total": 311,
       "max_possible": 4600,
-      "pct_of_max": 6.1,
+      "pct_of_max": 6.8,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Harry Kane",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Lamine Yamal",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 9.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 8.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 6,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 282,
-        "correct_outcome": 16,
-        "home_sq_err": 91,
-        "away_sq_err": 27,
-        "matches_played": 29,
+        "points": 281,
+        "correct_outcome": 17,
+        "home_sq_err": 116,
+        "away_sq_err": 28,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -7759,15 +10465,59 @@
             "cumulative": 258
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-0",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 253
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 252
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "5-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 273
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-1",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 1,
             "match_pts": 24,
-            "cumulative": 282
+            "cumulative": 297
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "1-1",
+            "actual": "5-1",
+            "outcome_pts": 0,
+            "home_sq_err": 16,
+            "away_sq_err": 0,
+            "match_pts": -16,
+            "cumulative": 281
           }
         ]
       },
@@ -7789,20 +10539,101 @@
       "third_place": null
     },
     "world_cup_2026_hs": {
-      "total": 249,
+      "total": 335,
       "max_possible": 4600,
-      "pct_of_max": 5.4,
+      "pct_of_max": 7.3,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Harry Kane",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Bruno Fernandes",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 5.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 3.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 3,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Equal. They will go out in the same round",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 249,
-        "correct_outcome": 15,
-        "home_sq_err": 87,
-        "away_sq_err": 39,
-        "matches_played": 29,
+        "points": 305,
+        "correct_outcome": 18,
+        "home_sq_err": 105,
+        "away_sq_err": 40,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -8113,15 +10944,59 @@
             "cumulative": 225
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 221
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 244
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "5-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 265
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-1",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 1,
             "match_pts": 24,
-            "cumulative": 249
+            "cumulative": 289
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": 16,
+            "cumulative": 305
           }
         ]
       },
@@ -8143,20 +11018,101 @@
       "third_place": null
     },
     "World_cup_2026_Jana Blahak": {
-      "total": 219,
+      "total": 339,
       "max_possible": 4600,
-      "pct_of_max": 4.8,
+      "pct_of_max": 7.4,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Edin Dzeko",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Michael Olise",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 10.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 8.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 10,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "Haiti",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 219,
-        "correct_outcome": 15,
-        "home_sq_err": 118,
-        "away_sq_err": 38,
-        "matches_played": 29,
+        "points": 309,
+        "correct_outcome": 19,
+        "home_sq_err": 123,
+        "away_sq_err": 43,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -8467,15 +11423,59 @@
             "cumulative": 195
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "0-3",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 4,
+            "match_pts": 21,
+            "cumulative": 216
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "0-1",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 241
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "2-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 265
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-1",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 1,
             "match_pts": 24,
-            "cumulative": 219
+            "cumulative": 289
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "3-0",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": 20,
+            "cumulative": 309
           }
         ]
       },
@@ -8497,20 +11497,101 @@
       "third_place": null
     },
     "World_cup_2026_javier": {
-      "total": 182,
+      "total": 275,
       "max_possible": 4600,
-      "pct_of_max": 4.0,
+      "pct_of_max": 6.0,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Lamine Yamal",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 5.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 3.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Leandro Trossard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 182,
-        "correct_outcome": 13,
-        "home_sq_err": 109,
-        "away_sq_err": 34,
-        "matches_played": 29,
+        "points": 245,
+        "correct_outcome": 16,
+        "home_sq_err": 120,
+        "away_sq_err": 35,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -8821,15 +11902,59 @@
             "cumulative": 158
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "1-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 157
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 180
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "3-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 205
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "1-0",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 1,
             "away_sq_err": 0,
             "match_pts": 24,
-            "cumulative": 182
+            "cumulative": 229
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": 16,
+            "cumulative": 245
           }
         ]
       },
@@ -8851,20 +11976,101 @@
       "third_place": null
     },
     "World_cup_2026_JonasSchmid": {
-      "total": 242,
+      "total": 326,
       "max_possible": 4600,
-      "pct_of_max": 5.3,
+      "pct_of_max": 7.1,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Bruno Fernandes",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 6.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 3.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 242,
-        "correct_outcome": 16,
-        "home_sq_err": 124,
-        "away_sq_err": 34,
-        "matches_played": 29,
+        "points": 296,
+        "correct_outcome": 19,
+        "home_sq_err": 142,
+        "away_sq_err": 37,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -9175,15 +12381,59 @@
             "cumulative": 218
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "1-0",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": -2,
+            "cumulative": 216
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "0-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 1,
+            "match_pts": 24,
+            "cumulative": 240
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "2-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 264
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "1-0",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 1,
             "away_sq_err": 0,
             "match_pts": 24,
-            "cumulative": 242
+            "cumulative": 288
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "1-0",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 16,
+            "away_sq_err": 1,
+            "match_pts": 8,
+            "cumulative": 296
           }
         ]
       },
@@ -9205,20 +12455,101 @@
       "third_place": null
     },
     "World_cup_2026_Karin": {
-      "total": 187,
+      "total": 249,
       "max_possible": 4600,
-      "pct_of_max": 4.1,
+      "pct_of_max": 5.4,
       "questions": {
         "points": 0,
         "correct": 0,
-        "detail": {}
+        "detail": {
+          "first_goal_team": {
+            "predicted": "South Africa",
+            "actual": "Mexico",
+            "correct": false
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Michael Olise",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 4.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 3.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Julian Ryerson",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Equal. They will go out in the same round",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 187,
-        "correct_outcome": 13,
-        "home_sq_err": 109,
-        "away_sq_err": 29,
-        "matches_played": 29,
+        "points": 249,
+        "correct_outcome": 16,
+        "home_sq_err": 120,
+        "away_sq_err": 31,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -9529,15 +12860,59 @@
             "cumulative": 191
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "1-0",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": -2,
+            "cumulative": 189
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 212
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "3-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 237
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-2",
             "actual": "2-0",
             "outcome_pts": 0,
             "home_sq_err": 0,
             "away_sq_err": 4,
             "match_pts": -4,
-            "cumulative": 187
+            "cumulative": 233
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": 16,
+            "cumulative": 249
           }
         ]
       },
@@ -9559,20 +12934,101 @@
       "third_place": null
     },
     "World_cup_2026_lutscher": {
-      "total": 293,
+      "total": 384,
       "max_possible": 4600,
-      "pct_of_max": 6.4,
+      "pct_of_max": 8.3,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Bruno Fernandes",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 6.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 4.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 5,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 293,
-        "correct_outcome": 17,
-        "home_sq_err": 100,
-        "away_sq_err": 32,
-        "matches_played": 29,
+        "points": 354,
+        "correct_outcome": 20,
+        "home_sq_err": 112,
+        "away_sq_err": 34,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -9883,15 +13339,59 @@
             "cumulative": 268
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "1-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 291
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 290
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "2-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 314
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-0",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 0,
             "match_pts": 25,
-            "cumulative": 293
+            "cumulative": 339
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-0",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": 15,
+            "cumulative": 354
           }
         ]
       },
@@ -9913,20 +13413,101 @@
       "third_place": null
     },
     "World_cup_2026_Martin_S": {
-      "total": 54,
+      "total": 125,
       "max_possible": 4600,
-      "pct_of_max": 1.2,
+      "pct_of_max": 2.7,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Harry Kane",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Bruno Fernandes",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 6.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 3.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 11,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Julian Ryerson",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 54,
-        "correct_outcome": 12,
-        "home_sq_err": 177,
-        "away_sq_err": 69,
-        "matches_played": 29,
+        "points": 95,
+        "correct_outcome": 14,
+        "home_sq_err": 185,
+        "away_sq_err": 70,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -10237,15 +13818,59 @@
             "cumulative": 62
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 58
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "2-2",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 53
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "3-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 78
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "0-2",
             "actual": "2-0",
             "outcome_pts": 0,
             "home_sq_err": 4,
             "away_sq_err": 4,
             "match_pts": -8,
-            "cumulative": 54
+            "cumulative": 70
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "5-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 95
           }
         ]
       },
@@ -10267,20 +13892,101 @@
       "third_place": null
     },
     "World_cup_2026_MIRO": {
-      "total": 276,
+      "total": 344,
       "max_possible": 4600,
-      "pct_of_max": 6.0,
+      "pct_of_max": 7.5,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Erling Braut Haaland",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Kevin De Bruyne",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 17.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 6.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 6,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 276,
-        "correct_outcome": 16,
-        "home_sq_err": 88,
-        "away_sq_err": 36,
-        "matches_played": 29,
+        "points": 314,
+        "correct_outcome": 18,
+        "home_sq_err": 99,
+        "away_sq_err": 37,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -10591,15 +14297,59 @@
             "cumulative": 252
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "1-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 251
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 250
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "3-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 275
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-1",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 1,
             "match_pts": 24,
-            "cumulative": 276
+            "cumulative": 299
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-0",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": 15,
+            "cumulative": 314
           }
         ]
       },
@@ -10621,20 +14371,20 @@
       "third_place": null
     },
     "world_cup_2026_oyvind": {
-      "total": 345,
+      "total": 401,
       "max_possible": 4600,
-      "pct_of_max": 7.5,
+      "pct_of_max": 8.7,
       "questions": {
         "points": 0,
         "correct": 0,
         "detail": {}
       },
       "group_stage": {
-        "points": 345,
-        "correct_outcome": 19,
-        "home_sq_err": 99,
-        "away_sq_err": 31,
-        "matches_played": 29,
+        "points": 401,
+        "correct_outcome": 22,
+        "home_sq_err": 113,
+        "away_sq_err": 36,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -10945,15 +14695,59 @@
             "cumulative": 321
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 317
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "0-3",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 4,
+            "match_pts": 21,
+            "cumulative": 338
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "2-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 362
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "3-0",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 1,
             "away_sq_err": 0,
             "match_pts": 24,
-            "cumulative": 345
+            "cumulative": 386
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-0",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": 15,
+            "cumulative": 401
           }
         ]
       },
@@ -10975,20 +14769,101 @@
       "third_place": null
     },
     "World_cup_2026_Povitkina": {
-      "total": 99,
+      "total": 155,
       "max_possible": 4600,
-      "pct_of_max": 2.2,
+      "pct_of_max": 3.4,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": null,
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Lionel Messi",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 8.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 4.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 1,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Erling Braut Haaland",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 99,
-        "correct_outcome": 10,
-        "home_sq_err": 107,
-        "away_sq_err": 44,
-        "matches_played": 29,
+        "points": 125,
+        "correct_outcome": 12,
+        "home_sq_err": 130,
+        "away_sq_err": 45,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -11299,15 +15174,59 @@
             "cumulative": 104
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 100
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "3-2",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": -10,
+            "cumulative": 90
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "4-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 114
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "1-2",
             "actual": "2-0",
             "outcome_pts": 0,
             "home_sq_err": 1,
             "away_sq_err": 4,
             "match_pts": -5,
-            "cumulative": 99
+            "cumulative": 109
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": 16,
+            "cumulative": 125
           }
         ]
       },
@@ -11329,20 +15248,101 @@
       "third_place": null
     },
     "World_cup_2026_stiansen": {
-      "total": 272,
+      "total": 365,
       "max_possible": 4600,
-      "pct_of_max": 5.9,
+      "pct_of_max": 7.9,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Harry Kane",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Pedri",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 9.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 4.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 272,
-        "correct_outcome": 16,
-        "home_sq_err": 101,
-        "away_sq_err": 27,
-        "matches_played": 29,
+        "points": 335,
+        "correct_outcome": 19,
+        "home_sq_err": 111,
+        "away_sq_err": 29,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -11653,15 +15653,59 @@
             "cumulative": 248
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "1-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 247
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "0-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 1,
+            "match_pts": 24,
+            "cumulative": 271
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "3-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 296
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-1",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 1,
             "match_pts": 24,
-            "cumulative": 272
+            "cumulative": 320
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-0",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": 15,
+            "cumulative": 335
           }
         ]
       },
@@ -11683,20 +15727,101 @@
       "third_place": null
     },
     "World_cup_2026_StineHesstvedt_1106": {
-      "total": 263,
+      "total": 357,
       "max_possible": 4600,
-      "pct_of_max": 5.7,
+      "pct_of_max": 7.8,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Lamine Yamal",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 10.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 8.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 8,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "Curacao",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 263,
-        "correct_outcome": 16,
-        "home_sq_err": 105,
-        "away_sq_err": 32,
-        "matches_played": 29,
+        "points": 327,
+        "correct_outcome": 19,
+        "home_sq_err": 113,
+        "away_sq_err": 35,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -12007,15 +16132,59 @@
             "cumulative": 238
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-0",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 233
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "0-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 1,
+            "match_pts": 24,
+            "cumulative": 257
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "3-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 282
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-0",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 0,
             "match_pts": 25,
-            "cumulative": 263
+            "cumulative": 307
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "3-0",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": 20,
+            "cumulative": 327
           }
         ]
       },
@@ -12037,20 +16206,101 @@
       "third_place": null
     },
     "World_cup_2026_Vilde Hernes": {
-      "total": 122,
+      "total": 212,
       "max_possible": 4600,
-      "pct_of_max": 2.7,
+      "pct_of_max": 4.6,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Kylian Mbappé",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Achraf Hakimi",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 8.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 6.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 7,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Julian Ryerson",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 122,
-        "correct_outcome": 11,
-        "home_sq_err": 115,
-        "away_sq_err": 38,
-        "matches_played": 29,
+        "points": 182,
+        "correct_outcome": 14,
+        "home_sq_err": 128,
+        "away_sq_err": 40,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -12361,15 +16611,59 @@
             "cumulative": 98
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-2",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 93
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-2",
+            "actual": "0-1",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 116
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "5-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 137
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-1",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 1,
             "match_pts": 24,
-            "cumulative": 122
+            "cumulative": 161
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "3-1",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 182
           }
         ]
       },
@@ -12391,20 +16685,101 @@
       "third_place": null
     },
     "World_cup_2026_ØB": {
-      "total": 154,
+      "total": 218,
       "max_possible": 4600,
-      "pct_of_max": 3.3,
+      "pct_of_max": 4.7,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 30,
+        "correct": 1,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Harry Kane",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Rafael Leão",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "games_extra_time": {
+            "predicted": 10.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 7.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 8,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "Curacao",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 154,
-        "correct_outcome": 12,
-        "home_sq_err": 116,
-        "away_sq_err": 30,
-        "matches_played": 29,
+        "points": 188,
+        "correct_outcome": 14,
+        "home_sq_err": 130,
+        "away_sq_err": 32,
+        "matches_played": 33,
         "running": [
           {
             "match": 1,
@@ -12715,15 +17090,59 @@
             "cumulative": 130
           },
           {
-            "match": 31,
+            "match": 32,
             "play_order": 29,
+            "pred": "2-0",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 125
+          },
+          {
+            "match": 30,
+            "play_order": 30,
+            "pred": "1-1",
+            "actual": "0-1",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 124
+          },
+          {
+            "match": 29,
+            "play_order": 31,
+            "pred": "3-0",
+            "actual": "3-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 149
+          },
+          {
+            "match": 31,
+            "play_order": 32,
             "pred": "2-1",
             "actual": "2-0",
             "outcome_pts": 25,
             "home_sq_err": 0,
             "away_sq_err": 1,
             "match_pts": 24,
-            "cumulative": 154
+            "cumulative": 173
+          },
+          {
+            "match": 35,
+            "play_order": 33,
+            "pred": "2-0",
+            "actual": "5-1",
+            "outcome_pts": 25,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": 15,
+            "cumulative": 188
           }
         ]
       },

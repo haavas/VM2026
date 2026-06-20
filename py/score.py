@@ -551,14 +551,41 @@ def score(fasit_path: str = None,
 
     print(f"\nScoring {len(preds['players'])} player(s)...\n")
 
+    correct_answers_path = root / "fasit" / "correct_answers.json"
+    correct_answers = None
+    if correct_answers_path.exists():
+        with open(correct_answers_path, encoding="utf-8") as f:
+            ca = json.load(f)
+        correct_answers = ca.get("correct_answers")
+        filled = sum(1 for v in correct_answers.values() if v is not None)
+        print(f"Loaded correct_answers.json ({filled}/{len(correct_answers)} answered)")
+    else:
+        print("No correct_answers.json found in fasit/ — qualitative scoring skipped")
+
+    # Load qualitative answers keyed by excel_file stem (matches predictions.json player keys)
+    qualitative_by_player = {}
+    qualitative_path = root / "gData" / "qualitative.json"
+    if qualitative_path.exists():
+        with open(qualitative_path, encoding="utf-8") as f:
+            qual = json.load(f)
+        for resp in qual.get("responses", []):
+            excel_file = resp.get("excel_file")
+            if excel_file:
+                stem = Path(excel_file).stem
+                qualitative_by_player[stem] = resp
+        print(f"Loaded qualitative.json ({len(qualitative_by_player)} responses matched by excel_file)")
+    else:
+        print("No qualitative.json found in gData/ — qualitative answers unavailable")
+
     scores = {}
 
     for player, data in preds["players"].items():
         gs     = score_group_stage(data["group_stage"], fasit["group_stage"])
         ko     = score_knockout(data["knockout"],       fasit["knockout"])
         medals = score_medals(data, fasit)
-        # Questions not in predictions.json yet — placeholder (0 pts)
-        qs     = score_questions(data.get("questions"), None)
+        abbr   = data.get("abbr")
+        player_q_answers = qualitative_by_player.get(player)
+        qs     = score_questions(player_q_answers, correct_answers)
 
         total = qs["points"] + gs["points"] + ko["points"] + medals["points"]
 

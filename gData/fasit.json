@@ -225,12 +225,44 @@
       "play_order": 28
     },
     {
+      "match": 29,
+      "home": "Brazil",
+      "away": "Haiti",
+      "home_goals": 3,
+      "away_goals": 0,
+      "play_order": 31
+    },
+    {
+      "match": 30,
+      "home": "Scotland",
+      "away": "Morocco",
+      "home_goals": 0,
+      "away_goals": 1,
+      "play_order": 30
+    },
+    {
       "match": 31,
       "home": "United States",
       "away": "Australia",
       "home_goals": 2,
       "away_goals": 0,
+      "play_order": 32
+    },
+    {
+      "match": 32,
+      "home": "Turkey",
+      "away": "Paraguay",
+      "home_goals": 0,
+      "away_goals": 1,
       "play_order": 29
+    },
+    {
+      "match": 35,
+      "home": "Netherlands",
+      "away": "Sweden",
+      "home_goals": 5,
+      "away_goals": 1,
+      "play_order": 33
     }
   ],
   "knockout": [],

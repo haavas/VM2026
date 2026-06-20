@@ -1,0 +1,15 @@
+{
+  "hash": "7de2f0ecb8d3998de25fb112abda5913",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Vinicius Jr. wasn't dead\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-20 11:17:00\"\ncategories: [Update]\n---\n\n# Brazil and Morocco are through\n\nBrazil and Morocco won their games and are through. \n\nParaguay beat Turkey with 10 men for the second half, after Almiron spoke with an opponent with his hand in front of his mouth. However, Turkey are out, as the first team. \n\nSome of the dates of the games in the Excel form are wrong, which causes some problems. Today's update is therefore compared to the situation five games ago.\n\nChristian is still in the lead, 66 points ahead of Øyvind. Today's rockets are Jana and Ida. Ida got all three games correct!\n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
