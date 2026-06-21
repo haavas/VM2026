@@ -1,0 +1,17 @@
+{
+  "hash": "5dd5651f5f05ea511dd1b3da2c006d99",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Spain recovers\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-21 21:05:00\"\ncategories: [Update]\n---\n\n# Spain beats Saudi-Arabia properly.\n\nIn a world cup with many uninteresting games that has turned interesting, not least because of Spain, it is reassuring to find an uninteresting uninteresting game. Which this was. We all thought this would happen, but disagreed on the score.\n\nFour of us had the correct score. Christian is joined Martin, Jacob and myself. But we all got between 20 and 25 points, so this game changes very little.\n\nChristian is 83 points ahead of Øyvind. \n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/scatter_points-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

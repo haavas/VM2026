@@ -10,7 +10,81 @@
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sat, 20 Jun 2026 22:21:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 21 Jun 2026 19:05:00 GMT</lastBuildDate>
+<item>
+  <title>Spain recovers</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-21-spain-recovers/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="spain-beats-saudi-arabia-properly." class="level1">
+<h1>Spain beats Saudi-Arabia properly.</h1>
+<p>In a world cup with many uninteresting games that has turned interesting, not least because of Spain, it is reassuring to find an uninteresting uninteresting game. Which this was. We all thought this would happen, but disagreed on the score.</p>
+<p>Four of us had the correct score. Christian is joined Martin, Jacob and myself. But we all got between 20 and 25 points, so this game changes very little.</p>
+<p>Christian is 83 points ahead of Øyvind.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-21-spain-recovers/standings.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-21-spain-recovers/index_files/figure-html/scatter_points-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-21-spain-recovers/</guid>
+  <pubDate>Sun, 21 Jun 2026 19:05:00 GMT</pubDate>
+</item>
+<item>
+  <title>Tunisia are out</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-21-tunisia-are-out/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="ecuador-didnt-beat-curacao" class="level1">
+<h1>Ecuador didn’t beat Curacao</h1>
+<p>Surprisingly, Curacao held Ecuador to a draw. It is as such not impossible that Curacao makes it through to the knockout phase. But it is not likely either, as they have to beat the beautiful, impressive, massive Ivory Coast. Ecuador face Germany, and stranger things have happened.</p>
+<p>Christian ended up exactly where we was two games ago, and Øyvind has moved closer. The gap is now 82 points. Scott and Stine are the Rockets of the Round, blasting up the standings. Scott is now third.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-21-tunisia-are-out/standings.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-21-tunisia-are-out/</guid>
+  <pubDate>Sun, 21 Jun 2026 10:09:00 GMT</pubDate>
+</item>
 <item>
   <title>Germany is top of group E</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -918,82 +992,6 @@ Weber, Max. 1946. <span>“Politics as a Vocation.”</span> In <em>From Max Web
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-14-an-administrative-mistake/</guid>
   <pubDate>Sat, 13 Jun 2026 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Brazil vs. Morocco</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-14-brazil-vs-morocco/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="brazil-vs.-morocco" class="level1">
-<h1>Brazil vs.&nbsp;Morocco</h1>
-<p>The first half was amazing, and the best half so far in this cup. The second half was not so good.</p>
-<p>Åse is in the lead, followed by Christian, Linda, Jon, Ida and Karin. Elin, Hallvard and Øyvind have been distanced somewhat, and joined by a gang of four. But much can still happen</p>
-<p>The colors are a bit off here. My system finds it hard to cope with game 7 being played after game 8. It is a bit late to mend that now.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-14-brazil-vs-morocco/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>No less than five players had the correct result from this game, while Karin had 2-2. Jostein and Elin had Morocco as winners, and that could have happened as Allison almost gave away a goal in injury time.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-14-brazil-vs-morocco/index_files/figure-html/scatter_points-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-14-brazil-vs-morocco/</guid>
-  <pubDate>Sat, 13 Jun 2026 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>El Infantinity</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-13-el-infantinity/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="switzerland-vs-qatar" class="level1">
-<h1>Switzerland vs Qatar</h1>
-<p>A game between Infantino’s original home country and his adopted home country. The man is widely assumed to be “influentialable”, but who will he support today? Or, who will support him? The offside after 15 minutes was interesting, but in the end the game was a draw.</p>
-<p>So, what does that with our competiton?</p>
-<p>Scoll down to the bottom, and admire Marina’s reenactment of dr. Stockman’s stance. “The strongest man in the world is he who stands most alone”. Linda remain in front of the race, as very little changed after this game.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-13-el-infantinity/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-13-el-infantinity/</guid>
-  <pubDate>Sat, 13 Jun 2026 21:21:47 GMT</pubDate>
 </item>
 </channel>
 </rss>

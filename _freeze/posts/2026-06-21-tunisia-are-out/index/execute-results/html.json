@@ -1,0 +1,15 @@
+{
+  "hash": "3c3f4d303f7f6bdb4f44abfa350e947e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Tunisia are out\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-21 12:09:00\"\ncategories: [Update]\n---\n\n# Ecuador didn't beat Curacao\n\nSurprisingly, Curacao held Ecuador to a draw. It is as such not impossible that Curacao makes it through to the knockout phase. But it is not likely either, as they have to beat the beautiful, impressive, massive Ivory Coast. Ecuador face Germany, and stranger things have happened.\n\n\n\n::: {.cell}\n\n:::\n\n\nChristian ended up exactly where we was two games ago, and Øyvind has moved closer. The gap is now 82 points. Scott and Stine are the Rockets of the Round, blasting up the standings. Scott is now third.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

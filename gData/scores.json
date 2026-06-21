@@ -1,9 +1,9 @@
 {
   "players": {
     "Copy of World_cup_2026.TomC": {
-      "total": 297,
+      "total": 307,
       "max_possible": 4600,
-      "pct_of_max": 6.5,
+      "pct_of_max": 6.7,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -91,11 +91,11 @@
         }
       },
       "group_stage": {
-        "points": 267,
-        "correct_outcome": 17,
-        "home_sq_err": 134,
-        "away_sq_err": 24,
-        "matches_played": 34,
+        "points": 277,
+        "correct_outcome": 18,
+        "home_sq_err": 140,
+        "away_sq_err": 33,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -470,6 +470,39 @@
             "away_sq_err": 0,
             "match_pts": 25,
             "cumulative": 267
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 263
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "1-1",
+            "actual": "0-4",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 9,
+            "match_pts": -10,
+            "cumulative": 253
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 277
           }
         ]
       },
@@ -491,9 +524,9 @@
       "third_place": null
     },
     "Copy of World_cup_2026_Jacob": {
-      "total": 141,
+      "total": 178,
       "max_possible": 4600,
-      "pct_of_max": 3.1,
+      "pct_of_max": 3.9,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -581,11 +614,11 @@
         }
       },
       "group_stage": {
-        "points": 111,
-        "correct_outcome": 17,
-        "home_sq_err": 145,
-        "away_sq_err": 169,
-        "matches_played": 34,
+        "points": 148,
+        "correct_outcome": 19,
+        "home_sq_err": 154,
+        "away_sq_err": 173,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -960,6 +993,39 @@
             "away_sq_err": 1,
             "match_pts": 23,
             "cumulative": 111
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "3-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 102
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 4,
+            "match_pts": 21,
+            "cumulative": 123
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "4-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 148
           }
         ]
       },
@@ -981,9 +1047,9 @@
       "third_place": null
     },
     "Copy of World_cup_2026_Jostein": {
-      "total": 353,
+      "total": 357,
       "max_possible": 4600,
-      "pct_of_max": 7.7,
+      "pct_of_max": 7.8,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -1071,11 +1137,11 @@
         }
       },
       "group_stage": {
-        "points": 323,
-        "correct_outcome": 20,
-        "home_sq_err": 131,
-        "away_sq_err": 46,
-        "matches_played": 34,
+        "points": 327,
+        "correct_outcome": 21,
+        "home_sq_err": 136,
+        "away_sq_err": 62,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -1450,6 +1516,39 @@
             "away_sq_err": 0,
             "match_pts": -1,
             "cumulative": 323
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "1-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 322
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-0",
+            "actual": "0-4",
+            "outcome_pts": 0,
+            "home_sq_err": 0,
+            "away_sq_err": 16,
+            "match_pts": -16,
+            "cumulative": 306
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "2-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 327
           }
         ]
       },
@@ -1471,9 +1570,9 @@
       "third_place": null
     },
     "Gates_World_cup_2026": {
-      "total": 390,
+      "total": 458,
       "max_possible": 4600,
-      "pct_of_max": 8.5,
+      "pct_of_max": 10.0,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -1561,11 +1660,11 @@
         }
       },
       "group_stage": {
-        "points": 360,
-        "correct_outcome": 21,
-        "home_sq_err": 131,
-        "away_sq_err": 34,
-        "matches_played": 34,
+        "points": 428,
+        "correct_outcome": 24,
+        "home_sq_err": 132,
+        "away_sq_err": 40,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -1940,6 +2039,39 @@
             "away_sq_err": 0,
             "match_pts": 24,
             "cumulative": 360
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "1-1",
+            "actual": "0-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 383
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 4,
+            "match_pts": 21,
+            "cumulative": 404
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "4-1",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 1,
+            "match_pts": 24,
+            "cumulative": 428
           }
         ]
       },
@@ -1961,9 +2093,9 @@
       "third_place": null
     },
     "IWB_World_cup_2026": {
-      "total": 370,
+      "total": 408,
       "max_possible": 4600,
-      "pct_of_max": 8.0,
+      "pct_of_max": 8.9,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -2051,11 +2183,11 @@
         }
       },
       "group_stage": {
-        "points": 340,
-        "correct_outcome": 20,
-        "home_sq_err": 133,
-        "away_sq_err": 27,
-        "matches_played": 34,
+        "points": 378,
+        "correct_outcome": 22,
+        "home_sq_err": 141,
+        "away_sq_err": 31,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -2430,6 +2562,39 @@
             "away_sq_err": 0,
             "match_pts": 25,
             "cumulative": 340
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 336
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 4,
+            "match_pts": 21,
+            "cumulative": 357
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "2-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 378
           }
         ]
       },
@@ -2542,10 +2707,10 @@
       },
       "group_stage": {
         "points": 334,
-        "correct_outcome": 20,
-        "home_sq_err": 121,
-        "away_sq_err": 45,
-        "matches_played": 34,
+        "correct_outcome": 21,
+        "home_sq_err": 142,
+        "away_sq_err": 49,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -2920,6 +3085,39 @@
             "away_sq_err": 1,
             "match_pts": 23,
             "cumulative": 334
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "4-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 16,
+            "away_sq_err": 0,
+            "match_pts": -16,
+            "cumulative": 318
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "2-2",
+            "actual": "0-4",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 4,
+            "match_pts": -8,
+            "cumulative": 310
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 334
           }
         ]
       },
@@ -2941,9 +3139,9 @@
       "third_place": null
     },
     "Kolltveit-World_cup_2026": {
-      "total": 321,
+      "total": 312,
       "max_possible": 4600,
-      "pct_of_max": 7.0,
+      "pct_of_max": 6.8,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -3031,11 +3229,11 @@
         }
       },
       "group_stage": {
-        "points": 291,
-        "correct_outcome": 17,
-        "home_sq_err": 91,
-        "away_sq_err": 43,
-        "matches_played": 34,
+        "points": 282,
+        "correct_outcome": 18,
+        "home_sq_err": 108,
+        "away_sq_err": 60,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -3410,6 +3608,39 @@
             "away_sq_err": 0,
             "match_pts": 24,
             "cumulative": 291
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "4-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 16,
+            "away_sq_err": 0,
+            "match_pts": -16,
+            "cumulative": 275
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-0",
+            "actual": "0-4",
+            "outcome_pts": 0,
+            "home_sq_err": 0,
+            "away_sq_err": 16,
+            "match_pts": -16,
+            "cumulative": 259
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-1",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 282
           }
         ]
       },
@@ -3431,9 +3662,9 @@
       "third_place": null
     },
     "Kopi av World_cup_2026-Elin Arntzen": {
-      "total": 383,
+      "total": 418,
       "max_possible": 4600,
-      "pct_of_max": 8.3,
+      "pct_of_max": 9.1,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -3521,11 +3752,11 @@
         }
       },
       "group_stage": {
-        "points": 353,
-        "correct_outcome": 19,
-        "home_sq_err": 97,
-        "away_sq_err": 25,
-        "matches_played": 34,
+        "points": 388,
+        "correct_outcome": 21,
+        "home_sq_err": 108,
+        "away_sq_err": 29,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -3900,6 +4131,39 @@
             "away_sq_err": 0,
             "match_pts": 25,
             "cumulative": 353
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "3-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 344
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "1-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 4,
+            "match_pts": 20,
+            "cumulative": 364
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 388
           }
         ]
       },
@@ -3921,9 +4185,9 @@
       "third_place": null
     },
     "Kopi av World_cup_2026_jh": {
-      "total": 290,
+      "total": 328,
       "max_possible": 4600,
-      "pct_of_max": 6.3,
+      "pct_of_max": 7.1,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -4011,11 +4275,11 @@
         }
       },
       "group_stage": {
-        "points": 260,
-        "correct_outcome": 17,
-        "home_sq_err": 131,
-        "away_sq_err": 34,
-        "matches_played": 34,
+        "points": 298,
+        "correct_outcome": 19,
+        "home_sq_err": 139,
+        "away_sq_err": 38,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -4390,6 +4654,39 @@
             "away_sq_err": 0,
             "match_pts": -1,
             "cumulative": 260
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 256
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 4,
+            "match_pts": 21,
+            "cumulative": 277
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "2-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 298
           }
         ]
       },
@@ -4411,9 +4708,9 @@
       "third_place": null
     },
     "Maiken world_cup_2026": {
-      "total": 405,
+      "total": 442,
       "max_possible": 4600,
-      "pct_of_max": 8.8,
+      "pct_of_max": 9.6,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -4501,11 +4798,11 @@
         }
       },
       "group_stage": {
-        "points": 375,
-        "correct_outcome": 20,
-        "home_sq_err": 100,
-        "away_sq_err": 25,
-        "matches_played": 34,
+        "points": 412,
+        "correct_outcome": 22,
+        "home_sq_err": 109,
+        "away_sq_err": 29,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -4880,6 +5177,39 @@
             "away_sq_err": 1,
             "match_pts": 24,
             "cumulative": 375
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 371
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "1-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 4,
+            "match_pts": 20,
+            "cumulative": 391
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "2-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 412
           }
         ]
       },
@@ -4901,9 +5231,9 @@
       "third_place": null
     },
     "Sandven_World_cup_2026": {
-      "total": 408,
+      "total": 444,
       "max_possible": 4600,
-      "pct_of_max": 8.9,
+      "pct_of_max": 9.7,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -4991,11 +5321,11 @@
         }
       },
       "group_stage": {
-        "points": 378,
-        "correct_outcome": 21,
-        "home_sq_err": 118,
-        "away_sq_err": 29,
-        "matches_played": 34,
+        "points": 414,
+        "correct_outcome": 23,
+        "home_sq_err": 128,
+        "away_sq_err": 33,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -5370,6 +5700,39 @@
             "away_sq_err": 0,
             "match_pts": 25,
             "cumulative": 378
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "3-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 369
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 4,
+            "match_pts": 21,
+            "cumulative": 390
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 414
           }
         ]
       },
@@ -5391,9 +5754,9 @@
       "third_place": null
     },
     "Tone Vevatne - World Cup Competition 2026": {
-      "total": 353,
+      "total": 393,
       "max_possible": 4600,
-      "pct_of_max": 7.7,
+      "pct_of_max": 8.5,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -5481,11 +5844,11 @@
         }
       },
       "group_stage": {
-        "points": 323,
-        "correct_outcome": 18,
-        "home_sq_err": 95,
-        "away_sq_err": 32,
-        "matches_played": 34,
+        "points": 363,
+        "correct_outcome": 20,
+        "home_sq_err": 100,
+        "away_sq_err": 37,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -5860,6 +6223,39 @@
             "away_sq_err": 1,
             "match_pts": 24,
             "cumulative": 323
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 319
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 4,
+            "match_pts": 21,
+            "cumulative": 340
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-1",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 363
           }
         ]
       },
@@ -5881,9 +6277,9 @@
       "third_place": null
     },
     "World_cup_2026 (Kuyper)": {
-      "total": 260,
+      "total": 270,
       "max_possible": 4600,
-      "pct_of_max": 5.7,
+      "pct_of_max": 5.9,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -5971,11 +6367,11 @@
         }
       },
       "group_stage": {
-        "points": 230,
-        "correct_outcome": 16,
-        "home_sq_err": 144,
-        "away_sq_err": 26,
-        "matches_played": 34,
+        "points": 240,
+        "correct_outcome": 17,
+        "home_sq_err": 150,
+        "away_sq_err": 35,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -6350,6 +6746,39 @@
             "away_sq_err": 1,
             "match_pts": 23,
             "cumulative": 230
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 226
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "1-1",
+            "actual": "0-4",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 9,
+            "match_pts": -10,
+            "cumulative": 216
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 240
           }
         ]
       },
@@ -6371,9 +6800,9 @@
       "third_place": null
     },
     "World_cup_2026.gulli": {
-      "total": 315,
+      "total": 358,
       "max_possible": 4600,
-      "pct_of_max": 6.8,
+      "pct_of_max": 7.8,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -6461,11 +6890,11 @@
         }
       },
       "group_stage": {
-        "points": 285,
-        "correct_outcome": 18,
-        "home_sq_err": 130,
-        "away_sq_err": 35,
-        "matches_played": 34,
+        "points": 328,
+        "correct_outcome": 20,
+        "home_sq_err": 132,
+        "away_sq_err": 40,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -6840,6 +7269,39 @@
             "away_sq_err": 1,
             "match_pts": 23,
             "cumulative": 285
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "1-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 284
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 4,
+            "match_pts": 21,
+            "cumulative": 305
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-1",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 328
           }
         ]
       },
@@ -6861,9 +7323,9 @@
       "third_place": null
     },
     "World_cup_2026_aase": {
-      "total": 407,
+      "total": 444,
       "max_possible": 4600,
-      "pct_of_max": 8.8,
+      "pct_of_max": 9.7,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -6951,11 +7413,11 @@
         }
       },
       "group_stage": {
-        "points": 377,
-        "correct_outcome": 20,
-        "home_sq_err": 101,
-        "away_sq_err": 22,
-        "matches_played": 34,
+        "points": 414,
+        "correct_outcome": 22,
+        "home_sq_err": 109,
+        "away_sq_err": 27,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -7330,6 +7792,39 @@
             "away_sq_err": 0,
             "match_pts": -1,
             "cumulative": 377
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 373
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 4,
+            "match_pts": 21,
+            "cumulative": 394
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "2-1",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": 20,
+            "cumulative": 414
           }
         ]
       },
@@ -7351,9 +7846,9 @@
       "third_place": null
     },
     "World_cup_2026_anna": {
-      "total": 356,
+      "total": 363,
       "max_possible": 4600,
-      "pct_of_max": 7.7,
+      "pct_of_max": 7.9,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -7441,11 +7936,11 @@
         }
       },
       "group_stage": {
-        "points": 326,
-        "correct_outcome": 19,
-        "home_sq_err": 108,
-        "away_sq_err": 41,
-        "matches_played": 34,
+        "points": 333,
+        "correct_outcome": 20,
+        "home_sq_err": 117,
+        "away_sq_err": 50,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -7820,6 +8315,39 @@
             "away_sq_err": 1,
             "match_pts": 24,
             "cumulative": 326
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 322
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "1-1",
+            "actual": "0-4",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 9,
+            "match_pts": -10,
+            "cumulative": 312
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "2-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 333
           }
         ]
       },
@@ -7841,9 +8369,9 @@
       "third_place": null
     },
     "World_cup_2026_Bjørn_F": {
-      "total": 417,
+      "total": 452,
       "max_possible": 4600,
-      "pct_of_max": 9.1,
+      "pct_of_max": 9.8,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -7931,11 +8459,11 @@
         }
       },
       "group_stage": {
-        "points": 387,
-        "correct_outcome": 20,
-        "home_sq_err": 84,
-        "away_sq_err": 29,
-        "matches_played": 34,
+        "points": 422,
+        "correct_outcome": 22,
+        "home_sq_err": 94,
+        "away_sq_err": 34,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -8310,6 +8838,39 @@
             "away_sq_err": 0,
             "match_pts": -1,
             "cumulative": 387
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "3-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 378
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 4,
+            "match_pts": 21,
+            "cumulative": 399
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "5-1",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 422
           }
         ]
       },
@@ -8331,9 +8892,9 @@
       "third_place": null
     },
     "World_cup_2026_CL": {
-      "total": 528,
+      "total": 553,
       "max_possible": 4600,
-      "pct_of_max": 11.5,
+      "pct_of_max": 12.0,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -8421,11 +8982,11 @@
         }
       },
       "group_stage": {
-        "points": 498,
-        "correct_outcome": 25,
-        "home_sq_err": 95,
-        "away_sq_err": 32,
-        "matches_played": 34,
+        "points": 523,
+        "correct_outcome": 27,
+        "home_sq_err": 111,
+        "away_sq_err": 41,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -8800,6 +9361,39 @@
             "away_sq_err": 0,
             "match_pts": 25,
             "cumulative": 498
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "4-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 16,
+            "away_sq_err": 0,
+            "match_pts": -16,
+            "cumulative": 482
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-1",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 9,
+            "match_pts": 16,
+            "cumulative": 498
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "4-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 523
           }
         ]
       },
@@ -8821,9 +9415,9 @@
       "third_place": null
     },
     "World_cup_2026_Dagfinn": {
-      "total": 297,
+      "total": 333,
       "max_possible": 4600,
-      "pct_of_max": 6.5,
+      "pct_of_max": 7.2,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -8911,11 +9505,11 @@
         }
       },
       "group_stage": {
-        "points": 267,
-        "correct_outcome": 18,
-        "home_sq_err": 144,
-        "away_sq_err": 39,
-        "matches_played": 34,
+        "points": 303,
+        "correct_outcome": 20,
+        "home_sq_err": 154,
+        "away_sq_err": 43,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -9290,6 +9884,39 @@
             "away_sq_err": 0,
             "match_pts": 24,
             "cumulative": 267
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "3-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 258
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 4,
+            "match_pts": 21,
+            "cumulative": 279
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 303
           }
         ]
       },
@@ -9311,9 +9938,9 @@
       "third_place": null
     },
     "World_cup_2026_Daniel_Naurin": {
-      "total": 405,
+      "total": 442,
       "max_possible": 4600,
-      "pct_of_max": 8.8,
+      "pct_of_max": 9.6,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -9401,11 +10028,11 @@
         }
       },
       "group_stage": {
-        "points": 375,
-        "correct_outcome": 20,
-        "home_sq_err": 85,
-        "away_sq_err": 40,
-        "matches_played": 34,
+        "points": 412,
+        "correct_outcome": 22,
+        "home_sq_err": 96,
+        "away_sq_err": 42,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -9780,6 +10407,39 @@
             "away_sq_err": 0,
             "match_pts": 24,
             "cumulative": 375
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "3-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": -10,
+            "cumulative": 365
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "1-3",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 388
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 412
           }
         ]
       },
@@ -9801,9 +10461,9 @@
       "third_place": null
     },
     "World_cup_2026_gabriel": {
-      "total": 369,
+      "total": 406,
       "max_possible": 4600,
-      "pct_of_max": 8.0,
+      "pct_of_max": 8.8,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -9891,11 +10551,11 @@
         }
       },
       "group_stage": {
-        "points": 339,
-        "correct_outcome": 18,
-        "home_sq_err": 81,
-        "away_sq_err": 30,
-        "matches_played": 34,
+        "points": 376,
+        "correct_outcome": 20,
+        "home_sq_err": 92,
+        "away_sq_err": 32,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -10270,6 +10930,39 @@
             "away_sq_err": 1,
             "match_pts": -1,
             "cumulative": 339
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "3-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": -10,
+            "cumulative": 329
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "1-3",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 352
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 376
           }
         ]
       },
@@ -10291,9 +10984,9 @@
       "third_place": null
     },
     "World_cup_2026_goldstein": {
-      "total": 335,
+      "total": 375,
       "max_possible": 4600,
-      "pct_of_max": 7.3,
+      "pct_of_max": 8.2,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -10381,11 +11074,11 @@
         }
       },
       "group_stage": {
-        "points": 305,
-        "correct_outcome": 18,
-        "home_sq_err": 116,
-        "away_sq_err": 29,
-        "matches_played": 34,
+        "points": 345,
+        "correct_outcome": 20,
+        "home_sq_err": 121,
+        "away_sq_err": 34,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -10760,6 +11453,39 @@
             "away_sq_err": 1,
             "match_pts": 24,
             "cumulative": 305
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 301
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "1-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 4,
+            "match_pts": 20,
+            "cumulative": 321
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "4-1",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 1,
+            "match_pts": 24,
+            "cumulative": 345
           }
         ]
       },
@@ -10781,9 +11507,9 @@
       "third_place": null
     },
     "world_cup_2026_hs": {
-      "total": 360,
+      "total": 399,
       "max_possible": 4600,
-      "pct_of_max": 7.8,
+      "pct_of_max": 8.7,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -10871,11 +11597,11 @@
         }
       },
       "group_stage": {
-        "points": 330,
-        "correct_outcome": 19,
-        "home_sq_err": 105,
-        "away_sq_err": 40,
-        "matches_played": 34,
+        "points": 369,
+        "correct_outcome": 21,
+        "home_sq_err": 115,
+        "away_sq_err": 41,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -11250,6 +11976,39 @@
             "away_sq_err": 0,
             "match_pts": 25,
             "cumulative": 330
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "3-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 321
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "1-3",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 344
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "4-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 369
           }
         ]
       },
@@ -11271,9 +12030,9 @@
       "third_place": null
     },
     "World_cup_2026_Jana Blahak": {
-      "total": 364,
+      "total": 398,
       "max_possible": 4600,
-      "pct_of_max": 7.9,
+      "pct_of_max": 8.7,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -11361,11 +12120,11 @@
         }
       },
       "group_stage": {
-        "points": 334,
-        "correct_outcome": 20,
-        "home_sq_err": 123,
-        "away_sq_err": 43,
-        "matches_played": 34,
+        "points": 368,
+        "correct_outcome": 22,
+        "home_sq_err": 137,
+        "away_sq_err": 45,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -11740,6 +12499,39 @@
             "away_sq_err": 0,
             "match_pts": 25,
             "cumulative": 334
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "3-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 325
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "1-3",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 348
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "2-1",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": 20,
+            "cumulative": 368
           }
         ]
       },
@@ -11761,9 +12553,9 @@
       "third_place": null
     },
     "World_cup_2026_javier": {
-      "total": 300,
+      "total": 305,
       "max_possible": 4600,
-      "pct_of_max": 6.5,
+      "pct_of_max": 6.6,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -11851,11 +12643,11 @@
         }
       },
       "group_stage": {
-        "points": 270,
-        "correct_outcome": 17,
-        "home_sq_err": 120,
-        "away_sq_err": 35,
-        "matches_played": 34,
+        "points": 275,
+        "correct_outcome": 18,
+        "home_sq_err": 131,
+        "away_sq_err": 44,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -12230,6 +13022,39 @@
             "away_sq_err": 0,
             "match_pts": 25,
             "cumulative": 270
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "3-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 261
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "1-1",
+            "actual": "0-4",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 9,
+            "match_pts": -10,
+            "cumulative": 251
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 275
           }
         ]
       },
@@ -12251,9 +13076,9 @@
       "third_place": null
     },
     "World_cup_2026_JonasSchmid": {
-      "total": 349,
+      "total": 385,
       "max_possible": 4600,
-      "pct_of_max": 7.6,
+      "pct_of_max": 8.4,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -12341,11 +13166,11 @@
         }
       },
       "group_stage": {
-        "points": 319,
-        "correct_outcome": 20,
-        "home_sq_err": 143,
-        "away_sq_err": 38,
-        "matches_played": 34,
+        "points": 355,
+        "correct_outcome": 22,
+        "home_sq_err": 148,
+        "away_sq_err": 47,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -12720,6 +13545,39 @@
             "away_sq_err": 1,
             "match_pts": 23,
             "cumulative": 319
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "1-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 318
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-1",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 9,
+            "match_pts": 16,
+            "cumulative": 334
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "2-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 355
           }
         ]
       },
@@ -12741,9 +13599,9 @@
       "third_place": null
     },
     "World_cup_2026_Karin": {
-      "total": 272,
+      "total": 309,
       "max_possible": 4600,
-      "pct_of_max": 5.9,
+      "pct_of_max": 6.7,
       "questions": {
         "points": 0,
         "correct": 0,
@@ -12831,11 +13689,11 @@
         }
       },
       "group_stage": {
-        "points": 272,
-        "correct_outcome": 17,
-        "home_sq_err": 121,
-        "away_sq_err": 32,
-        "matches_played": 34,
+        "points": 309,
+        "correct_outcome": 19,
+        "home_sq_err": 130,
+        "away_sq_err": 36,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -13210,6 +14068,39 @@
             "away_sq_err": 1,
             "match_pts": 23,
             "cumulative": 272
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 268
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "1-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 4,
+            "match_pts": 20,
+            "cumulative": 288
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "2-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 309
           }
         ]
       },
@@ -13231,9 +14122,9 @@
       "third_place": null
     },
     "World_cup_2026_lutscher": {
-      "total": 408,
+      "total": 449,
       "max_possible": 4600,
-      "pct_of_max": 8.9,
+      "pct_of_max": 9.8,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -13321,11 +14212,11 @@
         }
       },
       "group_stage": {
-        "points": 378,
-        "correct_outcome": 21,
-        "home_sq_err": 113,
-        "away_sq_err": 34,
-        "matches_played": 34,
+        "points": 419,
+        "correct_outcome": 23,
+        "home_sq_err": 118,
+        "away_sq_err": 38,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -13700,6 +14591,39 @@
             "away_sq_err": 0,
             "match_pts": 24,
             "cumulative": 378
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 374
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 4,
+            "match_pts": 21,
+            "cumulative": 395
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 419
           }
         ]
       },
@@ -13721,9 +14645,9 @@
       "third_place": null
     },
     "World_cup_2026_Martin_S": {
-      "total": 120,
+      "total": 133,
       "max_possible": 4600,
-      "pct_of_max": 2.6,
+      "pct_of_max": 2.9,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -13811,11 +14735,11 @@
         }
       },
       "group_stage": {
-        "points": 90,
-        "correct_outcome": 14,
-        "home_sq_err": 186,
-        "away_sq_err": 74,
-        "matches_played": 34,
+        "points": 103,
+        "correct_outcome": 15,
+        "home_sq_err": 194,
+        "away_sq_err": 78,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -14190,6 +15114,39 @@
             "away_sq_err": 4,
             "match_pts": -5,
             "cumulative": 90
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 86
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "2-2",
+            "actual": "0-4",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 4,
+            "match_pts": -8,
+            "cumulative": 78
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "4-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 103
           }
         ]
       },
@@ -14211,9 +15168,9 @@
       "third_place": null
     },
     "World_cup_2026_MIRO": {
-      "total": 369,
+      "total": 402,
       "max_possible": 4600,
-      "pct_of_max": 8.0,
+      "pct_of_max": 8.7,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -14301,11 +15258,11 @@
         }
       },
       "group_stage": {
-        "points": 339,
-        "correct_outcome": 19,
-        "home_sq_err": 99,
-        "away_sq_err": 37,
-        "matches_played": 34,
+        "points": 372,
+        "correct_outcome": 21,
+        "home_sq_err": 112,
+        "away_sq_err": 41,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -14680,6 +15637,39 @@
             "away_sq_err": 0,
             "match_pts": 25,
             "cumulative": 339
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "3-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 330
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 4,
+            "match_pts": 21,
+            "cumulative": 351
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "2-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 372
           }
         ]
       },
@@ -14701,20 +15691,20 @@
       "third_place": null
     },
     "world_cup_2026_oyvind": {
-      "total": 400,
+      "total": 440,
       "max_possible": 4600,
-      "pct_of_max": 8.7,
+      "pct_of_max": 9.6,
       "questions": {
         "points": 0,
         "correct": 0,
         "detail": {}
       },
       "group_stage": {
-        "points": 400,
-        "correct_outcome": 22,
-        "home_sq_err": 114,
-        "away_sq_err": 36,
-        "matches_played": 34,
+        "points": 440,
+        "correct_outcome": 24,
+        "home_sq_err": 120,
+        "away_sq_err": 40,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -15089,6 +16079,39 @@
             "away_sq_err": 0,
             "match_pts": -1,
             "cumulative": 400
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 396
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "1-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 4,
+            "match_pts": 20,
+            "cumulative": 416
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 440
           }
         ]
       },
@@ -15110,9 +16133,9 @@
       "third_place": null
     },
     "World_cup_2026_Povitkina": {
-      "total": 178,
+      "total": 215,
       "max_possible": 4600,
-      "pct_of_max": 3.9,
+      "pct_of_max": 4.7,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -15200,11 +16223,11 @@
         }
       },
       "group_stage": {
-        "points": 148,
-        "correct_outcome": 13,
-        "home_sq_err": 131,
-        "away_sq_err": 46,
-        "matches_played": 34,
+        "points": 185,
+        "correct_outcome": 15,
+        "home_sq_err": 140,
+        "away_sq_err": 50,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -15579,6 +16602,39 @@
             "away_sq_err": 1,
             "match_pts": 23,
             "cumulative": 148
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 144
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "1-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 4,
+            "match_pts": 20,
+            "cumulative": 164
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "2-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 185
           }
         ]
       },
@@ -15600,9 +16656,9 @@
       "third_place": null
     },
     "World_cup_2026_stiansen": {
-      "total": 364,
+      "total": 397,
       "max_possible": 4600,
-      "pct_of_max": 7.9,
+      "pct_of_max": 8.6,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -15690,11 +16746,11 @@
         }
       },
       "group_stage": {
-        "points": 334,
-        "correct_outcome": 19,
-        "home_sq_err": 112,
-        "away_sq_err": 29,
-        "matches_played": 34,
+        "points": 367,
+        "correct_outcome": 21,
+        "home_sq_err": 120,
+        "away_sq_err": 38,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -16069,6 +17125,39 @@
             "away_sq_err": 0,
             "match_pts": -1,
             "cumulative": 334
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 330
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-1",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 9,
+            "match_pts": 16,
+            "cumulative": 346
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "2-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": 21,
+            "cumulative": 367
           }
         ]
       },
@@ -16090,9 +17179,9 @@
       "third_place": null
     },
     "World_cup_2026_StineHesstvedt_1106": {
-      "total": 356,
+      "total": 424,
       "max_possible": 4600,
-      "pct_of_max": 7.7,
+      "pct_of_max": 9.2,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -16180,11 +17269,11 @@
         }
       },
       "group_stage": {
-        "points": 326,
-        "correct_outcome": 19,
-        "home_sq_err": 113,
-        "away_sq_err": 36,
-        "matches_played": 34,
+        "points": 394,
+        "correct_outcome": 22,
+        "home_sq_err": 115,
+        "away_sq_err": 41,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -16559,6 +17648,39 @@
             "away_sq_err": 1,
             "match_pts": -1,
             "cumulative": 326
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "1-1",
+            "actual": "0-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 349
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 4,
+            "match_pts": 21,
+            "cumulative": 370
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-0",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": 24,
+            "cumulative": 394
           }
         ]
       },
@@ -16580,9 +17702,9 @@
       "third_place": null
     },
     "World_cup_2026_Vilde Hernes": {
-      "total": 236,
+      "total": 275,
       "max_possible": 4600,
-      "pct_of_max": 5.1,
+      "pct_of_max": 6.0,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -16670,11 +17792,11 @@
         }
       },
       "group_stage": {
-        "points": 206,
-        "correct_outcome": 15,
-        "home_sq_err": 129,
-        "away_sq_err": 40,
-        "matches_played": 34,
+        "points": 245,
+        "correct_outcome": 17,
+        "home_sq_err": 135,
+        "away_sq_err": 45,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -17049,6 +18171,39 @@
             "away_sq_err": 0,
             "match_pts": 24,
             "cumulative": 206
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 202
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "1-2",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 4,
+            "match_pts": 20,
+            "cumulative": 222
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-1",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 245
           }
         ]
       },
@@ -17070,9 +18225,9 @@
       "third_place": null
     },
     "World_cup_2026_ØB": {
-      "total": 241,
+      "total": 279,
       "max_possible": 4600,
-      "pct_of_max": 5.2,
+      "pct_of_max": 6.1,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -17160,11 +18315,11 @@
         }
       },
       "group_stage": {
-        "points": 211,
-        "correct_outcome": 15,
-        "home_sq_err": 131,
-        "away_sq_err": 33,
-        "matches_played": 34,
+        "points": 249,
+        "correct_outcome": 17,
+        "home_sq_err": 133,
+        "away_sq_err": 43,
+        "matches_played": 37,
         "running": [
           {
             "match": 1,
@@ -17539,6 +18694,39 @@
             "away_sq_err": 1,
             "match_pts": 23,
             "cumulative": 211
+          },
+          {
+            "match": 34,
+            "play_order": 35,
+            "pred": "1-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 210
+          },
+          {
+            "match": 36,
+            "play_order": 36,
+            "pred": "0-1",
+            "actual": "0-4",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 9,
+            "match_pts": 16,
+            "cumulative": 226
+          },
+          {
+            "match": 38,
+            "play_order": 37,
+            "pred": "3-1",
+            "actual": "4-0",
+            "outcome_pts": 25,
+            "home_sq_err": 1,
+            "away_sq_err": 1,
+            "match_pts": 23,
+            "cumulative": 249
           }
         ]
       },

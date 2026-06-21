@@ -265,12 +265,36 @@
       "play_order": 34
     },
     {
+      "match": 34,
+      "home": "Ecuador",
+      "away": "Curaçao",
+      "home_goals": 0,
+      "away_goals": 0,
+      "play_order": 35
+    },
+    {
       "match": 35,
       "home": "Netherlands",
       "away": "Sweden",
       "home_goals": 5,
       "away_goals": 1,
       "play_order": 33
+    },
+    {
+      "match": 36,
+      "home": "Tunisia",
+      "away": "Japan",
+      "home_goals": 0,
+      "away_goals": 4,
+      "play_order": 36
+    },
+    {
+      "match": 38,
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "home_goals": 4,
+      "away_goals": 0,
+      "play_order": 37
     }
   ],
   "knockout": [],
