@@ -1,0 +1,17 @@
+{
+  "hash": "7a0ce5e583f3582c4d71365fbc4ea05e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Group G is quite open\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-22 00:11:00\"\ncategories: [Update]\n---\n\n# Iran and Belgia both fail to score. \n\nBelgium is a disappointment so far in this championship, and today they disappointed every one of us but Jana and Jan Erling, who are Rockets of the Round!\n\nChristian remain in front, with a 77 point lead. Jana is in the top ten!\n\nNgoy's red card means that the question regarding red cards is decided. We should probably phase in qualitative points fairly soon.\n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/scatter_points-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

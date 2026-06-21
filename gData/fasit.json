@@ -295,6 +295,14 @@
       "home_goals": 4,
       "away_goals": 0,
       "play_order": 37
+    },
+    {
+      "match": 39,
+      "home": "Belgium",
+      "away": "Iran",
+      "home_goals": 0,
+      "away_goals": 0,
+      "play_order": 38
     }
   ],
   "knockout": [],
