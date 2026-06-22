@@ -1,0 +1,15 @@
+{
+  "hash": "5ba31eeae5332fb299296a1e7cb0c9a7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Egypt are through\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-22 09:33:00\"\ncategories: [Update]\n---\n\n# Egypt are through and Group H is quite open\n\nEgypt won 3-1, a result only Daniel got right. But the Rocket of the Round is Elin, who was alone in foreseeing Cabo Verde getting a point against Uruguay. \n\nChristian is 72 points ahead of Øyvind C.\n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
