@@ -1,0 +1,15 @@
+{
+  "hash": "4a0149e256a9703545dc2d69038ce5e8",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"G.O.A.T?\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-22 23:36:00\"\ncategories: [Update]\n---\n\n# Messi beats Austria\n\nAs a kid I watched Maradonna dismatle Belgium in Mexico '86. I assume today's 10-year olds will think of Messi in the same way. \n\nThe outcome was expected and the score was too. 4 of us had a draw -- among them Christian, who's lead is down to 44 points. \n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

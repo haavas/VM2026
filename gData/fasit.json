@@ -319,6 +319,14 @@
       "home_goals": 1,
       "away_goals": 3,
       "play_order": 40
+    },
+    {
+      "match": 43,
+      "home": "Argentina",
+      "away": "Austria",
+      "home_goals": 2,
+      "away_goals": 0,
+      "play_order": 41
     }
   ],
   "knockout": [],

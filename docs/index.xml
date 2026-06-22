@@ -10,7 +10,39 @@
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Mon, 22 Jun 2026 07:33:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 22 Jun 2026 21:36:00 GMT</lastBuildDate>
+<item>
+  <title>G.O.A.T?</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-22-g-o-a-t/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="messi-beats-austria" class="level1">
+<h1>Messi beats Austria</h1>
+<p>As a kid I watched Maradonna dismatle Belgium in Mexico ’86. I assume today’s 10-year olds will think of Messi in the same way.</p>
+<p>The outcome was expected and the score was too. 4 of us had a draw – among them Christian, who’s lead is down to 44 points.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-22-g-o-a-t/standings.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-22-g-o-a-t/</guid>
+  <pubDate>Mon, 22 Jun 2026 21:36:00 GMT</pubDate>
+</item>
 <item>
   <title>Egypt are through</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -949,39 +981,6 @@ Weber, Max. 1946. <span>“Politics as a Vocation.”</span> In <em>From Max Web
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-15-an-eventful-night/</guid>
   <pubDate>Mon, 15 Jun 2026 06:40:00 GMT</pubDate>
-</item>
-<item>
-  <title>Netherlands vs Japan</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-15-netherlands-vs-japan/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="netherlands-vs-japan" class="level1">
-<h1>Netherlands vs Japan</h1>
-<p>Japan deserved a point against the Dutch.</p>
-<p>Øyvind and Christian has some space in the lead, with Karin, Hallvard, Linda and Jan Erling in pursuit.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-15-netherlands-vs-japan/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Jan Erling and Christian got the exact right result. Well done!</p>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-15-netherlands-vs-japan/</guid>
-  <pubDate>Sun, 14 Jun 2026 22:55:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
