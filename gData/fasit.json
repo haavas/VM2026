@@ -289,6 +289,14 @@
       "play_order": 36
     },
     {
+      "match": 37,
+      "home": "Uruguay",
+      "away": "Cape Verde",
+      "home_goals": 2,
+      "away_goals": 2,
+      "play_order": 39
+    },
+    {
       "match": 38,
       "home": "Spain",
       "away": "Saudi Arabia",
