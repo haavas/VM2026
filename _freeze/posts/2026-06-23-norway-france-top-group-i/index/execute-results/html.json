@@ -1,0 +1,15 @@
+{
+  "hash": "36cd655e39868a08c02a0620402312b7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Norway & France top group I\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-23\"\ncategories: [Update]\n---\n\n# Juhu!\n\nNorway and France are through to the knockout stage, whereas Senegal or Iraq has to win with a margin to prevail. We all thought France would win, and 15 of us had 3-0 as the score. That other game was less uniformly predicted, but Elin and Bjørn hit the bull's eye. Interestingly, both Øyvind and Christian guestimated a draw in this match.\n\n# Algeria beat Jordan\n\nThe 1-2 score in this game was highly anticipated, no less than 8 of us had this outcome and another 8 was one goal away. \n\nFor our competition, this has consequences. Christian is still in the lead, but only 29 points ahead of Scott. Many of us had three correct estimates, but Elin stand out as the Rocket of the Round with 74 points out of 75 possible! \n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

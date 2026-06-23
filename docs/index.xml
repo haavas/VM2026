@@ -10,7 +10,43 @@
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Mon, 22 Jun 2026 21:36:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 22 Jun 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Norway &amp; France top group I</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-23-norway-france-top-group-i/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="juhu" class="level1">
+<h1>Juhu!</h1>
+<p>Norway and France are through to the knockout stage, whereas Senegal or Iraq has to win with a margin to prevail. We all thought France would win, and 15 of us had 3-0 as the score. That other game was less uniformly predicted, but Elin and Bjørn hit the bull’s eye. Interestingly, both Øyvind and Christian guestimated a draw in this match.</p>
+</section>
+<section id="algeria-beat-jordan" class="level1">
+<h1>Algeria beat Jordan</h1>
+<p>The 1-2 score in this game was highly anticipated, no less than 8 of us had this outcome and another 8 was one goal away.</p>
+<p>For our competition, this has consequences. Christian is still in the lead, but only 29 points ahead of Scott. Many of us had three correct estimates, but Elin stand out as the Rocket of the Round with 74 points out of 75 possible!</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-23-norway-france-top-group-i/standings.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-23-norway-france-top-group-i/</guid>
+  <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>G.O.A.T?</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -932,55 +968,6 @@ Weber, Max. 1946. <span>“Politics as a Vocation.”</span> In <em>From Max Web
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-15-cabo-verde-held-spain-to-a-draw/</guid>
   <pubDate>Mon, 15 Jun 2026 18:54:00 GMT</pubDate>
-</item>
-<item>
-  <title>An eventful night</title>
-  <dc:creator>Håvard </dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-15-an-eventful-night/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="yellow" class="level1">
-<h1>Yellow</h1>
-<section id="ivory-coast-vs.-ecuador" class="level2">
-<h2 class="anchored" data-anchor-id="ivory-coast-vs.-ecuador">Ivory Coast vs.&nbsp;Ecuador</h2>
-<p>According to reports, this was the best game so far, where dark horse candidate Ecuador failed to live up to the hype. Ecuador on their side had abandoned their yellow jersey for the away blue. Many of us had bought into the hype. Only Christian, Gabriel, Jana and Karin saw Ivory Coast winning this game.</p>
-</section>
-<section id="sweden-vs.-tunisia" class="level2">
-<h2 class="anchored" data-anchor-id="sweden-vs.-tunisia">Sweden vs.&nbsp;Tunisia</h2>
-<p>Sweden did play in yellow and completely hammered Tunisia. The 5-1 score will be important, because none of us saw this happening. Christian was closest with 3-1, while Jacob had bravely predicted a 0-8 score for Tunisia.</p>
-<p>Christian is now ahead by 56 points! Øyvind, Karin and Hallvard form a trio in pursuit, and Gabriel is catching up fast.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-15-an-eventful-night/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>The resent results underscore the importance of not undersestimating the big wins.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-15-an-eventful-night/index_files/figure-html/scatter_points-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-15-an-eventful-night/</guid>
-  <pubDate>Mon, 15 Jun 2026 06:40:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

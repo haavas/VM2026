@@ -321,12 +321,36 @@
       "play_order": 40
     },
     {
+      "match": 41,
+      "home": "Norway",
+      "away": "Senegal",
+      "home_goals": 3,
+      "away_goals": 2,
+      "play_order": 43
+    },
+    {
+      "match": 42,
+      "home": "France",
+      "away": "Iraq",
+      "home_goals": 3,
+      "away_goals": 0,
+      "play_order": 42
+    },
+    {
       "match": 43,
       "home": "Argentina",
       "away": "Austria",
       "home_goals": 2,
       "away_goals": 0,
       "play_order": 41
+    },
+    {
+      "match": 44,
+      "home": "Jordan",
+      "away": "Algeria",
+      "home_goals": 1,
+      "away_goals": 2,
+      "play_order": 44
     }
   ],
   "knockout": [],
