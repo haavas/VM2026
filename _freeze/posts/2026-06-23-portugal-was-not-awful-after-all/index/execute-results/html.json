@@ -1,0 +1,17 @@
+{
+  "hash": "49c6b7e9a44902175f54b77868042d16",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Portugal was not awful after all\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-23 21:23:00\"\ncategories: [Update]\n---\n\n# Portugal won\n\nPortugal beat Uzbekistan. We were not surprised.\n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png){width=750}\n:::\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/scatter_points-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

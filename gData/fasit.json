@@ -351,6 +351,14 @@
       "home_goals": 1,
       "away_goals": 2,
       "play_order": 44
+    },
+    {
+      "match": 47,
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "home_goals": 5,
+      "away_goals": 0,
+      "play_order": 45
     }
   ],
   "knockout": [],
