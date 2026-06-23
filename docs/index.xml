@@ -9,8 +9,40 @@
 <link>https://haavas.github.io/VM2026/</link>
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
-<generator>quarto-1.9.36</generator>
-<lastBuildDate>Tue, 23 Jun 2026 19:23:00 GMT</lastBuildDate>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Tue, 23 Jun 2026 22:35:00 GMT</lastBuildDate>
+<item>
+  <title>England and Ghana are through</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-24-england-and-ghana-are-through/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="england-vs-ghana-was-rather-boring" class="level1">
+<h1>England vs Ghana was rather boring</h1>
+<p>Not a very good game, but Phillip had the correct prediction and Martin had a draw. The rest of us lost points.</p>
+<p>Christian remain 34 points ahead of Scott, with Daniel N., Åse and Øyvind C. close behind.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-24-england-and-ghana-are-through/standings.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-24-england-and-ghana-are-through/</guid>
+  <pubDate>Tue, 23 Jun 2026 22:35:00 GMT</pubDate>
+</item>
 <item>
   <title>Portugal was not awful after all</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -934,48 +966,6 @@ Weber, Max. 1946. <span>“Politics as a Vocation.”</span> In <em>From Max Web
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-16-new-zealand-got-a-point/</guid>
   <pubDate>Tue, 16 Jun 2026 07:10:00 GMT</pubDate>
-</item>
-<item>
-  <title>Belgium vs Egypt</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-15-belgium-vs-egypt/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="belgium-vs-egypt" class="level1">
-<h1>Belgium vs Egypt</h1>
-<p>A relatively even game resulted in an absolutely even score. After the red card bonanza in the first game, we have seen very few of those. Can we make it below 7 red cards in the tournament?</p>
-<p>Christian remain ahead by 40 points! Øyvind, Karin and Hallvard remain a trio in pursuit. Øyvind Stiansen and Jostein Askim are closing in. Scott, Dagfinn and Martin also got points from this round.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-15-belgium-vs-egypt/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Belgium were our favorites. Three of us believed in Egypt, while five got the correct result.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-15-belgium-vs-egypt/index_files/figure-html/scatter_points-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-15-belgium-vs-egypt/</guid>
-  <pubDate>Mon, 15 Jun 2026 21:30:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

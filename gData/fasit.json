@@ -353,6 +353,14 @@
       "play_order": 44
     },
     {
+      "match": 45,
+      "home": "England",
+      "away": "Ghana",
+      "home_goals": 0,
+      "away_goals": 0,
+      "play_order": 46
+    },
+    {
       "match": 47,
       "home": "Portugal",
       "away": "Uzbekistan",

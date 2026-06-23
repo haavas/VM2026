@@ -1,0 +1,23 @@
+---
+title: "England and Ghana are through"
+author: "Håvard Strand"
+description: ""
+date: "2026-06-24 00:35:00"
+categories: [Update]
+---
+
+# England vs Ghana was rather boring
+
+Not a very good game, but Phillip had the correct prediction and Martin had a draw. The rest of us lost points.
+
+```{r standings, echo=FALSE, message=FALSE, warning=FALSE}
+source(here::here("R", "plot_standings.R"))
+this_match <- 45
+lag        <- 1
+plot_standings(this_match, lag)
+```
+
+Christian remain 34 points ahead of Scott, with Daniel N., Åse and Øyvind C. close behind. 
+```{r show, echo=FALSE}
+knitr::include_graphics("standings.png")
+```

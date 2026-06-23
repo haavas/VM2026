@@ -1,12 +1,12 @@
 {
   "players": {
     "Copy of World_cup_2026.TomC": {
-      "total": 432,
+      "total": 457,
       "max_possible": 4600,
-      "pct_of_max": 9.4,
+      "pct_of_max": 9.9,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -30,8 +30,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 8.0,
@@ -91,11 +91,11 @@
         }
       },
       "group_stage": {
-        "points": 402,
+        "points": 397,
         "correct_outcome": 24,
-        "home_sq_err": 157,
-        "away_sq_err": 41,
-        "matches_played": 45,
+        "home_sq_err": 161,
+        "away_sq_err": 42,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -591,6 +591,17 @@
             "away_sq_err": 0,
             "match_pts": 21,
             "cumulative": 402
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 397
           }
         ]
       },
@@ -612,12 +623,12 @@
       "third_place": null
     },
     "Copy of World_cup_2026_Jacob": {
-      "total": 304,
+      "total": 324,
       "max_possible": 4600,
-      "pct_of_max": 6.6,
+      "pct_of_max": 7.0,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -641,8 +652,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 10.0,
@@ -702,11 +713,11 @@
         }
       },
       "group_stage": {
-        "points": 274,
+        "points": 264,
         "correct_outcome": 25,
-        "home_sq_err": 170,
-        "away_sq_err": 181,
-        "matches_played": 45,
+        "home_sq_err": 179,
+        "away_sq_err": 182,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -1202,6 +1213,17 @@
             "away_sq_err": 0,
             "match_pts": 21,
             "cumulative": 274
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "3-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": -10,
+            "cumulative": 264
           }
         ]
       },
@@ -1223,12 +1245,12 @@
       "third_place": null
     },
     "Copy of World_cup_2026_Jostein": {
-      "total": 463,
+      "total": 484,
       "max_possible": 4600,
-      "pct_of_max": 10.1,
+      "pct_of_max": 10.5,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -1252,8 +1274,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 14.0,
@@ -1313,11 +1335,11 @@
         }
       },
       "group_stage": {
-        "points": 433,
+        "points": 424,
         "correct_outcome": 26,
-        "home_sq_err": 147,
+        "home_sq_err": 156,
         "away_sq_err": 70,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -1813,6 +1835,17 @@
             "away_sq_err": 0,
             "match_pts": 24,
             "cumulative": 433
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "3-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 424
           }
         ]
       },
@@ -1834,12 +1867,12 @@
       "third_place": null
     },
     "Gates_World_cup_2026": {
-      "total": 584,
+      "total": 610,
       "max_possible": 4600,
-      "pct_of_max": 12.7,
+      "pct_of_max": 13.3,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -1863,8 +1896,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 11.0,
@@ -1924,11 +1957,11 @@
         }
       },
       "group_stage": {
-        "points": 554,
+        "points": 550,
         "correct_outcome": 30,
-        "home_sq_err": 149,
+        "home_sq_err": 153,
         "away_sq_err": 47,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -2424,6 +2457,17 @@
             "away_sq_err": 0,
             "match_pts": 16,
             "cumulative": 554
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 550
           }
         ]
       },
@@ -2445,9 +2489,9 @@
       "third_place": null
     },
     "IWB_World_cup_2026": {
-      "total": 533,
+      "total": 528,
       "max_possible": 4600,
-      "pct_of_max": 11.6,
+      "pct_of_max": 11.5,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -2474,7 +2518,7 @@
           },
           "seven_plus_red_cards": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "games_extra_time": {
@@ -2535,11 +2579,11 @@
         }
       },
       "group_stage": {
-        "points": 503,
+        "points": 498,
         "correct_outcome": 28,
-        "home_sq_err": 159,
-        "away_sq_err": 38,
-        "matches_played": 45,
+        "home_sq_err": 163,
+        "away_sq_err": 39,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -3035,6 +3079,17 @@
             "away_sq_err": 0,
             "match_pts": 16,
             "cumulative": 503
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 498
           }
         ]
       },
@@ -3056,12 +3111,12 @@
       "third_place": null
     },
     "Jan_Erling_World_cup_2026": {
-      "total": 486,
+      "total": 512,
       "max_possible": 4600,
-      "pct_of_max": 10.6,
+      "pct_of_max": 11.1,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -3085,8 +3140,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 16.0,
@@ -3146,11 +3201,11 @@
         }
       },
       "group_stage": {
-        "points": 456,
+        "points": 452,
         "correct_outcome": 27,
-        "home_sq_err": 154,
+        "home_sq_err": 158,
         "away_sq_err": 65,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -3646,6 +3701,17 @@
             "away_sq_err": 0,
             "match_pts": 16,
             "cumulative": 456
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 452
           }
         ]
       },
@@ -3667,12 +3733,12 @@
       "third_place": null
     },
     "Kolltveit-World_cup_2026": {
-      "total": 438,
+      "total": 464,
       "max_possible": 4600,
-      "pct_of_max": 9.5,
+      "pct_of_max": 10.1,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -3696,8 +3762,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 3.0,
@@ -3757,11 +3823,11 @@
         }
       },
       "group_stage": {
-        "points": 408,
+        "points": 404,
         "correct_outcome": 24,
-        "home_sq_err": 126,
+        "home_sq_err": 130,
         "away_sq_err": 66,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -4257,6 +4323,17 @@
             "away_sq_err": 0,
             "match_pts": 21,
             "cumulative": 408
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 404
           }
         ]
       },
@@ -4278,9 +4355,9 @@
       "third_place": null
     },
     "Kopi av World_cup_2026-Elin Arntzen": {
-      "total": 575,
+      "total": 565,
       "max_possible": 4600,
-      "pct_of_max": 12.5,
+      "pct_of_max": 12.3,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -4307,7 +4384,7 @@
           },
           "seven_plus_red_cards": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "games_extra_time": {
@@ -4368,11 +4445,11 @@
         }
       },
       "group_stage": {
-        "points": 545,
+        "points": 535,
         "correct_outcome": 28,
-        "home_sq_err": 124,
-        "away_sq_err": 31,
-        "matches_played": 45,
+        "home_sq_err": 133,
+        "away_sq_err": 32,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -4868,6 +4945,17 @@
             "away_sq_err": 0,
             "match_pts": 16,
             "cumulative": 545
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "3-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": -10,
+            "cumulative": 535
           }
         ]
       },
@@ -4889,12 +4977,12 @@
       "third_place": null
     },
     "Kopi av World_cup_2026_jh": {
-      "total": 447,
+      "total": 472,
       "max_possible": 4600,
-      "pct_of_max": 9.7,
+      "pct_of_max": 10.3,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -4918,8 +5006,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 8.0,
@@ -4979,11 +5067,11 @@
         }
       },
       "group_stage": {
-        "points": 417,
+        "points": 412,
         "correct_outcome": 25,
-        "home_sq_err": 157,
-        "away_sq_err": 51,
-        "matches_played": 45,
+        "home_sq_err": 161,
+        "away_sq_err": 52,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -5479,6 +5567,17 @@
             "away_sq_err": 0,
             "match_pts": 16,
             "cumulative": 417
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 412
           }
         ]
       },
@@ -5500,9 +5599,9 @@
       "third_place": null
     },
     "Maiken world_cup_2026": {
-      "total": 576,
+      "total": 571,
       "max_possible": 4600,
-      "pct_of_max": 12.5,
+      "pct_of_max": 12.4,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -5529,7 +5628,7 @@
           },
           "seven_plus_red_cards": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "games_extra_time": {
@@ -5590,11 +5689,11 @@
         }
       },
       "group_stage": {
-        "points": 546,
+        "points": 541,
         "correct_outcome": 28,
-        "home_sq_err": 118,
-        "away_sq_err": 36,
-        "matches_played": 45,
+        "home_sq_err": 122,
+        "away_sq_err": 37,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -6090,6 +6189,17 @@
             "away_sq_err": 0,
             "match_pts": 24,
             "cumulative": 546
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 541
           }
         ]
       },
@@ -6111,9 +6221,9 @@
       "third_place": null
     },
     "Sandven_World_cup_2026": {
-      "total": 573,
+      "total": 568,
       "max_possible": 4600,
-      "pct_of_max": 12.5,
+      "pct_of_max": 12.3,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -6140,7 +6250,7 @@
           },
           "seven_plus_red_cards": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "games_extra_time": {
@@ -6201,11 +6311,11 @@
         }
       },
       "group_stage": {
-        "points": 543,
+        "points": 538,
         "correct_outcome": 29,
-        "home_sq_err": 139,
-        "away_sq_err": 43,
-        "matches_played": 45,
+        "home_sq_err": 143,
+        "away_sq_err": 44,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -6701,6 +6811,17 @@
             "away_sq_err": 0,
             "match_pts": 21,
             "cumulative": 543
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 538
           }
         ]
       },
@@ -6722,9 +6843,9 @@
       "third_place": null
     },
     "Tone Vevatne - World Cup Competition 2026": {
-      "total": 490,
+      "total": 485,
       "max_possible": 4600,
-      "pct_of_max": 10.7,
+      "pct_of_max": 10.5,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -6751,7 +6872,7 @@
           },
           "seven_plus_red_cards": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "games_extra_time": {
@@ -6812,11 +6933,11 @@
         }
       },
       "group_stage": {
-        "points": 460,
+        "points": 455,
         "correct_outcome": 25,
-        "home_sq_err": 118,
-        "away_sq_err": 47,
-        "matches_played": 45,
+        "home_sq_err": 122,
+        "away_sq_err": 48,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -7312,6 +7433,17 @@
             "away_sq_err": 0,
             "match_pts": 21,
             "cumulative": 460
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 455
           }
         ]
       },
@@ -7333,12 +7465,12 @@
       "third_place": null
     },
     "World_cup_2026 (Kuyper)": {
-      "total": 372,
+      "total": 392,
       "max_possible": 4600,
-      "pct_of_max": 8.1,
+      "pct_of_max": 8.5,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -7362,8 +7494,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 8.0,
@@ -7423,11 +7555,11 @@
         }
       },
       "group_stage": {
-        "points": 342,
+        "points": 332,
         "correct_outcome": 22,
-        "home_sq_err": 160,
-        "away_sq_err": 48,
-        "matches_played": 45,
+        "home_sq_err": 169,
+        "away_sq_err": 49,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -7923,6 +8055,17 @@
             "away_sq_err": 0,
             "match_pts": 21,
             "cumulative": 342
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "3-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": -10,
+            "cumulative": 332
           }
         ]
       },
@@ -7944,12 +8087,12 @@
       "third_place": null
     },
     "World_cup_2026.gulli": {
-      "total": 449,
+      "total": 475,
       "max_possible": 4600,
-      "pct_of_max": 9.8,
+      "pct_of_max": 10.3,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -7973,8 +8116,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 9.0,
@@ -8034,11 +8177,11 @@
         }
       },
       "group_stage": {
-        "points": 419,
+        "points": 415,
         "correct_outcome": 25,
-        "home_sq_err": 153,
+        "home_sq_err": 157,
         "away_sq_err": 53,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -8534,6 +8677,17 @@
             "away_sq_err": 0,
             "match_pts": 16,
             "cumulative": 419
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 415
           }
         ]
       },
@@ -8555,12 +8709,12 @@
       "third_place": null
     },
     "World_cup_2026_aase": {
-      "total": 569,
+      "total": 594,
       "max_possible": 4600,
-      "pct_of_max": 12.4,
+      "pct_of_max": 12.9,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -8584,8 +8738,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 12.0,
@@ -8645,11 +8799,11 @@
         }
       },
       "group_stage": {
-        "points": 539,
+        "points": 534,
         "correct_outcome": 28,
-        "home_sq_err": 128,
-        "away_sq_err": 33,
-        "matches_played": 45,
+        "home_sq_err": 132,
+        "away_sq_err": 34,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -9145,6 +9299,17 @@
             "away_sq_err": 0,
             "match_pts": 16,
             "cumulative": 539
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 534
           }
         ]
       },
@@ -9166,12 +9331,12 @@
       "third_place": null
     },
     "World_cup_2026_anna": {
-      "total": 464,
+      "total": 493,
       "max_possible": 4600,
-      "pct_of_max": 10.1,
+      "pct_of_max": 10.7,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -9195,8 +9360,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": null,
@@ -9256,11 +9421,11 @@
         }
       },
       "group_stage": {
-        "points": 434,
+        "points": 433,
         "correct_outcome": 25,
-        "home_sq_err": 132,
+        "home_sq_err": 133,
         "away_sq_err": 59,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -9756,6 +9921,17 @@
             "away_sq_err": 0,
             "match_pts": 21,
             "cumulative": 434
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "1-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 433
           }
         ]
       },
@@ -9777,12 +9953,12 @@
       "third_place": null
     },
     "World_cup_2026_Bjørn_F": {
-      "total": 506,
+      "total": 532,
       "max_possible": 4600,
-      "pct_of_max": 11.0,
+      "pct_of_max": 11.6,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -9806,8 +9982,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 10.0,
@@ -9867,11 +10043,11 @@
         }
       },
       "group_stage": {
-        "points": 476,
+        "points": 472,
         "correct_outcome": 26,
-        "home_sq_err": 125,
+        "home_sq_err": 129,
         "away_sq_err": 49,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -10367,6 +10543,17 @@
             "away_sq_err": 0,
             "match_pts": 16,
             "cumulative": 476
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 472
           }
         ]
       },
@@ -10388,12 +10575,12 @@
       "third_place": null
     },
     "World_cup_2026_CL": {
-      "total": 618,
+      "total": 644,
       "max_possible": 4600,
-      "pct_of_max": 13.4,
+      "pct_of_max": 14.0,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -10417,8 +10604,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 7.0,
@@ -10478,11 +10665,11 @@
         }
       },
       "group_stage": {
-        "points": 588,
+        "points": 584,
         "correct_outcome": 31,
-        "home_sq_err": 135,
+        "home_sq_err": 139,
         "away_sq_err": 52,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -10978,6 +11165,17 @@
             "away_sq_err": 0,
             "match_pts": 21,
             "cumulative": 588
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 584
           }
         ]
       },
@@ -10999,12 +11197,12 @@
       "third_place": null
     },
     "World_cup_2026_Dagfinn": {
-      "total": 433,
+      "total": 459,
       "max_possible": 4600,
-      "pct_of_max": 9.4,
+      "pct_of_max": 10.0,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -11028,8 +11226,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 10.0,
@@ -11089,11 +11287,11 @@
         }
       },
       "group_stage": {
-        "points": 403,
+        "points": 399,
         "correct_outcome": 25,
-        "home_sq_err": 171,
+        "home_sq_err": 175,
         "away_sq_err": 51,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -11589,6 +11787,17 @@
             "away_sq_err": 0,
             "match_pts": 21,
             "cumulative": 403
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 399
           }
         ]
       },
@@ -11610,12 +11819,12 @@
       "third_place": null
     },
     "World_cup_2026_Daniel_Naurin": {
-      "total": 574,
+      "total": 595,
       "max_possible": 4600,
-      "pct_of_max": 12.5,
+      "pct_of_max": 12.9,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -11639,8 +11848,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 11.0,
@@ -11700,11 +11909,11 @@
         }
       },
       "group_stage": {
-        "points": 544,
+        "points": 535,
         "correct_outcome": 28,
-        "home_sq_err": 108,
+        "home_sq_err": 117,
         "away_sq_err": 48,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -12200,6 +12409,17 @@
             "away_sq_err": 0,
             "match_pts": 21,
             "cumulative": 544
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "3-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 535
           }
         ]
       },
@@ -12221,12 +12441,12 @@
       "third_place": null
     },
     "World_cup_2026_gabriel": {
-      "total": 508,
+      "total": 533,
       "max_possible": 4600,
-      "pct_of_max": 11.0,
+      "pct_of_max": 11.6,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -12250,8 +12470,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 7.0,
@@ -12311,11 +12531,11 @@
         }
       },
       "group_stage": {
-        "points": 478,
+        "points": 473,
         "correct_outcome": 25,
-        "home_sq_err": 104,
-        "away_sq_err": 43,
-        "matches_played": 45,
+        "home_sq_err": 108,
+        "away_sq_err": 44,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -12811,6 +13031,17 @@
             "away_sq_err": 0,
             "match_pts": 21,
             "cumulative": 478
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 473
           }
         ]
       },
@@ -12832,9 +13063,9 @@
       "third_place": null
     },
     "World_cup_2026_goldstein": {
-      "total": 472,
+      "total": 462,
       "max_possible": 4600,
-      "pct_of_max": 10.3,
+      "pct_of_max": 10.0,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -12861,7 +13092,7 @@
           },
           "seven_plus_red_cards": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "games_extra_time": {
@@ -12922,11 +13153,11 @@
         }
       },
       "group_stage": {
-        "points": 442,
+        "points": 432,
         "correct_outcome": 25,
-        "home_sq_err": 139,
-        "away_sq_err": 44,
-        "matches_played": 45,
+        "home_sq_err": 148,
+        "away_sq_err": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -13422,6 +13653,17 @@
             "away_sq_err": 0,
             "match_pts": 21,
             "cumulative": 442
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "3-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 1,
+            "match_pts": -10,
+            "cumulative": 432
           }
         ]
       },
@@ -13443,12 +13685,12 @@
       "third_place": null
     },
     "world_cup_2026_hs": {
-      "total": 505,
+      "total": 526,
       "max_possible": 4600,
-      "pct_of_max": 11.0,
+      "pct_of_max": 11.4,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -13472,8 +13714,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 5.0,
@@ -13533,11 +13775,11 @@
         }
       },
       "group_stage": {
-        "points": 475,
+        "points": 466,
         "correct_outcome": 26,
-        "home_sq_err": 129,
+        "home_sq_err": 138,
         "away_sq_err": 46,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -14033,6 +14275,17 @@
             "away_sq_err": 1,
             "match_pts": 20,
             "cumulative": 475
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "3-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 466
           }
         ]
       },
@@ -14054,12 +14307,12 @@
       "third_place": null
     },
     "World_cup_2026_Jana Blahak": {
-      "total": 520,
+      "total": 545,
       "max_possible": 4600,
-      "pct_of_max": 11.3,
+      "pct_of_max": 11.8,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -14083,8 +14336,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 10.0,
@@ -14144,11 +14397,11 @@
         }
       },
       "group_stage": {
-        "points": 490,
+        "points": 485,
         "correct_outcome": 28,
-        "home_sq_err": 153,
-        "away_sq_err": 57,
-        "matches_played": 45,
+        "home_sq_err": 157,
+        "away_sq_err": 58,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -14644,6 +14897,17 @@
             "away_sq_err": 0,
             "match_pts": 16,
             "cumulative": 490
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 485
           }
         ]
       },
@@ -14665,12 +14929,12 @@
       "third_place": null
     },
     "World_cup_2026_javier": {
-      "total": 382,
+      "total": 403,
       "max_possible": 4600,
-      "pct_of_max": 8.3,
+      "pct_of_max": 8.8,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -14694,8 +14958,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 5.0,
@@ -14755,11 +15019,11 @@
         }
       },
       "group_stage": {
-        "points": 352,
+        "points": 343,
         "correct_outcome": 22,
-        "home_sq_err": 144,
+        "home_sq_err": 153,
         "away_sq_err": 54,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -15255,6 +15519,17 @@
             "away_sq_err": 0,
             "match_pts": 24,
             "cumulative": 352
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "3-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 343
           }
         ]
       },
@@ -15276,12 +15551,12 @@
       "third_place": null
     },
     "World_cup_2026_JonasSchmid": {
-      "total": 495,
+      "total": 524,
       "max_possible": 4600,
-      "pct_of_max": 10.8,
+      "pct_of_max": 11.4,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -15305,8 +15580,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 6.0,
@@ -15366,11 +15641,11 @@
         }
       },
       "group_stage": {
-        "points": 465,
+        "points": 464,
         "correct_outcome": 28,
-        "home_sq_err": 177,
+        "home_sq_err": 178,
         "away_sq_err": 58,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -15866,6 +16141,17 @@
             "away_sq_err": 0,
             "match_pts": 9,
             "cumulative": 465
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "1-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 1,
+            "away_sq_err": 0,
+            "match_pts": -1,
+            "cumulative": 464
           }
         ]
       },
@@ -15887,12 +16173,12 @@
       "third_place": null
     },
     "World_cup_2026_Karin": {
-      "total": 432,
+      "total": 457,
       "max_possible": 4600,
-      "pct_of_max": 9.4,
+      "pct_of_max": 9.9,
       "questions": {
-        "points": 0,
-        "correct": 0,
+        "points": 30,
+        "correct": 1,
         "detail": {
           "first_goal_team": {
             "predicted": "South Africa",
@@ -15916,8 +16202,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 4.0,
@@ -15977,11 +16263,11 @@
         }
       },
       "group_stage": {
-        "points": 432,
+        "points": 427,
         "correct_outcome": 25,
-        "home_sq_err": 145,
-        "away_sq_err": 48,
-        "matches_played": 45,
+        "home_sq_err": 149,
+        "away_sq_err": 49,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -16477,6 +16763,17 @@
             "away_sq_err": 1,
             "match_pts": 15,
             "cumulative": 432
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 427
           }
         ]
       },
@@ -16498,12 +16795,12 @@
       "third_place": null
     },
     "World_cup_2026_lutscher": {
-      "total": 493,
+      "total": 548,
       "max_possible": 4600,
-      "pct_of_max": 10.7,
+      "pct_of_max": 11.9,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -16527,8 +16824,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 6.0,
@@ -16588,11 +16885,11 @@
         }
       },
       "group_stage": {
-        "points": 463,
-        "correct_outcome": 26,
+        "points": 488,
+        "correct_outcome": 27,
         "home_sq_err": 136,
         "away_sq_err": 51,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -17088,6 +17385,17 @@
             "away_sq_err": 0,
             "match_pts": 16,
             "cumulative": 463
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "0-0",
+            "actual": "0-0",
+            "outcome_pts": 25,
+            "home_sq_err": 0,
+            "away_sq_err": 0,
+            "match_pts": 25,
+            "cumulative": 488
           }
         ]
       },
@@ -17109,9 +17417,9 @@
       "third_place": null
     },
     "World_cup_2026_Martin_S": {
-      "total": 238,
+      "total": 255,
       "max_possible": 4600,
-      "pct_of_max": 5.2,
+      "pct_of_max": 5.5,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -17138,7 +17446,7 @@
           },
           "seven_plus_red_cards": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "games_extra_time": {
@@ -17199,11 +17507,11 @@
         }
       },
       "group_stage": {
-        "points": 208,
-        "correct_outcome": 20,
-        "home_sq_err": 205,
-        "away_sq_err": 87,
-        "matches_played": 45,
+        "points": 225,
+        "correct_outcome": 21,
+        "home_sq_err": 209,
+        "away_sq_err": 91,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -17699,6 +18007,17 @@
             "away_sq_err": 1,
             "match_pts": 20,
             "cumulative": 208
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-2",
+            "actual": "0-0",
+            "outcome_pts": 25,
+            "home_sq_err": 4,
+            "away_sq_err": 4,
+            "match_pts": 17,
+            "cumulative": 225
           }
         ]
       },
@@ -17720,12 +18039,12 @@
       "third_place": null
     },
     "World_cup_2026_MIRO": {
-      "total": 529,
+      "total": 555,
       "max_possible": 4600,
-      "pct_of_max": 11.5,
+      "pct_of_max": 12.1,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -17749,8 +18068,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 17.0,
@@ -17810,11 +18129,11 @@
         }
       },
       "group_stage": {
-        "points": 499,
+        "points": 495,
         "correct_outcome": 27,
-        "home_sq_err": 128,
+        "home_sq_err": 132,
         "away_sq_err": 48,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -18310,6 +18629,17 @@
             "away_sq_err": 0,
             "match_pts": 16,
             "cumulative": 499
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 495
           }
         ]
       },
@@ -18331,20 +18661,101 @@
       "third_place": null
     },
     "world_cup_2026_oyvind": {
-      "total": 534,
+      "total": 590,
       "max_possible": 4600,
-      "pct_of_max": 11.6,
+      "pct_of_max": 12.8,
       "questions": {
-        "points": 0,
-        "correct": 0,
-        "detail": {}
+        "points": 60,
+        "correct": 2,
+        "detail": {
+          "first_goal_team": {
+            "predicted": "Mexico",
+            "actual": "Mexico",
+            "correct": true
+          },
+          "top_scorer": {
+            "predicted": "Harry Kane",
+            "actual": null,
+            "correct": false
+          },
+          "assist_king": {
+            "predicted": "Pedri",
+            "actual": null,
+            "correct": false
+          },
+          "final_penalty_shootout": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "seven_plus_red_cards": {
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
+          },
+          "games_extra_time": {
+            "predicted": 9.0,
+            "actual": null,
+            "correct": false
+          },
+          "games_penalty_shootout": {
+            "predicted": 4.0,
+            "actual": null,
+            "correct": false
+          },
+          "haaland_goals": {
+            "predicted": 4,
+            "actual": null,
+            "correct": false
+          },
+          "norway_top_assister": {
+            "predicted": "Martin Ødegaard",
+            "actual": null,
+            "correct": false
+          },
+          "haaland_open_play_penalty": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "nusa_scores": {
+            "predicted": "Yes",
+            "actual": null,
+            "correct": false
+          },
+          "norway_var_disallowed": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "norway_or_sweden_out_first": {
+            "predicted": "Sweden",
+            "actual": null,
+            "correct": false
+          },
+          "norway_red_card": {
+            "predicted": "No",
+            "actual": null,
+            "correct": false
+          },
+          "best_team_of_listed": {
+            "predicted": "New Zealand",
+            "actual": null,
+            "correct": false
+          },
+          "trump_trophy": {
+            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
+            "actual": null,
+            "correct": false
+          }
+        }
       },
       "group_stage": {
-        "points": 534,
+        "points": 530,
         "correct_outcome": 29,
-        "home_sq_err": 140,
+        "home_sq_err": 144,
         "away_sq_err": 51,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -18840,6 +19251,17 @@
             "away_sq_err": 0,
             "match_pts": 16,
             "cumulative": 534
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 530
           }
         ]
       },
@@ -18861,12 +19283,12 @@
       "third_place": null
     },
     "World_cup_2026_Povitkina": {
-      "total": 311,
+      "total": 328,
       "max_possible": 4600,
-      "pct_of_max": 6.8,
+      "pct_of_max": 7.1,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -18890,8 +19312,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 8.0,
@@ -18951,11 +19373,11 @@
         }
       },
       "group_stage": {
-        "points": 281,
+        "points": 268,
         "correct_outcome": 20,
-        "home_sq_err": 158,
-        "away_sq_err": 61,
-        "matches_played": 45,
+        "home_sq_err": 167,
+        "away_sq_err": 65,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -19451,6 +19873,17 @@
             "away_sq_err": 1,
             "match_pts": 20,
             "cumulative": 281
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "3-2",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 4,
+            "match_pts": -13,
+            "cumulative": 268
           }
         ]
       },
@@ -19472,101 +19905,20 @@
       "third_place": null
     },
     "World_cup_2026_stiansen": {
-      "total": 520,
+      "total": 481,
       "max_possible": 4600,
-      "pct_of_max": 11.3,
+      "pct_of_max": 10.5,
       "questions": {
-        "points": 30,
-        "correct": 1,
-        "detail": {
-          "first_goal_team": {
-            "predicted": "Mexico",
-            "actual": "Mexico",
-            "correct": true
-          },
-          "top_scorer": {
-            "predicted": "Harry Kane",
-            "actual": null,
-            "correct": false
-          },
-          "assist_king": {
-            "predicted": "Pedri",
-            "actual": null,
-            "correct": false
-          },
-          "final_penalty_shootout": {
-            "predicted": "No",
-            "actual": null,
-            "correct": false
-          },
-          "seven_plus_red_cards": {
-            "predicted": "Yes",
-            "actual": null,
-            "correct": false
-          },
-          "games_extra_time": {
-            "predicted": 9.0,
-            "actual": null,
-            "correct": false
-          },
-          "games_penalty_shootout": {
-            "predicted": 4.0,
-            "actual": null,
-            "correct": false
-          },
-          "haaland_goals": {
-            "predicted": 4,
-            "actual": null,
-            "correct": false
-          },
-          "norway_top_assister": {
-            "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
-          },
-          "haaland_open_play_penalty": {
-            "predicted": "Yes",
-            "actual": null,
-            "correct": false
-          },
-          "nusa_scores": {
-            "predicted": "Yes",
-            "actual": null,
-            "correct": false
-          },
-          "norway_var_disallowed": {
-            "predicted": "No",
-            "actual": null,
-            "correct": false
-          },
-          "norway_or_sweden_out_first": {
-            "predicted": "Sweden",
-            "actual": null,
-            "correct": false
-          },
-          "norway_red_card": {
-            "predicted": "No",
-            "actual": null,
-            "correct": false
-          },
-          "best_team_of_listed": {
-            "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
-          },
-          "trump_trophy": {
-            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
-            "actual": null,
-            "correct": false
-          }
-        }
+        "points": 0,
+        "correct": 0,
+        "detail": {}
       },
       "group_stage": {
-        "points": 490,
+        "points": 481,
         "correct_outcome": 27,
-        "home_sq_err": 137,
+        "home_sq_err": 146,
         "away_sq_err": 48,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -20062,6 +20414,17 @@
             "away_sq_err": 0,
             "match_pts": 16,
             "cumulative": 490
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "3-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 481
           }
         ]
       },
@@ -20083,12 +20446,12 @@
       "third_place": null
     },
     "World_cup_2026_StineHesstvedt_1106": {
-      "total": 529,
+      "total": 550,
       "max_possible": 4600,
-      "pct_of_max": 11.5,
+      "pct_of_max": 12.0,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -20112,8 +20475,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 10.0,
@@ -20173,11 +20536,11 @@
         }
       },
       "group_stage": {
-        "points": 499,
+        "points": 490,
         "correct_outcome": 27,
-        "home_sq_err": 127,
+        "home_sq_err": 136,
         "away_sq_err": 49,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -20673,6 +21036,17 @@
             "away_sq_err": 0,
             "match_pts": 21,
             "cumulative": 499
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "3-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 9,
+            "away_sq_err": 0,
+            "match_pts": -9,
+            "cumulative": 490
           }
         ]
       },
@@ -20694,12 +21068,12 @@
       "third_place": null
     },
     "World_cup_2026_Vilde Hernes": {
-      "total": 403,
+      "total": 428,
       "max_possible": 4600,
-      "pct_of_max": 8.8,
+      "pct_of_max": 9.3,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -20723,8 +21097,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 8.0,
@@ -20784,11 +21158,11 @@
         }
       },
       "group_stage": {
-        "points": 373,
+        "points": 368,
         "correct_outcome": 23,
-        "home_sq_err": 145,
-        "away_sq_err": 57,
-        "matches_played": 45,
+        "home_sq_err": 149,
+        "away_sq_err": 58,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -21284,6 +21658,17 @@
             "away_sq_err": 1,
             "match_pts": 23,
             "cumulative": 373
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-1",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 1,
+            "match_pts": -5,
+            "cumulative": 368
           }
         ]
       },
@@ -21305,12 +21690,12 @@
       "third_place": null
     },
     "World_cup_2026_ØB": {
-      "total": 406,
+      "total": 432,
       "max_possible": 4600,
-      "pct_of_max": 8.8,
+      "pct_of_max": 9.4,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -21334,8 +21719,8 @@
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "games_extra_time": {
             "predicted": 10.0,
@@ -21395,11 +21780,11 @@
         }
       },
       "group_stage": {
-        "points": 376,
+        "points": 372,
         "correct_outcome": 23,
-        "home_sq_err": 149,
+        "home_sq_err": 153,
         "away_sq_err": 50,
-        "matches_played": 45,
+        "matches_played": 46,
         "running": [
           {
             "match": 1,
@@ -21895,6 +22280,17 @@
             "away_sq_err": 0,
             "match_pts": 16,
             "cumulative": 376
+          },
+          {
+            "match": 45,
+            "play_order": 46,
+            "pred": "2-0",
+            "actual": "0-0",
+            "outcome_pts": 0,
+            "home_sq_err": 4,
+            "away_sq_err": 0,
+            "match_pts": -4,
+            "cumulative": 372
           }
         ]
       },
