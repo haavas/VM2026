@@ -1,0 +1,15 @@
+{
+  "hash": "331d5764826fc327736616ea15ae5158",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Colombia and Croatia are through\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-24 11:18:00\"\ncategories: [Update]\n---\n\n\n\n\n# Two narrow wins\n\nBoth games today went our way, but not in the manner we predicted. In the end, we are in a more competitive state than we have been for a while.\n\n## Colombia vs DRC\n\nThe modal prediction was 2-0, but four of us predicted a draw. With the exception of these four, the game made very little difference in our standing\n\n## Panama vs. Croatia\n\nAgain, all but three predicted Croatia to win. Again 2-0 was the modal prediction, but this time two front runners were among the minority. \n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\nChristian remain in the lead, but the distance to Scott is 12 points. Åse is within 25 points of Christian, which effectively can change in the next game. \n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png){width=750}\n:::\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
