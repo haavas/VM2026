@@ -1,0 +1,15 @@
+{
+  "hash": "d39c38f3b61d3eef1c57fd9e9f2533c5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Group B is done - Qatar is out\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-24 23:14:00\"\ncategories: [Update]\n---\n\n# Switzerland beat Canada\n\nWho could have guessed? Most of us, actually, including 11 participants with the exact score. But, the same number predicted a draw, so this game rattles the ranks.\n\n#Bosnia-Hertzegovina beat Qatar\n\nA confident 3-1 victory brings Bosnia-Hertzegovina to 4 points and a fairly certain place in the next phase. The exact score this time was only predicted by Jacob, Elin and Martin. As Martin had the correct score in both games he is the Rocket of the Round!\n\n#We have a new leader!\n\nScott got 48 out of 50 points, and is our new leader, 13 points ahead of Christian who has been in front \nfor 40 games -- since Sweden beat Tunisia 5-1. Maiken, Åse, Hallvard, Øyvind C. and Daniel N. chase the duo in front with about 40 points. This remains wide open!\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

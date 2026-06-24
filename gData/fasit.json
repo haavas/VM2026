@@ -383,6 +383,22 @@
       "home_goals": 1,
       "away_goals": 0,
       "play_order": 48
+    },
+    {
+      "match": 51,
+      "home": "Switzerland",
+      "away": "Canada",
+      "home_goals": 2,
+      "away_goals": 1,
+      "play_order": 49
+    },
+    {
+      "match": 52,
+      "home": "Bosnia and Herzegovina",
+      "away": "Qatar",
+      "home_goals": 3,
+      "away_goals": 1,
+      "play_order": 50
     }
   ],
   "knockout": [],
