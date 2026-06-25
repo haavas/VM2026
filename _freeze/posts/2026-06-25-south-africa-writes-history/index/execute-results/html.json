@@ -1,0 +1,15 @@
+{
+  "hash": "6ea36d5817ea63604576374ad8887b43",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"South Africa writes history\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-25 10:20:30\"\ncategories: [Update]\n---\n\n# South Africa progresses from group A\n\nThe World Cup started in the worst possible way for South Africa, but last night they made up for it with a historic win over South Korea. As Mexico rolled over Czechia, South Korea remain in third and are very likely to survive.\n\n## Marocco and Brasil top group B\n\nHaiti made a brave stand, but are out with three losses and zero points. Scotland is currently 7th in the table of the thirds, which is not as dire as it might sound. Several of the teams above have a splendid opportunity to worsen their goal difference in their last game. \n\n## The standings\n\nScott remain leader, 9 points ahead of Christian, who shared the Rocket of the Round medal with Stine. Both had 66 points out of 100. The stumbling block was South Africa - South Korea, which Marina got exactly right, and where Øivind predicted the correct result.\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

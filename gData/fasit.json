@@ -385,6 +385,22 @@
       "play_order": 48
     },
     {
+      "match": 49,
+      "home": "Scotland",
+      "away": "Brazil",
+      "home_goals": 0,
+      "away_goals": 3,
+      "play_order": 51
+    },
+    {
+      "match": 50,
+      "home": "Morocco",
+      "away": "Haiti",
+      "home_goals": 4,
+      "away_goals": 2,
+      "play_order": 52
+    },
+    {
       "match": 51,
       "home": "Switzerland",
       "away": "Canada",
@@ -399,6 +415,22 @@
       "home_goals": 3,
       "away_goals": 1,
       "play_order": 50
+    },
+    {
+      "match": 53,
+      "home": "Czech Republic",
+      "away": "Mexico",
+      "home_goals": 0,
+      "away_goals": 3,
+      "play_order": 53
+    },
+    {
+      "match": 54,
+      "home": "South Africa",
+      "away": "Korea Republic",
+      "home_goals": 1,
+      "away_goals": 0,
+      "play_order": 54
     }
   ],
   "knockout": [],

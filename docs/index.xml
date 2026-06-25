@@ -10,7 +10,46 @@
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Wed, 24 Jun 2026 21:14:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 25 Jun 2026 08:20:30 GMT</lastBuildDate>
+<item>
+  <title>South Africa writes history</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-25-south-africa-writes-history/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="south-africa-progresses-from-group-a" class="level1">
+<h1>South Africa progresses from group A</h1>
+<p>The World Cup started in the worst possible way for South Africa, but last night they made up for it with a historic win over South Korea. As Mexico rolled over Czechia, South Korea remain in third and are very likely to survive.</p>
+<section id="marocco-and-brasil-top-group-b" class="level2">
+<h2 class="anchored" data-anchor-id="marocco-and-brasil-top-group-b">Marocco and Brasil top group B</h2>
+<p>Haiti made a brave stand, but are out with three losses and zero points. Scotland is currently 7th in the table of the thirds, which is not as dire as it might sound. Several of the teams above have a splendid opportunity to worsen their goal difference in their last game.</p>
+</section>
+<section id="the-standings" class="level2">
+<h2 class="anchored" data-anchor-id="the-standings">The standings</h2>
+<p>Scott remain leader, 9 points ahead of Christian, who shared the Rocket of the Round medal with Stine. Both had 66 points out of 100. The stumbling block was South Africa - South Korea, which Marina got exactly right, and where Øivind predicted the correct result.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-25-south-africa-writes-history/standings.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-25-south-africa-writes-history/</guid>
+  <pubDate>Thu, 25 Jun 2026 08:20:30 GMT</pubDate>
+</item>
 <item>
   <title>Group B is done - Qatar is out</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -720,38 +759,6 @@
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-17-norway-beat-iraq/</guid>
   <pubDate>Wed, 17 Jun 2026 00:02:00 GMT</pubDate>
-</item>
-<item>
-  <title>France show strength</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-17-france-show-strength/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="france-vs-senegal" class="level1">
-<h1>France vs Senegal</h1>
-<p>Senegal is a very good team, but France won 3-1.</p>
-<p>Almost all of had a French victory, but the numbers varied somewhat. That means the standings are pretty much as they were.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-17-france-show-strength/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-17-france-show-strength/</guid>
-  <pubDate>Tue, 16 Jun 2026 23:01:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
