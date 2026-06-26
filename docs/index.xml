@@ -9,8 +9,37 @@
 <link>https://haavas.github.io/VM2026/</link>
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
-<generator>quarto-1.9.37</generator>
-<lastBuildDate>Thu, 25 Jun 2026 08:20:30 GMT</lastBuildDate>
+<generator>quarto-1.9.36</generator>
+<lastBuildDate>Fri, 26 Jun 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Many games later</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-27-many-games-later/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Eight games have been played since the last update. Scott, the previous leader is now in fifth, but only 28 points behind Christian. However, Stine has had a tremendous spell and is now just 7 points behind Christian.</p>
+<p>Stine and Martin are the Rockets of the Round.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-27-many-games-later/standings.png" class="img-fluid figure-img" width="750"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-27-many-games-later/</guid>
+  <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>South Africa writes history</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -727,38 +756,6 @@
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-17-group-j/</guid>
   <pubDate>Wed, 17 Jun 2026 06:39:00 GMT</pubDate>
-</item>
-<item>
-  <title>Norway beat Iraq</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-17-norway-beat-iraq/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="norway-won-4-1" class="level1">
-<h1>Norway won 4-1</h1>
-<p>Norway didn’t play all that well, and Iraq were impressive. But life isn’t fair,</p>
-<p>Christian got the result exactly right, as did Bjærn. The gap is now 51 points.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-17-norway-beat-iraq/standings.png" class="img-fluid figure-img" width="750"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-17-norway-beat-iraq/</guid>
-  <pubDate>Wed, 17 Jun 2026 00:02:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

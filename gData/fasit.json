@@ -431,6 +431,70 @@
       "home_goals": 1,
       "away_goals": 0,
       "play_order": 54
+    },
+    {
+      "match": 55,
+      "home": "Curaçao",
+      "away": "Ivory Coast",
+      "home_goals": 0,
+      "away_goals": 2,
+      "play_order": 55
+    },
+    {
+      "match": 56,
+      "home": "Ecuador",
+      "away": "Germany",
+      "home_goals": 2,
+      "away_goals": 1,
+      "play_order": 56
+    },
+    {
+      "match": 57,
+      "home": "Japan",
+      "away": "Sweden",
+      "home_goals": 1,
+      "away_goals": 1,
+      "play_order": 57
+    },
+    {
+      "match": 58,
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "home_goals": 1,
+      "away_goals": 3,
+      "play_order": 58
+    },
+    {
+      "match": 59,
+      "home": "Turkey",
+      "away": "United States",
+      "home_goals": 3,
+      "away_goals": 2,
+      "play_order": 59
+    },
+    {
+      "match": 60,
+      "home": "Paraguay",
+      "away": "Australia",
+      "home_goals": 0,
+      "away_goals": 0,
+      "play_order": 60
+    },
+    {
+      "match": 61,
+      "home": "Norway",
+      "away": "France",
+      "home_goals": 1,
+      "away_goals": 4,
+      "play_order": 61
+    },
+    {
+      "match": 62,
+      "home": "Senegal",
+      "away": "Iraq",
+      "home_goals": 5,
+      "away_goals": 0,
+      "play_order": 62
     }
   ],
   "knockout": [],
