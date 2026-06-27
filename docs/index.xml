@@ -10,7 +10,39 @@
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Fri, 26 Jun 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 27 Jun 2026 07:44:00 GMT</lastBuildDate>
+<item>
+  <title>Cabo Verde is through!</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-27-cabo-verde-is-through/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="cabo-verde-came-second-and-iran-can-still-make-it" class="level1">
+<h1>Cabo Verde came second, and Iran can still make it</h1>
+<p>Christian is back in a comfortable lead, and Scott is back in second place, 30 points behind</p>
+<p>Phillip was Rocket of the Round with 89 of 100 points possible. Well done.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-27-cabo-verde-is-through/standings.png" class="img-fluid figure-img" width="750"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-27-cabo-verde-is-through/</guid>
+  <pubDate>Sat, 27 Jun 2026 07:44:00 GMT</pubDate>
+</item>
 <item>
   <title>Many games later</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -698,64 +730,6 @@
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-18-is-ronaldo-too-old/</guid>
   <pubDate>Wed, 17 Jun 2026 22:14:00 GMT</pubDate>
-</item>
-<item>
-  <title>Group J</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-17-group-j/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="group-j-is-a-normal-group" class="level1">
-<h1>Group J is a normal group</h1>
-<p>No surprising results here. So, we are finally all on positive scores!</p>
-<p>Christian’s lead is up to 59 points, with Hallvard and Jostein in pursuit. There are fewer clusters, which means that the actual score can affect standings significantly.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-17-group-j/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<section id="argentina-vs.-algerie" class="level2">
-<h2 class="anchored" data-anchor-id="argentina-vs.-algerie">Argentina vs.&nbsp;Algerie</h2>
-<p>Messi with a hat trick. If he continues like this, he could be up there with Maradonna. Time will tell. Almost everyone Argentina winning, and Scott, Hallvard, Christian, Daniel N, Daniel G, Javier, Marina, Vilde and Øivind got the correct result. 3-0 means that nobody lost a lot of points.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-17-group-j/index_files/figure-html/scatter_points-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="austria---jordan" class="level2">
-<h2 class="anchored" data-anchor-id="austria---jordan">Austria - Jordan</h2>
-<p>Austria vs Jordan is a bit like Switzerland vs Qatar, except that Austria did the job. As almost all of us thought. Martin and Jonathan got the exact right result.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-17-group-j/index_files/figure-html/scatter_points2-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-17-group-j/</guid>
-  <pubDate>Wed, 17 Jun 2026 06:39:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
