@@ -165,12 +165,12 @@ def read_fasit(xlsx_path: Path) -> dict:
             raw = _safe(df.iloc[idx, mc])
             if not isinstance(raw, int) or raw not in match_range:
                 continue
-            g1 = _goals(df.iloc[idx,   mc + 2])
-            g2 = _goals(df.iloc[idx+1, mc + 2])
-            if g1 is None or g2 is None:
-                continue
             team1 = str(df.iloc[idx,   mc+1]) if pd.notna(df.iloc[idx,   mc+1]) else None
             team2 = str(df.iloc[idx+1, mc+1]) if pd.notna(df.iloc[idx+1, mc+1]) else None
+            if team1 is None:
+                continue
+            g1 = _goals(df.iloc[idx,   mc + 2])
+            g2 = _goals(df.iloc[idx+1, mc + 2])
             knockout.append({
                 "match":       raw,
                 "stage":       stage_label,

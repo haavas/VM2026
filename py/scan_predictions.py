@@ -43,18 +43,50 @@ def project_root() -> Path:
 # ---------------------------------------------------------------------------
 # Column indices (1-based, as openpyxl uses)
 # ---------------------------------------------------------------------------
-# Each round: team col, then FT score, ET score, PEN score in the next 3 cols
+# Each round: team col, then FT score, ET score, PEN score in the next 3 cols.
+# first_rows = the home-team row of each match (away team is always row+1).
 ROUNDS = {
-    "r32":    ("BL", "BM", "BN", "BO", list(range(10, 72, 4))),
-    "r16":    ("BS", "BT", "BU", "BV", list(range(12, 48, 8))),
-    "qf":     ("BZ", "CA", "CB", "CC", list(range(16, 56, 16))),
-    "sf":     ("CG", "CH", "CI", "CJ", [23, 39]),
+    "r32":    ("BL", "BM", "BN", "BO", list(range(10, 72, 4))),   # 16 matches
+    "r16":    ("BS", "BT", "BU", "BV", list(range(12, 72, 8))),   # 8 matches
+    "qf":     ("BZ", "CA", "CB", "CC", list(range(16, 80, 16))),  # 4 matches (was range(16,56,16) — missed row 64)
+    "sf":     ("CG", "CH", "CI", "CJ", [23, 55]),                 # 2 matches (was [23,39] — row 39 is wrong)
     "final":  ("CN", "CO", "CP", "CQ", [37]),
     "bronze": ("CN", "CO", "CP", "CQ", [48]),
 }
 ROUNDS_CI = {
     k: tuple(column_index_from_string(c) if isinstance(c, str) else c for c in v)
     for k, v in ROUNDS.items()
+}
+
+# Map (round_key, first_row) -> fasit match_id, so score.py can join by match number.
+# Match ids come from col BK/BR/BY/CF/CM (one column left of the team column),
+# sitting one row above each home-team row.
+MATCH_ID_MAP: dict[tuple[str, int], int] = {
+    # Round of 32 (matches 73-88)
+    ("r32", 10): 74, ("r32", 14): 77, ("r32", 18): 73, ("r32", 22): 75,
+    ("r32", 26): 83, ("r32", 30): 84, ("r32", 34): 81, ("r32", 38): 82,
+    ("r32", 42): 76, ("r32", 46): 78, ("r32", 50): 79, ("r32", 54): 80,
+    ("r32", 58): 86, ("r32", 62): 88, ("r32", 66): 85, ("r32", 70): 87,
+    # Round of 16 (matches 89-96)
+    ("r16", 12): 89, ("r16", 20): 90, ("r16", 28): 93, ("r16", 36): 94,
+    ("r16", 44): 91, ("r16", 52): 92, ("r16", 60): 95, ("r16", 68): 96,
+    # Quarterfinals (matches 97-100)
+    ("qf",  16): 97, ("qf",  32): 98, ("qf",  48): 99, ("qf",  64): 100,
+    # Semi-Finals (matches 101-102)
+    ("sf",  23): 101, ("sf",  55): 102,
+    # Final & Bronze
+    ("final",  37): 104,
+    ("bronze", 48): 103,
+}
+
+# Map round key -> stage label expected by score.py's score_knockout()
+STAGE_LABEL = {
+    "r32":    "Round of 32",
+    "r16":    "Round of 16",
+    "qf":     "Quarterfinals",
+    "sf":     "Semi-Finals",
+    "final":  "Final",
+    "bronze": "Third-Place Play-Off",
 }
 
 
@@ -93,8 +125,8 @@ def _score(ws, row, col):
         return None
 
 
-def _read_matches(ws, col_team, col_ft, col_et, col_pen, first_rows):
-    """Read knockout matches: teams + FT/ET/PEN scores."""
+def _read_matches(ws, round_key, col_team, col_ft, col_et, col_pen, first_rows):
+    """Read knockout matches: teams + FT/ET/PEN scores, tagged with match_id and stage."""
     matches = []
     for r in first_rows:
         home = _val(ws, r,     col_team)
@@ -108,10 +140,13 @@ def _read_matches(ws, col_team, col_ft, col_et, col_pen, first_rows):
         pn_h = _score(ws, r,     col_pen)
         pn_a = _score(ws, r + 1, col_pen)
         matches.append({
-            "home": home, "away": away,
-            "ft": [ft_h, ft_a],
-            "et": [et_h, et_a] if et_h is not None else None,
-            "pen": [pn_h, pn_a] if pn_h is not None else None,
+            "match":  MATCH_ID_MAP.get((round_key, r)),
+            "stage":  STAGE_LABEL[round_key],
+            "team1":  home,
+            "team2":  away,
+            "ft":     [ft_h, ft_a],
+            "et":     [et_h, et_a] if et_h is not None else None,
+            "pen":    [pn_h, pn_a] if pn_h is not None else None,
         })
     return matches
 
@@ -153,46 +188,57 @@ def read_player_file(path: Path, match_index: dict) -> dict:
     # --- Knockout ---
     def _rm(key):
         ct, ft, et, pn, rows = ROUNDS_CI[key]
-        return _read_matches(ws, ct, ft, et, pn, rows)
+        return _read_matches(ws, key, ct, ft, et, pn, rows)
 
-    knockout = {
-        "r32":    _rm("r32"),
-        "r16":    _rm("r16"),
-        "qf":     _rm("qf"),
-        "sf":     _rm("sf"),
-        "final":  _rm("final")[0] if _rm("final") else {},
-        "bronze": _rm("bronze")[0] if _rm("bronze") else {},
-    }
+    # Flat list of all KO matches in chronological (match number) order,
+    # matching the format score.py's score_knockout() expects:
+    #   [{match, stage, team1, team2, ft, et, pen}, ...]
+    ko_rounds = ["r32", "r16", "qf", "sf", "final", "bronze"]
+    knockout_flat = []
+    knockout_by_round = {}
+    for key in ko_rounds:
+        matches = _rm(key)
+        knockout_by_round[key] = matches
+        knockout_flat.extend(matches)
+    knockout_flat.sort(key=lambda m: m["match"] if m["match"] else 999)
 
-    # Derive champion from the final result
-    f = knockout.get("final", {})
-    ft = f.get("ft", [None, None])
-    et = f.get("et") or [None, None]
-    pn = f.get("pen") or [None, None]
+    # Derive champion / runner-up / third-place from predicted bracket results
+    def _winner(match):
+        """Return the predicted winner of a match, or None if not filled in."""
+        ft  = match.get("ft",  [None, None]) or [None, None]
+        et  = match.get("et",  [None, None]) or [None, None]
+        pn  = match.get("pen", [None, None]) or [None, None]
+        h, a = match.get("team1"), match.get("team2")
+        if ft[0] is None or ft[1] is None:
+            return None
+        if ft[0] > ft[1]: return h
+        if ft[1] > ft[0]: return a
+        if et[0] is not None and et[1] is not None:
+            if et[0] > et[1]: return h
+            if et[1] > et[0]: return a
+        if pn[0] is not None and pn[1] is not None:
+            return h if pn[0] > pn[1] else a
+        return None
 
-    if ft[0] is not None and ft[1] is not None:
-        if ft[0] > ft[1]:
-            champion = f["home"]
-        elif ft[1] > ft[0]:
-            champion = f["away"]
-        elif et[0] is not None and et[1] is not None:
-            if et[0] > et[1]:
-                champion = f["home"]
-            elif et[1] > et[0]:
-                champion = f["away"]
-            elif pn[0] is not None and pn[1] is not None:
-                champion = f["home"] if pn[0] > pn[1] else f["away"]
-            else:
-                champion = None
-        else:
-            champion = None
-    else:
-        champion = None
+    def _loser(match):
+        w = _winner(match)
+        if w is None:
+            return None
+        return match.get("team2") if w == match.get("team1") else match.get("team1")
+
+    final_match  = knockout_by_round["final"][0]  if knockout_by_round["final"]  else {}
+    bronze_match = knockout_by_round["bronze"][0] if knockout_by_round["bronze"] else {}
+
+    champion   = _winner(final_match)
+    runner_up  = _loser(final_match)
+    third_place = _winner(bronze_match)
 
     return {
         "group_stage":    group_stage,
-        "knockout":       knockout,
+        "knockout":       knockout_flat,
         "world_champion": champion,
+        "runner_up":      runner_up,
+        "third_place":    third_place,
         "warnings":       warnings,
     }
 

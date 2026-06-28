@@ -527,9 +527,202 @@
       "home_goals": 0,
       "away_goals": 1,
       "play_order": 64
+    },
+    {
+      "match": 67,
+      "home": "Panama",
+      "away": "England",
+      "home_goals": 0,
+      "away_goals": 2,
+      "play_order": 67
+    },
+    {
+      "match": 68,
+      "home": "Croatia",
+      "away": "Ghana",
+      "home_goals": 2,
+      "away_goals": 1,
+      "play_order": 68
+    },
+    {
+      "match": 69,
+      "home": "Algeria",
+      "away": "Austria",
+      "home_goals": 3,
+      "away_goals": 3,
+      "play_order": 71
+    },
+    {
+      "match": 70,
+      "home": "Jordan",
+      "away": "Argentina",
+      "home_goals": 1,
+      "away_goals": 3,
+      "play_order": 72
+    },
+    {
+      "match": 71,
+      "home": "Colombia",
+      "away": "Portugal",
+      "home_goals": 0,
+      "away_goals": 0,
+      "play_order": 69
+    },
+    {
+      "match": 72,
+      "home": "DR Congo",
+      "away": "Uzbekistan",
+      "home_goals": 3,
+      "away_goals": 1,
+      "play_order": 70
     }
   ],
-  "knockout": [],
+  "knockout": [
+    {
+      "match": 73,
+      "stage": "Round of 32",
+      "team1": "South Africa",
+      "team2": "Canada",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 73
+    },
+    {
+      "match": 74,
+      "stage": "Round of 32",
+      "team1": "Germany",
+      "team2": "Paraguay",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 74
+    },
+    {
+      "match": 75,
+      "stage": "Round of 32",
+      "team1": "Netherlands",
+      "team2": "Morocco",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 75
+    },
+    {
+      "match": 76,
+      "stage": "Round of 32",
+      "team1": "Brazil",
+      "team2": "Japan",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 76
+    },
+    {
+      "match": 77,
+      "stage": "Round of 32",
+      "team1": "France",
+      "team2": "Sweden",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 77
+    },
+    {
+      "match": 78,
+      "stage": "Round of 32",
+      "team1": "Ivory Coast",
+      "team2": "Norway",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 78
+    },
+    {
+      "match": 79,
+      "stage": "Round of 32",
+      "team1": "Mexico",
+      "team2": "Ecuador",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 79
+    },
+    {
+      "match": 80,
+      "stage": "Round of 32",
+      "team1": "England",
+      "team2": "DR Congo",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 80
+    },
+    {
+      "match": 81,
+      "stage": "Round of 32",
+      "team1": "United States",
+      "team2": "Bosnia and Herzegovina",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 81
+    },
+    {
+      "match": 82,
+      "stage": "Round of 32",
+      "team1": "Belgium",
+      "team2": "Senegal",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 82
+    },
+    {
+      "match": 83,
+      "stage": "Round of 32",
+      "team1": "Portugal",
+      "team2": "Croatia",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 83
+    },
+    {
+      "match": 84,
+      "stage": "Round of 32",
+      "team1": "Spain",
+      "team2": "Austria",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 84
+    },
+    {
+      "match": 85,
+      "stage": "Round of 32",
+      "team1": "Switzerland",
+      "team2": "Algeria",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 85
+    },
+    {
+      "match": 86,
+      "stage": "Round of 32",
+      "team1": "Argentina",
+      "team2": "Cape Verde",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 86
+    },
+    {
+      "match": 87,
+      "stage": "Round of 32",
+      "team1": "Colombia",
+      "team2": "Ghana",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 87
+    },
+    {
+      "match": 88,
+      "stage": "Round of 32",
+      "team1": "Australia",
+      "team2": "Egypt",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 88
+    }
+  ],
   "world_champion": null,
   "runner_up": null,
   "third_place": null

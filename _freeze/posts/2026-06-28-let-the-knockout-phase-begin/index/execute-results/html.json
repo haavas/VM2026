@@ -1,0 +1,15 @@
+{
+  "hash": "d7800b93f3e90e498774984e27a0629a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Let the knockout phase begin\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-28 21:24:00\"\ncategories: [Update]\n---\n\n# Claude could do better\n\nI had hopes that Claude could let us see the scores increase as the teams in the knockout stage were confirmed, but oh no. \n\nTherefore, this update is massive.\n\n\n::: {.cell}\n\n:::\n\n\nThere was no point in adding colors to this one. \n\nChristian is in the lead, but things can change quickly from now on.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
