@@ -1,9 +1,9 @@
 {
   "players": {
     "Copy of World_cup_2026.TomC": {
-      "total": 1560,
+      "total": 1590,
       "max_possible": 4600,
-      "pct_of_max": 33.9,
+      "pct_of_max": 34.6,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -892,9 +892,9 @@
         ]
       },
       "knockout": {
-        "points": 740,
-        "correct_spot": 18,
-        "correct_team": 26,
+        "points": 770,
+        "correct_spot": 19,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -1023,6 +1023,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -1137,6 +1153,20 @@
             "stage": "Round of 32",
             "match_pts": 55,
             "cumulative": 740
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 740
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 770
           }
         ]
       },
@@ -1151,9 +1181,9 @@
       "third_place": "Spain"
     },
     "Copy of World_cup_2026_Jacob": {
-      "total": 1280,
+      "total": 1310,
       "max_possible": 4600,
-      "pct_of_max": 27.8,
+      "pct_of_max": 28.5,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -2042,9 +2072,9 @@
         ]
       },
       "knockout": {
-        "points": 720,
-        "correct_spot": 14,
-        "correct_team": 26,
+        "points": 750,
+        "correct_spot": 15,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -2173,6 +2203,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs France",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -2287,6 +2333,20 @@
             "stage": "Round of 32",
             "match_pts": 55,
             "cumulative": 720
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 720
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 750
           }
         ]
       },
@@ -2301,9 +2361,9 @@
       "third_place": "Norway"
     },
     "Copy of World_cup_2026_Jostein": {
-      "total": 1477,
+      "total": 1502,
       "max_possible": 4600,
-      "pct_of_max": 32.1,
+      "pct_of_max": 32.7,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -3192,9 +3252,9 @@
         ]
       },
       "knockout": {
-        "points": 730,
+        "points": 755,
         "correct_spot": 16,
-        "correct_team": 26,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -3323,6 +3383,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Czech Republic vs Brazil",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 1,
+            "match_pts": 25
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Netherlands vs Senegal",
+            "actual": "Brazil vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -3437,6 +3513,20 @@
             "stage": "Round of 32",
             "match_pts": 30,
             "cumulative": 730
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 25,
+            "cumulative": 755
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 755
           }
         ]
       },
@@ -3451,9 +3541,9 @@
       "third_place": "France"
     },
     "Gates_World_cup_2026": {
-      "total": 1739,
+      "total": 1769,
       "max_possible": 4600,
-      "pct_of_max": 37.8,
+      "pct_of_max": 38.5,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -4342,9 +4432,9 @@
         ]
       },
       "knockout": {
-        "points": 775,
-        "correct_spot": 20,
-        "correct_team": 27,
+        "points": 805,
+        "correct_spot": 21,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -4473,6 +4563,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Czech Republic vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -4587,6 +4693,20 @@
             "stage": "Round of 32",
             "match_pts": 30,
             "cumulative": 775
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 775
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 805
           }
         ]
       },
@@ -4601,9 +4721,9 @@
       "third_place": "Spain"
     },
     "IWB_World_cup_2026": {
-      "total": 1572,
+      "total": 1602,
       "max_possible": 4600,
-      "pct_of_max": 34.2,
+      "pct_of_max": 34.8,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -5492,9 +5612,9 @@
         ]
       },
       "knockout": {
-        "points": 715,
-        "correct_spot": 18,
-        "correct_team": 25,
+        "points": 745,
+        "correct_spot": 19,
+        "correct_team": 26,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -5623,6 +5743,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs Morocco",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -5737,6 +5873,20 @@
             "stage": "Round of 32",
             "match_pts": 30,
             "cumulative": 715
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 715
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 745
           }
         ]
       },
@@ -5751,9 +5901,9 @@
       "third_place": "Spain"
     },
     "Jan_Erling_World_cup_2026": {
-      "total": 1578,
+      "total": 1608,
       "max_possible": 4600,
-      "pct_of_max": 34.3,
+      "pct_of_max": 35.0,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -6642,9 +6792,9 @@
         ]
       },
       "knockout": {
-        "points": 720,
-        "correct_spot": 19,
-        "correct_team": 25,
+        "points": 750,
+        "correct_spot": 20,
+        "correct_team": 26,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -6773,6 +6923,22 @@
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -6887,6 +7053,20 @@
             "stage": "Round of 32",
             "match_pts": 25,
             "cumulative": 720
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 720
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 750
           }
         ]
       },
@@ -6901,9 +7081,9 @@
       "third_place": "Spain"
     },
     "Kolltveit-World_cup_2026": {
-      "total": 1505,
+      "total": 1535,
       "max_possible": 4600,
-      "pct_of_max": 32.7,
+      "pct_of_max": 33.4,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -7792,9 +7972,9 @@
         ]
       },
       "knockout": {
-        "points": 740,
-        "correct_spot": 18,
-        "correct_team": 26,
+        "points": 770,
+        "correct_spot": 19,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -7923,6 +8103,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -8037,6 +8233,20 @@
             "stage": "Round of 32",
             "match_pts": 30,
             "cumulative": 740
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 740
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 770
           }
         ]
       },
@@ -9073,6 +9283,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Morocco vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -9187,6 +9413,20 @@
             "stage": "Round of 32",
             "match_pts": 30,
             "cumulative": 750
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 750
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 750
           }
         ]
       },
@@ -9201,9 +9441,9 @@
       "third_place": "France"
     },
     "Kopi av World_cup_2026_jh": {
-      "total": 1557,
+      "total": 1587,
       "max_possible": 4600,
-      "pct_of_max": 33.8,
+      "pct_of_max": 34.5,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -10092,9 +10332,9 @@
         ]
       },
       "knockout": {
-        "points": 770,
-        "correct_spot": 19,
-        "correct_team": 27,
+        "points": 800,
+        "correct_spot": 20,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -10223,6 +10463,22 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -10337,6 +10593,20 @@
             "stage": "Round of 32",
             "match_pts": 0,
             "cumulative": 770
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 770
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 800
           }
         ]
       },
@@ -10351,9 +10621,9 @@
       "third_place": "Spain"
     },
     "Maiken world_cup_2026": {
-      "total": 1718,
+      "total": 1778,
       "max_possible": 4600,
-      "pct_of_max": 37.3,
+      "pct_of_max": 38.7,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -11242,9 +11512,9 @@
         ]
       },
       "knockout": {
-        "points": 780,
-        "correct_spot": 21,
-        "correct_team": 27,
+        "points": 840,
+        "correct_spot": 23,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -11373,6 +11643,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Canada vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -11487,6 +11773,20 @@
             "stage": "Round of 32",
             "match_pts": 55,
             "cumulative": 780
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 810
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 840
           }
         ]
       },
@@ -12523,6 +12823,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs Morocco",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Netherlands vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -12637,6 +12953,20 @@
             "stage": "Round of 32",
             "match_pts": 55,
             "cumulative": 760
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 760
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 760
           }
         ]
       },
@@ -12651,9 +12981,9 @@
       "third_place": "France"
     },
     "Tone Vevatne - World Cup Competition 2026": {
-      "total": 1565,
+      "total": 1595,
       "max_possible": 4600,
-      "pct_of_max": 34.0,
+      "pct_of_max": 34.7,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -13542,9 +13872,9 @@
         ]
       },
       "knockout": {
-        "points": 740,
-        "correct_spot": 18,
-        "correct_team": 26,
+        "points": 770,
+        "correct_spot": 19,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -13673,6 +14003,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Senegal",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -13787,6 +14133,20 @@
             "stage": "Round of 32",
             "match_pts": 30,
             "cumulative": 740
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 740
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 770
           }
         ]
       },
@@ -13801,9 +14161,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026 (Kuyper)": {
-      "total": 1475,
+      "total": 1505,
       "max_possible": 4600,
-      "pct_of_max": 32.1,
+      "pct_of_max": 32.7,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -14692,9 +15052,9 @@
         ]
       },
       "knockout": {
-        "points": 750,
-        "correct_spot": 15,
-        "correct_team": 27,
+        "points": 780,
+        "correct_spot": 16,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -14823,6 +15183,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -14937,6 +15313,20 @@
             "stage": "Round of 32",
             "match_pts": 30,
             "cumulative": 750
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 750
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 780
           }
         ]
       },
@@ -14951,9 +15341,9 @@
       "third_place": "Portugal"
     },
     "World_cup_2026.gulli": {
-      "total": 1536,
+      "total": 1566,
       "max_possible": 4600,
-      "pct_of_max": 33.4,
+      "pct_of_max": 34.0,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -15842,9 +16232,9 @@
         ]
       },
       "knockout": {
-        "points": 740,
-        "correct_spot": 18,
-        "correct_team": 26,
+        "points": 770,
+        "correct_spot": 19,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -15973,6 +16363,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -16087,6 +16493,20 @@
             "stage": "Round of 32",
             "match_pts": 60,
             "cumulative": 740
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 740
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 770
           }
         ]
       },
@@ -16101,9 +16521,9 @@
       "third_place": "Argentina"
     },
     "World_cup_2026_aase": {
-      "total": 1616,
+      "total": 1646,
       "max_possible": 4600,
-      "pct_of_max": 35.1,
+      "pct_of_max": 35.8,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -16992,9 +17412,9 @@
         ]
       },
       "knockout": {
-        "points": 750,
-        "correct_spot": 15,
-        "correct_team": 27,
+        "points": 780,
+        "correct_spot": 16,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -17123,6 +17543,22 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -17237,6 +17673,20 @@
             "stage": "Round of 32",
             "match_pts": 0,
             "cumulative": 750
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 750
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 780
           }
         ]
       },
@@ -17251,9 +17701,9 @@
       "third_place": "France"
     },
     "World_cup_2026_anna": {
-      "total": 1476,
+      "total": 1506,
       "max_possible": 4600,
-      "pct_of_max": 32.1,
+      "pct_of_max": 32.7,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -18142,9 +18592,9 @@
         ]
       },
       "knockout": {
-        "points": 705,
-        "correct_spot": 16,
-        "correct_team": 25,
+        "points": 735,
+        "correct_spot": 17,
+        "correct_team": 26,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -18273,6 +18723,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Canada vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Tunisia vs Senegal",
+            "actual": "Brazil vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -18387,6 +18853,20 @@
             "stage": "Round of 32",
             "match_pts": 55,
             "cumulative": 705
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 735
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 735
           }
         ]
       },
@@ -19423,6 +19903,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Czech Republic vs Morocco",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Japan vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -19537,6 +20033,20 @@
             "stage": "Round of 32",
             "match_pts": 55,
             "cumulative": 760
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 760
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 760
           }
         ]
       },
@@ -19551,9 +20061,9 @@
       "third_place": "France"
     },
     "World_cup_2026_CL": {
-      "total": 1764,
+      "total": 1789,
       "max_possible": 4600,
-      "pct_of_max": 38.3,
+      "pct_of_max": 38.9,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -20442,9 +20952,9 @@
         ]
       },
       "knockout": {
-        "points": 770,
+        "points": 795,
         "correct_spot": 19,
-        "correct_team": 27,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -20573,6 +21083,22 @@
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Czech Republic vs Brazil",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 1,
+            "match_pts": 25
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Morocco vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -20687,6 +21213,20 @@
             "stage": "Round of 32",
             "match_pts": 25,
             "cumulative": 770
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 25,
+            "cumulative": 795
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 795
           }
         ]
       },
@@ -20701,9 +21241,9 @@
       "third_place": "Brazil"
     },
     "World_cup_2026_Dagfinn": {
-      "total": 1444,
+      "total": 1474,
       "max_possible": 4600,
-      "pct_of_max": 31.4,
+      "pct_of_max": 32.0,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -21592,9 +22132,9 @@
         ]
       },
       "knockout": {
-        "points": 720,
-        "correct_spot": 14,
-        "correct_team": 26,
+        "points": 750,
+        "correct_spot": 15,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -21723,6 +22263,22 @@
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Czech Republic vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Senegal",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -21837,6 +22393,20 @@
             "stage": "Round of 32",
             "match_pts": 25,
             "cumulative": 720
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 720
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 750
           }
         ]
       },
@@ -21851,9 +22421,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Daniel_Naurin": {
-      "total": 1666,
+      "total": 1696,
       "max_possible": 4600,
-      "pct_of_max": 36.2,
+      "pct_of_max": 36.9,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -22742,9 +23312,9 @@
         ]
       },
       "knockout": {
-        "points": 740,
-        "correct_spot": 18,
-        "correct_team": 26,
+        "points": 770,
+        "correct_spot": 19,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -22873,6 +23443,22 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs Morocco",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Ecuador",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -22987,6 +23573,20 @@
             "stage": "Round of 32",
             "match_pts": 0,
             "cumulative": 740
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 740
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 770
           }
         ]
       },
@@ -23001,9 +23601,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_gabriel": {
-      "total": 1489,
+      "total": 1519,
       "max_possible": 4600,
-      "pct_of_max": 32.4,
+      "pct_of_max": 33.0,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -23892,9 +24492,9 @@
         ]
       },
       "knockout": {
-        "points": 710,
-        "correct_spot": 17,
-        "correct_team": 25,
+        "points": 740,
+        "correct_spot": 18,
+        "correct_team": 26,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -24023,6 +24623,22 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Switzerland vs Morocco",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -24137,6 +24753,20 @@
             "stage": "Round of 32",
             "match_pts": 0,
             "cumulative": 710
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 710
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 740
           }
         ]
       },
@@ -24151,9 +24781,9 @@
       "third_place": "France"
     },
     "World_cup_2026_goldstein": {
-      "total": 1617,
+      "total": 1677,
       "max_possible": 4600,
-      "pct_of_max": 35.2,
+      "pct_of_max": 36.5,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -25042,9 +25672,9 @@
         ]
       },
       "knockout": {
-        "points": 745,
-        "correct_spot": 19,
-        "correct_team": 26,
+        "points": 805,
+        "correct_spot": 21,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -25173,6 +25803,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Canada vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -25287,6 +25933,20 @@
             "stage": "Round of 32",
             "match_pts": 30,
             "cumulative": 745
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 775
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 805
           }
         ]
       },
@@ -25301,9 +25961,9 @@
       "third_place": "France"
     },
     "world_cup_2026_hs": {
-      "total": 1620,
+      "total": 1650,
       "max_possible": 4600,
-      "pct_of_max": 35.2,
+      "pct_of_max": 35.9,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -26192,9 +26852,9 @@
         ]
       },
       "knockout": {
-        "points": 740,
-        "correct_spot": 18,
-        "correct_team": 26,
+        "points": 770,
+        "correct_spot": 19,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -26323,6 +26983,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs Morocco",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Ecuador",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -26437,6 +27113,20 @@
             "stage": "Round of 32",
             "match_pts": 55,
             "cumulative": 740
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 740
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 770
           }
         ]
       },
@@ -26451,9 +27141,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Jana Blahak": {
-      "total": 1638,
+      "total": 1668,
       "max_possible": 4600,
-      "pct_of_max": 35.6,
+      "pct_of_max": 36.3,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -27342,9 +28032,9 @@
         ]
       },
       "knockout": {
-        "points": 750,
-        "correct_spot": 20,
-        "correct_team": 26,
+        "points": 780,
+        "correct_spot": 21,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -27473,6 +28163,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Bosnia and Herzegovina vs Morocco",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -27587,6 +28293,20 @@
             "stage": "Round of 32",
             "match_pts": 55,
             "cumulative": 750
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 750
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 780
           }
         ]
       },
@@ -27601,9 +28321,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_javier": {
-      "total": 1431,
+      "total": 1461,
       "max_possible": 4600,
-      "pct_of_max": 31.1,
+      "pct_of_max": 31.8,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -28492,9 +29212,9 @@
         ]
       },
       "knockout": {
-        "points": 725,
-        "correct_spot": 15,
-        "correct_team": 26,
+        "points": 755,
+        "correct_spot": 16,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -28623,6 +29343,22 @@
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs Morocco",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -28737,6 +29473,20 @@
             "stage": "Round of 32",
             "match_pts": 25,
             "cumulative": 725
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 725
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 755
           }
         ]
       },
@@ -28751,9 +29501,9 @@
       "third_place": "France"
     },
     "World_cup_2026_JonasSchmid": {
-      "total": 1618,
+      "total": 1648,
       "max_possible": 4600,
-      "pct_of_max": 35.2,
+      "pct_of_max": 35.8,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -29642,9 +30392,9 @@
         ]
       },
       "knockout": {
-        "points": 775,
-        "correct_spot": 20,
-        "correct_team": 27,
+        "points": 805,
+        "correct_spot": 21,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -29773,6 +30523,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -29887,6 +30653,20 @@
             "stage": "Round of 32",
             "match_pts": 55,
             "cumulative": 775
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 775
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 805
           }
         ]
       },
@@ -30923,6 +31703,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Morocco vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -31037,6 +31833,20 @@
             "stage": "Round of 32",
             "match_pts": 55,
             "cumulative": 720
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 720
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 720
           }
         ]
       },
@@ -31051,9 +31861,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_lutscher": {
-      "total": 1675,
+      "total": 1705,
       "max_possible": 4600,
-      "pct_of_max": 36.4,
+      "pct_of_max": 37.1,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -31942,9 +32752,9 @@
         ]
       },
       "knockout": {
-        "points": 770,
-        "correct_spot": 19,
-        "correct_team": 27,
+        "points": 800,
+        "correct_spot": 20,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -32073,6 +32883,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Czech Republic vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Ecuador",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -32187,6 +33013,20 @@
             "stage": "Round of 32",
             "match_pts": 55,
             "cumulative": 770
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 770
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 800
           }
         ]
       },
@@ -32201,9 +33041,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Martin_S": {
-      "total": 1261,
+      "total": 1291,
       "max_possible": 4600,
-      "pct_of_max": 27.4,
+      "pct_of_max": 28.1,
       "questions": {
         "points": 30,
         "correct": 1,
@@ -33092,9 +33932,9 @@
         ]
       },
       "knockout": {
-        "points": 675,
-        "correct_spot": 10,
-        "correct_team": 25,
+        "points": 705,
+        "correct_spot": 11,
+        "correct_team": 26,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -33223,6 +34063,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Switzerland vs Scotland",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs France",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -33337,6 +34193,20 @@
             "stage": "Round of 32",
             "match_pts": 55,
             "cumulative": 675
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 675
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 705
           }
         ]
       },
@@ -33351,9 +34221,9 @@
       "third_place": "Norway"
     },
     "World_cup_2026_MIRO": {
-      "total": 1624,
+      "total": 1654,
       "max_possible": 4600,
-      "pct_of_max": 35.3,
+      "pct_of_max": 36.0,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -34242,9 +35112,9 @@
         ]
       },
       "knockout": {
-        "points": 755,
-        "correct_spot": 21,
-        "correct_team": 26,
+        "points": 785,
+        "correct_spot": 22,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -34373,6 +35243,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Czech Republic vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -34487,6 +35373,20 @@
             "stage": "Round of 32",
             "match_pts": 30,
             "cumulative": 755
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 755
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 785
           }
         ]
       },
@@ -35523,6 +36423,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Japan vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -35637,6 +36553,20 @@
             "stage": "Round of 32",
             "match_pts": 30,
             "cumulative": 730
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 730
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 730
           }
         ]
       },
@@ -35651,9 +36581,9 @@
       "third_place": "Netherlands"
     },
     "World_cup_2026_Povitkina": {
-      "total": 1170,
+      "total": 1200,
       "max_possible": 4600,
-      "pct_of_max": 25.4,
+      "pct_of_max": 26.1,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -36542,9 +37472,9 @@
         ]
       },
       "knockout": {
-        "points": 660,
-        "correct_spot": 12,
-        "correct_team": 24,
+        "points": 690,
+        "correct_spot": 13,
+        "correct_team": 25,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -36673,6 +37603,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "South Africa vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Germany",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -36787,6 +37733,20 @@
             "stage": "Round of 32",
             "match_pts": 55,
             "cumulative": 660
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 660
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 690
           }
         ]
       },
@@ -36801,9 +37761,9 @@
       "third_place": "Brazil"
     },
     "World_cup_2026_stiansen": {
-      "total": 1479,
+      "total": 1509,
       "max_possible": 4600,
-      "pct_of_max": 32.2,
+      "pct_of_max": 32.8,
       "questions": {
         "points": 0,
         "correct": 0,
@@ -37611,9 +38571,9 @@
         ]
       },
       "knockout": {
-        "points": 740,
-        "correct_spot": 18,
-        "correct_team": 26,
+        "points": 770,
+        "correct_spot": 19,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -37742,6 +38702,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Switzerland vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -37856,6 +38832,20 @@
             "stage": "Round of 32",
             "match_pts": 30,
             "cumulative": 740
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 740
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 770
           }
         ]
       },
@@ -37870,9 +38860,9 @@
       "third_place": "France"
     },
     "World_cup_2026_StineHesstvedt_1106": {
-      "total": 1735,
+      "total": 1795,
       "max_possible": 4600,
-      "pct_of_max": 37.7,
+      "pct_of_max": 39.0,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -38761,9 +39751,9 @@
         ]
       },
       "knockout": {
-        "points": 790,
-        "correct_spot": 18,
-        "correct_team": 28,
+        "points": 850,
+        "correct_spot": 20,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -38892,6 +39882,22 @@
             "correct_spot": 0,
             "correct_team": 2,
             "match_pts": 50
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Canada vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -39006,6 +40012,20 @@
             "stage": "Round of 32",
             "match_pts": 50,
             "cumulative": 790
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 820
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 850
           }
         ]
       },
@@ -39020,9 +40040,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Vilde Hernes": {
-      "total": 1473,
+      "total": 1503,
       "max_possible": 4600,
-      "pct_of_max": 32.0,
+      "pct_of_max": 32.7,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -39911,9 +40931,9 @@
         ]
       },
       "knockout": {
-        "points": 720,
-        "correct_spot": 14,
-        "correct_team": 26,
+        "points": 750,
+        "correct_spot": 15,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -40042,6 +41062,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs Netherlands",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -40156,6 +41192,20 @@
             "stage": "Round of 32",
             "match_pts": 55,
             "cumulative": 720
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 720
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 750
           }
         ]
       },
@@ -40170,9 +41220,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_ØB": {
-      "total": 1422,
+      "total": 1452,
       "max_possible": 4600,
-      "pct_of_max": 30.9,
+      "pct_of_max": 31.6,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -41061,9 +42111,9 @@
         ]
       },
       "knockout": {
-        "points": 715,
-        "correct_spot": 13,
-        "correct_team": 26,
+        "points": 745,
+        "correct_spot": 14,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -41192,6 +42242,22 @@
             "correct_spot": 0,
             "correct_team": 2,
             "match_pts": 50
+          },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Switzerland vs Morocco",
+            "actual": "Canada vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -41306,6 +42372,20 @@
             "stage": "Round of 32",
             "match_pts": 50,
             "cumulative": 715
+          },
+          {
+            "match": 90,
+            "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 715
+          },
+          {
+            "match": 91,
+            "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 745
           }
         ]
       },

@@ -9,8 +9,39 @@
 <link>https://haavas.github.io/VM2026/</link>
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
-<generator>quarto-1.9.37</generator>
-<lastBuildDate>Sun, 28 Jun 2026 19:24:00 GMT</lastBuildDate>
+<generator>quarto-1.9.36</generator>
+<lastBuildDate>Sun, 28 Jun 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Brazil and Canada win</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-29-brazil-and-canada-win/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="brasil-and-canada-won" class="level1">
+<h1>Brasil and Canada won</h1>
+<p>Brasil was largely anticipated to make it to the round of 16, but Canada was more of a surprise. Daniel G, Stine and Maiken had both, and Stine is now ahead of Christian, with Maiken in third. Scott is within a game as well.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-29-brazil-and-canada-win/standings.png" class="img-fluid figure-img" width="750"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-29-brazil-and-canada-win/</guid>
+  <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Let the knockout phase begin</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -700,38 +731,6 @@
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-19-we-didn-t-see-that-coming/</guid>
   <pubDate>Fri, 19 Jun 2026 07:08:00 GMT</pubDate>
-</item>
-<item>
-  <title>All opening games are played</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-18-all-opening-games-are-played/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="the-first-round-of-the-group-stage-is-done" class="level1">
-<h1>The first round of the group stage is done</h1>
-<p>No surprises last night. Daniel got 50 points from a perfect prediction of both games, while Anna and Vilde got the 3-1 victory for Colombia. No less than seven other persons had a 1-0 victory for Ghana (Tom, Jonas, Karin, Marina, Øyvind S, Øyvind C and Øivind).</p>
-<p>Not a lot changes in our competiton, but Hallvard lost ground. Christian’s lead is now 64 points.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-18-all-opening-games-are-played/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-18-all-opening-games-are-played/</guid>
-  <pubDate>Thu, 18 Jun 2026 06:38:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

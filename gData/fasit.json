@@ -583,8 +583,8 @@
       "stage": "Round of 32",
       "team1": "South Africa",
       "team2": "Canada",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 0,
+      "team2_goals": 1,
       "play_order": 73
     },
     {
@@ -610,8 +610,8 @@
       "stage": "Round of 32",
       "team1": "Brazil",
       "team2": "Japan",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 2,
+      "team2_goals": 1,
       "play_order": 76
     },
     {
@@ -721,6 +721,24 @@
       "team1_goals": null,
       "team2_goals": null,
       "play_order": 88
+    },
+    {
+      "match": 90,
+      "stage": "Round of 16",
+      "team1": "Canada",
+      "team2": null,
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 89
+    },
+    {
+      "match": 91,
+      "stage": "Round of 16",
+      "team1": "Brazil",
+      "team2": null,
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 90
     }
   ],
   "world_champion": null,

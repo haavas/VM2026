@@ -1,0 +1,15 @@
+{
+  "hash": "5ba143b9f3675da6ce2183b56b6d8799",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Brazil and Canada win\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-29\"\ncategories: [Update]\n---\n\n\n# Brasil and Canada won\n\n\n\n::: {.cell}\n\n:::\n\n\nBrasil was largely anticipated to make it to the round of 16, but Canada was more of a surprise. Daniel G, Stine and Maiken had both, and Stine is now ahead of Christian, with Maiken in third. Scott is within a game as well.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png){width=750}\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
