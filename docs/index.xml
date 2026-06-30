@@ -10,7 +10,48 @@
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Sun, 28 Jun 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 30 Jun 2026 20:23:00 GMT</lastBuildDate>
+<item>
+  <title>Norway beat Ivory Coast</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-06-30-norway-beat-ivory-coast/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="germany-and-the-netherlands-are-out" class="level1">
+<h1>Germany and the Netherlands are out</h1>
+<p>That was a bit of a surprise</p>
+</section>
+<section id="norway-is-in-the-round-of-16" class="level1">
+<h1>Norway is in the round of 16</h1>
+<p>As we were in 1998. We all know how that went.</p>
+</section>
+<section id="two-more-qualitative-questions-are-ripe" class="level1">
+<h1>Two more qualitative questions are ripe</h1>
+<p>New Zealand got one point, as did Curaco. Haiti got 0. New Zealand’s goal difference is -6, whereas Curacao had -8, so New Zealand did best among the worst ranked teams.</p>
+<p>Nusa scored. That kind of settled that.</p>
+<p>Stine and Maiken did well, but Christian got points from New Zealand, and is back in the lead. He is 19 points ahead of Stine and 36 point ahead of Maiken. Scott and Hallvard are just behind Maiken.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-06-30-norway-beat-ivory-coast/standings.png" class="img-fluid figure-img" width="750"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-06-30-norway-beat-ivory-coast/</guid>
+  <pubDate>Tue, 30 Jun 2026 20:23:00 GMT</pubDate>
+</item>
 <item>
   <title>Brazil and Canada win</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -688,49 +729,6 @@
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-19-usa-goes-to-the-knockout-rounds/</guid>
   <pubDate>Fri, 19 Jun 2026 21:15:00 GMT</pubDate>
-</item>
-<item>
-  <title>We didn’t see that coming</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-19-we-didn-t-see-that-coming/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="four-more-games-and-a-runaway-leader" class="level1">
-<h1>Four more games and a runaway leader</h1>
-<p>Mexico has qualified for the round of 32, as the first host nation since Russia in 2018.</p>
-<p>Yesterday was transformative. Four games are included in this update and Christian has built a massive gap, 96 points ahead og Øyvind C. The fact that the 2nd place rotates every update underscores the collective problem the rest of us has. While Christian keep on stockpiling results, the rest of us are inconsistent. Right now, Øyvind C. and Åse, two previous winners, are closest.</p>
-<p>Five of us had all four games correctly predicted: Stine, Anna, Jan Erling and myself, in addition to Christian.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-19-we-didn-t-see-that-coming/standings.png" class="img-fluid figure-img" width="750"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>The key to success was the Canada - Qatar game. The 6-0 results means that a 1-0 prediction yields 0 points, while a 3-0 prediction produces 16 points. Bjørn, Kristoffer, Gabriel, and Christian had 3 goals for Canada, and are rewarded accordingly. Predicting 0-0 in this game gives -36 points.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-19-we-didn-t-see-that-coming/index_files/figure-html/scatter_points-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-19-we-didn-t-see-that-coming/</guid>
-  <pubDate>Fri, 19 Jun 2026 07:08:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

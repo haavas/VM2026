@@ -1,12 +1,12 @@
 {
   "players": {
     "Copy of World_cup_2026.TomC": {
-      "total": 1590,
+      "total": 1650,
       "max_possible": 4600,
-      "pct_of_max": 34.6,
+      "pct_of_max": 35.9,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -60,8 +60,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -80,7 +80,7 @@
           },
           "best_team_of_listed": {
             "predicted": "Haiti",
-            "actual": null,
+            "actual": "New Zealand",
             "correct": false
           },
           "trump_trophy": {
@@ -892,9 +892,9 @@
         ]
       },
       "knockout": {
-        "points": 770,
-        "correct_spot": 19,
-        "correct_team": 27,
+        "points": 800,
+        "correct_spot": 20,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -1024,10 +1024,18 @@
             "correct_team": 2,
             "match_pts": 55
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Mexico vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -1035,10 +1043,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -1155,18 +1163,25 @@
             "cumulative": 740
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 740
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 770
+            "match_pts": 0,
+            "cumulative": 740
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 800
           }
         ]
       },
@@ -1181,12 +1196,12 @@
       "third_place": "Spain"
     },
     "Copy of World_cup_2026_Jacob": {
-      "total": 1310,
+      "total": 1395,
       "max_possible": 4600,
-      "pct_of_max": 28.5,
+      "pct_of_max": 30.3,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -1240,8 +1255,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -1260,8 +1275,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -2072,9 +2087,9 @@
         ]
       },
       "knockout": {
-        "points": 750,
+        "points": 775,
         "correct_spot": 15,
-        "correct_team": 27,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -2204,10 +2219,18 @@
             "correct_team": 2,
             "match_pts": 55
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs Norway",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 1,
+            "match_pts": 25
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Korea Republic vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -2215,7 +2238,7 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs France",
-            "actual": "Brazil vs None",
+            "actual": "Brazil vs Norway",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -2335,18 +2358,25 @@
             "cumulative": 720
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
+            "match_pts": 25,
+            "cumulative": 745
+          },
+          {
+            "match": 90,
+            "play_order": 90,
+            "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 720
+            "cumulative": 745
           },
           {
             "match": 91,
-            "play_order": 90,
+            "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 750
+            "cumulative": 775
           }
         ]
       },
@@ -2361,12 +2391,12 @@
       "third_place": "Norway"
     },
     "Copy of World_cup_2026_Jostein": {
-      "total": 1502,
+      "total": 1532,
       "max_possible": 4600,
-      "pct_of_max": 32.7,
+      "pct_of_max": 33.3,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -2420,7 +2450,7 @@
           },
           "nusa_scores": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_var_disallowed": {
@@ -2440,8 +2470,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -3384,10 +3414,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Czech Republic vs Brazil",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
@@ -3395,7 +3433,7 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Netherlands vs Senegal",
-            "actual": "Brazil vs None",
+            "actual": "Brazil vs Norway",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -3515,15 +3553,22 @@
             "cumulative": 730
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 730
+          },
+          {
+            "match": 90,
+            "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 25,
             "cumulative": 755
           },
           {
             "match": 91,
-            "play_order": 90,
+            "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 755
@@ -3541,12 +3586,12 @@
       "third_place": "France"
     },
     "Gates_World_cup_2026": {
-      "total": 1769,
+      "total": 1829,
       "max_possible": 4600,
-      "pct_of_max": 38.5,
+      "pct_of_max": 39.8,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -3600,8 +3645,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -3620,7 +3665,7 @@
           },
           "best_team_of_listed": {
             "predicted": "Curacao",
-            "actual": null,
+            "actual": "New Zealand",
             "correct": false
           },
           "trump_trophy": {
@@ -4432,9 +4477,9 @@
         ]
       },
       "knockout": {
-        "points": 805,
-        "correct_spot": 21,
-        "correct_team": 28,
+        "points": 835,
+        "correct_spot": 22,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -4564,10 +4609,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Czech Republic vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -4575,10 +4628,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -4695,18 +4748,25 @@
             "cumulative": 775
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 775
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 805
+            "match_pts": 0,
+            "cumulative": 775
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 835
           }
         ]
       },
@@ -4721,12 +4781,12 @@
       "third_place": "Spain"
     },
     "IWB_World_cup_2026": {
-      "total": 1602,
+      "total": 1722,
       "max_possible": 4600,
-      "pct_of_max": 34.8,
+      "pct_of_max": 37.4,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -4780,8 +4840,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -4800,8 +4860,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -5612,9 +5672,9 @@
         ]
       },
       "knockout": {
-        "points": 745,
-        "correct_spot": 19,
-        "correct_team": 26,
+        "points": 805,
+        "correct_spot": 21,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -5744,21 +5804,29 @@
             "correct_team": 1,
             "match_pts": 30
           },
-          "90": {
+          "89": {
             "stage": "Round of 16",
-            "pred": "Korea Republic vs Morocco",
-            "actual": "Canada vs None",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
           },
-          "91": {
+          "90": {
             "stage": "Round of 16",
-            "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
+            "pred": "Korea Republic vs Morocco",
+            "actual": "Canada vs Morocco",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -5875,18 +5943,25 @@
             "cumulative": 715
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 715
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 745
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 805
           }
         ]
       },
@@ -5901,12 +5976,12 @@
       "third_place": "Spain"
     },
     "Jan_Erling_World_cup_2026": {
-      "total": 1608,
+      "total": 1698,
       "max_possible": 4600,
-      "pct_of_max": 35.0,
+      "pct_of_max": 36.9,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -5960,8 +6035,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -5980,8 +6055,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -6792,9 +6867,9 @@
         ]
       },
       "knockout": {
-        "points": 750,
-        "correct_spot": 20,
-        "correct_team": 26,
+        "points": 780,
+        "correct_spot": 21,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -6924,10 +6999,18 @@
             "correct_team": 1,
             "match_pts": 25
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Korea Republic vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -6935,10 +7018,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -7055,18 +7138,25 @@
             "cumulative": 720
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 720
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 750
+            "match_pts": 0,
+            "cumulative": 720
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 780
           }
         ]
       },
@@ -7081,12 +7171,12 @@
       "third_place": "Spain"
     },
     "Kolltveit-World_cup_2026": {
-      "total": 1535,
+      "total": 1625,
       "max_possible": 4600,
-      "pct_of_max": 33.4,
+      "pct_of_max": 35.3,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -7140,8 +7230,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -7160,8 +7250,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -7972,9 +8062,9 @@
         ]
       },
       "knockout": {
-        "points": 770,
-        "correct_spot": 19,
-        "correct_team": 27,
+        "points": 800,
+        "correct_spot": 20,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -8104,10 +8194,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Mexico vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -8115,10 +8213,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -8235,18 +8333,25 @@
             "cumulative": 740
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 740
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 770
+            "match_pts": 0,
+            "cumulative": 740
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 800
           }
         ]
       },
@@ -8261,12 +8366,12 @@
       "third_place": "Spain"
     },
     "Kopi av World_cup_2026-Elin Arntzen": {
-      "total": 1616,
+      "total": 1731,
       "max_possible": 4600,
-      "pct_of_max": 35.1,
+      "pct_of_max": 37.6,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -8320,8 +8425,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -8340,8 +8445,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -9152,9 +9257,9 @@
         ]
       },
       "knockout": {
-        "points": 750,
-        "correct_spot": 15,
-        "correct_team": 27,
+        "points": 805,
+        "correct_spot": 16,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -9284,10 +9389,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Korea Republic vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -9295,10 +9408,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Morocco vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Brazil vs Norway",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
           }
         },
         "running": [
@@ -9415,18 +9528,25 @@
             "cumulative": 750
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 750
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 750
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 55,
+            "cumulative": 805
           }
         ]
       },
@@ -9441,9 +9561,9 @@
       "third_place": "France"
     },
     "Kopi av World_cup_2026_jh": {
-      "total": 1587,
+      "total": 1617,
       "max_possible": 4600,
-      "pct_of_max": 34.5,
+      "pct_of_max": 35.2,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -9500,7 +9620,7 @@
           },
           "nusa_scores": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_var_disallowed": {
@@ -9520,7 +9640,7 @@
           },
           "best_team_of_listed": {
             "predicted": "Haiti",
-            "actual": null,
+            "actual": "New Zealand",
             "correct": false
           },
           "trump_trophy": {
@@ -10332,9 +10452,9 @@
         ]
       },
       "knockout": {
-        "points": 800,
-        "correct_spot": 20,
-        "correct_team": 28,
+        "points": 830,
+        "correct_spot": 21,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -10464,10 +10584,18 @@
             "correct_team": 0,
             "match_pts": 0
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Korea Republic vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -10475,10 +10603,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -10595,18 +10723,25 @@
             "cumulative": 770
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 770
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 800
+            "match_pts": 0,
+            "cumulative": 770
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 830
           }
         ]
       },
@@ -10621,12 +10756,12 @@
       "third_place": "Spain"
     },
     "Maiken world_cup_2026": {
-      "total": 1778,
+      "total": 1838,
       "max_possible": 4600,
-      "pct_of_max": 38.7,
+      "pct_of_max": 40.0,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -10680,7 +10815,7 @@
           },
           "nusa_scores": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_var_disallowed": {
@@ -10700,8 +10835,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
@@ -11512,9 +11647,9 @@
         ]
       },
       "knockout": {
-        "points": 840,
-        "correct_spot": 23,
-        "correct_team": 29,
+        "points": 870,
+        "correct_spot": 24,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -11644,10 +11779,18 @@
             "correct_team": 2,
             "match_pts": 55
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Canada vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -11655,10 +11798,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -11775,18 +11918,25 @@
             "cumulative": 780
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 780
+          },
+          {
+            "match": 90,
+            "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 810
           },
           {
             "match": 91,
-            "play_order": 90,
+            "play_order": 91,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 840
+            "match_pts": 60,
+            "cumulative": 870
           }
         ]
       },
@@ -11801,12 +11951,12 @@
       "third_place": "Spain"
     },
     "Sandven_World_cup_2026": {
-      "total": 1696,
+      "total": 1816,
       "max_possible": 4600,
-      "pct_of_max": 36.9,
+      "pct_of_max": 39.5,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -11860,8 +12010,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "No",
@@ -11880,8 +12030,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
@@ -12692,9 +12842,9 @@
         ]
       },
       "knockout": {
-        "points": 760,
-        "correct_spot": 17,
-        "correct_team": 27,
+        "points": 820,
+        "correct_spot": 19,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -12824,21 +12974,29 @@
             "correct_team": 2,
             "match_pts": 55
           },
-          "90": {
+          "89": {
             "stage": "Round of 16",
-            "pred": "Korea Republic vs Morocco",
-            "actual": "Canada vs None",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
           },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs Morocco",
+            "actual": "Canada vs Morocco",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "91": {
             "stage": "Round of 16",
             "pred": "Netherlands vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Brazil vs Norway",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -12955,18 +13113,25 @@
             "cumulative": 760
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 760
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 760
+            "match_pts": 30,
+            "cumulative": 790
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 820
           }
         ]
       },
@@ -12981,12 +13146,12 @@
       "third_place": "France"
     },
     "Tone Vevatne - World Cup Competition 2026": {
-      "total": 1595,
+      "total": 1625,
       "max_possible": 4600,
-      "pct_of_max": 34.7,
+      "pct_of_max": 35.3,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 60,
+        "correct": 2,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -13040,8 +13205,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -13060,7 +13225,7 @@
           },
           "best_team_of_listed": {
             "predicted": "Haiti",
-            "actual": null,
+            "actual": "New Zealand",
             "correct": false
           },
           "trump_trophy": {
@@ -14004,10 +14169,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Korea Republic vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -14015,7 +14188,7 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Senegal",
-            "actual": "Brazil vs None",
+            "actual": "Brazil vs Norway",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -14135,15 +14308,22 @@
             "cumulative": 740
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 740
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 740
+          },
+          {
+            "match": 91,
+            "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 770
@@ -14161,12 +14341,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026 (Kuyper)": {
-      "total": 1505,
+      "total": 1595,
       "max_possible": 4600,
-      "pct_of_max": 32.7,
+      "pct_of_max": 34.7,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -14220,8 +14400,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "No",
@@ -14240,8 +14420,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
@@ -15052,9 +15232,9 @@
         ]
       },
       "knockout": {
-        "points": 780,
-        "correct_spot": 16,
-        "correct_team": 28,
+        "points": 810,
+        "correct_spot": 17,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -15184,10 +15364,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Mexico vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -15195,10 +15383,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -15315,18 +15503,25 @@
             "cumulative": 750
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 750
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 780
+            "match_pts": 0,
+            "cumulative": 750
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 810
           }
         ]
       },
@@ -15341,12 +15536,12 @@
       "third_place": "Portugal"
     },
     "World_cup_2026.gulli": {
-      "total": 1566,
+      "total": 1656,
       "max_possible": 4600,
-      "pct_of_max": 34.0,
+      "pct_of_max": 36.0,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -15400,8 +15595,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "No",
@@ -15420,8 +15615,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": null,
@@ -16232,9 +16427,9 @@
         ]
       },
       "knockout": {
-        "points": 770,
-        "correct_spot": 19,
-        "correct_team": 27,
+        "points": 800,
+        "correct_spot": 20,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -16364,10 +16559,18 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Mexico vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -16375,10 +16578,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -16495,18 +16698,25 @@
             "cumulative": 740
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 740
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 770
+            "match_pts": 0,
+            "cumulative": 740
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 800
           }
         ]
       },
@@ -16521,12 +16731,12 @@
       "third_place": "Argentina"
     },
     "World_cup_2026_aase": {
-      "total": 1646,
+      "total": 1736,
       "max_possible": 4600,
-      "pct_of_max": 35.8,
+      "pct_of_max": 37.7,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -16580,8 +16790,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -16600,8 +16810,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -17412,9 +17622,9 @@
         ]
       },
       "knockout": {
-        "points": 780,
-        "correct_spot": 16,
-        "correct_team": 28,
+        "points": 810,
+        "correct_spot": 17,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -17544,10 +17754,18 @@
             "correct_team": 0,
             "match_pts": 0
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Ivory Coast vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Korea Republic vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -17555,10 +17773,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -17675,18 +17893,25 @@
             "cumulative": 750
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 750
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 780
+            "match_pts": 0,
+            "cumulative": 750
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 810
           }
         ]
       },
@@ -17701,12 +17926,12 @@
       "third_place": "France"
     },
     "World_cup_2026_anna": {
-      "total": 1506,
+      "total": 1566,
       "max_possible": 4600,
-      "pct_of_max": 32.7,
+      "pct_of_max": 34.0,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -17760,8 +17985,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "No",
@@ -17780,8 +18005,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -18724,10 +18949,18 @@
             "correct_team": 2,
             "match_pts": 55
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Canada vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -18735,7 +18968,7 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Tunisia vs Senegal",
-            "actual": "Brazil vs None",
+            "actual": "Brazil vs Norway",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -18855,15 +19088,22 @@
             "cumulative": 705
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 705
+          },
+          {
+            "match": 90,
+            "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 735
           },
           {
             "match": 91,
-            "play_order": 90,
+            "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 735
@@ -18881,12 +19121,12 @@
       "third_place": "England"
     },
     "World_cup_2026_Bjørn_F": {
-      "total": 1590,
+      "total": 1710,
       "max_possible": 4600,
-      "pct_of_max": 34.6,
+      "pct_of_max": 37.2,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -18940,8 +19180,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -18960,8 +19200,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -19772,9 +20012,9 @@
         ]
       },
       "knockout": {
-        "points": 760,
-        "correct_spot": 17,
-        "correct_team": 27,
+        "points": 820,
+        "correct_spot": 19,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -19904,21 +20144,29 @@
             "correct_team": 2,
             "match_pts": 55
           },
-          "90": {
+          "89": {
             "stage": "Round of 16",
-            "pred": "Czech Republic vs Morocco",
-            "actual": "Canada vs None",
+            "pred": "Ecuador vs France",
+            "actual": "Paraguay vs None",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
           },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Czech Republic vs Morocco",
+            "actual": "Canada vs Morocco",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "91": {
             "stage": "Round of 16",
             "pred": "Japan vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Brazil vs Norway",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -20035,18 +20283,25 @@
             "cumulative": 760
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 760
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 760
+            "match_pts": 30,
+            "cumulative": 790
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 820
           }
         ]
       },
@@ -20061,12 +20316,12 @@
       "third_place": "France"
     },
     "World_cup_2026_CL": {
-      "total": 1789,
+      "total": 1874,
       "max_possible": 4600,
-      "pct_of_max": 38.9,
+      "pct_of_max": 40.7,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -20120,7 +20375,7 @@
           },
           "nusa_scores": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_var_disallowed": {
@@ -20140,8 +20395,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -20952,9 +21207,9 @@
         ]
       },
       "knockout": {
-        "points": 795,
-        "correct_spot": 19,
-        "correct_team": 28,
+        "points": 850,
+        "correct_spot": 20,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -21084,10 +21339,18 @@
             "correct_team": 1,
             "match_pts": 25
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Czech Republic vs Brazil",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
@@ -21095,10 +21358,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Morocco vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Brazil vs Norway",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
           }
         },
         "running": [
@@ -21215,18 +21478,25 @@
             "cumulative": 770
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 770
+          },
+          {
+            "match": 90,
+            "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 25,
             "cumulative": 795
           },
           {
             "match": 91,
-            "play_order": 90,
+            "play_order": 91,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 795
+            "match_pts": 55,
+            "cumulative": 850
           }
         ]
       },
@@ -21241,12 +21511,12 @@
       "third_place": "Brazil"
     },
     "World_cup_2026_Dagfinn": {
-      "total": 1474,
+      "total": 1534,
       "max_possible": 4600,
-      "pct_of_max": 32.0,
+      "pct_of_max": 33.3,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -21300,8 +21570,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -21320,8 +21590,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -22264,10 +22534,18 @@
             "correct_team": 1,
             "match_pts": 25
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Czech Republic vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -22275,7 +22553,7 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Senegal",
-            "actual": "Brazil vs None",
+            "actual": "Brazil vs Norway",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -22395,15 +22673,22 @@
             "cumulative": 720
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 720
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 720
+          },
+          {
+            "match": 91,
+            "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 750
@@ -22421,9 +22706,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Daniel_Naurin": {
-      "total": 1696,
+      "total": 1726,
       "max_possible": 4600,
-      "pct_of_max": 36.9,
+      "pct_of_max": 37.5,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -22480,7 +22765,7 @@
           },
           "nusa_scores": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_var_disallowed": {
@@ -22500,7 +22785,7 @@
           },
           "best_team_of_listed": {
             "predicted": "Curacao",
-            "actual": null,
+            "actual": "New Zealand",
             "correct": false
           },
           "trump_trophy": {
@@ -23312,9 +23597,9 @@
         ]
       },
       "knockout": {
-        "points": 770,
-        "correct_spot": 19,
-        "correct_team": 27,
+        "points": 800,
+        "correct_spot": 20,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -23444,18 +23729,26 @@
             "correct_team": 0,
             "match_pts": 0
           },
-          "90": {
+          "89": {
             "stage": "Round of 16",
-            "pred": "Korea Republic vs Morocco",
-            "actual": "Canada vs None",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
           },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs Morocco",
+            "actual": "Canada vs Morocco",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Ecuador",
-            "actual": "Brazil vs None",
+            "actual": "Brazil vs Norway",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -23575,18 +23868,25 @@
             "cumulative": 740
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 740
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 770
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 800
           }
         ]
       },
@@ -23601,12 +23901,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_gabriel": {
-      "total": 1519,
+      "total": 1639,
       "max_possible": 4600,
-      "pct_of_max": 33.0,
+      "pct_of_max": 35.6,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -23660,8 +23960,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -23680,8 +23980,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -24492,9 +24792,9 @@
         ]
       },
       "knockout": {
-        "points": 740,
-        "correct_spot": 18,
-        "correct_team": 26,
+        "points": 800,
+        "correct_spot": 20,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -24624,21 +24924,29 @@
             "correct_team": 0,
             "match_pts": 0
           },
-          "90": {
+          "89": {
             "stage": "Round of 16",
-            "pred": "Switzerland vs Morocco",
-            "actual": "Canada vs None",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
           },
-          "91": {
+          "90": {
             "stage": "Round of 16",
-            "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
+            "pred": "Switzerland vs Morocco",
+            "actual": "Canada vs Morocco",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -24755,18 +25063,25 @@
             "cumulative": 710
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 710
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 740
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 800
           }
         ]
       },
@@ -24781,12 +25096,12 @@
       "third_place": "France"
     },
     "World_cup_2026_goldstein": {
-      "total": 1677,
+      "total": 1767,
       "max_possible": 4600,
-      "pct_of_max": 36.5,
+      "pct_of_max": 38.4,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -24840,8 +25155,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "No",
@@ -24860,8 +25175,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -25672,9 +25987,9 @@
         ]
       },
       "knockout": {
-        "points": 805,
-        "correct_spot": 21,
-        "correct_team": 28,
+        "points": 835,
+        "correct_spot": 22,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -25804,10 +26119,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Canada vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -25815,10 +26138,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -25935,18 +26258,25 @@
             "cumulative": 745
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 745
+          },
+          {
+            "match": 90,
+            "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 775
           },
           {
             "match": 91,
-            "play_order": 90,
+            "play_order": 91,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 805
+            "match_pts": 60,
+            "cumulative": 835
           }
         ]
       },
@@ -25961,12 +26291,12 @@
       "third_place": "France"
     },
     "world_cup_2026_hs": {
-      "total": 1650,
+      "total": 1740,
       "max_possible": 4600,
-      "pct_of_max": 35.9,
+      "pct_of_max": 37.8,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -26020,8 +26350,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -26040,8 +26370,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -26852,9 +27182,9 @@
         ]
       },
       "knockout": {
-        "points": 770,
-        "correct_spot": 19,
-        "correct_team": 27,
+        "points": 800,
+        "correct_spot": 20,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -26984,18 +27314,26 @@
             "correct_team": 2,
             "match_pts": 55
           },
-          "90": {
+          "89": {
             "stage": "Round of 16",
-            "pred": "Korea Republic vs Morocco",
-            "actual": "Canada vs None",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
           },
+          "90": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs Morocco",
+            "actual": "Canada vs Morocco",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Ecuador",
-            "actual": "Brazil vs None",
+            "actual": "Brazil vs Norway",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -27115,18 +27453,25 @@
             "cumulative": 740
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 740
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 770
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 800
           }
         ]
       },
@@ -27141,12 +27486,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Jana Blahak": {
-      "total": 1668,
+      "total": 1758,
       "max_possible": 4600,
-      "pct_of_max": 36.3,
+      "pct_of_max": 38.2,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -27200,8 +27545,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "No",
@@ -27220,7 +27565,7 @@
           },
           "best_team_of_listed": {
             "predicted": "Haiti",
-            "actual": null,
+            "actual": "New Zealand",
             "correct": false
           },
           "trump_trophy": {
@@ -28032,9 +28377,9 @@
         ]
       },
       "knockout": {
-        "points": 780,
-        "correct_spot": 21,
-        "correct_team": 27,
+        "points": 840,
+        "correct_spot": 23,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -28164,21 +28509,29 @@
             "correct_team": 2,
             "match_pts": 55
           },
-          "90": {
+          "89": {
             "stage": "Round of 16",
-            "pred": "Bosnia and Herzegovina vs Morocco",
-            "actual": "Canada vs None",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
           },
-          "91": {
+          "90": {
             "stage": "Round of 16",
-            "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
+            "pred": "Bosnia and Herzegovina vs Morocco",
+            "actual": "Canada vs Morocco",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -28295,18 +28648,25 @@
             "cumulative": 750
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 750
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 780
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 840
           }
         ]
       },
@@ -28321,12 +28681,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_javier": {
-      "total": 1461,
+      "total": 1551,
       "max_possible": 4600,
-      "pct_of_max": 31.8,
+      "pct_of_max": 33.7,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -28380,7 +28740,7 @@
           },
           "nusa_scores": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_var_disallowed": {
@@ -28400,8 +28760,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -29212,9 +29572,9 @@
         ]
       },
       "knockout": {
-        "points": 755,
-        "correct_spot": 16,
-        "correct_team": 27,
+        "points": 815,
+        "correct_spot": 18,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -29344,21 +29704,29 @@
             "correct_team": 1,
             "match_pts": 25
           },
-          "90": {
+          "89": {
             "stage": "Round of 16",
-            "pred": "Mexico vs Morocco",
-            "actual": "Canada vs None",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
           },
-          "91": {
+          "90": {
             "stage": "Round of 16",
-            "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
+            "pred": "Mexico vs Morocco",
+            "actual": "Canada vs Morocco",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -29475,18 +29843,25 @@
             "cumulative": 725
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 725
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 755
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 815
           }
         ]
       },
@@ -29501,12 +29876,12 @@
       "third_place": "France"
     },
     "World_cup_2026_JonasSchmid": {
-      "total": 1648,
+      "total": 1708,
       "max_possible": 4600,
-      "pct_of_max": 35.8,
+      "pct_of_max": 37.1,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -29560,7 +29935,7 @@
           },
           "nusa_scores": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_var_disallowed": {
@@ -29580,8 +29955,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -30392,9 +30767,9 @@
         ]
       },
       "knockout": {
-        "points": 805,
-        "correct_spot": 21,
-        "correct_team": 28,
+        "points": 835,
+        "correct_spot": 22,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -30524,10 +30899,18 @@
             "correct_team": 2,
             "match_pts": 55
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Korea Republic vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -30535,10 +30918,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -30655,18 +31038,25 @@
             "cumulative": 775
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 775
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 805
+            "match_pts": 0,
+            "cumulative": 775
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 835
           }
         ]
       },
@@ -30681,12 +31071,12 @@
       "third_place": "France"
     },
     "World_cup_2026_Karin": {
-      "total": 1579,
+      "total": 1694,
       "max_possible": 4600,
-      "pct_of_max": 34.3,
+      "pct_of_max": 36.8,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "South Africa",
@@ -30740,8 +31130,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -30760,8 +31150,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -31572,9 +31962,9 @@
         ]
       },
       "knockout": {
-        "points": 720,
-        "correct_spot": 14,
-        "correct_team": 26,
+        "points": 775,
+        "correct_spot": 15,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -31704,10 +32094,18 @@
             "correct_team": 2,
             "match_pts": 55
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Mexico vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -31715,10 +32113,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Morocco vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Brazil vs Norway",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
           }
         },
         "running": [
@@ -31835,18 +32233,25 @@
             "cumulative": 720
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 720
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 720
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 55,
+            "cumulative": 775
           }
         ]
       },
@@ -31861,12 +32266,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_lutscher": {
-      "total": 1705,
+      "total": 1765,
       "max_possible": 4600,
-      "pct_of_max": 37.1,
+      "pct_of_max": 38.4,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -31920,8 +32325,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "No",
@@ -31940,8 +32345,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -32884,10 +33289,18 @@
             "correct_team": 2,
             "match_pts": 55
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Czech Republic vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -32895,7 +33308,7 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Ecuador",
-            "actual": "Brazil vs None",
+            "actual": "Brazil vs Norway",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -33015,15 +33428,22 @@
             "cumulative": 770
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 770
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 770
+          },
+          {
+            "match": 91,
+            "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 800
@@ -33041,12 +33461,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Martin_S": {
-      "total": 1291,
+      "total": 1376,
       "max_possible": 4600,
-      "pct_of_max": 28.1,
+      "pct_of_max": 29.9,
       "questions": {
-        "points": 30,
-        "correct": 1,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -33100,8 +33520,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "No",
@@ -33120,8 +33540,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -33932,9 +34352,9 @@
         ]
       },
       "knockout": {
-        "points": 705,
+        "points": 730,
         "correct_spot": 11,
-        "correct_team": 26,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -34064,10 +34484,18 @@
             "correct_team": 2,
             "match_pts": 55
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs Norway",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 1,
+            "match_pts": 25
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Scotland",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -34075,7 +34503,7 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs France",
-            "actual": "Brazil vs None",
+            "actual": "Brazil vs Norway",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -34195,18 +34623,25 @@
             "cumulative": 675
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
+            "match_pts": 25,
+            "cumulative": 700
+          },
+          {
+            "match": 90,
+            "play_order": 90,
+            "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 675
+            "cumulative": 700
           },
           {
             "match": 91,
-            "play_order": 90,
+            "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 705
+            "cumulative": 730
           }
         ]
       },
@@ -34221,12 +34656,12 @@
       "third_place": "Norway"
     },
     "World_cup_2026_MIRO": {
-      "total": 1654,
+      "total": 1744,
       "max_possible": 4600,
-      "pct_of_max": 36.0,
+      "pct_of_max": 37.9,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -34280,8 +34715,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -34300,8 +34735,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
@@ -35112,9 +35547,9 @@
         ]
       },
       "knockout": {
-        "points": 785,
-        "correct_spot": 22,
-        "correct_team": 27,
+        "points": 815,
+        "correct_spot": 23,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -35244,10 +35679,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Czech Republic vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -35255,10 +35698,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -35375,18 +35818,25 @@
             "cumulative": 755
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 755
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 785
+            "match_pts": 0,
+            "cumulative": 755
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 815
           }
         ]
       },
@@ -35401,12 +35851,12 @@
       "third_place": "France"
     },
     "world_cup_2026_oyvind": {
-      "total": 1544,
+      "total": 1634,
       "max_possible": 4600,
-      "pct_of_max": 33.6,
+      "pct_of_max": 35.5,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -35460,8 +35910,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "No",
@@ -35480,8 +35930,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
@@ -36292,9 +36742,9 @@
         ]
       },
       "knockout": {
-        "points": 730,
-        "correct_spot": 16,
-        "correct_team": 26,
+        "points": 760,
+        "correct_spot": 17,
+        "correct_team": 27,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -36424,10 +36874,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Korea Republic vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -36435,10 +36893,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Japan vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Brazil vs Norway",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -36555,18 +37013,25 @@
             "cumulative": 730
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 730
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 730
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 760
           }
         ]
       },
@@ -36581,12 +37046,12 @@
       "third_place": "Netherlands"
     },
     "World_cup_2026_Povitkina": {
-      "total": 1200,
+      "total": 1260,
       "max_possible": 4600,
-      "pct_of_max": 26.1,
+      "pct_of_max": 27.4,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -36640,8 +37105,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "No",
@@ -36660,8 +37125,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -37604,10 +38069,18 @@
             "correct_team": 2,
             "match_pts": 55
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Ecuador vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "South Africa vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -37615,7 +38088,7 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Germany",
-            "actual": "Brazil vs None",
+            "actual": "Brazil vs Norway",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -37735,15 +38208,22 @@
             "cumulative": 660
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 660
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 660
+          },
+          {
+            "match": 91,
+            "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 690
@@ -37761,9 +38241,9 @@
       "third_place": "Brazil"
     },
     "World_cup_2026_stiansen": {
-      "total": 1509,
+      "total": 1539,
       "max_possible": 4600,
-      "pct_of_max": 32.8,
+      "pct_of_max": 33.5,
       "questions": {
         "points": 0,
         "correct": 0,
@@ -38571,9 +39051,9 @@
         ]
       },
       "knockout": {
-        "points": 770,
-        "correct_spot": 19,
-        "correct_team": 27,
+        "points": 800,
+        "correct_spot": 20,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -38703,10 +39183,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -38714,10 +39202,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -38834,18 +39322,25 @@
             "cumulative": 740
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 740
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 770
+            "match_pts": 0,
+            "cumulative": 740
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 800
           }
         ]
       },
@@ -38860,12 +39355,12 @@
       "third_place": "France"
     },
     "World_cup_2026_StineHesstvedt_1106": {
-      "total": 1795,
+      "total": 1855,
       "max_possible": 4600,
-      "pct_of_max": 39.0,
+      "pct_of_max": 40.3,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -38919,8 +39414,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "No",
@@ -38939,7 +39434,7 @@
           },
           "best_team_of_listed": {
             "predicted": "Curacao",
-            "actual": null,
+            "actual": "New Zealand",
             "correct": false
           },
           "trump_trophy": {
@@ -39751,9 +40246,9 @@
         ]
       },
       "knockout": {
-        "points": 850,
-        "correct_spot": 20,
-        "correct_team": 30,
+        "points": 880,
+        "correct_spot": 21,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -39883,10 +40378,18 @@
             "correct_team": 2,
             "match_pts": 50
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Canada vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -39894,10 +40397,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -40014,18 +40517,25 @@
             "cumulative": 790
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 790
+          },
+          {
+            "match": 90,
+            "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 820
           },
           {
             "match": 91,
-            "play_order": 90,
+            "play_order": 91,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 850
+            "match_pts": 60,
+            "cumulative": 880
           }
         ]
       },
@@ -40040,12 +40550,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Vilde Hernes": {
-      "total": 1503,
+      "total": 1593,
       "max_possible": 4600,
-      "pct_of_max": 32.7,
+      "pct_of_max": 34.6,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -40099,8 +40609,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -40119,8 +40629,8 @@
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
-            "actual": null,
-            "correct": false
+            "actual": "New Zealand",
+            "correct": true
           },
           "trump_trophy": {
             "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
@@ -40931,9 +41441,9 @@
         ]
       },
       "knockout": {
-        "points": 750,
-        "correct_spot": 15,
-        "correct_team": 27,
+        "points": 780,
+        "correct_spot": 16,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -41063,10 +41573,18 @@
             "correct_team": 2,
             "match_pts": 55
           },
+          "89": {
+            "stage": "Round of 16",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "90": {
             "stage": "Round of 16",
             "pred": "Mexico vs Netherlands",
-            "actual": "Canada vs None",
+            "actual": "Canada vs Morocco",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -41074,10 +41592,10 @@
           "91": {
             "stage": "Round of 16",
             "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -41194,18 +41712,25 @@
             "cumulative": 720
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 720
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 750
+            "match_pts": 0,
+            "cumulative": 720
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 780
           }
         ]
       },
@@ -41220,12 +41745,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_ØB": {
-      "total": 1452,
+      "total": 1542,
       "max_possible": 4600,
-      "pct_of_max": 31.6,
+      "pct_of_max": 33.5,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -41279,8 +41804,8 @@
           },
           "nusa_scores": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
@@ -41299,7 +41824,7 @@
           },
           "best_team_of_listed": {
             "predicted": "Curacao",
-            "actual": null,
+            "actual": "New Zealand",
             "correct": false
           },
           "trump_trophy": {
@@ -42111,9 +42636,9 @@
         ]
       },
       "knockout": {
-        "points": 745,
-        "correct_spot": 14,
-        "correct_team": 27,
+        "points": 805,
+        "correct_spot": 16,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -42243,21 +42768,29 @@
             "correct_team": 2,
             "match_pts": 50
           },
-          "90": {
+          "89": {
             "stage": "Round of 16",
-            "pred": "Switzerland vs Morocco",
-            "actual": "Canada vs None",
+            "pred": "Germany vs France",
+            "actual": "Paraguay vs None",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
           },
-          "91": {
+          "90": {
             "stage": "Round of 16",
-            "pred": "Brazil vs Norway",
-            "actual": "Brazil vs None",
+            "pred": "Switzerland vs Morocco",
+            "actual": "Canada vs Morocco",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "91": {
+            "stage": "Round of 16",
+            "pred": "Brazil vs Norway",
+            "actual": "Brazil vs Norway",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -42374,18 +42907,25 @@
             "cumulative": 715
           },
           {
-            "match": 90,
+            "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
             "match_pts": 0,
             "cumulative": 715
           },
           {
-            "match": 91,
+            "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 745
+          },
+          {
+            "match": 91,
+            "play_order": 91,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 805
           }
         ]
       },

@@ -1,0 +1,15 @@
+{
+  "hash": "2711c4999f05eec2e1548885f87f9232",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Norway beat Ivory Coast\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-06-30 22:23:00\"\ncategories: [Update]\n---\n\n# Germany and the Netherlands are out\n\nThat was a bit of a surprise\n\n# Norway is in the round of 16\n\nAs we were in 1998. We all know how that went. \n\n# Two more qualitative questions are ripe\n\nNew Zealand got one point, as did Curaco. Haiti got 0. New Zealand's goal difference is -6, whereas Curacao had -8, so New Zealand did best among the worst ranked teams.\n\nNusa scored. That kind of settled that. \n\n\n\n\n::: {.cell}\n\n:::\n\n\nStine and Maiken did well, but Christian got points from New Zealand, and is back in the lead. He is 19 points ahead of Stine and 36 point ahead of Maiken. Scott and Hallvard are just behind Maiken.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png){width=750}\n:::\n:::\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
