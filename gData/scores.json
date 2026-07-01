@@ -1,12 +1,12 @@
 {
   "players": {
     "Copy of World_cup_2026.TomC": {
-      "total": 1650,
+      "total": 1735,
       "max_possible": 4600,
-      "pct_of_max": 35.9,
+      "pct_of_max": 37.7,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -70,8 +70,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -892,9 +892,9 @@
         ]
       },
       "knockout": {
-        "points": 800,
-        "correct_spot": 20,
-        "correct_team": 28,
+        "points": 855,
+        "correct_spot": 21,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -1027,18 +1027,18 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
             "pred": "Mexico vs Netherlands",
             "actual": "Canada vs Morocco",
             "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "correct_team": 1,
+            "match_pts": 25
           },
           "91": {
             "stage": "Round of 16",
@@ -1047,6 +1047,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Czech Republic vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -1166,22 +1174,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 740
+            "match_pts": 30,
+            "cumulative": 770
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 740
+            "match_pts": 25,
+            "cumulative": 795
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 800
+            "cumulative": 855
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 855
           }
         ]
       },
@@ -1196,12 +1211,12 @@
       "third_place": "Spain"
     },
     "Copy of World_cup_2026_Jacob": {
-      "total": 1395,
+      "total": 1480,
       "max_possible": 4600,
-      "pct_of_max": 30.3,
+      "pct_of_max": 32.2,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -1265,8 +1280,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -2087,9 +2102,9 @@
         ]
       },
       "knockout": {
-        "points": 775,
-        "correct_spot": 15,
-        "correct_team": 28,
+        "points": 830,
+        "correct_spot": 16,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -2222,7 +2237,7 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs Norway",
-            "actual": "Paraguay vs None",
+            "actual": "Paraguay vs France",
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
@@ -2239,6 +2254,14 @@
             "stage": "Round of 16",
             "pred": "Brazil vs France",
             "actual": "Brazil vs Norway",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs Senegal",
+            "actual": "Mexico vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -2375,8 +2398,15 @@
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
+            "match_pts": 55,
+            "cumulative": 800
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 775
+            "cumulative": 830
           }
         ]
       },
@@ -2391,9 +2421,9 @@
       "third_place": "Norway"
     },
     "Copy of World_cup_2026_Jostein": {
-      "total": 1532,
+      "total": 1562,
       "max_possible": 4600,
-      "pct_of_max": 33.3,
+      "pct_of_max": 34.0,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -2460,7 +2490,7 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Equal. They will go out in the same round",
-            "actual": null,
+            "actual": "Sweden",
             "correct": false
           },
           "norway_red_card": {
@@ -3282,9 +3312,9 @@
         ]
       },
       "knockout": {
-        "points": 755,
-        "correct_spot": 16,
-        "correct_team": 27,
+        "points": 785,
+        "correct_spot": 17,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -3417,10 +3447,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -3434,6 +3464,14 @@
             "stage": "Round of 16",
             "pred": "Netherlands vs Senegal",
             "actual": "Brazil vs Norway",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs England",
+            "actual": "Mexico vs None",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -3556,22 +3594,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 730
+            "match_pts": 30,
+            "cumulative": 760
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 25,
-            "cumulative": 755
+            "cumulative": 785
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 755
+            "cumulative": 785
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 785
           }
         ]
       },
@@ -3586,12 +3631,12 @@
       "third_place": "France"
     },
     "Gates_World_cup_2026": {
-      "total": 1829,
+      "total": 1919,
       "max_possible": 4600,
-      "pct_of_max": 39.8,
+      "pct_of_max": 41.7,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -3655,8 +3700,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -4477,9 +4522,9 @@
         ]
       },
       "knockout": {
-        "points": 835,
-        "correct_spot": 22,
-        "correct_team": 29,
+        "points": 895,
+        "correct_spot": 24,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -4612,10 +4657,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -4632,6 +4677,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -4751,22 +4804,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 775
+            "match_pts": 30,
+            "cumulative": 805
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 775
+            "cumulative": 805
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 835
+            "cumulative": 865
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 895
           }
         ]
       },
@@ -4781,12 +4841,12 @@
       "third_place": "Spain"
     },
     "IWB_World_cup_2026": {
-      "total": 1722,
+      "total": 1812,
       "max_possible": 4600,
-      "pct_of_max": 37.4,
+      "pct_of_max": 39.4,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -4850,8 +4910,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -5672,9 +5732,9 @@
         ]
       },
       "knockout": {
-        "points": 805,
-        "correct_spot": 21,
-        "correct_team": 28,
+        "points": 865,
+        "correct_spot": 23,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -5807,10 +5867,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -5827,6 +5887,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs Croatia",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -5946,22 +6014,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 715
+            "match_pts": 30,
+            "cumulative": 745
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 745
+            "cumulative": 775
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 805
+            "cumulative": 835
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 865
           }
         ]
       },
@@ -5976,12 +6051,12 @@
       "third_place": "Spain"
     },
     "Jan_Erling_World_cup_2026": {
-      "total": 1698,
+      "total": 1788,
       "max_possible": 4600,
-      "pct_of_max": 36.9,
+      "pct_of_max": 38.9,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -6045,8 +6120,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -6867,9 +6942,9 @@
         ]
       },
       "knockout": {
-        "points": 780,
-        "correct_spot": 21,
-        "correct_team": 27,
+        "points": 840,
+        "correct_spot": 23,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -7002,10 +7077,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -7022,6 +7097,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -7141,22 +7224,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 720
+            "match_pts": 30,
+            "cumulative": 750
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 720
+            "cumulative": 750
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 780
+            "cumulative": 810
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 840
           }
         ]
       },
@@ -7171,12 +7261,12 @@
       "third_place": "Spain"
     },
     "Kolltveit-World_cup_2026": {
-      "total": 1625,
+      "total": 1710,
       "max_possible": 4600,
-      "pct_of_max": 35.3,
+      "pct_of_max": 37.2,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -7240,8 +7330,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -8062,9 +8152,9 @@
         ]
       },
       "knockout": {
-        "points": 800,
-        "correct_spot": 20,
-        "correct_team": 28,
+        "points": 855,
+        "correct_spot": 21,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -8197,18 +8287,18 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
             "pred": "Mexico vs Netherlands",
             "actual": "Canada vs Morocco",
             "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "correct_team": 1,
+            "match_pts": 25
           },
           "91": {
             "stage": "Round of 16",
@@ -8217,6 +8307,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Cape Verde vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -8336,22 +8434,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 740
+            "match_pts": 30,
+            "cumulative": 770
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 740
+            "match_pts": 25,
+            "cumulative": 795
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 800
+            "cumulative": 855
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 855
           }
         ]
       },
@@ -8366,12 +8471,12 @@
       "third_place": "Spain"
     },
     "Kopi av World_cup_2026-Elin Arntzen": {
-      "total": 1731,
+      "total": 1821,
       "max_possible": 4600,
-      "pct_of_max": 37.6,
+      "pct_of_max": 39.6,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -8435,8 +8540,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -9257,9 +9362,9 @@
         ]
       },
       "knockout": {
-        "points": 805,
-        "correct_spot": 16,
-        "correct_team": 29,
+        "points": 865,
+        "correct_spot": 18,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -9392,10 +9497,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -9412,6 +9517,14 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -9531,22 +9644,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 750
+            "match_pts": 30,
+            "cumulative": 780
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 750
+            "cumulative": 780
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 805
+            "cumulative": 835
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 865
           }
         ]
       },
@@ -9561,12 +9681,12 @@
       "third_place": "France"
     },
     "Kopi av World_cup_2026_jh": {
-      "total": 1617,
+      "total": 1677,
       "max_possible": 4600,
-      "pct_of_max": 35.2,
+      "pct_of_max": 36.5,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -9630,8 +9750,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -10452,9 +10572,9 @@
         ]
       },
       "knockout": {
-        "points": 830,
-        "correct_spot": 21,
-        "correct_team": 29,
+        "points": 860,
+        "correct_spot": 22,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -10587,10 +10707,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -10607,6 +10727,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Ivory Coast vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -10726,22 +10854,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 770
+            "match_pts": 30,
+            "cumulative": 800
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 770
+            "cumulative": 800
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 830
+            "cumulative": 860
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 860
           }
         ]
       },
@@ -10756,12 +10891,12 @@
       "third_place": "Spain"
     },
     "Maiken world_cup_2026": {
-      "total": 1838,
+      "total": 1928,
       "max_possible": 4600,
-      "pct_of_max": 40.0,
+      "pct_of_max": 41.9,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -10825,8 +10960,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -11647,9 +11782,9 @@
         ]
       },
       "knockout": {
-        "points": 870,
-        "correct_spot": 24,
-        "correct_team": 30,
+        "points": 930,
+        "correct_spot": 26,
+        "correct_team": 32,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -11782,10 +11917,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -11802,6 +11937,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -11921,22 +12064,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 780
+            "match_pts": 30,
+            "cumulative": 810
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 810
+            "cumulative": 840
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 870
+            "cumulative": 900
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 930
           }
         ]
       },
@@ -11951,12 +12101,12 @@
       "third_place": "Spain"
     },
     "Sandven_World_cup_2026": {
-      "total": 1816,
+      "total": 1906,
       "max_possible": 4600,
-      "pct_of_max": 39.5,
+      "pct_of_max": 41.4,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -12020,8 +12170,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -12842,9 +12992,9 @@
         ]
       },
       "knockout": {
-        "points": 820,
-        "correct_spot": 19,
-        "correct_team": 29,
+        "points": 880,
+        "correct_spot": 21,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -12977,10 +13127,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -12994,6 +13144,14 @@
             "stage": "Round of 16",
             "pred": "Netherlands vs Norway",
             "actual": "Brazil vs Norway",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -13116,22 +13274,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 760
+            "match_pts": 30,
+            "cumulative": 790
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 790
+            "cumulative": 820
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 820
+            "cumulative": 850
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 880
           }
         ]
       },
@@ -13146,12 +13311,12 @@
       "third_place": "France"
     },
     "Tone Vevatne - World Cup Competition 2026": {
-      "total": 1625,
+      "total": 1715,
       "max_possible": 4600,
-      "pct_of_max": 35.3,
+      "pct_of_max": 37.3,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 90,
+        "correct": 3,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -13215,8 +13380,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -14037,9 +14202,9 @@
         ]
       },
       "knockout": {
-        "points": 770,
-        "correct_spot": 19,
-        "correct_team": 27,
+        "points": 830,
+        "correct_spot": 21,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -14172,10 +14337,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -14189,6 +14354,14 @@
             "stage": "Round of 16",
             "pred": "Brazil vs Senegal",
             "actual": "Brazil vs Norway",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -14311,22 +14484,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 740
+            "match_pts": 30,
+            "cumulative": 770
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 740
+            "cumulative": 770
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 770
+            "cumulative": 800
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 830
           }
         ]
       },
@@ -14341,12 +14521,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026 (Kuyper)": {
-      "total": 1595,
+      "total": 1680,
       "max_possible": 4600,
-      "pct_of_max": 34.7,
+      "pct_of_max": 36.5,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -14410,8 +14590,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -15232,9 +15412,9 @@
         ]
       },
       "knockout": {
-        "points": 810,
-        "correct_spot": 17,
-        "correct_team": 29,
+        "points": 865,
+        "correct_spot": 18,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -15367,18 +15547,18 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
             "pred": "Mexico vs Netherlands",
             "actual": "Canada vs Morocco",
             "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "correct_team": 1,
+            "match_pts": 25
           },
           "91": {
             "stage": "Round of 16",
@@ -15387,6 +15567,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -15506,22 +15694,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 750
+            "match_pts": 30,
+            "cumulative": 780
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 750
+            "match_pts": 25,
+            "cumulative": 805
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 810
+            "cumulative": 865
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 865
           }
         ]
       },
@@ -15536,12 +15731,12 @@
       "third_place": "Portugal"
     },
     "World_cup_2026.gulli": {
-      "total": 1656,
+      "total": 1741,
       "max_possible": 4600,
-      "pct_of_max": 36.0,
+      "pct_of_max": 37.8,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -15605,8 +15800,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -16427,9 +16622,9 @@
         ]
       },
       "knockout": {
-        "points": 800,
-        "correct_spot": 20,
-        "correct_team": 28,
+        "points": 855,
+        "correct_spot": 21,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -16562,18 +16757,18 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
             "pred": "Mexico vs Netherlands",
             "actual": "Canada vs Morocco",
             "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "correct_team": 1,
+            "match_pts": 25
           },
           "91": {
             "stage": "Round of 16",
@@ -16582,6 +16777,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -16701,22 +16904,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 740
+            "match_pts": 30,
+            "cumulative": 770
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 740
+            "match_pts": 25,
+            "cumulative": 795
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 800
+            "cumulative": 855
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 855
           }
         ]
       },
@@ -16731,12 +16941,12 @@
       "third_place": "Argentina"
     },
     "World_cup_2026_aase": {
-      "total": 1736,
+      "total": 1826,
       "max_possible": 4600,
-      "pct_of_max": 37.7,
+      "pct_of_max": 39.7,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -16800,8 +17010,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -17622,9 +17832,9 @@
         ]
       },
       "knockout": {
-        "points": 810,
-        "correct_spot": 17,
-        "correct_team": 29,
+        "points": 870,
+        "correct_spot": 19,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -17757,10 +17967,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Ivory Coast vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -17777,6 +17987,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -17896,22 +18114,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 750
+            "match_pts": 30,
+            "cumulative": 780
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 750
+            "cumulative": 780
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 810
+            "cumulative": 840
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 870
           }
         ]
       },
@@ -17926,9 +18151,9 @@
       "third_place": "France"
     },
     "World_cup_2026_anna": {
-      "total": 1566,
+      "total": 1626,
       "max_possible": 4600,
-      "pct_of_max": 34.0,
+      "pct_of_max": 35.3,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -17995,7 +18220,7 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Equal. They will go out in the same round",
-            "actual": null,
+            "actual": "Sweden",
             "correct": false
           },
           "norway_red_card": {
@@ -18817,9 +19042,9 @@
         ]
       },
       "knockout": {
-        "points": 735,
-        "correct_spot": 17,
-        "correct_team": 26,
+        "points": 795,
+        "correct_spot": 19,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -18952,10 +19177,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -18972,6 +19197,14 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -19091,22 +19324,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 705
+            "match_pts": 30,
+            "cumulative": 735
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 735
+            "cumulative": 765
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 735
+            "cumulative": 765
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 795
           }
         ]
       },
@@ -19121,12 +19361,12 @@
       "third_place": "England"
     },
     "World_cup_2026_Bjørn_F": {
-      "total": 1710,
+      "total": 1800,
       "max_possible": 4600,
-      "pct_of_max": 37.2,
+      "pct_of_max": 39.1,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -19190,8 +19430,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -20012,9 +20252,9 @@
         ]
       },
       "knockout": {
-        "points": 820,
-        "correct_spot": 19,
-        "correct_team": 29,
+        "points": 880,
+        "correct_spot": 21,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -20147,10 +20387,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Ecuador vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -20164,6 +20404,14 @@
             "stage": "Round of 16",
             "pred": "Japan vs Norway",
             "actual": "Brazil vs Norway",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -20286,22 +20534,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 760
+            "match_pts": 30,
+            "cumulative": 790
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 790
+            "cumulative": 820
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 820
+            "cumulative": 850
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 880
           }
         ]
       },
@@ -20316,12 +20571,12 @@
       "third_place": "France"
     },
     "World_cup_2026_CL": {
-      "total": 1874,
+      "total": 1964,
       "max_possible": 4600,
-      "pct_of_max": 40.7,
+      "pct_of_max": 42.7,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -20385,8 +20640,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -21207,9 +21462,9 @@
         ]
       },
       "knockout": {
-        "points": 850,
-        "correct_spot": 20,
-        "correct_team": 30,
+        "points": 910,
+        "correct_spot": 22,
+        "correct_team": 32,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -21342,10 +21597,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -21362,6 +21617,14 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -21481,22 +21744,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 770
+            "match_pts": 30,
+            "cumulative": 800
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 25,
-            "cumulative": 795
+            "cumulative": 825
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 850
+            "cumulative": 880
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 910
           }
         ]
       },
@@ -21511,12 +21781,12 @@
       "third_place": "Brazil"
     },
     "World_cup_2026_Dagfinn": {
-      "total": 1534,
+      "total": 1649,
       "max_possible": 4600,
-      "pct_of_max": 33.3,
+      "pct_of_max": 35.8,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -21580,8 +21850,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -22402,9 +22672,9 @@
         ]
       },
       "knockout": {
-        "points": 750,
-        "correct_spot": 15,
-        "correct_team": 27,
+        "points": 835,
+        "correct_spot": 17,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -22537,10 +22807,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -22557,6 +22827,14 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs Norway",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
           }
         },
         "running": [
@@ -22676,22 +22954,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 720
+            "match_pts": 30,
+            "cumulative": 750
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 720
+            "cumulative": 750
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 750
+            "cumulative": 780
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 55,
+            "cumulative": 835
           }
         ]
       },
@@ -22706,9 +22991,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Daniel_Naurin": {
-      "total": 1726,
+      "total": 1786,
       "max_possible": 4600,
-      "pct_of_max": 37.5,
+      "pct_of_max": 38.8,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -22775,7 +23060,7 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Equal. They will go out in the same round",
-            "actual": null,
+            "actual": "Sweden",
             "correct": false
           },
           "norway_red_card": {
@@ -23597,9 +23882,9 @@
         ]
       },
       "knockout": {
-        "points": 800,
-        "correct_spot": 20,
-        "correct_team": 28,
+        "points": 860,
+        "correct_spot": 22,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -23732,10 +24017,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -23749,6 +24034,14 @@
             "stage": "Round of 16",
             "pred": "Brazil vs Ecuador",
             "actual": "Brazil vs Norway",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -23871,22 +24164,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 740
+            "match_pts": 30,
+            "cumulative": 770
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 770
+            "cumulative": 800
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 800
+            "cumulative": 830
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 860
           }
         ]
       },
@@ -23901,12 +24201,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_gabriel": {
-      "total": 1639,
+      "total": 1729,
       "max_possible": 4600,
-      "pct_of_max": 35.6,
+      "pct_of_max": 37.6,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -23970,8 +24270,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -24792,9 +25092,9 @@
         ]
       },
       "knockout": {
-        "points": 800,
-        "correct_spot": 20,
-        "correct_team": 28,
+        "points": 860,
+        "correct_spot": 22,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -24927,10 +25227,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -24947,6 +25247,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -25066,22 +25374,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 710
+            "match_pts": 30,
+            "cumulative": 740
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 740
+            "cumulative": 770
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 800
+            "cumulative": 830
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 860
           }
         ]
       },
@@ -25096,12 +25411,12 @@
       "third_place": "France"
     },
     "World_cup_2026_goldstein": {
-      "total": 1767,
+      "total": 1857,
       "max_possible": 4600,
-      "pct_of_max": 38.4,
+      "pct_of_max": 40.4,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -25165,8 +25480,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -25987,9 +26302,9 @@
         ]
       },
       "knockout": {
-        "points": 835,
-        "correct_spot": 22,
-        "correct_team": 29,
+        "points": 895,
+        "correct_spot": 24,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -26122,10 +26437,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -26142,6 +26457,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -26261,22 +26584,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 745
+            "match_pts": 30,
+            "cumulative": 775
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 775
+            "cumulative": 805
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 835
+            "cumulative": 865
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 895
           }
         ]
       },
@@ -26291,9 +26621,9 @@
       "third_place": "France"
     },
     "world_cup_2026_hs": {
-      "total": 1740,
+      "total": 1800,
       "max_possible": 4600,
-      "pct_of_max": 37.8,
+      "pct_of_max": 39.1,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -26360,7 +26690,7 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Equal. They will go out in the same round",
-            "actual": null,
+            "actual": "Sweden",
             "correct": false
           },
           "norway_red_card": {
@@ -27182,9 +27512,9 @@
         ]
       },
       "knockout": {
-        "points": 800,
-        "correct_spot": 20,
-        "correct_team": 28,
+        "points": 860,
+        "correct_spot": 22,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -27317,10 +27647,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -27334,6 +27664,14 @@
             "stage": "Round of 16",
             "pred": "Brazil vs Ecuador",
             "actual": "Brazil vs Norway",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -27456,22 +27794,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 740
+            "match_pts": 30,
+            "cumulative": 770
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 770
+            "cumulative": 800
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 800
+            "cumulative": 830
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 860
           }
         ]
       },
@@ -27486,12 +27831,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Jana Blahak": {
-      "total": 1758,
+      "total": 1848,
       "max_possible": 4600,
-      "pct_of_max": 38.2,
+      "pct_of_max": 40.2,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -27555,8 +27900,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "Yes",
@@ -28377,9 +28722,9 @@
         ]
       },
       "knockout": {
-        "points": 840,
-        "correct_spot": 23,
-        "correct_team": 29,
+        "points": 900,
+        "correct_spot": 25,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -28512,10 +28857,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -28532,6 +28877,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -28651,22 +29004,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 750
+            "match_pts": 30,
+            "cumulative": 780
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 780
+            "cumulative": 810
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 840
+            "cumulative": 870
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 900
           }
         ]
       },
@@ -28681,12 +29041,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_javier": {
-      "total": 1551,
+      "total": 1636,
       "max_possible": 4600,
-      "pct_of_max": 33.7,
+      "pct_of_max": 35.6,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -28750,8 +29110,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -29572,9 +29932,9 @@
         ]
       },
       "knockout": {
-        "points": 815,
-        "correct_spot": 18,
-        "correct_team": 29,
+        "points": 870,
+        "correct_spot": 19,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -29707,18 +30067,18 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
             "pred": "Mexico vs Morocco",
             "actual": "Canada vs Morocco",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "91": {
             "stage": "Round of 16",
@@ -29727,6 +30087,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Czech Republic vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -29846,22 +30214,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 725
+            "match_pts": 30,
+            "cumulative": 755
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 755
+            "match_pts": 55,
+            "cumulative": 810
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 815
+            "cumulative": 870
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 870
           }
         ]
       },
@@ -29876,12 +30251,12 @@
       "third_place": "France"
     },
     "World_cup_2026_JonasSchmid": {
-      "total": 1708,
+      "total": 1798,
       "max_possible": 4600,
-      "pct_of_max": 37.1,
+      "pct_of_max": 39.1,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -29945,8 +30320,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "Yes",
@@ -30767,9 +31142,9 @@
         ]
       },
       "knockout": {
-        "points": 835,
-        "correct_spot": 22,
-        "correct_team": 29,
+        "points": 895,
+        "correct_spot": 24,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -30902,10 +31277,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -30922,6 +31297,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -31041,22 +31424,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 775
+            "match_pts": 30,
+            "cumulative": 805
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 775
+            "cumulative": 805
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 835
+            "cumulative": 865
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 895
           }
         ]
       },
@@ -31071,9 +31461,9 @@
       "third_place": "France"
     },
     "World_cup_2026_Karin": {
-      "total": 1694,
+      "total": 1749,
       "max_possible": 4600,
-      "pct_of_max": 36.8,
+      "pct_of_max": 38.0,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -31140,7 +31530,7 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Equal. They will go out in the same round",
-            "actual": null,
+            "actual": "Sweden",
             "correct": false
           },
           "norway_red_card": {
@@ -31962,9 +32352,9 @@
         ]
       },
       "knockout": {
-        "points": 775,
-        "correct_spot": 15,
-        "correct_team": 28,
+        "points": 830,
+        "correct_spot": 16,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -32097,18 +32487,18 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
             "pred": "Mexico vs Netherlands",
             "actual": "Canada vs Morocco",
             "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "correct_team": 1,
+            "match_pts": 25
           },
           "91": {
             "stage": "Round of 16",
@@ -32117,6 +32507,14 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -32236,22 +32634,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 720
+            "match_pts": 30,
+            "cumulative": 750
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 720
+            "match_pts": 25,
+            "cumulative": 775
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 775
+            "cumulative": 830
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 830
           }
         ]
       },
@@ -32266,12 +32671,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_lutscher": {
-      "total": 1765,
+      "total": 1825,
       "max_possible": 4600,
-      "pct_of_max": 38.4,
+      "pct_of_max": 39.7,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -32335,8 +32740,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -33157,9 +33562,9 @@
         ]
       },
       "knockout": {
-        "points": 800,
-        "correct_spot": 20,
-        "correct_team": 28,
+        "points": 830,
+        "correct_spot": 21,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -33292,10 +33697,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -33312,6 +33717,14 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Korea Republic vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -33431,22 +33844,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 770
+            "match_pts": 30,
+            "cumulative": 800
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 770
+            "cumulative": 800
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 800
+            "cumulative": 830
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 830
           }
         ]
       },
@@ -33461,12 +33881,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Martin_S": {
-      "total": 1376,
+      "total": 1431,
       "max_possible": 4600,
-      "pct_of_max": 29.9,
+      "pct_of_max": 31.1,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -33530,8 +33950,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -34352,9 +34772,9 @@
         ]
       },
       "knockout": {
-        "points": 730,
+        "points": 755,
         "correct_spot": 11,
-        "correct_team": 27,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -34487,7 +34907,7 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs Norway",
-            "actual": "Paraguay vs None",
+            "actual": "Paraguay vs France",
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
@@ -34505,8 +34925,16 @@
             "pred": "Brazil vs France",
             "actual": "Brazil vs Norway",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Czech Republic vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -34640,8 +35068,15 @@
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 730
+            "match_pts": 55,
+            "cumulative": 755
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 755
           }
         ]
       },
@@ -34656,12 +35091,12 @@
       "third_place": "Norway"
     },
     "World_cup_2026_MIRO": {
-      "total": 1744,
+      "total": 1834,
       "max_possible": 4600,
-      "pct_of_max": 37.9,
+      "pct_of_max": 39.9,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -34725,8 +35160,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "Yes",
@@ -35547,9 +35982,9 @@
         ]
       },
       "knockout": {
-        "points": 815,
-        "correct_spot": 23,
-        "correct_team": 28,
+        "points": 875,
+        "correct_spot": 25,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -35682,10 +36117,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -35702,6 +36137,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -35821,22 +36264,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 755
+            "match_pts": 30,
+            "cumulative": 785
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 755
+            "cumulative": 785
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 815
+            "cumulative": 845
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 875
           }
         ]
       },
@@ -35851,12 +36301,12 @@
       "third_place": "France"
     },
     "world_cup_2026_oyvind": {
-      "total": 1634,
+      "total": 1724,
       "max_possible": 4600,
-      "pct_of_max": 35.5,
+      "pct_of_max": 37.5,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -35920,8 +36370,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -36742,9 +37192,9 @@
         ]
       },
       "knockout": {
-        "points": 760,
-        "correct_spot": 17,
-        "correct_team": 27,
+        "points": 820,
+        "correct_spot": 19,
+        "correct_team": 29,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -36877,10 +37327,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -36894,6 +37344,14 @@
             "stage": "Round of 16",
             "pred": "Japan vs Norway",
             "actual": "Brazil vs Norway",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -37016,22 +37474,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 730
+            "match_pts": 30,
+            "cumulative": 760
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 730
+            "cumulative": 760
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 760
+            "cumulative": 790
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 820
           }
         ]
       },
@@ -37046,12 +37511,12 @@
       "third_place": "Netherlands"
     },
     "World_cup_2026_Povitkina": {
-      "total": 1260,
+      "total": 1320,
       "max_possible": 4600,
-      "pct_of_max": 27.4,
+      "pct_of_max": 28.7,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -37115,8 +37580,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -37937,9 +38402,9 @@
         ]
       },
       "knockout": {
-        "points": 690,
-        "correct_spot": 13,
-        "correct_team": 25,
+        "points": 720,
+        "correct_spot": 14,
+        "correct_team": 26,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -38072,10 +38537,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Ecuador vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -38092,6 +38557,14 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Czech Republic vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -38211,22 +38684,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 660
+            "match_pts": 30,
+            "cumulative": 690
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 660
+            "cumulative": 690
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 690
+            "cumulative": 720
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 720
           }
         ]
       },
@@ -38241,9 +38721,9 @@
       "third_place": "Brazil"
     },
     "World_cup_2026_stiansen": {
-      "total": 1539,
+      "total": 1599,
       "max_possible": 4600,
-      "pct_of_max": 33.5,
+      "pct_of_max": 34.8,
       "questions": {
         "points": 0,
         "correct": 0,
@@ -39051,9 +39531,9 @@
         ]
       },
       "knockout": {
-        "points": 800,
-        "correct_spot": 20,
-        "correct_team": 28,
+        "points": 860,
+        "correct_spot": 22,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -39186,10 +39666,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -39206,6 +39686,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -39325,22 +39813,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 740
+            "match_pts": 30,
+            "cumulative": 770
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 740
+            "cumulative": 770
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 800
+            "cumulative": 830
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 860
           }
         ]
       },
@@ -39355,12 +39850,12 @@
       "third_place": "France"
     },
     "World_cup_2026_StineHesstvedt_1106": {
-      "total": 1855,
+      "total": 1945,
       "max_possible": 4600,
-      "pct_of_max": 40.3,
+      "pct_of_max": 42.3,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -39424,8 +39919,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -40246,9 +40741,9 @@
         ]
       },
       "knockout": {
-        "points": 880,
-        "correct_spot": 21,
-        "correct_team": 31,
+        "points": 940,
+        "correct_spot": 23,
+        "correct_team": 33,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -40381,10 +40876,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -40401,6 +40896,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Mexico vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -40520,22 +41023,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 790
+            "match_pts": 30,
+            "cumulative": 820
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 820
+            "cumulative": 850
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 880
+            "cumulative": 910
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 940
           }
         ]
       },
@@ -40550,12 +41060,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Vilde Hernes": {
-      "total": 1593,
+      "total": 1703,
       "max_possible": 4600,
-      "pct_of_max": 34.6,
+      "pct_of_max": 37.0,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -40619,8 +41129,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -41441,9 +41951,9 @@
         ]
       },
       "knockout": {
-        "points": 780,
-        "correct_spot": 16,
-        "correct_team": 28,
+        "points": 860,
+        "correct_spot": 17,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -41576,18 +42086,18 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
             "pred": "Mexico vs Netherlands",
             "actual": "Canada vs Morocco",
             "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "correct_team": 1,
+            "match_pts": 25
           },
           "91": {
             "stage": "Round of 16",
@@ -41596,6 +42106,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Morocco vs Croatia",
+            "actual": "Mexico vs None",
+            "correct_spot": 0,
+            "correct_team": 1,
+            "match_pts": 25
           }
         },
         "running": [
@@ -41715,22 +42233,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 720
+            "match_pts": 30,
+            "cumulative": 750
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 720
+            "match_pts": 25,
+            "cumulative": 775
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 780
+            "cumulative": 835
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 25,
+            "cumulative": 860
           }
         ]
       },
@@ -41745,12 +42270,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_ØB": {
-      "total": 1542,
+      "total": 1602,
       "max_possible": 4600,
-      "pct_of_max": 33.5,
+      "pct_of_max": 34.8,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -41814,8 +42339,8 @@
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
-            "actual": null,
-            "correct": false
+            "actual": "Sweden",
+            "correct": true
           },
           "norway_red_card": {
             "predicted": "No",
@@ -42636,9 +43161,9 @@
         ]
       },
       "knockout": {
-        "points": 805,
-        "correct_spot": 16,
-        "correct_team": 29,
+        "points": 835,
+        "correct_spot": 17,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -42771,10 +43296,10 @@
           "89": {
             "stage": "Round of 16",
             "pred": "Germany vs France",
-            "actual": "Paraguay vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Paraguay vs France",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           },
           "90": {
             "stage": "Round of 16",
@@ -42791,6 +43316,14 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "92": {
+            "stage": "Round of 16",
+            "pred": "Scotland vs England",
+            "actual": "Mexico vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -42910,22 +43443,29 @@
             "match": 89,
             "play_order": 89,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 715
+            "match_pts": 30,
+            "cumulative": 745
           },
           {
             "match": 90,
             "play_order": 90,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 745
+            "cumulative": 775
           },
           {
             "match": 91,
             "play_order": 91,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 805
+            "cumulative": 835
+          },
+          {
+            "match": 92,
+            "play_order": 92,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 835
           }
         ]
       },

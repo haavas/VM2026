@@ -619,8 +619,8 @@
       "stage": "Round of 32",
       "team1": "France",
       "team2": "Sweden",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 3,
+      "team2_goals": 0,
       "play_order": 77
     },
     {
@@ -637,8 +637,8 @@
       "stage": "Round of 32",
       "team1": "Mexico",
       "team2": "Ecuador",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 2,
+      "team2_goals": 0,
       "play_order": 79
     },
     {
@@ -726,7 +726,7 @@
       "match": 89,
       "stage": "Round of 16",
       "team1": "Paraguay",
-      "team2": null,
+      "team2": "France",
       "team1_goals": null,
       "team2_goals": null,
       "play_order": 89
@@ -748,6 +748,15 @@
       "team1_goals": null,
       "team2_goals": null,
       "play_order": 91
+    },
+    {
+      "match": 92,
+      "stage": "Round of 16",
+      "team1": "Mexico",
+      "team2": null,
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 92
     }
   ],
   "world_champion": null,

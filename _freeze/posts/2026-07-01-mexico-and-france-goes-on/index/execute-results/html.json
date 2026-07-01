@@ -1,0 +1,15 @@
+{
+  "hash": "af5bf1e91543df63ea930dde3d01d9e6",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Mexico and France goes on\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-07-01\"\ncategories: [Update]\n---\n\n# Sweden is out\n\nWhich answers one of our questions, and points are distributed.\n\nThe coloring of the graph is a bit off, but the standings haven't changed very much.\n\n\n::: {.cell}\n\n:::\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png){width=750}\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

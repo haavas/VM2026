@@ -10,7 +10,39 @@
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Tue, 30 Jun 2026 20:23:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 30 Jun 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Mexico and France goes on</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-07-01-mexico-and-france-goes-on/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="sweden-is-out" class="level1">
+<h1>Sweden is out</h1>
+<p>Which answers one of our questions, and points are distributed.</p>
+<p>The coloring of the graph is a bit off, but the standings haven’t changed very much.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-07-01-mexico-and-france-goes-on/standings.png" class="img-fluid figure-img" width="750"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-07-01-mexico-and-france-goes-on/</guid>
+  <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Norway beat Ivory Coast</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -695,40 +727,6 @@
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-20-vinicius-jr-wasn-t-dead/</guid>
   <pubDate>Sat, 20 Jun 2026 09:17:00 GMT</pubDate>
-</item>
-<item>
-  <title>USA goes to the knockout rounds</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-19-usa-goes-to-the-knockout-rounds/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="us-beat-australia" class="level1">
-<h1>US beat Australia</h1>
-<p>The host nation is through to the round of 32. This is the first time a host nation has progressed since yesterday.</p>
-<p>Many of us had the correct outcome: Jostein, Jan Erling, Kristoffer, Tone, Dagfinn, Daniel, Phillip and Stine. Another thing they have in common is that they are not Christian.</p>
-<p>You might ask what is wrong with the colors? Where is the deep, blue color of success? The problem here is that the scale is symmetric. The deep red color must match the deep blue. Usually not a problem, but Jacob bravely put down a 0-8 victory for Australia, netting a neat -8^2 - 2^2 = -68 points.</p>
-<p>Øyvind is now 68 points behind Christian. Bjørn is third, his top ranking so far.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-19-usa-goes-to-the-knockout-rounds/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-19-usa-goes-to-the-knockout-rounds/</guid>
-  <pubDate>Fri, 19 Jun 2026 21:15:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
