@@ -1,9 +1,9 @@
 {
   "players": {
     "Copy of World_cup_2026.TomC": {
-      "total": 1735,
+      "total": 1795,
       "max_possible": 4600,
-      "pct_of_max": 37.7,
+      "pct_of_max": 39.0,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -892,9 +892,9 @@
         ]
       },
       "knockout": {
-        "points": 855,
-        "correct_spot": 21,
-        "correct_team": 30,
+        "points": 915,
+        "correct_spot": 23,
+        "correct_team": 32,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -1051,10 +1051,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Czech Republic vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Mexico vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Turkey vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -1195,8 +1203,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 855
+            "match_pts": 30,
+            "cumulative": 885
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 915
           }
         ]
       },
@@ -1211,9 +1226,9 @@
       "third_place": "Spain"
     },
     "Copy of World_cup_2026_Jacob": {
-      "total": 1480,
+      "total": 1510,
       "max_possible": 4600,
-      "pct_of_max": 32.2,
+      "pct_of_max": 32.8,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -2102,9 +2117,9 @@
         ]
       },
       "knockout": {
-        "points": 830,
-        "correct_spot": 16,
-        "correct_team": 30,
+        "points": 860,
+        "correct_spot": 17,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -2261,7 +2276,15 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs Senegal",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Ivory Coast vs Belgium",
+            "actual": "United States vs Belgium",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -2407,6 +2430,13 @@
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 830
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 860
           }
         ]
       },
@@ -2421,9 +2451,9 @@
       "third_place": "Norway"
     },
     "Copy of World_cup_2026_Jostein": {
-      "total": 1562,
+      "total": 1652,
       "max_possible": 4600,
-      "pct_of_max": 34.0,
+      "pct_of_max": 35.9,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -3312,9 +3342,9 @@
         ]
       },
       "knockout": {
-        "points": 785,
-        "correct_spot": 17,
-        "correct_team": 28,
+        "points": 875,
+        "correct_spot": 20,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -3471,10 +3501,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Korea Republic vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Mexico vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -3615,8 +3653,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 785
+            "match_pts": 30,
+            "cumulative": 815
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 875
           }
         ]
       },
@@ -3631,9 +3676,9 @@
       "third_place": "France"
     },
     "Gates_World_cup_2026": {
-      "total": 1919,
+      "total": 1979,
       "max_possible": 4600,
-      "pct_of_max": 41.7,
+      "pct_of_max": 43.0,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -4522,9 +4567,9 @@
         ]
       },
       "knockout": {
-        "points": 895,
-        "correct_spot": 24,
-        "correct_team": 31,
+        "points": 955,
+        "correct_spot": 26,
+        "correct_team": 33,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -4681,7 +4726,15 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Korea Republic",
+            "actual": "United States vs Belgium",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -4825,8 +4878,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 925
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 895
+            "cumulative": 955
           }
         ]
       },
@@ -4841,9 +4901,9 @@
       "third_place": "Spain"
     },
     "IWB_World_cup_2026": {
-      "total": 1812,
+      "total": 1872,
       "max_possible": 4600,
-      "pct_of_max": 39.4,
+      "pct_of_max": 40.7,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -5732,9 +5792,9 @@
         ]
       },
       "knockout": {
-        "points": 865,
-        "correct_spot": 23,
-        "correct_team": 30,
+        "points": 925,
+        "correct_spot": 25,
+        "correct_team": 32,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -5891,10 +5951,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs Croatia",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -6037,6 +6105,13 @@
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 865
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 925
           }
         ]
       },
@@ -6051,9 +6126,9 @@
       "third_place": "Spain"
     },
     "Jan_Erling_World_cup_2026": {
-      "total": 1788,
+      "total": 1848,
       "max_possible": 4600,
-      "pct_of_max": 38.9,
+      "pct_of_max": 40.2,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -6942,9 +7017,9 @@
         ]
       },
       "knockout": {
-        "points": 840,
-        "correct_spot": 23,
-        "correct_team": 29,
+        "points": 900,
+        "correct_spot": 25,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -7101,7 +7176,15 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Turkey vs Belgium",
+            "actual": "United States vs Belgium",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -7245,8 +7328,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 870
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 840
+            "cumulative": 900
           }
         ]
       },
@@ -7261,9 +7351,9 @@
       "third_place": "Spain"
     },
     "Kolltveit-World_cup_2026": {
-      "total": 1710,
+      "total": 1770,
       "max_possible": 4600,
-      "pct_of_max": 37.2,
+      "pct_of_max": 38.5,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -8152,9 +8242,9 @@
         ]
       },
       "knockout": {
-        "points": 855,
-        "correct_spot": 21,
-        "correct_team": 30,
+        "points": 915,
+        "correct_spot": 23,
+        "correct_team": 32,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -8311,10 +8401,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Cape Verde vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Mexico vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Ivory Coast vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -8455,8 +8553,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 855
+            "match_pts": 30,
+            "cumulative": 885
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 915
           }
         ]
       },
@@ -8471,9 +8576,9 @@
       "third_place": "Spain"
     },
     "Kopi av World_cup_2026-Elin Arntzen": {
-      "total": 1821,
+      "total": 1911,
       "max_possible": 4600,
-      "pct_of_max": 39.6,
+      "pct_of_max": 41.5,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -9362,9 +9467,9 @@
         ]
       },
       "knockout": {
-        "points": 865,
-        "correct_spot": 18,
-        "correct_team": 31,
+        "points": 955,
+        "correct_spot": 21,
+        "correct_team": 34,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -9521,10 +9626,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -9665,8 +9778,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 865
+            "match_pts": 60,
+            "cumulative": 895
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 955
           }
         ]
       },
@@ -9681,9 +9801,9 @@
       "third_place": "France"
     },
     "Kopi av World_cup_2026_jh": {
-      "total": 1677,
+      "total": 1767,
       "max_possible": 4600,
-      "pct_of_max": 36.5,
+      "pct_of_max": 38.4,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -10572,9 +10692,9 @@
         ]
       },
       "knockout": {
-        "points": 860,
-        "correct_spot": 22,
-        "correct_team": 30,
+        "points": 950,
+        "correct_spot": 25,
+        "correct_team": 33,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -10731,10 +10851,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Ivory Coast vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Mexico vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -10875,8 +11003,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 860
+            "match_pts": 30,
+            "cumulative": 890
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 950
           }
         ]
       },
@@ -10891,9 +11026,9 @@
       "third_place": "Spain"
     },
     "Maiken world_cup_2026": {
-      "total": 1928,
+      "total": 1988,
       "max_possible": 4600,
-      "pct_of_max": 41.9,
+      "pct_of_max": 43.2,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -11782,9 +11917,9 @@
         ]
       },
       "knockout": {
-        "points": 930,
-        "correct_spot": 26,
-        "correct_team": 32,
+        "points": 990,
+        "correct_spot": 28,
+        "correct_team": 34,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -11941,7 +12076,15 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Turkey vs Belgium",
+            "actual": "United States vs Belgium",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -12085,8 +12228,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 960
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 930
+            "cumulative": 990
           }
         ]
       },
@@ -12101,9 +12251,9 @@
       "third_place": "Spain"
     },
     "Sandven_World_cup_2026": {
-      "total": 1906,
+      "total": 1966,
       "max_possible": 4600,
-      "pct_of_max": 41.4,
+      "pct_of_max": 42.7,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -12992,9 +13142,9 @@
         ]
       },
       "knockout": {
-        "points": 880,
-        "correct_spot": 21,
-        "correct_team": 31,
+        "points": 940,
+        "correct_spot": 23,
+        "correct_team": 33,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -13151,7 +13301,15 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Turkey vs Belgium",
+            "actual": "United States vs Belgium",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -13295,8 +13453,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 910
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 880
+            "cumulative": 940
           }
         ]
       },
@@ -13311,9 +13476,9 @@
       "third_place": "France"
     },
     "Tone Vevatne - World Cup Competition 2026": {
-      "total": 1715,
+      "total": 1805,
       "max_possible": 4600,
-      "pct_of_max": 37.3,
+      "pct_of_max": 39.2,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -14202,9 +14367,9 @@
         ]
       },
       "knockout": {
-        "points": 830,
-        "correct_spot": 21,
-        "correct_team": 29,
+        "points": 920,
+        "correct_spot": 24,
+        "correct_team": 32,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -14361,10 +14526,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -14505,8 +14678,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 830
+            "match_pts": 60,
+            "cumulative": 860
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 920
           }
         ]
       },
@@ -14521,9 +14701,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026 (Kuyper)": {
-      "total": 1680,
+      "total": 1740,
       "max_possible": 4600,
-      "pct_of_max": 36.5,
+      "pct_of_max": 37.8,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -15412,9 +15592,9 @@
         ]
       },
       "knockout": {
-        "points": 865,
-        "correct_spot": 18,
-        "correct_team": 31,
+        "points": 925,
+        "correct_spot": 20,
+        "correct_team": 33,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -15571,10 +15751,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Korea Republic vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Mexico vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Australia vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -15715,8 +15903,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 865
+            "match_pts": 30,
+            "cumulative": 895
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 925
           }
         ]
       },
@@ -15731,9 +15926,9 @@
       "third_place": "Portugal"
     },
     "World_cup_2026.gulli": {
-      "total": 1741,
+      "total": 1831,
       "max_possible": 4600,
-      "pct_of_max": 37.8,
+      "pct_of_max": 39.8,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -16622,9 +16817,9 @@
         ]
       },
       "knockout": {
-        "points": 855,
-        "correct_spot": 21,
-        "correct_team": 30,
+        "points": 945,
+        "correct_spot": 24,
+        "correct_team": 33,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -16781,10 +16976,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Korea Republic vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Mexico vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -16925,8 +17128,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 855
+            "match_pts": 30,
+            "cumulative": 885
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 945
           }
         ]
       },
@@ -16941,9 +17151,9 @@
       "third_place": "Argentina"
     },
     "World_cup_2026_aase": {
-      "total": 1826,
+      "total": 1886,
       "max_possible": 4600,
-      "pct_of_max": 39.7,
+      "pct_of_max": 41.0,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -17832,9 +18042,9 @@
         ]
       },
       "knockout": {
-        "points": 870,
-        "correct_spot": 19,
-        "correct_team": 31,
+        "points": 930,
+        "correct_spot": 21,
+        "correct_team": 33,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -17991,7 +18201,15 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs South Africa",
+            "actual": "United States vs Belgium",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -18135,8 +18353,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 900
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 870
+            "cumulative": 930
           }
         ]
       },
@@ -18151,9 +18376,9 @@
       "third_place": "France"
     },
     "World_cup_2026_anna": {
-      "total": 1626,
+      "total": 1686,
       "max_possible": 4600,
-      "pct_of_max": 35.3,
+      "pct_of_max": 36.7,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -19042,9 +19267,9 @@
         ]
       },
       "knockout": {
-        "points": 795,
-        "correct_spot": 19,
-        "correct_team": 28,
+        "points": 855,
+        "correct_spot": 21,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -19201,7 +19426,15 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Turkey vs Belgium",
+            "actual": "United States vs Belgium",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -19345,8 +19578,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 825
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 795
+            "cumulative": 855
           }
         ]
       },
@@ -19361,9 +19601,9 @@
       "third_place": "England"
     },
     "World_cup_2026_Bjørn_F": {
-      "total": 1800,
+      "total": 1860,
       "max_possible": 4600,
-      "pct_of_max": 39.1,
+      "pct_of_max": 40.4,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -20252,9 +20492,9 @@
         ]
       },
       "knockout": {
-        "points": 880,
-        "correct_spot": 21,
-        "correct_team": 31,
+        "points": 940,
+        "correct_spot": 23,
+        "correct_team": 33,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -20411,7 +20651,15 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Turkey vs Belgium",
+            "actual": "United States vs Belgium",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -20555,8 +20803,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 910
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 880
+            "cumulative": 940
           }
         ]
       },
@@ -20571,9 +20826,9 @@
       "third_place": "France"
     },
     "World_cup_2026_CL": {
-      "total": 1964,
+      "total": 2024,
       "max_possible": 4600,
-      "pct_of_max": 42.7,
+      "pct_of_max": 44.0,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -21462,9 +21717,9 @@
         ]
       },
       "knockout": {
-        "points": 910,
-        "correct_spot": 22,
-        "correct_team": 32,
+        "points": 970,
+        "correct_spot": 24,
+        "correct_team": 34,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -21621,7 +21876,15 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Egypt",
+            "actual": "United States vs Belgium",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -21765,8 +22028,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 940
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 910
+            "cumulative": 970
           }
         ]
       },
@@ -21781,9 +22051,9 @@
       "third_place": "Brazil"
     },
     "World_cup_2026_Dagfinn": {
-      "total": 1649,
+      "total": 1674,
       "max_possible": 4600,
-      "pct_of_max": 35.8,
+      "pct_of_max": 36.4,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -22672,9 +22942,9 @@
         ]
       },
       "knockout": {
-        "points": 835,
+        "points": 860,
         "correct_spot": 17,
-        "correct_team": 30,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -22831,10 +23101,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs Norway",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Canada vs Korea Republic",
+            "actual": "United States vs Belgium",
+            "correct_spot": 0,
+            "correct_team": 1,
+            "match_pts": 25
           }
         },
         "running": [
@@ -22977,6 +23255,13 @@
             "stage": "Round of 16",
             "match_pts": 55,
             "cumulative": 835
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 25,
+            "cumulative": 860
           }
         ]
       },
@@ -22991,9 +23276,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Daniel_Naurin": {
-      "total": 1786,
+      "total": 1876,
       "max_possible": 4600,
-      "pct_of_max": 38.8,
+      "pct_of_max": 40.8,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -23882,9 +24167,9 @@
         ]
       },
       "knockout": {
-        "points": 860,
-        "correct_spot": 22,
-        "correct_team": 30,
+        "points": 950,
+        "correct_spot": 25,
+        "correct_team": 33,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -24041,10 +24326,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -24185,8 +24478,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 860
+            "match_pts": 60,
+            "cumulative": 890
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 950
           }
         ]
       },
@@ -24201,9 +24501,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_gabriel": {
-      "total": 1729,
+      "total": 1819,
       "max_possible": 4600,
-      "pct_of_max": 37.6,
+      "pct_of_max": 39.5,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -25092,9 +25392,9 @@
         ]
       },
       "knockout": {
-        "points": 860,
-        "correct_spot": 22,
-        "correct_team": 30,
+        "points": 950,
+        "correct_spot": 25,
+        "correct_team": 33,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -25251,10 +25551,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -25395,8 +25703,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 860
+            "match_pts": 60,
+            "cumulative": 890
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 950
           }
         ]
       },
@@ -25411,9 +25726,9 @@
       "third_place": "France"
     },
     "World_cup_2026_goldstein": {
-      "total": 1857,
+      "total": 1947,
       "max_possible": 4600,
-      "pct_of_max": 40.4,
+      "pct_of_max": 42.3,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -26302,9 +26617,9 @@
         ]
       },
       "knockout": {
-        "points": 895,
-        "correct_spot": 24,
-        "correct_team": 31,
+        "points": 985,
+        "correct_spot": 27,
+        "correct_team": 34,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -26461,10 +26776,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -26605,8 +26928,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 895
+            "match_pts": 60,
+            "cumulative": 925
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 985
           }
         ]
       },
@@ -26621,9 +26951,9 @@
       "third_place": "France"
     },
     "world_cup_2026_hs": {
-      "total": 1800,
+      "total": 1860,
       "max_possible": 4600,
-      "pct_of_max": 39.1,
+      "pct_of_max": 40.4,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -27512,9 +27842,9 @@
         ]
       },
       "knockout": {
-        "points": 860,
-        "correct_spot": 22,
-        "correct_team": 30,
+        "points": 920,
+        "correct_spot": 24,
+        "correct_team": 32,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -27671,7 +28001,15 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Turkey vs Belgium",
+            "actual": "United States vs Belgium",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -27815,8 +28153,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 890
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 860
+            "cumulative": 920
           }
         ]
       },
@@ -27831,9 +28176,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Jana Blahak": {
-      "total": 1848,
+      "total": 1908,
       "max_possible": 4600,
-      "pct_of_max": 40.2,
+      "pct_of_max": 41.5,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -28722,9 +29067,9 @@
         ]
       },
       "knockout": {
-        "points": 900,
-        "correct_spot": 25,
-        "correct_team": 31,
+        "points": 960,
+        "correct_spot": 27,
+        "correct_team": 33,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -28881,7 +29226,15 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Turkey vs Belgium",
+            "actual": "United States vs Belgium",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -29025,8 +29378,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 930
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 900
+            "cumulative": 960
           }
         ]
       },
@@ -29041,9 +29401,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_javier": {
-      "total": 1636,
+      "total": 1726,
       "max_possible": 4600,
-      "pct_of_max": 35.6,
+      "pct_of_max": 37.5,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -29932,9 +30292,9 @@
         ]
       },
       "knockout": {
-        "points": 870,
-        "correct_spot": 19,
-        "correct_team": 31,
+        "points": 960,
+        "correct_spot": 22,
+        "correct_team": 34,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -30091,10 +30451,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Czech Republic vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Mexico vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -30235,8 +30603,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 870
+            "match_pts": 30,
+            "cumulative": 900
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 960
           }
         ]
       },
@@ -30251,9 +30626,9 @@
       "third_place": "France"
     },
     "World_cup_2026_JonasSchmid": {
-      "total": 1798,
+      "total": 1858,
       "max_possible": 4600,
-      "pct_of_max": 39.1,
+      "pct_of_max": 40.4,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -31142,9 +31517,9 @@
         ]
       },
       "knockout": {
-        "points": 895,
-        "correct_spot": 24,
-        "correct_team": 31,
+        "points": 955,
+        "correct_spot": 26,
+        "correct_team": 33,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -31301,7 +31676,15 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Turkey vs Belgium",
+            "actual": "United States vs Belgium",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -31445,8 +31828,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 925
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 895
+            "cumulative": 955
           }
         ]
       },
@@ -31461,9 +31851,9 @@
       "third_place": "France"
     },
     "World_cup_2026_Karin": {
-      "total": 1749,
+      "total": 1809,
       "max_possible": 4600,
-      "pct_of_max": 38.0,
+      "pct_of_max": 39.3,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -32352,9 +32742,9 @@
         ]
       },
       "knockout": {
-        "points": 830,
-        "correct_spot": 16,
-        "correct_team": 30,
+        "points": 890,
+        "correct_spot": 18,
+        "correct_team": 32,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -32511,10 +32901,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Korea Republic vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Mexico vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Algeria vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -32655,8 +33053,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 830
+            "match_pts": 30,
+            "cumulative": 860
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 890
           }
         ]
       },
@@ -32671,9 +33076,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_lutscher": {
-      "total": 1825,
+      "total": 1915,
       "max_possible": 4600,
-      "pct_of_max": 39.7,
+      "pct_of_max": 41.6,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -33562,9 +33967,9 @@
         ]
       },
       "knockout": {
-        "points": 830,
-        "correct_spot": 21,
-        "correct_team": 29,
+        "points": 920,
+        "correct_spot": 24,
+        "correct_team": 32,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -33721,10 +34126,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Korea Republic vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Mexico vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -33865,8 +34278,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 830
+            "match_pts": 30,
+            "cumulative": 860
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 920
           }
         ]
       },
@@ -33881,9 +34301,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Martin_S": {
-      "total": 1431,
+      "total": 1486,
       "max_possible": 4600,
-      "pct_of_max": 31.1,
+      "pct_of_max": 32.3,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -34772,9 +35192,9 @@
         ]
       },
       "knockout": {
-        "points": 755,
-        "correct_spot": 11,
-        "correct_team": 28,
+        "points": 810,
+        "correct_spot": 12,
+        "correct_team": 30,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -34931,10 +35351,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Czech Republic vs England",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Turkey vs Mexico",
+            "actual": "United States vs Belgium",
             "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "correct_team": 1,
+            "match_pts": 25
           }
         },
         "running": [
@@ -35075,8 +35503,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 755
+            "match_pts": 30,
+            "cumulative": 785
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 25,
+            "cumulative": 810
           }
         ]
       },
@@ -35091,9 +35526,9 @@
       "third_place": "Norway"
     },
     "World_cup_2026_MIRO": {
-      "total": 1834,
+      "total": 1924,
       "max_possible": 4600,
-      "pct_of_max": 39.9,
+      "pct_of_max": 41.8,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -35982,9 +36417,9 @@
         ]
       },
       "knockout": {
-        "points": 875,
-        "correct_spot": 25,
-        "correct_team": 30,
+        "points": 965,
+        "correct_spot": 28,
+        "correct_team": 33,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -36141,10 +36576,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -36285,8 +36728,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 875
+            "match_pts": 60,
+            "cumulative": 905
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 965
           }
         ]
       },
@@ -36301,9 +36751,9 @@
       "third_place": "France"
     },
     "world_cup_2026_oyvind": {
-      "total": 1724,
+      "total": 1814,
       "max_possible": 4600,
-      "pct_of_max": 37.5,
+      "pct_of_max": 39.4,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -37192,9 +37642,9 @@
         ]
       },
       "knockout": {
-        "points": 820,
-        "correct_spot": 19,
-        "correct_team": 29,
+        "points": 910,
+        "correct_spot": 22,
+        "correct_team": 32,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -37351,10 +37801,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -37495,8 +37953,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 820
+            "match_pts": 60,
+            "cumulative": 850
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 910
           }
         ]
       },
@@ -37511,9 +37976,9 @@
       "third_place": "Netherlands"
     },
     "World_cup_2026_Povitkina": {
-      "total": 1320,
+      "total": 1380,
       "max_possible": 4600,
-      "pct_of_max": 28.7,
+      "pct_of_max": 30.0,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -38402,9 +38867,9 @@
         ]
       },
       "knockout": {
-        "points": 720,
-        "correct_spot": 14,
-        "correct_team": 26,
+        "points": 780,
+        "correct_spot": 16,
+        "correct_team": 28,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -38561,10 +39026,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Czech Republic vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "Mexico vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Qatar vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -38705,8 +39178,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 720
+            "match_pts": 30,
+            "cumulative": 750
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 780
           }
         ]
       },
@@ -38721,9 +39201,9 @@
       "third_place": "Brazil"
     },
     "World_cup_2026_stiansen": {
-      "total": 1599,
+      "total": 1689,
       "max_possible": 4600,
-      "pct_of_max": 34.8,
+      "pct_of_max": 36.7,
       "questions": {
         "points": 0,
         "correct": 0,
@@ -39531,9 +40011,9 @@
         ]
       },
       "knockout": {
-        "points": 860,
-        "correct_spot": 22,
-        "correct_team": 30,
+        "points": 950,
+        "correct_spot": 25,
+        "correct_team": 33,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -39690,10 +40170,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "United States vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -39834,8 +40322,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 860
+            "match_pts": 60,
+            "cumulative": 890
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 950
           }
         ]
       },
@@ -39850,9 +40345,9 @@
       "third_place": "France"
     },
     "World_cup_2026_StineHesstvedt_1106": {
-      "total": 1945,
+      "total": 1975,
       "max_possible": 4600,
-      "pct_of_max": 42.3,
+      "pct_of_max": 42.9,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -40741,9 +41236,9 @@
         ]
       },
       "knockout": {
-        "points": 940,
-        "correct_spot": 23,
-        "correct_team": 33,
+        "points": 970,
+        "correct_spot": 24,
+        "correct_team": 34,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -40900,10 +41395,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Mexico vs England",
-            "actual": "Mexico vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "Mexico vs England",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Turkey vs Egypt",
+            "actual": "United States vs Belgium",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -41044,8 +41547,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 940
+            "match_pts": 60,
+            "cumulative": 970
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 970
           }
         ]
       },
@@ -41060,9 +41570,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Vilde Hernes": {
-      "total": 1703,
+      "total": 1733,
       "max_possible": 4600,
-      "pct_of_max": 37.0,
+      "pct_of_max": 37.7,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -41951,9 +42461,9 @@
         ]
       },
       "knockout": {
-        "points": 860,
-        "correct_spot": 17,
-        "correct_team": 31,
+        "points": 890,
+        "correct_spot": 18,
+        "correct_team": 32,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -42110,10 +42620,18 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Morocco vs Croatia",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Turkey vs Belgium",
+            "actual": "United States vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -42256,6 +42774,13 @@
             "stage": "Round of 16",
             "match_pts": 25,
             "cumulative": 860
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 890
           }
         ]
       },
@@ -42270,9 +42795,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_ØB": {
-      "total": 1602,
+      "total": 1632,
       "max_possible": 4600,
-      "pct_of_max": 34.8,
+      "pct_of_max": 35.5,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -43161,9 +43686,9 @@
         ]
       },
       "knockout": {
-        "points": 835,
-        "correct_spot": 17,
-        "correct_team": 30,
+        "points": 865,
+        "correct_spot": 18,
+        "correct_team": 31,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -43320,7 +43845,15 @@
           "92": {
             "stage": "Round of 16",
             "pred": "Scotland vs England",
-            "actual": "Mexico vs None",
+            "actual": "Mexico vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "94": {
+            "stage": "Round of 16",
+            "pred": "Turkey vs Egypt",
+            "actual": "United States vs Belgium",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -43464,8 +43997,15 @@
             "match": 92,
             "play_order": 92,
             "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 865
+          },
+          {
+            "match": 94,
+            "play_order": 93,
+            "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 835
+            "cumulative": 865
           }
         ]
       },

@@ -1,0 +1,15 @@
+{
+  "hash": "f572e949d6f49b317d232a733c352377",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"A good round for England, Belgium and USA\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-07-02 12:40:00\"\ncategories: [Update]\n---\n\n\n\n\n# UN Security Council permanent member show strength\n\nLinda helped me realize that the coloring system is totally wrong, so we drop that for now. \n\nChristian did well last night and has a 36 point gap down to Maiken, with Scott and Stine right behind.\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png){width=750}\n:::\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

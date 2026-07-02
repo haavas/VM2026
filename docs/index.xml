@@ -9,8 +9,40 @@
 <link>https://haavas.github.io/VM2026/</link>
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
-<generator>quarto-1.9.36</generator>
-<lastBuildDate>Tue, 30 Jun 2026 22:00:00 GMT</lastBuildDate>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Thu, 02 Jul 2026 10:40:00 GMT</lastBuildDate>
+<item>
+  <title>A good round for England, Belgium and USA</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-07-02-a-good-round-for-england-belgium-and-usa/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="un-security-council-permanent-member-show-strength" class="level1">
+<h1>UN Security Council permanent member show strength</h1>
+<p>Linda helped me realize that the coloring system is totally wrong, so we drop that for now.</p>
+<p>Christian did well last night and has a 36 point gap down to Maiken, with Scott and Stine right behind.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-07-02-a-good-round-for-england-belgium-and-usa/standings.png" class="img-fluid figure-img" width="750"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-07-02-a-good-round-for-england-belgium-and-usa/</guid>
+  <pubDate>Thu, 02 Jul 2026 10:40:00 GMT</pubDate>
+</item>
 <item>
   <title>Mexico and France goes on</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -693,40 +725,6 @@
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-20-the-dutch-hammers-sweden/</guid>
   <pubDate>Sat, 20 Jun 2026 19:18:00 GMT</pubDate>
-</item>
-<item>
-  <title>Vinicius Jr. wasn’t dead</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-20-vinicius-jr-wasn-t-dead/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="brazil-and-morocco-are-through" class="level1">
-<h1>Brazil and Morocco are through</h1>
-<p>Brazil and Morocco won their games and are through.</p>
-<p>Paraguay beat Turkey with 10 men for the second half, after Almiron spoke with an opponent with his hand in front of his mouth. However, Turkey are out, as the first team.</p>
-<p>Some of the dates of the games in the Excel form are wrong, which causes some problems. Today’s update is therefore compared to the situation five games ago.</p>
-<p>Christian is still in the lead, 66 points ahead of Øyvind. Today’s rockets are Jana and Ida. Ida got all three games correct!</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-20-vinicius-jr-wasn-t-dead/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-20-vinicius-jr-wasn-t-dead/</guid>
-  <pubDate>Sat, 20 Jun 2026 09:17:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
