@@ -673,8 +673,8 @@
       "stage": "Round of 32",
       "team1": "Portugal",
       "team2": "Croatia",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 2,
+      "team2_goals": 1,
       "play_order": 83
     },
     {
@@ -682,8 +682,8 @@
       "stage": "Round of 32",
       "team1": "Spain",
       "team2": "Austria",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 3,
+      "team2_goals": 0,
       "play_order": 84
     },
     {
@@ -691,8 +691,8 @@
       "stage": "Round of 32",
       "team1": "Switzerland",
       "team2": "Algeria",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 2,
+      "team2_goals": 0,
       "play_order": 85
     },
     {
@@ -759,13 +759,31 @@
       "play_order": 92
     },
     {
+      "match": 93,
+      "stage": "Round of 16",
+      "team1": "Portugal",
+      "team2": "Spain",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 93
+    },
+    {
       "match": 94,
       "stage": "Round of 16",
       "team1": "United States",
       "team2": "Belgium",
       "team1_goals": null,
       "team2_goals": null,
-      "play_order": 93
+      "play_order": 94
+    },
+    {
+      "match": 96,
+      "stage": "Round of 16",
+      "team1": "Switzerland",
+      "team2": null,
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 95
     }
   ],
   "world_champion": null,

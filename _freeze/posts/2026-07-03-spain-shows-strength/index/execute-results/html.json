@@ -1,0 +1,15 @@
+{
+  "hash": "c259f7fd495b52069c1c811ff3fb768d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Spain shows strength\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-07-03 10:11:00\"\ncategories: [Update]\n---\n\n# Status Quo\n\nWe were not surprised to see Spain go through. The standings change very little. It is soon about time to start adding points for goals.\n\n\n::: {.cell}\n\n:::\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
