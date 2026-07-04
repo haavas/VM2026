@@ -1,0 +1,15 @@
+{
+  "hash": "4cb2702f82e2213e84fa0f34dba28217",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Cabo Verde in our hearts!\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-07-04 18:10:00\"\ncategories: [Update]\n---\n\n# Sensational Cabo Verde\n\nMessi might be GOAT, but Sidny Lopes Cabral and Vozinha are what overcome the stench of Infantio. \n\nEgypt and Colombia progresses as well\n\n\n::: {.cell}\n\n:::\n\n\nChristian is now 74 points ahead of Stine, with Maiken, Scott & Hallvard in pursuit. This might look like a lot, but it isn't necessarily so. \n\nWe need some more informational graphs here soon.\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings.png)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

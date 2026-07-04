@@ -10,7 +10,41 @@
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Fri, 03 Jul 2026 08:11:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 04 Jul 2026 16:10:00 GMT</lastBuildDate>
+<item>
+  <title>Cabo Verde in our hearts!</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-07-04-cabo-verde-in-our-hearts/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="sensational-cabo-verde" class="level1">
+<h1>Sensational Cabo Verde</h1>
+<p>Messi might be GOAT, but Sidny Lopes Cabral and Vozinha are what overcome the stench of Infantio.</p>
+<p>Egypt and Colombia progresses as well</p>
+<p>Christian is now 74 points ahead of Stine, with Maiken, Scott &amp; Hallvard in pursuit. This might look like a lot, but it isn’t necessarily so.</p>
+<p>We need some more informational graphs here soon.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-07-04-cabo-verde-in-our-hearts/standings.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-07-04-cabo-verde-in-our-hearts/</guid>
+  <pubDate>Sat, 04 Jul 2026 16:10:00 GMT</pubDate>
+</item>
 <item>
   <title>Spain shows strength</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -674,47 +708,6 @@
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-21-tunisia-are-out/</guid>
   <pubDate>Sun, 21 Jun 2026 10:09:00 GMT</pubDate>
-</item>
-<item>
-  <title>Germany is top of group E</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-21-germany-is-top-of-group-e/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="what-a-game" class="level1">
-<h1>What a game!</h1>
-<p>Ivory Coast outplayed Germany at times, but in the end Deniz Undav’s two goals proved decisive. But the game was a proper world cup classic, and if Norway ends up in second spot in our group, we play the second best team from this group. Against whom we will lose. It is much better to go through as the 3rd team and meet for instance the winner of group B, which is either Canada or Switzerland.</p>
-<p>Tom, Ida, Elin, Hallvard, Christian, Håvard, Jana, Javier and Miroslav had the correct outcome, and most others were fairly close. Øyvind C and Bjørn were not among these others, so Christian’s lead is now 98 points.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-21-germany-is-top-of-group-e/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-21-germany-is-top-of-group-e/index_files/figure-html/scatter_points-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-21-germany-is-top-of-group-e/</guid>
-  <pubDate>Sat, 20 Jun 2026 22:21:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

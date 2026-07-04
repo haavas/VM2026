@@ -700,8 +700,8 @@
       "stage": "Round of 32",
       "team1": "Argentina",
       "team2": "Cape Verde",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 2,
+      "team2_goals": 2,
       "play_order": 86
     },
     {
@@ -709,8 +709,8 @@
       "stage": "Round of 32",
       "team1": "Colombia",
       "team2": "Ghana",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 1,
+      "team2_goals": 0,
       "play_order": 87
     },
     {
@@ -718,8 +718,8 @@
       "stage": "Round of 32",
       "team1": "Australia",
       "team2": "Egypt",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 1,
+      "team2_goals": 1,
       "play_order": 88
     },
     {
@@ -777,13 +777,22 @@
       "play_order": 94
     },
     {
-      "match": 96,
+      "match": 95,
       "stage": "Round of 16",
-      "team1": "Switzerland",
-      "team2": null,
+      "team1": "Argentina",
+      "team2": "Egypt",
       "team1_goals": null,
       "team2_goals": null,
       "play_order": 95
+    },
+    {
+      "match": 96,
+      "stage": "Round of 16",
+      "team1": "Switzerland",
+      "team2": "Colombia",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 96
     }
   ],
   "world_champion": null,

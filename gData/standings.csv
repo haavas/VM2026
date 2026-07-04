@@ -3311,111 +3311,147 @@ match;play_order;stage;player;full_name;cumulative;match_pts;rank;rank_prev;rank
 92;92;Round of 16;World_cup_2026_ØB;Øivind Bratberg;1657;30;29;29;0
 92;92;Round of 16;world_cup_2026_hs;Håvard Strand;1830;60;12;13;1
 92;92;Round of 16;world_cup_2026_oyvind;Øyvind Colbjørnsen;1754;60;22;23;1
-93;93;Round of 16;Copy of World_cup_2026.TomC;Tom Christensen;1795;30;21;21;0
+93;93;Round of 16;Copy of World_cup_2026.TomC;Tom Christensen;1820;55;19;21;2
 93;93;Round of 16;Copy of World_cup_2026_Jacob;Jacob Nyrup;1535;55;34;35;1
 93;93;Round of 16;Copy of World_cup_2026_Jostein;Jostein Askim;1622;30;33;33;0
-93;93;Round of 16;Gates_World_cup_2026;Scott Gates;1979;30;4;4;0
-93;93;Round of 16;IWB_World_cup_2026;Ida Weseth Bjøru;1867;55;12;17;5
-93;93;Round of 16;Jan_Erling_World_cup_2026;Jan Erling Klausen;1848;30;16;15;-1
+93;93;Round of 16;Gates_World_cup_2026;Scott Gates;2004;55;3;4;1
+93;93;Round of 16;IWB_World_cup_2026;Ida Weseth Bjøru;1867;55;14;17;3
+93;93;Round of 16;Jan_Erling_World_cup_2026;Jan Erling Klausen;1873;55;12;15;3
 93;93;Round of 16;Kolltveit-World_cup_2026;Kristoffer Kolltveit;1770;30;24;24;0
 93;93;Round of 16;Kopi av World_cup_2026-Elin Arntzen;Elin Arntzen;1881;30;11;11;0
 93;93;Round of 16;Kopi av World_cup_2026_jh;Jon Hovi;1737;30;27;26;-1
-93;93;Round of 16;Maiken world_cup_2026;Maiken Røed;1988;30;3;3;0
+93;93;Round of 16;Maiken world_cup_2026;Maiken Røed;1988;30;4;3;-1
 93;93;Round of 16;Sandven_World_cup_2026;Hallvard Hodne Sandven;1966;30;5;5;0
-93;93;Round of 16;Tone Vevatne - World Cup Competition 2026;Tone Vevatne;1775;30;23;23;0
-93;93;Round of 16;World_cup_2026 (Kuyper);Jonathan Kuyper;1740;30;26;25;-1
-93;93;Round of 16;World_cup_2026.gulli;Linda Gulli;1801;30;20;20;0
-93;93;Round of 16;World_cup_2026_Bjørn_F;Bjørn Fjærli;1860;30;13;12;-1
-93;93;Round of 16;World_cup_2026_CL;Christian Lehne;2024;30;1;1;0
-93;93;Round of 16;World_cup_2026_Dagfinn;Dagfinn Hagen;1704;55;28;32;4
-93;93;Round of 16;World_cup_2026_Daniel_Naurin;Daniel Naurin;1846;30;17;16;-1
-93;93;Round of 16;World_cup_2026_Jana Blahak;Jana Blahak;1908;30;7;7;0
-93;93;Round of 16;World_cup_2026_JonasSchmid;Jonas Schmid;1858;30;15;14;-1
-93;93;Round of 16;World_cup_2026_Karin;Karin Dokken;1809;30;19;19;0
-93;93;Round of 16;World_cup_2026_MIRO;Miroslav Nemcok;1894;30;8;8;0
+93;93;Round of 16;Tone Vevatne - World Cup Competition 2026;Tone Vevatne;1800;55;23;23;0
+93;93;Round of 16;World_cup_2026 (Kuyper);Jonathan Kuyper;1765;55;25;25;0
+93;93;Round of 16;World_cup_2026.gulli;Linda Gulli;1826;55;18;20;2
+93;93;Round of 16;World_cup_2026_Bjørn_F;Bjørn Fjærli;1860;30;15;12;-3
+93;93;Round of 16;World_cup_2026_CL;Christian Lehne;2049;55;1;1;0
+93;93;Round of 16;World_cup_2026_Dagfinn;Dagfinn Hagen;1704;55;29;32;3
+93;93;Round of 16;World_cup_2026_Daniel_Naurin;Daniel Naurin;1871;55;13;16;3
+93;93;Round of 16;World_cup_2026_Jana Blahak;Jana Blahak;1908;30;10;7;-3
+93;93;Round of 16;World_cup_2026_JonasSchmid;Jonas Schmid;1858;30;17;14;-3
+93;93;Round of 16;World_cup_2026_Karin;Karin Dokken;1809;30;21;19;-2
+93;93;Round of 16;World_cup_2026_MIRO;Miroslav Nemcok;1919;55;7;8;1
 93;93;Round of 16;World_cup_2026_Martin_S;Martin Søyland;1516;30;35;34;-1
-93;93;Round of 16;World_cup_2026_Povitkina;Marina Povitkina;1380;30;36;36;0
+93;93;Round of 16;World_cup_2026_Povitkina;Marina Povitkina;1405;55;36;36;0
 93;93;Round of 16;World_cup_2026_StineHesstvedt_1106;Stine Hesstvedt;2005;30;2;2;0
-93;93;Round of 16;World_cup_2026_Vilde Hernes;Vilde Hernes;1758;55;25;27;2
-93;93;Round of 16;World_cup_2026_aase;Åse Gornitzka;1886;30;9;9;0
-93;93;Round of 16;World_cup_2026_anna;Anna Helgøy;1686;30;31;30;-1
-93;93;Round of 16;World_cup_2026_gabriel;Gabriel Lönn;1814;30;18;18;0
-93;93;Round of 16;World_cup_2026_goldstein;Daniel Goldstein;1917;30;6;6;0
-93;93;Round of 16;World_cup_2026_javier;Javier Padilla;1696;30;29;28;-1
-93;93;Round of 16;World_cup_2026_lutscher;Phillip Lutscher;1885;30;10;10;0
-93;93;Round of 16;World_cup_2026_stiansen;Øyvind Stiansen;1684;30;32;31;-1
-93;93;Round of 16;World_cup_2026_ØB;Øivind Bratberg;1687;30;30;29;-1
-93;93;Round of 16;world_cup_2026_hs;Håvard Strand;1860;30;13;12;-1
-93;93;Round of 16;world_cup_2026_oyvind;Øyvind Colbjørnsen;1784;30;22;22;0
-94;94;Round of 16;Copy of World_cup_2026.TomC;Tom Christensen;1825;30;23;21;-2
+93;93;Round of 16;World_cup_2026_Vilde Hernes;Vilde Hernes;1758;55;26;27;1
+93;93;Round of 16;World_cup_2026_aase;Åse Gornitzka;1911;55;8;9;1
+93;93;Round of 16;World_cup_2026_anna;Anna Helgøy;1686;30;32;30;-2
+93;93;Round of 16;World_cup_2026_gabriel;Gabriel Lönn;1814;30;20;18;-2
+93;93;Round of 16;World_cup_2026_goldstein;Daniel Goldstein;1942;55;6;6;0
+93;93;Round of 16;World_cup_2026_javier;Javier Padilla;1696;30;30;28;-2
+93;93;Round of 16;World_cup_2026_lutscher;Phillip Lutscher;1910;55;9;10;1
+93;93;Round of 16;World_cup_2026_stiansen;Øyvind Stiansen;1709;55;28;31;3
+93;93;Round of 16;World_cup_2026_ØB;Øivind Bratberg;1687;30;31;29;-2
+93;93;Round of 16;world_cup_2026_hs;Håvard Strand;1860;30;15;12;-3
+93;93;Round of 16;world_cup_2026_oyvind;Øyvind Colbjørnsen;1809;55;21;22;1
+94;94;Round of 16;Copy of World_cup_2026.TomC;Tom Christensen;1850;30;22;19;-3
 94;94;Round of 16;Copy of World_cup_2026_Jacob;Jacob Nyrup;1565;30;34;34;0
 94;94;Round of 16;Copy of World_cup_2026_Jostein;Jostein Askim;1682;60;33;33;0
-94;94;Round of 16;Gates_World_cup_2026;Scott Gates;2009;30;3;4;1
-94;94;Round of 16;IWB_World_cup_2026;Ida Weseth Bjøru;1927;60;11;12;1
-94;94;Round of 16;Jan_Erling_World_cup_2026;Jan Erling Klausen;1878;30;17;16;-1
+94;94;Round of 16;Gates_World_cup_2026;Scott Gates;2034;30;2;3;1
+94;94;Round of 16;IWB_World_cup_2026;Ida Weseth Bjøru;1927;60;13;14;1
+94;94;Round of 16;Jan_Erling_World_cup_2026;Jan Erling Klausen;1903;30;14;12;-2
 94;94;Round of 16;Kolltveit-World_cup_2026;Kristoffer Kolltveit;1800;30;24;24;0
 94;94;Round of 16;Kopi av World_cup_2026-Elin Arntzen;Elin Arntzen;1941;60;9;11;2
 94;94;Round of 16;Kopi av World_cup_2026_jh;Jon Hovi;1797;60;25;27;2
-94;94;Round of 16;Maiken world_cup_2026;Maiken Røed;2018;30;2;3;1
-94;94;Round of 16;Sandven_World_cup_2026;Hallvard Hodne Sandven;1996;30;5;5;0
-94;94;Round of 16;Tone Vevatne - World Cup Competition 2026;Tone Vevatne;1835;60;22;23;1
-94;94;Round of 16;World_cup_2026 (Kuyper);Jonathan Kuyper;1770;30;27;26;-1
-94;94;Round of 16;World_cup_2026.gulli;Linda Gulli;1861;60;19;20;1
-94;94;Round of 16;World_cup_2026_Bjørn_F;Bjørn Fjærli;1890;30;14;13;-1
-94;94;Round of 16;World_cup_2026_CL;Christian Lehne;2054;30;1;1;0
-94;94;Round of 16;World_cup_2026_Dagfinn;Dagfinn Hagen;1729;25;30;28;-2
-94;94;Round of 16;World_cup_2026_Daniel_Naurin;Daniel Naurin;1906;60;13;17;4
-94;94;Round of 16;World_cup_2026_Jana Blahak;Jana Blahak;1938;30;10;7;-3
-94;94;Round of 16;World_cup_2026_JonasSchmid;Jonas Schmid;1888;30;16;15;-1
-94;94;Round of 16;World_cup_2026_Karin;Karin Dokken;1839;30;21;19;-2
-94;94;Round of 16;World_cup_2026_MIRO;Miroslav Nemcok;1954;60;7;8;1
+94;94;Round of 16;Maiken world_cup_2026;Maiken Røed;2018;30;4;4;0
+94;94;Round of 16;Sandven_World_cup_2026;Hallvard Hodne Sandven;1996;30;6;5;-1
+94;94;Round of 16;Tone Vevatne - World Cup Competition 2026;Tone Vevatne;1860;60;21;23;2
+94;94;Round of 16;World_cup_2026 (Kuyper);Jonathan Kuyper;1795;30;26;25;-1
+94;94;Round of 16;World_cup_2026.gulli;Linda Gulli;1886;60;18;18;0
+94;94;Round of 16;World_cup_2026_Bjørn_F;Bjørn Fjærli;1890;30;15;15;0
+94;94;Round of 16;World_cup_2026_CL;Christian Lehne;2104;55;1;1;0
+94;94;Round of 16;World_cup_2026_Dagfinn;Dagfinn Hagen;1729;25;30;29;-1
+94;94;Round of 16;World_cup_2026_Daniel_Naurin;Daniel Naurin;1931;60;12;13;1
+94;94;Round of 16;World_cup_2026_Jana Blahak;Jana Blahak;1938;30;11;10;-1
+94;94;Round of 16;World_cup_2026_JonasSchmid;Jonas Schmid;1888;30;17;17;0
+94;94;Round of 16;World_cup_2026_Karin;Karin Dokken;1839;30;23;21;-2
+94;94;Round of 16;World_cup_2026_MIRO;Miroslav Nemcok;1979;60;7;7;0
 94;94;Round of 16;World_cup_2026_Martin_S;Martin Søyland;1541;25;35;35;0
-94;94;Round of 16;World_cup_2026_Povitkina;Marina Povitkina;1410;30;36;36;0
-94;94;Round of 16;World_cup_2026_StineHesstvedt_1106;Stine Hesstvedt;2005;0;4;2;-2
-94;94;Round of 16;World_cup_2026_Vilde Hernes;Vilde Hernes;1788;30;26;25;-1
-94;94;Round of 16;World_cup_2026_aase;Åse Gornitzka;1916;30;12;9;-3
-94;94;Round of 16;World_cup_2026_anna;Anna Helgøy;1716;30;31;31;0
-94;94;Round of 16;World_cup_2026_gabriel;Gabriel Lönn;1874;60;18;18;0
-94;94;Round of 16;World_cup_2026_goldstein;Daniel Goldstein;1977;60;6;6;0
-94;94;Round of 16;World_cup_2026_javier;Javier Padilla;1756;60;28;29;1
-94;94;Round of 16;World_cup_2026_lutscher;Phillip Lutscher;1945;60;8;10;2
-94;94;Round of 16;World_cup_2026_stiansen;Øyvind Stiansen;1744;60;29;32;3
-94;94;Round of 16;World_cup_2026_ØB;Øivind Bratberg;1687;0;32;30;-2
-94;94;Round of 16;world_cup_2026_hs;Håvard Strand;1890;30;14;13;-1
-94;94;Round of 16;world_cup_2026_oyvind;Øyvind Colbjørnsen;1844;60;20;22;2
-96;95;Round of 16;Copy of World_cup_2026.TomC;Tom Christensen;1880;55;22;23;1
-96;95;Round of 16;Copy of World_cup_2026_Jacob;Jacob Nyrup;1620;55;34;34;0
-96;95;Round of 16;Copy of World_cup_2026_Jostein;Jostein Askim;1737;55;32;33;1
-96;95;Round of 16;Gates_World_cup_2026;Scott Gates;2064;55;3;3;0
-96;95;Round of 16;IWB_World_cup_2026;Ida Weseth Bjøru;1957;30;13;11;-2
-96;95;Round of 16;Jan_Erling_World_cup_2026;Jan Erling Klausen;1878;0;23;17;-6
-96;95;Round of 16;Kolltveit-World_cup_2026;Kristoffer Kolltveit;1855;55;24;24;0
-96;95;Round of 16;Kopi av World_cup_2026-Elin Arntzen;Elin Arntzen;1991;50;9;9;0
-96;95;Round of 16;Kopi av World_cup_2026_jh;Jon Hovi;1852;55;25;25;0
-96;95;Round of 16;Maiken world_cup_2026;Maiken Røed;2073;55;2;2;0
-96;95;Round of 16;Sandven_World_cup_2026;Hallvard Hodne Sandven;2051;55;5;5;0
-96;95;Round of 16;Tone Vevatne - World Cup Competition 2026;Tone Vevatne;1890;55;21;22;1
-96;95;Round of 16;World_cup_2026 (Kuyper);Jonathan Kuyper;1825;55;26;27;1
-96;95;Round of 16;World_cup_2026.gulli;Linda Gulli;1916;55;18;19;1
-96;95;Round of 16;World_cup_2026_Bjørn_F;Bjørn Fjærli;1945;55;14;14;0
-96;95;Round of 16;World_cup_2026_CL;Christian Lehne;2109;55;1;1;0
-96;95;Round of 16;World_cup_2026_Dagfinn;Dagfinn Hagen;1784;55;30;30;0
-96;95;Round of 16;World_cup_2026_Daniel_Naurin;Daniel Naurin;1961;55;12;13;1
-96;95;Round of 16;World_cup_2026_Jana Blahak;Jana Blahak;1968;30;11;10;-1
-96;95;Round of 16;World_cup_2026_JonasSchmid;Jonas Schmid;1943;55;16;16;0
-96;95;Round of 16;World_cup_2026_Karin;Karin Dokken;1894;55;20;21;1
-96;95;Round of 16;World_cup_2026_MIRO;Miroslav Nemcok;2009;55;7;7;0
-96;95;Round of 16;World_cup_2026_Martin_S;Martin Søyland;1566;25;35;35;0
-96;95;Round of 16;World_cup_2026_Povitkina;Marina Povitkina;1435;25;36;36;0
-96;95;Round of 16;World_cup_2026_StineHesstvedt_1106;Stine Hesstvedt;2060;55;4;4;0
-96;95;Round of 16;World_cup_2026_Vilde Hernes;Vilde Hernes;1813;25;27;26;-1
-96;95;Round of 16;World_cup_2026_aase;Åse Gornitzka;1971;55;10;12;2
-96;95;Round of 16;World_cup_2026_anna;Anna Helgøy;1771;55;31;31;0
-96;95;Round of 16;World_cup_2026_gabriel;Gabriel Lönn;1924;50;17;18;1
-96;95;Round of 16;World_cup_2026_goldstein;Daniel Goldstein;2032;55;6;6;0
-96;95;Round of 16;World_cup_2026_javier;Javier Padilla;1811;55;28;28;0
-96;95;Round of 16;World_cup_2026_lutscher;Phillip Lutscher;2000;55;8;8;0
-96;95;Round of 16;World_cup_2026_stiansen;Øyvind Stiansen;1794;50;29;29;0
-96;95;Round of 16;World_cup_2026_ØB;Øivind Bratberg;1687;0;33;32;-1
-96;95;Round of 16;world_cup_2026_hs;Håvard Strand;1945;55;14;14;0
-96;95;Round of 16;world_cup_2026_oyvind;Øyvind Colbjørnsen;1899;55;19;20;1
+94;94;Round of 16;World_cup_2026_Povitkina;Marina Povitkina;1435;30;36;36;0
+94;94;Round of 16;World_cup_2026_StineHesstvedt_1106;Stine Hesstvedt;2030;25;3;2;-1
+94;94;Round of 16;World_cup_2026_Vilde Hernes;Vilde Hernes;1788;30;27;26;-1
+94;94;Round of 16;World_cup_2026_aase;Åse Gornitzka;1941;30;9;8;-1
+94;94;Round of 16;World_cup_2026_anna;Anna Helgøy;1716;30;31;32;1
+94;94;Round of 16;World_cup_2026_gabriel;Gabriel Lönn;1874;60;19;20;1
+94;94;Round of 16;World_cup_2026_goldstein;Daniel Goldstein;2002;60;5;6;1
+94;94;Round of 16;World_cup_2026_javier;Javier Padilla;1756;60;29;30;1
+94;94;Round of 16;World_cup_2026_lutscher;Phillip Lutscher;1970;60;8;9;1
+94;94;Round of 16;World_cup_2026_stiansen;Øyvind Stiansen;1769;60;28;28;0
+94;94;Round of 16;World_cup_2026_ØB;Øivind Bratberg;1712;25;32;31;-1
+94;94;Round of 16;world_cup_2026_hs;Håvard Strand;1890;30;15;15;0
+94;94;Round of 16;world_cup_2026_oyvind;Øyvind Colbjørnsen;1869;60;20;21;1
+95;95;Round of 16;Copy of World_cup_2026.TomC;Tom Christensen;1905;55;19;22;3
+95;95;Round of 16;Copy of World_cup_2026_Jacob;Jacob Nyrup;1625;60;34;34;0
+95;95;Round of 16;Copy of World_cup_2026_Jostein;Jostein Askim;1712;30;33;33;0
+95;95;Round of 16;Gates_World_cup_2026;Scott Gates;2064;30;4;2;-2
+95;95;Round of 16;IWB_World_cup_2026;Ida Weseth Bjøru;1957;30;13;13;0
+95;95;Round of 16;Jan_Erling_World_cup_2026;Jan Erling Klausen;1933;30;18;14;-4
+95;95;Round of 16;Kolltveit-World_cup_2026;Kristoffer Kolltveit;1860;60;24;24;0
+95;95;Round of 16;Kopi av World_cup_2026-Elin Arntzen;Elin Arntzen;1971;30;10;9;-1
+95;95;Round of 16;Kopi av World_cup_2026_jh;Jon Hovi;1797;0;29;25;-4
+95;95;Round of 16;Maiken world_cup_2026;Maiken Røed;2073;55;3;4;1
+95;95;Round of 16;Sandven_World_cup_2026;Hallvard Hodne Sandven;2056;60;5;6;1
+95;95;Round of 16;Tone Vevatne - World Cup Competition 2026;Tone Vevatne;1890;30;23;21;-2
+95;95;Round of 16;World_cup_2026 (Kuyper);Jonathan Kuyper;1825;30;26;26;0
+95;95;Round of 16;World_cup_2026.gulli;Linda Gulli;1946;60;15;18;3
+95;95;Round of 16;World_cup_2026_Bjørn_F;Bjørn Fjærli;1945;55;16;15;-1
+95;95;Round of 16;World_cup_2026_CL;Christian Lehne;2159;55;1;1;0
+95;95;Round of 16;World_cup_2026_Dagfinn;Dagfinn Hagen;1759;30;32;30;-2
+95;95;Round of 16;World_cup_2026_Daniel_Naurin;Daniel Naurin;1961;30;12;12;0
+95;95;Round of 16;World_cup_2026_Jana Blahak;Jana Blahak;1988;50;9;11;2
+95;95;Round of 16;World_cup_2026_JonasSchmid;Jonas Schmid;1943;55;17;17;0
+95;95;Round of 16;World_cup_2026_Karin;Karin Dokken;1899;60;21;23;2
+95;95;Round of 16;World_cup_2026_MIRO;Miroslav Nemcok;2009;30;8;7;-1
+95;95;Round of 16;World_cup_2026_Martin_S;Martin Søyland;1596;55;35;35;0
+95;95;Round of 16;World_cup_2026_Povitkina;Marina Povitkina;1465;30;36;36;0
+95;95;Round of 16;World_cup_2026_StineHesstvedt_1106;Stine Hesstvedt;2085;55;2;3;1
+95;95;Round of 16;World_cup_2026_Vilde Hernes;Vilde Hernes;1848;60;25;27;2
+95;95;Round of 16;World_cup_2026_aase;Åse Gornitzka;1971;30;10;9;-1
+95;95;Round of 16;World_cup_2026_anna;Anna Helgøy;1776;60;30;31;1
+95;95;Round of 16;World_cup_2026_gabriel;Gabriel Lönn;1904;30;20;19;-1
+95;95;Round of 16;World_cup_2026_goldstein;Daniel Goldstein;2032;30;6;5;-1
+95;95;Round of 16;World_cup_2026_javier;Javier Padilla;1811;55;27;29;2
+95;95;Round of 16;World_cup_2026_lutscher;Phillip Lutscher;2025;55;7;8;1
+95;95;Round of 16;World_cup_2026_stiansen;Øyvind Stiansen;1799;30;28;28;0
+95;95;Round of 16;World_cup_2026_ØB;Øivind Bratberg;1767;55;31;32;1
+95;95;Round of 16;world_cup_2026_hs;Håvard Strand;1950;60;14;15;1
+95;95;Round of 16;world_cup_2026_oyvind;Øyvind Colbjørnsen;1899;30;21;20;-1
+96;96;Round of 16;Copy of World_cup_2026.TomC;Tom Christensen;1960;55;18;19;1
+96;96;Round of 16;Copy of World_cup_2026_Jacob;Jacob Nyrup;1680;55;34;34;0
+96;96;Round of 16;Copy of World_cup_2026_Jostein;Jostein Askim;1767;55;32;33;1
+96;96;Round of 16;Gates_World_cup_2026;Scott Gates;2119;55;4;4;0
+96;96;Round of 16;IWB_World_cup_2026;Ida Weseth Bjøru;2017;60;12;13;1
+96;96;Round of 16;Jan_Erling_World_cup_2026;Jan Erling Klausen;1933;0;23;18;-5
+96;96;Round of 16;Kolltveit-World_cup_2026;Kristoffer Kolltveit;1915;55;24;24;0
+96;96;Round of 16;Kopi av World_cup_2026-Elin Arntzen;Elin Arntzen;2021;50;10;10;0
+96;96;Round of 16;Kopi av World_cup_2026_jh;Jon Hovi;1852;55;28;29;1
+96;96;Round of 16;Maiken world_cup_2026;Maiken Røed;2128;55;3;3;0
+96;96;Round of 16;Sandven_World_cup_2026;Hallvard Hodne Sandven;2111;55;5;5;0
+96;96;Round of 16;Tone Vevatne - World Cup Competition 2026;Tone Vevatne;1945;55;22;23;1
+96;96;Round of 16;World_cup_2026 (Kuyper);Jonathan Kuyper;1880;55;25;26;1
+96;96;Round of 16;World_cup_2026.gulli;Linda Gulli;2001;55;15;15;0
+96;96;Round of 16;World_cup_2026_Bjørn_F;Bjørn Fjærli;2000;55;16;16;0
+96;96;Round of 16;World_cup_2026_CL;Christian Lehne;2214;55;1;1;0
+96;96;Round of 16;World_cup_2026_Dagfinn;Dagfinn Hagen;1814;55;31;32;1
+96;96;Round of 16;World_cup_2026_Daniel_Naurin;Daniel Naurin;2016;55;13;12;-1
+96;96;Round of 16;World_cup_2026_Jana Blahak;Jana Blahak;2018;30;11;9;-2
+96;96;Round of 16;World_cup_2026_JonasSchmid;Jonas Schmid;1998;55;17;17;0
+96;96;Round of 16;World_cup_2026_Karin;Karin Dokken;1954;55;19;21;2
+96;96;Round of 16;World_cup_2026_MIRO;Miroslav Nemcok;2064;55;8;8;0
+96;96;Round of 16;World_cup_2026_Martin_S;Martin Søyland;1621;25;35;35;0
+96;96;Round of 16;World_cup_2026_Povitkina;Marina Povitkina;1490;25;36;36;0
+96;96;Round of 16;World_cup_2026_StineHesstvedt_1106;Stine Hesstvedt;2140;55;2;2;0
+96;96;Round of 16;World_cup_2026_Vilde Hernes;Vilde Hernes;1873;25;26;25;-1
+96;96;Round of 16;World_cup_2026_aase;Åse Gornitzka;2026;55;9;10;1
+96;96;Round of 16;World_cup_2026_anna;Anna Helgøy;1831;55;30;30;0
+96;96;Round of 16;World_cup_2026_gabriel;Gabriel Lönn;1954;50;19;20;1
+96;96;Round of 16;World_cup_2026_goldstein;Daniel Goldstein;2087;55;6;6;0
+96;96;Round of 16;World_cup_2026_javier;Javier Padilla;1866;55;27;27;0
+96;96;Round of 16;World_cup_2026_lutscher;Phillip Lutscher;2080;55;7;7;0
+96;96;Round of 16;World_cup_2026_stiansen;Øyvind Stiansen;1849;50;29;28;-1
+96;96;Round of 16;World_cup_2026_ØB;Øivind Bratberg;1767;0;32;31;-1
+96;96;Round of 16;world_cup_2026_hs;Håvard Strand;2005;55;14;14;0
+96;96;Round of 16;world_cup_2026_oyvind;Øyvind Colbjørnsen;1954;55;19;21;2

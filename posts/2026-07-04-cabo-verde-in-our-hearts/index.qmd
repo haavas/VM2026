@@ -1,0 +1,30 @@
+---
+title: "Cabo Verde in our hearts!"
+author: "Håvard Strand"
+description: ""
+date: "2026-07-04 18:10:00"
+categories: [Update]
+---
+
+# Sensational Cabo Verde
+
+Messi might be GOAT, but Sidny Lopes Cabral and Vozinha are what overcome the stench of Infantio. 
+
+Egypt and Colombia progresses as well
+
+```{r standings, echo=FALSE, message=FALSE, warning=FALSE}
+source(here::here("R", "plot_standings.R"))
+this_match <- 96
+lag        <- 0
+plot_standings(this_match, lag)
+gapdata <- plot_standings_return(this_match, lag)
+```
+
+Christian is now 74 points ahead of Stine, with Maiken, Scott & Hallvard in pursuit. This might look like a lot, but it isn't necessarily so. 
+
+We need some more informational graphs here soon.
+
+
+```{r show, echo=FALSE}
+knitr::include_graphics("standings.png")
+```

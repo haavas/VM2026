@@ -1,9 +1,9 @@
 {
   "players": {
     "Copy of World_cup_2026.TomC": {
-      "total": 1880,
+      "total": 1960,
       "max_possible": 4600,
-      "pct_of_max": 40.9,
+      "pct_of_max": 42.6,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -892,9 +892,9 @@
         ]
       },
       "knockout": {
-        "points": 1000,
-        "correct_spot": 25,
-        "correct_team": 35,
+        "points": 1080,
+        "correct_spot": 26,
+        "correct_team": 38,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -1061,8 +1061,8 @@
             "pred": "Colombia vs Spain",
             "actual": "Portugal vs Spain",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "94": {
             "stage": "Round of 16",
@@ -1072,10 +1072,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Paraguay",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -1226,22 +1234,29 @@
             "match": 93,
             "play_order": 93,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 915
+            "match_pts": 55,
+            "cumulative": 940
           },
           {
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 945
+            "cumulative": 970
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 1000
+            "cumulative": 1025
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
+            "match_pts": 55,
+            "cumulative": 1080
           }
         ]
       },
@@ -1256,9 +1271,9 @@
       "third_place": "Spain"
     },
     "Copy of World_cup_2026_Jacob": {
-      "total": 1620,
+      "total": 1680,
       "max_possible": 4600,
-      "pct_of_max": 35.2,
+      "pct_of_max": 36.5,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -2147,9 +2162,9 @@
         ]
       },
       "knockout": {
-        "points": 970,
-        "correct_spot": 19,
-        "correct_team": 35,
+        "points": 1030,
+        "correct_spot": 21,
+        "correct_team": 37,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -2327,10 +2342,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Egypt",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -2492,11 +2515,18 @@
             "cumulative": 915
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 975
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 970
+            "cumulative": 1030
           }
         ]
       },
@@ -2511,9 +2541,9 @@
       "third_place": "Norway"
     },
     "Copy of World_cup_2026_Jostein": {
-      "total": 1737,
+      "total": 1767,
       "max_possible": 4600,
-      "pct_of_max": 37.8,
+      "pct_of_max": 38.4,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -3402,9 +3432,9 @@
         ]
       },
       "knockout": {
-        "points": 960,
-        "correct_spot": 22,
-        "correct_team": 34,
+        "points": 990,
+        "correct_spot": 23,
+        "correct_team": 35,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -3582,10 +3612,18 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Turkey",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -3747,11 +3785,18 @@
             "cumulative": 905
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 935
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 960
+            "cumulative": 990
           }
         ]
       },
@@ -3766,9 +3811,9 @@
       "third_place": "France"
     },
     "Gates_World_cup_2026": {
-      "total": 2064,
+      "total": 2119,
       "max_possible": 4600,
-      "pct_of_max": 44.9,
+      "pct_of_max": 46.1,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -4657,9 +4702,9 @@
         ]
       },
       "knockout": {
-        "points": 1040,
-        "correct_spot": 28,
-        "correct_team": 36,
+        "points": 1095,
+        "correct_spot": 29,
+        "correct_team": 38,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -4826,8 +4871,8 @@
             "pred": "Colombia vs Spain",
             "actual": "Portugal vs Spain",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "94": {
             "stage": "Round of 16",
@@ -4837,10 +4882,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Turkey",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -4991,22 +5044,29 @@
             "match": 93,
             "play_order": 93,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 955
+            "match_pts": 55,
+            "cumulative": 980
           },
           {
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 985
+            "cumulative": 1010
+          },
+          {
+            "match": 95,
+            "play_order": 95,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 1040
           },
           {
             "match": 96,
-            "play_order": 95,
+            "play_order": 96,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 1040
+            "cumulative": 1095
           }
         ]
       },
@@ -5021,9 +5081,9 @@
       "third_place": "Spain"
     },
     "IWB_World_cup_2026": {
-      "total": 1957,
+      "total": 2017,
       "max_possible": 4600,
-      "pct_of_max": 42.5,
+      "pct_of_max": 43.8,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -5912,9 +5972,9 @@
         ]
       },
       "knockout": {
-        "points": 1010,
-        "correct_spot": 27,
-        "correct_team": 35,
+        "points": 1070,
+        "correct_spot": 29,
+        "correct_team": 37,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -6092,13 +6152,21 @@
             "correct_team": 2,
             "match_pts": 60
           },
-          "96": {
+          "95": {
             "stage": "Round of 16",
-            "pred": "Switzerland vs Colombia",
-            "actual": "Switzerland vs None",
+            "pred": "Argentina vs Turkey",
+            "actual": "Argentina vs Egypt",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "96": {
+            "stage": "Round of 16",
+            "pred": "Switzerland vs Colombia",
+            "actual": "Switzerland vs Colombia",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -6257,11 +6325,18 @@
             "cumulative": 980
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
             "match_pts": 30,
             "cumulative": 1010
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 1070
           }
         ]
       },
@@ -6276,9 +6351,9 @@
       "third_place": "Spain"
     },
     "Jan_Erling_World_cup_2026": {
-      "total": 1878,
+      "total": 1933,
       "max_possible": 4600,
-      "pct_of_max": 40.8,
+      "pct_of_max": 42.0,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -7167,9 +7242,9 @@
         ]
       },
       "knockout": {
-        "points": 930,
-        "correct_spot": 26,
-        "correct_team": 32,
+        "points": 985,
+        "correct_spot": 27,
+        "correct_team": 34,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -7336,8 +7411,8 @@
             "pred": "Colombia vs Spain",
             "actual": "Portugal vs Spain",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "94": {
             "stage": "Round of 16",
@@ -7347,10 +7422,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Iran",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Algeria vs Panama",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -7501,22 +7584,29 @@
             "match": 93,
             "play_order": 93,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 900
+            "match_pts": 55,
+            "cumulative": 925
           },
           {
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 930
+            "cumulative": 955
+          },
+          {
+            "match": 95,
+            "play_order": 95,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 985
           },
           {
             "match": 96,
-            "play_order": 95,
+            "play_order": 96,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 930
+            "cumulative": 985
           }
         ]
       },
@@ -7531,9 +7621,9 @@
       "third_place": "Spain"
     },
     "Kolltveit-World_cup_2026": {
-      "total": 1855,
+      "total": 1915,
       "max_possible": 4600,
-      "pct_of_max": 40.3,
+      "pct_of_max": 41.6,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -8422,9 +8512,9 @@
         ]
       },
       "knockout": {
-        "points": 1000,
-        "correct_spot": 25,
-        "correct_team": 35,
+        "points": 1060,
+        "correct_spot": 27,
+        "correct_team": 37,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -8602,10 +8692,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Egypt",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -8767,11 +8865,18 @@
             "cumulative": 945
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 1005
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 1000
+            "cumulative": 1060
           }
         ]
       },
@@ -8786,9 +8891,9 @@
       "third_place": "Spain"
     },
     "Kopi av World_cup_2026-Elin Arntzen": {
-      "total": 1991,
+      "total": 2021,
       "max_possible": 4600,
-      "pct_of_max": 43.3,
+      "pct_of_max": 43.9,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -9677,9 +9782,9 @@
         ]
       },
       "knockout": {
-        "points": 1035,
-        "correct_spot": 22,
-        "correct_team": 37,
+        "points": 1065,
+        "correct_spot": 23,
+        "correct_team": 38,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -9857,10 +9962,18 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Turkey",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Canada vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 0,
             "correct_team": 2,
             "match_pts": 50
@@ -10022,11 +10135,18 @@
             "cumulative": 985
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 1015
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
             "match_pts": 50,
-            "cumulative": 1035
+            "cumulative": 1065
           }
         ]
       },
@@ -11112,10 +11232,18 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Uruguay vs Turkey",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -11277,8 +11405,15 @@
             "cumulative": 980
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
+            "stage": "Round of 16",
+            "match_pts": 0,
+            "cumulative": 980
+          },
+          {
+            "match": 96,
+            "play_order": 96,
             "stage": "Round of 16",
             "match_pts": 55,
             "cumulative": 1035
@@ -11296,9 +11431,9 @@
       "third_place": "Spain"
     },
     "Maiken world_cup_2026": {
-      "total": 2073,
+      "total": 2128,
       "max_possible": 4600,
-      "pct_of_max": 45.1,
+      "pct_of_max": 46.3,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -12187,9 +12322,9 @@
         ]
       },
       "knockout": {
-        "points": 1075,
-        "correct_spot": 30,
-        "correct_team": 37,
+        "points": 1130,
+        "correct_spot": 31,
+        "correct_team": 39,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -12367,10 +12502,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs United States",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -12532,11 +12675,18 @@
             "cumulative": 1020
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
             "match_pts": 55,
             "cumulative": 1075
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
+            "match_pts": 55,
+            "cumulative": 1130
           }
         ]
       },
@@ -12551,9 +12701,9 @@
       "third_place": "Spain"
     },
     "Sandven_World_cup_2026": {
-      "total": 2051,
+      "total": 2111,
       "max_possible": 4600,
-      "pct_of_max": 44.6,
+      "pct_of_max": 45.9,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -13442,9 +13592,9 @@
         ]
       },
       "knockout": {
-        "points": 1025,
-        "correct_spot": 25,
-        "correct_team": 36,
+        "points": 1085,
+        "correct_spot": 27,
+        "correct_team": 38,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -13622,10 +13772,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Egypt",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -13787,11 +13945,18 @@
             "cumulative": 970
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 1030
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 1025
+            "cumulative": 1085
           }
         ]
       },
@@ -13806,9 +13971,9 @@
       "third_place": "France"
     },
     "Tone Vevatne - World Cup Competition 2026": {
-      "total": 1890,
+      "total": 1945,
       "max_possible": 4600,
-      "pct_of_max": 41.1,
+      "pct_of_max": 42.3,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -14697,9 +14862,9 @@
         ]
       },
       "knockout": {
-        "points": 1005,
-        "correct_spot": 26,
-        "correct_team": 35,
+        "points": 1060,
+        "correct_spot": 27,
+        "correct_team": 37,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -14866,8 +15031,8 @@
             "pred": "Colombia vs Spain",
             "actual": "Portugal vs Spain",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "94": {
             "stage": "Round of 16",
@@ -14877,10 +15042,18 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Turkey",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -15031,22 +15204,29 @@
             "match": 93,
             "play_order": 93,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 890
+            "match_pts": 55,
+            "cumulative": 915
           },
           {
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 950
+            "cumulative": 975
+          },
+          {
+            "match": 95,
+            "play_order": 95,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 1005
           },
           {
             "match": 96,
-            "play_order": 95,
+            "play_order": 96,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 1005
+            "cumulative": 1060
           }
         ]
       },
@@ -15061,9 +15241,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026 (Kuyper)": {
-      "total": 1825,
+      "total": 1880,
       "max_possible": 4600,
-      "pct_of_max": 39.7,
+      "pct_of_max": 40.9,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -15952,9 +16132,9 @@
         ]
       },
       "knockout": {
-        "points": 1010,
-        "correct_spot": 22,
-        "correct_team": 36,
+        "points": 1065,
+        "correct_spot": 23,
+        "correct_team": 38,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -16121,8 +16301,8 @@
             "pred": "Colombia vs Spain",
             "actual": "Portugal vs Spain",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "94": {
             "stage": "Round of 16",
@@ -16132,10 +16312,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Turkey",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -16286,22 +16474,29 @@
             "match": 93,
             "play_order": 93,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 925
+            "match_pts": 55,
+            "cumulative": 950
           },
           {
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 955
+            "cumulative": 980
+          },
+          {
+            "match": 95,
+            "play_order": 95,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 1010
           },
           {
             "match": 96,
-            "play_order": 95,
+            "play_order": 96,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 1010
+            "cumulative": 1065
           }
         ]
       },
@@ -16316,9 +16511,9 @@
       "third_place": "Portugal"
     },
     "World_cup_2026.gulli": {
-      "total": 1916,
+      "total": 2001,
       "max_possible": 4600,
-      "pct_of_max": 41.7,
+      "pct_of_max": 43.5,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -17207,9 +17402,9 @@
         ]
       },
       "knockout": {
-        "points": 1030,
-        "correct_spot": 26,
-        "correct_team": 36,
+        "points": 1115,
+        "correct_spot": 28,
+        "correct_team": 39,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -17376,8 +17571,8 @@
             "pred": "Colombia vs Spain",
             "actual": "Portugal vs Spain",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "94": {
             "stage": "Round of 16",
@@ -17387,10 +17582,18 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Egypt",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -17541,22 +17744,29 @@
             "match": 93,
             "play_order": 93,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 915
+            "match_pts": 55,
+            "cumulative": 940
           },
           {
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 975
+            "cumulative": 1000
+          },
+          {
+            "match": 95,
+            "play_order": 95,
+            "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 1060
           },
           {
             "match": 96,
-            "play_order": 95,
+            "play_order": 96,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 1030
+            "cumulative": 1115
           }
         ]
       },
@@ -17571,9 +17781,9 @@
       "third_place": "Argentina"
     },
     "World_cup_2026_aase": {
-      "total": 1971,
+      "total": 2026,
       "max_possible": 4600,
-      "pct_of_max": 42.8,
+      "pct_of_max": 44.0,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -18462,9 +18672,9 @@
         ]
       },
       "knockout": {
-        "points": 1015,
-        "correct_spot": 23,
-        "correct_team": 36,
+        "points": 1070,
+        "correct_spot": 24,
+        "correct_team": 38,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -18631,8 +18841,8 @@
             "pred": "Colombia vs Spain",
             "actual": "Portugal vs Spain",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "94": {
             "stage": "Round of 16",
@@ -18642,10 +18852,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Turkey",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -18796,22 +19014,29 @@
             "match": 93,
             "play_order": 93,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 930
+            "match_pts": 55,
+            "cumulative": 955
           },
           {
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 960
+            "cumulative": 985
+          },
+          {
+            "match": 95,
+            "play_order": 95,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 1015
           },
           {
             "match": 96,
-            "play_order": 95,
+            "play_order": 96,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 1015
+            "cumulative": 1070
           }
         ]
       },
@@ -18826,9 +19051,9 @@
       "third_place": "France"
     },
     "World_cup_2026_anna": {
-      "total": 1771,
+      "total": 1831,
       "max_possible": 4600,
-      "pct_of_max": 38.5,
+      "pct_of_max": 39.8,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -19717,9 +19942,9 @@
         ]
       },
       "knockout": {
-        "points": 940,
-        "correct_spot": 23,
-        "correct_team": 33,
+        "points": 1000,
+        "correct_spot": 25,
+        "correct_team": 35,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -19897,10 +20122,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Egypt",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -20062,11 +20295,18 @@
             "cumulative": 885
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 945
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 940
+            "cumulative": 1000
           }
         ]
       },
@@ -20081,9 +20321,9 @@
       "third_place": "England"
     },
     "World_cup_2026_Bjørn_F": {
-      "total": 1945,
+      "total": 2000,
       "max_possible": 4600,
-      "pct_of_max": 42.3,
+      "pct_of_max": 43.5,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -20972,9 +21212,9 @@
         ]
       },
       "knockout": {
-        "points": 1025,
-        "correct_spot": 25,
-        "correct_team": 36,
+        "points": 1080,
+        "correct_spot": 26,
+        "correct_team": 38,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -21152,10 +21392,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs United States",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -21317,11 +21565,18 @@
             "cumulative": 970
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
             "match_pts": 55,
             "cumulative": 1025
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
+            "match_pts": 55,
+            "cumulative": 1080
           }
         ]
       },
@@ -21336,9 +21591,9 @@
       "third_place": "France"
     },
     "World_cup_2026_CL": {
-      "total": 2109,
+      "total": 2214,
       "max_possible": 4600,
-      "pct_of_max": 45.8,
+      "pct_of_max": 48.1,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -22227,9 +22482,9 @@
         ]
       },
       "knockout": {
-        "points": 1055,
-        "correct_spot": 26,
-        "correct_team": 37,
+        "points": 1160,
+        "correct_spot": 27,
+        "correct_team": 41,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -22396,21 +22651,29 @@
             "pred": "Colombia vs Spain",
             "actual": "Portugal vs Spain",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "94": {
             "stage": "Round of 16",
             "pred": "United States vs Egypt",
             "actual": "United States vs Belgium",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
+          },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Belgium",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
           },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -22561,22 +22824,29 @@
             "match": 93,
             "play_order": 93,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 970
+            "match_pts": 55,
+            "cumulative": 995
           },
           {
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 1000
+            "match_pts": 55,
+            "cumulative": 1050
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 1055
+            "cumulative": 1105
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
+            "match_pts": 55,
+            "cumulative": 1160
           }
         ]
       },
@@ -22591,9 +22861,9 @@
       "third_place": "Brazil"
     },
     "World_cup_2026_Dagfinn": {
-      "total": 1784,
+      "total": 1814,
       "max_possible": 4600,
-      "pct_of_max": 38.8,
+      "pct_of_max": 39.4,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -23482,9 +23752,9 @@
         ]
       },
       "knockout": {
-        "points": 970,
-        "correct_spot": 19,
-        "correct_team": 35,
+        "points": 1000,
+        "correct_spot": 20,
+        "correct_team": 36,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -23662,10 +23932,18 @@
             "correct_team": 1,
             "match_pts": 25
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Turkey",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -23827,11 +24105,18 @@
             "cumulative": 915
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 945
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 970
+            "cumulative": 1000
           }
         ]
       },
@@ -23846,9 +24131,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Daniel_Naurin": {
-      "total": 1961,
+      "total": 2016,
       "max_possible": 4600,
-      "pct_of_max": 42.6,
+      "pct_of_max": 43.8,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -24737,9 +25022,9 @@
         ]
       },
       "knockout": {
-        "points": 1035,
-        "correct_spot": 27,
-        "correct_team": 36,
+        "points": 1090,
+        "correct_spot": 28,
+        "correct_team": 38,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -24906,8 +25191,8 @@
             "pred": "Colombia vs Spain",
             "actual": "Portugal vs Spain",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "94": {
             "stage": "Round of 16",
@@ -24917,10 +25202,18 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Turkey",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -25071,22 +25364,29 @@
             "match": 93,
             "play_order": 93,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 920
+            "match_pts": 55,
+            "cumulative": 945
           },
           {
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 980
+            "cumulative": 1005
+          },
+          {
+            "match": 95,
+            "play_order": 95,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 1035
           },
           {
             "match": 96,
-            "play_order": 95,
+            "play_order": 96,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 1035
+            "cumulative": 1090
           }
         ]
       },
@@ -25101,9 +25401,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_gabriel": {
-      "total": 1924,
+      "total": 1954,
       "max_possible": 4600,
-      "pct_of_max": 41.8,
+      "pct_of_max": 42.5,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -25992,9 +26292,9 @@
         ]
       },
       "knockout": {
-        "points": 1055,
-        "correct_spot": 26,
-        "correct_team": 37,
+        "points": 1085,
+        "correct_spot": 27,
+        "correct_team": 38,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -26172,10 +26472,18 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Iran",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Canada vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 0,
             "correct_team": 2,
             "match_pts": 50
@@ -26337,11 +26645,18 @@
             "cumulative": 1005
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 1035
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
             "match_pts": 50,
-            "cumulative": 1055
+            "cumulative": 1085
           }
         ]
       },
@@ -26356,9 +26671,9 @@
       "third_place": "France"
     },
     "World_cup_2026_goldstein": {
-      "total": 2032,
+      "total": 2087,
       "max_possible": 4600,
-      "pct_of_max": 44.2,
+      "pct_of_max": 45.4,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -27247,9 +27562,9 @@
         ]
       },
       "knockout": {
-        "points": 1070,
-        "correct_spot": 29,
-        "correct_team": 37,
+        "points": 1125,
+        "correct_spot": 30,
+        "correct_team": 39,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -27416,8 +27731,8 @@
             "pred": "Colombia vs Spain",
             "actual": "Portugal vs Spain",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "94": {
             "stage": "Round of 16",
@@ -27427,10 +27742,18 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Turkey",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -27581,22 +27904,29 @@
             "match": 93,
             "play_order": 93,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 955
+            "match_pts": 55,
+            "cumulative": 980
           },
           {
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 1015
+            "cumulative": 1040
+          },
+          {
+            "match": 95,
+            "play_order": 95,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 1070
           },
           {
             "match": 96,
-            "play_order": 95,
+            "play_order": 96,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 1070
+            "cumulative": 1125
           }
         ]
       },
@@ -27611,9 +27941,9 @@
       "third_place": "France"
     },
     "world_cup_2026_hs": {
-      "total": 1945,
+      "total": 2005,
       "max_possible": 4600,
-      "pct_of_max": 42.3,
+      "pct_of_max": 43.6,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -28502,9 +28832,9 @@
         ]
       },
       "knockout": {
-        "points": 1005,
-        "correct_spot": 26,
-        "correct_team": 35,
+        "points": 1065,
+        "correct_spot": 28,
+        "correct_team": 37,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -28682,10 +29012,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Egypt",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -28847,11 +29185,18 @@
             "cumulative": 950
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 1010
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 1005
+            "cumulative": 1065
           }
         ]
       },
@@ -28866,9 +29211,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Jana Blahak": {
-      "total": 1968,
+      "total": 2018,
       "max_possible": 4600,
-      "pct_of_max": 42.8,
+      "pct_of_max": 43.9,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -29757,9 +30102,9 @@
         ]
       },
       "knockout": {
-        "points": 1020,
+        "points": 1070,
         "correct_spot": 29,
-        "correct_team": 35,
+        "correct_team": 37,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -29937,10 +30282,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Spain vs Paraguay",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 0,
+            "correct_team": 2,
+            "match_pts": 50
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Ghana",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -30102,11 +30455,18 @@
             "cumulative": 990
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
+            "match_pts": 50,
+            "cumulative": 1040
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 1020
+            "cumulative": 1070
           }
         ]
       },
@@ -30121,9 +30481,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_javier": {
-      "total": 1811,
+      "total": 1866,
       "max_possible": 4600,
-      "pct_of_max": 39.4,
+      "pct_of_max": 40.6,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -31012,9 +31372,9 @@
         ]
       },
       "knockout": {
-        "points": 1045,
-        "correct_spot": 24,
-        "correct_team": 37,
+        "points": 1100,
+        "correct_spot": 25,
+        "correct_team": 39,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -31192,10 +31552,18 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Paraguay",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -31357,11 +31725,18 @@
             "cumulative": 990
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
             "match_pts": 55,
             "cumulative": 1045
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
+            "match_pts": 55,
+            "cumulative": 1100
           }
         ]
       },
@@ -31376,9 +31751,9 @@
       "third_place": "France"
     },
     "World_cup_2026_JonasSchmid": {
-      "total": 1943,
+      "total": 1998,
       "max_possible": 4600,
-      "pct_of_max": 42.2,
+      "pct_of_max": 43.4,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -32267,9 +32642,9 @@
         ]
       },
       "knockout": {
-        "points": 1040,
-        "correct_spot": 28,
-        "correct_team": 36,
+        "points": 1095,
+        "correct_spot": 29,
+        "correct_team": 38,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -32447,10 +32822,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs United States",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -32612,11 +32995,18 @@
             "cumulative": 985
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
             "match_pts": 55,
             "cumulative": 1040
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
+            "match_pts": 55,
+            "cumulative": 1095
           }
         ]
       },
@@ -32631,9 +33021,9 @@
       "third_place": "France"
     },
     "World_cup_2026_Karin": {
-      "total": 1894,
+      "total": 1954,
       "max_possible": 4600,
-      "pct_of_max": 41.2,
+      "pct_of_max": 42.5,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -33522,9 +33912,9 @@
         ]
       },
       "knockout": {
-        "points": 975,
-        "correct_spot": 20,
-        "correct_team": 35,
+        "points": 1035,
+        "correct_spot": 22,
+        "correct_team": 37,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -33702,10 +34092,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Egypt",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -33867,11 +34265,18 @@
             "cumulative": 920
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 980
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 975
+            "cumulative": 1035
           }
         ]
       },
@@ -33886,9 +34291,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_lutscher": {
-      "total": 2000,
+      "total": 2080,
       "max_possible": 4600,
-      "pct_of_max": 43.5,
+      "pct_of_max": 45.2,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -34777,9 +35182,9 @@
         ]
       },
       "knockout": {
-        "points": 1005,
-        "correct_spot": 26,
-        "correct_team": 35,
+        "points": 1085,
+        "correct_spot": 27,
+        "correct_team": 38,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -34946,8 +35351,8 @@
             "pred": "Colombia vs Spain",
             "actual": "Portugal vs Spain",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "94": {
             "stage": "Round of 16",
@@ -34957,10 +35362,18 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Paraguay",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -35111,22 +35524,29 @@
             "match": 93,
             "play_order": 93,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 890
+            "match_pts": 55,
+            "cumulative": 915
           },
           {
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 950
+            "cumulative": 975
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 1005
+            "cumulative": 1030
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
+            "match_pts": 55,
+            "cumulative": 1085
           }
         ]
       },
@@ -35141,9 +35561,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Martin_S": {
-      "total": 1566,
+      "total": 1621,
       "max_possible": 4600,
-      "pct_of_max": 34.0,
+      "pct_of_max": 35.2,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -36032,9 +36452,9 @@
         ]
       },
       "knockout": {
-        "points": 890,
-        "correct_spot": 13,
-        "correct_team": 33,
+        "points": 945,
+        "correct_spot": 14,
+        "correct_team": 35,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -36212,10 +36632,18 @@
             "correct_team": 1,
             "match_pts": 25
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Belgium",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Bosnia and Herzegovina vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
@@ -36377,11 +36805,18 @@
             "cumulative": 865
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
+            "match_pts": 55,
+            "cumulative": 920
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
             "match_pts": 25,
-            "cumulative": 890
+            "cumulative": 945
           }
         ]
       },
@@ -36396,9 +36831,9 @@
       "third_place": "Norway"
     },
     "World_cup_2026_MIRO": {
-      "total": 2009,
+      "total": 2064,
       "max_possible": 4600,
-      "pct_of_max": 43.7,
+      "pct_of_max": 44.9,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -37287,9 +37722,9 @@
         ]
       },
       "knockout": {
-        "points": 1050,
-        "correct_spot": 30,
-        "correct_team": 36,
+        "points": 1105,
+        "correct_spot": 31,
+        "correct_team": 38,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -37456,8 +37891,8 @@
             "pred": "Colombia vs Spain",
             "actual": "Portugal vs Spain",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "94": {
             "stage": "Round of 16",
@@ -37467,10 +37902,18 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Turkey",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -37621,22 +38064,29 @@
             "match": 93,
             "play_order": 93,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 935
+            "match_pts": 55,
+            "cumulative": 960
           },
           {
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 995
+            "cumulative": 1020
+          },
+          {
+            "match": 95,
+            "play_order": 95,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 1050
           },
           {
             "match": 96,
-            "play_order": 95,
+            "play_order": 96,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 1050
+            "cumulative": 1105
           }
         ]
       },
@@ -37651,9 +38101,9 @@
       "third_place": "France"
     },
     "world_cup_2026_oyvind": {
-      "total": 1899,
+      "total": 1954,
       "max_possible": 4600,
-      "pct_of_max": 41.3,
+      "pct_of_max": 42.5,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -38542,9 +38992,9 @@
         ]
       },
       "knockout": {
-        "points": 995,
-        "correct_spot": 24,
-        "correct_team": 35,
+        "points": 1050,
+        "correct_spot": 25,
+        "correct_team": 37,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -38711,8 +39161,8 @@
             "pred": "Colombia vs Spain",
             "actual": "Portugal vs Spain",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "94": {
             "stage": "Round of 16",
@@ -38722,10 +39172,18 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Turkey",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -38876,22 +39334,29 @@
             "match": 93,
             "play_order": 93,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 880
+            "match_pts": 55,
+            "cumulative": 905
           },
           {
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 940
+            "cumulative": 965
+          },
+          {
+            "match": 95,
+            "play_order": 95,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 995
           },
           {
             "match": 96,
-            "play_order": 95,
+            "play_order": 96,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 995
+            "cumulative": 1050
           }
         ]
       },
@@ -38906,9 +39371,9 @@
       "third_place": "Netherlands"
     },
     "World_cup_2026_Povitkina": {
-      "total": 1435,
+      "total": 1490,
       "max_possible": 4600,
-      "pct_of_max": 31.2,
+      "pct_of_max": 32.4,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -39797,9 +40262,9 @@
         ]
       },
       "knockout": {
-        "points": 835,
-        "correct_spot": 17,
-        "correct_team": 30,
+        "points": 890,
+        "correct_spot": 18,
+        "correct_team": 32,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -39966,8 +40431,8 @@
             "pred": "Colombia vs Spain",
             "actual": "Portugal vs Spain",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "94": {
             "stage": "Round of 16",
@@ -39977,10 +40442,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Uruguay vs Egypt",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Jordan vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
@@ -40131,22 +40604,29 @@
             "match": 93,
             "play_order": 93,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 780
+            "match_pts": 55,
+            "cumulative": 805
           },
           {
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
             "match_pts": 30,
-            "cumulative": 810
+            "cumulative": 835
+          },
+          {
+            "match": 95,
+            "play_order": 95,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 865
           },
           {
             "match": 96,
-            "play_order": 95,
+            "play_order": 96,
             "stage": "Round of 16",
             "match_pts": 25,
-            "cumulative": 835
+            "cumulative": 890
           }
         ]
       },
@@ -40161,9 +40641,9 @@
       "third_place": "Brazil"
     },
     "World_cup_2026_stiansen": {
-      "total": 1794,
+      "total": 1849,
       "max_possible": 4600,
-      "pct_of_max": 39.0,
+      "pct_of_max": 40.2,
       "questions": {
         "points": 0,
         "correct": 0,
@@ -40971,9 +41451,9 @@
         ]
       },
       "knockout": {
-        "points": 1055,
-        "correct_spot": 26,
-        "correct_team": 37,
+        "points": 1110,
+        "correct_spot": 27,
+        "correct_team": 39,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -41140,8 +41620,8 @@
             "pred": "Colombia vs Spain",
             "actual": "Portugal vs Spain",
             "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "correct_team": 2,
+            "match_pts": 55
           },
           "94": {
             "stage": "Round of 16",
@@ -41151,10 +41631,18 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Turkey",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Canada vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 0,
             "correct_team": 2,
             "match_pts": 50
@@ -41305,22 +41793,29 @@
             "match": 93,
             "play_order": 93,
             "stage": "Round of 16",
-            "match_pts": 30,
-            "cumulative": 945
+            "match_pts": 55,
+            "cumulative": 970
           },
           {
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
             "match_pts": 60,
-            "cumulative": 1005
+            "cumulative": 1030
+          },
+          {
+            "match": 95,
+            "play_order": 95,
+            "stage": "Round of 16",
+            "match_pts": 30,
+            "cumulative": 1060
           },
           {
             "match": 96,
-            "play_order": 95,
+            "play_order": 96,
             "stage": "Round of 16",
             "match_pts": 50,
-            "cumulative": 1055
+            "cumulative": 1110
           }
         ]
       },
@@ -41335,9 +41830,9 @@
       "third_place": "France"
     },
     "World_cup_2026_StineHesstvedt_1106": {
-      "total": 2060,
+      "total": 2140,
       "max_possible": 4600,
-      "pct_of_max": 44.8,
+      "pct_of_max": 46.5,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -42226,9 +42721,9 @@
         ]
       },
       "knockout": {
-        "points": 1055,
-        "correct_spot": 26,
-        "correct_team": 37,
+        "points": 1135,
+        "correct_spot": 27,
+        "correct_team": 40,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -42403,13 +42898,21 @@
             "pred": "Turkey vs Egypt",
             "actual": "United States vs Belgium",
             "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "correct_team": 1,
+            "match_pts": 25
+          },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Belgium",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
           },
           "96": {
             "stage": "Round of 16",
             "pred": "Switzerland vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
@@ -42567,15 +43070,22 @@
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 1000
+            "match_pts": 25,
+            "cumulative": 1025
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
             "match_pts": 55,
-            "cumulative": 1055
+            "cumulative": 1080
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
+            "match_pts": 55,
+            "cumulative": 1135
           }
         ]
       },
@@ -42590,9 +43100,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Vilde Hernes": {
-      "total": 1813,
+      "total": 1873,
       "max_possible": 4600,
-      "pct_of_max": 39.4,
+      "pct_of_max": 40.7,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -43481,9 +43991,9 @@
         ]
       },
       "knockout": {
-        "points": 970,
-        "correct_spot": 19,
-        "correct_team": 35,
+        "points": 1030,
+        "correct_spot": 21,
+        "correct_team": 37,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -43661,10 +44171,18 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Egypt",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "96": {
             "stage": "Round of 16",
             "pred": "Algeria vs Portugal",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
@@ -43826,11 +44344,18 @@
             "cumulative": 945
           },
           {
-            "match": 96,
+            "match": 95,
             "play_order": 95,
             "stage": "Round of 16",
+            "match_pts": 60,
+            "cumulative": 1005
+          },
+          {
+            "match": 96,
+            "play_order": 96,
+            "stage": "Round of 16",
             "match_pts": 25,
-            "cumulative": 970
+            "cumulative": 1030
           }
         ]
       },
@@ -43845,9 +44370,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_ØB": {
-      "total": 1687,
+      "total": 1767,
       "max_possible": 4600,
-      "pct_of_max": 36.7,
+      "pct_of_max": 38.4,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -44736,9 +45261,9 @@
         ]
       },
       "knockout": {
-        "points": 920,
-        "correct_spot": 19,
-        "correct_team": 33,
+        "points": 1000,
+        "correct_spot": 20,
+        "correct_team": 36,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -44913,13 +45438,21 @@
             "pred": "Turkey vs Egypt",
             "actual": "United States vs Belgium",
             "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "correct_team": 1,
+            "match_pts": 25
+          },
+          "95": {
+            "stage": "Round of 16",
+            "pred": "Argentina vs Belgium",
+            "actual": "Argentina vs Egypt",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
           },
           "96": {
             "stage": "Round of 16",
             "pred": "Senegal vs Ghana",
-            "actual": "Switzerland vs None",
+            "actual": "Switzerland vs Colombia",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -45077,15 +45610,22 @@
             "match": 94,
             "play_order": 94,
             "stage": "Round of 16",
-            "match_pts": 0,
-            "cumulative": 920
+            "match_pts": 25,
+            "cumulative": 945
+          },
+          {
+            "match": 95,
+            "play_order": 95,
+            "stage": "Round of 16",
+            "match_pts": 55,
+            "cumulative": 1000
           },
           {
             "match": 96,
-            "play_order": 95,
+            "play_order": 96,
             "stage": "Round of 16",
             "match_pts": 0,
-            "cumulative": 920
+            "cumulative": 1000
           }
         ]
       },
