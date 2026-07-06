@@ -727,8 +727,8 @@
       "stage": "Round of 16",
       "team1": "Paraguay",
       "team2": "France",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 0,
+      "team2_goals": 1,
       "play_order": 89
     },
     {
@@ -736,8 +736,8 @@
       "stage": "Round of 16",
       "team1": "Canada",
       "team2": "Morocco",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 0,
+      "team2_goals": 3,
       "play_order": 90
     },
     {
@@ -745,8 +745,8 @@
       "stage": "Round of 16",
       "team1": "Brazil",
       "team2": "Norway",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 1,
+      "team2_goals": 2,
       "play_order": 91
     },
     {
@@ -754,8 +754,8 @@
       "stage": "Round of 16",
       "team1": "Mexico",
       "team2": "England",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 2,
+      "team2_goals": 3,
       "play_order": 92
     },
     {
@@ -793,6 +793,24 @@
       "team1_goals": null,
       "team2_goals": null,
       "play_order": 96
+    },
+    {
+      "match": 97,
+      "stage": "Quarterfinals",
+      "team1": "France",
+      "team2": "Morocco",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 97
+    },
+    {
+      "match": 99,
+      "stage": "Quarterfinals",
+      "team1": "Norway",
+      "team2": "England",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 98
     }
   ],
   "world_champion": null,

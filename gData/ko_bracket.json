@@ -1,0 +1,852 @@
+{
+  "meta": {
+    "stages": [
+      "r32",
+      "r16",
+      "qf",
+      "sf",
+      "final",
+      "bronze"
+    ],
+    "stage_labels": {
+      "r32": "Round of 32",
+      "r16": "Round of 16",
+      "qf": "Quarterfinals",
+      "sf": "Semi-Finals",
+      "final": "Final",
+      "bronze": "Third-Place Play-Off"
+    },
+    "pts_per_correct_team": 25,
+    "pts_per_correct_spot": 5
+  },
+  "players": {
+    "TC": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 18,
+        "pts": 740,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 12,
+        "correct_spot": 8,
+        "pts": 340,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "JN": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 14,
+        "pts": 720,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 7,
+        "pts": 310,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 0,
+        "pts": 50,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "JA": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 16,
+        "pts": 730,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 9,
+        "correct_spot": 7,
+        "pts": 260,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "SG": {
+      "r32": {
+        "correct_team": 27,
+        "correct_spot": 20,
+        "pts": 775,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 9,
+        "pts": 320,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "IWB": {
+      "r32": {
+        "correct_team": 25,
+        "correct_spot": 18,
+        "pts": 715,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 12,
+        "correct_spot": 11,
+        "pts": 355,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 3,
+        "correct_spot": 3,
+        "pts": 90,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "JEK": {
+      "r32": {
+        "correct_team": 25,
+        "correct_spot": 19,
+        "pts": 720,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 9,
+        "correct_spot": 8,
+        "pts": 265,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "KK": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 18,
+        "pts": 740,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 9,
+        "pts": 320,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "EA": {
+      "r32": {
+        "correct_team": 27,
+        "correct_spot": 15,
+        "pts": 750,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 8,
+        "pts": 315,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 3,
+        "correct_spot": 2,
+        "pts": 85,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "JH": {
+      "r32": {
+        "correct_team": 27,
+        "correct_spot": 19,
+        "pts": 770,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 9,
+        "correct_spot": 8,
+        "pts": 265,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "MR": {
+      "r32": {
+        "correct_team": 27,
+        "correct_spot": 21,
+        "pts": 780,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 12,
+        "correct_spot": 10,
+        "pts": 350,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "HHS": {
+      "r32": {
+        "correct_team": 27,
+        "correct_spot": 17,
+        "pts": 760,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 10,
+        "pts": 325,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 3,
+        "correct_spot": 3,
+        "pts": 90,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "TV": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 18,
+        "pts": 740,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 9,
+        "pts": 320,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "JK": {
+      "r32": {
+        "correct_team": 27,
+        "correct_spot": 15,
+        "pts": 750,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 8,
+        "pts": 315,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "LG": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 18,
+        "pts": 740,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 13,
+        "correct_spot": 10,
+        "pts": 375,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "ÅG": {
+      "r32": {
+        "correct_team": 27,
+        "correct_spot": 15,
+        "pts": 750,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 9,
+        "pts": 320,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 3,
+        "correct_spot": 3,
+        "pts": 90,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "AH": {
+      "r32": {
+        "correct_team": 25,
+        "correct_spot": 16,
+        "pts": 705,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 10,
+        "correct_spot": 9,
+        "pts": 295,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "BF": {
+      "r32": {
+        "correct_team": 27,
+        "correct_spot": 17,
+        "pts": 760,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 9,
+        "pts": 320,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 4,
+        "correct_spot": 4,
+        "pts": 120,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "CL": {
+      "r32": {
+        "correct_team": 27,
+        "correct_spot": 19,
+        "pts": 770,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 14,
+        "correct_spot": 8,
+        "pts": 390,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 3,
+        "correct_spot": 2,
+        "pts": 85,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "DH": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 14,
+        "pts": 720,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 10,
+        "correct_spot": 6,
+        "pts": 280,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 1,
+        "pts": 55,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "DN": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 18,
+        "pts": 740,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 12,
+        "correct_spot": 10,
+        "pts": 350,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 3,
+        "correct_spot": 3,
+        "pts": 90,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "GL": {
+      "r32": {
+        "correct_team": 25,
+        "correct_spot": 17,
+        "pts": 710,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 13,
+        "correct_spot": 10,
+        "pts": 375,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 3,
+        "correct_spot": 3,
+        "pts": 90,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "DG": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 19,
+        "pts": 745,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 13,
+        "correct_spot": 11,
+        "pts": 380,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "HS": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 18,
+        "pts": 740,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 10,
+        "pts": 325,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 3,
+        "correct_spot": 3,
+        "pts": 90,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "JB": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 20,
+        "pts": 750,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 9,
+        "pts": 320,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "JP": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 15,
+        "pts": 725,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 13,
+        "correct_spot": 10,
+        "pts": 375,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 3,
+        "correct_spot": 3,
+        "pts": 90,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "JS": {
+      "r32": {
+        "correct_team": 27,
+        "correct_spot": 20,
+        "pts": 775,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 9,
+        "pts": 320,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "KD": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 14,
+        "pts": 720,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 8,
+        "pts": 315,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 3,
+        "correct_spot": 3,
+        "pts": 90,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "PL": {
+      "r32": {
+        "correct_team": 27,
+        "correct_spot": 19,
+        "pts": 770,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 8,
+        "pts": 315,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "MS": {
+      "r32": {
+        "correct_team": 25,
+        "correct_spot": 10,
+        "pts": 675,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 10,
+        "correct_spot": 4,
+        "pts": 270,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 3,
+        "correct_spot": 1,
+        "pts": 80,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "MN": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 21,
+        "pts": 755,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 12,
+        "correct_spot": 10,
+        "pts": 350,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 3,
+        "correct_spot": 3,
+        "pts": 90,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "ØC": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 16,
+        "pts": 730,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 9,
+        "pts": 320,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "MP": {
+      "r32": {
+        "correct_team": 24,
+        "correct_spot": 12,
+        "pts": 660,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 8,
+        "correct_spot": 6,
+        "pts": 230,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "ØS": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 18,
+        "pts": 740,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 13,
+        "correct_spot": 9,
+        "pts": 370,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "SH": {
+      "r32": {
+        "correct_team": 28,
+        "correct_spot": 18,
+        "pts": 790,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 12,
+        "correct_spot": 9,
+        "pts": 345,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "VH": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 14,
+        "pts": 720,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 11,
+        "correct_spot": 7,
+        "pts": 310,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    },
+    "ØB": {
+      "r32": {
+        "correct_team": 26,
+        "correct_spot": 13,
+        "pts": 715,
+        "max_pts": 960,
+        "n_slots": 32
+      },
+      "r16": {
+        "correct_team": 10,
+        "correct_spot": 7,
+        "pts": 285,
+        "max_pts": 480,
+        "n_slots": 16
+      },
+      "qf": {
+        "correct_team": 4,
+        "correct_spot": 4,
+        "pts": 120,
+        "max_pts": 120,
+        "n_slots": 4
+      }
+    }
+  }
+}

@@ -44,6 +44,91 @@ plot_standings_return <- function(this_match, lag = 1) {
     )
 }
 
+plot_standings_stacked <- function(this_match,
+                                   outfile = "standings_stacked.png",
+                                   width   = 10,
+                                   height  = 10,
+                                   dpi     = 150) {
+  # Base data: cumulative totals at this_match, player order by total
+  hbar <- plot_standings_return(this_match, lag = 1)
+
+  # Category totals from scores.json (static per player, not per match)
+  scores_raw <- jsonlite::fromJSON(
+    here::here("gData", "scores.json"),
+    simplifyVector = TRUE
+  )
+
+  category_pts <- purrr::imap_dfr(scores_raw$players, function(s, player) {
+    tibble(
+      player    = player,
+      qs_pts    = s$questions$points   %||% 0L,
+      group_pts = s$group_stage$points %||% 0L,
+      ko_pts    = (s$knockout$points   %||% 0L) +
+                  (s$medals$points     %||% 0L)
+    )
+  })
+
+  # Join and reshape to long format for stacking
+  df_long <- hbar |>
+    select(full_name, player, cumulative) |>
+    left_join(category_pts, by = "player") |>
+    pivot_longer(
+      cols      = c(qs_pts, group_pts, ko_pts),
+      names_to  = "category",
+      values_to = "pts"
+    ) |>
+    mutate(
+      category = factor(category,
+                        levels = c("qs_pts", "group_pts", "ko_pts"),
+                        labels = c("Qualitative", "Group stage", "Knockout"))
+    )
+
+  last_stage <- hbar |> pull(stage) |> first()
+
+  p <- ggplot(df_long,
+              aes(x = full_name, y = pts, fill = category)) +
+    geom_col() +
+    geom_text(
+      data = hbar,
+      aes(x = full_name, y = cumulative, label = cumulative, fill = NULL),
+      hjust  = -0.25,
+      size   = 5
+    ) +
+    scale_y_continuous(
+      limits = c(0, max(hbar$cumulative) * 1.12)
+    ) +
+    scale_fill_manual(
+      values = c(
+        "Qualitative"  = "#5b9bd5",
+        "Group stage"  = "#70ad47",
+        "Knockout"     = "#ed7d31"
+      ),
+      name = "Category"
+    ) +
+    coord_flip() +
+    ylab("Points") +
+    xlab(" ") +
+    labs(
+      title    = "2026 World Cup \u2014 Current Standings",
+      subtitle = paste0("After M", this_match, " \u2014 ", last_stage,
+                        "  |  breakdown by scoring category")
+    ) +
+    theme_minimal() +
+    theme(
+      axis.text  = element_text(size = 14),
+      axis.title = element_text(size = 14, face = "bold"),
+      plot.title = element_text(face = "bold", size = 16),
+      legend.position = "bottom"
+    )
+
+  ggsave(outfile, plot = p, width = width, height = height, dpi = dpi)
+
+  invisible(p)
+}
+
+# %||% operator (base R has it in 4.4+, define for safety)
+`%||%` <- function(x, y) if (!is.null(x)) x else y
+
 plot_standings <- function(this_match,
                            lag     = 1,
                            outfile = "standings.png",

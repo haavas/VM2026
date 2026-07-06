@@ -1,0 +1,17 @@
+{
+  "hash": "2df9a5bc0bb697d4e4b99e58aba8cf4a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"A look at where we stand\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-07-05 21:01:00\"\ncategories: [news]\n---\n\n# The knockout stages\n\nMy reporting of the knockout stages has been sub par. Here is an attempt to clarify and illuminate. \n\nStine did best in the Round of 32, with 28 out of 32 teams. Several got 27 correct. Christian got the upper hand in the Round of 16, with 14 of 16 teams. Javier is right behind with 26 and 13 correct predictions in the two first rounds, but he has both correct teams in the quarterfinals so far. \n\n\n::: {.cell}\n\n```{.r .cell-code}\nsource(here::here(\"R\", \"ko_bracket.R\"))\n```\n\n::: {.cell-output .cell-output-stderr}\n\n```\nhere() starts at D:/Users/hs/git/VM2026\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\n\nAttaching package: 'dplyr'\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n```\n\n\n:::\n\n```{.r .cell-code}\nplot_ko_bracket() \n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

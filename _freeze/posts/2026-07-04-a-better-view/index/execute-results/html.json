@@ -1,0 +1,15 @@
+{
+  "hash": "d9361b88e41f55c398d7bc6c8de214b4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"A better view\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-07-05 01:19:00\"\ncategories: [Update]\n---\n\n\n::: {.cell}\n\n:::\n\nMorocco and France meet in the first quarter-final. This was correctly predicted by Bjørn, Daniel N., Gabriel, Hallvard, myself, Ida, Javier and Øivind. Most of us had France in this match.\n\n\nChristian is now 73 points ahead of Hallvard and 74 points ahead of Stine, with Maiken & Scott in pursuit. This might look like a lot, but it isn't necessarily so. \n\nThe graph below shows that Christian has gained most points from the knockout stages so far, but this can easily change.\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings_stacked.png)\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

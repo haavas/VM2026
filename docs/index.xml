@@ -10,7 +10,100 @@
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sat, 04 Jul 2026 16:10:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 05 Jul 2026 19:01:00 GMT</lastBuildDate>
+<item>
+  <title>A look at where we stand</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-07-05-a-look-at-where-we-stand/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="the-knockout-stages" class="level1">
+<h1>The knockout stages</h1>
+<p>My reporting of the knockout stages has been sub par. Here is an attempt to clarify and illuminate.</p>
+<p>Stine did best in the Round of 32, with 28 out of 32 teams. Several got 27 correct. Christian got the upper hand in the Round of 16, with 14 of 16 teams. Javier is right behind with 26 and 13 correct predictions in the two first rounds, but he has both correct teams in the quarterfinals so far.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">source</span>(here<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">here</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"R"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ko_bracket.R"</span>))</span></code></pre></div></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>here() starts at D:/Users/hs/git/VM2026</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot_ko_bracket</span>() </span></code></pre></div></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-07-05-a-look-at-where-we-stand/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-07-05-a-look-at-where-we-stand/</guid>
+  <pubDate>Sun, 05 Jul 2026 19:01:00 GMT</pubDate>
+</item>
+<item>
+  <title>A better view</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-07-04-a-better-view/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Morocco and France meet in the first quarter-final. This was correctly predicted by Bjørn, Daniel N., Gabriel, Hallvard, myself, Ida, Javier and Øivind. Most of us had France in this match.</p>
+<p>Christian is now 73 points ahead of Hallvard and 74 points ahead of Stine, with Maiken &amp; Scott in pursuit. This might look like a lot, but it isn’t necessarily so.</p>
+<p>The graph below shows that Christian has gained most points from the knockout stages so far, but this can easily change.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-07-04-a-better-view/standings_stacked.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-07-04-a-better-view/</guid>
+  <pubDate>Sat, 04 Jul 2026 23:19:00 GMT</pubDate>
+</item>
 <item>
   <title>Cabo Verde in our hearts!</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -634,80 +727,6 @@
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-22-group-g-is-quite-open/</guid>
   <pubDate>Sun, 21 Jun 2026 22:11:00 GMT</pubDate>
-</item>
-<item>
-  <title>Spain recovers</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-21-spain-recovers/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="spain-beats-saudi-arabia-properly." class="level1">
-<h1>Spain beats Saudi-Arabia properly.</h1>
-<p>In a world cup with many uninteresting games that has turned interesting, not least because of Spain, it is reassuring to find an uninteresting uninteresting game. Which this was. We all thought this would happen, but disagreed on the score.</p>
-<p>Four of us had the correct score. Christian is joined Martin, Jacob and myself. But we all got between 20 and 25 points, so this game changes very little.</p>
-<p>Christian is 83 points ahead of Øyvind.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-21-spain-recovers/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-21-spain-recovers/index_files/figure-html/scatter_points-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-21-spain-recovers/</guid>
-  <pubDate>Sun, 21 Jun 2026 19:05:00 GMT</pubDate>
-</item>
-<item>
-  <title>Tunisia are out</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-21-tunisia-are-out/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="ecuador-didnt-beat-curacao" class="level1">
-<h1>Ecuador didn’t beat Curacao</h1>
-<p>Surprisingly, Curacao held Ecuador to a draw. It is as such not impossible that Curacao makes it through to the knockout phase. But it is not likely either, as they have to beat the beautiful, impressive, massive Ivory Coast. Ecuador face Germany, and stranger things have happened.</p>
-<p>Christian ended up exactly where we was two games ago, and Øyvind has moved closer. The gap is now 82 points. Scott and Stine are the Rockets of the Round, blasting up the standings. Scott is now third.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-21-tunisia-are-out/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-21-tunisia-are-out/</guid>
-  <pubDate>Sun, 21 Jun 2026 10:09:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

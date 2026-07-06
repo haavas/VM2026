@@ -1,0 +1,21 @@
+---
+title: "A look at where we stand"
+author: "Håvard Strand"
+description: ""
+date: "2026-07-05 21:01:00"
+categories: [news]
+---
+
+# The knockout stages
+
+My reporting of the knockout stages has been sub par. Here is an attempt to clarify and illuminate. 
+
+Stine did best in the Round of 32, with 28 out of 32 teams. Several got 27 correct. Christian got the upper hand in the Round of 16, with 14 of 16 teams. Javier is right behind with 26 and 13 correct predictions in the two first rounds, but he has both correct teams in the quarterfinals so far. 
+
+```{r}
+#| fig.height: 7
+source(here::here("R", "ko_bracket.R"))
+plot_ko_bracket() 
+
+```
+
