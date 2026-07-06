@@ -10,7 +10,75 @@
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sun, 05 Jul 2026 19:01:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 06 Jul 2026 08:47:00 GMT</lastBuildDate>
+<item>
+  <title>Norway vs England in the 2. quarterfinal</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-07-06-norway-vs-england-in-the-2-quarterfinal/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="juhu" class="level1">
+<h1>Juhu!</h1>
+<p>Perhaps not the best game ever, but Wow! And among us are two prophets: Bjørn and Øyvind have both predicted four out of four quarterfinalists so far.</p>
+<p>Christian is now 98 points ahead of Hallvard, with Stine a point behind. But we should keep in mind that predicting the winner is worth 200 points. 12 participants are within 200 points of Christian. Hallvard has Spain and Stine, Maiken &amp; Scott has France as winner.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-07-06-norway-vs-england-in-the-2-quarterfinal/standings_stacked.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Christian remains on top of the knockout table, but Bjørn and Miroslav made tremendous progress yesterday.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">source</span>(here<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">here</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"R"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ko_bracket.R"</span>))</span></code></pre></div></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>here() starts at D:/Users/hs/git/VM2026</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'jsonlite'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:purrr':
+
+    flatten</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot_ko_bracket</span>() </span></code></pre></div></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-07-06-norway-vs-england-in-the-2-quarterfinal/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-07-06-norway-vs-england-in-the-2-quarterfinal/</guid>
+  <pubDate>Mon, 06 Jul 2026 08:47:00 GMT</pubDate>
+</item>
 <item>
   <title>A look at where we stand</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -685,48 +753,6 @@ font-style: inherit;">plot_ko_bracket</span>() </span></code></pre></div></div>
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-22-egypt-are-through/</guid>
   <pubDate>Mon, 22 Jun 2026 07:33:00 GMT</pubDate>
-</item>
-<item>
-  <title>Group G is quite open</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-22-group-g-is-quite-open/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="iran-and-belgia-both-fail-to-score." class="level1">
-<h1>Iran and Belgia both fail to score.</h1>
-<p>Belgium is a disappointment so far in this championship, and today they disappointed every one of us but Jana and Jan Erling, who are Rockets of the Round!</p>
-<p>Christian remain in front, with a 77 point lead. Jana is in the top ten!</p>
-<p>Ngoy’s red card means that the question regarding red cards is decided. We should probably phase in qualitative points fairly soon.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-22-group-g-is-quite-open/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-22-group-g-is-quite-open/index_files/figure-html/scatter_points-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-22-group-g-is-quite-open/</guid>
-  <pubDate>Sun, 21 Jun 2026 22:11:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,17 @@
+{
+  "hash": "af8964f818fa69e6ed1fa4bb35a3c0e7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Norway vs England in the 2. quarterfinal\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-07-06 10:47:00\"\ncategories: [Update]\n---\n\n# Juhu!\n\nPerhaps not the best game ever, but Wow! And among us are two prophets: Bjørn and Øyvind have both predicted four out of four quarterfinalists so far. \n\n\n::: {.cell}\n\n:::\n\n\nChristian is now 98 points ahead of Hallvard, with Stine a point behind. But we should keep in mind that predicting the winner is worth 200 points. 12 participants are within 200 points of Christian. Hallvard has Spain and Stine, Maiken & Scott has France as winner.  \n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings_stacked.png)\n:::\n:::\n\nChristian remains on top of the knockout table, but Bjørn and Miroslav made tremendous progress yesterday. \n\n\n::: {.cell}\n\n```{.r .cell-code}\nsource(here::here(\"R\", \"ko_bracket.R\"))\n```\n\n::: {.cell-output .cell-output-stderr}\n\n```\nhere() starts at D:/Users/hs/git/VM2026\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\n\nAttaching package: 'jsonlite'\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nThe following object is masked from 'package:purrr':\n\n    flatten\n```\n\n\n:::\n\n```{.r .cell-code}\nplot_ko_bracket() \n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
