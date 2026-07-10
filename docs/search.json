@@ -123,7 +123,7 @@
     "href": "posts/2026-07-10-france-secures-semi-final-spot/index.html",
     "title": "France secures semi final spot",
     "section": "",
-    "text": "No broadband in the mountains\nI’ve been off line for a few days, so this update is late.\n\n\n\nChristian remain in the lead, but Hallvard, Stine and Maiken are very close behind, 38, 39 and 51 points respectively.\n\n\n\n\n\n\n\n\n\nThe knockout table has changed a lot since the last update. Bjørn tops the leaderboard with a stunning 7 out of 8 correct for the Quarter finals. Miroslav is second with 6 of 8. Stine, Javier and Maiken are all ahead of Christian, which means that the standings can change quickly.\n\nsource(here::here(\"R\", \"ko_bracket.R\"))\n\nhere() starts at /Users/haavas/git/VM2026\n\n\n\nAttaching package: 'jsonlite'\n\n\nThe following object is masked from 'package:purrr':\n\n    flatten\n\nplot_ko_bracket()"
+    "text": "No broadband in the mountains\nI’ve been off line for a few days, so this update is late.\n\n\n\nChristian remain in the lead, but Hallvard, Stine and Maiken are very close behind, 38, 39 and 51 points respectively.\n\n\n\n\n\n\n\n\n\nThe knockout table has changed a lot since the last update. Bjørn tops the leaderboard with a stunning 7 out of 8 correct for the Quarter finals. Miroslav is second with 6 of 8. Stine, Javier and Maiken are all ahead of Christian, which means that the standings can change quickly.\n\nsource(here::here(\"R\", \"ko_bracket.R\"))\n\nhere() starts at /home/martigso/gits/VM2026\n\n\n\nAttaching package: 'jsonlite'\n\n\nThe following object is masked from 'package:purrr':\n\n    flatten\n\nplot_ko_bracket()"
   },
   {
     "objectID": "posts/2026-06-19-usa-goes-to-the-knockout-rounds/index.html",

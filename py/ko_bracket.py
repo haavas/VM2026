@@ -127,28 +127,34 @@ def _annotate_team(team: str | None, slot: str, match_id: int,
         return f"✗  {team}"
 
 
-def _score_stage(pred_matches: list, fasit_by_match: dict,
-                 fasit_stage_teams: set) -> dict:
+def _score_stage(pred_matches: list, fasit_by_match: dict) -> dict:
     """
     Returns {correct_team, correct_spot, pts, max_pts} for one player/stage.
-    correct_spot counts are only for slots where the team was also correct_team.
+    correct_team counts confirmed stage teams the player predicted anywhere
+    in the stage — the match slot only matters for the correct_spot bonus.
+    This keeps partially known stages correct, e.g. a confirmed semi-finalist
+    the player placed in the other, still undecided semi-final match.
     """
     n_slots      = sum(2 for _ in fasit_by_match)   # 2 slots per match
     correct_team = 0
     correct_spot = 0
     pred_by_match = {m["match"]: m for m in pred_matches}
+    pred_stage_teams = {
+        m.get(slot)
+        for m in pred_matches
+        for slot in ("team1", "team2")
+        if m.get(slot)
+    }
 
     for mid, fasit_m in fasit_by_match.items():
         pred_m = pred_by_match.get(mid, {})
         for slot in ("team1", "team2"):
-            t = pred_m.get(slot)
-            if not t:
+            actual = fasit_m.get(slot)
+            if not actual:
                 continue
-            in_stage = t in fasit_stage_teams
-            in_slot  = (fasit_m.get(slot) == t)
-            if in_stage:
+            if actual in pred_stage_teams:
                 correct_team += 1
-            if in_slot:          # in_slot implies in_stage
+            if pred_m.get(slot) == actual:   # slot match implies team match
                 correct_spot += 1
 
     pts     = correct_team * CORRECT_TEAM_PTS + correct_spot * CORRECT_SPOT_PTS
@@ -198,7 +204,7 @@ def print_stage(stage_key: str, fasit_matches: list, players_to_show: dict,
             pred_ko if isinstance(pred_ko, list) else [], stage_key)
         pred_by_match = {m["match"]: m for m in pred_matches}
 
-        sc = _score_stage(pred_matches, fasit_by_match, fasit_stage_teams)
+        sc = _score_stage(pred_matches, fasit_by_match)
 
         # Store in summaries dict for JSON output
         stage_summaries.setdefault(abbr, {})[stage_key] = sc
