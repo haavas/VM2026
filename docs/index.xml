@@ -9,8 +9,79 @@
 <link>https://haavas.github.io/VM2026/</link>
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
-<generator>quarto-1.9.37</generator>
-<lastBuildDate>Mon, 06 Jul 2026 08:47:00 GMT</lastBuildDate>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Thu, 09 Jul 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>France secures semi final spot</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-07-10-france-secures-semi-final-spot/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="no-broadband-in-the-mountains" class="level1">
+<h1>No broadband in the mountains</h1>
+<p>I’ve been off line for a few days, so this update is late.</p>
+</section>
+<section id="section" class="level1">
+<h1></h1>
+<p>Christian remain in the lead, but Hallvard, Stine and Maiken are very close behind, 38, 39 and 51 points respectively.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-07-10-france-secures-semi-final-spot/standings_stacked.png" class="img-fluid figure-img" width="750"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The knockout table has changed a lot since the last update. Bjørn tops the leaderboard with a stunning 7 out of 8 correct for the Quarter finals. Miroslav is second with 6 of 8. Stine, Javier and Maiken are all ahead of Christian, which means that the standings can change quickly.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">source</span>(here<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">here</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"R"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ko_bracket.R"</span>))</span></code></pre></div></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>here() starts at /Users/haavas/git/VM2026</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'jsonlite'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:purrr':
+
+    flatten</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot_ko_bracket</span>() </span></code></pre></div></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-07-10-france-secures-semi-final-spot/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-07-10-france-secures-semi-final-spot/</guid>
+  <pubDate>Thu, 09 Jul 2026 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Norway vs England in the 2. quarterfinal</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -721,38 +792,6 @@ font-style: inherit;">plot_ko_bracket</span>() </span></code></pre></div></div>
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-22-g-o-a-t/</guid>
   <pubDate>Mon, 22 Jun 2026 21:36:00 GMT</pubDate>
-</item>
-<item>
-  <title>Egypt are through</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-22-egypt-are-through/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="egypt-are-through-and-group-h-is-quite-open" class="level1">
-<h1>Egypt are through and Group H is quite open</h1>
-<p>Egypt won 3-1, a result only Daniel got right. But the Rocket of the Round is Elin, who was alone in foreseeing Cabo Verde getting a point against Uruguay.</p>
-<p>Christian is 72 points ahead of Øyvind C.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-22-egypt-are-through/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-22-egypt-are-through/</guid>
-  <pubDate>Mon, 22 Jun 2026 07:33:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

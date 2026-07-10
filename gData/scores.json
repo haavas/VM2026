@@ -1,9 +1,9 @@
 {
   "players": {
     "Copy of World_cup_2026.TomC": {
-      "total": 2020,
+      "total": 2110,
       "max_possible": 4600,
-      "pct_of_max": 43.9,
+      "pct_of_max": 45.9,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -892,9 +892,9 @@
         ]
       },
       "knockout": {
-        "points": 1140,
-        "correct_spot": 28,
-        "correct_team": 40,
+        "points": 1230,
+        "correct_spot": 31,
+        "correct_team": 43,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -1096,10 +1096,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Turkey",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -1282,11 +1306,32 @@
             "cumulative": 1110
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
             "match_pts": 30,
             "cumulative": 1140
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1170
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1200
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1230
           }
         ]
       },
@@ -1301,9 +1346,9 @@
       "third_place": "Spain"
     },
     "Copy of World_cup_2026_Jacob": {
-      "total": 1730,
+      "total": 1820,
       "max_possible": 4600,
-      "pct_of_max": 37.6,
+      "pct_of_max": 39.6,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -2192,9 +2237,9 @@
         ]
       },
       "knockout": {
-        "points": 1080,
-        "correct_spot": 21,
-        "correct_team": 39,
+        "points": 1170,
+        "correct_spot": 24,
+        "correct_team": 42,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -2396,6 +2441,14 @@
             "correct_team": 1,
             "match_pts": 25
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "France vs Mexico",
@@ -2403,6 +2456,22 @@
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "Norway vs Spain",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -2582,11 +2651,32 @@
             "cumulative": 1055
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1115
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 25,
-            "cumulative": 1080
+            "cumulative": 1140
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1170
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 1170
           }
         ]
       },
@@ -2601,9 +2691,9 @@
       "third_place": "Norway"
     },
     "Copy of World_cup_2026_Jostein": {
-      "total": 1827,
+      "total": 1947,
       "max_possible": 4600,
-      "pct_of_max": 39.7,
+      "pct_of_max": 42.3,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -3492,9 +3582,9 @@
         ]
       },
       "knockout": {
-        "points": 1050,
-        "correct_spot": 25,
-        "correct_team": 37,
+        "points": 1170,
+        "correct_spot": 29,
+        "correct_team": 41,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -3696,10 +3786,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Senegal vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -3882,11 +3996,32 @@
             "cumulative": 1020
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1080
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1050
+            "cumulative": 1110
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1140
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1170
           }
         ]
       },
@@ -3901,9 +4036,9 @@
       "third_place": "France"
     },
     "Gates_World_cup_2026": {
-      "total": 2179,
+      "total": 2269,
       "max_possible": 4600,
-      "pct_of_max": 47.4,
+      "pct_of_max": 49.3,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -4792,9 +4927,9 @@
         ]
       },
       "knockout": {
-        "points": 1155,
-        "correct_spot": 31,
-        "correct_team": 40,
+        "points": 1245,
+        "correct_spot": 34,
+        "correct_team": 43,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -4996,10 +5131,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs United States",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -5182,11 +5341,32 @@
             "cumulative": 1125
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
             "match_pts": 30,
             "cumulative": 1155
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1185
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1215
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1245
           }
         ]
       },
@@ -5201,9 +5381,9 @@
       "third_place": "Spain"
     },
     "IWB_World_cup_2026": {
-      "total": 2107,
+      "total": 2227,
       "max_possible": 4600,
-      "pct_of_max": 45.8,
+      "pct_of_max": 48.4,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -6092,9 +6272,9 @@
         ]
       },
       "knockout": {
-        "points": 1160,
-        "correct_spot": 32,
-        "correct_team": 40,
+        "points": 1280,
+        "correct_spot": 36,
+        "correct_team": 44,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -6296,10 +6476,34 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Norway vs Croatia",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Colombia",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -6482,11 +6686,32 @@
             "cumulative": 1130
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1190
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1160
+            "cumulative": 1220
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1250
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1280
           }
         ]
       },
@@ -6501,9 +6726,9 @@
       "third_place": "Spain"
     },
     "Jan_Erling_World_cup_2026": {
-      "total": 1993,
+      "total": 2113,
       "max_possible": 4600,
-      "pct_of_max": 43.3,
+      "pct_of_max": 45.9,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -7392,9 +7617,9 @@
         ]
       },
       "knockout": {
-        "points": 1045,
-        "correct_spot": 29,
-        "correct_team": 36,
+        "points": 1165,
+        "correct_spot": 33,
+        "correct_team": 40,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -7596,10 +7821,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Algeria",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -7782,11 +8031,32 @@
             "cumulative": 1015
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1075
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1045
+            "cumulative": 1105
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1135
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1165
           }
         ]
       },
@@ -7801,9 +8071,9 @@
       "third_place": "Spain"
     },
     "Kolltveit-World_cup_2026": {
-      "total": 1975,
+      "total": 2065,
       "max_possible": 4600,
-      "pct_of_max": 42.9,
+      "pct_of_max": 44.9,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -8692,9 +8962,9 @@
         ]
       },
       "knockout": {
-        "points": 1120,
-        "correct_spot": 29,
-        "correct_team": 39,
+        "points": 1210,
+        "correct_spot": 32,
+        "correct_team": 42,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -8896,10 +9166,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Ivory Coast",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -9082,11 +9376,32 @@
             "cumulative": 1090
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
             "match_pts": 30,
             "cumulative": 1120
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1150
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1180
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1210
           }
         ]
       },
@@ -9101,9 +9416,9 @@
       "third_place": "Spain"
     },
     "Kopi av World_cup_2026-Elin Arntzen": {
-      "total": 2106,
+      "total": 2196,
       "max_possible": 4600,
-      "pct_of_max": 45.8,
+      "pct_of_max": 47.7,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -9992,9 +10307,9 @@
         ]
       },
       "knockout": {
-        "points": 1150,
-        "correct_spot": 25,
-        "correct_team": 41,
+        "points": 1240,
+        "correct_spot": 28,
+        "correct_team": 44,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -10196,6 +10511,14 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs United States",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Morocco vs England",
@@ -10203,6 +10526,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -10382,11 +10721,32 @@
             "cumulative": 1095
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1125
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 55,
-            "cumulative": 1150
+            "cumulative": 1180
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1210
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1240
           }
         ]
       },
@@ -10401,9 +10761,9 @@
       "third_place": "France"
     },
     "Kopi av World_cup_2026_jh": {
-      "total": 1882,
+      "total": 1972,
       "max_possible": 4600,
-      "pct_of_max": 40.9,
+      "pct_of_max": 42.9,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -11292,9 +11652,9 @@
         ]
       },
       "knockout": {
-        "points": 1065,
-        "correct_spot": 28,
-        "correct_team": 37,
+        "points": 1155,
+        "correct_spot": 31,
+        "correct_team": 40,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -11496,6 +11856,14 @@
             "correct_team": 0,
             "match_pts": 0
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Norway vs Ivory Coast",
@@ -11503,6 +11871,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Uruguay vs Switzerland",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "Germany vs Spain",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -11682,11 +12066,32 @@
             "cumulative": 1035
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1095
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1065
+            "cumulative": 1125
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1155
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 1155
           }
         ]
       },
@@ -11701,9 +12106,9 @@
       "third_place": "Spain"
     },
     "Maiken world_cup_2026": {
-      "total": 2188,
+      "total": 2308,
       "max_possible": 4600,
-      "pct_of_max": 47.6,
+      "pct_of_max": 50.2,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -12592,9 +12997,9 @@
         ]
       },
       "knockout": {
-        "points": 1190,
-        "correct_spot": 33,
-        "correct_team": 41,
+        "points": 1310,
+        "correct_spot": 37,
+        "correct_team": 45,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -12796,10 +13201,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -12982,11 +13411,32 @@
             "cumulative": 1160
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1220
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1190
+            "cumulative": 1250
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1280
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1310
           }
         ]
       },
@@ -13001,9 +13451,9 @@
       "third_place": "Spain"
     },
     "Sandven_World_cup_2026": {
-      "total": 2201,
+      "total": 2321,
       "max_possible": 4600,
-      "pct_of_max": 47.8,
+      "pct_of_max": 50.5,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -13892,9 +14342,9 @@
         ]
       },
       "knockout": {
-        "points": 1175,
-        "correct_spot": 30,
-        "correct_team": 41,
+        "points": 1295,
+        "correct_spot": 34,
+        "correct_team": 45,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -14096,10 +14546,34 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Netherlands vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -14282,11 +14756,32 @@
             "cumulative": 1145
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1205
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1175
+            "cumulative": 1235
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1265
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1295
           }
         ]
       },
@@ -14301,9 +14796,9 @@
       "third_place": "France"
     },
     "Tone Vevatne - World Cup Competition 2026": {
-      "total": 2005,
+      "total": 2155,
       "max_possible": 4600,
-      "pct_of_max": 43.6,
+      "pct_of_max": 46.8,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -15192,9 +15687,9 @@
         ]
       },
       "knockout": {
-        "points": 1120,
-        "correct_spot": 29,
-        "correct_team": 39,
+        "points": 1270,
+        "correct_spot": 34,
+        "correct_team": 44,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -15396,10 +15891,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Switzerland",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -15582,11 +16101,32 @@
             "cumulative": 1090
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1150
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1120
+            "cumulative": 1180
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1240
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1270
           }
         ]
       },
@@ -15601,9 +16141,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026 (Kuyper)": {
-      "total": 1940,
+      "total": 2030,
       "max_possible": 4600,
-      "pct_of_max": 42.2,
+      "pct_of_max": 44.1,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -16492,9 +17032,9 @@
         ]
       },
       "knockout": {
-        "points": 1125,
-        "correct_spot": 25,
-        "correct_team": 40,
+        "points": 1215,
+        "correct_spot": 28,
+        "correct_team": 43,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -16696,10 +17236,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Colombia vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Belgium",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -16882,11 +17446,32 @@
             "cumulative": 1095
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
             "match_pts": 30,
             "cumulative": 1125
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1155
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1185
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1215
           }
         ]
       },
@@ -16901,9 +17486,9 @@
       "third_place": "Portugal"
     },
     "World_cup_2026.gulli": {
-      "total": 2061,
+      "total": 2151,
       "max_possible": 4600,
-      "pct_of_max": 44.8,
+      "pct_of_max": 46.8,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -17792,9 +18377,9 @@
         ]
       },
       "knockout": {
-        "points": 1175,
-        "correct_spot": 30,
-        "correct_team": 41,
+        "points": 1265,
+        "correct_spot": 33,
+        "correct_team": 44,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -17996,10 +18581,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs United States",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -18182,11 +18791,32 @@
             "cumulative": 1145
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
             "match_pts": 30,
             "cumulative": 1175
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1205
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1235
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1265
           }
         ]
       },
@@ -18201,9 +18831,9 @@
       "third_place": "Argentina"
     },
     "World_cup_2026_aase": {
-      "total": 2116,
+      "total": 2206,
       "max_possible": 4600,
-      "pct_of_max": 46.0,
+      "pct_of_max": 48.0,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -19092,9 +19722,9 @@
         ]
       },
       "knockout": {
-        "points": 1160,
-        "correct_spot": 27,
-        "correct_team": 41,
+        "points": 1250,
+        "correct_spot": 30,
+        "correct_team": 44,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -19296,6 +19926,14 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs South Africa",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Norway vs England",
@@ -19303,6 +19941,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -19482,11 +20136,32 @@
             "cumulative": 1100
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1130
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 60,
-            "cumulative": 1160
+            "cumulative": 1190
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1220
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1250
           }
         ]
       },
@@ -19501,9 +20176,9 @@
       "third_place": "France"
     },
     "World_cup_2026_anna": {
-      "total": 1891,
+      "total": 2011,
       "max_possible": 4600,
-      "pct_of_max": 41.1,
+      "pct_of_max": 43.7,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -20392,9 +21067,9 @@
         ]
       },
       "knockout": {
-        "points": 1060,
-        "correct_spot": 27,
-        "correct_team": 37,
+        "points": 1180,
+        "correct_spot": 31,
+        "correct_team": 41,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -20596,10 +21271,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Senegal vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -20782,11 +21481,32 @@
             "cumulative": 1030
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1090
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1060
+            "cumulative": 1120
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1150
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1180
           }
         ]
       },
@@ -20801,9 +21521,9 @@
       "third_place": "England"
     },
     "World_cup_2026_Bjørn_F": {
-      "total": 2120,
+      "total": 2240,
       "max_possible": 4600,
-      "pct_of_max": 46.1,
+      "pct_of_max": 48.7,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -21692,9 +22412,9 @@
         ]
       },
       "knockout": {
-        "points": 1200,
-        "correct_spot": 30,
-        "correct_team": 42,
+        "points": 1320,
+        "correct_spot": 34,
+        "correct_team": 46,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -21896,6 +22616,14 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Norway vs England",
@@ -21903,6 +22631,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -22082,11 +22826,32 @@
             "cumulative": 1140
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
             "match_pts": 60,
             "cumulative": 1200
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1260
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1290
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1320
           }
         ]
       },
@@ -22101,9 +22866,9 @@
       "third_place": "France"
     },
     "World_cup_2026_CL": {
-      "total": 2299,
+      "total": 2359,
       "max_possible": 4600,
-      "pct_of_max": 50.0,
+      "pct_of_max": 51.3,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -22992,9 +23757,9 @@
         ]
       },
       "knockout": {
-        "points": 1245,
-        "correct_spot": 29,
-        "correct_team": 44,
+        "points": 1305,
+        "correct_spot": 31,
+        "correct_team": 46,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -23196,6 +23961,14 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Egypt",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Morocco vs England",
@@ -23203,6 +23976,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "Brazil vs Spain",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -23382,11 +24171,32 @@
             "cumulative": 1190
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1220
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 55,
-            "cumulative": 1245
+            "cumulative": 1275
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1305
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 1305
           }
         ]
       },
@@ -23401,9 +24211,9 @@
       "third_place": "Brazil"
     },
     "World_cup_2026_Dagfinn": {
-      "total": 1869,
+      "total": 1959,
       "max_possible": 4600,
-      "pct_of_max": 40.6,
+      "pct_of_max": 42.6,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -24292,9 +25102,9 @@
         ]
       },
       "knockout": {
-        "points": 1055,
-        "correct_spot": 21,
-        "correct_team": 38,
+        "points": 1145,
+        "correct_spot": 24,
+        "correct_team": 41,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -24496,6 +25306,14 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Korea Republic",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs Norway",
@@ -24503,6 +25321,22 @@
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -24682,11 +25516,32 @@
             "cumulative": 1030
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1060
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 25,
-            "cumulative": 1055
+            "cumulative": 1085
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1115
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1145
           }
         ]
       },
@@ -24701,9 +25556,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Daniel_Naurin": {
-      "total": 2106,
+      "total": 2226,
       "max_possible": 4600,
-      "pct_of_max": 45.8,
+      "pct_of_max": 48.4,
       "questions": {
         "points": 60,
         "correct": 2,
@@ -25592,9 +26447,9 @@
         ]
       },
       "knockout": {
-        "points": 1180,
-        "correct_spot": 31,
-        "correct_team": 41,
+        "points": 1300,
+        "correct_spot": 35,
+        "correct_team": 45,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -25796,10 +26651,34 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Ecuador vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -25982,11 +26861,32 @@
             "cumulative": 1150
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1210
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1180
+            "cumulative": 1240
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1270
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1300
           }
         ]
       },
@@ -26001,9 +26901,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_gabriel": {
-      "total": 2044,
+      "total": 2164,
       "max_possible": 4600,
-      "pct_of_max": 44.4,
+      "pct_of_max": 47.0,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -26892,9 +27792,9 @@
         ]
       },
       "knockout": {
-        "points": 1175,
-        "correct_spot": 30,
-        "correct_team": 41,
+        "points": 1295,
+        "correct_spot": 34,
+        "correct_team": 45,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -27096,10 +27996,34 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -27282,11 +28206,32 @@
             "cumulative": 1145
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1205
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1175
+            "cumulative": 1235
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1265
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1295
           }
         ]
       },
@@ -27301,9 +28246,9 @@
       "third_place": "France"
     },
     "World_cup_2026_goldstein": {
-      "total": 2147,
+      "total": 2237,
       "max_possible": 4600,
-      "pct_of_max": 46.7,
+      "pct_of_max": 48.6,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -28192,9 +29137,9 @@
         ]
       },
       "knockout": {
-        "points": 1185,
-        "correct_spot": 32,
-        "correct_team": 41,
+        "points": 1275,
+        "correct_spot": 35,
+        "correct_team": 44,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -28396,10 +29341,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs United States",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -28582,11 +29551,32 @@
             "cumulative": 1155
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
             "match_pts": 30,
             "cumulative": 1185
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1215
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1245
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1275
           }
         ]
       },
@@ -28601,9 +29591,9 @@
       "third_place": "France"
     },
     "world_cup_2026_hs": {
-      "total": 2095,
+      "total": 2215,
       "max_possible": 4600,
-      "pct_of_max": 45.5,
+      "pct_of_max": 48.2,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -29492,9 +30482,9 @@
         ]
       },
       "knockout": {
-        "points": 1155,
-        "correct_spot": 31,
-        "correct_team": 40,
+        "points": 1275,
+        "correct_spot": 35,
+        "correct_team": 44,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -29696,10 +30686,34 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -29882,11 +30896,32 @@
             "cumulative": 1125
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1185
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1155
+            "cumulative": 1215
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1245
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1275
           }
         ]
       },
@@ -29901,9 +30936,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Jana Blahak": {
-      "total": 2078,
+      "total": 2163,
       "max_possible": 4600,
-      "pct_of_max": 45.2,
+      "pct_of_max": 47.0,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -30792,9 +31827,9 @@
         ]
       },
       "knockout": {
-        "points": 1130,
-        "correct_spot": 31,
-        "correct_team": 39,
+        "points": 1215,
+        "correct_spot": 33,
+        "correct_team": 42,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -30996,10 +32031,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Uruguay vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Norway vs Mexico",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Ghana",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 0,
+            "correct_team": 1,
+            "match_pts": 25
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Uruguay",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -31182,11 +32241,32 @@
             "cumulative": 1100
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
             "match_pts": 30,
             "cumulative": 1130
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1160
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 25,
+            "cumulative": 1185
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1215
           }
         ]
       },
@@ -31201,9 +32281,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_javier": {
-      "total": 1956,
+      "total": 2076,
       "max_possible": 4600,
-      "pct_of_max": 42.5,
+      "pct_of_max": 45.1,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -32092,9 +33172,9 @@
         ]
       },
       "knockout": {
-        "points": 1190,
-        "correct_spot": 28,
-        "correct_team": 42,
+        "points": 1310,
+        "correct_spot": 32,
+        "correct_team": 46,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -32296,10 +33376,34 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -32482,11 +33586,32 @@
             "cumulative": 1160
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1220
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1190
+            "cumulative": 1250
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1280
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1310
           }
         ]
       },
@@ -32501,9 +33626,9 @@
       "third_place": "France"
     },
     "World_cup_2026_JonasSchmid": {
-      "total": 2058,
+      "total": 2178,
       "max_possible": 4600,
-      "pct_of_max": 44.7,
+      "pct_of_max": 47.3,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -33392,9 +34517,9 @@
         ]
       },
       "knockout": {
-        "points": 1155,
-        "correct_spot": 31,
-        "correct_team": 40,
+        "points": 1275,
+        "correct_spot": 35,
+        "correct_team": 44,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -33596,10 +34721,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -33782,11 +34931,32 @@
             "cumulative": 1125
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1185
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1155
+            "cumulative": 1215
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1245
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1275
           }
         ]
       },
@@ -33801,9 +34971,9 @@
       "third_place": "France"
     },
     "World_cup_2026_Karin": {
-      "total": 2044,
+      "total": 2164,
       "max_possible": 4600,
-      "pct_of_max": 44.4,
+      "pct_of_max": 47.0,
       "questions": {
         "points": 90,
         "correct": 3,
@@ -34692,9 +35862,9 @@
         ]
       },
       "knockout": {
-        "points": 1125,
-        "correct_spot": 25,
-        "correct_team": 40,
+        "points": 1245,
+        "correct_spot": 29,
+        "correct_team": 44,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -34896,6 +36066,14 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Norway vs England",
@@ -34903,6 +36081,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -35082,11 +36276,32 @@
             "cumulative": 1065
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
             "match_pts": 60,
             "cumulative": 1125
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1185
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1215
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1245
           }
         ]
       },
@@ -35101,9 +36316,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_lutscher": {
-      "total": 2140,
+      "total": 2290,
       "max_possible": 4600,
-      "pct_of_max": 46.5,
+      "pct_of_max": 49.8,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -35992,9 +37207,9 @@
         ]
       },
       "knockout": {
-        "points": 1145,
-        "correct_spot": 29,
-        "correct_team": 40,
+        "points": 1295,
+        "correct_spot": 34,
+        "correct_team": 45,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -36196,10 +37411,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Switzerland",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -36382,11 +37621,32 @@
             "cumulative": 1115
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1175
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1145
+            "cumulative": 1205
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1265
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1295
           }
         ]
       },
@@ -36401,9 +37661,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Martin_S": {
-      "total": 1701,
+      "total": 1761,
       "max_possible": 4600,
-      "pct_of_max": 37.0,
+      "pct_of_max": 38.3,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -37292,9 +38552,9 @@
         ]
       },
       "knockout": {
-        "points": 1025,
-        "correct_spot": 15,
-        "correct_team": 38,
+        "points": 1085,
+        "correct_spot": 17,
+        "correct_team": 40,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -37496,6 +38756,14 @@
             "correct_team": 1,
             "match_pts": 25
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Turkey",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "France vs England",
@@ -37503,6 +38771,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "Norway vs Spain",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -37682,11 +38966,32 @@
             "cumulative": 970
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1000
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 55,
-            "cumulative": 1025
+            "cumulative": 1055
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1085
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 1085
           }
         ]
       },
@@ -37701,9 +39006,9 @@
       "third_place": "Norway"
     },
     "World_cup_2026_MIRO": {
-      "total": 2154,
+      "total": 2274,
       "max_possible": 4600,
-      "pct_of_max": 46.8,
+      "pct_of_max": 49.4,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -38592,9 +39897,9 @@
         ]
       },
       "knockout": {
-        "points": 1195,
-        "correct_spot": 34,
-        "correct_team": 41,
+        "points": 1315,
+        "correct_spot": 38,
+        "correct_team": 45,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -38796,6 +40101,14 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Norway vs England",
@@ -38803,6 +40116,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -38982,11 +40311,32 @@
             "cumulative": 1135
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
             "match_pts": 60,
             "cumulative": 1195
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1255
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1285
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1315
           }
         ]
       },
@@ -39001,9 +40351,9 @@
       "third_place": "France"
     },
     "world_cup_2026_oyvind": {
-      "total": 2014,
+      "total": 2074,
       "max_possible": 4600,
-      "pct_of_max": 43.8,
+      "pct_of_max": 45.1,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -39892,9 +41242,9 @@
         ]
       },
       "knockout": {
-        "points": 1110,
-        "correct_spot": 27,
-        "correct_team": 39,
+        "points": 1170,
+        "correct_spot": 29,
+        "correct_team": 41,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -40096,6 +41446,14 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Japan vs England",
@@ -40103,6 +41461,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Turkey vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "Netherlands vs Spain",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -40282,11 +41656,32 @@
             "cumulative": 1080
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1140
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1110
+            "cumulative": 1170
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 0,
+            "cumulative": 1170
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 1170
           }
         ]
       },
@@ -40301,9 +41696,9 @@
       "third_place": "Netherlands"
     },
     "World_cup_2026_Povitkina": {
-      "total": 1520,
+      "total": 1580,
       "max_possible": 4600,
-      "pct_of_max": 33.0,
+      "pct_of_max": 34.3,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -41192,9 +42587,9 @@
         ]
       },
       "knockout": {
-        "points": 920,
-        "correct_spot": 19,
-        "correct_team": 33,
+        "points": 980,
+        "correct_spot": 21,
+        "correct_team": 35,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -41396,10 +42791,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs Czech Republic",
             "actual": "Norway vs England",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Egypt vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "Netherlands vs Spain",
+            "actual": "France vs None",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -41582,11 +43001,32 @@
             "cumulative": 920
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 980
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 0,
-            "cumulative": 920
+            "cumulative": 980
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 0,
+            "cumulative": 980
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 980
           }
         ]
       },
@@ -41601,9 +43041,9 @@
       "third_place": "Brazil"
     },
     "World_cup_2026_stiansen": {
-      "total": 1909,
+      "total": 2029,
       "max_possible": 4600,
-      "pct_of_max": 41.5,
+      "pct_of_max": 44.1,
       "questions": {
         "points": 0,
         "correct": 0,
@@ -42411,9 +43851,9 @@
         ]
       },
       "knockout": {
-        "points": 1170,
-        "correct_spot": 29,
-        "correct_team": 41,
+        "points": 1290,
+        "correct_spot": 33,
+        "correct_team": 45,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -42615,10 +44055,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Portugal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -42801,11 +44265,32 @@
             "cumulative": 1140
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1200
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 30,
-            "cumulative": 1170
+            "cumulative": 1230
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1260
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1290
           }
         ]
       },
@@ -42820,9 +44305,9 @@
       "third_place": "France"
     },
     "World_cup_2026_StineHesstvedt_1106": {
-      "total": 2200,
+      "total": 2320,
       "max_possible": 4600,
-      "pct_of_max": 47.8,
+      "pct_of_max": 50.4,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -43711,9 +45196,9 @@
         ]
       },
       "knockout": {
-        "points": 1195,
-        "correct_spot": 29,
-        "correct_team": 42,
+        "points": 1315,
+        "correct_spot": 33,
+        "correct_team": 46,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -43915,10 +45400,34 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Egypt",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs England",
             "actual": "Norway vs England",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Switzerland",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -44101,11 +45610,32 @@
             "cumulative": 1165
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
             "match_pts": 30,
             "cumulative": 1195
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1225
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1285
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1315
           }
         ]
       },
@@ -44120,9 +45650,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Vilde Hernes": {
-      "total": 1903,
+      "total": 2023,
       "max_possible": 4600,
-      "pct_of_max": 41.4,
+      "pct_of_max": 44.0,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -45011,9 +46541,9 @@
         ]
       },
       "knockout": {
-        "points": 1060,
-        "correct_spot": 22,
-        "correct_team": 38,
+        "points": 1180,
+        "correct_spot": 26,
+        "correct_team": 42,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -45215,6 +46745,14 @@
             "correct_team": 1,
             "match_pts": 30
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Belgium",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Brazil vs Croatia",
@@ -45222,6 +46760,22 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Algeria",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -45401,11 +46955,32 @@
             "cumulative": 1060
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 60,
+            "cumulative": 1120
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 0,
-            "cumulative": 1060
+            "cumulative": 1120
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1150
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1180
           }
         ]
       },
@@ -45420,9 +46995,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_ØB": {
-      "total": 1887,
+      "total": 1977,
       "max_possible": 4600,
-      "pct_of_max": 41.0,
+      "pct_of_max": 43.0,
       "questions": {
         "points": 120,
         "correct": 4,
@@ -46311,9 +47886,9 @@
         ]
       },
       "knockout": {
-        "points": 1120,
-        "correct_spot": 24,
-        "correct_team": 40,
+        "points": 1210,
+        "correct_spot": 27,
+        "correct_team": 43,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -46515,6 +48090,14 @@
             "correct_team": 2,
             "match_pts": 60
           },
+          "98": {
+            "stage": "Quarterfinals",
+            "pred": "Spain vs Egypt",
+            "actual": "Spain vs Belgium",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
           "99": {
             "stage": "Quarterfinals",
             "pred": "Norway vs England",
@@ -46522,6 +48105,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "100": {
+            "stage": "Quarterfinals",
+            "pred": "Argentina vs Senegal",
+            "actual": "Argentina vs Switzerland",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "101": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Spain",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -46701,11 +48300,32 @@
             "cumulative": 1060
           },
           {
-            "match": 99,
+            "match": 98,
             "play_order": 98,
             "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1090
+          },
+          {
+            "match": 99,
+            "play_order": 99,
+            "stage": "Quarterfinals",
             "match_pts": 60,
-            "cumulative": 1120
+            "cumulative": 1150
+          },
+          {
+            "match": 100,
+            "play_order": 100,
+            "stage": "Quarterfinals",
+            "match_pts": 30,
+            "cumulative": 1180
+          },
+          {
+            "match": 101,
+            "play_order": 101,
+            "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1210
           }
         ]
       },

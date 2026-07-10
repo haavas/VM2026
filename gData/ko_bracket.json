@@ -36,11 +36,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 4,
+        "correct_spot": 4,
+        "pts": 120,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "JN": {
@@ -59,11 +66,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
+        "correct_team": 5,
+        "correct_spot": 3,
+        "pts": 140,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 0,
         "correct_spot": 0,
-        "pts": 50,
-        "max_pts": 120,
-        "n_slots": 4
+        "pts": 0,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "JA": {
@@ -82,11 +96,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 5,
+        "correct_spot": 5,
+        "pts": 150,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "SG": {
@@ -105,11 +126,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 4,
+        "correct_spot": 4,
+        "pts": 120,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "IWB": {
@@ -128,11 +156,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 3,
-        "correct_spot": 3,
-        "pts": 90,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 6,
+        "correct_spot": 6,
+        "pts": 180,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "JEK": {
@@ -151,11 +186,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 5,
+        "correct_spot": 5,
+        "pts": 150,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "KK": {
@@ -174,11 +216,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 4,
+        "correct_spot": 4,
+        "pts": 120,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "EA": {
@@ -197,11 +246,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 3,
-        "correct_spot": 2,
-        "pts": 85,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 5,
+        "correct_spot": 4,
+        "pts": 145,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "JH": {
@@ -220,11 +276,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 1,
-        "correct_spot": 1,
-        "pts": 30,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 4,
+        "correct_spot": 4,
+        "pts": 120,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 0,
+        "correct_spot": 0,
+        "pts": 0,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "MR": {
@@ -243,11 +306,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 5,
+        "correct_spot": 5,
+        "pts": 150,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "HHS": {
@@ -266,11 +336,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 3,
-        "correct_spot": 3,
-        "pts": 90,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 6,
+        "correct_spot": 6,
+        "pts": 180,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "TV": {
@@ -289,11 +366,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 6,
+        "correct_spot": 6,
+        "pts": 180,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "JK": {
@@ -312,11 +396,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 4,
+        "correct_spot": 4,
+        "pts": 120,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "LG": {
@@ -335,11 +426,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 4,
+        "correct_spot": 4,
+        "pts": 120,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "ÅG": {
@@ -358,11 +456,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 3,
-        "correct_spot": 3,
-        "pts": 90,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 5,
+        "correct_spot": 5,
+        "pts": 150,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "AH": {
@@ -381,11 +486,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 5,
+        "correct_spot": 5,
+        "pts": 150,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "BF": {
@@ -404,11 +516,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 4,
-        "correct_spot": 4,
-        "pts": 120,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 7,
+        "correct_spot": 7,
+        "pts": 210,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "CL": {
@@ -427,11 +546,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 3,
-        "correct_spot": 2,
-        "pts": 85,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 5,
+        "correct_spot": 4,
+        "pts": 145,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 0,
+        "correct_spot": 0,
+        "pts": 0,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "DH": {
@@ -450,11 +576,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
+        "correct_team": 4,
+        "correct_spot": 3,
+        "pts": 115,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
         "correct_spot": 1,
-        "pts": 55,
-        "max_pts": 120,
-        "n_slots": 4
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "DN": {
@@ -473,11 +606,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 3,
-        "correct_spot": 3,
-        "pts": 90,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 6,
+        "correct_spot": 6,
+        "pts": 180,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "GL": {
@@ -496,11 +636,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 3,
-        "correct_spot": 3,
-        "pts": 90,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 6,
+        "correct_spot": 6,
+        "pts": 180,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "DG": {
@@ -519,11 +666,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 4,
+        "correct_spot": 4,
+        "pts": 120,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "HS": {
@@ -542,11 +696,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 3,
-        "correct_spot": 3,
-        "pts": 90,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 6,
+        "correct_spot": 6,
+        "pts": 180,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "JB": {
@@ -565,11 +726,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 4,
+        "correct_spot": 3,
+        "pts": 115,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "JP": {
@@ -588,11 +756,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 3,
-        "correct_spot": 3,
-        "pts": 90,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 6,
+        "correct_spot": 6,
+        "pts": 180,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "JS": {
@@ -611,11 +786,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 5,
+        "correct_spot": 5,
+        "pts": 150,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "KD": {
@@ -634,11 +816,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 3,
-        "correct_spot": 3,
-        "pts": 90,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 6,
+        "correct_spot": 6,
+        "pts": 180,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "PL": {
@@ -657,11 +846,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 6,
+        "correct_spot": 6,
+        "pts": 180,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "MS": {
@@ -680,11 +876,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 3,
-        "correct_spot": 1,
-        "pts": 80,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 5,
+        "correct_spot": 3,
+        "pts": 140,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 0,
+        "correct_spot": 0,
+        "pts": 0,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "MN": {
@@ -703,11 +906,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 3,
-        "correct_spot": 3,
-        "pts": 90,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 6,
+        "correct_spot": 6,
+        "pts": 180,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "ØC": {
@@ -726,11 +936,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 4,
+        "correct_spot": 4,
+        "pts": 120,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 0,
+        "correct_spot": 0,
+        "pts": 0,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "MP": {
@@ -749,11 +966,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 1,
-        "correct_spot": 1,
-        "pts": 30,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 3,
+        "correct_spot": 3,
+        "pts": 90,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 0,
+        "correct_spot": 0,
+        "pts": 0,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "ØS": {
@@ -772,11 +996,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 5,
+        "correct_spot": 5,
+        "pts": 150,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "SH": {
@@ -795,11 +1026,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 2,
-        "correct_spot": 2,
-        "pts": 60,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 5,
+        "correct_spot": 5,
+        "pts": 150,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "VH": {
@@ -818,11 +1056,18 @@
         "n_slots": 16
       },
       "qf": {
+        "correct_team": 4,
+        "correct_spot": 4,
+        "pts": 120,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
         "correct_team": 1,
         "correct_spot": 1,
         "pts": 30,
-        "max_pts": 120,
-        "n_slots": 4
+        "max_pts": 60,
+        "n_slots": 2
       }
     },
     "ØB": {
@@ -841,11 +1086,18 @@
         "n_slots": 16
       },
       "qf": {
-        "correct_team": 4,
-        "correct_spot": 4,
-        "pts": 120,
-        "max_pts": 120,
-        "n_slots": 4
+        "correct_team": 6,
+        "correct_spot": 6,
+        "pts": 180,
+        "max_pts": 240,
+        "n_slots": 8
+      },
+      "sf": {
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
+        "max_pts": 60,
+        "n_slots": 2
       }
     }
   }
