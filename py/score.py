@@ -372,7 +372,6 @@ def score_knockout(player_ko, result_ko) -> dict:
 
     # Build result index — by match number when available, always by stage
     results_by_match = {}
-    result_teams_by_stage = {}
     result_pairs_by_stage = {}   # stage → [(t1,t2), ...] for spot checking
 
     for m in result_ko:
@@ -380,15 +379,13 @@ def score_knockout(player_ko, result_ko) -> dict:
         if mn:
             results_by_match[mn] = m
         s = m.get("stage", "")
-        result_teams_by_stage.setdefault(s, set())
         result_pairs_by_stage.setdefault(s, [])
-        if m.get("team1"): result_teams_by_stage[s].add(m["team1"])
-        if m.get("team2"): result_teams_by_stage[s].add(m["team2"])
         result_pairs_by_stage[s].append((m.get("team1"), m.get("team2")))
 
     # Build prediction index
     pred_by_match = {}
     pred_pairs_by_stage = {}   # stage → [(t1,t2), ...]
+    pred_teams_by_stage = {}   # stage → set of all teams predicted in stage
     for m in player_ko:
         mn = _mn(m)
         if mn:
@@ -396,6 +393,9 @@ def score_knockout(player_ko, result_ko) -> dict:
         s = m.get("stage", "")
         pred_pairs_by_stage.setdefault(s, [])
         pred_pairs_by_stage[s].append((m.get("team1"), m.get("team2")))
+        pred_teams_by_stage.setdefault(s, set())
+        if m.get("team1"): pred_teams_by_stage[s].add(m["team1"])
+        if m.get("team2"): pred_teams_by_stage[s].add(m["team2"])
 
     correct_spot = 0
     correct_team = 0
@@ -419,20 +419,22 @@ def score_knockout(player_ko, result_ko) -> dict:
     for mn, r, p in scored_items:
         stage = r.get("stage", "")
 
-        if p is None:
-            running.append({"match": mn, "play_order": r.get("play_order", mn), "stage": stage, "cumulative": cumulative})
-            continue
-
         r_t1, r_t2 = r.get("team1"), r.get("team2")
-        p_t1, p_t2 = p.get("team1"), p.get("team2")
+        p_t1 = p.get("team1") if p else None
+        p_t2 = p.get("team2") if p else None
 
         spot1 = int(bool(p_t1 and p_t1 == r_t1))
         spot2 = int(bool(p_t2 and p_t2 == r_t2))
         spots = spot1 + spot2
 
-        in_stage = result_teams_by_stage.get(stage, set())
-        team1_ok = int(bool(p_t1 and p_t1 in in_stage))
-        team2_ok = int(bool(p_t2 and p_t2 in in_stage))
+        # Team credit is stage-wide: each confirmed team in this match earns
+        # points if the player predicted it anywhere in the stage, even in a
+        # different match slot. Crediting confirmed (not predicted) teams also
+        # scores correctly while a stage is only partially known — e.g. one
+        # semi-finalist decided, the player placed it in the other semi-final.
+        predicted_in_stage = pred_teams_by_stage.get(stage, set())
+        team1_ok = int(bool(r_t1 and r_t1 in predicted_in_stage))
+        team2_ok = int(bool(r_t2 and r_t2 in predicted_in_stage))
         teams    = team1_ok + team2_ok
 
         correct_spot += spots
@@ -443,7 +445,7 @@ def score_knockout(player_ko, result_ko) -> dict:
 
         detail[mn or f"{stage}_{r_t1}"] = {
             "stage":        stage,
-            "pred":         f"{p_t1} vs {p_t2}",
+            "pred":         f"{p_t1} vs {p_t2}" if p else "—",
             "actual":       f"{r_t1} vs {r_t2}",
             "correct_spot": spots,
             "correct_team": teams,

@@ -26,9 +26,12 @@ Christian remain in the lead, but Hallvard, Stine and Maiken are very close behi
 knitr::include_graphics("standings_stacked.png")
 ```
 The knockout table has changed a lot since the last update. Bjørn tops the leaderboard with a stunning 7 out of 8 correct for the Quarter finals. Miroslav is second with 6 of 8. Stine, Javier and Maiken are all ahead of Christian, which means that the standings can change quickly.
-```{r}
+```{r ko-bracket}
 #| fig.height: 7
+#| echo: false
+#| message: false
+#| warning: false
 source(here::here("R", "ko_bracket.R"))
-plot_ko_bracket() 
+plot_ko_bracket()
 
 ```
