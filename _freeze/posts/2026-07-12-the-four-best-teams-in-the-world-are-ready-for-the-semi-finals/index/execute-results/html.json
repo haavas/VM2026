@@ -1,0 +1,17 @@
+{
+  "hash": "a8fbbb9a2921a172f2e28da05d1f07f5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"The four best teams in the world are ready for the semi finals\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-07-12 21:42:00\"\ncategories: [Update]\n---\n\n# And Norway is out\n\nOh well. It was fun.  \n\n\n::: {.cell}\n\n:::\n\n\nChristian is 51 points ahead of Maiken and, 59 points ahead of Bjørn, 60 points ahead of Scott, with Hallvard, Stine and Ida right behind. \n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings_stacked.png)\n:::\n:::\n\n# A tremendous amount of points\n\nNorway's exit triggers the conclusion to several of the questions in the survey. Ida and Bjørn have 7 correct answers so far, while 6 players have 6 correct answers. There are 7 questions left.\n\n## How many goals did Haaland score?\n\nThe answer is seven. Ida, Vilde and Bjørn knew that.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/q_haaland-1.png){width=672}\n:::\n:::\n\n\n## Norway's top assister\n\nNo less than 20 of us had Ødegaard, so a lot of points were earned here.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/q_assist-1.png){width=672}\n:::\n:::\n\n\n## No penalties for Haaland\n\nJostein, Dagfinn, Jana, Jonas, Ida, Marina and myself had the correct answer out of the two possible. \n\n## VAR came and took away our goal\n\nNo less than 22 of us thought that VAR would do this, but perhaps not in the shape of the retake of a corner.\n\n## No red cards\n\n33 of us got this correct, which effectively changes very little.\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

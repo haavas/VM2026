@@ -7,13 +7,13 @@
     "seven_plus_red_cards": "Yes",
     "games_extra_time": null,
     "games_penalty_shootout": null,
-    "haaland_goals": null,
-    "norway_top_assister": null,
-    "haaland_open_play_penalty": null,
+    "haaland_goals": 7,
+    "norway_top_assister": "Martin Ødegaard",
+    "haaland_open_play_penalty": "No",
     "nusa_scores": "Yes",
-    "norway_var_disallowed": null,
+    "norway_var_disallowed": "Yes",
     "norway_or_sweden_out_first": "Sweden",
-    "norway_red_card": null,
+    "norway_red_card": "No",
     "best_team_of_listed": "New Zealand",
     "trump_trophy": null
   }

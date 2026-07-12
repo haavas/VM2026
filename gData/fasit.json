@@ -808,8 +808,8 @@
       "stage": "Quarterfinals",
       "team1": "Spain",
       "team2": "Belgium",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 2,
+      "team2_goals": 1,
       "play_order": 98
     },
     {
@@ -817,8 +817,8 @@
       "stage": "Quarterfinals",
       "team1": "Norway",
       "team2": "England",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 1,
+      "team2_goals": 1,
       "play_order": 99
     },
     {
@@ -826,18 +826,27 @@
       "stage": "Quarterfinals",
       "team1": "Argentina",
       "team2": "Switzerland",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 1,
+      "team2_goals": 1,
       "play_order": 100
     },
     {
       "match": 101,
       "stage": "Semi-Finals",
       "team1": "France",
-      "team2": null,
+      "team2": "Spain",
       "team1_goals": null,
       "team2_goals": null,
       "play_order": 101
+    },
+    {
+      "match": 102,
+      "stage": "Semi-Finals",
+      "team1": "England",
+      "team2": "Argentina",
+      "team1_goals": null,
+      "team2_goals": null,
+      "play_order": 102
     }
   ],
   "world_champion": null,

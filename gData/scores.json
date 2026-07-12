@@ -1,12 +1,12 @@
 {
   "players": {
     "Copy of World_cup_2026.TomC": {
-      "total": 2110,
+      "total": 2200,
       "max_possible": 4600,
-      "pct_of_max": 45.9,
+      "pct_of_max": 47.8,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 180,
+        "correct": 6,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -45,17 +45,17 @@
           },
           "haaland_goals": {
             "predicted": 4,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Julian Ryerson",
-            "actual": null,
+            "actual": "Martin Ødegaard",
             "correct": false
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -65,8 +65,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -75,8 +75,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "Haiti",
@@ -892,9 +892,9 @@
         ]
       },
       "knockout": {
-        "points": 1230,
-        "correct_spot": 31,
-        "correct_team": 43,
+        "points": 1260,
+        "correct_spot": 32,
+        "correct_team": 44,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -1123,10 +1123,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Brazil vs Portugal",
+            "actual": "England vs Argentina",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -1330,8 +1338,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1230
+            "match_pts": 60,
+            "cumulative": 1260
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 1260
           }
         ]
       },
@@ -1346,12 +1361,12 @@
       "third_place": "Spain"
     },
     "Copy of World_cup_2026_Jacob": {
-      "total": 1820,
+      "total": 1995,
       "max_possible": 4600,
-      "pct_of_max": 39.6,
+      "pct_of_max": 43.4,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -1390,17 +1405,17 @@
           },
           "haaland_goals": {
             "predicted": 6,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -1410,8 +1425,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -1420,8 +1435,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -2237,9 +2252,9 @@
         ]
       },
       "knockout": {
-        "points": 1170,
-        "correct_spot": 24,
-        "correct_team": 42,
+        "points": 1255,
+        "correct_spot": 26,
+        "correct_team": 45,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -2468,10 +2483,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "Norway vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "France vs Spain",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 1,
+            "correct_team": 2,
+            "match_pts": 55
           }
         },
         "running": [
@@ -2675,8 +2698,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 0,
-            "cumulative": 1170
+            "match_pts": 30,
+            "cumulative": 1200
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 55,
+            "cumulative": 1255
           }
         ]
       },
@@ -2691,12 +2721,12 @@
       "third_place": "Norway"
     },
     "Copy of World_cup_2026_Jostein": {
-      "total": 1947,
+      "total": 2127,
       "max_possible": 4600,
-      "pct_of_max": 42.3,
+      "pct_of_max": 46.2,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 180,
+        "correct": 6,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -2735,18 +2765,18 @@
           },
           "haaland_goals": {
             "predicted": 1,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Julian Ryerson",
-            "actual": null,
+            "actual": "Martin Ødegaard",
             "correct": false
           },
           "haaland_open_play_penalty": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "nusa_scores": {
             "predicted": "No",
@@ -2755,8 +2785,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Equal. They will go out in the same round",
@@ -2765,8 +2795,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -3582,9 +3612,9 @@
         ]
       },
       "knockout": {
-        "points": 1170,
-        "correct_spot": 29,
-        "correct_team": 41,
+        "points": 1260,
+        "correct_spot": 32,
+        "correct_team": 44,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -3813,10 +3843,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -4020,8 +4058,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1170
+            "match_pts": 60,
+            "cumulative": 1200
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1260
           }
         ]
       },
@@ -4036,12 +4081,12 @@
       "third_place": "France"
     },
     "Gates_World_cup_2026": {
-      "total": 2269,
+      "total": 2449,
       "max_possible": 4600,
-      "pct_of_max": 49.3,
+      "pct_of_max": 53.2,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 210,
+        "correct": 7,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -4080,17 +4125,17 @@
           },
           "haaland_goals": {
             "predicted": 5,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -4100,8 +4145,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -4110,8 +4155,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "Curacao",
@@ -4927,9 +4972,9 @@
         ]
       },
       "knockout": {
-        "points": 1245,
-        "correct_spot": 34,
-        "correct_team": 43,
+        "points": 1335,
+        "correct_spot": 37,
+        "correct_team": 46,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -5158,10 +5203,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -5365,8 +5418,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1245
+            "match_pts": 60,
+            "cumulative": 1275
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1335
           }
         ]
       },
@@ -5381,12 +5441,12 @@
       "third_place": "Spain"
     },
     "IWB_World_cup_2026": {
-      "total": 2227,
+      "total": 2437,
       "max_possible": 4600,
-      "pct_of_max": 48.4,
+      "pct_of_max": 53.0,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 270,
+        "correct": 9,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -5425,18 +5485,18 @@
           },
           "haaland_goals": {
             "predicted": 7,
-            "actual": null,
-            "correct": false
+            "actual": 7,
+            "correct": true
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "nusa_scores": {
             "predicted": "Yes",
@@ -5445,8 +5505,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -5455,8 +5515,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -6272,9 +6332,9 @@
         ]
       },
       "knockout": {
-        "points": 1280,
-        "correct_spot": 36,
-        "correct_team": 44,
+        "points": 1340,
+        "correct_spot": 38,
+        "correct_team": 46,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -6503,7 +6563,15 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Norway vs Argentina",
+            "actual": "England vs Argentina",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -6710,8 +6778,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1310
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
             "match_pts": 30,
-            "cumulative": 1280
+            "cumulative": 1340
           }
         ]
       },
@@ -6726,12 +6801,12 @@
       "third_place": "Spain"
     },
     "Jan_Erling_World_cup_2026": {
-      "total": 2113,
+      "total": 2293,
       "max_possible": 4600,
-      "pct_of_max": 45.9,
+      "pct_of_max": 49.8,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -6770,17 +6845,17 @@
           },
           "haaland_goals": {
             "predicted": 6,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -6790,8 +6865,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -6800,8 +6875,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -7617,9 +7692,9 @@
         ]
       },
       "knockout": {
-        "points": 1165,
-        "correct_spot": 33,
-        "correct_team": 40,
+        "points": 1255,
+        "correct_spot": 36,
+        "correct_team": 43,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -7848,10 +7923,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -8055,8 +8138,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1165
+            "match_pts": 60,
+            "cumulative": 1195
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1255
           }
         ]
       },
@@ -8071,12 +8161,12 @@
       "third_place": "Spain"
     },
     "Kolltveit-World_cup_2026": {
-      "total": 2065,
+      "total": 2215,
       "max_possible": 4600,
-      "pct_of_max": 44.9,
+      "pct_of_max": 48.2,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 210,
+        "correct": 7,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -8115,17 +8205,17 @@
           },
           "haaland_goals": {
             "predicted": 6,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Antonio Nusa",
-            "actual": null,
+            "actual": "Martin Ødegaard",
             "correct": false
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -8135,8 +8225,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -8145,8 +8235,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -8962,9 +9052,9 @@
         ]
       },
       "knockout": {
-        "points": 1210,
-        "correct_spot": 32,
-        "correct_team": 42,
+        "points": 1300,
+        "correct_spot": 35,
+        "correct_team": 45,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -9193,10 +9283,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -9400,8 +9498,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1210
+            "match_pts": 60,
+            "cumulative": 1240
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1300
           }
         ]
       },
@@ -9416,12 +9521,12 @@
       "third_place": "Spain"
     },
     "Kopi av World_cup_2026-Elin Arntzen": {
-      "total": 2196,
+      "total": 2346,
       "max_possible": 4600,
-      "pct_of_max": 47.7,
+      "pct_of_max": 51.0,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 210,
+        "correct": 7,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -9460,17 +9565,17 @@
           },
           "haaland_goals": {
             "predicted": 4,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -9480,8 +9585,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -9490,8 +9595,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -10307,9 +10412,9 @@
         ]
       },
       "knockout": {
-        "points": 1240,
-        "correct_spot": 28,
-        "correct_team": 44,
+        "points": 1300,
+        "correct_spot": 30,
+        "correct_team": 46,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -10538,7 +10643,15 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Portugal",
+            "actual": "England vs Argentina",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -10745,8 +10858,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1270
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
             "match_pts": 30,
-            "cumulative": 1240
+            "cumulative": 1300
           }
         ]
       },
@@ -10761,12 +10881,12 @@
       "third_place": "France"
     },
     "Kopi av World_cup_2026_jh": {
-      "total": 1972,
+      "total": 2062,
       "max_possible": 4600,
-      "pct_of_max": 42.9,
+      "pct_of_max": 44.8,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -10805,17 +10925,17 @@
           },
           "haaland_goals": {
             "predicted": 5,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Oscar Bobb",
-            "actual": null,
+            "actual": "Martin Ødegaard",
             "correct": false
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -10825,8 +10945,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -10835,8 +10955,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "Haiti",
@@ -11652,9 +11772,9 @@
         ]
       },
       "knockout": {
-        "points": 1155,
-        "correct_spot": 31,
-        "correct_team": 40,
+        "points": 1185,
+        "correct_spot": 32,
+        "correct_team": 41,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -11883,7 +12003,15 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "Germany vs Spain",
-            "actual": "France vs None",
+            "actual": "France vs Spain",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Ivory Coast vs Uruguay",
+            "actual": "England vs Argentina",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -12090,8 +12218,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1185
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
             "match_pts": 0,
-            "cumulative": 1155
+            "cumulative": 1185
           }
         ]
       },
@@ -12106,12 +12241,12 @@
       "third_place": "Spain"
     },
     "Maiken world_cup_2026": {
-      "total": 2308,
+      "total": 2458,
       "max_possible": 4600,
-      "pct_of_max": 50.2,
+      "pct_of_max": 53.4,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 180,
+        "correct": 6,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -12150,17 +12285,17 @@
           },
           "haaland_goals": {
             "predicted": 4,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -12170,8 +12305,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -12180,8 +12315,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -12997,9 +13132,9 @@
         ]
       },
       "knockout": {
-        "points": 1310,
-        "correct_spot": 37,
-        "correct_team": 45,
+        "points": 1370,
+        "correct_spot": 39,
+        "correct_team": 47,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -13228,7 +13363,15 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Portugal",
+            "actual": "England vs Argentina",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -13435,8 +13578,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1340
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
             "match_pts": 30,
-            "cumulative": 1310
+            "cumulative": 1370
           }
         ]
       },
@@ -13451,12 +13601,12 @@
       "third_place": "Spain"
     },
     "Sandven_World_cup_2026": {
-      "total": 2321,
+      "total": 2441,
       "max_possible": 4600,
-      "pct_of_max": 50.5,
+      "pct_of_max": 53.1,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -13495,17 +13645,17 @@
           },
           "haaland_goals": {
             "predicted": 4,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Julian Ryerson",
-            "actual": null,
+            "actual": "Martin Ødegaard",
             "correct": false
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -13515,7 +13665,7 @@
           },
           "norway_var_disallowed": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_or_sweden_out_first": {
@@ -13525,8 +13675,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -14342,9 +14492,9 @@
         ]
       },
       "knockout": {
-        "points": 1295,
-        "correct_spot": 34,
-        "correct_team": 45,
+        "points": 1385,
+        "correct_spot": 37,
+        "correct_team": 48,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -14573,10 +14723,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -14780,8 +14938,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1295
+            "match_pts": 60,
+            "cumulative": 1325
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1385
           }
         ]
       },
@@ -14796,12 +14961,12 @@
       "third_place": "France"
     },
     "Tone Vevatne - World Cup Competition 2026": {
-      "total": 2155,
+      "total": 2305,
       "max_possible": 4600,
-      "pct_of_max": 46.8,
+      "pct_of_max": 50.1,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 180,
+        "correct": 6,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -14840,17 +15005,17 @@
           },
           "haaland_goals": {
             "predicted": 4,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -14860,8 +15025,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -14870,8 +15035,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "Haiti",
@@ -15687,9 +15852,9 @@
         ]
       },
       "knockout": {
-        "points": 1270,
-        "correct_spot": 34,
-        "correct_team": 44,
+        "points": 1330,
+        "correct_spot": 36,
+        "correct_team": 46,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -15918,7 +16083,15 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Brazil vs Argentina",
+            "actual": "England vs Argentina",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -16125,8 +16298,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1300
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
             "match_pts": 30,
-            "cumulative": 1270
+            "cumulative": 1330
           }
         ]
       },
@@ -16141,12 +16321,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026 (Kuyper)": {
-      "total": 2030,
+      "total": 2090,
       "max_possible": 4600,
-      "pct_of_max": 44.1,
+      "pct_of_max": 45.4,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 210,
+        "correct": 7,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -16185,17 +16365,17 @@
           },
           "haaland_goals": {
             "predicted": 4,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -16205,7 +16385,7 @@
           },
           "norway_var_disallowed": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_or_sweden_out_first": {
@@ -16215,8 +16395,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -17263,10 +17443,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Belgium",
-            "actual": "France vs None",
+            "actual": "France vs Spain",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Brazil vs Portugal",
+            "actual": "England vs Argentina",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -17472,6 +17660,13 @@
             "stage": "Semi-Finals",
             "match_pts": 30,
             "cumulative": 1215
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 1215
           }
         ]
       },
@@ -17486,12 +17681,12 @@
       "third_place": "Portugal"
     },
     "World_cup_2026.gulli": {
-      "total": 2151,
+      "total": 2241,
       "max_possible": 4600,
-      "pct_of_max": 46.8,
+      "pct_of_max": 48.7,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 180,
+        "correct": 6,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -17530,17 +17725,17 @@
           },
           "haaland_goals": {
             "predicted": 3,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Fredrik Aursnes",
-            "actual": null,
+            "actual": "Martin Ødegaard",
             "correct": false
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -17550,7 +17745,7 @@
           },
           "norway_var_disallowed": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_or_sweden_out_first": {
@@ -17560,8 +17755,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -18377,9 +18572,9 @@
         ]
       },
       "knockout": {
-        "points": 1265,
-        "correct_spot": 33,
-        "correct_team": 44,
+        "points": 1325,
+        "correct_spot": 35,
+        "correct_team": 46,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -18608,7 +18803,15 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Brazil vs Argentina",
+            "actual": "England vs Argentina",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -18815,8 +19018,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1295
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
             "match_pts": 30,
-            "cumulative": 1265
+            "cumulative": 1325
           }
         ]
       },
@@ -18831,12 +19041,12 @@
       "third_place": "Argentina"
     },
     "World_cup_2026_aase": {
-      "total": 2206,
+      "total": 2356,
       "max_possible": 4600,
-      "pct_of_max": 48.0,
+      "pct_of_max": 51.2,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 210,
+        "correct": 7,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -18875,17 +19085,17 @@
           },
           "haaland_goals": {
             "predicted": 8,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Julian Ryerson",
-            "actual": null,
+            "actual": "Martin Ødegaard",
             "correct": false
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -18895,8 +19105,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -18905,8 +19115,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -19722,9 +19932,9 @@
         ]
       },
       "knockout": {
-        "points": 1250,
-        "correct_spot": 30,
-        "correct_team": 44,
+        "points": 1340,
+        "correct_spot": 33,
+        "correct_team": 47,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -19953,10 +20163,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -20160,8 +20378,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1250
+            "match_pts": 60,
+            "cumulative": 1280
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1340
           }
         ]
       },
@@ -20176,12 +20401,12 @@
       "third_place": "France"
     },
     "World_cup_2026_anna": {
-      "total": 2011,
+      "total": 2131,
       "max_possible": 4600,
-      "pct_of_max": 43.7,
+      "pct_of_max": 46.3,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -20220,17 +20445,17 @@
           },
           "haaland_goals": {
             "predicted": 4,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Oscar Bobb",
-            "actual": null,
+            "actual": "Martin Ødegaard",
             "correct": false
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -20240,7 +20465,7 @@
           },
           "norway_var_disallowed": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_or_sweden_out_first": {
@@ -20250,8 +20475,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -21067,9 +21292,9 @@
         ]
       },
       "knockout": {
-        "points": 1180,
-        "correct_spot": 31,
-        "correct_team": 41,
+        "points": 1270,
+        "correct_spot": 34,
+        "correct_team": 44,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -21298,10 +21523,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -21505,8 +21738,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1180
+            "match_pts": 60,
+            "cumulative": 1210
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1270
           }
         ]
       },
@@ -21521,12 +21761,12 @@
       "third_place": "England"
     },
     "World_cup_2026_Bjørn_F": {
-      "total": 2240,
+      "total": 2450,
       "max_possible": 4600,
-      "pct_of_max": 48.7,
+      "pct_of_max": 53.3,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 270,
+        "correct": 9,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -21565,17 +21805,17 @@
           },
           "haaland_goals": {
             "predicted": 7,
-            "actual": null,
-            "correct": false
+            "actual": 7,
+            "correct": true
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -21585,8 +21825,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -21595,8 +21835,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -22412,9 +22652,9 @@
         ]
       },
       "knockout": {
-        "points": 1320,
-        "correct_spot": 34,
-        "correct_team": 46,
+        "points": 1410,
+        "correct_spot": 37,
+        "correct_team": 49,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -22643,10 +22883,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -22850,8 +23098,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1320
+            "match_pts": 60,
+            "cumulative": 1350
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1410
           }
         ]
       },
@@ -22866,12 +23121,12 @@
       "third_place": "France"
     },
     "World_cup_2026_CL": {
-      "total": 2359,
+      "total": 2509,
       "max_possible": 4600,
-      "pct_of_max": 51.3,
+      "pct_of_max": 54.5,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 180,
+        "correct": 6,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -22910,17 +23165,17 @@
           },
           "haaland_goals": {
             "predicted": 4,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Julian Ryerson",
-            "actual": null,
+            "actual": "Martin Ødegaard",
             "correct": false
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -22930,8 +23185,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -22940,8 +23195,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -23757,9 +24012,9 @@
         ]
       },
       "knockout": {
-        "points": 1305,
-        "correct_spot": 31,
-        "correct_team": 46,
+        "points": 1395,
+        "correct_spot": 34,
+        "correct_team": 49,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -23988,10 +24243,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "Brazil vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "actual": "France vs Spain",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -24195,8 +24458,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 0,
-            "cumulative": 1305
+            "match_pts": 30,
+            "cumulative": 1335
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1395
           }
         ]
       },
@@ -24211,12 +24481,12 @@
       "third_place": "Brazil"
     },
     "World_cup_2026_Dagfinn": {
-      "total": 1959,
+      "total": 2079,
       "max_possible": 4600,
-      "pct_of_max": 42.6,
+      "pct_of_max": 45.2,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -24255,18 +24525,18 @@
           },
           "haaland_goals": {
             "predicted": 4,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Julian Ryerson",
-            "actual": null,
+            "actual": "Martin Ødegaard",
             "correct": false
           },
           "haaland_open_play_penalty": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "nusa_scores": {
             "predicted": "Yes",
@@ -24275,8 +24545,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -24285,8 +24555,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -25102,9 +25372,9 @@
         ]
       },
       "knockout": {
-        "points": 1145,
-        "correct_spot": 24,
-        "correct_team": 41,
+        "points": 1175,
+        "correct_spot": 25,
+        "correct_team": 42,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -25333,10 +25603,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Brazil vs Portugal",
+            "actual": "England vs Argentina",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -25540,8 +25818,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1145
+            "match_pts": 60,
+            "cumulative": 1175
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 1175
           }
         ]
       },
@@ -25556,12 +25841,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Daniel_Naurin": {
-      "total": 2226,
+      "total": 2316,
       "max_possible": 4600,
-      "pct_of_max": 48.4,
+      "pct_of_max": 50.3,
       "questions": {
-        "points": 60,
-        "correct": 2,
+        "points": 120,
+        "correct": 4,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -25600,17 +25885,17 @@
           },
           "haaland_goals": {
             "predicted": 4,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -25620,7 +25905,7 @@
           },
           "norway_var_disallowed": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_or_sweden_out_first": {
@@ -25630,8 +25915,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "Curacao",
@@ -26447,9 +26732,9 @@
         ]
       },
       "knockout": {
-        "points": 1300,
-        "correct_spot": 35,
-        "correct_team": 45,
+        "points": 1330,
+        "correct_spot": 36,
+        "correct_team": 46,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -26678,10 +26963,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Ecuador vs Portugal",
+            "actual": "England vs Argentina",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -26885,8 +27178,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1300
+            "match_pts": 60,
+            "cumulative": 1330
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 1330
           }
         ]
       },
@@ -26901,12 +27201,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_gabriel": {
-      "total": 2164,
+      "total": 2314,
       "max_possible": 4600,
-      "pct_of_max": 47.0,
+      "pct_of_max": 50.3,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -26945,17 +27245,17 @@
           },
           "haaland_goals": {
             "predicted": 4,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -26965,8 +27265,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -26975,8 +27275,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -27792,9 +28092,9 @@
         ]
       },
       "knockout": {
-        "points": 1295,
-        "correct_spot": 34,
-        "correct_team": 45,
+        "points": 1355,
+        "correct_spot": 36,
+        "correct_team": 47,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -28023,7 +28323,15 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Brazil vs Argentina",
+            "actual": "England vs Argentina",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -28230,8 +28538,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1325
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
             "match_pts": 30,
-            "cumulative": 1295
+            "cumulative": 1355
           }
         ]
       },
@@ -28246,12 +28561,12 @@
       "third_place": "France"
     },
     "World_cup_2026_goldstein": {
-      "total": 2237,
+      "total": 2387,
       "max_possible": 4600,
-      "pct_of_max": 48.6,
+      "pct_of_max": 51.9,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 180,
+        "correct": 6,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -28290,17 +28605,17 @@
           },
           "haaland_goals": {
             "predicted": 6,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -28310,7 +28625,7 @@
           },
           "norway_var_disallowed": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_or_sweden_out_first": {
@@ -28320,8 +28635,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -29137,9 +29452,9 @@
         ]
       },
       "knockout": {
-        "points": 1275,
-        "correct_spot": 35,
-        "correct_team": 44,
+        "points": 1365,
+        "correct_spot": 38,
+        "correct_team": 47,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -29368,10 +29683,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -29575,8 +29898,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1275
+            "match_pts": 60,
+            "cumulative": 1305
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1365
           }
         ]
       },
@@ -29591,12 +29921,12 @@
       "third_place": "France"
     },
     "world_cup_2026_hs": {
-      "total": 2215,
+      "total": 2425,
       "max_possible": 4600,
-      "pct_of_max": 48.2,
+      "pct_of_max": 52.7,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -29635,18 +29965,18 @@
           },
           "haaland_goals": {
             "predicted": 3,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "nusa_scores": {
             "predicted": "Yes",
@@ -29655,8 +29985,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Equal. They will go out in the same round",
@@ -29665,8 +29995,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -30482,9 +30812,9 @@
         ]
       },
       "knockout": {
-        "points": 1275,
-        "correct_spot": 35,
-        "correct_team": 44,
+        "points": 1365,
+        "correct_spot": 38,
+        "correct_team": 47,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -30713,10 +31043,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -30920,8 +31258,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1275
+            "match_pts": 60,
+            "cumulative": 1305
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1365
           }
         ]
       },
@@ -30936,12 +31281,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Jana Blahak": {
-      "total": 2163,
+      "total": 2248,
       "max_possible": 4600,
-      "pct_of_max": 47.0,
+      "pct_of_max": 48.9,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 180,
+        "correct": 6,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -30980,18 +31325,18 @@
           },
           "haaland_goals": {
             "predicted": 10,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "nusa_scores": {
             "predicted": "Yes",
@@ -31000,7 +31345,7 @@
           },
           "norway_var_disallowed": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_or_sweden_out_first": {
@@ -31010,7 +31355,7 @@
           },
           "norway_red_card": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "best_team_of_listed": {
@@ -31827,9 +32172,9 @@
         ]
       },
       "knockout": {
-        "points": 1215,
+        "points": 1240,
         "correct_spot": 33,
-        "correct_team": 42,
+        "correct_team": 43,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -32058,10 +32403,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Uruguay",
-            "actual": "France vs None",
+            "actual": "France vs Spain",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Mexico vs Spain",
+            "actual": "England vs Argentina",
+            "correct_spot": 0,
+            "correct_team": 1,
+            "match_pts": 25
           }
         },
         "running": [
@@ -32267,6 +32620,13 @@
             "stage": "Semi-Finals",
             "match_pts": 30,
             "cumulative": 1215
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 25,
+            "cumulative": 1240
           }
         ]
       },
@@ -32281,12 +32641,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_javier": {
-      "total": 2076,
+      "total": 2136,
       "max_possible": 4600,
-      "pct_of_max": 45.1,
+      "pct_of_max": 46.4,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -32325,17 +32685,17 @@
           },
           "haaland_goals": {
             "predicted": 4,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Leandro Trossard",
-            "actual": null,
+            "actual": "Martin Ødegaard",
             "correct": false
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -32345,7 +32705,7 @@
           },
           "norway_var_disallowed": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_or_sweden_out_first": {
@@ -32355,8 +32715,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -33172,9 +33532,9 @@
         ]
       },
       "knockout": {
-        "points": 1310,
-        "correct_spot": 32,
-        "correct_team": 46,
+        "points": 1340,
+        "correct_spot": 33,
+        "correct_team": 47,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -33403,10 +33763,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Brazil vs Portugal",
+            "actual": "England vs Argentina",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -33610,8 +33978,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1310
+            "match_pts": 60,
+            "cumulative": 1340
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 1340
           }
         ]
       },
@@ -33626,12 +34001,12 @@
       "third_place": "France"
     },
     "World_cup_2026_JonasSchmid": {
-      "total": 2178,
+      "total": 2298,
       "max_possible": 4600,
-      "pct_of_max": 47.3,
+      "pct_of_max": 50.0,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 180,
+        "correct": 6,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -33670,18 +34045,18 @@
           },
           "haaland_goals": {
             "predicted": 4,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "nusa_scores": {
             "predicted": "No",
@@ -33690,7 +34065,7 @@
           },
           "norway_var_disallowed": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_or_sweden_out_first": {
@@ -33700,7 +34075,7 @@
           },
           "norway_red_card": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "best_team_of_listed": {
@@ -34517,9 +34892,9 @@
         ]
       },
       "knockout": {
-        "points": 1275,
-        "correct_spot": 35,
-        "correct_team": 44,
+        "points": 1335,
+        "correct_spot": 37,
+        "correct_team": 46,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -34748,7 +35123,15 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Brazil vs Argentina",
+            "actual": "England vs Argentina",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -34955,8 +35338,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1305
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
             "match_pts": 30,
-            "cumulative": 1275
+            "cumulative": 1335
           }
         ]
       },
@@ -34971,12 +35361,12 @@
       "third_place": "France"
     },
     "World_cup_2026_Karin": {
-      "total": 2164,
+      "total": 2314,
       "max_possible": 4600,
-      "pct_of_max": 47.0,
+      "pct_of_max": 50.3,
       "questions": {
-        "points": 90,
-        "correct": 3,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "South Africa",
@@ -35015,17 +35405,17 @@
           },
           "haaland_goals": {
             "predicted": 4,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Julian Ryerson",
-            "actual": null,
+            "actual": "Martin Ødegaard",
             "correct": false
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -35035,8 +35425,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Equal. They will go out in the same round",
@@ -35045,8 +35435,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -35862,9 +36252,9 @@
         ]
       },
       "knockout": {
-        "points": 1245,
-        "correct_spot": 29,
-        "correct_team": 44,
+        "points": 1335,
+        "correct_spot": 32,
+        "correct_team": 47,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -36093,10 +36483,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -36300,8 +36698,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1245
+            "match_pts": 60,
+            "cumulative": 1275
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1335
           }
         ]
       },
@@ -36316,12 +36721,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_lutscher": {
-      "total": 2290,
+      "total": 2380,
       "max_possible": 4600,
-      "pct_of_max": 49.8,
+      "pct_of_max": 51.7,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 210,
+        "correct": 7,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -36360,17 +36765,17 @@
           },
           "haaland_goals": {
             "predicted": 5,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -36380,7 +36785,7 @@
           },
           "norway_var_disallowed": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_or_sweden_out_first": {
@@ -36390,8 +36795,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -37207,9 +37612,9 @@
         ]
       },
       "knockout": {
-        "points": 1295,
-        "correct_spot": 34,
-        "correct_team": 45,
+        "points": 1325,
+        "correct_spot": 35,
+        "correct_team": 46,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -37438,10 +37843,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Brazil vs Switzerland",
+            "actual": "England vs Argentina",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -37645,8 +38058,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1295
+            "match_pts": 60,
+            "cumulative": 1325
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 1325
           }
         ]
       },
@@ -37661,12 +38081,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Martin_S": {
-      "total": 1761,
+      "total": 1846,
       "max_possible": 4600,
-      "pct_of_max": 38.3,
+      "pct_of_max": 40.1,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 150,
+        "correct": 5,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -37705,17 +38125,17 @@
           },
           "haaland_goals": {
             "predicted": 11,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Julian Ryerson",
-            "actual": null,
+            "actual": "Martin Ødegaard",
             "correct": false
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -37725,7 +38145,7 @@
           },
           "norway_var_disallowed": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_or_sweden_out_first": {
@@ -37735,8 +38155,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -38552,9 +38972,9 @@
         ]
       },
       "knockout": {
-        "points": 1085,
-        "correct_spot": 17,
-        "correct_team": 40,
+        "points": 1140,
+        "correct_spot": 18,
+        "correct_team": 42,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -38783,10 +39203,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "Norway vs Spain",
-            "actual": "France vs None",
+            "actual": "France vs Spain",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "France vs Portugal",
+            "actual": "England vs Argentina",
             "correct_spot": 0,
-            "correct_team": 0,
-            "match_pts": 0
+            "correct_team": 1,
+            "match_pts": 25
           }
         },
         "running": [
@@ -38990,8 +39418,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 0,
-            "cumulative": 1085
+            "match_pts": 30,
+            "cumulative": 1115
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 25,
+            "cumulative": 1140
           }
         ]
       },
@@ -39006,12 +39441,12 @@
       "third_place": "Norway"
     },
     "World_cup_2026_MIRO": {
-      "total": 2274,
+      "total": 2424,
       "max_possible": 4600,
-      "pct_of_max": 49.4,
+      "pct_of_max": 52.7,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 210,
+        "correct": 7,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -39050,17 +39485,17 @@
           },
           "haaland_goals": {
             "predicted": 6,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -39070,8 +39505,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -39080,7 +39515,7 @@
           },
           "norway_red_card": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "best_team_of_listed": {
@@ -39897,9 +40332,9 @@
         ]
       },
       "knockout": {
-        "points": 1315,
-        "correct_spot": 38,
-        "correct_team": 45,
+        "points": 1405,
+        "correct_spot": 41,
+        "correct_team": 48,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -40128,10 +40563,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -40335,8 +40778,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1315
+            "match_pts": 60,
+            "cumulative": 1345
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1405
           }
         ]
       },
@@ -40351,12 +40801,12 @@
       "third_place": "France"
     },
     "world_cup_2026_oyvind": {
-      "total": 2074,
+      "total": 2164,
       "max_possible": 4600,
-      "pct_of_max": 45.1,
+      "pct_of_max": 47.0,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 210,
+        "correct": 7,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -40395,17 +40845,17 @@
           },
           "haaland_goals": {
             "predicted": 4,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -40415,7 +40865,7 @@
           },
           "norway_var_disallowed": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_or_sweden_out_first": {
@@ -40425,8 +40875,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -41242,9 +41692,9 @@
         ]
       },
       "knockout": {
-        "points": 1170,
-        "correct_spot": 29,
-        "correct_team": 41,
+        "points": 1200,
+        "correct_spot": 30,
+        "correct_team": 42,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -41473,7 +41923,15 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "Netherlands vs Spain",
-            "actual": "France vs None",
+            "actual": "France vs Spain",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Japan vs Portugal",
+            "actual": "England vs Argentina",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -41680,8 +42138,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1200
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
             "match_pts": 0,
-            "cumulative": 1170
+            "cumulative": 1200
           }
         ]
       },
@@ -41696,12 +42161,12 @@
       "third_place": "Netherlands"
     },
     "World_cup_2026_Povitkina": {
-      "total": 1580,
+      "total": 1670,
       "max_possible": 4600,
-      "pct_of_max": 34.3,
+      "pct_of_max": 36.3,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 210,
+        "correct": 7,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -41740,18 +42205,18 @@
           },
           "haaland_goals": {
             "predicted": 1,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Erling Braut Haaland",
-            "actual": null,
+            "actual": "Martin Ødegaard",
             "correct": false
           },
           "haaland_open_play_penalty": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "nusa_scores": {
             "predicted": "Yes",
@@ -41760,7 +42225,7 @@
           },
           "norway_var_disallowed": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_or_sweden_out_first": {
@@ -41770,8 +42235,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -42587,9 +43052,9 @@
         ]
       },
       "knockout": {
-        "points": 980,
-        "correct_spot": 21,
-        "correct_team": 35,
+        "points": 1010,
+        "correct_spot": 22,
+        "correct_team": 36,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -42818,7 +43283,15 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "Netherlands vs Spain",
-            "actual": "France vs None",
+            "actual": "France vs Spain",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Brazil vs Portugal",
+            "actual": "England vs Argentina",
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
@@ -43025,8 +43498,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
+            "match_pts": 30,
+            "cumulative": 1010
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
             "match_pts": 0,
-            "cumulative": 980
+            "cumulative": 1010
           }
         ]
       },
@@ -43041,9 +43521,9 @@
       "third_place": "Brazil"
     },
     "World_cup_2026_stiansen": {
-      "total": 2029,
+      "total": 2119,
       "max_possible": 4600,
-      "pct_of_max": 44.1,
+      "pct_of_max": 46.1,
       "questions": {
         "points": 0,
         "correct": 0,
@@ -43851,9 +44331,9 @@
         ]
       },
       "knockout": {
-        "points": 1290,
-        "correct_spot": 33,
-        "correct_team": 45,
+        "points": 1380,
+        "correct_spot": 36,
+        "correct_team": 48,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -44082,10 +44562,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -44289,8 +44777,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1290
+            "match_pts": 60,
+            "cumulative": 1320
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1380
           }
         ]
       },
@@ -44305,12 +44800,12 @@
       "third_place": "France"
     },
     "World_cup_2026_StineHesstvedt_1106": {
-      "total": 2320,
+      "total": 2440,
       "max_possible": 4600,
-      "pct_of_max": 50.4,
+      "pct_of_max": 53.0,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 180,
+        "correct": 6,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -44349,17 +44844,17 @@
           },
           "haaland_goals": {
             "predicted": 8,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -44369,7 +44864,7 @@
           },
           "norway_var_disallowed": {
             "predicted": "No",
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           },
           "norway_or_sweden_out_first": {
@@ -44379,8 +44874,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "Curacao",
@@ -45196,9 +45691,9 @@
         ]
       },
       "knockout": {
-        "points": 1315,
-        "correct_spot": 33,
-        "correct_team": 46,
+        "points": 1375,
+        "correct_spot": 35,
+        "correct_team": 48,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -45427,7 +45922,15 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Brazil vs Argentina",
+            "actual": "England vs Argentina",
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
@@ -45634,8 +46137,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1345
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
             "match_pts": 30,
-            "cumulative": 1315
+            "cumulative": 1375
           }
         ]
       },
@@ -45650,12 +46160,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Vilde Hernes": {
-      "total": 2023,
+      "total": 2143,
       "max_possible": 4600,
-      "pct_of_max": 44.0,
+      "pct_of_max": 46.6,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -45694,17 +46204,17 @@
           },
           "haaland_goals": {
             "predicted": 7,
-            "actual": null,
-            "correct": false
+            "actual": 7,
+            "correct": true
           },
           "norway_top_assister": {
             "predicted": "Julian Ryerson",
-            "actual": null,
+            "actual": "Martin Ødegaard",
             "correct": false
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -45714,8 +46224,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -45724,8 +46234,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "New Zealand",
@@ -46541,9 +47051,9 @@
         ]
       },
       "knockout": {
-        "points": 1180,
-        "correct_spot": 26,
-        "correct_team": 42,
+        "points": 1210,
+        "correct_spot": 27,
+        "correct_team": 43,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -46772,10 +47282,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "Brazil vs Algeria",
+            "actual": "England vs Argentina",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -46979,8 +47497,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1180
+            "match_pts": 60,
+            "cumulative": 1210
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 1210
           }
         ]
       },
@@ -46995,12 +47520,12 @@
       "third_place": "Spain"
     },
     "World_cup_2026_ØB": {
-      "total": 1977,
+      "total": 2157,
       "max_possible": 4600,
-      "pct_of_max": 43.0,
+      "pct_of_max": 46.9,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 210,
+        "correct": 7,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -47039,17 +47564,17 @@
           },
           "haaland_goals": {
             "predicted": 8,
-            "actual": null,
+            "actual": 7,
             "correct": false
           },
           "norway_top_assister": {
             "predicted": "Martin Ødegaard",
-            "actual": null,
-            "correct": false
+            "actual": "Martin Ødegaard",
+            "correct": true
           },
           "haaland_open_play_penalty": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "nusa_scores": {
@@ -47059,8 +47584,8 @@
           },
           "norway_var_disallowed": {
             "predicted": "Yes",
-            "actual": null,
-            "correct": false
+            "actual": "Yes",
+            "correct": true
           },
           "norway_or_sweden_out_first": {
             "predicted": "Sweden",
@@ -47069,8 +47594,8 @@
           },
           "norway_red_card": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "best_team_of_listed": {
             "predicted": "Curacao",
@@ -47886,9 +48411,9 @@
         ]
       },
       "knockout": {
-        "points": 1210,
-        "correct_spot": 27,
-        "correct_team": 43,
+        "points": 1300,
+        "correct_spot": 30,
+        "correct_team": 46,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -48117,10 +48642,18 @@
           "101": {
             "stage": "Semi-Finals",
             "pred": "France vs Spain",
-            "actual": "France vs None",
-            "correct_spot": 1,
-            "correct_team": 1,
-            "match_pts": 30
+            "actual": "France vs Spain",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
+          },
+          "102": {
+            "stage": "Semi-Finals",
+            "pred": "England vs Argentina",
+            "actual": "England vs Argentina",
+            "correct_spot": 2,
+            "correct_team": 2,
+            "match_pts": 60
           }
         },
         "running": [
@@ -48324,8 +48857,15 @@
             "match": 101,
             "play_order": 101,
             "stage": "Semi-Finals",
-            "match_pts": 30,
-            "cumulative": 1210
+            "match_pts": 60,
+            "cumulative": 1240
+          },
+          {
+            "match": 102,
+            "play_order": 102,
+            "stage": "Semi-Finals",
+            "match_pts": 60,
+            "cumulative": 1300
           }
         ]
       },
