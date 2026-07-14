@@ -44,8 +44,12 @@ def goals_for_match(match: dict) -> int | None:
     """Return total goals in a match, or None if not predicted."""
     if "home_goals" in match:           # group stage
         h, a = match["home_goals"], match["away_goals"]
-    else:                               # knockout
-        h, a = match["team1_goals"], match["team2_goals"]
+    elif "ft" in match:                 # knockout — ft is [team1, team2] or None
+        if match["ft"] is None:
+            return None
+        h, a = match["ft"]
+    else:
+        return None
     if h is None or a is None:
         return None
     return h + a
@@ -64,9 +68,13 @@ def build_cumulative(matches_sorted: list[dict]) -> dict:
     return {"goals_per_match": goals_per_match, "cumulative": cumulative}
 
 
+def match_number(match: dict) -> int:
+    return match.get("match") or match.get("match_id")
+
+
 def make_label(match: dict) -> str:
-    stage = STAGE_SHORT.get(match["stage"], match["stage"])
-    return f"M{match['match']} {stage}"
+    stage = STAGE_SHORT.get(match.get("stage", "Group Stage"), match.get("stage", "GS"))
+    return f"M{match_number(match)} {stage}"
 
 
 def compute(input_path: str = None, output_path: str = None):
@@ -83,16 +91,16 @@ def compute(input_path: str = None, output_path: str = None):
     first_player = next(iter(data["players"].values()))
     all_matches  = sorted(
         first_player["group_stage"] + first_player["knockout"],
-        key=lambda m: m["match"]
+        key=match_number
     )
-    match_index  = [m["match"]  for m in all_matches]
+    match_index  = [match_number(m) for m in all_matches]
     match_labels = [make_label(m) for m in all_matches]
 
     players_out = {}
     for player, pred in data["players"].items():
         matches_sorted = sorted(
             pred["group_stage"] + pred["knockout"],
-            key=lambda m: m["match"]
+            key=match_number
         )
         players_out[player] = build_cumulative(matches_sorted)
         total = players_out[player]["cumulative"][-1]
@@ -107,7 +115,7 @@ def compute(input_path: str = None, output_path: str = None):
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"\nWrote {len(players_out)} player(s) → {output_path}")
+    print(f"\nWrote {len(players_out)} player(s) -> {output_path}")
     return output
 
 

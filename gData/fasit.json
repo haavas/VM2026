@@ -585,6 +585,8 @@
       "team2": "Canada",
       "team1_goals": 0,
       "team2_goals": 1,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 73
     },
     {
@@ -594,6 +596,8 @@
       "team2": "Paraguay",
       "team1_goals": 1,
       "team2_goals": 1,
+      "team1_pen": 3,
+      "team2_pen": 4,
       "play_order": 74
     },
     {
@@ -603,6 +607,8 @@
       "team2": "Morocco",
       "team1_goals": 1,
       "team2_goals": 1,
+      "team1_pen": 2,
+      "team2_pen": 3,
       "play_order": 75
     },
     {
@@ -612,6 +618,8 @@
       "team2": "Japan",
       "team1_goals": 2,
       "team2_goals": 1,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 76
     },
     {
@@ -621,6 +629,8 @@
       "team2": "Sweden",
       "team1_goals": 3,
       "team2_goals": 0,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 77
     },
     {
@@ -630,6 +640,8 @@
       "team2": "Norway",
       "team1_goals": 1,
       "team2_goals": 2,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 78
     },
     {
@@ -639,6 +651,8 @@
       "team2": "Ecuador",
       "team1_goals": 2,
       "team2_goals": 0,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 79
     },
     {
@@ -648,6 +662,8 @@
       "team2": "DR Congo",
       "team1_goals": 2,
       "team2_goals": 1,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 80
     },
     {
@@ -657,6 +673,8 @@
       "team2": "Bosnia and Herzegovina",
       "team1_goals": 2,
       "team2_goals": 0,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 81
     },
     {
@@ -664,8 +682,10 @@
       "stage": "Round of 32",
       "team1": "Belgium",
       "team2": "Senegal",
-      "team1_goals": 2,
+      "team1_goals": 3,
       "team2_goals": 2,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 82
     },
     {
@@ -675,6 +695,8 @@
       "team2": "Croatia",
       "team1_goals": 2,
       "team2_goals": 1,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 83
     },
     {
@@ -684,6 +706,8 @@
       "team2": "Austria",
       "team1_goals": 3,
       "team2_goals": 0,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 84
     },
     {
@@ -693,6 +717,8 @@
       "team2": "Algeria",
       "team1_goals": 2,
       "team2_goals": 0,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 85
     },
     {
@@ -700,8 +726,10 @@
       "stage": "Round of 32",
       "team1": "Argentina",
       "team2": "Cape Verde",
-      "team1_goals": 2,
+      "team1_goals": 3,
       "team2_goals": 2,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 86
     },
     {
@@ -711,6 +739,8 @@
       "team2": "Ghana",
       "team1_goals": 1,
       "team2_goals": 0,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 87
     },
     {
@@ -720,6 +750,8 @@
       "team2": "Egypt",
       "team1_goals": 1,
       "team2_goals": 1,
+      "team1_pen": 2,
+      "team2_pen": 4,
       "play_order": 88
     },
     {
@@ -729,6 +761,8 @@
       "team2": "France",
       "team1_goals": 0,
       "team2_goals": 1,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 89
     },
     {
@@ -738,6 +772,8 @@
       "team2": "Morocco",
       "team1_goals": 0,
       "team2_goals": 3,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 90
     },
     {
@@ -747,6 +783,8 @@
       "team2": "Norway",
       "team1_goals": 1,
       "team2_goals": 2,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 91
     },
     {
@@ -756,6 +794,8 @@
       "team2": "England",
       "team1_goals": 2,
       "team2_goals": 3,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 92
     },
     {
@@ -765,6 +805,8 @@
       "team2": "Spain",
       "team1_goals": 0,
       "team2_goals": 1,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 93
     },
     {
@@ -774,6 +816,8 @@
       "team2": "Belgium",
       "team1_goals": 1,
       "team2_goals": 4,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 94
     },
     {
@@ -783,6 +827,8 @@
       "team2": "Egypt",
       "team1_goals": 3,
       "team2_goals": 2,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 95
     },
     {
@@ -792,6 +838,8 @@
       "team2": "Colombia",
       "team1_goals": 0,
       "team2_goals": 0,
+      "team1_pen": 4,
+      "team2_pen": 3,
       "play_order": 96
     },
     {
@@ -801,6 +849,8 @@
       "team2": "Morocco",
       "team1_goals": 2,
       "team2_goals": 0,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 97
     },
     {
@@ -810,6 +860,8 @@
       "team2": "Belgium",
       "team1_goals": 2,
       "team2_goals": 1,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 98
     },
     {
@@ -818,7 +870,9 @@
       "team1": "Norway",
       "team2": "England",
       "team1_goals": 1,
-      "team2_goals": 1,
+      "team2_goals": 2,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 99
     },
     {
@@ -826,8 +880,10 @@
       "stage": "Quarterfinals",
       "team1": "Argentina",
       "team2": "Switzerland",
-      "team1_goals": 1,
+      "team1_goals": 3,
       "team2_goals": 1,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 100
     },
     {
@@ -837,6 +893,8 @@
       "team2": "Spain",
       "team1_goals": null,
       "team2_goals": null,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 101
     },
     {
@@ -846,6 +904,8 @@
       "team2": "Argentina",
       "team1_goals": null,
       "team2_goals": null,
+      "team1_pen": null,
+      "team2_pen": null,
       "play_order": 102
     }
   ],

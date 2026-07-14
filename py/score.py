@@ -169,8 +169,18 @@ def read_fasit(xlsx_path: Path) -> dict:
             team2 = str(df.iloc[idx+1, mc+1]) if pd.notna(df.iloc[idx+1, mc+1]) else None
             if team1 is None:
                 continue
-            g1 = _goals(df.iloc[idx,   mc + 2])
-            g2 = _goals(df.iloc[idx+1, mc + 2])
+            # FT/ET/PEN columns follow the team column. ET (and PEN) hold the
+            # cumulative score, not the extra-time-only tally, so the actual
+            # goals scored in the match is ET when present, else FT. PEN
+            # never counts toward goals — it only breaks a still-tied ET.
+            ft1 = _goals(df.iloc[idx,   mc + 2])
+            ft2 = _goals(df.iloc[idx+1, mc + 2])
+            et1 = _goals(df.iloc[idx,   mc + 3])
+            et2 = _goals(df.iloc[idx+1, mc + 3])
+            pen1 = _goals(df.iloc[idx,   mc + 4])
+            pen2 = _goals(df.iloc[idx+1, mc + 4])
+            g1 = et1 if et1 is not None else ft1
+            g2 = et2 if et2 is not None else ft2
             knockout.append({
                 "match":       raw,
                 "stage":       stage_label,
@@ -178,6 +188,8 @@ def read_fasit(xlsx_path: Path) -> dict:
                 "team2":       team2,
                 "team1_goals": g1,
                 "team2_goals": g2,
+                "team1_pen":   pen1,
+                "team2_pen":   pen2,
             })
 
     # Knockout matches don't have populated date/time columns in this
@@ -189,21 +201,30 @@ def read_fasit(xlsx_path: Path) -> dict:
         m["play_order"] = next_play_order
         next_play_order += 1
 
+    def _ko_winner(m):
+        """Winner of a knockout match: decided by goals, falling back to
+        penalties on a tie. Returns None if the match hasn't been decided."""
+        g1, g2 = m["team1_goals"], m["team2_goals"]
+        if g1 is None or g2 is None:
+            return None
+        if g1 > g2: return m["team1"]
+        if g2 > g1: return m["team2"]
+        p1, p2 = m["team1_pen"], m["team2_pen"]
+        if p1 is not None and p2 is not None and p1 != p2:
+            return m["team1"] if p1 > p2 else m["team2"]
+        return None
+
     # Final result (M104)
     world_champion = runner_up = third_place = None
     final = next((m for m in knockout if m["match"] == 104), None)
-    if final and final["team1_goals"] is not None:
-        if final["team1_goals"] > final["team2_goals"]:
-            world_champion, runner_up = final["team1"], final["team2"]
-        else:
-            world_champion, runner_up = final["team2"], final["team1"]
+    if final:
+        world_champion = _ko_winner(final)
+        if world_champion is not None:
+            runner_up = final["team2"] if world_champion == final["team1"] else final["team1"]
 
     third_place_match = next((m for m in knockout if m["match"] == 103), None)
-    if third_place_match and third_place_match["team1_goals"] is not None:
-        if third_place_match["team1_goals"] > third_place_match["team2_goals"]:
-            third_place = third_place_match["team1"]
-        else:
-            third_place = third_place_match["team2"]
+    if third_place_match:
+        third_place = _ko_winner(third_place_match)
 
     return {
         "group_stage":    sorted(group_stage, key=lambda m: m["match"]),

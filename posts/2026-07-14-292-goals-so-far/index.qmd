@@ -1,0 +1,80 @@
+---
+title: "292 goals so far"
+author: "Håvard Strand"
+description: ""
+date: "2026-07-14 14:07:00"
+categories: [Update]
+---
+
+# The final question is How many goals will there be in the world cup.
+
+The answer is generated from the forms you all handed in at the start of the cup. Right now, we are at 292, with four games to go. 
+
+```{r standings, echo=FALSE, message=FALSE, warning=FALSE}
+library(gt)
+source(here::here("R", "goals_progress_points.R"))
+estimates <- goals_progress_points(this_match = 100) 
+estimates |>
+  gt() |>
+  cols_label(
+    player          = "Participant",
+    gjett_underveis = "Predicted",
+    fasit_underveis = "Actual",
+    poeng           = "Points"
+  ) |>
+  fmt_number(columns = c(gjett_underveis, fasit_underveis, poeng), decimals = 0) |>
+  data_color(
+    columns = poeng,
+    colors  = scales::col_numeric(palette = c("white", "steelblue"), domain = NULL)
+  ) |>
+  tab_header(title = "Cumulative Goals — Predicted vs Actual") |>
+  tab_options(table.width = pct(80))
+```
+
+As it stands, Jana has hit the bull's eye, and receives 30 points. But, and update to this year's rules is that we award points based on the deviance between estimate and the result. So, as it stands, Chistian is set to receive 27 points based on his current estimate of 295 goals, and Daniel G will get 26 points from the estimate of 288 goals. 
+
+## How are the points rewarded. 
+
+The formula is 
+
+$$
+\text{points} = \operatorname{round}\left(P_{\max} \cdot \exp\left(-\frac{|\text{estimate} - \text{fasit}|}{\lambda}\right)\right)
+$$
+The negative difference between the estimate and the correct value is divided by $$\lambda$$, and placed inside the anti-logarithm formula this fraction will always return a number between 0 and 1. If the estimate is equal to the current fasit, the difference will be 0, and 0/$$lambda$$ will be zero, and the anti-logarithm of 0 is 1. 
+
+1 multiplied with 30 points, which is the maximum points awarded, is 30, and that is what Jana is currently set to get.
+
+Christian's estimate is 295 goals, and the difference between 295 and 292 is 3. And now we need to figure out $$lambda$$. 
+
+$$
+\lambda = \frac{\text{fasit}}{10}\
+$$
+Some of you with fond memories of Ottar Hellevik's methods books will see that this in fact looks a lot like one of the steps towards the $$\chi^2$$ test statistic, but we are here to hand out points rather than to kill the null hypothesis "There is no real difference between our estimates and reality". 
+
+Vilde and Kristoffer, who currently miss the mark by a difference of 12 goals gets 20 points by this system. Scott, with 30 goals difference, gets 11 points. Øivind, who has about 70 goals difference, gets three points. 
+
+```{r histogram, echo=FALSE, message=FALSE, warning=FALSE}
+
+ggplot(estimates, aes(x = gjett_underveis)) +
+  geom_density(fill = "#5AD2F4", color = "#5AD2F4", alpha = 0.5, linewidth = 1) +
+  geom_vline(
+    xintercept = mean(estimates$fasit_underveis, na.rm = TRUE),
+    color = "#F4A65A", linewidth = 1, linetype = "dashed"
+  ) +
+  labs(
+    x = "Gjett underveis",
+    y = "Tetthet",
+    title = "Fordeling av gjett underveis"
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.background = element_rect(fill = "white", color = NA),
+    panel.background = element_rect(fill = "white", color = NA),
+    panel.grid = element_line(color = "grey85", linewidth = 0.2),
+    axis.text = element_text(color = "grey20"),
+    axis.title = element_text(color = "grey20"),
+    plot.title = element_text(color = "#0B1B2B", face = "bold"),
+    text = element_text(color = "grey20")
+  )
+```
+We largely believed this World Cup to be more frugal than it turned out to be, which is somewhat surprising given that a few of the expected trashings ended 0-0. 
