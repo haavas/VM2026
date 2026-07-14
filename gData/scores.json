@@ -1135,6 +1135,22 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs Brazil",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs Portugal",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -1347,6 +1363,20 @@
             "stage": "Semi-Finals",
             "match_pts": 0,
             "cumulative": 1260
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1260
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
+            "cumulative": 1260
           }
         ]
       },
@@ -1361,9 +1391,9 @@
       "third_place": "Spain"
     },
     "Copy of World_cup_2026_Jacob": {
-      "total": 1995,
+      "total": 2025,
       "max_possible": 4600,
-      "pct_of_max": 43.4,
+      "pct_of_max": 44.0,
       "questions": {
         "points": 240,
         "correct": 8,
@@ -2252,9 +2282,9 @@
         ]
       },
       "knockout": {
-        "points": 1255,
-        "correct_spot": 26,
-        "correct_team": 45,
+        "points": 1285,
+        "correct_spot": 27,
+        "correct_team": 46,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -2495,6 +2525,22 @@
             "correct_spot": 1,
             "correct_team": 2,
             "match_pts": 55
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Norway vs Argentina",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs France",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -2707,6 +2753,20 @@
             "stage": "Semi-Finals",
             "match_pts": 55,
             "cumulative": 1255
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1255
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1285
           }
         ]
       },
@@ -2721,9 +2781,9 @@
       "third_place": "Norway"
     },
     "Copy of World_cup_2026_Jostein": {
-      "total": 2127,
+      "total": 2187,
       "max_possible": 4600,
-      "pct_of_max": 46.2,
+      "pct_of_max": 47.5,
       "questions": {
         "points": 180,
         "correct": 6,
@@ -3612,9 +3672,9 @@
         ]
       },
       "knockout": {
-        "points": 1260,
-        "correct_spot": 32,
-        "correct_team": 44,
+        "points": 1320,
+        "correct_spot": 34,
+        "correct_team": 46,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -3855,6 +3915,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "France vs Argentina",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs England",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -4067,6 +4143,20 @@
             "stage": "Semi-Finals",
             "match_pts": 60,
             "cumulative": 1260
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 30,
+            "cumulative": 1290
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1320
           }
         ]
       },
@@ -5215,6 +5305,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs Argentina",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs England",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -5426,6 +5532,20 @@
             "play_order": 102,
             "stage": "Semi-Finals",
             "match_pts": 60,
+            "cumulative": 1335
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1335
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
             "cumulative": 1335
           }
         ]
@@ -6575,6 +6695,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs Norway",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs Argentina",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -6786,6 +6922,20 @@
             "play_order": 102,
             "stage": "Semi-Finals",
             "match_pts": 30,
+            "cumulative": 1340
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1340
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
             "cumulative": 1340
           }
         ]
@@ -7935,6 +8085,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs England",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs Argentina",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -8146,6 +8312,20 @@
             "play_order": 102,
             "stage": "Semi-Finals",
             "match_pts": 60,
+            "cumulative": 1255
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1255
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
             "cumulative": 1255
           }
         ]
@@ -9295,6 +9475,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs Argentina",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs England",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -9507,6 +9703,20 @@
             "stage": "Semi-Finals",
             "match_pts": 60,
             "cumulative": 1300
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1300
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
+            "cumulative": 1300
           }
         ]
       },
@@ -9521,9 +9731,9 @@
       "third_place": "Spain"
     },
     "Kopi av World_cup_2026-Elin Arntzen": {
-      "total": 2346,
+      "total": 2406,
       "max_possible": 4600,
-      "pct_of_max": 51.0,
+      "pct_of_max": 52.3,
       "questions": {
         "points": 210,
         "correct": 7,
@@ -10412,9 +10622,9 @@
         ]
       },
       "knockout": {
-        "points": 1300,
-        "correct_spot": 30,
-        "correct_team": 46,
+        "points": 1360,
+        "correct_spot": 32,
+        "correct_team": 48,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -10655,6 +10865,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "France vs Portugal",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs England",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -10867,6 +11093,20 @@
             "stage": "Semi-Finals",
             "match_pts": 30,
             "cumulative": 1300
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 30,
+            "cumulative": 1330
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1360
           }
         ]
       },
@@ -12015,6 +12255,22 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs Uruguay",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Germany vs Ivory Coast",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -12225,6 +12481,20 @@
             "match": 102,
             "play_order": 102,
             "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 1185
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1185
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
             "match_pts": 0,
             "cumulative": 1185
           }
@@ -13375,6 +13645,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs Portugal",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs England",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -13587,6 +13873,20 @@
             "stage": "Semi-Finals",
             "match_pts": 30,
             "cumulative": 1370
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1370
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
+            "cumulative": 1370
           }
         ]
       },
@@ -13601,9 +13901,9 @@
       "third_place": "Spain"
     },
     "Sandven_World_cup_2026": {
-      "total": 2441,
+      "total": 2501,
       "max_possible": 4600,
-      "pct_of_max": 53.1,
+      "pct_of_max": 54.4,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -14492,9 +14792,9 @@
         ]
       },
       "knockout": {
-        "points": 1385,
-        "correct_spot": 37,
-        "correct_team": 48,
+        "points": 1445,
+        "correct_spot": 39,
+        "correct_team": 50,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -14735,6 +15035,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "France vs England",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs Argentina",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -14947,6 +15263,20 @@
             "stage": "Semi-Finals",
             "match_pts": 60,
             "cumulative": 1385
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 30,
+            "cumulative": 1415
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1445
           }
         ]
       },
@@ -16095,6 +16425,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs Argentina",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs Brazil",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -16306,6 +16652,20 @@
             "play_order": 102,
             "stage": "Semi-Finals",
             "match_pts": 30,
+            "cumulative": 1330
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1330
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
             "cumulative": 1330
           }
         ]
@@ -17455,6 +17815,22 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Belgium vs Portugal",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs Brazil",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -17667,6 +18043,20 @@
             "stage": "Semi-Finals",
             "match_pts": 0,
             "cumulative": 1215
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1215
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
+            "cumulative": 1215
           }
         ]
       },
@@ -17681,9 +18071,9 @@
       "third_place": "Portugal"
     },
     "World_cup_2026.gulli": {
-      "total": 2241,
+      "total": 2301,
       "max_possible": 4600,
-      "pct_of_max": 48.7,
+      "pct_of_max": 50.0,
       "questions": {
         "points": 180,
         "correct": 6,
@@ -18572,9 +18962,9 @@
         ]
       },
       "knockout": {
-        "points": 1325,
-        "correct_spot": 35,
-        "correct_team": 46,
+        "points": 1385,
+        "correct_spot": 37,
+        "correct_team": 48,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -18815,6 +19205,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "France vs Argentina",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs Brazil",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -19027,6 +19433,20 @@
             "stage": "Semi-Finals",
             "match_pts": 30,
             "cumulative": 1325
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 30,
+            "cumulative": 1355
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1385
           }
         ]
       },
@@ -19041,9 +19461,9 @@
       "third_place": "Argentina"
     },
     "World_cup_2026_aase": {
-      "total": 2356,
+      "total": 2416,
       "max_possible": 4600,
-      "pct_of_max": 51.2,
+      "pct_of_max": 52.5,
       "questions": {
         "points": 210,
         "correct": 7,
@@ -19932,9 +20352,9 @@
         ]
       },
       "knockout": {
-        "points": 1340,
-        "correct_spot": 33,
-        "correct_team": 47,
+        "points": 1400,
+        "correct_spot": 35,
+        "correct_team": 49,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -20175,6 +20595,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "France vs England",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs Argentina",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -20387,6 +20823,20 @@
             "stage": "Semi-Finals",
             "match_pts": 60,
             "cumulative": 1340
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 30,
+            "cumulative": 1370
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1400
           }
         ]
       },
@@ -21535,6 +21985,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs England",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs Argentina",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -21747,6 +22213,20 @@
             "stage": "Semi-Finals",
             "match_pts": 60,
             "cumulative": 1270
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1270
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
+            "cumulative": 1270
           }
         ]
       },
@@ -21761,9 +22241,9 @@
       "third_place": "England"
     },
     "World_cup_2026_Bjørn_F": {
-      "total": 2450,
+      "total": 2510,
       "max_possible": 4600,
-      "pct_of_max": 53.3,
+      "pct_of_max": 54.6,
       "questions": {
         "points": 270,
         "correct": 9,
@@ -22652,9 +23132,9 @@
         ]
       },
       "knockout": {
-        "points": 1410,
-        "correct_spot": 37,
-        "correct_team": 49,
+        "points": 1470,
+        "correct_spot": 39,
+        "correct_team": 51,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -22895,6 +23375,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "France vs Argentina",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs England",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -23107,6 +23603,20 @@
             "stage": "Semi-Finals",
             "match_pts": 60,
             "cumulative": 1410
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 30,
+            "cumulative": 1440
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1470
           }
         ]
       },
@@ -23121,9 +23631,9 @@
       "third_place": "France"
     },
     "World_cup_2026_CL": {
-      "total": 2509,
+      "total": 2539,
       "max_possible": 4600,
-      "pct_of_max": 54.5,
+      "pct_of_max": 55.2,
       "questions": {
         "points": 180,
         "correct": 6,
@@ -24012,9 +24522,9 @@
         ]
       },
       "knockout": {
-        "points": 1395,
-        "correct_spot": 34,
-        "correct_team": 49,
+        "points": 1425,
+        "correct_spot": 35,
+        "correct_team": 50,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -24255,6 +24765,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Brazil vs Argentina",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs England",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -24467,6 +24993,20 @@
             "stage": "Semi-Finals",
             "match_pts": 60,
             "cumulative": 1395
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1395
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1425
           }
         ]
       },
@@ -25615,6 +26155,22 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs Brazil",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs Portugal",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -25825,6 +26381,20 @@
             "match": 102,
             "play_order": 102,
             "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 1175
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1175
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
             "match_pts": 0,
             "cumulative": 1175
           }
@@ -26975,6 +27545,22 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs Portugal",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs Ecuador",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -27187,6 +27773,20 @@
             "stage": "Semi-Finals",
             "match_pts": 0,
             "cumulative": 1330
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1330
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
+            "cumulative": 1330
           }
         ]
       },
@@ -27201,9 +27801,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_gabriel": {
-      "total": 2314,
+      "total": 2374,
       "max_possible": 4600,
-      "pct_of_max": 50.3,
+      "pct_of_max": 51.6,
       "questions": {
         "points": 240,
         "correct": 8,
@@ -28092,9 +28692,9 @@
         ]
       },
       "knockout": {
-        "points": 1355,
-        "correct_spot": 36,
-        "correct_team": 47,
+        "points": 1415,
+        "correct_spot": 38,
+        "correct_team": 49,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -28335,6 +28935,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "France vs Brazil",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs Argentina",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -28547,6 +29163,20 @@
             "stage": "Semi-Finals",
             "match_pts": 30,
             "cumulative": 1355
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 30,
+            "cumulative": 1385
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1415
           }
         ]
       },
@@ -28561,9 +29191,9 @@
       "third_place": "France"
     },
     "World_cup_2026_goldstein": {
-      "total": 2387,
+      "total": 2447,
       "max_possible": 4600,
-      "pct_of_max": 51.9,
+      "pct_of_max": 53.2,
       "questions": {
         "points": 180,
         "correct": 6,
@@ -29452,9 +30082,9 @@
         ]
       },
       "knockout": {
-        "points": 1365,
-        "correct_spot": 38,
-        "correct_team": 47,
+        "points": 1425,
+        "correct_spot": 40,
+        "correct_team": 49,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -29695,6 +30325,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "France vs Argentina",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs England",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -29907,6 +30553,20 @@
             "stage": "Semi-Finals",
             "match_pts": 60,
             "cumulative": 1365
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 30,
+            "cumulative": 1395
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1425
           }
         ]
       },
@@ -31055,6 +31715,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs Argentina",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs England",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -31266,6 +31942,20 @@
             "play_order": 102,
             "stage": "Semi-Finals",
             "match_pts": 60,
+            "cumulative": 1365
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1365
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
             "cumulative": 1365
           }
         ]
@@ -32415,6 +33105,22 @@
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Uruguay vs Spain",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs Mexico",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -32627,6 +33333,20 @@
             "stage": "Semi-Finals",
             "match_pts": 25,
             "cumulative": 1240
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1240
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
+            "cumulative": 1240
           }
         ]
       },
@@ -32641,9 +33361,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_javier": {
-      "total": 2136,
+      "total": 2196,
       "max_possible": 4600,
-      "pct_of_max": 46.4,
+      "pct_of_max": 47.7,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -33532,9 +34252,9 @@
         ]
       },
       "knockout": {
-        "points": 1340,
-        "correct_spot": 33,
-        "correct_team": 47,
+        "points": 1400,
+        "correct_spot": 35,
+        "correct_team": 49,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -33775,6 +34495,22 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "France vs Brazil",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs Portugal",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -33987,6 +34723,20 @@
             "stage": "Semi-Finals",
             "match_pts": 0,
             "cumulative": 1340
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 30,
+            "cumulative": 1370
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1400
           }
         ]
       },
@@ -34001,9 +34751,9 @@
       "third_place": "France"
     },
     "World_cup_2026_JonasSchmid": {
-      "total": 2298,
+      "total": 2358,
       "max_possible": 4600,
-      "pct_of_max": 50.0,
+      "pct_of_max": 51.3,
       "questions": {
         "points": 180,
         "correct": 6,
@@ -34892,9 +35642,9 @@
         ]
       },
       "knockout": {
-        "points": 1335,
-        "correct_spot": 37,
-        "correct_team": 46,
+        "points": 1395,
+        "correct_spot": 39,
+        "correct_team": 48,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -35135,6 +35885,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "France vs Argentina",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs Brazil",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -35347,6 +36113,20 @@
             "stage": "Semi-Finals",
             "match_pts": 30,
             "cumulative": 1335
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 30,
+            "cumulative": 1365
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1395
           }
         ]
       },
@@ -36495,6 +37275,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs England",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs Argentina",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -36706,6 +37502,20 @@
             "play_order": 102,
             "stage": "Semi-Finals",
             "match_pts": 60,
+            "cumulative": 1335
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1335
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
             "cumulative": 1335
           }
         ]
@@ -37855,6 +38665,22 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs Switzerland",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs Brazil",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -38067,6 +38893,20 @@
             "stage": "Semi-Finals",
             "match_pts": 0,
             "cumulative": 1325
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1325
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
+            "cumulative": 1325
           }
         ]
       },
@@ -38081,9 +38921,9 @@
       "third_place": "Spain"
     },
     "World_cup_2026_Martin_S": {
-      "total": 1846,
+      "total": 1876,
       "max_possible": 4600,
-      "pct_of_max": 40.1,
+      "pct_of_max": 40.8,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -38972,9 +39812,9 @@
         ]
       },
       "knockout": {
-        "points": 1140,
-        "correct_spot": 18,
-        "correct_team": 42,
+        "points": 1170,
+        "correct_spot": 19,
+        "correct_team": 43,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -39215,6 +40055,22 @@
             "correct_spot": 0,
             "correct_team": 1,
             "match_pts": 25
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Norway vs Portugal",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs France",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -39427,6 +40283,20 @@
             "stage": "Semi-Finals",
             "match_pts": 25,
             "cumulative": 1140
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1140
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1170
           }
         ]
       },
@@ -39441,9 +40311,9 @@
       "third_place": "Norway"
     },
     "World_cup_2026_MIRO": {
-      "total": 2424,
+      "total": 2484,
       "max_possible": 4600,
-      "pct_of_max": 52.7,
+      "pct_of_max": 54.0,
       "questions": {
         "points": 210,
         "correct": 7,
@@ -40332,9 +41202,9 @@
         ]
       },
       "knockout": {
-        "points": 1405,
-        "correct_spot": 41,
-        "correct_team": 48,
+        "points": 1465,
+        "correct_spot": 43,
+        "correct_team": 50,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -40575,6 +41445,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "France vs England",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs Argentina",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -40787,6 +41673,20 @@
             "stage": "Semi-Finals",
             "match_pts": 60,
             "cumulative": 1405
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 30,
+            "cumulative": 1435
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1465
           }
         ]
       },
@@ -40801,9 +41701,9 @@
       "third_place": "France"
     },
     "world_cup_2026_oyvind": {
-      "total": 2164,
+      "total": 2194,
       "max_possible": 4600,
-      "pct_of_max": 47.0,
+      "pct_of_max": 47.7,
       "questions": {
         "points": 210,
         "correct": 7,
@@ -41692,9 +42592,9 @@
         ]
       },
       "knockout": {
-        "points": 1200,
-        "correct_spot": 30,
-        "correct_team": 42,
+        "points": 1230,
+        "correct_spot": 31,
+        "correct_team": 43,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -41935,6 +42835,22 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Netherlands vs Japan",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs Portugal",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -42147,6 +43063,20 @@
             "stage": "Semi-Finals",
             "match_pts": 0,
             "cumulative": 1200
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1200
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1230
           }
         ]
       },
@@ -42161,9 +43091,9 @@
       "third_place": "Netherlands"
     },
     "World_cup_2026_Povitkina": {
-      "total": 1670,
+      "total": 1700,
       "max_possible": 4600,
-      "pct_of_max": 36.3,
+      "pct_of_max": 37.0,
       "questions": {
         "points": 210,
         "correct": 7,
@@ -43052,9 +43982,9 @@
         ]
       },
       "knockout": {
-        "points": 1010,
-        "correct_spot": 22,
-        "correct_team": 36,
+        "points": 1040,
+        "correct_spot": 23,
+        "correct_team": 37,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -43295,6 +44225,22 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Netherlands vs Brazil",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs Portugal",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -43507,6 +44453,20 @@
             "stage": "Semi-Finals",
             "match_pts": 0,
             "cumulative": 1010
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1010
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1040
           }
         ]
       },
@@ -43521,9 +44481,9 @@
       "third_place": "Brazil"
     },
     "World_cup_2026_stiansen": {
-      "total": 2119,
+      "total": 2179,
       "max_possible": 4600,
-      "pct_of_max": 46.1,
+      "pct_of_max": 47.4,
       "questions": {
         "points": 0,
         "correct": 0,
@@ -44331,9 +45291,9 @@
         ]
       },
       "knockout": {
-        "points": 1380,
-        "correct_spot": 36,
-        "correct_team": 48,
+        "points": 1440,
+        "correct_spot": 38,
+        "correct_team": 50,
         "detail": {
           "73": {
             "stage": "Round of 32",
@@ -44574,6 +45534,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "France vs Argentina",
+            "actual": "France vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "Spain vs England",
+            "actual": "Spain vs None",
+            "correct_spot": 1,
+            "correct_team": 1,
+            "match_pts": 30
           }
         },
         "running": [
@@ -44786,6 +45762,20 @@
             "stage": "Semi-Finals",
             "match_pts": 60,
             "cumulative": 1380
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 30,
+            "cumulative": 1410
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 30,
+            "cumulative": 1440
           }
         ]
       },
@@ -45934,6 +46924,22 @@
             "correct_spot": 1,
             "correct_team": 1,
             "match_pts": 30
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs Argentina",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs Brazil",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -46145,6 +47151,20 @@
             "play_order": 102,
             "stage": "Semi-Finals",
             "match_pts": 30,
+            "cumulative": 1375
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1375
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
             "cumulative": 1375
           }
         ]
@@ -47294,6 +48314,22 @@
             "correct_spot": 0,
             "correct_team": 0,
             "match_pts": 0
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs Algeria",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs Brazil",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -47504,6 +48540,20 @@
             "match": 102,
             "play_order": 102,
             "stage": "Semi-Finals",
+            "match_pts": 0,
+            "cumulative": 1210
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1210
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
             "match_pts": 0,
             "cumulative": 1210
           }
@@ -48654,6 +49704,22 @@
             "correct_spot": 2,
             "correct_team": 2,
             "match_pts": 60
+          },
+          "103": {
+            "stage": "Third-Place Play-Off",
+            "pred": "Spain vs England",
+            "actual": "France vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
+          },
+          "104": {
+            "stage": "Final",
+            "pred": "France vs Argentina",
+            "actual": "Spain vs None",
+            "correct_spot": 0,
+            "correct_team": 0,
+            "match_pts": 0
           }
         },
         "running": [
@@ -48865,6 +49931,20 @@
             "play_order": 102,
             "stage": "Semi-Finals",
             "match_pts": 60,
+            "cumulative": 1300
+          },
+          {
+            "match": 103,
+            "play_order": 103,
+            "stage": "Third-Place Play-Off",
+            "match_pts": 0,
+            "cumulative": 1300
+          },
+          {
+            "match": 104,
+            "play_order": 104,
+            "stage": "Final",
+            "match_pts": 0,
             "cumulative": 1300
           }
         ]

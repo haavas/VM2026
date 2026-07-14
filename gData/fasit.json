@@ -891,8 +891,8 @@
       "stage": "Semi-Finals",
       "team1": "France",
       "team2": "Spain",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 0,
+      "team2_goals": 1,
       "team1_pen": null,
       "team2_pen": null,
       "play_order": 101
@@ -907,6 +907,28 @@
       "team1_pen": null,
       "team2_pen": null,
       "play_order": 102
+    },
+    {
+      "match": 103,
+      "stage": "Third-Place Play-Off",
+      "team1": "France",
+      "team2": null,
+      "team1_goals": null,
+      "team2_goals": null,
+      "team1_pen": null,
+      "team2_pen": null,
+      "play_order": 103
+    },
+    {
+      "match": 104,
+      "stage": "Final",
+      "team1": "Spain",
+      "team2": null,
+      "team1_goals": null,
+      "team2_goals": null,
+      "team1_pen": null,
+      "team2_pen": null,
+      "play_order": 104
     }
   ],
   "world_champion": null,

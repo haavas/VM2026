@@ -3671,3 +3671,75 @@ match;play_order;stage;player;full_name;cumulative;match_pts;rank;rank_prev;rank
 102;102;Semi-Finals;World_cup_2026_ØB;Øivind Bratberg;2157;60;25;27;2
 102;102;Semi-Finals;world_cup_2026_hs;Håvard Strand;2425;60;8;9;1
 102;102;Semi-Finals;world_cup_2026_oyvind;Øyvind Colbjørnsen;2164;0;24;23;-1
+103;103;Third-Place Play-Off;Copy of World_cup_2026.TomC;Tom Christensen;2200;0;23;23;0
+103;103;Third-Place Play-Off;Copy of World_cup_2026_Jacob;Jacob Nyrup;1995;0;34;34;0
+103;103;Third-Place Play-Off;Copy of World_cup_2026_Jostein;Jostein Askim;2157;30;26;29;3
+103;103;Third-Place Play-Off;Gates_World_cup_2026;Scott Gates;2449;0;6;4;-2
+103;103;Third-Place Play-Off;IWB_World_cup_2026;Ida Weseth Bjøru;2437;0;8;7;-1
+103;103;Third-Place Play-Off;Jan_Erling_World_cup_2026;Jan Erling Klausen;2293;0;19;19;0
+103;103;Third-Place Play-Off;Kolltveit-World_cup_2026;Kristoffer Kolltveit;2215;0;22;22;0
+103;103;Third-Place Play-Off;Kopi av World_cup_2026-Elin Arntzen;Elin Arntzen;2376;30;13;13;0
+103;103;Third-Place Play-Off;Kopi av World_cup_2026_jh;Jon Hovi;2062;0;33;33;0
+103;103;Third-Place Play-Off;Maiken world_cup_2026;Maiken Røed;2458;0;4;2;-2
+103;103;Third-Place Play-Off;Sandven_World_cup_2026;Hallvard Hodne Sandven;2471;30;3;5;2
+103;103;Third-Place Play-Off;Tone Vevatne - World Cup Competition 2026;Tone Vevatne;2305;0;18;17;-1
+103;103;Third-Place Play-Off;World_cup_2026 (Kuyper);Jonathan Kuyper;2090;0;31;31;0
+103;103;Third-Place Play-Off;World_cup_2026.gulli;Linda Gulli;2271;30;20;21;1
+103;103;Third-Place Play-Off;World_cup_2026_Bjørn_F;Bjørn Fjærli;2480;30;2;3;1
+103;103;Third-Place Play-Off;World_cup_2026_CL;Christian Lehne;2509;0;1;1;0
+103;103;Third-Place Play-Off;World_cup_2026_Dagfinn;Dagfinn Hagen;2079;0;32;32;0
+103;103;Third-Place Play-Off;World_cup_2026_Daniel_Naurin;Daniel Naurin;2316;0;16;14;-2
+103;103;Third-Place Play-Off;World_cup_2026_Jana Blahak;Jana Blahak;2248;0;21;20;-1
+103;103;Third-Place Play-Off;World_cup_2026_JonasSchmid;Jonas Schmid;2328;30;15;18;3
+103;103;Third-Place Play-Off;World_cup_2026_Karin;Karin Dokken;2314;0;17;15;-2
+103;103;Third-Place Play-Off;World_cup_2026_MIRO;Miroslav Nemcok;2454;30;5;9;4
+103;103;Third-Place Play-Off;World_cup_2026_Martin_S;Martin Søyland;1846;0;35;35;0
+103;103;Third-Place Play-Off;World_cup_2026_Povitkina;Marina Povitkina;1670;0;36;36;0
+103;103;Third-Place Play-Off;World_cup_2026_StineHesstvedt_1106;Stine Hesstvedt;2440;0;7;6;-1
+103;103;Third-Place Play-Off;World_cup_2026_Vilde Hernes;Vilde Hernes;2143;0;29;26;-3
+103;103;Third-Place Play-Off;World_cup_2026_aase;Åse Gornitzka;2386;30;11;12;1
+103;103;Third-Place Play-Off;World_cup_2026_anna;Anna Helgøy;2131;0;30;28;-2
+103;103;Third-Place Play-Off;World_cup_2026_gabriel;Gabriel Lönn;2344;30;14;15;1
+103;103;Third-Place Play-Off;World_cup_2026_goldstein;Daniel Goldstein;2417;30;10;10;0
+103;103;Third-Place Play-Off;World_cup_2026_javier;Javier Padilla;2166;30;24;27;3
+103;103;Third-Place Play-Off;World_cup_2026_lutscher;Phillip Lutscher;2380;0;12;11;-1
+103;103;Third-Place Play-Off;World_cup_2026_stiansen;Øyvind Stiansen;2149;30;28;30;2
+103;103;Third-Place Play-Off;World_cup_2026_ØB;Øivind Bratberg;2157;0;26;25;-1
+103;103;Third-Place Play-Off;world_cup_2026_hs;Håvard Strand;2425;0;9;8;-1
+103;103;Third-Place Play-Off;world_cup_2026_oyvind;Øyvind Colbjørnsen;2164;0;25;24;-1
+104;104;Final;Copy of World_cup_2026.TomC;Tom Christensen;2200;0;23;23;0
+104;104;Final;Copy of World_cup_2026_Jacob;Jacob Nyrup;2025;30;34;34;0
+104;104;Final;Copy of World_cup_2026_Jostein;Jostein Askim;2187;30;26;26;0
+104;104;Final;Gates_World_cup_2026;Scott Gates;2449;0;6;6;0
+104;104;Final;IWB_World_cup_2026;Ida Weseth Bjøru;2437;0;9;8;-1
+104;104;Final;Jan_Erling_World_cup_2026;Jan Erling Klausen;2293;0;20;19;-1
+104;104;Final;Kolltveit-World_cup_2026;Kristoffer Kolltveit;2215;0;22;22;0
+104;104;Final;Kopi av World_cup_2026-Elin Arntzen;Elin Arntzen;2406;30;12;13;1
+104;104;Final;Kopi av World_cup_2026_jh;Jon Hovi;2062;0;33;33;0
+104;104;Final;Maiken world_cup_2026;Maiken Røed;2458;0;5;4;-1
+104;104;Final;Sandven_World_cup_2026;Hallvard Hodne Sandven;2501;30;3;3;0
+104;104;Final;Tone Vevatne - World Cup Competition 2026;Tone Vevatne;2305;0;18;18;0
+104;104;Final;World_cup_2026 (Kuyper);Jonathan Kuyper;2090;0;31;31;0
+104;104;Final;World_cup_2026.gulli;Linda Gulli;2301;30;19;20;1
+104;104;Final;World_cup_2026_Bjørn_F;Bjørn Fjærli;2510;30;2;2;0
+104;104;Final;World_cup_2026_CL;Christian Lehne;2539;30;1;1;0
+104;104;Final;World_cup_2026_Dagfinn;Dagfinn Hagen;2079;0;32;32;0
+104;104;Final;World_cup_2026_Daniel_Naurin;Daniel Naurin;2316;0;16;16;0
+104;104;Final;World_cup_2026_Jana Blahak;Jana Blahak;2248;0;21;21;0
+104;104;Final;World_cup_2026_JonasSchmid;Jonas Schmid;2358;30;15;15;0
+104;104;Final;World_cup_2026_Karin;Karin Dokken;2314;0;17;17;0
+104;104;Final;World_cup_2026_MIRO;Miroslav Nemcok;2484;30;4;5;1
+104;104;Final;World_cup_2026_Martin_S;Martin Søyland;1876;30;35;35;0
+104;104;Final;World_cup_2026_Povitkina;Marina Povitkina;1700;30;36;36;0
+104;104;Final;World_cup_2026_StineHesstvedt_1106;Stine Hesstvedt;2440;0;8;7;-1
+104;104;Final;World_cup_2026_Vilde Hernes;Vilde Hernes;2143;0;29;29;0
+104;104;Final;World_cup_2026_aase;Åse Gornitzka;2416;30;11;11;0
+104;104;Final;World_cup_2026_anna;Anna Helgøy;2131;0;30;30;0
+104;104;Final;World_cup_2026_gabriel;Gabriel Lönn;2374;30;14;14;0
+104;104;Final;World_cup_2026_goldstein;Daniel Goldstein;2447;30;7;10;3
+104;104;Final;World_cup_2026_javier;Javier Padilla;2196;30;24;24;0
+104;104;Final;World_cup_2026_lutscher;Phillip Lutscher;2380;0;13;12;-1
+104;104;Final;World_cup_2026_stiansen;Øyvind Stiansen;2179;30;27;28;1
+104;104;Final;World_cup_2026_ØB;Øivind Bratberg;2157;0;28;26;-2
+104;104;Final;world_cup_2026_hs;Håvard Strand;2425;0;10;9;-1
+104;104;Final;world_cup_2026_oyvind;Øyvind Colbjørnsen;2194;30;25;25;0

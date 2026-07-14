@@ -9,7 +9,7 @@
 <link>https://haavas.github.io/VM2026/</link>
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
-<generator>quarto-1.9.37</generator>
+<generator>quarto-1.9.38</generator>
 <lastBuildDate>Tue, 14 Jul 2026 12:29:00 GMT</lastBuildDate>
 <item>
   <title>Preparing for the first finalist</title>
@@ -850,6 +850,40 @@ font-style: inherit;">plot_ko_bracket</span>() </span></code></pre></div></div>
   <pubDate>Tue, 14 Jul 2026 12:07:00 GMT</pubDate>
 </item>
 <item>
+  <title>Spain beats France</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-07-14-spain-beats-france/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="spain-is-the-first-finalist" class="level1">
+<h1>Spain is the first finalist</h1>
+<p>12 of us have Spain as their winner, and based on the game against France, they should be favorites.</p>
+<p>Christian remain ahead, but the gap to Bjørn is now only 29 points. Hallvard is only 38 points behind.</p>
+<p>There are three games left.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-07-14-spain-beats-france/standings_stacked.png" class="img-fluid figure-img" width="750"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Christian remains on top of the knockout table, but Bjørn and Miroslav made tremendous progress yesterday.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-07-14-spain-beats-france/</guid>
+  <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
   <title>The four best teams in the world are ready for the semi finals</title>
   <dc:creator>Håvard Strand</dc:creator>
   <link>https://haavas.github.io/VM2026/posts/2026-07-12-the-four-best-teams-in-the-world-are-ready-for-the-semi-finals/</link>
@@ -1524,46 +1558,6 @@ font-style: inherit;">plot_ko_bracket</span>() </span></code></pre></div></div>
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-24-group-b-is-done-qatar-is-out/</guid>
   <pubDate>Wed, 24 Jun 2026 21:14:00 GMT</pubDate>
-</item>
-<item>
-  <title>Colombia and Croatia are through</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-24-colombia-and-croatia-are-through/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="two-narrow-wins" class="level1">
-<h1>Two narrow wins</h1>
-<p>Both games today went our way, but not in the manner we predicted. In the end, we are in a more competitive state than we have been for a while.</p>
-<section id="colombia-vs-drc" class="level2">
-<h2 class="anchored" data-anchor-id="colombia-vs-drc">Colombia vs DRC</h2>
-<p>The modal prediction was 2-0, but four of us predicted a draw. With the exception of these four, the game made very little difference in our standing</p>
-</section>
-<section id="panama-vs.-croatia" class="level2">
-<h2 class="anchored" data-anchor-id="panama-vs.-croatia">Panama vs.&nbsp;Croatia</h2>
-<p>Again, all but three predicted Croatia to win. Again 2-0 was the modal prediction, but this time two front runners were among the minority.</p>
-<p>Christian remain in the lead, but the distance to Scott is 12 points. Åse is within 25 points of Christian, which effectively can change in the next game.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-24-colombia-and-croatia-are-through/standings.png" class="img-fluid figure-img" width="750"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-24-colombia-and-croatia-are-through/</guid>
-  <pubDate>Wed, 24 Jun 2026 09:18:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
