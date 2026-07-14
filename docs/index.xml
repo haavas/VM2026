@@ -10,7 +10,41 @@
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Tue, 14 Jul 2026 12:29:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 14 Jul 2026 21:15:00 GMT</lastBuildDate>
+<item>
+  <title>Spain beats France</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-07-14-spain-beats-france/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="spain-is-the-first-finalist" class="level1">
+<h1>Spain is the first finalist</h1>
+<p>12 of us have Spain as their winner, and based on the game against France, they should be favorites.</p>
+<p>Christian remain ahead, but the gap to Bjørn is now only 29 points. Hallvard is only 38 points behind.</p>
+<p>There are three games left.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-07-14-spain-beats-france/standings_stacked.png" class="img-fluid figure-img" width="750"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Christian remains on top of the knockout table, but Bjørn and Miroslav made tremendous progress yesterday.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-07-14-spain-beats-france/</guid>
+  <pubDate>Tue, 14 Jul 2026 21:15:00 GMT</pubDate>
+</item>
 <item>
   <title>Preparing for the first finalist</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -848,40 +882,6 @@ font-style: inherit;">plot_ko_bracket</span>() </span></code></pre></div></div>
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-07-14-292-goals-so-far/</guid>
   <pubDate>Tue, 14 Jul 2026 12:07:00 GMT</pubDate>
-</item>
-<item>
-  <title>Spain beats France</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-07-14-spain-beats-france/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="spain-is-the-first-finalist" class="level1">
-<h1>Spain is the first finalist</h1>
-<p>12 of us have Spain as their winner, and based on the game against France, they should be favorites.</p>
-<p>Christian remain ahead, but the gap to Bjørn is now only 29 points. Hallvard is only 38 points behind.</p>
-<p>There are three games left.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-07-14-spain-beats-france/standings_stacked.png" class="img-fluid figure-img" width="750"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Christian remains on top of the knockout table, but Bjørn and Miroslav made tremendous progress yesterday.</p>
-
-
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-07-14-spain-beats-france/</guid>
-  <pubDate>Mon, 13 Jul 2026 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The four best teams in the world are ready for the semi finals</title>

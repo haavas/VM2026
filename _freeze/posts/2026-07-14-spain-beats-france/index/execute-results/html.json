@@ -1,8 +1,8 @@
 {
-  "hash": "1affca11d6ac6a6f8e6399fcb33a0d70",
+  "hash": "a2071f01d17570841fc2897f84c594ff",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Spain beats France\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-07-14\"\ncategories: [Update]\n---\n\n# Spain is the first finalist\n\n12 of us have Spain as their winner, and based on the game against France, they should be favorites. \n \n\n::: {.cell}\n\n:::\n\n\nChristian remain ahead, but the gap to Bjørn is now only 29 points. Hallvard is only 38 points behind. \n\nThere are three games left.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings_stacked.png){width=750}\n:::\n:::\n\nChristian remains on top of the knockout table, but Bjørn and Miroslav made tremendous progress yesterday. \n",
+    "markdown": "---\ntitle: \"Spain beats France\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-07-14 23:15:00\"\ncategories: [Update]\n---\n\n# Spain is the first finalist\n\n12 of us have Spain as their winner, and based on the game against France, they should be favorites. \n\n\n::: {.cell}\n\n:::\n\n\nChristian remain ahead, but the gap to Bjørn is now only 29 points. Hallvard is only 38 points behind. \n\nThere are three games left.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings_stacked.png){width=750}\n:::\n:::\n\nChristian remains on top of the knockout table, but Bjørn and Miroslav made tremendous progress yesterday. \n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
