@@ -1,0 +1,18 @@
+---
+title: "Knockout update"
+author: "Håvard Strand"
+description: ""
+date: "2026-07-14 : 14:15:00"
+categories: [Update]
+---
+# We are not bad at this
+
+No fewer than 14 of us have all the correct games for the semi finals. This could be due to these teams being the best four in the world, but let's not focus on that. 
+
+Bjørn and Miroslav remain on top of this particular table.
+```{r}
+#| fig.height: 7
+source(here::here("R", "ko_bracket.R"))
+plot_ko_bracket() 
+
+```

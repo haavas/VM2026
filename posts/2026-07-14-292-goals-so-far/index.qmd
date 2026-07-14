@@ -8,7 +8,7 @@ categories: [Update]
 
 # The final question is How many goals will there be in the world cup.
 
-The answer is generated from the forms you all handed in at the start of the cup. Right now, we are at 292, with four games to go. 
+The answer is generated from the forms you all handed in at the start of the cup. Right now, we are at 292, with four games to go.
 
 ```{r standings, echo=FALSE, message=FALSE, warning=FALSE}
 library(gt)
@@ -31,27 +31,43 @@ estimates |>
   tab_options(table.width = pct(80))
 ```
 
-As it stands, Jana has hit the bull's eye, and receives 30 points. But, and update to this year's rules is that we award points based on the deviance between estimate and the result. So, as it stands, Chistian is set to receive 27 points based on his current estimate of 295 goals, and Daniel G will get 26 points from the estimate of 288 goals. 
+As it stands, Jana has hit the bull's eye, and receives 30 points. But, and update to this year's rules is that we award points based on the deviance between estimate and the result. So, as it stands, Chistian is set to receive 27 points based on his current estimate of 295 goals, and Daniel G will get 26 points from the estimate of 288 goals.
 
-## How are the points rewarded. 
+## How are the points rewarded.
 
-The formula is 
+The formula is
 
-$$
-\text{points} = \operatorname{round}\left(P_{\max} \cdot \exp\left(-\frac{|\text{estimate} - \text{fasit}|}{\lambda}\right)\right)
-$$
-The negative difference between the estimate and the correct value is divided by $$\lambda$$, and placed inside the anti-logarithm formula this fraction will always return a number between 0 and 1. If the estimate is equal to the current fasit, the difference will be 0, and 0/$$lambda$$ will be zero, and the anti-logarithm of 0 is 1. 
+$$\text{points} = \operatorname{round}\left(P_{\max} \cdot \exp\left(-\frac{|\text{estimate} - \text{fasit}|}{\lambda}\right)\right)$$
+
+The negative difference between the estimate and the correct value is divided by ${\lambda}$, and placed inside the anti-logarithm formula this fraction will always return a number between 0 and 1. If the estimate is equal to the current fasit;
+
+1.  the difference between estimate and fasit will be 0,
+
+2.  and 0/${\lambda}$ will be 0, and the
+
+3.  anti-logarithm of 0 is 1.
 
 1 multiplied with 30 points, which is the maximum points awarded, is 30, and that is what Jana is currently set to get.
 
-Christian's estimate is 295 goals, and the difference between 295 and 292 is 3. And now we need to figure out $$lambda$$. 
+Christian's estimate is 295 goals, and the difference between 295 and 292 is 3. And now we need to figure out ${\lambda}$.
 
-$$
-\lambda = \frac{\text{fasit}}{10}\
-$$
-Some of you with fond memories of Ottar Hellevik's methods books will see that this in fact looks a lot like one of the steps towards the $$\chi^2$$ test statistic, but we are here to hand out points rather than to kill the null hypothesis "There is no real difference between our estimates and reality". 
+$$\lambda = \frac{\text{fasit}}{10}$$
 
-Vilde and Kristoffer, who currently miss the mark by a difference of 12 goals gets 20 points by this system. Scott, with 30 goals difference, gets 11 points. Øivind, who has about 70 goals difference, gets three points. 
+Some of you with fond memories of Ottar Hellevik's methods books will see that this in fact looks a lot like one of the steps towards the $\chi^2$ test statistic, but we are here to hand out points rather than to kill the null hypothesis "There is no real difference between our estimates and reality".
+
+Vilde and Kristoffer, who currently miss the mark by a difference of 12 goals gets 20 points by this system.
+
+1.  the difference between estimate and fasit is 12,
+
+2.  ${\lambda}$ is fasit, or 292, divided by 10, which is 29.2
+
+3.  and 12/29.2 will be 0.41, and the
+
+4.  anti-logarithm of -0.41 is 0.66.
+
+5.  0.66 multiplied with 30 is 19.89, or rounded off to 20.
+
+Scott, with 30 goals difference, gets 11 points. Øivind, who has about 70 goals difference, gets three points. Finally, Øyvind C, previous winner of the competition, is 90 goals off the mark and receives a single point.
 
 ```{r histogram, echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -62,9 +78,8 @@ ggplot(estimates, aes(x = gjett_underveis)) +
     color = "#F4A65A", linewidth = 1, linetype = "dashed"
   ) +
   labs(
-    x = "Gjett underveis",
-    y = "Tetthet",
-    title = "Fordeling av gjett underveis"
+    x = "Guestimates",
+    y = "Density"
   ) +
   theme_minimal(base_size = 14) +
   theme(
@@ -77,4 +92,5 @@ ggplot(estimates, aes(x = gjett_underveis)) +
     text = element_text(color = "grey20")
   )
 ```
-We largely believed this World Cup to be more frugal than it turned out to be, which is somewhat surprising given that a few of the expected trashings ended 0-0. 
+
+The plot above shows how our estimates are distributed. We largely believed this World Cup to be more frugal than it turned out to be, which is somewhat surprising given that a few of the expected trashings ended 0-0.

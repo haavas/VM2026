@@ -1,0 +1,17 @@
+{
+  "hash": "911464a3a681ee2d53b65d68528ab409",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Knockout update\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-07-14 : 14:15:00\"\ncategories: [Update]\n---\n# We are not bad at this\n\nNo fewer than 14 of us have all the correct games for the semi finals. This could be due to these teams being the best four in the world, but let's not focus on that. \n\nBjørn and Miroslav remain on top of this particular table.\n\n::: {.cell}\n\n```{.r .cell-code}\nsource(here::here(\"R\", \"ko_bracket.R\"))\n```\n\n::: {.cell-output .cell-output-stderr}\n\n```\nhere() starts at D:/Users/hs/git/VM2026\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\n\nAttaching package: 'dplyr'\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stderr}\n\n```\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n```\n\n\n:::\n\n```{.r .cell-code}\nplot_ko_bracket() \n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

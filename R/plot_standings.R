@@ -170,6 +170,69 @@ plot_standings <- function(this_match,
     )
   
   ggsave(outfile, plot = p, width = width, height = height, dpi = dpi)
-  
+
+  invisible(p)
+}
+
+# Team colours for the predicted-winner fill. France/Portugal use hex codes
+# since "French blue" / "Burgundy" aren't base R colour names.
+winner_colours <- c(
+  England   = "white",
+  Brazil    = "yellow",
+  Argentina = "skyblue",
+  France    = "#0055A4",
+  Germany   = "black",
+  Mexico    = "darkgreen",
+  Portugal  = "#800020",
+  Spain     = "red",
+  Unknown   = "grey80"
+)
+
+plot_standings_by_winner <- function(this_match,
+                                     lag     = 1,
+                                     outfile = "standings_by_winner.png",
+                                     width   = 10,
+                                     height  = 10,
+                                     dpi     = 150) {
+
+  hbar <- plot_standings_return(this_match, lag)
+
+  podium <- read_csv(here::here("gData", "podium_table.csv"), show_col_types = FALSE) |>
+    select(full_name = Name, winner = Gold)
+
+  hbar <- hbar |>
+    left_join(podium, by = "full_name") |>
+    mutate(
+      winner    = replace_na(winner, "Unknown"),
+      full_name = fct_reorder(full_name, cumulative)
+    )
+
+  last_stage <- hbar |> pull(stage) |> first()
+
+  p <- ggplot(hbar, aes(x = full_name, y = cumulative, fill = winner)) +
+    geom_col(colour = "grey30", linewidth = 0.3) +
+    scale_y_continuous(
+      limits = c(0, max(hbar$cumulative) * 1.12)
+    ) +
+    coord_flip() +
+    scale_fill_manual(values = winner_colours, name = "Predicted winner") +
+    geom_text(aes(label = cumulative), hjust = -0.25, size = 5) +
+    ylab("Points") +
+    xlab(" ") +
+    labs(
+      title    = "2026 World Cup — Current Standings",
+      subtitle = paste0("After M", this_match, " — ", last_stage,
+                        "  |  colour = predicted tournament winner")
+    ) +
+    theme_minimal() +
+    theme(
+      axis.text  = element_text(size = 14),
+      axis.title = element_text(size = 14, face = "bold"),
+      plot.title = element_text(face = "bold", size = 16),
+      legend.position = "right"
+    )
+
+  ggsave(outfile, plot = p, width = width, height = height, dpi = dpi)
+
   invisible(p)
 }

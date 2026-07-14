@@ -1,0 +1,15 @@
+{
+  "hash": "a0e687aca52de7290410053d613553cf",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Preparing for the first finalist\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-07-14 14:29:00\"\ncategories: [Update]\n---\n\n# There are four potential winners\n\nThe 200 points that are awarded for getting the winner right is usually determining the winner of our competition. Christian, who is in the lead and has been for a while, is quite likely the winner if England wins. Hallvard is ahead in the Spanish camp, but Miroslav is very, very close. Maiken is leading Scott by 9 points, and this will be extremely close if France wins the final. Stine and Ida are also right behind. Finally, Jan Erling is more than 200 points behind Christian, so if Argentina wins, it is quite open who will win the competition. \n\n\n::: {.cell}\n\n:::\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings_by_winner.png)\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
