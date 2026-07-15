@@ -314,9 +314,9 @@
       3,
       4,
       2,
-      0,
-      0,
-      0
+      3,
+      3,
+      3
     ],
     "cumulative": [
       2,
@@ -420,9 +420,9 @@
       288,
       292,
       294,
-      294,
-      294,
-      294
+      297,
+      300,
+      303
     ],
     "played": [
       true,
@@ -526,9 +526,9 @@
       true,
       true,
       true,
-      false,
-      false,
-      false
+      true,
+      true,
+      true
     ]
   },
   "players": {

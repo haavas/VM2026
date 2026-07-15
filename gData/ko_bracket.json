@@ -226,9 +226,9 @@
         "n_slots": 4
       },
       "final": {
-        "correct_team": 0,
-        "correct_spot": 0,
-        "pts": 0,
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
         "max_pts": 60,
         "n_slots": 2
       },
@@ -270,16 +270,16 @@
         "n_slots": 4
       },
       "final": {
-        "correct_team": 0,
-        "correct_spot": 0,
-        "pts": 0,
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
         "max_pts": 60,
         "n_slots": 2
       },
       "bronze": {
-        "correct_team": 0,
-        "correct_spot": 0,
-        "pts": 0,
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
         "max_pts": 60,
         "n_slots": 2
       }
@@ -490,16 +490,16 @@
         "n_slots": 4
       },
       "final": {
-        "correct_team": 1,
-        "correct_spot": 1,
-        "pts": 30,
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
         "max_pts": 60,
         "n_slots": 2
       },
       "bronze": {
-        "correct_team": 1,
-        "correct_spot": 1,
-        "pts": 30,
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
         "max_pts": 60,
         "n_slots": 2
       }
@@ -666,16 +666,16 @@
         "n_slots": 4
       },
       "final": {
-        "correct_team": 1,
-        "correct_spot": 1,
-        "pts": 30,
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
         "max_pts": 60,
         "n_slots": 2
       },
       "bronze": {
-        "correct_team": 1,
-        "correct_spot": 1,
-        "pts": 30,
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
         "max_pts": 60,
         "n_slots": 2
       }
@@ -710,16 +710,16 @@
         "n_slots": 4
       },
       "final": {
-        "correct_team": 0,
-        "correct_spot": 0,
-        "pts": 0,
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
         "max_pts": 60,
         "n_slots": 2
       },
       "bronze": {
-        "correct_team": 0,
-        "correct_spot": 0,
-        "pts": 0,
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
         "max_pts": 60,
         "n_slots": 2
       }
@@ -930,9 +930,9 @@
         "n_slots": 4
       },
       "final": {
-        "correct_team": 1,
-        "correct_spot": 1,
-        "pts": 30,
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
         "max_pts": 60,
         "n_slots": 2
       },
@@ -1194,16 +1194,16 @@
         "n_slots": 4
       },
       "final": {
-        "correct_team": 0,
-        "correct_spot": 0,
-        "pts": 0,
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
         "max_pts": 60,
         "n_slots": 2
       },
       "bronze": {
-        "correct_team": 0,
-        "correct_spot": 0,
-        "pts": 0,
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
         "max_pts": 60,
         "n_slots": 2
       }
@@ -1326,16 +1326,16 @@
         "n_slots": 4
       },
       "final": {
-        "correct_team": 1,
-        "correct_spot": 1,
-        "pts": 30,
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
         "max_pts": 60,
         "n_slots": 2
       },
       "bronze": {
-        "correct_team": 1,
-        "correct_spot": 1,
-        "pts": 30,
+        "correct_team": 2,
+        "correct_spot": 2,
+        "pts": 60,
         "max_pts": 60,
         "n_slots": 2
       }
@@ -1590,16 +1590,16 @@
         "n_slots": 4
       },
       "final": {
-        "correct_team": 0,
-        "correct_spot": 0,
-        "pts": 0,
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
         "max_pts": 60,
         "n_slots": 2
       },
       "bronze": {
-        "correct_team": 0,
-        "correct_spot": 0,
-        "pts": 0,
+        "correct_team": 1,
+        "correct_spot": 1,
+        "pts": 30,
         "max_pts": 60,
         "n_slots": 2
       }

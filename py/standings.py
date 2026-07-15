@@ -23,8 +23,10 @@ match_pts    : points earned in this specific match
 
 Usage
 -----
-python py/standings.py                  # uses project defaults
-python py/standings.py scores.json      # explicit scores path
+python py/standings.py                     # uses project defaults
+python py/standings.py scores.json         # explicit scores path
+python py/standings.py --no-qs             # exclude qualitative points
+python py/standings.py --no-goals-progress # exclude cumulative-goals-progress points
 """
 
 import csv
@@ -55,7 +57,8 @@ def load_name_lookup(root: Path) -> dict:
 
 def build_standings(scores_path: str = None,
                     output_csv:  str = None,
-                    include_qs:  bool = True) -> None:
+                    include_qs:  bool = True,
+                    include_goals_progress: bool = True) -> None:
 
     root = project_root()
     scores_path = Path(scores_path) if scores_path else root / "gData" / "scores.json"
@@ -83,6 +86,15 @@ def build_standings(scores_path: str = None,
     for player, s in players.items():
         gs_total = s["group_stage"]["points"]
         qs_total = s.get("questions", {}).get("points", 0) if include_qs else 0
+        gp_total = s.get("goals_progress", {}).get("points", 0) if include_goals_progress else 0
+
+        # Medal bonuses (champion/silver/bronze) aren't part of either running
+        # list — they're decided by match 103 (bronze) and match 104
+        # (champion + silver). Fold them in at those matches so they show up
+        # in the cumulative timeline instead of being silently dropped.
+        medals      = s.get("medals", {})
+        bronze_pts  = medals.get("bronze_pts", 0)
+        final_pts   = medals.get("champion_pts", 0) + medals.get("silver_pts", 0)
 
         events = []
 
@@ -91,17 +103,27 @@ def build_standings(scores_path: str = None,
                 "match":      r["match"],
                 "play_order": r.get("play_order", r["match"]),
                 "stage":      "Group Stage",
-                "cumulative": qs_total + r["cumulative"],
+                "cumulative": qs_total + gp_total + r["cumulative"],
                 "match_pts":  r.get("match_pts", 0),
             })
 
+        medal_offset = 0
         for r in s["knockout"]["running"]:
+            mn = r.get("match") or r.get("match_id")
+
+            match_medal_pts = 0
+            if mn == 103:
+                match_medal_pts = bronze_pts
+            elif mn == 104:
+                match_medal_pts = final_pts
+            medal_offset += match_medal_pts
+
             events.append({
-                "match":      r.get("match") or r.get("match_id"),
-                "play_order": r.get("play_order", r.get("match") or r.get("match_id")),
+                "match":      mn,
+                "play_order": r.get("play_order", mn),
                 "stage":      r.get("stage", "Knockout"),
-                "cumulative": qs_total + gs_total + r["cumulative"],
-                "match_pts":  r.get("match_pts", 0),
+                "cumulative": qs_total + gp_total + gs_total + r["cumulative"] + medal_offset,
+                "match_pts":  r.get("match_pts", 0) + match_medal_pts,
             })
 
         timelines[player] = sorted(events, key=lambda e: e["play_order"] or 0)
@@ -209,8 +231,11 @@ def build_standings(scores_path: str = None,
 
 
 if __name__ == "__main__":
-    args       = [a for a in sys.argv[1:] if not a.startswith("--")]
-    include_qs = "--no-qs" not in sys.argv
+    args                    = [a for a in sys.argv[1:] if not a.startswith("--")]
+    include_qs              = "--no-qs" not in sys.argv
+    include_goals_progress  = "--no-goals-progress" not in sys.argv
     scores_arg = args[0] if len(args) > 0 else None
     output_arg = args[1] if len(args) > 1 else None
-    build_standings(scores_arg, output_arg, include_qs=include_qs)
+    build_standings(scores_arg, output_arg,
+                     include_qs=include_qs,
+                     include_goals_progress=include_goals_progress)

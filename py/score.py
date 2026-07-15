@@ -31,10 +31,16 @@ Final standings bonuses:
 
 Theoretical maximum: 4600 points
 
+Cumulative goals progress (optional, off by default):
+  +0-30  exponential-decay credit for predicted vs. actual cumulative
+         goals scored so far, from gData/goals_progress_points.json
+         (see goals_progress_points.py). Adds 30 to the max when enabled.
+
 Usage
 -----
-python py/score.py                          # uses project defaults
-python py/score.py fasit/my_fasit.xlsx      # explicit fasit path
+python py/score.py                              # uses project defaults
+python py/score.py fasit/my_fasit.xlsx          # explicit fasit path
+python py/score.py --include-goals-progress     # also score cumulative goals progress
 """
 
 import csv
@@ -67,13 +73,14 @@ CORRECT_SPOT_PTS    = 5     # bonus: correct slot in bracket
 CHAMPION_BONUS      = 200
 SILVER_BONUS        = 100
 BRONZE_BONUS        = 70
+GOALS_PROGRESS_MAX  = 30    # optional category, see goals_progress_points.py
 
 MAX_POINTS = (
     QUESTION_PTS * 17 +          # 510
     CORRECT_OUTCOME_PTS * 72 +   # 1800
     (CORRECT_TEAM_PTS + CORRECT_SPOT_PTS) * 2 * 32 +  # 1920
     CHAMPION_BONUS + SILVER_BONUS + BRONZE_BONUS       # 370
-)  # = 4600
+)  # = 4600, excludes the optional goals-progress category
 
 
 # ---------------------------------------------------------------------------
@@ -519,6 +526,43 @@ def score_medals(player: dict, fasit: dict) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# Cumulative goals progress (optional)
+# ---------------------------------------------------------------------------
+
+def load_goals_progress(path: Path) -> dict:
+    """
+    Load gData/goals_progress_points.json (written by goals_progress_points.py)
+    and return its "players" dict, keyed by the same file-stem player key
+    used in predictions.json. Returns {} if the file doesn't exist yet.
+    """
+    if not path.exists():
+        return {}
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    return data.get("players", {})
+
+
+def score_goals_progress(player_key: str, goals_progress_players: dict) -> dict:
+    """
+    Look up one player's cumulative-goals-progress points. Returns 0 points
+    with null predicted/actual if the player isn't present (e.g. the file
+    hasn't been generated yet, or is stale relative to predictions.json).
+    """
+    entry = goals_progress_players.get(player_key)
+    if entry is None:
+        return {
+            "points":                      0,
+            "predicted_cumulative_goals":   None,
+            "actual_cumulative_goals":      None,
+        }
+    return {
+        "points":                    entry.get("points", 0),
+        "predicted_cumulative_goals": entry.get("predicted_cumulative_goals"),
+        "actual_cumulative_goals":    entry.get("actual_cumulative_goals"),
+    }
+
+
+# ---------------------------------------------------------------------------
 # Backwards-compatible alias (used by similarity.py)
 # ---------------------------------------------------------------------------
 
@@ -537,15 +581,18 @@ def score(fasit_path: str = None,
           predictions_path: str = None,
           output_json: str = None,
           output_csv: str = None,
-          output_fasit_json: str = None) -> None:
+          output_fasit_json: str = None,
+          goals_progress_json: str = None,
+          include_goals_progress: bool = False) -> None:
 
     root = project_root()
 
-    fasit_path        = Path(fasit_path)        if fasit_path        else root / "fasit" / "world_cup_2026_fasit.xlsx"
-    predictions_path  = Path(predictions_path)  if predictions_path  else root / "gData" / "predictions.json"
-    output_json       = Path(output_json)       if output_json       else root / "gData" / "scores.json"
-    output_csv        = Path(output_csv)        if output_csv        else root / "gData" / "scores.csv"
-    output_fasit_json = Path(output_fasit_json) if output_fasit_json else root / "gData" / "fasit.json"
+    fasit_path           = Path(fasit_path)           if fasit_path           else root / "fasit" / "world_cup_2026_fasit.xlsx"
+    predictions_path     = Path(predictions_path)     if predictions_path     else root / "gData" / "predictions.json"
+    output_json          = Path(output_json)          if output_json          else root / "gData" / "scores.json"
+    output_csv           = Path(output_csv)           if output_csv          else root / "gData" / "scores.csv"
+    output_fasit_json    = Path(output_fasit_json)    if output_fasit_json   else root / "gData" / "fasit.json"
+    goals_progress_json  = Path(goals_progress_json)  if goals_progress_json else root / "gData" / "goals_progress_points.json"
 
     if not fasit_path.exists():
         raise FileNotFoundError(
@@ -598,6 +645,17 @@ def score(fasit_path: str = None,
     else:
         print("No qualitative.json found in gData/ — qualitative answers unavailable")
 
+    goals_progress_players = {}
+    if include_goals_progress:
+        goals_progress_players = load_goals_progress(goals_progress_json)
+        if goals_progress_players:
+            print(f"Loaded goals_progress_points.json ({len(goals_progress_players)} players)")
+        else:
+            print(f"--include-goals-progress set but {goals_progress_json.name} not found "
+                  f"(or empty) — run goals_progress_points.py first; scoring 0 for this category")
+
+    max_points = MAX_POINTS + (GOALS_PROGRESS_MAX if include_goals_progress else 0)
+
     scores = {}
 
     for player, data in preds["players"].items():
@@ -607,13 +665,16 @@ def score(fasit_path: str = None,
         abbr   = data.get("abbr")
         player_q_answers = qualitative_by_player.get(player)
         qs     = score_questions(player_q_answers, correct_answers)
+        gp     = score_goals_progress(player, goals_progress_players) if include_goals_progress else None
 
         total = qs["points"] + gs["points"] + ko["points"] + medals["points"]
+        if include_goals_progress:
+            total += gp["points"]
 
         scores[player] = {
             "total":          total,
-            "max_possible":   MAX_POINTS,
-            "pct_of_max":     round(total / MAX_POINTS * 100, 1),
+            "max_possible":   max_points,
+            "pct_of_max":     round(total / max_points * 100, 1),
             "questions":      qs,
             "group_stage":    gs,
             "knockout":       ko,
@@ -622,14 +683,17 @@ def score(fasit_path: str = None,
             "runner_up":      data.get("runner_up"),
             "third_place":    data.get("third_place"),
         }
+        if include_goals_progress:
+            scores[player]["goals_progress"] = gp
 
         print(
-            f"  {player:<30s}  {total:+6d} / {MAX_POINTS}  "
-            f"({total/MAX_POINTS*100:.1f}%)  "
+            f"  {player:<30s}  {total:+6d} / {max_points}  "
+            f"({total/max_points*100:.1f}%)  "
             f"qs={qs['points']:+4d}  "
             f"group={gs['points']:+6d}  "
             f"ko={ko['points']:+5d}  "
             f"medals={medals['points']:+4d}"
+            + (f"  goals={gp['points']:+3d}" if include_goals_progress else "")
         )
 
     # --- JSON ---
@@ -642,16 +706,20 @@ def score(fasit_path: str = None,
 
     with open(output_csv, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f, delimiter=";")
-        writer.writerow([
+        header = [
             "rank", "player", "total", "pct_of_max",
             "question_pts", "group_pts", "ko_pts",
             "champion_pts", "silver_pts", "bronze_pts",
             "correct_outcome", "home_sq_err", "away_sq_err",
             "correct_spot", "correct_team",
             "predicted_champion", "predicted_runner_up", "predicted_third",
-        ])
+        ]
+        if include_goals_progress:
+            header.append("goals_progress_pts")
+        writer.writerow(header)
+
         for rank, (player, s) in enumerate(sorted_players, 1):
-            writer.writerow([
+            row = [
                 rank, player,
                 s["total"], s["pct_of_max"],
                 s["questions"]["points"],
@@ -668,7 +736,10 @@ def score(fasit_path: str = None,
                 s["world_champion"] or "",
                 s["runner_up"]      or "",
                 s["third_place"]    or "",
-            ])
+            ]
+            if include_goals_progress:
+                row.append(s["goals_progress"]["points"])
+            writer.writerow(row)
 
     # --- fasit JSON ---
     with open(output_fasit_json, "w", encoding="utf-8") as f:
@@ -677,7 +748,8 @@ def score(fasit_path: str = None,
     print(f"\nWrote → {output_json}")
     print(f"Wrote → {output_csv}")
     print(f"Wrote → {output_fasit_json}")
-    print(f"\nMax possible score: {MAX_POINTS} pts")
+    print(f"\nMax possible score: {max_points} pts"
+          + ("  (incl. 30 for goals progress)" if include_goals_progress else ""))
 
 
 # ---------------------------------------------------------------------------
@@ -685,6 +757,23 @@ def score(fasit_path: str = None,
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    fasit_arg       = sys.argv[1] if len(sys.argv) > 1 else None
-    predictions_arg = sys.argv[2] if len(sys.argv) > 2 else None
-    score(fasit_arg, predictions_arg)
+    import argparse
+
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("fasit_path", nargs="?", default=None,
+                     help="Path to the fasit xlsx (default: fasit/world_cup_2026_fasit.xlsx)")
+    ap.add_argument("predictions_path", nargs="?", default=None,
+                     help="Path to predictions.json (default: gData/predictions.json)")
+    ap.add_argument("--include-goals-progress", action="store_true",
+                     help="Also score cumulative-goals progress from gData/goals_progress_points.json "
+                          "(run goals_progress_points.py first). Adds 30 to the max possible score.")
+    ap.add_argument("--goals-progress-json", default=None,
+                     help="Override path to goals_progress_points.json")
+    args = ap.parse_args()
+
+    score(
+        fasit_path=args.fasit_path,
+        predictions_path=args.predictions_path,
+        include_goals_progress=args.include_goals_progress,
+        goals_progress_json=args.goals_progress_json,
+    )

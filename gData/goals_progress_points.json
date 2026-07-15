@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "this_match": 104,
+    "fasit_cumulative_goals": 303,
+    "formula": "30 * exp(-|pred - actual| / (actual/10)); 30 if both 0 else 0 if actual==0"
+  },
+  "players": {
+    "Copy of World_cup_2026.TomC": {
+      "full_name": "Tom Christensen",
+      "predicted_cumulative_goals": 252,
+      "actual_cumulative_goals": 303,
+      "points": 6
+    },
+    "Copy of World_cup_2026_Jacob": {
+      "full_name": "Jacob Nyrup",
+      "predicted_cumulative_goals": 368,
+      "actual_cumulative_goals": 303,
+      "points": 4
+    },
+    "Copy of World_cup_2026_Jostein": {
+      "full_name": "Jostein Askim",
+      "predicted_cumulative_goals": 251,
+      "actual_cumulative_goals": 303,
+      "points": 5
+    },
+    "Gates_World_cup_2026": {
+      "full_name": "Scott Gates",
+      "predicted_cumulative_goals": 279,
+      "actual_cumulative_goals": 303,
+      "points": 14
+    },
+    "IWB_World_cup_2026": {
+      "full_name": "Ida Weseth Bjøru",
+      "predicted_cumulative_goals": 182,
+      "actual_cumulative_goals": 303,
+      "points": 1
+    },
+    "Jan_Erling_World_cup_2026": {
+      "full_name": "Jan Erling Klausen",
+      "predicted_cumulative_goals": 280,
+      "actual_cumulative_goals": 303,
+      "points": 14
+    },
+    "Kolltveit-World_cup_2026": {
+      "full_name": "Kristoffer Kolltveit",
+      "predicted_cumulative_goals": 317,
+      "actual_cumulative_goals": 303,
+      "points": 19
+    },
+    "Kopi av World_cup_2026-Elin Arntzen": {
+      "full_name": "Elin Arntzen",
+      "predicted_cumulative_goals": 280,
+      "actual_cumulative_goals": 303,
+      "points": 14
+    },
+    "Kopi av World_cup_2026_jh": {
+      "full_name": "Jon Hovi",
+      "predicted_cumulative_goals": 177,
+      "actual_cumulative_goals": 303,
+      "points": 0
+    },
+    "Maiken world_cup_2026": {
+      "full_name": "Maiken Røed",
+      "predicted_cumulative_goals": 290,
+      "actual_cumulative_goals": 303,
+      "points": 20
+    },
+    "Sandven_World_cup_2026": {
+      "full_name": "Hallvard Hodne Sandven",
+      "predicted_cumulative_goals": 235,
+      "actual_cumulative_goals": 303,
+      "points": 3
+    },
+    "Tone Vevatne - World Cup Competition 2026": {
+      "full_name": "Tone Vevatne",
+      "predicted_cumulative_goals": 278,
+      "actual_cumulative_goals": 303,
+      "points": 13
+    },
+    "World_cup_2026 (Kuyper)": {
+      "full_name": "Jonathan Kuyper",
+      "predicted_cumulative_goals": 255,
+      "actual_cumulative_goals": 303,
+      "points": 6
+    },
+    "World_cup_2026.gulli": {
+      "full_name": "Linda Gulli",
+      "predicted_cumulative_goals": 190,
+      "actual_cumulative_goals": 303,
+      "points": 1
+    },
+    "World_cup_2026_aase": {
+      "full_name": "Åse Gornitzka",
+      "predicted_cumulative_goals": 297,
+      "actual_cumulative_goals": 303,
+      "points": 25
+    },
+    "World_cup_2026_anna": {
+      "full_name": "Anna Helgøy",
+      "predicted_cumulative_goals": 221,
+      "actual_cumulative_goals": 303,
+      "points": 2
+    },
+    "World_cup_2026_Bjørn_F": {
+      "full_name": "Bjørn Fjærli",
+      "predicted_cumulative_goals": 276,
+      "actual_cumulative_goals": 303,
+      "points": 12
+    },
+    "World_cup_2026_CL": {
+      "full_name": "Christian Lehne",
+      "predicted_cumulative_goals": 305,
+      "actual_cumulative_goals": 303,
+      "points": 28
+    },
+    "World_cup_2026_Dagfinn": {
+      "full_name": "Dagfinn Hagen",
+      "predicted_cumulative_goals": 277,
+      "actual_cumulative_goals": 303,
+      "points": 13
+    },
+    "World_cup_2026_Daniel_Naurin": {
+      "full_name": "Daniel Naurin",
+      "predicted_cumulative_goals": 286,
+      "actual_cumulative_goals": 303,
+      "points": 17
+    },
+    "World_cup_2026_gabriel": {
+      "full_name": "Gabriel Lönn",
+      "predicted_cumulative_goals": 316,
+      "actual_cumulative_goals": 303,
+      "points": 20
+    },
+    "World_cup_2026_goldstein": {
+      "full_name": "Daniel Goldstein",
+      "predicted_cumulative_goals": 307,
+      "actual_cumulative_goals": 303,
+      "points": 26
+    },
+    "world_cup_2026_hs": {
+      "full_name": "Håvard Strand",
+      "predicted_cumulative_goals": 318,
+      "actual_cumulative_goals": 303,
+      "points": 18
+    },
+    "World_cup_2026_Jana Blahak": {
+      "full_name": "Jana Blahak",
+      "predicted_cumulative_goals": 304,
+      "actual_cumulative_goals": 303,
+      "points": 29
+    },
+    "World_cup_2026_javier": {
+      "full_name": "Javier Padilla",
+      "predicted_cumulative_goals": 217,
+      "actual_cumulative_goals": 303,
+      "points": 2
+    },
+    "World_cup_2026_JonasSchmid": {
+      "full_name": "Jonas Schmid",
+      "predicted_cumulative_goals": 151,
+      "actual_cumulative_goals": 303,
+      "points": 0
+    },
+    "World_cup_2026_Karin": {
+      "full_name": "Karin Dokken",
+      "predicted_cumulative_goals": 228,
+      "actual_cumulative_goals": 303,
+      "points": 3
+    },
+    "World_cup_2026_lutscher": {
+      "full_name": "Phillip Lutscher",
+      "predicted_cumulative_goals": 216,
+      "actual_cumulative_goals": 303,
+      "points": 2
+    },
+    "World_cup_2026_Martin_S": {
+      "full_name": "Martin Søyland",
+      "predicted_cumulative_goals": 329,
+      "actual_cumulative_goals": 303,
+      "points": 13
+    },
+    "World_cup_2026_MIRO": {
+      "full_name": "Miroslav Nemcok",
+      "predicted_cumulative_goals": 242,
+      "actual_cumulative_goals": 303,
+      "points": 4
+    },
+    "world_cup_2026_oyvind": {
+      "full_name": "Øyvind Colbjørnsen",
+      "predicted_cumulative_goals": 210,
+      "actual_cumulative_goals": 303,
+      "points": 1
+    },
+    "World_cup_2026_Povitkina": {
+      "full_name": "Marina Povitkina",
+      "predicted_cumulative_goals": 284,
+      "actual_cumulative_goals": 303,
+      "points": 16
+    },
+    "World_cup_2026_stiansen": {
+      "full_name": "Øyvind Stiansen",
+      "predicted_cumulative_goals": 229,
+      "actual_cumulative_goals": 303,
+      "points": 3
+    },
+    "World_cup_2026_StineHesstvedt_1106": {
+      "full_name": "Stine Hesstvedt",
+      "predicted_cumulative_goals": 285,
+      "actual_cumulative_goals": 303,
+      "points": 17
+    },
+    "World_cup_2026_Vilde Hernes": {
+      "full_name": "Vilde Hernes",
+      "predicted_cumulative_goals": 317,
+      "actual_cumulative_goals": 303,
+      "points": 19
+    },
+    "World_cup_2026_ØB": {
+      "full_name": "Øivind Bratberg",
+      "predicted_cumulative_goals": 236,
+      "actual_cumulative_goals": 303,
+      "points": 3
+    }
+  }
+}
