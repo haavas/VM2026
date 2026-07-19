@@ -1,9 +1,9 @@
 {
   "players": {
     "Copy of World_cup_2026.TomC": {
-      "total": 2200,
-      "max_possible": 4600,
-      "pct_of_max": 47.8,
+      "total": 2205,
+      "max_possible": 4630,
+      "pct_of_max": 47.6,
       "questions": {
         "points": 180,
         "correct": 6,
@@ -1388,12 +1388,17 @@
       },
       "world_champion": "France",
       "runner_up": "Portugal",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 5,
+        "predicted_cumulative_goals": 249,
+        "actual_cumulative_goals": 307
+      }
     },
     "Copy of World_cup_2026_Jacob": {
-      "total": 2025,
-      "max_possible": 4600,
-      "pct_of_max": 44.0,
+      "total": 2030,
+      "max_possible": 4630,
+      "pct_of_max": 43.8,
       "questions": {
         "points": 240,
         "correct": 8,
@@ -2778,12 +2783,17 @@
       },
       "world_champion": "Spain",
       "runner_up": "France",
-      "third_place": "Norway"
+      "third_place": "Norway",
+      "goals_progress": {
+        "points": 5,
+        "predicted_cumulative_goals": 365,
+        "actual_cumulative_goals": 307
+      }
     },
     "Copy of World_cup_2026_Jostein": {
-      "total": 2187,
-      "max_possible": 4600,
-      "pct_of_max": 47.5,
+      "total": 2192,
+      "max_possible": 4630,
+      "pct_of_max": 47.3,
       "questions": {
         "points": 180,
         "correct": 6,
@@ -4168,12 +4178,17 @@
       },
       "world_champion": "Spain",
       "runner_up": "England",
-      "third_place": "France"
+      "third_place": "France",
+      "goals_progress": {
+        "points": 5,
+        "predicted_cumulative_goals": 249,
+        "actual_cumulative_goals": 307
+      }
     },
     "Gates_World_cup_2026": {
-      "total": 2449,
-      "max_possible": 4600,
-      "pct_of_max": 53.2,
+      "total": 2460,
+      "max_possible": 4630,
+      "pct_of_max": 53.1,
       "questions": {
         "points": 210,
         "correct": 7,
@@ -5558,12 +5573,17 @@
       },
       "world_champion": "France",
       "runner_up": "England",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 11,
+        "predicted_cumulative_goals": 275,
+        "actual_cumulative_goals": 307
+      }
     },
     "IWB_World_cup_2026": {
-      "total": 2467,
-      "max_possible": 4600,
-      "pct_of_max": 53.6,
+      "total": 2468,
+      "max_possible": 4630,
+      "pct_of_max": 53.3,
       "questions": {
         "points": 270,
         "correct": 9,
@@ -6948,12 +6968,17 @@
       },
       "world_champion": "France",
       "runner_up": "Argentina",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 1,
+        "predicted_cumulative_goals": 182,
+        "actual_cumulative_goals": 307
+      }
     },
     "Jan_Erling_World_cup_2026": {
-      "total": 2353,
-      "max_possible": 4600,
-      "pct_of_max": 51.2,
+      "total": 2364,
+      "max_possible": 4630,
+      "pct_of_max": 51.1,
       "questions": {
         "points": 240,
         "correct": 8,
@@ -8338,12 +8363,17 @@
       },
       "world_champion": "Argentina",
       "runner_up": "France",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 11,
+        "predicted_cumulative_goals": 277,
+        "actual_cumulative_goals": 307
+      }
     },
     "Kolltveit-World_cup_2026": {
-      "total": 2215,
-      "max_possible": 4600,
-      "pct_of_max": 48.2,
+      "total": 2239,
+      "max_possible": 4630,
+      "pct_of_max": 48.4,
       "questions": {
         "points": 210,
         "correct": 7,
@@ -9728,12 +9758,17 @@
       },
       "world_champion": "France",
       "runner_up": "England",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 24,
+        "predicted_cumulative_goals": 314,
+        "actual_cumulative_goals": 307
+      }
     },
     "Kopi av World_cup_2026-Elin Arntzen": {
-      "total": 2406,
-      "max_possible": 4600,
-      "pct_of_max": 52.3,
+      "total": 2418,
+      "max_possible": 4630,
+      "pct_of_max": 52.2,
       "questions": {
         "points": 210,
         "correct": 7,
@@ -11118,12 +11153,17 @@
       },
       "world_champion": "Spain",
       "runner_up": "England",
-      "third_place": "France"
+      "third_place": "France",
+      "goals_progress": {
+        "points": 12,
+        "predicted_cumulative_goals": 278,
+        "actual_cumulative_goals": 307
+      }
     },
     "Kopi av World_cup_2026_jh": {
       "total": 2062,
-      "max_possible": 4600,
-      "pct_of_max": 44.8,
+      "max_possible": 4630,
+      "pct_of_max": 44.5,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -12508,11 +12548,16 @@
       },
       "world_champion": "Germany",
       "runner_up": "Ivory Coast",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 0,
+        "predicted_cumulative_goals": 176,
+        "actual_cumulative_goals": 307
+      }
     },
     "Maiken world_cup_2026": {
-      "total": 2458,
-      "max_possible": 4600,
+      "total": 2474,
+      "max_possible": 4630,
       "pct_of_max": 53.4,
       "questions": {
         "points": 180,
@@ -13898,12 +13943,17 @@
       },
       "world_champion": "France",
       "runner_up": "England",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 16,
+        "predicted_cumulative_goals": 287,
+        "actual_cumulative_goals": 307
+      }
     },
     "Sandven_World_cup_2026": {
-      "total": 2561,
-      "max_possible": 4600,
-      "pct_of_max": 55.7,
+      "total": 2564,
+      "max_possible": 4630,
+      "pct_of_max": 55.4,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -15288,12 +15338,17 @@
       },
       "world_champion": "Spain",
       "runner_up": "Argentina",
-      "third_place": "France"
+      "third_place": "France",
+      "goals_progress": {
+        "points": 3,
+        "predicted_cumulative_goals": 233,
+        "actual_cumulative_goals": 307
+      }
     },
     "Tone Vevatne - World Cup Competition 2026": {
-      "total": 2305,
-      "max_possible": 4600,
-      "pct_of_max": 50.1,
+      "total": 2315,
+      "max_possible": 4630,
+      "pct_of_max": 50.0,
       "questions": {
         "points": 180,
         "correct": 6,
@@ -16678,12 +16733,17 @@
       },
       "world_champion": "France",
       "runner_up": "Brazil",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 10,
+        "predicted_cumulative_goals": 274,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026 (Kuyper)": {
-      "total": 2090,
-      "max_possible": 4600,
-      "pct_of_max": 45.4,
+      "total": 2095,
+      "max_possible": 4630,
+      "pct_of_max": 45.2,
       "questions": {
         "points": 210,
         "correct": 7,
@@ -18068,12 +18128,17 @@
       },
       "world_champion": "Brazil",
       "runner_up": "France",
-      "third_place": "Portugal"
+      "third_place": "Portugal",
+      "goals_progress": {
+        "points": 5,
+        "predicted_cumulative_goals": 251,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026.gulli": {
-      "total": 2301,
-      "max_possible": 4600,
-      "pct_of_max": 50.0,
+      "total": 2302,
+      "max_possible": 4630,
+      "pct_of_max": 49.7,
       "questions": {
         "points": 180,
         "correct": 6,
@@ -19458,12 +19523,17 @@
       },
       "world_champion": "Brazil",
       "runner_up": "Spain",
-      "third_place": "Argentina"
+      "third_place": "Argentina",
+      "goals_progress": {
+        "points": 1,
+        "predicted_cumulative_goals": 187,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_aase": {
-      "total": 2476,
-      "max_possible": 4600,
-      "pct_of_max": 53.8,
+      "total": 2496,
+      "max_possible": 4630,
+      "pct_of_max": 53.9,
       "questions": {
         "points": 210,
         "correct": 7,
@@ -20848,12 +20918,17 @@
       },
       "world_champion": "Spain",
       "runner_up": "Argentina",
-      "third_place": "France"
+      "third_place": "France",
+      "goals_progress": {
+        "points": 20,
+        "predicted_cumulative_goals": 295,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_anna": {
-      "total": 2191,
-      "max_possible": 4600,
-      "pct_of_max": 47.6,
+      "total": 2263,
+      "max_possible": 4630,
+      "pct_of_max": 48.9,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -22231,19 +22306,24 @@
         ]
       },
       "medals": {
-        "points": 0,
+        "points": 70,
         "champion_pts": 0,
         "silver_pts": 0,
-        "bronze_pts": 0
+        "bronze_pts": 70
       },
       "world_champion": "France",
       "runner_up": "Argentina",
-      "third_place": "England"
+      "third_place": "England",
+      "goals_progress": {
+        "points": 2,
+        "predicted_cumulative_goals": 219,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_Bjørn_F": {
-      "total": 2510,
-      "max_possible": 4600,
-      "pct_of_max": 54.6,
+      "total": 2520,
+      "max_possible": 4630,
+      "pct_of_max": 54.4,
       "questions": {
         "points": 270,
         "correct": 9,
@@ -23628,12 +23708,17 @@
       },
       "world_champion": "England",
       "runner_up": "Spain",
-      "third_place": "France"
+      "third_place": "France",
+      "goals_progress": {
+        "points": 10,
+        "predicted_cumulative_goals": 274,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_CL": {
-      "total": 2539,
-      "max_possible": 4600,
-      "pct_of_max": 55.2,
+      "total": 2565,
+      "max_possible": 4630,
+      "pct_of_max": 55.4,
       "questions": {
         "points": 180,
         "correct": 6,
@@ -25018,12 +25103,17 @@
       },
       "world_champion": "England",
       "runner_up": "Spain",
-      "third_place": "Brazil"
+      "third_place": "Brazil",
+      "goals_progress": {
+        "points": 26,
+        "predicted_cumulative_goals": 303,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_Dagfinn": {
-      "total": 2079,
-      "max_possible": 4600,
-      "pct_of_max": 45.2,
+      "total": 2089,
+      "max_possible": 4630,
+      "pct_of_max": 45.1,
       "questions": {
         "points": 240,
         "correct": 8,
@@ -26408,11 +26498,16 @@
       },
       "world_champion": "France",
       "runner_up": "Portugal",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 10,
+        "predicted_cumulative_goals": 273,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_Daniel_Naurin": {
-      "total": 2316,
-      "max_possible": 4600,
+      "total": 2330,
+      "max_possible": 4630,
       "pct_of_max": 50.3,
       "questions": {
         "points": 120,
@@ -27798,12 +27893,17 @@
       },
       "world_champion": "France",
       "runner_up": "Ecuador",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 14,
+        "predicted_cumulative_goals": 284,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_gabriel": {
-      "total": 2404,
-      "max_possible": 4600,
-      "pct_of_max": 52.3,
+      "total": 2430,
+      "max_possible": 4630,
+      "pct_of_max": 52.5,
       "questions": {
         "points": 240,
         "correct": 8,
@@ -29188,12 +29288,17 @@
       },
       "world_champion": "Spain",
       "runner_up": "Argentina",
-      "third_place": "France"
+      "third_place": "France",
+      "goals_progress": {
+        "points": 26,
+        "predicted_cumulative_goals": 311,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_goldstein": {
-      "total": 2447,
-      "max_possible": 4600,
-      "pct_of_max": 53.2,
+      "total": 2472,
+      "max_possible": 4630,
+      "pct_of_max": 53.4,
       "questions": {
         "points": 180,
         "correct": 6,
@@ -30578,12 +30683,17 @@
       },
       "world_champion": "England",
       "runner_up": "Spain",
-      "third_place": "France"
+      "third_place": "France",
+      "goals_progress": {
+        "points": 25,
+        "predicted_cumulative_goals": 301,
+        "actual_cumulative_goals": 307
+      }
     },
     "world_cup_2026_hs": {
-      "total": 2425,
-      "max_possible": 4600,
-      "pct_of_max": 52.7,
+      "total": 2448,
+      "max_possible": 4630,
+      "pct_of_max": 52.9,
       "questions": {
         "points": 240,
         "correct": 8,
@@ -31968,12 +32078,17 @@
       },
       "world_champion": "England",
       "runner_up": "France",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 23,
+        "predicted_cumulative_goals": 315,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_Jana Blahak": {
-      "total": 2248,
-      "max_possible": 4600,
-      "pct_of_max": 48.9,
+      "total": 2272,
+      "max_possible": 4630,
+      "pct_of_max": 49.1,
       "questions": {
         "points": 180,
         "correct": 6,
@@ -33358,12 +33473,17 @@
       },
       "world_champion": "Mexico",
       "runner_up": "France",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 24,
+        "predicted_cumulative_goals": 300,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_javier": {
-      "total": 2196,
-      "max_possible": 4600,
-      "pct_of_max": 47.7,
+      "total": 2198,
+      "max_possible": 4630,
+      "pct_of_max": 47.5,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -34748,12 +34868,17 @@
       },
       "world_champion": "Spain",
       "runner_up": "Portugal",
-      "third_place": "France"
+      "third_place": "France",
+      "goals_progress": {
+        "points": 2,
+        "predicted_cumulative_goals": 216,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_JonasSchmid": {
       "total": 2358,
-      "max_possible": 4600,
-      "pct_of_max": 51.3,
+      "max_possible": 4630,
+      "pct_of_max": 50.9,
       "questions": {
         "points": 180,
         "correct": 6,
@@ -36138,12 +36263,17 @@
       },
       "world_champion": "Spain",
       "runner_up": "Brazil",
-      "third_place": "France"
+      "third_place": "France",
+      "goals_progress": {
+        "points": 0,
+        "predicted_cumulative_goals": 148,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_Karin": {
-      "total": 2374,
-      "max_possible": 4600,
-      "pct_of_max": 51.6,
+      "total": 2376,
+      "max_possible": 4630,
+      "pct_of_max": 51.3,
       "questions": {
         "points": 150,
         "correct": 5,
@@ -37528,12 +37658,17 @@
       },
       "world_champion": "France",
       "runner_up": "Argentina",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 2,
+        "predicted_cumulative_goals": 224,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_lutscher": {
-      "total": 2380,
-      "max_possible": 4600,
-      "pct_of_max": 51.7,
+      "total": 2381,
+      "max_possible": 4630,
+      "pct_of_max": 51.4,
       "questions": {
         "points": 210,
         "correct": 7,
@@ -38918,11 +39053,16 @@
       },
       "world_champion": "France",
       "runner_up": "Brazil",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 1,
+        "predicted_cumulative_goals": 214,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_Martin_S": {
-      "total": 1876,
-      "max_possible": 4600,
+      "total": 1891,
+      "max_possible": 4630,
       "pct_of_max": 40.8,
       "questions": {
         "points": 150,
@@ -40308,12 +40448,17 @@
       },
       "world_champion": "France",
       "runner_up": "Spain",
-      "third_place": "Norway"
+      "third_place": "Norway",
+      "goals_progress": {
+        "points": 15,
+        "predicted_cumulative_goals": 328,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_MIRO": {
-      "total": 2544,
-      "max_possible": 4600,
-      "pct_of_max": 55.3,
+      "total": 2547,
+      "max_possible": 4630,
+      "pct_of_max": 55.0,
       "questions": {
         "points": 210,
         "correct": 7,
@@ -41698,12 +41843,17 @@
       },
       "world_champion": "Spain",
       "runner_up": "Argentina",
-      "third_place": "France"
+      "third_place": "France",
+      "goals_progress": {
+        "points": 3,
+        "predicted_cumulative_goals": 239,
+        "actual_cumulative_goals": 307
+      }
     },
     "world_cup_2026_oyvind": {
-      "total": 2194,
-      "max_possible": 4600,
-      "pct_of_max": 47.7,
+      "total": 2195,
+      "max_possible": 4630,
+      "pct_of_max": 47.4,
       "questions": {
         "points": 210,
         "correct": 7,
@@ -43088,11 +43238,16 @@
       },
       "world_champion": "Spain",
       "runner_up": "Portugal",
-      "third_place": "Netherlands"
+      "third_place": "Netherlands",
+      "goals_progress": {
+        "points": 1,
+        "predicted_cumulative_goals": 209,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_Povitkina": {
-      "total": 1700,
-      "max_possible": 4600,
+      "total": 1713,
+      "max_possible": 4630,
       "pct_of_max": 37.0,
       "questions": {
         "points": 210,
@@ -44478,12 +44633,17 @@
       },
       "world_champion": "Portugal",
       "runner_up": "Spain",
-      "third_place": "Brazil"
+      "third_place": "Brazil",
+      "goals_progress": {
+        "points": 13,
+        "predicted_cumulative_goals": 282,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_stiansen": {
-      "total": 2179,
-      "max_possible": 4600,
-      "pct_of_max": 47.4,
+      "total": 2181,
+      "max_possible": 4630,
+      "pct_of_max": 47.1,
       "questions": {
         "points": 0,
         "correct": 0,
@@ -45787,11 +45947,16 @@
       },
       "world_champion": "Spain",
       "runner_up": "England",
-      "third_place": "France"
+      "third_place": "France",
+      "goals_progress": {
+        "points": 2,
+        "predicted_cumulative_goals": 226,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_StineHesstvedt_1106": {
-      "total": 2440,
-      "max_possible": 4600,
+      "total": 2453,
+      "max_possible": 4630,
       "pct_of_max": 53.0,
       "questions": {
         "points": 180,
@@ -47177,12 +47342,17 @@
       },
       "world_champion": "France",
       "runner_up": "Brazil",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 13,
+        "predicted_cumulative_goals": 281,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_Vilde Hernes": {
-      "total": 2143,
-      "max_possible": 4600,
-      "pct_of_max": 46.6,
+      "total": 2168,
+      "max_possible": 4630,
+      "pct_of_max": 46.8,
       "questions": {
         "points": 240,
         "correct": 8,
@@ -48567,12 +48737,17 @@
       },
       "world_champion": "Brazil",
       "runner_up": "France",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 25,
+        "predicted_cumulative_goals": 312,
+        "actual_cumulative_goals": 307
+      }
     },
     "World_cup_2026_ØB": {
-      "total": 2217,
-      "max_possible": 4600,
-      "pct_of_max": 48.2,
+      "total": 2220,
+      "max_possible": 4630,
+      "pct_of_max": 47.9,
       "questions": {
         "points": 210,
         "correct": 7,
@@ -49957,7 +50132,12 @@
       },
       "world_champion": "Argentina",
       "runner_up": "France",
-      "third_place": "Spain"
+      "third_place": "Spain",
+      "goals_progress": {
+        "points": 3,
+        "predicted_cumulative_goals": 232,
+        "actual_cumulative_goals": 307
+      }
     }
   }
 }

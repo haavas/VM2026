@@ -9,8 +9,73 @@
 <link>https://haavas.github.io/VM2026/</link>
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
-<generator>quarto-1.9.38</generator>
-<lastBuildDate>Wed, 15 Jul 2026 21:16:00 GMT</lastBuildDate>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Sun, 19 Jul 2026 08:31:00 GMT</lastBuildDate>
+<item>
+  <title>The bronze final was a silly game</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-07-19-the-bronze-final-was-a-silly-game/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="england---france-6---4." class="level1">
+<h1>England - France: 6 - 4.</h1>
+<p>They didn’t care, it seemed.</p>
+<p>Anna, alone, predicted England as the Bronze winner, and receives her 70 points. Well done!</p>
+<p>This is the current state of our competition. Christian is <strong>one</strong> point ahead of Hallvard, and 18 points ahead of Miroslav. Bjørn is 45 points behind.</p>
+<p>A Quick breakdown of the colors. Green is points from the group stage. Yellow is points from the knockout stage. Blue is points from the qualitative questions, and dark blue is the distribution of points from the question “How many goals will there be?” This is highlighted, as it is an estimate and subject to change based on the score tonight. Dark green is the 70 points awarded to Anna for the correct winner of the bronze final.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-07-19-the-bronze-final-was-a-silly-game/standings_stacked.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="a-review-of-the-remaining-questions" class="level1">
+<h1>A review of the remaining questions</h1>
+<section id="top-scorer" class="level2">
+<h2 class="anchored" data-anchor-id="top-scorer">Top Scorer</h2>
+<p>17 of us have Kylian Mbappé as top scorer, and the only other option in our group still possible is Yamal, but that is unlikely. Among the 17 Maiken is the top ranked.</p>
+</section>
+<section id="most-assists" class="level2">
+<h2 class="anchored" data-anchor-id="most-assists">Most assists</h2>
+<p>Michael Olise have 7 assists, and is unlikely to be replaced on top of this list. Anna, Karin, Jan Erling, Åse, Ida &amp; Jana are set to receive points here. Åse is currently top ranked in this group, but Jan Erling has Argentina as winner and the total sum of points here is starting to look interesting.</p>
+</section>
+<section id="number-of-games-with-extra-time" class="level2">
+<h2 class="anchored" data-anchor-id="number-of-games-with-extra-time">Number of games with extra time</h2>
+<p>So far the number is 8. Five of us have estimated 8 games, and Tom is the highest ranked among them. If the final can be added to this tally, three of us, Elin, Linda and Øyvind C., can collect points.</p>
+</section>
+<section id="number-of-penalty-shootouts." class="level2">
+<h2 class="anchored" data-anchor-id="number-of-penalty-shootouts.">Number of penalty shootouts.</h2>
+<p>So far the number is 4. Six of us has this estimate, and Hallvard Sandven is one of them! Three of us have estimaed 5 shootouts, including both Christian and Bjørn.</p>
+</section>
+<section id="final-penalty-shootout." class="level2">
+<h2 class="anchored" data-anchor-id="final-penalty-shootout.">Final penalty shootout.</h2>
+<p>Seven of us have guessed Yes, including Ida, Daniel, Stine and Elin.</p>
+</section>
+<section id="will-trump-hand-the-trophy-to-spain" class="level2">
+<h2 class="anchored" data-anchor-id="will-trump-hand-the-trophy-to-spain">Will Trump hand the trophy to Spain?</h2>
+<p>Eight of us answered no to this question, and among the eight are Hallvard, Maiken and Miroslav. It is entirely possible that Trump will decide our competiton after the end of the final game.</p>
+</section>
+</section>
+<section id="the-final-update" class="level1">
+<h1>The final update</h1>
+<p>I’m on night watch duty tonight, so the results might have to wait until Monday afternoon.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Update</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-07-19-the-bronze-final-was-a-silly-game/</guid>
+  <pubDate>Sun, 19 Jul 2026 08:31:00 GMT</pubDate>
+</item>
 <item>
   <title>Argentina beats England</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -2216,45 +2281,6 @@ font-style: inherit;">plot_ko_bracket</span>() </span></code></pre></div></div>
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-27-many-games-later/</guid>
   <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>South Africa writes history</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-25-south-africa-writes-history/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="south-africa-progresses-from-group-a" class="level1">
-<h1>South Africa progresses from group A</h1>
-<p>The World Cup started in the worst possible way for South Africa, but last night they made up for it with a historic win over South Korea. As Mexico rolled over Czechia, South Korea remain in third and are very likely to survive.</p>
-<section id="marocco-and-brasil-top-group-b" class="level2">
-<h2 class="anchored" data-anchor-id="marocco-and-brasil-top-group-b">Marocco and Brasil top group B</h2>
-<p>Haiti made a brave stand, but are out with three losses and zero points. Scotland is currently 7th in the table of the thirds, which is not as dire as it might sound. Several of the teams above have a splendid opportunity to worsen their goal difference in their last game.</p>
-</section>
-<section id="the-standings" class="level2">
-<h2 class="anchored" data-anchor-id="the-standings">The standings</h2>
-<p>Scott remain leader, 9 points ahead of Christian, who shared the Rocket of the Round medal with Stine. Both had 66 points out of 100. The stumbling block was South Africa - South Korea, which Marina got exactly right, and where Øivind predicted the correct result.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-25-south-africa-writes-history/standings.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-25-south-africa-writes-history/</guid>
-  <pubDate>Thu, 25 Jun 2026 08:20:30 GMT</pubDate>
 </item>
 </channel>
 </rss>

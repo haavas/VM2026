@@ -60,11 +60,12 @@ plot_standings_stacked <- function(this_match,
 
   category_pts <- purrr::imap_dfr(scores_raw$players, function(s, player) {
     tibble(
-      player    = player,
-      qs_pts    = s$questions$points   %||% 0L,
-      group_pts = s$group_stage$points %||% 0L,
-      ko_pts    = (s$knockout$points   %||% 0L) +
-                  (s$medals$points     %||% 0L)
+      player      = player,
+      qs_pts      = s$questions$points      %||% 0L,
+      group_pts   = s$group_stage$points    %||% 0L,
+      ko_pts      = s$knockout$points       %||% 0L,
+      medals_pts  = s$medals$points         %||% 0L,
+      goals_pts   = s$goals_progress$points %||% 0L
     )
   })
 
@@ -73,14 +74,15 @@ plot_standings_stacked <- function(this_match,
     select(full_name, player, cumulative) |>
     left_join(category_pts, by = "player") |>
     pivot_longer(
-      cols      = c(qs_pts, group_pts, ko_pts),
+      cols      = c(qs_pts, group_pts, ko_pts, medals_pts, goals_pts),
       names_to  = "category",
       values_to = "pts"
     ) |>
     mutate(
       category = factor(category,
-                        levels = c("qs_pts", "group_pts", "ko_pts"),
-                        labels = c("Qualitative", "Group stage", "Knockout"))
+                        levels = c("qs_pts", "group_pts", "ko_pts", "medals_pts", "goals_pts"),
+                        labels = c("Qualitative", "Group stage", "Knockout",
+                                   "Medals", "Goals progress"))
     )
 
   last_stage <- hbar |> pull(stage) |> first()
@@ -99,9 +101,11 @@ plot_standings_stacked <- function(this_match,
     ) +
     scale_fill_manual(
       values = c(
-        "Qualitative"  = "#5b9bd5",
-        "Group stage"  = "#70ad47",
-        "Knockout"     = "#ed7d31"
+        "Qualitative"    = "#2a78d6",
+        "Group stage"    = "#1baf7a",
+        "Knockout"       = "#eda100",
+        "Medals"         = "#008300",
+        "Goals progress" = "#4a3aa7"
       ),
       name = "Category"
     ) +

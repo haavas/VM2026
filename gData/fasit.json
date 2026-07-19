@@ -913,8 +913,8 @@
       "stage": "Third-Place Play-Off",
       "team1": "France",
       "team2": "England",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 4,
+      "team2_goals": 6,
       "team1_pen": null,
       "team2_pen": null,
       "play_order": 103
@@ -933,5 +933,5 @@
   ],
   "world_champion": null,
   "runner_up": null,
-  "third_place": null
+  "third_place": "England"
 }
