@@ -10,7 +10,45 @@
 <atom:link href="https://haavas.github.io/VM2026/index.xml" rel="self" type="application/rss+xml"/>
 <description>Political Science World Cup Prediction Competition</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Sun, 19 Jul 2026 08:31:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 19 Jul 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>We have a winner!</title>
+  <dc:creator>Håvard Strand</dc:creator>
+  <link>https://haavas.github.io/VM2026/posts/2026-07-20-we-have-a-winner/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="hallvard-hodne-sandven-is-the-2026-isv-champion" class="level1">
+<h1>Hallvard Hodne Sandven is the 2026 ISV Champion</h1>
+<p>Hallvard predicted the outcome of the final perfectly, and took home 300 points, enough to secure the title.</p>
+<p>Åse came second, by a margin of 38 points. The 2014 winner got 300 points from the final and 300 points from the qualitative questions. If the Bronze final had ended 0-0 and gone to penalties, instead of 6-4, we would have had a draw. But it didn’t and we didn’t and in the end it wasn’t that close.</p>
+<p>Miroslav came third, 47 points behind. He scored 1525 points in the knockout stage, and also got 300 points from the finals. However, he lost against Åse in the qualitative section and against Hallvard in the group stage.</p>
+<p>Congratulations to all three!</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://haavas.github.io/VM2026/posts/2026-07-20-we-have-a-winner/standings_stacked.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="internal-revision" class="level1">
+<h1>Internal Revision</h1>
+<p>Several have voiced concern over how the points are calculated, arguing that they are somewhat difficult to understand. As a response, a video will be produced shortly to explain in detail how this has been done. A detailed report can also be requested to see one’s points explained.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Conclusion</category>
+  <guid>https://haavas.github.io/VM2026/posts/2026-07-20-we-have-a-winner/</guid>
+  <pubDate>Sun, 19 Jul 2026 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>The bronze final was a silly game</title>
   <dc:creator>Håvard Strand</dc:creator>
@@ -2252,35 +2290,6 @@ font-style: inherit;">plot_ko_bracket</span>() </span></code></pre></div></div>
   <category>Update</category>
   <guid>https://haavas.github.io/VM2026/posts/2026-06-27-cabo-verde-is-through/</guid>
   <pubDate>Sat, 27 Jun 2026 07:44:00 GMT</pubDate>
-</item>
-<item>
-  <title>Many games later</title>
-  <dc:creator>Håvard Strand</dc:creator>
-  <link>https://haavas.github.io/VM2026/posts/2026-06-27-many-games-later/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Eight games have been played since the last update. Scott, the previous leader is now in fifth, but only 28 points behind Christian. However, Stine has had a tremendous spell and is now just 7 points behind Christian.</p>
-<p>Stine and Martin are the Rockets of the Round.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://haavas.github.io/VM2026/posts/2026-06-27-many-games-later/standings.png" class="img-fluid figure-img" width="750"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-
- ]]></description>
-  <category>Update</category>
-  <guid>https://haavas.github.io/VM2026/posts/2026-06-27-many-games-later/</guid>
-  <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

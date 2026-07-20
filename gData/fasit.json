@@ -924,14 +924,14 @@
       "stage": "Final",
       "team1": "Spain",
       "team2": "Argentina",
-      "team1_goals": null,
-      "team2_goals": null,
+      "team1_goals": 1,
+      "team2_goals": 0,
       "team1_pen": null,
       "team2_pen": null,
       "play_order": 104
     }
   ],
-  "world_champion": null,
-  "runner_up": null,
+  "world_champion": "Spain",
+  "runner_up": "Argentina",
   "third_place": "England"
 }

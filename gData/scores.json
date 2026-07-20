@@ -1,12 +1,12 @@
 {
   "players": {
     "Copy of World_cup_2026.TomC": {
-      "total": 2205,
+      "total": 2265,
       "max_possible": 4630,
-      "pct_of_max": 47.6,
+      "pct_of_max": 48.9,
       "questions": {
-        "points": 180,
-        "correct": 6,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -15,18 +15,18 @@
           },
           "top_scorer": {
             "predicted": "Harry Kane",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Bruno Fernandes",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -35,12 +35,12 @@
           },
           "games_extra_time": {
             "predicted": 8.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 6.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -84,9 +84,9 @@
             "correct": false
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -1396,12 +1396,12 @@
       }
     },
     "Copy of World_cup_2026_Jacob": {
-      "total": 2030,
+      "total": 2320,
       "max_possible": 4630,
-      "pct_of_max": 43.8,
+      "pct_of_max": 50.1,
       "questions": {
-        "points": 240,
-        "correct": 8,
+        "points": 330,
+        "correct": 11,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -1410,18 +1410,18 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Harry Kane",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -1430,12 +1430,12 @@
           },
           "games_extra_time": {
             "predicted": 10.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 6.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -1479,9 +1479,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -2776,8 +2776,8 @@
         ]
       },
       "medals": {
-        "points": 0,
-        "champion_pts": 0,
+        "points": 200,
+        "champion_pts": 200,
         "silver_pts": 0,
         "bronze_pts": 0
       },
@@ -2791,12 +2791,12 @@
       }
     },
     "Copy of World_cup_2026_Jostein": {
-      "total": 2192,
+      "total": 2422,
       "max_possible": 4630,
-      "pct_of_max": 47.3,
+      "pct_of_max": 52.3,
       "questions": {
-        "points": 180,
-        "correct": 6,
+        "points": 210,
+        "correct": 7,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -2805,17 +2805,17 @@
           },
           "top_scorer": {
             "predicted": "Harry Kane",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Bruno Fernandes",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "seven_plus_red_cards": {
@@ -2825,12 +2825,12 @@
           },
           "games_extra_time": {
             "predicted": 14.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 10.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -2874,9 +2874,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -4171,8 +4171,8 @@
         ]
       },
       "medals": {
-        "points": 0,
-        "champion_pts": 0,
+        "points": 200,
+        "champion_pts": 200,
         "silver_pts": 0,
         "bronze_pts": 0
       },
@@ -4186,12 +4186,12 @@
       }
     },
     "Gates_World_cup_2026": {
-      "total": 2460,
+      "total": 2550,
       "max_possible": 4630,
-      "pct_of_max": 53.1,
+      "pct_of_max": 55.1,
       "questions": {
-        "points": 210,
-        "correct": 7,
+        "points": 300,
+        "correct": 10,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -4200,18 +4200,18 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Elliot Anderson",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -4220,12 +4220,12 @@
           },
           "games_extra_time": {
             "predicted": 11.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 7.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -4269,9 +4269,9 @@
             "correct": false
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -5581,12 +5581,12 @@
       }
     },
     "IWB_World_cup_2026": {
-      "total": 2468,
+      "total": 2628,
       "max_possible": 4630,
-      "pct_of_max": 53.3,
+      "pct_of_max": 56.8,
       "questions": {
-        "points": 270,
-        "correct": 9,
+        "points": 330,
+        "correct": 11,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -5595,17 +5595,17 @@
           },
           "top_scorer": {
             "predicted": "Erling Braut Haaland",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Michael Olise",
-            "actual": null,
-            "correct": false
+            "actual": "Michael Olise",
+            "correct": true
           },
           "final_penalty_shootout": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "seven_plus_red_cards": {
@@ -5615,12 +5615,12 @@
           },
           "games_extra_time": {
             "predicted": 3.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 3.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -5664,9 +5664,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -6961,9 +6961,9 @@
         ]
       },
       "medals": {
-        "points": 0,
+        "points": 100,
         "champion_pts": 0,
-        "silver_pts": 0,
+        "silver_pts": 100,
         "bronze_pts": 0
       },
       "world_champion": "France",
@@ -6976,12 +6976,12 @@
       }
     },
     "Jan_Erling_World_cup_2026": {
-      "total": 2364,
+      "total": 2484,
       "max_possible": 4630,
-      "pct_of_max": 51.1,
+      "pct_of_max": 53.7,
       "questions": {
-        "points": 240,
-        "correct": 8,
+        "points": 360,
+        "correct": 12,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -6990,18 +6990,18 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Michael Olise",
-            "actual": null,
-            "correct": false
+            "actual": "Michael Olise",
+            "correct": true
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -7010,12 +7010,12 @@
           },
           "games_extra_time": {
             "predicted": 16.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 10.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -7059,9 +7059,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -8371,12 +8371,12 @@
       }
     },
     "Kolltveit-World_cup_2026": {
-      "total": 2239,
+      "total": 2299,
       "max_possible": 4630,
-      "pct_of_max": 48.4,
+      "pct_of_max": 49.7,
       "questions": {
-        "points": 210,
-        "correct": 7,
+        "points": 270,
+        "correct": 9,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -8385,18 +8385,18 @@
           },
           "top_scorer": {
             "predicted": "Harry Kane",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Désiré Doué",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -8405,12 +8405,12 @@
           },
           "games_extra_time": {
             "predicted": 3.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 2.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -8454,9 +8454,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -9766,12 +9766,12 @@
       }
     },
     "Kopi av World_cup_2026-Elin Arntzen": {
-      "total": 2418,
+      "total": 2708,
       "max_possible": 4630,
-      "pct_of_max": 52.2,
+      "pct_of_max": 58.5,
       "questions": {
-        "points": 210,
-        "correct": 7,
+        "points": 300,
+        "correct": 10,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -9780,17 +9780,17 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Lamine Yamal",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "seven_plus_red_cards": {
@@ -9800,12 +9800,12 @@
           },
           "games_extra_time": {
             "predicted": 9.0,
-            "actual": null,
-            "correct": false
+            "actual": 9.0,
+            "correct": true
           },
           "games_penalty_shootout": {
             "predicted": 6.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -9849,9 +9849,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -11146,8 +11146,8 @@
         ]
       },
       "medals": {
-        "points": 0,
-        "champion_pts": 0,
+        "points": 200,
+        "champion_pts": 200,
         "silver_pts": 0,
         "bronze_pts": 0
       },
@@ -11161,12 +11161,12 @@
       }
     },
     "Kopi av World_cup_2026_jh": {
-      "total": 2062,
+      "total": 2122,
       "max_possible": 4630,
-      "pct_of_max": 44.5,
+      "pct_of_max": 45.8,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 210,
+        "correct": 7,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -11175,18 +11175,18 @@
           },
           "top_scorer": {
             "predicted": "Erling Braut Haaland",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Oscar Bobb",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -11195,12 +11195,12 @@
           },
           "games_extra_time": {
             "predicted": 8.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 6.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -11244,9 +11244,9 @@
             "correct": false
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -12556,12 +12556,12 @@
       }
     },
     "Maiken world_cup_2026": {
-      "total": 2474,
+      "total": 2564,
       "max_possible": 4630,
-      "pct_of_max": 53.4,
+      "pct_of_max": 55.4,
       "questions": {
-        "points": 180,
-        "correct": 6,
+        "points": 270,
+        "correct": 9,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -12570,18 +12570,18 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Bruno Fernandes",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "No",
@@ -12590,13 +12590,13 @@
           },
           "games_extra_time": {
             "predicted": 7.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 4.0,
-            "actual": null,
-            "correct": false
+            "actual": 4.0,
+            "correct": true
           },
           "haaland_goals": {
             "predicted": 4,
@@ -12639,8 +12639,8 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
-            "actual": null,
+            "predicted": "No",
+            "actual": "Yes",
             "correct": false
           }
         }
@@ -13951,12 +13951,12 @@
       }
     },
     "Sandven_World_cup_2026": {
-      "total": 2564,
+      "total": 2924,
       "max_possible": 4630,
-      "pct_of_max": 55.4,
+      "pct_of_max": 63.2,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 210,
+        "correct": 7,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -13965,18 +13965,18 @@
           },
           "top_scorer": {
             "predicted": "Harry Kane",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Lamine Yamal",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "No",
@@ -13985,13 +13985,13 @@
           },
           "games_extra_time": {
             "predicted": 10.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 4.0,
-            "actual": null,
-            "correct": false
+            "actual": 4.0,
+            "correct": true
           },
           "haaland_goals": {
             "predicted": 4,
@@ -14034,8 +14034,8 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
-            "actual": null,
+            "predicted": "No",
+            "actual": "Yes",
             "correct": false
           }
         }
@@ -15331,9 +15331,9 @@
         ]
       },
       "medals": {
-        "points": 0,
-        "champion_pts": 0,
-        "silver_pts": 0,
+        "points": 300,
+        "champion_pts": 200,
+        "silver_pts": 100,
         "bronze_pts": 0
       },
       "world_champion": "Spain",
@@ -15346,12 +15346,12 @@
       }
     },
     "Tone Vevatne - World Cup Competition 2026": {
-      "total": 2315,
+      "total": 2375,
       "max_possible": 4630,
-      "pct_of_max": 50.0,
+      "pct_of_max": 51.3,
       "questions": {
-        "points": 180,
-        "correct": 6,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -15360,18 +15360,18 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Bruno Fernandes",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "No",
@@ -15380,12 +15380,12 @@
           },
           "games_extra_time": {
             "predicted": 11.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 5.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -15429,8 +15429,8 @@
             "correct": false
           },
           "trump_trophy": {
-            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
-            "actual": null,
+            "predicted": "No",
+            "actual": "Yes",
             "correct": false
           }
         }
@@ -16741,12 +16741,12 @@
       }
     },
     "World_cup_2026 (Kuyper)": {
-      "total": 2095,
+      "total": 2155,
       "max_possible": 4630,
-      "pct_of_max": 45.2,
+      "pct_of_max": 46.5,
       "questions": {
-        "points": 210,
-        "correct": 7,
+        "points": 270,
+        "correct": 9,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -16755,18 +16755,18 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Erling Braut Haaland",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -16775,12 +16775,12 @@
           },
           "games_extra_time": {
             "predicted": 8.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 6.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -16824,8 +16824,8 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
-            "actual": null,
+            "predicted": "No",
+            "actual": "Yes",
             "correct": false
           }
         }
@@ -18136,12 +18136,12 @@
       }
     },
     "World_cup_2026.gulli": {
-      "total": 2302,
+      "total": 2362,
       "max_possible": 4630,
-      "pct_of_max": 49.7,
+      "pct_of_max": 51.0,
       "questions": {
-        "points": 180,
-        "correct": 6,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -18150,18 +18150,18 @@
           },
           "top_scorer": {
             "predicted": "Lamine Yamal",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Harry Kane",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -18170,12 +18170,12 @@
           },
           "games_extra_time": {
             "predicted": 9.0,
-            "actual": null,
-            "correct": false
+            "actual": 9.0,
+            "correct": true
           },
           "games_penalty_shootout": {
             "predicted": 6.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -18220,7 +18220,7 @@
           },
           "trump_trophy": {
             "predicted": null,
-            "actual": null,
+            "actual": "Yes",
             "correct": false
           }
         }
@@ -19531,12 +19531,12 @@
       }
     },
     "World_cup_2026_aase": {
-      "total": 2496,
+      "total": 2886,
       "max_possible": 4630,
-      "pct_of_max": 53.9,
+      "pct_of_max": 62.3,
       "questions": {
-        "points": 210,
-        "correct": 7,
+        "points": 300,
+        "correct": 10,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -19545,18 +19545,18 @@
           },
           "top_scorer": {
             "predicted": "Erling Braut Haaland",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Michael Olise",
-            "actual": null,
-            "correct": false
+            "actual": "Michael Olise",
+            "correct": true
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -19565,12 +19565,12 @@
           },
           "games_extra_time": {
             "predicted": 12.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 9.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -19614,9 +19614,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -20911,9 +20911,9 @@
         ]
       },
       "medals": {
-        "points": 0,
-        "champion_pts": 0,
-        "silver_pts": 0,
+        "points": 300,
+        "champion_pts": 200,
+        "silver_pts": 100,
         "bronze_pts": 0
       },
       "world_champion": "Spain",
@@ -20926,12 +20926,12 @@
       }
     },
     "World_cup_2026_anna": {
-      "total": 2263,
+      "total": 2453,
       "max_possible": 4630,
-      "pct_of_max": 48.9,
+      "pct_of_max": 53.0,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -20940,18 +20940,18 @@
           },
           "top_scorer": {
             "predicted": "Harry Kane",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Michael Olise",
-            "actual": null,
-            "correct": false
+            "actual": "Michael Olise",
+            "correct": true
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -20960,12 +20960,12 @@
           },
           "games_extra_time": {
             "predicted": null,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": null,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -21009,9 +21009,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -22306,9 +22306,9 @@
         ]
       },
       "medals": {
-        "points": 70,
+        "points": 170,
         "champion_pts": 0,
-        "silver_pts": 0,
+        "silver_pts": 100,
         "bronze_pts": 70
       },
       "world_champion": "France",
@@ -22321,12 +22321,12 @@
       }
     },
     "World_cup_2026_Bjørn_F": {
-      "total": 2520,
+      "total": 2580,
       "max_possible": 4630,
-      "pct_of_max": 54.4,
+      "pct_of_max": 55.7,
       "questions": {
-        "points": 270,
-        "correct": 9,
+        "points": 330,
+        "correct": 11,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -22335,18 +22335,18 @@
           },
           "top_scorer": {
             "predicted": "Erling Braut Haaland",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Ousmane Dembélé",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -22355,12 +22355,12 @@
           },
           "games_extra_time": {
             "predicted": 10.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 5.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -22404,9 +22404,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -23716,12 +23716,12 @@
       }
     },
     "World_cup_2026_CL": {
-      "total": 2565,
+      "total": 2655,
       "max_possible": 4630,
-      "pct_of_max": 55.4,
+      "pct_of_max": 57.3,
       "questions": {
-        "points": 180,
-        "correct": 6,
+        "points": 270,
+        "correct": 9,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -23730,18 +23730,18 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Bruno Fernandes",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -23750,12 +23750,12 @@
           },
           "games_extra_time": {
             "predicted": 7.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 5.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -23799,9 +23799,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -25111,12 +25111,12 @@
       }
     },
     "World_cup_2026_Dagfinn": {
-      "total": 2089,
+      "total": 2179,
       "max_possible": 4630,
-      "pct_of_max": 45.1,
+      "pct_of_max": 47.1,
       "questions": {
-        "points": 240,
-        "correct": 8,
+        "points": 330,
+        "correct": 11,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -25125,18 +25125,18 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Bruno Fernandes",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -25145,12 +25145,12 @@
           },
           "games_extra_time": {
             "predicted": 10.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 6.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -25194,9 +25194,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -26506,12 +26506,12 @@
       }
     },
     "World_cup_2026_Daniel_Naurin": {
-      "total": 2330,
+      "total": 2390,
       "max_possible": 4630,
-      "pct_of_max": 50.3,
+      "pct_of_max": 51.6,
       "questions": {
-        "points": 120,
-        "correct": 4,
+        "points": 180,
+        "correct": 6,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -26520,18 +26520,18 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Bruno Fernandes",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -26540,12 +26540,12 @@
           },
           "games_extra_time": {
             "predicted": 11.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 7.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -26589,8 +26589,8 @@
             "correct": false
           },
           "trump_trophy": {
-            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
-            "actual": null,
+            "predicted": "No",
+            "actual": "Yes",
             "correct": false
           }
         }
@@ -27901,12 +27901,12 @@
       }
     },
     "World_cup_2026_gabriel": {
-      "total": 2430,
+      "total": 2820,
       "max_possible": 4630,
-      "pct_of_max": 52.5,
+      "pct_of_max": 60.9,
       "questions": {
-        "points": 240,
-        "correct": 8,
+        "points": 330,
+        "correct": 11,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -27915,18 +27915,18 @@
           },
           "top_scorer": {
             "predicted": "Lamine Yamal",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Lionel Messi",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -27935,13 +27935,13 @@
           },
           "games_extra_time": {
             "predicted": 7.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 4.0,
-            "actual": null,
-            "correct": false
+            "actual": 4.0,
+            "correct": true
           },
           "haaland_goals": {
             "predicted": 4,
@@ -27984,9 +27984,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -29281,9 +29281,9 @@
         ]
       },
       "medals": {
-        "points": 0,
-        "champion_pts": 0,
-        "silver_pts": 0,
+        "points": 300,
+        "champion_pts": 200,
+        "silver_pts": 100,
         "bronze_pts": 0
       },
       "world_champion": "Spain",
@@ -29296,12 +29296,12 @@
       }
     },
     "World_cup_2026_goldstein": {
-      "total": 2472,
+      "total": 2532,
       "max_possible": 4630,
-      "pct_of_max": 53.4,
+      "pct_of_max": 54.7,
       "questions": {
-        "points": 180,
-        "correct": 6,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -29310,17 +29310,17 @@
           },
           "top_scorer": {
             "predicted": "Harry Kane",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Lamine Yamal",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "seven_plus_red_cards": {
@@ -29330,12 +29330,12 @@
           },
           "games_extra_time": {
             "predicted": 9.0,
-            "actual": null,
-            "correct": false
+            "actual": 9.0,
+            "correct": true
           },
           "games_penalty_shootout": {
             "predicted": 8.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -29379,9 +29379,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -30691,12 +30691,12 @@
       }
     },
     "world_cup_2026_hs": {
-      "total": 2448,
+      "total": 2508,
       "max_possible": 4630,
-      "pct_of_max": 52.9,
+      "pct_of_max": 54.2,
       "questions": {
-        "points": 240,
-        "correct": 8,
+        "points": 300,
+        "correct": 10,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -30705,18 +30705,18 @@
           },
           "top_scorer": {
             "predicted": "Harry Kane",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Bruno Fernandes",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -30725,12 +30725,12 @@
           },
           "games_extra_time": {
             "predicted": 5.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 3.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -30774,9 +30774,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -32086,12 +32086,12 @@
       }
     },
     "World_cup_2026_Jana Blahak": {
-      "total": 2272,
+      "total": 2332,
       "max_possible": 4630,
-      "pct_of_max": 49.1,
+      "pct_of_max": 50.4,
       "questions": {
-        "points": 180,
-        "correct": 6,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -32100,18 +32100,18 @@
           },
           "top_scorer": {
             "predicted": "Edin Dzeko",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Michael Olise",
-            "actual": null,
-            "correct": false
+            "actual": "Michael Olise",
+            "correct": true
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -32120,12 +32120,12 @@
           },
           "games_extra_time": {
             "predicted": 10.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 8.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -32169,8 +32169,8 @@
             "correct": false
           },
           "trump_trophy": {
-            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
-            "actual": null,
+            "predicted": "No",
+            "actual": "Yes",
             "correct": false
           }
         }
@@ -33481,12 +33481,12 @@
       }
     },
     "World_cup_2026_javier": {
-      "total": 2198,
+      "total": 2488,
       "max_possible": 4630,
-      "pct_of_max": 47.5,
+      "pct_of_max": 53.7,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -33495,18 +33495,18 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Lamine Yamal",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -33515,12 +33515,12 @@
           },
           "games_extra_time": {
             "predicted": 5.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 3.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -33564,9 +33564,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -34861,8 +34861,8 @@
         ]
       },
       "medals": {
-        "points": 0,
-        "champion_pts": 0,
+        "points": 200,
+        "champion_pts": 200,
         "silver_pts": 0,
         "bronze_pts": 0
       },
@@ -34876,12 +34876,12 @@
       }
     },
     "World_cup_2026_JonasSchmid": {
-      "total": 2358,
+      "total": 2648,
       "max_possible": 4630,
-      "pct_of_max": 50.9,
+      "pct_of_max": 57.2,
       "questions": {
-        "points": 180,
-        "correct": 6,
+        "points": 270,
+        "correct": 9,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -34890,18 +34890,18 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Bruno Fernandes",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -34910,12 +34910,12 @@
           },
           "games_extra_time": {
             "predicted": 6.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 3.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -34959,9 +34959,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -36256,8 +36256,8 @@
         ]
       },
       "medals": {
-        "points": 0,
-        "champion_pts": 0,
+        "points": 200,
+        "champion_pts": 200,
         "silver_pts": 0,
         "bronze_pts": 0
       },
@@ -36271,12 +36271,12 @@
       }
     },
     "World_cup_2026_Karin": {
-      "total": 2376,
+      "total": 2596,
       "max_possible": 4630,
-      "pct_of_max": 51.3,
+      "pct_of_max": 56.1,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 270,
+        "correct": 9,
         "detail": {
           "first_goal_team": {
             "predicted": "South Africa",
@@ -36285,18 +36285,18 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Michael Olise",
-            "actual": null,
-            "correct": false
+            "actual": "Michael Olise",
+            "correct": true
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -36305,12 +36305,12 @@
           },
           "games_extra_time": {
             "predicted": 4.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 3.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -36354,9 +36354,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -37651,9 +37651,9 @@
         ]
       },
       "medals": {
-        "points": 0,
+        "points": 100,
         "champion_pts": 0,
-        "silver_pts": 0,
+        "silver_pts": 100,
         "bronze_pts": 0
       },
       "world_champion": "France",
@@ -37666,12 +37666,12 @@
       }
     },
     "World_cup_2026_lutscher": {
-      "total": 2381,
+      "total": 2501,
       "max_possible": 4630,
-      "pct_of_max": 51.4,
+      "pct_of_max": 54.0,
       "questions": {
-        "points": 210,
-        "correct": 7,
+        "points": 330,
+        "correct": 11,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -37680,18 +37680,18 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Bruno Fernandes",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -37700,13 +37700,13 @@
           },
           "games_extra_time": {
             "predicted": 6.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 4.0,
-            "actual": null,
-            "correct": false
+            "actual": 4.0,
+            "correct": true
           },
           "haaland_goals": {
             "predicted": 5,
@@ -37749,9 +37749,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -39061,12 +39061,12 @@
       }
     },
     "World_cup_2026_Martin_S": {
-      "total": 1891,
+      "total": 1951,
       "max_possible": 4630,
-      "pct_of_max": 40.8,
+      "pct_of_max": 42.1,
       "questions": {
-        "points": 150,
-        "correct": 5,
+        "points": 210,
+        "correct": 7,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -39075,18 +39075,18 @@
           },
           "top_scorer": {
             "predicted": "Harry Kane",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Bruno Fernandes",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "No",
@@ -39095,12 +39095,12 @@
           },
           "games_extra_time": {
             "predicted": 6.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 3.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -39144,9 +39144,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -40456,12 +40456,12 @@
       }
     },
     "World_cup_2026_MIRO": {
-      "total": 2547,
+      "total": 2877,
       "max_possible": 4630,
-      "pct_of_max": 55.0,
+      "pct_of_max": 62.1,
       "questions": {
-        "points": 210,
-        "correct": 7,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -40470,18 +40470,18 @@
           },
           "top_scorer": {
             "predicted": "Erling Braut Haaland",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Kevin De Bruyne",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -40490,12 +40490,12 @@
           },
           "games_extra_time": {
             "predicted": 17.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 6.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -40539,8 +40539,8 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
-            "actual": null,
+            "predicted": "No",
+            "actual": "Yes",
             "correct": false
           }
         }
@@ -41836,9 +41836,9 @@
         ]
       },
       "medals": {
-        "points": 0,
-        "champion_pts": 0,
-        "silver_pts": 0,
+        "points": 300,
+        "champion_pts": 200,
+        "silver_pts": 100,
         "bronze_pts": 0
       },
       "world_champion": "Spain",
@@ -41851,12 +41851,12 @@
       }
     },
     "world_cup_2026_oyvind": {
-      "total": 2195,
+      "total": 2485,
       "max_possible": 4630,
-      "pct_of_max": 47.4,
+      "pct_of_max": 53.7,
       "questions": {
-        "points": 210,
-        "correct": 7,
+        "points": 300,
+        "correct": 10,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -41865,18 +41865,18 @@
           },
           "top_scorer": {
             "predicted": "Harry Kane",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Pedri",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -41885,13 +41885,13 @@
           },
           "games_extra_time": {
             "predicted": 9.0,
-            "actual": null,
-            "correct": false
+            "actual": 9.0,
+            "correct": true
           },
           "games_penalty_shootout": {
             "predicted": 4.0,
-            "actual": null,
-            "correct": false
+            "actual": 4.0,
+            "correct": true
           },
           "haaland_goals": {
             "predicted": 4,
@@ -41934,8 +41934,8 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Of course not. He will leave the podium to make sure that the team that won get the attention they deserve",
-            "actual": null,
+            "predicted": "No",
+            "actual": "Yes",
             "correct": false
           }
         }
@@ -43231,8 +43231,8 @@
         ]
       },
       "medals": {
-        "points": 0,
-        "champion_pts": 0,
+        "points": 200,
+        "champion_pts": 200,
         "silver_pts": 0,
         "bronze_pts": 0
       },
@@ -43246,12 +43246,12 @@
       }
     },
     "World_cup_2026_Povitkina": {
-      "total": 1713,
+      "total": 1803,
       "max_possible": 4630,
-      "pct_of_max": 37.0,
+      "pct_of_max": 38.9,
       "questions": {
-        "points": 210,
-        "correct": 7,
+        "points": 300,
+        "correct": 10,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -43260,18 +43260,18 @@
           },
           "top_scorer": {
             "predicted": null,
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Lionel Messi",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -43280,13 +43280,13 @@
           },
           "games_extra_time": {
             "predicted": 8.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 4.0,
-            "actual": null,
-            "correct": false
+            "actual": 4.0,
+            "correct": true
           },
           "haaland_goals": {
             "predicted": 1,
@@ -43329,9 +43329,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -44641,9 +44641,9 @@
       }
     },
     "World_cup_2026_stiansen": {
-      "total": 2181,
+      "total": 2381,
       "max_possible": 4630,
-      "pct_of_max": 47.1,
+      "pct_of_max": 51.4,
       "questions": {
         "points": 0,
         "correct": 0,
@@ -45940,8 +45940,8 @@
         ]
       },
       "medals": {
-        "points": 0,
-        "champion_pts": 0,
+        "points": 200,
+        "champion_pts": 200,
         "silver_pts": 0,
         "bronze_pts": 0
       },
@@ -45955,12 +45955,12 @@
       }
     },
     "World_cup_2026_StineHesstvedt_1106": {
-      "total": 2453,
+      "total": 2513,
       "max_possible": 4630,
-      "pct_of_max": 53.0,
+      "pct_of_max": 54.3,
       "questions": {
-        "points": 180,
-        "correct": 6,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -45969,17 +45969,17 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Lamine Yamal",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "seven_plus_red_cards": {
@@ -45989,12 +45989,12 @@
           },
           "games_extra_time": {
             "predicted": 10.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 8.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -46038,9 +46038,9 @@
             "correct": false
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -47350,12 +47350,12 @@
       }
     },
     "World_cup_2026_Vilde Hernes": {
-      "total": 2168,
+      "total": 2258,
       "max_possible": 4630,
-      "pct_of_max": 46.8,
+      "pct_of_max": 48.8,
       "questions": {
-        "points": 240,
-        "correct": 8,
+        "points": 330,
+        "correct": 11,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -47364,18 +47364,18 @@
           },
           "top_scorer": {
             "predicted": "Kylian Mbappé",
-            "actual": null,
-            "correct": false
+            "actual": "Kylian Mbappé",
+            "correct": true
           },
           "assist_king": {
             "predicted": "Achraf Hakimi",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "No",
-            "actual": null,
-            "correct": false
+            "actual": "No",
+            "correct": true
           },
           "seven_plus_red_cards": {
             "predicted": "Yes",
@@ -47384,12 +47384,12 @@
           },
           "games_extra_time": {
             "predicted": 8.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 6.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -47433,9 +47433,9 @@
             "correct": true
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },
@@ -48745,12 +48745,12 @@
       }
     },
     "World_cup_2026_ØB": {
-      "total": 2220,
+      "total": 2250,
       "max_possible": 4630,
-      "pct_of_max": 47.9,
+      "pct_of_max": 48.6,
       "questions": {
-        "points": 210,
-        "correct": 7,
+        "points": 240,
+        "correct": 8,
         "detail": {
           "first_goal_team": {
             "predicted": "Mexico",
@@ -48759,17 +48759,17 @@
           },
           "top_scorer": {
             "predicted": "Harry Kane",
-            "actual": null,
+            "actual": "Kylian Mbappé",
             "correct": false
           },
           "assist_king": {
             "predicted": "Rafael Leão",
-            "actual": null,
+            "actual": "Michael Olise",
             "correct": false
           },
           "final_penalty_shootout": {
             "predicted": "Yes",
-            "actual": null,
+            "actual": "No",
             "correct": false
           },
           "seven_plus_red_cards": {
@@ -48779,12 +48779,12 @@
           },
           "games_extra_time": {
             "predicted": 10.0,
-            "actual": null,
+            "actual": 9.0,
             "correct": false
           },
           "games_penalty_shootout": {
             "predicted": 7.0,
-            "actual": null,
+            "actual": 4.0,
             "correct": false
           },
           "haaland_goals": {
@@ -48828,9 +48828,9 @@
             "correct": false
           },
           "trump_trophy": {
-            "predicted": "Yes, it&#39;s made of gold, and it is difficult to let a piece of gold go.",
-            "actual": null,
-            "correct": false
+            "predicted": "Yes",
+            "actual": "Yes",
+            "correct": true
           }
         }
       },

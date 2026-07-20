@@ -1,12 +1,12 @@
 {
   "correct_answers": {
     "first_goal_team": "Mexico",
-    "top_scorer": null,
-    "assist_king": null,
-    "final_penalty_shootout": null,
+    "top_scorer":  "Kylian Mbappé",
+    "assist_king": "Michael Olise",
+    "final_penalty_shootout": "No",
     "seven_plus_red_cards": "Yes",
-    "games_extra_time": null,
-    "games_penalty_shootout": null,
+    "games_extra_time": 9.0,
+    "games_penalty_shootout": 4.0,
     "haaland_goals": 7,
     "norway_top_assister": "Martin Ødegaard",
     "haaland_open_play_penalty": "No",
@@ -15,6 +15,6 @@
     "norway_or_sweden_out_first": "Sweden",
     "norway_red_card": "No",
     "best_team_of_listed": "New Zealand",
-    "trump_trophy": null
+    "trump_trophy": "Yes"
   }
 }

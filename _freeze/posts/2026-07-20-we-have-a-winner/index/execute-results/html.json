@@ -1,0 +1,15 @@
+{
+  "hash": "abfddd9ce20b26c0686b2c37d73008f5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"We have a winner!\"\nauthor: \"Håvard Strand\"\ndescription: \"\"\ndate: \"2026-07-20\"\ncategories: [Conclusion]\n---\n\n\n::: {.cell}\n\n:::\n\n\n# Hallvard Hodne Sandven is the 2026 ISV Champion\n\nHallvard predicted the outcome of the final perfectly, and took home 300 points, enough to secure the title. \n\nÅse came second, by a margin of 38 points. The 2014 winner got 300 points from the final and 300 points from the qualitative questions. If the Bronze final had ended 0-0 and gone to penalties, instead of 6-4, we would have had a draw. But it didn't and we didn't and in the end it wasn't that close.\n\nMiroslav came third, 47 points behind. He scored 1525 points in the knockout stage, and also got 300 points from the finals. However, he lost against Åse in the qualitative section and against Hallvard in the group stage. \n\nCongratulations to all three!\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](standings_stacked.png)\n:::\n:::\n\n\n# Internal Revision\n\nSeveral have voiced concern over how the points are calculated, arguing that they are somewhat difficult to understand. As a response, a video will be produced shortly to explain in detail how this has been done. A detailed report can also be requested to see one's points explained. ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

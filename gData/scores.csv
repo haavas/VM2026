@@ -1,37 +1,37 @@
 rank;player;total;pct_of_max;question_pts;group_pts;ko_pts;champion_pts;silver_pts;bronze_pts;correct_outcome;home_sq_err;away_sq_err;correct_spot;correct_team;predicted_champion;predicted_runner_up;predicted_third;goals_progress_pts
-1;World_cup_2026_CL;2565;55.4;180;934;1425;0;0;0;48;176;90;35;50;England;Spain;Brazil;26
-2;Sandven_World_cup_2026;2564;55.4;150;906;1505;0;0;0;47;177;92;41;52;Spain;Argentina;France;3
-3;World_cup_2026_MIRO;2547;55.0;210;809;1525;0;0;0;43;174;92;45;52;Spain;Argentina;France;3
-4;World_cup_2026_Bjørn_F;2520;54.4;270;770;1470;0;0;0;41;158;97;39;51;England;Spain;France;10
-5;World_cup_2026_aase;2496;53.9;210;806;1460;0;0;0;43;184;85;37;51;Spain;Argentina;France;20
-6;Maiken world_cup_2026;2474;53.4;180;908;1370;0;0;0;46;160;82;39;47;France;England;Spain;16
-7;World_cup_2026_goldstein;2472;53.4;180;842;1425;0;0;0;45;189;94;40;49;England;Spain;France;25
-8;IWB_World_cup_2026;2468;53.3;270;827;1370;0;0;0;45;217;81;39;47;France;Argentina;Spain;1
-9;Gates_World_cup_2026;2460;53.1;210;904;1335;0;0;0;47;188;83;37;46;France;England;Spain;11
-10;World_cup_2026_StineHesstvedt_1106;2453;53.0;180;885;1375;0;0;0;46;171;94;35;48;France;Brazil;Spain;13
-11;world_cup_2026_hs;2448;52.9;240;820;1365;0;0;0;43;178;77;38;47;England;France;Spain;23
-12;World_cup_2026_gabriel;2430;52.5;240;719;1445;0;0;0;39;161;95;39;50;Spain;Argentina;France;26
-13;Kopi av World_cup_2026-Elin Arntzen;2418;52.2;210;836;1360;0;0;0;43;170;69;32;48;Spain;England;France;12
-14;World_cup_2026_lutscher;2381;51.4;210;845;1325;0;0;0;45;188;92;35;46;France;Brazil;Spain;1
-15;World_cup_2026_Karin;2376;51.3;150;829;1395;0;0;0;44;183;88;34;49;France;Argentina;Spain;2
-16;Jan_Erling_World_cup_2026;2364;51.1;240;798;1315;0;0;0;44;203;99;38;45;Argentina;France;Spain;11
-17;World_cup_2026_JonasSchmid;2358;50.9;180;783;1395;0;0;0;45;232;110;39;48;Spain;Brazil;France;0
-18;World_cup_2026_Daniel_Naurin;2330;50.3;120;866;1330;0;0;0;45;172;87;36;46;France;Ecuador;Spain;14
-19;Tone Vevatne - World Cup Competition 2026;2315;50.0;180;795;1330;0;0;0;41;153;77;36;46;France;Brazil;Spain;10
-20;World_cup_2026.gulli;2302;49.7;180;736;1385;0;0;0;42;210;104;37;48;Brazil;Spain;Argentina;1
-21;World_cup_2026_Jana Blahak;2272;49.1;180;828;1240;0;0;0;45;207;90;33;43;Mexico;France;Spain;24
-22;World_cup_2026_anna;2263;48.9;150;711;1330;0;0;70;40;175;114;36;46;France;Argentina;England;2
-23;Kolltveit-World_cup_2026;2239;48.4;210;705;1300;0;0;0;40;172;123;35;45;France;England;Spain;24
-24;World_cup_2026_ØB;2220;47.9;210;647;1360;0;0;0;38;206;97;32;48;Argentina;France;Spain;3
-25;Copy of World_cup_2026.TomC;2205;47.6;180;760;1260;0;0;0;42;200;90;32;44;France;Portugal;Spain;5
-26;World_cup_2026_javier;2198;47.5;150;646;1400;0;0;0;38;213;91;35;49;Spain;Portugal;France;2
-27;world_cup_2026_oyvind;2195;47.4;210;754;1230;0;0;0;42;196;100;31;43;Spain;Portugal;Netherlands;1
-28;Copy of World_cup_2026_Jostein;2192;47.3;180;687;1320;0;0;0;40;195;118;34;46;Spain;England;France;5
-29;World_cup_2026_stiansen;2181;47.1;0;739;1440;0;0;0;41;197;89;38;50;Spain;England;France;2
-30;World_cup_2026_Vilde Hernes;2168;46.8;240;693;1210;0;0;0;40;191;116;27;43;Brazil;France;Spain;25
-31;World_cup_2026 (Kuyper);2095;45.2;210;665;1215;0;0;0;39;223;87;28;43;Brazil;France;Portugal;5
-32;World_cup_2026_Dagfinn;2089;45.1;240;664;1175;0;0;0;39;221;90;25;42;France;Portugal;Spain;10
-33;Kopi av World_cup_2026_jh;2062;44.5;150;727;1185;0;0;0;41;203;95;32;41;Germany;Ivory Coast;Spain;0
-34;Copy of World_cup_2026_Jacob;2030;43.8;240;500;1285;0;0;0;41;287;238;27;46;Spain;France;Norway;5
-35;World_cup_2026_Martin_S;1891;40.8;150;556;1170;0;0;0;38;243;151;19;43;France;Spain;Norway;15
-36;World_cup_2026_Povitkina;1713;37.0;210;450;1040;0;0;0;33;262;113;23;37;Portugal;Spain;Brazil;13
+1;Sandven_World_cup_2026;2924;63.2;210;906;1505;200;100;0;47;177;92;41;52;Spain;Argentina;France;3
+2;World_cup_2026_aase;2886;62.3;300;806;1460;200;100;0;43;184;85;37;51;Spain;Argentina;France;20
+3;World_cup_2026_MIRO;2877;62.1;240;809;1525;200;100;0;43;174;92;45;52;Spain;Argentina;France;3
+4;World_cup_2026_gabriel;2820;60.9;330;719;1445;200;100;0;39;161;95;39;50;Spain;Argentina;France;26
+5;Kopi av World_cup_2026-Elin Arntzen;2708;58.5;300;836;1360;200;0;0;43;170;69;32;48;Spain;England;France;12
+6;World_cup_2026_CL;2655;57.3;270;934;1425;0;0;0;48;176;90;35;50;England;Spain;Brazil;26
+7;World_cup_2026_JonasSchmid;2648;57.2;270;783;1395;200;0;0;45;232;110;39;48;Spain;Brazil;France;0
+8;IWB_World_cup_2026;2628;56.8;330;827;1370;0;100;0;45;217;81;39;47;France;Argentina;Spain;1
+9;World_cup_2026_Karin;2596;56.1;270;829;1395;0;100;0;44;183;88;34;49;France;Argentina;Spain;2
+10;World_cup_2026_Bjørn_F;2580;55.7;330;770;1470;0;0;0;41;158;97;39;51;England;Spain;France;10
+11;Maiken world_cup_2026;2564;55.4;270;908;1370;0;0;0;46;160;82;39;47;France;England;Spain;16
+12;Gates_World_cup_2026;2550;55.1;300;904;1335;0;0;0;47;188;83;37;46;France;England;Spain;11
+13;World_cup_2026_goldstein;2532;54.7;240;842;1425;0;0;0;45;189;94;40;49;England;Spain;France;25
+14;World_cup_2026_StineHesstvedt_1106;2513;54.3;240;885;1375;0;0;0;46;171;94;35;48;France;Brazil;Spain;13
+15;world_cup_2026_hs;2508;54.2;300;820;1365;0;0;0;43;178;77;38;47;England;France;Spain;23
+16;World_cup_2026_lutscher;2501;54.0;330;845;1325;0;0;0;45;188;92;35;46;France;Brazil;Spain;1
+17;World_cup_2026_javier;2488;53.7;240;646;1400;200;0;0;38;213;91;35;49;Spain;Portugal;France;2
+18;world_cup_2026_oyvind;2485;53.7;300;754;1230;200;0;0;42;196;100;31;43;Spain;Portugal;Netherlands;1
+19;Jan_Erling_World_cup_2026;2484;53.7;360;798;1315;0;0;0;44;203;99;38;45;Argentina;France;Spain;11
+20;World_cup_2026_anna;2453;53.0;240;711;1330;0;100;70;40;175;114;36;46;France;Argentina;England;2
+21;Copy of World_cup_2026_Jostein;2422;52.3;210;687;1320;200;0;0;40;195;118;34;46;Spain;England;France;5
+22;World_cup_2026_Daniel_Naurin;2390;51.6;180;866;1330;0;0;0;45;172;87;36;46;France;Ecuador;Spain;14
+23;World_cup_2026_stiansen;2381;51.4;0;739;1440;200;0;0;41;197;89;38;50;Spain;England;France;2
+24;Tone Vevatne - World Cup Competition 2026;2375;51.3;240;795;1330;0;0;0;41;153;77;36;46;France;Brazil;Spain;10
+25;World_cup_2026.gulli;2362;51.0;240;736;1385;0;0;0;42;210;104;37;48;Brazil;Spain;Argentina;1
+26;World_cup_2026_Jana Blahak;2332;50.4;240;828;1240;0;0;0;45;207;90;33;43;Mexico;France;Spain;24
+27;Copy of World_cup_2026_Jacob;2320;50.1;330;500;1285;200;0;0;41;287;238;27;46;Spain;France;Norway;5
+28;Kolltveit-World_cup_2026;2299;49.7;270;705;1300;0;0;0;40;172;123;35;45;France;England;Spain;24
+29;Copy of World_cup_2026.TomC;2265;48.9;240;760;1260;0;0;0;42;200;90;32;44;France;Portugal;Spain;5
+30;World_cup_2026_Vilde Hernes;2258;48.8;330;693;1210;0;0;0;40;191;116;27;43;Brazil;France;Spain;25
+31;World_cup_2026_ØB;2250;48.6;240;647;1360;0;0;0;38;206;97;32;48;Argentina;France;Spain;3
+32;World_cup_2026_Dagfinn;2179;47.1;330;664;1175;0;0;0;39;221;90;25;42;France;Portugal;Spain;10
+33;World_cup_2026 (Kuyper);2155;46.5;270;665;1215;0;0;0;39;223;87;28;43;Brazil;France;Portugal;5
+34;Kopi av World_cup_2026_jh;2122;45.8;210;727;1185;0;0;0;41;203;95;32;41;Germany;Ivory Coast;Spain;0
+35;World_cup_2026_Martin_S;1951;42.1;210;556;1170;0;0;0;38;243;151;19;43;France;Spain;Norway;15
+36;World_cup_2026_Povitkina;1803;38.9;300;450;1040;0;0;0;33;262;113;23;37;Portugal;Spain;Brazil;13
